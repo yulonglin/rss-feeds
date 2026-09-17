@@ -7,7 +7,7 @@ from pathlib import Path
 
 import feedparser
 
-FEEDS_DIR = Path(__file__).resolve().parents[1] / "docs" / "feeds"
+FEEDS_DIR = Path(__file__).resolve().parents[1] / "docs"
 
 
 def main() -> int:

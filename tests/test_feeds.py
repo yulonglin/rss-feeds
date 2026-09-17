@@ -12,7 +12,7 @@ from rssfeeds.rss import build_rss
 from rssfeeds.sources.metr import is_english
 from rssfeeds.state import FirstSeen
 
-FEEDS_DIR = Path(__file__).resolve().parents[1] / "docs" / "feeds"
+FEEDS_DIR = Path(__file__).resolve().parents[1] / "docs"
 
 
 @pytest.mark.parametrize(
@@ -155,7 +155,7 @@ def test_failing_source_exits_nonzero_and_preserves_the_feed(tmp_path, monkeypat
         lambda _fs: dict.fromkeys(("research", "notices", "reports", "system_cards", "metr"), good),
     )
     cli.build(docs=docs, state=tmp_path / "s.json", readme=tmp_path / "R.md")
-    before = (docs / "feeds" / "openai-alignment-research.xml").read_bytes()
+    before = (docs / "openai-alignment-research.xml").read_bytes()
 
     broken = SourceResult(error="no article.ap-post entries found - page layout may have changed")
     monkeypatch.setattr(
@@ -169,4 +169,4 @@ def test_failing_source_exits_nonzero_and_preserves_the_feed(tmp_path, monkeypat
     with pytest.raises(SystemExit) as exc:
         cli.build(docs=docs, state=tmp_path / "s.json", readme=tmp_path / "R.md")
     assert exc.value.code == 1, "a broken source must redden the run"
-    assert (docs / "feeds" / "openai-alignment-research.xml").read_bytes() == before
+    assert (docs / "openai-alignment-research.xml").read_bytes() == before

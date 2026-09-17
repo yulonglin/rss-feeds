@@ -33,7 +33,7 @@ class FeedSpec:
 
     @property
     def url(self) -> str:
-        return f"{SITE_BASE}feeds/{self.filename}"
+        return f"{SITE_BASE}{self.filename}"
 
 
 OAI_ALIGNMENT = "https://alignment.openai.com/"

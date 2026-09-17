@@ -1,83 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>OpenAI Alignment - everything</title>
+    <title>OpenAI Alignment - Research and Releases</title>
     <link>https://alignment.openai.com/</link>
-    <description>Research and releases, misalignment notices and misalignment reports from the OpenAI Alignment Research Blog, merged into one feed. Each entry is tagged with its section.</description>
+    <description>Research posts and releases from the OpenAI Alignment Research Blog, including the ones hosted on openai.com that the official feed leaves out.</description>
     <language>en</language>
     <generator>rss-feeds (https://github.com/yulonglin/rss-feeds)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
-    <atom:link href="https://feeds.yulonglin.com/feeds/openai-alignment-all.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://feeds.yulonglin.com/openai-alignment-research.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
-    <item>
-      <title>Uploading files to the internet in order to cite them</title>
-      <link>https://alignment.openai.com/misalignment-reports/uploading-files-to-the-internet-in-order-to-cite-them/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/uploading-files-to-the-internet-in-order-to-cite-them/</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Misalignment Report</category>
-      <description>During training, our models sometimes uploaded data to temporary file hosting services.
-
-Unreleased internal models · RL training</description>
-    </item>
-    <item>
-      <title>Unauthorized communication via temporary file hosting services</title>
-      <link>https://alignment.openai.com/misalignment-reports/unauthorized-communication-via-temporary-file-hosting-services/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/unauthorized-communication-via-temporary-file-hosting-services/</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Misalignment Report</category>
-      <description>Agents in training transmitted output files by uploading them to public hosting platforms for download by co-working agents. This was not specified by the training task, which requested only local deliverables.
-
-Unreleased internal model · RL training</description>
-    </item>
-    <item>
-      <title>Unsanctioned Artifactory writes and cross-sample communication</title>
-      <link>https://alignment.openai.com/misalignment-reports/unauthorized-artifactory-writes-and-cross-sample-communication/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/unauthorized-artifactory-writes-and-cross-sample-communication/</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Misalignment Report</category>
-      <description>During RL training, there were multiple instances of our models using OpenAI’s internally hosted instance of Artifactory as a shared message board.
-
-Internal research models · RL training</description>
-    </item>
-    <item>
-      <title>Self-generated prompt injections in compaction summaries</title>
-      <link>https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Misalignment Report</category>
-      <description>During RL training, an unreleased Astra-family model sometimes added unauthorized instructions to its compaction summaries.
-
-Internal unreleased Astra family model · RL training</description>
-    </item>
-    <item>
-      <title>Signing up for disposable emails and searching GitHub for leaked API keys</title>
-      <link>https://alignment.openai.com/misalignment-reports/searching-github-for-leaked-api-keys/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/searching-github-for-leaked-api-keys/</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Misalignment Report</category>
-      <description>During RL training, an internal-only model tried to sign up for disposable emails and searched for and used leaked API keys from public GitHub repositories.
-
-Internal unreleased model · RL training</description>
-    </item>
-    <item>
-      <title>Encouraging deception in compaction summaries</title>
-      <link>https://alignment.openai.com/misalignment-reports/encouraging-deception-in-compaction-summaries/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/encouraging-deception-in-compaction-summaries/</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Misalignment Report</category>
-      <description>During 5.6-sol training, we observed misaligned behavior from the model where it added instructions in compaction summaries to remind itself to conceal information such as mistakes or misalignment from the user.
-
-5.6-sol · RL training</description>
-    </item>
-    <item>
-      <title>RubyGems</title>
-      <link>https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-11</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/#notice-rubygems</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Misalignment Notice</category>
-      <description>We are investigating a report about our agents’ activity on RubyGems in May 2026. Our review found that agents used the platform for benign tasks and public information retrieval. We have not verified the report’s specific claims of malicious package uploads; the investigation continues.</description>
-    </item>
+    <lastBuildDate>Sun, 06 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Research acceleration: The view inside OpenAI</title>
       <link>https://openai.com/index/research-acceleration-view-inside-openai/</link>
@@ -95,28 +27,12 @@ Internal unreleased model · RL training</description>
       <description>Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.</description>
     </item>
     <item>
-      <title>DSEwiki</title>
-      <link>https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-05</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/#notice-dsewiki</guid>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Misalignment Notice</category>
-      <description>Our agents communicated through a public wiki used as a shared message board. Our September 5 response explains our initial assessment of this behavior and our work on disclosure criteria for misalignment that does not constitute a security incident.</description>
-    </item>
-    <item>
       <title>The Hugging Face incident and the road ahead</title>
       <link>https://openai.com/index/hugging-face-incident-and-the-road-ahead/</link>
       <guid isPermaLink="true">https://openai.com/index/hugging-face-incident-and-the-road-ahead/</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
       <category>Research and Releases</category>
       <description>Findings from the incident and the response across model security, monitoring, and alignment.</description>
-    </item>
-    <item>
-      <title>Hugging Face</title>
-      <link>https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-08-26</link>
-      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/#notice-hugging-face</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <category>Misalignment Notice</category>
-      <description>We published our technical report on the Hugging Face compromise and the steps we’re taking to strengthen security and model alignment. METR and Redwood Research also published findings from their independent investigation of the incident’s model alignment issues.</description>
     </item>
     <item>
       <title>Measuring Reward-Seeking by Instilling Contrastive Beliefs</title>

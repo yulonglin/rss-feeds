@@ -33,7 +33,7 @@ def build(
     results = collect(first_seen)
     first_seen.save()
 
-    statuses = write_feeds(results, docs / "feeds", allow_shrink=allow_shrink)
+    statuses = write_feeds(results, docs, allow_shrink=allow_shrink)
     write_manifest(statuses, docs / "feeds.json")
     write_index(statuses, docs / "index.html")
     write_if_changed(readme, render_readme(statuses))
