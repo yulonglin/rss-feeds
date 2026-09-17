@@ -10,7 +10,7 @@ from .markdown import render_readme, render_vault_doc, write_if_changed
 from .page import write_index
 from .state import FirstSeen
 
-app = cyclopts.App(name="aisafetyfeeds", help="Rebuild the public AI safety RSS endpoints.")
+app = cyclopts.App(name="rssfeeds", help="Rebuild the public AI safety RSS endpoints.")
 
 ROOT = Path(__file__).resolve().parents[2]
 

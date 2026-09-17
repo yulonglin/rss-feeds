@@ -5,9 +5,9 @@
     <link>https://metr.org/</link>
     <description>METR's blog, notes and evaluation reports with translated duplicates removed. Full article text preserved.</description>
     <language>en</language>
-    <generator>ai-safety-feeds (https://github.com/yulonglin/ai-safety-feeds)</generator>
+    <generator>rss-feeds (https://github.com/yulonglin/rss-feeds)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
-    <atom:link href="https://yulonglin.github.io/ai-safety-feeds/feeds/metr-en.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yulonglin.github.io/rss-feeds/feeds/metr-en.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://metr.org/" rel="via" type="text/html" />
     <lastBuildDate>Mon, 31 Aug 2026 00:00:00 -0700</lastBuildDate>
     <item>

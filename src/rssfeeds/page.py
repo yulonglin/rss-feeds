@@ -88,15 +88,15 @@ def render_index(statuses: list[FeedStatus]) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI Safety Feeds</title>
-<meta name="description" content="Clean, public RSS endpoints for AI safety research blogs whose own feeds are missing, stale or noisy.">
+<title>RSS Feeds</title>
+<meta name="description" content="Clean, public RSS endpoints for blogs whose own feeds are missing, stale, broken or noisy.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
 <style>{CSS}</style>
 </head>
 <body>
 <div class="wrap">
-<h1>AI Safety Feeds</h1>
-<p class="lede">Clean RSS endpoints for AI safety research blogs whose own feeds are missing, stale, broken or full of translated duplicates. Rebuilt every 8 hours. Paste any URL below into NetNewsWire, Feedly, or anything else that speaks RSS.</p>
+<h1>RSS Feeds</h1>
+<p class="lede">Clean RSS endpoints for blogs whose own feeds are missing, stale, broken or full of translated duplicates. Currently AI safety research; the setup takes any source. Rebuilt every 8 hours. Paste any URL below into NetNewsWire, Feedly, or anything else that speaks RSS.</p>
 {"".join(parts)}
 <footer>
 <p>{healthy} of {len(statuses)} feeds refreshed successfully on the last run. A machine-readable list of every endpoint is at <a href="feeds.json">feeds.json</a>.</p>

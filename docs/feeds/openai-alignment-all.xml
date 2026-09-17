@@ -5,9 +5,9 @@
     <link>https://alignment.openai.com/</link>
     <description>Research and releases, misalignment notices and misalignment reports from the OpenAI Alignment Research Blog, merged into one feed. Each entry is tagged with its section.</description>
     <language>en</language>
-    <generator>ai-safety-feeds (https://github.com/yulonglin/ai-safety-feeds)</generator>
+    <generator>rss-feeds (https://github.com/yulonglin/rss-feeds)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
-    <atom:link href="https://yulonglin.github.io/ai-safety-feeds/feeds/openai-alignment-all.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yulonglin.github.io/rss-feeds/feeds/openai-alignment-all.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/" rel="via" type="text/html" />
     <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>

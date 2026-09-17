@@ -35,7 +35,7 @@ jobs:
       - name: Rebuild feeds
         id: rebuild
         continue-on-error: true
-        run: uv run aisafetyfeeds
+        run: uv run rssfeeds
 
       - name: Validate every feed parses
         if: always()

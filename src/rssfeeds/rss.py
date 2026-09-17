@@ -14,7 +14,7 @@ ET.register_namespace("atom", ATOM)
 ET.register_namespace("dc", DC)
 ET.register_namespace("content", CONTENT)
 
-GENERATOR = "ai-safety-feeds (https://github.com/yulonglin/ai-safety-feeds)"
+GENERATOR = "rss-feeds (https://github.com/yulonglin/rss-feeds)"
 
 
 def _rfc822(dt: datetime) -> str:

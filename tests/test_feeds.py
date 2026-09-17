@@ -6,11 +6,11 @@ from pathlib import Path
 import feedparser
 import pytest
 
-from aisafetyfeeds.models import Item
-from aisafetyfeeds.registry import FEEDS
-from aisafetyfeeds.rss import build_rss
-from aisafetyfeeds.sources.metr import is_english
-from aisafetyfeeds.state import FirstSeen
+from rssfeeds.models import Item
+from rssfeeds.registry import FEEDS
+from rssfeeds.rss import build_rss
+from rssfeeds.sources.metr import is_english
+from rssfeeds.state import FirstSeen
 
 FEEDS_DIR = Path(__file__).resolve().parents[1] / "docs" / "feeds"
 

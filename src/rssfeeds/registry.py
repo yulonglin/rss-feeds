@@ -8,8 +8,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
-SITE_BASE = "https://yulonglin.github.io/ai-safety-feeds/"
-REPO_URL = "https://github.com/yulonglin/ai-safety-feeds"
+SITE_BASE = "https://yulonglin.github.io/rss-feeds/"
+REPO_URL = "https://github.com/yulonglin/rss-feeds"
 
 
 @dataclass(frozen=True)

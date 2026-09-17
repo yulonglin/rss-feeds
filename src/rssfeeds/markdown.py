@@ -11,9 +11,9 @@ from pathlib import Path
 from .build import FeedStatus
 from .registry import REPO_URL, SITE_BASE
 
-INTRO = """# AI Safety Feeds
+INTRO = """# RSS Feeds
 
-Clean, public RSS endpoints for AI safety research blogs whose own feeds are missing, stale, broken or full of translated duplicates. Rebuilt every 8 hours by GitHub Actions and served from GitHub Pages.
+Clean, public RSS endpoints for blogs whose own feeds are missing, stale, broken or full of translated duplicates. Currently AI safety research sources; adding another is one entry in the registry. Rebuilt every 8 hours by GitHub Actions and served from GitHub Pages.
 
 Browse the endpoints at **<{site}>**. A machine-readable list is at **<{site}feeds.json>**.
 """
@@ -41,7 +41,7 @@ NOTES = """## Things worth knowing
 ## Running it locally
 
 ```
-uv run aisafetyfeeds
+uv run rssfeeds
 uv run --with feedparser python scripts/validate.py
 ```
 
@@ -73,8 +73,8 @@ def render_readme(statuses: list[FeedStatus]) -> str:
 
 def render_vault_doc(statuses: list[FeedStatus]) -> str:
     return (
-        "# AI Safety Feeds\n\n"
-        f"Public RSS endpoints I maintain for AI safety blogs that lack usable feeds. "
+        "# RSS Feeds\n\n"
+        f"Public RSS endpoints I maintain for blogs that lack usable feeds, currently AI safety research. "
         f"Paste any URL below into NetNewsWire or Feedly. Rebuilt every 8 hours.\n\n"
         f"- Endpoint list (web page): {SITE_BASE}\n"
         f"- Machine-readable list: {SITE_BASE}feeds.json\n"

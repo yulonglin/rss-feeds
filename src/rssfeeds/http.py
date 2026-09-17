@@ -3,7 +3,7 @@ from __future__ import annotations
 import httpx
 
 USER_AGENT = (
-    "ai-safety-feeds/0.1 (+https://github.com/yulonglin/ai-safety-feeds) "
+    "rss-feeds/0.1 (+https://github.com/yulonglin/rss-feeds) "
     "personal RSS mirror; contact via GitHub issues"
 )
 
