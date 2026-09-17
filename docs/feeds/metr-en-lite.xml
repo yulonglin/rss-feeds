@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>METR - English only (headlines and summaries)</title>
+    <link>https://metr.org/</link>
+    <description>As metr-en, but with the full article bodies stripped out - title, summary and link only. Around 50 KB instead of 5 MB, for readers that choke on large feeds.</description>
+    <language>en</language>
+    <generator>ai-safety-feeds (https://github.com/yulonglin/ai-safety-feeds)</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <atom:link href="https://yulonglin.github.io/ai-safety-feeds/feeds/metr-en-lite.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://metr.org/" rel="via" type="text/html" />
+    <lastBuildDate>Mon, 31 Aug 2026 00:00:00 -0700</lastBuildDate>
+    <item>
+      <title>Update on Security at METR</title>
+      <link>https://metr.org/blog/2026-08-31-security-update/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-08-31-security-update/</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident</title>
+      <link>https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Have We Seen an Acceleration in Discoveries?</title>
+      <link>https://metr.org/notes/2026-08-14-llm-contribution-to-discoveries/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-08-14-llm-contribution-to-discoveries/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Funding update</title>
+      <link>https://metr.org/blog/2026-08-14-funding-update/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-08-14-funding-update/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>How independent researchers could investigate AI propensities after misalignment incidents</title>
+      <link>https://metr.org/blog/2026-07-28-investigating-ai-propensities-after-incidents/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-07-28-investigating-ai-propensities-after-incidents/</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Metrics of Agent Ability</title>
+      <link>https://metr.org/notes/2026-07-24-metrics-of-model-ability/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-07-24-metrics-of-model-ability/</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Economics of Recursive Self-Improvement</title>
+      <link>https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT</title>
+      <link>https://metr.org/blog/2026-07-21-expenditure-horizon/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-07-21-expenditure-horizon/</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Because 8 ≈ e², Anthropic's researcher uplift is plausibly &gt;2x</title>
+      <link>https://metr.org/notes/2026-07-08-anthropic-researcher-uplift/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-07-08-anthropic-researcher-uplift/</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Summary of METR's predeployment evaluation of GPT-5.6 Sol</title>
+      <link>https://metr.org/blog/2026-06-26-gpt-5-6-sol/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-06-26-gpt-5-6-sol/</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Frontier Risk Report (February to March 2026)</title>
+      <link>https://metr.org/blog/2026-05-19-frontier-risk-report/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-05-19-frontier-risk-report/</guid>
+      <pubDate>Tue, 19 May 2026 11:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity</title>
+      <link>https://metr.org/blog/2026-05-11-ai-usage-survey/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-05-11-ai-usage-survey/</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Task Substitution and Uplift</title>
+      <link>https://metr.org/blog/2026-05-08-task-substitution-and-uplift/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-05-08-task-substitution-and-uplift/</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Review of the "Risks from automated R&amp;D" section in the Anthropic Risk Report (February 2026)</title>
+      <link>https://metr.org/blog/2026-05-08-rd-section-anthropic-risk-report-feb-2026-review/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-05-08-rd-section-anthropic-risk-report-feb-2026-review/</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Evidence on AI R&amp;D Progress from NanoGPT</title>
+      <link>https://metr.org/notes/2026-04-21-ai-rd-nanogpt-progress/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-04-21-ai-rd-nanogpt-progress/</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>MirrorCode: Evidence that AI can already do some weeks-long coding tasks</title>
+      <link>https://metr.org/blog/2026-04-10-mirrorcode-preliminary-results/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-04-10-mirrorcode-preliminary-results/</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Fine-tuning experiments on CoT controllability</title>
+      <link>https://metr.org/blog/2026-04-01-fine-tuning-cot-controllability/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-04-01-fine-tuning-cot-controllability/</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Red-Teaming Anthropic's Internal Agent Monitoring Systems</title>
+      <link>https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-03-25-red-teaming-anthropic-agent-monitoring/</guid>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Impact of modeling assumptions on time horizon results</title>
+      <link>https://metr.org/notes/2026-03-20-impact-of-modelling-assumptions-on-time-horizon-results/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-03-20-impact-of-modelling-assumptions-on-time-horizon-results/</guid>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>We spent 2 hours working in the future</title>
+      <link>https://metr.org/notes/2026-03-19-org-uplift-game/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-03-19-org-uplift-game/</guid>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Review of the Anthropic Sabotage Risk Report: Claude Opus 4.6</title>
+      <link>https://metr.org/blog/2026-03-12-sabotage-risk-report-opus-4-6-review/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-03-12-sabotage-risk-report-opus-4-6-review/</guid>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Many SWE-bench-Passing PRs Would Not Be Merged into Main</title>
+      <link>https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/</guid>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Observations from two CLI game reimplementation runs with Opus 4.6</title>
+      <link>https://metr.org/notes/2026-03-03-balatro-sts-cli/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-03-03-balatro-sts-cli/</guid>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>We are Changing our Developer Productivity Experiment Design</title>
+      <link>https://metr.org/blog/2026-02-24-uplift-update/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-02-24-uplift-update/</guid>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Five lessons from having helped run an AI-Biology RCT</title>
+      <link>https://metr.org/blog/2026-02-19-five-lessons-from-ai-biology-rct/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-02-19-five-lessons-from-ai-biology-rct/</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>How We Protect Confidential Information</title>
+      <link>https://metr.org/blog/2026-02-17-how-we-protect-confidential-information/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-02-17-how-we-protect-confidential-information/</guid>
+      <pubDate>Tue, 17 Feb 2026 16:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Analyzing coding agent transcripts to upper bound productivity gains from AI agents</title>
+      <link>https://metr.org/notes/2026-02-17-exploratory-transcript-analysis-for-estimating-time-savings-from-coding-agents/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-02-17-exploratory-transcript-analysis-for-estimating-time-savings-from-coding-agents/</guid>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Measuring Time Horizon using Claude Code and Codex</title>
+      <link>https://metr.org/notes/2026-02-13-measuring-time-horizon-using-claude-code-and-codex/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-02-13-measuring-time-horizon-using-claude-code-and-codex/</guid>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>A simpler AI timelines model predicts 99% AI R&amp;D automation in ~2032</title>
+      <link>https://metr.org/notes/2026-02-10-simpler-ai-timelines-model/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-02-10-simpler-ai-timelines-model/</guid>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Frontier AI safety regulations: A reference for lab staff</title>
+      <link>https://metr.org/notes/2026-01-29-frontier-ai-safety-regulations/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-01-29-frontier-ai-safety-regulations/</guid>
+      <pubDate>Thu, 29 Jan 2026 14:12:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Time Horizon 1.1</title>
+      <link>https://metr.org/blog/2026-1-29-time-horizon-1-1/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-1-29-time-horizon-1-1/</guid>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Clarifying limitations of time horizon</title>
+      <link>https://metr.org/notes/2026-01-22-time-horizon-limitations/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-01-22-time-horizon-limitations/</guid>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Early work on monitorability evaluations</title>
+      <link>https://metr.org/blog/2026-01-19-early-work-on-monitorability-evaluations/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-01-19-early-work-on-monitorability-evaluations/</guid>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Common Elements of Frontier AI Safety Policies (December 2025 Update)</title>
+      <link>https://metr.org/blog/2025-12-09-common-elements-of-frontier-ai-safety-policies/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-12-09-common-elements-of-frontier-ai-safety-policies/</guid>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>GPT-5.1-Codex-Max Evaluation Results</title>
+      <link>https://metr.org/evaluations/gpt-5-1-codex-max-report/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-11-19-gpt-5-1-codex-max-report/</guid>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Review of the Anthropic Summer 2025 Pilot Sabotage Risk Report</title>
+      <link>https://metr.org/blog/2025-10-28-sabotage-report-review/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-10-28-sabotage-report-review/</guid>
+      <pubDate>Tue, 28 Oct 2025 02:47:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Summary of our gpt-oss methodology review</title>
+      <link>https://metr.org/blog/2025-10-23-gpt-oss-methodology-review/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-10-23-gpt-oss-methodology-review/</guid>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>MALT: A Dataset of Natural and Prompted Behaviors That Threaten Eval Integrity</title>
+      <link>https://metr.org/blog/2025-10-14-malt-dataset-of-natural-and-prompted-behaviors/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-10-14-malt-dataset-of-natural-and-prompted-behaviors/</guid>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Early Results on Monitorability in QA Settings</title>
+      <link>https://metr.org/notes/2025-10-06-early-results-on-monitorability-in-qa-settings/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2025-10-06-early-results-on-monitorability-in-qa-settings/</guid>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Claude, GPT, and Gemini All Struggle to Evade Monitors</title>
+      <link>https://metr.org/notes/2025-08-22-claude-gpt-gemini-struggle-evade-monitors/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2025-08-22-claude-gpt-gemini-struggle-evade-monitors/</guid>
+      <pubDate>Fri, 22 Aug 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Forecasting the Impacts of AI R&amp;D Acceleration: Results of a Pilot Study</title>
+      <link>https://metr.org/blog/2025-08-20-forecasting-impacts-of-ai-acceleration/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-08-20-forecasting-impacts-of-ai-acceleration/</guid>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Research Update: Algorithmic vs. Holistic Evaluation</title>
+      <link>https://metr.org/blog/2025-08-12-research-update-towards-reconciling-slowdown-with-time-horizons/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-08-12-research-update-towards-reconciling-slowdown-with-time-horizons/</guid>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Notes on Scientific Communication at METR</title>
+      <link>https://metr.org/blog/2025-08-11-science-comms-at-metr/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-08-11-science-comms-at-metr/</guid>
+      <pubDate>Tue, 12 Aug 2025 05:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>CoT May Be Highly Informative Despite “Unfaithfulness”</title>
+      <link>https://metr.org/blog/2025-08-08-cot-may-be-highly-informative-despite-unfaithfulness/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-08-08-cot-may-be-highly-informative-despite-unfaithfulness/</guid>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>GPT-5 Evaluation Results</title>
+      <link>https://metr.org/evaluations/gpt-5-report/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-08-07-gpt-5-report/</guid>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>How Does Time Horizon Vary Across Domains?</title>
+      <link>https://metr.org/blog/2025-07-14-how-does-time-horizon-vary-across-domains/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-07-14-how-does-time-horizon-vary-across-domains/</guid>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity</title>
+      <link>https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/</guid>
+      <pubDate>Thu, 10 Jul 2025 05:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>What should companies share about risks from frontier AI models?</title>
+      <link>https://metr.org/blog/2025-06-27-risk-transparency/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-06-27-risk-transparency/</guid>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek and Qwen Evaluation Results</title>
+      <link>https://metr.org/evaluations/deepseek-qwen-report/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-06-27-deepseek-qwen-evaluation-report/</guid>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Recent Frontier Models Are Reward Hacking</title>
+      <link>https://metr.org/blog/2025-06-05-recent-reward-hacking/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-06-05-recent-reward-hacking/</guid>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>OpenAI o3 and o4-mini Evaluation Results</title>
+      <link>https://metr.org/evaluations/openai-o3-report/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-04-16-openai-o3-and-o4-mini-evaluation-report/</guid>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Claude 3.7 Evaluation Results</title>
+      <link>https://metr.org/evaluations/claude-3-7-report/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-03-19-claude-3-7-report/</guid>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Measuring AI Ability to Complete Long Software Tasks</title>
+      <link>https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/</guid>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>HCAST: Human-Calibrated Autonomy Software Tasks</title>
+      <link>https://arxiv.org/abs/2503.17354</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-03-17-hcast/</guid>
+      <pubDate>Mon, 17 Mar 2025 02:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Response to OSTP on AI Action Plan</title>
+      <link>https://metr.org/METR_ai_action_plan_comment.pdf</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-03-15-ai-action-plan-comment/</guid>
+      <pubDate>Sat, 15 Mar 2025 02:00:00 -0700</pubDate>
+      <description>Suggested priorities for the Office of Science and Technology Policy as it develops an AI Action Plan.</description>
+    </item>
+    <item>
+      <title>Why it’s good for AI reasoning to be legible and faithful</title>
+      <link>https://metr.org/blog/2025-03-11-good-for-ai-to-reason-legibly-and-faithfully/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-03-11-good-for-ai-to-reason-legibly-and-faithfully/</guid>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek-R1 Evaluation Results</title>
+      <link>https://metr.org/evaluations/deepseek-r1-report/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-03-05-deepseek-r1-report/</guid>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>METR’s GPT-4.5 pre-deployment evaluations</title>
+      <link>https://metr.org/blog/2025-02-27-gpt-4-5-evals/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-02-27-gpt-4-5-evals/</guid>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Measuring Automated Kernel Engineering</title>
+      <link>https://metr.org/blog/2025-02-14-measuring-automated-kernel-engineering/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-02-14-measuring-automated-kernel-engineering/</guid>
+      <pubDate>Fri, 14 Feb 2025 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek-V3 Evaluation Results</title>
+      <link>https://metr.org/evaluations/deepseek-v3-report/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-02-12-deepseek-v3-report/</guid>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Frontier AI Safety Policies</title>
+      <link>https://metr.org/fsp</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-02-08-frontier-ai-safety-commitments/</guid>
+      <pubDate>Sat, 08 Feb 2025 08:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>An update on our preliminary evaluations of Claude 3.5 Sonnet and o1</title>
+      <link>https://metr.org/blog/2025-01-31-update-sonnet-o1-evals/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-01-31-update-sonnet-o1-evals/</guid>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>AI models can be dangerous before public deployment</title>
+      <link>https://metr.org/blog/2025-01-17-ai-models-dangerous-before-public-deployment/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2025-01-17-ai-models-dangerous-before-public-deployment/</guid>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Evaluating frontier AI R&amp;D capabilities of language model agents against human experts</title>
+      <link>https://metr.org/blog/2024-11-22-evaluating-r-d-capabilities-of-llms/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-11-22-evaluating-r-d-capabilities-of-llms/</guid>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>The Rogue Replication Threat Model</title>
+      <link>https://metr.org/blog/2024-11-12-rogue-replication-threat-model/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-11-12-rogue-replication-threat-model/</guid>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Response to Bureau of Industry and Security’s proposed AI reporting requirements</title>
+      <link>https://downloads.regulations.gov/BIS-2024-0047-0048/attachment_1.pdf</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-10-11-response-to-bis-reporting-requirements/</guid>
+      <pubDate>Fri, 11 Oct 2024 11:00:00 -0700</pubDate>
+      <description>Red-teaming and security suggestions regarding proposed rule by the Bureau of Industry and Security, “Establishment of Reporting Requirements for the Development of Advanced Artificial Intelligence Models and Computing Clusters.”</description>
+    </item>
+    <item>
+      <title>New Support Through The Audacious Project</title>
+      <link>https://metr.org/blog/2024-10-09-new-support-through-the-audacious-project/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-10-09-new-support-through-the-audacious-project/</guid>
+      <pubDate>Wed, 09 Oct 2024 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Details about METR’s preliminary evaluation of o1-preview</title>
+      <link>https://metr.org/evaluations/openai-o1-preview-report/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-09-12-preliminary-evaluation-of-o1-preview/</guid>
+      <pubDate>Thu, 12 Sep 2024 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Response to U.S. AISI Draft “Managing Misuse Risk for Dual-Use Foundation Models”</title>
+      <link>https://downloads.regulations.gov/NIST-2024-0002-0022/attachment_1.pdf</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-09-08-response-to-us-aisi-draft-managing-misuse-risk/</guid>
+      <pubDate>Sun, 08 Sep 2024 11:00:00 -0700</pubDate>
+      <description>Suggestions for expanded guidance on capability elicitation and robust model safeguards in the U.S. AI Safety Institute’s draft document “Managing Misuse Risk for Dual-Use Foundation Models” (NIST AI 800-1).</description>
+    </item>
+    <item>
+      <title>Evaluation platform: Vivaria</title>
+      <link>https://vivaria.metr.org/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-08-20-evaluation-platform-vivaria/</guid>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Details about METR’s preliminary evaluation of GPT-4o</title>
+      <link>https://metr.org/evaluations/gpt-4o-report/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-08-07-preliminary-evaluation-of-gpt-4o/</guid>
+      <pubDate>Wed, 07 Aug 2024 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>An update on our general capability evaluations</title>
+      <link>https://metr.org/blog/2024-08-06-update-on-evaluations/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-08-06-update-on-evaluations/</guid>
+      <pubDate>Tue, 06 Aug 2024 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Response to NIST Draft Generative AI Profile</title>
+      <link>https://downloads.regulations.gov/NIST-2024-0001-0075/attachment_2.pdf</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-06-02-response-to-nist-draft-generative-ai-profile/</guid>
+      <pubDate>Sun, 02 Jun 2024 11:00:00 -0700</pubDate>
+      <description>Comments on NIST’s draft document “AI Risk Management Framework: Generative AI Profile.”</description>
+    </item>
+    <item>
+      <title>ML Engineers Needed for New AI R&amp;D Evals Project</title>
+      <link>https://metr.org/blog/2024-05-16-ml-engineers-needed/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-05-16-ml-engineers-needed/</guid>
+      <pubDate>Thu, 16 May 2024 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Emma Abele is METR’s new Executive Director</title>
+      <link>https://metr.org/blog/2024-04-26-emma-abele-executive-director/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-04-26-emma-abele-executive-director/</guid>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Autonomy Evaluation Resources</title>
+      <link>https://metr.org/blog/2024-03-13-autonomy-evaluation-resources/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-03-13-autonomy-evaluation-resources/</guid>
+      <pubDate>Fri, 15 Mar 2024 05:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Example autonomy evaluation protocol</title>
+      <link>https://metr.org/blog/2024-03-15-example-autonomy-evaluation-protocol/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-03-15-example-autonomy-evaluation-protocol/</guid>
+      <pubDate>Fri, 15 Mar 2024 04:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Example autonomy task suite</title>
+      <link>https://github.com/METR/public-tasks</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-03-15-example-autonomy-task-suite/</guid>
+      <pubDate>Fri, 15 Mar 2024 03:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Guidelines for capability elicitation</title>
+      <link>https://metr.org/blog/2024-03-15-guidelines-for-capability-elicitation/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-03-15-guidelines-for-capability-elicitation/</guid>
+      <pubDate>Fri, 15 Mar 2024 02:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Measuring the impact of post-training enhancements</title>
+      <link>https://metr.org/blog/2024-03-15-measuring-post-impact-enhancements/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-03-15-measuring-post-impact-enhancements/</guid>
+      <pubDate>Fri, 15 Mar 2024 01:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Portable Evaluation Tasks via the METR Task Standard</title>
+      <link>https://metr.org/blog/2024-02-29-METR-task-standard/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-02-29-METR-task-standard/</guid>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>2023 Year In Review</title>
+      <link>https://metr.org/blog/2024-02-07-2023-year-in-review/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2024-02-07-2023-year-in-review/</guid>
+      <pubDate>Wed, 07 Feb 2024 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Bounty: Diverse hard tasks for LLM agents</title>
+      <link>https://metr.org/blog/2023-12-16-bounty-diverse-hard-tasks-for-llm-agents/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2023-12-16-bounty-diverse-hard-tasks-for-llm-agents/</guid>
+      <pubDate>Sat, 16 Dec 2023 12:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>ARC Evals is now METR</title>
+      <link>https://metr.org/blog/2023-12-04-metr-announcement/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2023-12-04-metr-announcement/</guid>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 -0800</pubDate>
+    </item>
+    <item>
+      <title>Responsible Scaling Policies (RSPs)</title>
+      <link>https://metr.org/blog/2023-09-26-rsp/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2023-09-26-rsp/</guid>
+      <pubDate>Tue, 26 Sep 2023 03:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>ARC Evals is spinning out from ARC</title>
+      <link>https://metr.org/blog/2023-09-19-spin-out-announcement/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2023-09-19-spin-out-announcement/</guid>
+      <pubDate>Tue, 19 Sep 2023 08:22:42 -0700</pubDate>
+    </item>
+    <item>
+      <title>New report: Evaluating Language-Model Agents on Realistic Autonomous Tasks</title>
+      <link>https://metr.org/blog/2023-08-01-new-report/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2023-08-01-new-report/</guid>
+      <pubDate>Mon, 31 Jul 2023 13:00:17 -0700</pubDate>
+    </item>
+    <item>
+      <title>Response to RfC on AI Accountability Policy</title>
+      <link>https://downloads.regulations.gov/NTIA-2023-0005-1442/attachment_1.pdf</link>
+      <guid isPermaLink="true">https://metr.org/blog/2023-06-11-response-to-rfc-on-ai-accountability-policy/</guid>
+      <pubDate>Sun, 11 Jun 2023 05:00:00 -0700</pubDate>
+      <description>Input to NTIA’s AI Accountability Policy Request for Comment.</description>
+    </item>
+    <item>
+      <title>Update on ARC's recent eval efforts</title>
+      <link>https://metr.org/blog/2023-03-18-update-on-recent-evals/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2023-03-18-update-on-recent-evals/</guid>
+      <pubDate>Fri, 17 Mar 2023 08:22:42 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

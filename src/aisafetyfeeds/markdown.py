@@ -1,0 +1,95 @@
+"""Markdown rendering for the repo README and the Obsidian vault copy.
+
+Both come from the same registry as the XML and the index page, so the list of endpoints
+cannot drift between where it is published and where it is documented.
+"""
+
+from __future__ import annotations
+
+from pathlib import Path
+
+from .build import FeedStatus
+from .registry import REPO_URL, SITE_BASE
+
+INTRO = """# AI Safety Feeds
+
+Clean, public RSS endpoints for AI safety research blogs whose own feeds are missing, stale, broken or full of translated duplicates. Rebuilt every 8 hours by GitHub Actions and served from GitHub Pages.
+
+Browse the endpoints at **<{site}>**. A machine-readable list is at **<{site}feeds.json>**.
+"""
+
+WHY = """## Why each feed exists
+
+| Source | Its own feed | What was wrong with it |
+|---|---|---|
+| OpenAI, Research and Releases | `alignment.openai.com/rss.xml` | Valid, but last built 2026-07-21 and missing every post hosted on openai.com proper. |
+| OpenAI, Misalignment Notices | none | No feed published at all. |
+| OpenAI, Misalignment Reports | none | No feed published at all, and no dates in the markup. |
+| OpenAI, System Cards | `deploymentsafety.openai.com/posts.xml` | A broken dev build: 255 bytes, zero items, `<link>` of `http://localhost:4321/`. |
+| METR | `metr.org/feed.xml` | Valid, but ~8.9 MB and interleaved with `/es/` and `/zh-Hans/` duplicates of English posts. |
+"""
+
+NOTES = """## Things worth knowing
+
+- **Misalignment Reports carry no publication date.** Nothing in the page markup gives one. Each report is dated the day this generator first saw it, recorded in `state/first_seen.json` and committed, so entries do not resurface as new at every refresh.
+- **System cards follow OpenAI's own index, not their sitemap.** The sitemap lists two further pages (`/gpt-5-codex/`, `/o3/`) that OpenAI's listing omits, and carries no dates at all. Matching the listing keeps the feed to what the publisher actually presents as current.
+- **A source that fails leaves its feed alone.** If METR is unreachable the five OpenAI feeds still refresh; the workflow run goes red and the stale feed keeps its last good contents rather than emptying.
+- **`lastBuildDate` comes from the newest item, never the clock.** A run that finds nothing new produces byte-identical files and therefore no commit, which keeps the git history meaningful.
+- **Non-English filtering matches the shape of a locale segment**, not a fixed list, so a language METR adds later is dropped without a code change.
+- **GitHub disables scheduled workflows after 60 days of repository inactivity.** Each successful refresh commits, which resets that counter; a long stretch with no new posts anywhere is the one way this could quietly stop.
+
+## Running it locally
+
+```
+uv run aisafetyfeeds
+uv run --with feedparser python scripts/validate.py
+```
+
+Content belongs to its publishers. This repository only reformats what they already publish openly.
+"""
+
+
+def render_table(statuses: list[FeedStatus]) -> str:
+    rows = ["| Feed | Source | Subscribe to this URL | Items |", "|---|---|---|---|"]
+    for s in sorted(statuses, key=lambda s: (s.spec.org, s.spec.slug)):
+        sp = s.spec
+        rows.append(
+            f"| {sp.title} | [{sp.source_name}]({sp.source_url}) | `{sp.url}` | {s.item_count} |"
+        )
+    return "\n".join(rows)
+
+
+def render_readme(statuses: list[FeedStatus]) -> str:
+    return (
+        INTRO.format(site=SITE_BASE)
+        + "\n## The feeds\n\n"
+        + render_table(statuses)
+        + "\n\n"
+        + WHY
+        + "\n"
+        + NOTES
+    )
+
+
+def render_vault_doc(statuses: list[FeedStatus]) -> str:
+    return (
+        "# AI Safety Feeds\n\n"
+        f"Public RSS endpoints I maintain for AI safety blogs that lack usable feeds. "
+        f"Paste any URL below into NetNewsWire or Feedly. Rebuilt every 8 hours.\n\n"
+        f"- Endpoint list (web page): {SITE_BASE}\n"
+        f"- Machine-readable list: {SITE_BASE}feeds.json\n"
+        f"- Source repository: {REPO_URL}\n\n"
+        "## The feeds\n\n"
+        + render_table(statuses)
+        + "\n\n"
+        + WHY
+        + "\n"
+        + NOTES.split("## Running it locally")[0].rstrip()
+        + "\n\nGenerated from the repository registry; edit the repo, not this file.\n"
+    )
+
+
+def write_if_changed(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if not path.exists() or path.read_text() != text:
+        path.write_text(text)

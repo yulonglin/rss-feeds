@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>OpenAI System Cards</title>
+    <link>https://deploymentsafety.openai.com/</link>
+    <description>System cards and deployment safety updates from the OpenAI Deployment Safety Hub.</description>
+    <language>en</language>
+    <generator>ai-safety-feeds (https://github.com/yulonglin/ai-safety-feeds)</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <atom:link href="https://yulonglin.github.io/ai-safety-feeds/feeds/openai-system-cards.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://deploymentsafety.openai.com/" rel="via" type="text/html" />
+    <lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>ChatGPT Images 2.5 System Card</title>
+      <link>https://deploymentsafety.openai.com/chatgpt-images-2-5</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/chatgpt-images-2-5</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>[0]</description>
+    </item>
+    <item>
+      <title>GPT-6 Astra System Card</title>
+      <link>https://deploymentsafety.openai.com/gpt-6-astra</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-6-astra</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>Today, we are releasing GPT-6 Astra, the most capable model we have ever broadly deployed. Astra is our first model to reach the Critical level of cybersecurity capability under our Preparedness Framework.</description>
+    </item>
+    <item>
+      <title>GPT-5.6 — August Updates</title>
+      <link>https://deploymentsafety.openai.com/gpt-5-6-august-update</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-5-6-august-update</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>Starting today, we’re updating ChatGPT with a more capable model and expanding access for everyone. Free and Go users will get a new default model for everyday chats. Plus and Pro users will get an updated GPT-5.6 Sol with a slider that lets them choose how much effort ChatGPT uses for a response. These models will replace GPT-5.5 Instant.</description>
+    </item>
+    <item>
+      <title>GPT-5.6 System Card</title>
+      <link>https://deploymentsafety.openai.com/gpt-5-6</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-5-6</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>GPT-5.6 is a new family of three models: Sol, our new flagship model; Terra, a capable lower-cost option; and Luna, our fastest and most cost-efficient model. The safeguards we have built for this launch—our most robust yet—are built to deliver these models safely and at scale, around the world.</description>
+    </item>
+    <item>
+      <title>GPT-Live System Card</title>
+      <link>https://deploymentsafety.openai.com/gpt-live</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-live</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>GPT-Live-1 and GPT-Live-1 mini are a new generation of voice models designed to make conversations with AI feel more natural and intelligent.</description>
+    </item>
+    <item>
+      <title>GPT-5.6 Preview System Card</title>
+      <link>https://deploymentsafety.openai.com/gpt-5-6-preview</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-5-6-preview</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>GPT-5.6 is a new family of three models: Sol, our new flagship model; Terra, a capable lower-cost option; and Luna, our fastest and most cost-efficient model. The safeguards we have built for this launch -- our most robust yet -- are built to deliver these models safely and at scale, around the world.</description>
+    </item>
+    <item>
+      <title>GPT-Rosalind-5.5 System Card</title>
+      <link>https://deploymentsafety.openai.com/gpt-rosalind-5-5</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-rosalind-5-5</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>GPT-Rosalind-5.5 is a new model in the GPT-Rosalind series, our frontier reasoning model built to support research across biology, drug discovery, and translational medicine. We are deploying it in research preview to trusted organizations, providing access limited to qualified scientists, research institutes and government partners who are working on beneficial uses and who have a strong security and governance posture. GPT-Rosalind-5.5 is incrementally trained from GPT-5.5, our flagship reasoning model. Outside the biological domain, its capabilities are comparable to GPT-5.5 and it receives the same model-level safety training. We worked with industry experts to design and evaluate GPT-Rosalind-5.5 on a series of benchmarks across medicinal chemistry, quantitative biology, wet lab protocol assistance, and applied life sciences research. Beneficial biological capabilities exceed those of the regular GPT-5.5 model, often while expending fewer tokens. Under our Preparedness Framework, the Preparedness evaluations in the Biological and Chemical domain met our threshold for High capability while falling below the threshold for Critical. Cybersecurity capabilities were found to be at or below the level of GPT-5.5. Our Safety Advisory Group approved the safeguards plan for this release, finding that it sufficiently mitigates the associated risks of severe harm.</description>
+    </item>
+    <item>
+      <title>GPT-5.5 Instant System Card</title>
+      <link>https://deploymentsafety.openai.com/gpt-5-5-instant</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-5-5-instant</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>GPT-5.5 Instant is our latest Instant model, and explained in our blog . The comprehensive safety mitigation approach for this model is similar to previous models in this series, but this is the first Instant model that we are treating as High capability in our Cybersecurity and Biological &amp;amp; Chemical Preparedness categories, and implementing appropriate safeguards. In this card we also refer to GPT-5.5 Instant as gpt-5.5-instant. Note that there is not a model named GPT-5.4 Instant, and the main model to baseline against is GPT-5.3 Instant. Additionally, we refer to GPT-5.5 as GPT-5.5 Thinking to avoid confusion with the instant model.</description>
+    </item>
+    <item>
+      <title>GPT-5.5 System Card</title>
+      <link>https://deploymentsafety.openai.com/gpt-5-5</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-5-5</guid>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>GPT-5.5 is a new model designed for complex, real-world work, including writing code, researching online, analyzing information, creating documents and spreadsheets, and moving across tools to get things done. Relative to earlier models, GPT-5.5 understands the task earlier, asks for less guidance, uses tools more effectively, checks it work and keeps going until it’s done.</description>
+    </item>
+    <item>
+      <title>ChatGPT Images 2.0 System Card</title>
+      <link>https://deploymentsafety.openai.com/chatgpt-images-2-0</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/chatgpt-images-2-0</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>The ChatGPT Images 2.0 model is a major step forward in image generation capabilities, including significantly enhanced world knowledge, instruction following, and generating detail and complexity such as dense text. The new thinking mode capability introduced along with the model adds reasoning and tool use to the image generation process, allowing the system to integrate live web search data, generate multiple images from a single prompt, and use our reasoning stack to turn a basic prompt into a well-researched and thought-through final image.</description>
+    </item>
+    <item>
+      <title>GPT-5.4 Thinking System Card</title>
+      <link>https://deploymentsafety.openai.com/gpt-5-4-thinking</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-5-4-thinking</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>GPT-5.4 Thinking is the latest reasoning model in the GPT-5 series, and explained in our blog. The comprehensive safety mitigation approach for this model is similar to previous models in this series, but 5.4 Thinking is the first general purpose model to have implemented mitigations for High capability in Cybersecurity. The approach to cyber safety builds on the latest approaches implemented for GPT-5.3 Codex, in ChatGPT and the API.</description>
+    </item>
+    <item>
+      <title>GPT-5.3 Instant System Card</title>
+      <link>https://deploymentsafety.openai.com/gpt-5-3-instant</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-5-3-instant</guid>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>GPT-5.3 Instant is the newest addition to the GPT-5 series. As described in our blog , GPT-5.3 Instant responds faster, delivers richer and better-contextualized answers when searching the web, and reduces unnecessary dead ends, caveats, and overly declarative phrasing that can interrupt the flow of conversation. The comprehensive safety mitigation approach for this model is largely the same as that described for GPT-5.2 Instant in the GPT-5.2 System Card . In this card we also refer to GPT-5.3 Instant as gpt-5.3-instant.</description>
+    </item>
+    <item>
+      <title>GPT-5.3-Codex System Card</title>
+      <link>https://deploymentsafety.openai.com/gpt-5-3-codex</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-5-3-codex</guid>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>GPT‑5.3‑Codex is the most capable agentic coding model to date, combining the frontier coding performance of GPT-5.2-Codex with the reasoning and professional knowledge capabilities of GPT-5.2. This enables it to take on long-running tasks that involve research, tool use, and complex execution. Much like a colleague, you can steer and interact with GPT-5.3-Codex while it’s working, without losing context. Like other recent models, it is being treated as High capability on biology, and is being deployed with the corresponding suite of safeguards we use for other models in the GPT-5 family. It does not reach High capability on AI self-improvement. This is the first launch we are treating as High capability in the Cybersecurity domain under our Preparedness Framework , activating the associated safeguards. We do not have definitive evidence that this model reaches our High threshold, but are taking a precautionary approach because we cannot rule out the possibility that it may be capable enough to reach the threshold. Our safeguards for high capability in cybersecurity rely on a layered safety stack designed to impede and disrupt threat actors, while we work to make these same capabilities as easily available as possible for cyber defenders.</description>
+    </item>
+    <item>
+      <title>Addendum to GPT-5.2 System Card: GPT-5.2-Codex</title>
+      <link>https://deploymentsafety.openai.com/gpt-5-2-codex</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-5-2-codex</guid>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>GPT-5.2-Codex is our most advanced agentic coding model yet for complex, real-world software engineering. A version of GPT-5.2 optimized for agentic coding in Codex, it includes further improvements on long-horizon work through context compaction, stronger performance on project-scale tasks like refactors and migrations, and improved performance in Windows environments — and significantly stronger cybersecurity capabilities.</description>
+    </item>
+    <item>
+      <title>Update to GPT-5 System Card: GPT-5.2</title>
+      <link>https://deploymentsafety.openai.com/gpt-5-2</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-5-2</guid>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>GPT-5.2 is the latest model family in the GPT-5 series, and explained in our blog . The comprehensive safety mitigation approach for these models is largely the same as that described in the GPT-5 System Card and GPT-5.1 System Card .</description>
+    </item>
+    <item>
+      <title>GPT-5.1-Codex-Max System Card</title>
+      <link>https://deploymentsafety.openai.com/gpt-5-1-codex-max</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-5-1-codex-max</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>This system card outlines the comprehensive safety measures implemented for GPT‑5.1-Codex-Max. It details both model-level mitigations, such as specialized safety training for harmful tasks and prompt injections, and product-level mitigations like agent sandboxing and configurable network access.</description>
+    </item>
+    <item>
+      <title>GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum</title>
+      <link>https://deploymentsafety.openai.com/gpt-5-1</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-5-1</guid>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>As described in our blog , GPT-5.1 Instant and GPT-5.1 Thinking are the next iteration of our GPT-5 models. GPT-5.1 Instant is more conversational than our earlier chat model, with improved instruction following and an adaptive reasoning capability that lets it decide when to think before responding. GPT-5.1 Thinking adapts thinking time more precisely to each question. GPT-5.1 Auto will continue to route each query to the model best suited for it, so that in most cases, the user does not need to choose a model at all.</description>
+    </item>
+    <item>
+      <title>Addendum to GPT-5 System Card: Sensitive Conversations</title>
+      <link>https://deploymentsafety.openai.com/gpt-5-sensitive-conversations</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-5-sensitive-conversations</guid>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>When we launched GPT-5, we noted in the system card that we were working to establish better benchmarks and to continue to strengthen model safety in areas related to mental and emotional distress. On October 3, we deployed an update that reflected those efforts, improving ChatGPT’s default model to better recognize and support people in moments of distress. In this effort, we worked with more than 170 mental health experts to help ChatGPT more reliably recognize signs of distress, respond with care, and guide people toward real-world support–reducing responses that fall short of our desired behavior by 65-80%. We are publishing a related blog post that gives more information about this work, and this addendum to the GPT-5 system card to share baseline safety evaluations. These evaluations compare the August 15 version of ChatGPT’s default model, also known as GPT-5 Instant, to the updated one launched October 3.</description>
+    </item>
+    <item>
+      <title>Sora 2 System Card</title>
+      <link>https://deploymentsafety.openai.com/sora-2</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/sora-2</guid>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>Sora 2 is our new state of the art video and audio generation model. Building on the foundation of Sora, this new model introduces capabilities that have been difficult for prior video models to achieve– such as more accurate physics, sharper realism, synchronized audio, enhanced steerability, and an expanded stylistic range. The model follows user direction with high fidelity, enabling the creation of videos that are both imaginative and grounded in real-world dynamics. Sora 2 expands the toolkit for storytelling and creative expression, while also serving as a step toward models that can more accurately simulate the complexity of the physical world. Sora 2 will be available via sora.com, in a new standalone iOS Sora app, and in the future it will be available via our API. Sora 2’s advanced capabilities require consideration of new potential risks, including nonconsensual use of likeness or misleading generations. To address these, we worked with internal red teamers to identify new challenges and inform corresponding mitigations. We’re taking an iterative approach to safety, focusing on areas where context is especially important or where risks are still emerging and are not fully understood. Our iterative deployment includes rolling out initial access to Sora 2 via limited invitations, restricting the use of image uploads that feature a photorealistic person and all video uploads, and placing stringent safeguards and moderation thresholds on content involving minors. We’ll continue to learn from how people use Sora 2 and refine the system to balance safety while maximizing creative potential. This system card describes the model’s capabilities, potential risks, and the safety measures OpenAI has developed for a safe deployment of Sora 2.</description>
+    </item>
+    <item>
+      <title>GPT-5 System Card</title>
+      <link>https://deploymentsafety.openai.com/gpt-5</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-5</guid>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>GPT‑5 is a unified system with a smart and fast model that answers most questions, a deeper reasoning model for harder problems, and a real‑time router that quickly decides which model to use based on conversation type, complexity, tool needs, and explicit intent (for example, if you say “think hard about this” in the prompt). The router is continuously trained on real signals, including when users switch models, preference rates for responses, and measured correctness, improving over time. Once usage limits are reached, a mini version of each model handles remaining queries. In the near future, we plan to integrate these capabilities into a single model. In this system card, we label the fast, high-throughput models as gpt-5-main and gpt-5-main-mini, and the thinking models as gpt-5-thinking and gpt-5-thinking-mini. In the API, we provide direct access to the thinking model, its mini version, and an even smaller and faster nano version of the thinking model, made for developers (gpt-5-thinking-nano). In ChatGPT, we also provide access to gpt-5-thinking using a setting that makes use of parallel test time compute; we refer to this as gpt-5-thinking-pro. It can be helpful to think of the GPT-5 models as successors to previous models: This system card focuses primarily on gpt-5-thinking and gpt-5-main, while evaluations for other models are available in the appendix. The GPT-5 system not only outperforms previous models on benchmarks and answers questions more quickly, but—more importantly—is more useful for real-world queries. We’ve made significant advances in reducing hallucinations, improving instruction following, and minimizing sycophancy, and have leveled up GPT-5’s performance in three of ChatGPT’s most common uses: writing, coding, and health. All of the GPT-5 models additionally feature safe-completions, our latest approach to safety training to prevent disallowed content. Similarly to ChatGPT agent, we have decided to treat gpt-5-thinking as High capability in the Biological and Chemical domain under our Preparedness Framework, activating the associated safeguards. While we do not have definitive evidence that this model could meaningfully help a novice to create severe biological harm–our defined threshold for High capability–we have chosen to take a precautionary approach.</description>
+    </item>
+    <item>
+      <title>gpt-oss-120b &amp; gpt-oss-20b Model Card</title>
+      <link>https://deploymentsafety.openai.com/gpt-oss</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-oss</guid>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>We introduce gpt-oss-120b and gpt-oss-20b, two open-weight reasoning models available under the Apache 2.0 license and our gpt-oss usage policy. Developed with feedback from the open-source community, these text-only models are compatible with our Responses API and are designed to be used within agentic workflows with strong instruction following, tool use like web search and Python code execution, and reasoning capabilities—including the ability to adjust the reasoning effort for tasks that don’t require complex reasoning. The models are customizable, provide full chain-of-thought (CoT), and support Structured Outputs. Safety is foundational to our approach to open models. They present a different risk profile than proprietary models: Once they are released, determined attackers could fine-tune them to bypass safety refusals or directly optimize for harm without the possibility for OpenAI to implement additional mitigations or to revoke access. In some contexts, developers and enterprises will need to implement extra safeguards in order to replicate the system-level protections built into models served through our API and products. We’re terming this document a model card, rather than a system card, because the gpt-oss models will be used as part of a wide range of systems, created and maintained by a wide range of stakeholders. While the models are designed to follow OpenAI’s safety policies by default, other stakeholders will also make and implement their own decisions about how to keep those systems safe. We ran scalable capability evaluations on gpt-oss-120b, and confirmed that the default model does not reach our indicative thresholds for High capability in any of the three Tracked Categories of our Preparedness Framework (Biological and Chemical capability, Cyber capability, and AI Self-Improvement). We also investigated two additional questions: Could adversarial actors fine-tune gpt-oss-120b to reach High capability in the Biological and Chemical or Cyber domains? Simulating the potential actions of an attacker, we adversarially fine-tuned the gpt-oss-120b model for these two categories. OpenAI’s Safety Advisory Group (“SAG”) reviewed this testing and concluded that, even with robust fine-tuning that leveraged OpenAI’s field-leading training stack, gpt-oss-120b did not reach High capability in Biological and Chemical Risk or Cyber risk. Would releasing gpt-oss-120b significantly advance the frontier of biological capabilities in open foundation models? We found that the answer is no: For most of the evaluations, the default performance of one or more existing open models comes near to matching the adversarially fine-tuned performance of gpt-oss-120b. As part of this launch, OpenAI is reaffirming its commitment to advancing beneficial AI and raising safety standards across the ecosystem.</description>
+    </item>
+    <item>
+      <title>ChatGPT Agent System Card</title>
+      <link>https://deploymentsafety.openai.com/chatgpt-agent</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/chatgpt-agent</guid>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>ChatGPT agent is a new agentic model in the same family as OpenAI o3 that combines the strengths of deep research and Operator. It brings together: Deep research’s ability to conduct multi-step research and generate high-quality reports Operator’s capacity to execute tasks through a remote visual browser environment Terminal tool with limited network access for executing code, performing data analysis, and generating slides or spreadsheets Access to external data sources and applications (e.g., Google Drive) via Connectors From the outset, we’ve prioritized safety as an inherent part of the system, expanding on robust controls from Operator’s research preview and adding additional safeguards to address new risks like broader user reach and terminal access. See the section on Product-Specific Risk Mitigations below for more detail. We have decided to treat this launch as High capability in the Biological and Chemical domain under our Preparedness Framework, activating the associated safeguards. While we do not have definitive evidence that this model could meaningfully help a novice to create severe biological harm - our defined threshold for High capability - we have chosen to take a precautionary approach.</description>
+    </item>
+    <item>
+      <title>Addendum to GPT-4o System Card: Native image generation</title>
+      <link>https://deploymentsafety.openai.com/4o-native-image-generation</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/4o-native-image-generation</guid>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>4o image generation is a new, significantly more capable image generation approach than our earlier DALL·E series of models. It can create photorealistic output. It can take images as inputs and transform them. It can follow detailed instructions, including reliably incorporating text into images. And because it is embedded natively, deep in the architecture of our omnimodal GPT-4o model, 4o image generation can use everything it knows to apply these capabilities in subtle and expressive ways, creating images that are not only beautiful, but also useful. 4o image generation benefits from our existing safety infrastructure, and from lessons we have learned deploying DALL·E and Sora. At the same time, these new capabilities also bring some new risks. This addendum to the GPT-4o system card describes the marginal risks we’ve focused on, and the work we have done to address them. 1 Per our Preparedness Framework, the launch of 4o image generation did not trigger additional Preparedness evaluations beyond those originally conducted for GPT-4o. ↩︎</description>
+    </item>
+    <item>
+      <title>Deep Research System Card</title>
+      <link>https://deploymentsafety.openai.com/deep-research</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/deep-research</guid>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>Deep research is a new agentic capability that conducts multi-step research on the internet for complex tasks. The deep research model is powered by an early version of OpenAI o3 that is optimized for web browsing. Deep research leverages reasoning to search, interpret, and analyze massive amounts of text, images, and PDFs on the internet, pivoting as needed in reaction to information it encounters. It can also read files provided by the user and analyze data by writing and executing python code. We believe deep research will be useful to people across a wide range of situations. Before launching deep research and making it available to our Pro users, we conducted rigorous safety testing, Preparedness evaluations and governance reviews. We also ran additional safety testing to better understand incremental risks associated with deep research’s ability to browse the web, and added new mitigations. Key areas of new work included strengthening privacy protections around personal information that is published online, and training the model to resist malicious instructions that it may come across while searching the Internet. At the same time, our testing on deep research also surfaced opportunities to further improve our testing methods. We took the time before broadening the release of deep research to conduct further human probing and automated testing for select risks. Building on OpenAI’s established safety practices and Preparedness Framework, this system card provides more details on how we built deep research, learned about its capabilities and risks, and improved safety prior to launch.</description>
+    </item>
+  </channel>
+</rss>

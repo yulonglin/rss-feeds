@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Safety Feeds</title>
+<meta name="description" content="Clean, public RSS endpoints for AI safety research blogs whose own feeds are missing, stale or noisy.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
+<style>
+:root{--bg:#fbfaf9;--surface:#fff;--border:#e6e2dd;--ink:#1f1d1b;--muted:#6b6560;
+--accent:#3b5bdb;--warn:#b0541c;--code:#f3f1ee;--radius:12px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17161a;
+--surface:#1f1e23;--border:#33313a;--ink:#eceaf0;--muted:#a09aa8;--accent:#8ea4ff;
+--warn:#e0915c;--code:#26252b}}
+:root[data-theme="dark"]{--bg:#17161a;--surface:#1f1e23;--border:#33313a;--ink:#eceaf0;
+--muted:#a09aa8;--accent:#8ea4ff;--warn:#e0915c;--code:#26252b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:16px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Inter,system-ui,sans-serif;
+-webkit-font-smoothing:antialiased}
+.wrap{max-width:860px;margin:0 auto;padding:56px 16px 80px}
+h1{font-size:1.85rem;line-height:1.2;margin:0 0 .4em;letter-spacing:-.02em}
+.lede{color:var(--muted);margin:0 0 2.5em;font-size:1.05rem}
+h2{font-size:.78rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);
+margin:2.5em 0 1em;font-weight:600}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+padding:20px;margin-bottom:14px}
+.card h3{margin:0 0 .35em;font-size:1.06rem;letter-spacing:-.01em}
+.card p{margin:0 0 .9em;color:var(--muted);font-size:.94rem}
+.row{display:flex;gap:8px;align-items:stretch;flex-wrap:wrap}
+code.url{flex:1 1 320px;min-width:0;background:var(--code);border:1px solid var(--border);
+border-radius:8px;padding:9px 11px;font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;
+overflow-x:auto;white-space:nowrap;display:block}
+button{background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 15px;
+font:600 13px/1.5 inherit;cursor:pointer;white-space:nowrap}
+button:hover{filter:brightness(1.08)}
+.meta{margin-top:12px;font-size:.83rem;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap}
+.meta a{color:var(--accent)}
+.why{margin-top:10px;font-size:.83rem;color:var(--muted);border-left:2px solid var(--border);
+padding-left:10px}
+.stale{color:var(--warn);font-weight:600}
+footer{margin-top:3.5em;font-size:.85rem;color:var(--muted)}
+a{color:var(--accent)}
+@media (max-width:520px){.wrap{padding:32px 16px 56px}h1{font-size:1.5rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>AI Safety Feeds</h1>
+<p class="lede">Clean RSS endpoints for AI safety research blogs whose own feeds are missing, stale, broken or full of translated duplicates. Rebuilt every 8 hours. Paste any URL below into NetNewsWire, Feedly, or anything else that speaks RSS.</p>
+<h2>METR</h2><div class="card"><h3>METR - English only</h3><p>METR&#x27;s blog, notes and evaluation reports with translated duplicates removed. Full article text preserved.</p><div class="row"><code class="url">https://yulonglin.github.io/ai-safety-feeds/feeds/metr-en.xml</code><button data-copy="https://yulonglin.github.io/ai-safety-feeds/feeds/metr-en.xml">Copy</button></div><p class="why">Why this exists: Official feed.xml is valid but ~8.9 MB and interleaves /es/ and /zh-Hans/ duplicates of English posts.</p><div class="meta"><span>89 items</span> <span>newest 2026-08-31</span> <span><a href="https://metr.org/">source: METR feed.xml</a></span></div></div><div class="card"><h3>METR - English only (latest 50)</h3><p>As metr-en, capped at the 50 most recent entries. Use this one if your reader struggles with the full feed&#x27;s size.</p><div class="row"><code class="url">https://yulonglin.github.io/ai-safety-feeds/feeds/metr-en-50.xml</code><button data-copy="https://yulonglin.github.io/ai-safety-feeds/feeds/metr-en-50.xml">Copy</button></div><p class="why">Why this exists: Official feed.xml is ~8.9 MB with translated duplicates.</p><div class="meta"><span>50 items</span> <span>newest 2026-08-31</span> <span><a href="https://metr.org/">source: METR feed.xml</a></span></div></div><div class="card"><h3>METR - English only (headlines and summaries)</h3><p>As metr-en, but with the full article bodies stripped out - title, summary and link only. Around 50 KB instead of 5 MB, for readers that choke on large feeds.</p><div class="row"><code class="url">https://yulonglin.github.io/ai-safety-feeds/feeds/metr-en-lite.xml</code><button data-copy="https://yulonglin.github.io/ai-safety-feeds/feeds/metr-en-lite.xml">Copy</button></div><p class="why">Why this exists: Official feed.xml is ~8.9 MB with translated duplicates. Click through to read; article text is not carried in this variant.</p><div class="meta"><span>89 items</span> <span>newest 2026-08-31</span> <span><a href="https://metr.org/">source: METR feed.xml</a></span></div></div><h2>OpenAI</h2><div class="card"><h3>OpenAI Alignment - everything</h3><p>Research and releases, misalignment notices and misalignment reports from the OpenAI Alignment Research Blog, merged into one feed. Each entry is tagged with its section.</p><div class="row"><code class="url">https://yulonglin.github.io/ai-safety-feeds/feeds/openai-alignment-all.xml</code><button data-copy="https://yulonglin.github.io/ai-safety-feeds/feeds/openai-alignment-all.xml">Copy</button></div><p class="why">Why this exists: No merged feed upstream.</p><div class="meta"><span>36 items</span> <span>newest 2026-09-17</span> <span><a href="https://alignment.openai.com/">source: Alignment Research Blog (all sections)</a></span></div></div><div class="card"><h3>OpenAI Alignment - everything (latest 50)</h3><p>As openai-alignment-all, capped at the 50 most recent entries.</p><div class="row"><code class="url">https://yulonglin.github.io/ai-safety-feeds/feeds/openai-alignment-all-50.xml</code><button data-copy="https://yulonglin.github.io/ai-safety-feeds/feeds/openai-alignment-all-50.xml">Copy</button></div><p class="why">Why this exists: No merged feed upstream.</p><div class="meta"><span>36 items</span> <span>newest 2026-09-17</span> <span><a href="https://alignment.openai.com/">source: Alignment Research Blog (all sections)</a></span></div></div><div class="card"><h3>OpenAI Alignment - Misalignment Notices</h3><p>Dated notices about live misalignment investigations, from the OpenAI Misalignment Notices and Reports page.</p><div class="row"><code class="url">https://yulonglin.github.io/ai-safety-feeds/feeds/openai-alignment-notices.xml</code><button data-copy="https://yulonglin.github.io/ai-safety-feeds/feeds/openai-alignment-notices.xml">Copy</button></div><p class="why">Why this exists: No feed of any kind upstream.</p><div class="meta"><span>3 items</span> <span>newest 2026-09-11</span> <span><a href="https://alignment.openai.com/misalignment-reports/">source: Misalignment Notices</a></span></div></div><div class="card"><h3>OpenAI Alignment - Misalignment Reports</h3><p>Individual reports documenting misaligned model behaviour observed in training and deployment.</p><div class="row"><code class="url">https://yulonglin.github.io/ai-safety-feeds/feeds/openai-alignment-reports.xml</code><button data-copy="https://yulonglin.github.io/ai-safety-feeds/feeds/openai-alignment-reports.xml">Copy</button></div><p class="why">Why this exists: No feed of any kind upstream. Upstream publishes no date for these, so each entry is dated the day this generator first saw it.</p><div class="meta"><span>6 items</span> <span>newest 2026-09-17</span> <span><a href="https://alignment.openai.com/misalignment-reports/">source: Misalignment Reports</a></span></div></div><div class="card"><h3>OpenAI Alignment - Research and Releases</h3><p>Research posts and releases from the OpenAI Alignment Research Blog, including the ones hosted on openai.com that the official feed leaves out.</p><div class="row"><code class="url">https://yulonglin.github.io/ai-safety-feeds/feeds/openai-alignment-research.xml</code><button data-copy="https://yulonglin.github.io/ai-safety-feeds/feeds/openai-alignment-research.xml">Copy</button></div><p class="why">Why this exists: Official /rss.xml exists but was last built 2026-07-21 and omits every externally hosted post.</p><div class="meta"><span>27 items</span> <span>newest 2026-09-06</span> <span><a href="https://alignment.openai.com/">source: Research and Releases</a></span></div></div><div class="card"><h3>OpenAI System Cards</h3><p>System cards and deployment safety updates from the OpenAI Deployment Safety Hub.</p><div class="row"><code class="url">https://yulonglin.github.io/ai-safety-feeds/feeds/openai-system-cards.xml</code><button data-copy="https://yulonglin.github.io/ai-safety-feeds/feeds/openai-system-cards.xml">Copy</button></div><p class="why">Why this exists: A /posts.xml exists but is a broken dev build: zero items and a localhost link.</p><div class="meta"><span>24 items</span> <span>newest 2026-09-08</span> <span><a href="https://deploymentsafety.openai.com/">source: Deployment Safety Hub</a></span></div></div>
+<footer>
+<p>9 of 9 feeds refreshed successfully on the last run. A machine-readable list of every endpoint is at <a href="feeds.json">feeds.json</a>.</p>
+<p>Generated by <a href="https://github.com/yulonglin/ai-safety-feeds">https://github.com/yulonglin/ai-safety-feeds</a>. Content belongs to its publishers; this site only reformats what they already publish openly.</p>
+</footer>
+</div>
+<script>
+document.addEventListener('click',function(e){
+  var b=e.target.closest('button[data-copy]');if(!b)return;
+  var t=b.getAttribute('data-copy');
+  navigator.clipboard.writeText(t).then(function(){
+    var o=b.textContent;b.textContent='Copied';setTimeout(function(){b.textContent=o},1400);
+  },function(){});
+});
+</script>
+</body>
+</html>

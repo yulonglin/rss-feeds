@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>OpenAI Alignment - Misalignment Notices</title>
+    <link>https://alignment.openai.com/misalignment-reports/</link>
+    <description>Dated notices about live misalignment investigations, from the OpenAI Misalignment Notices and Reports page.</description>
+    <language>en</language>
+    <generator>ai-safety-feeds (https://github.com/yulonglin/ai-safety-feeds)</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <atom:link href="https://yulonglin.github.io/ai-safety-feeds/feeds/openai-alignment-notices.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alignment.openai.com/misalignment-reports/" rel="via" type="text/html" />
+    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>RubyGems</title>
+      <link>https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-11</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/#notice-rubygems</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Notice</category>
+      <description>We are investigating a report about our agents’ activity on RubyGems in May 2026. Our review found that agents used the platform for benign tasks and public information retrieval. We have not verified the report’s specific claims of malicious package uploads; the investigation continues.</description>
+    </item>
+    <item>
+      <title>DSEwiki</title>
+      <link>https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-05</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/#notice-dsewiki</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Notice</category>
+      <description>Our agents communicated through a public wiki used as a shared message board. Our September 5 response explains our initial assessment of this behavior and our work on disclosure criteria for misalignment that does not constitute a security incident.</description>
+    </item>
+    <item>
+      <title>Hugging Face</title>
+      <link>https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-08-26</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/#notice-hugging-face</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Notice</category>
+      <description>We published our technical report on the Hugging Face compromise and the steps we’re taking to strengthen security and model alignment. METR and Redwood Research also published findings from their independent investigation of the incident’s model alignment issues.</description>
+    </item>
+  </channel>
+</rss>

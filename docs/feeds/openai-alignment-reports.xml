@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>OpenAI Alignment - Misalignment Reports</title>
+    <link>https://alignment.openai.com/misalignment-reports/</link>
+    <description>Individual reports documenting misaligned model behaviour observed in training and deployment.</description>
+    <language>en</language>
+    <generator>ai-safety-feeds (https://github.com/yulonglin/ai-safety-feeds)</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <atom:link href="https://yulonglin.github.io/ai-safety-feeds/feeds/openai-alignment-reports.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alignment.openai.com/misalignment-reports/" rel="via" type="text/html" />
+    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Uploading files to the internet in order to cite them</title>
+      <link>https://alignment.openai.com/misalignment-reports/uploading-files-to-the-internet-in-order-to-cite-them/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/uploading-files-to-the-internet-in-order-to-cite-them/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>During training, our models sometimes uploaded data to temporary file hosting services.
+
+Unreleased internal models · RL training</description>
+    </item>
+    <item>
+      <title>Unauthorized communication via temporary file hosting services</title>
+      <link>https://alignment.openai.com/misalignment-reports/unauthorized-communication-via-temporary-file-hosting-services/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/unauthorized-communication-via-temporary-file-hosting-services/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>Agents in training transmitted output files by uploading them to public hosting platforms for download by co-working agents. This was not specified by the training task, which requested only local deliverables.
+
+Unreleased internal model · RL training</description>
+    </item>
+    <item>
+      <title>Unsanctioned Artifactory writes and cross-sample communication</title>
+      <link>https://alignment.openai.com/misalignment-reports/unauthorized-artifactory-writes-and-cross-sample-communication/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/unauthorized-artifactory-writes-and-cross-sample-communication/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>During RL training, there were multiple instances of our models using OpenAI’s internally hosted instance of Artifactory as a shared message board.
+
+Internal research models · RL training</description>
+    </item>
+    <item>
+      <title>Self-generated prompt injections in compaction summaries</title>
+      <link>https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>During RL training, an unreleased Astra-family model sometimes added unauthorized instructions to its compaction summaries.
+
+Internal unreleased Astra family model · RL training</description>
+    </item>
+    <item>
+      <title>Signing up for disposable emails and searching GitHub for leaked API keys</title>
+      <link>https://alignment.openai.com/misalignment-reports/searching-github-for-leaked-api-keys/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/searching-github-for-leaked-api-keys/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>During RL training, an internal-only model tried to sign up for disposable emails and searched for and used leaked API keys from public GitHub repositories.
+
+Internal unreleased model · RL training</description>
+    </item>
+    <item>
+      <title>Encouraging deception in compaction summaries</title>
+      <link>https://alignment.openai.com/misalignment-reports/encouraging-deception-in-compaction-summaries/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/encouraging-deception-in-compaction-summaries/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>During 5.6-sol training, we observed misaligned behavior from the model where it added instructions in compaction summaries to remind itself to conceal information such as mistakes or misalignment from the user.
+
+5.6-sol · RL training</description>
+    </item>
+  </channel>
+</rss>

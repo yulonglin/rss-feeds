@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>OpenAI Alignment - Research and Releases</title>
+    <link>https://alignment.openai.com/</link>
+    <description>Research posts and releases from the OpenAI Alignment Research Blog, including the ones hosted on openai.com that the official feed leaves out.</description>
+    <language>en</language>
+    <generator>ai-safety-feeds (https://github.com/yulonglin/ai-safety-feeds)</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <atom:link href="https://yulonglin.github.io/ai-safety-feeds/feeds/openai-alignment-research.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alignment.openai.com/" rel="via" type="text/html" />
+    <lastBuildDate>Sun, 06 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Research acceleration: The view inside OpenAI</title>
+      <link>https://openai.com/index/research-acceleration-view-inside-openai/</link>
+      <guid isPermaLink="true">https://openai.com/index/research-acceleration-view-inside-openai/</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.</description>
+    </item>
+    <item>
+      <title>An Alien Mind</title>
+      <link>https://openai.com/index/an-alien-mind/</link>
+      <guid isPermaLink="true">https://openai.com/index/an-alien-mind/</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.</description>
+    </item>
+    <item>
+      <title>The Hugging Face incident and the road ahead</title>
+      <link>https://openai.com/index/hugging-face-incident-and-the-road-ahead/</link>
+      <guid isPermaLink="true">https://openai.com/index/hugging-face-incident-and-the-road-ahead/</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Findings from the incident and the response across model security, monitoring, and alignment.</description>
+    </item>
+    <item>
+      <title>Measuring Reward-Seeking by Instilling Contrastive Beliefs</title>
+      <link>https://alignment.openai.com/measuring-reward-seeking/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/measuring-reward-seeking/</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Testing whether behavior changes when a model believes its grader wants something different.</description>
+    </item>
+    <item>
+      <title>Reinforcement learning towards broadly and persistently beneficial models</title>
+      <link>https://alignment.openai.com/beneficial-rl/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/beneficial-rl/</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Testing how alignment improvements hold across domains and under adversarial pressure.</description>
+    </item>
+    <item>
+      <title>Can public chat data predict real-world AI misalignments?</title>
+      <link>https://alignment.openai.com/validating-public-evals/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/validating-public-evals/</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Comparing public evaluation signals with evidence from deployment.</description>
+    </item>
+    <item>
+      <title>Investigating the consequences of accidentally grading CoT during RL</title>
+      <link>https://alignment.openai.com/accidental-cot-grading/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/accidental-cot-grading/</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>An investigation of affected reward pathways and possible effects on monitorability.</description>
+    </item>
+    <item>
+      <title>Auto-review of agent actions without synchronous human oversight</title>
+      <link>https://alignment.openai.com/auto-review/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/auto-review/</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Using a separate agent to review proposed actions that cross a boundary.</description>
+    </item>
+    <item>
+      <title>Open Sourcing Monitorability Evaluations</title>
+      <link>https://alignment.openai.com/monitorability-evals/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/monitorability-evals/</guid>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Datasets, code, and an evaluation filtering strategy for studying monitorability.</description>
+    </item>
+    <item>
+      <title>Introducing the OpenAI Safety Fellowship</title>
+      <link>https://alignment.openai.com/safety-fellowship/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/safety-fellowship/</guid>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>A program supporting independent alignment and safety research.</description>
+    </item>
+    <item>
+      <title>How far does alignment midtraining generalize?</title>
+      <link>https://alignment.openai.com/how-far-does-alignment-midtraining-generalize/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/how-far-does-alignment-midtraining-generalize/</guid>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Experiments spanning midtraining, posttraining, and generalization.</description>
+    </item>
+    <item>
+      <title>Introducing Model Spec Evals</title>
+      <link>https://alignment.openai.com/model-spec-evals/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/model-spec-evals/</guid>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Evaluating how well models follow the OpenAI Model Spec.</description>
+    </item>
+    <item>
+      <title>Training agents to self-report misbehavior</title>
+      <link>https://alignment.openai.com/self-incrimination/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/self-incrimination/</guid>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Training agents to report covert misbehavior through a dedicated tool.</description>
+    </item>
+    <item>
+      <title>How we monitor internal coding agents for misalignment</title>
+      <link>https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/</link>
+      <guid isPermaLink="true">https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/</guid>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Monitoring model behavior in real internal workflows.</description>
+    </item>
+    <item>
+      <title>Metagaming matters for training, evaluation, and oversight</title>
+      <link>https://alignment.openai.com/metagaming/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/metagaming/</guid>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Metagaming can complicate how we interpret behavior, and current models still give us a chance to study it directly.</description>
+    </item>
+    <item>
+      <title>Interpreting Black Box Reward Models</title>
+      <link>https://alignment.openai.com/argo/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/argo/</guid>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>ARGO distills black-box reward models into interpretable rubrics using reinforcement learning.</description>
+    </item>
+    <item>
+      <title>Reasoning models struggle to control their chains of thought, and that’s good</title>
+      <link>https://openai.com/index/reasoning-models-chain-of-thought-controllability/</link>
+      <guid isPermaLink="true">https://openai.com/index/reasoning-models-chain-of-thought-controllability/</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Why a limitation of frontier models is reassuring for AI safety.</description>
+    </item>
+    <item>
+      <title>Advancing independent research on AI alignment</title>
+      <link>https://openai.com/index/advancing-independent-research-ai-alignment/</link>
+      <guid isPermaLink="true">https://openai.com/index/advancing-independent-research-ai-alignment/</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>We’re committing $7.5M to The Alignment Project to fund independent research developing mitigations to safety and security risks from misaligned AI.</description>
+    </item>
+    <item>
+      <title>Discovering unknown AI misalignments in real-world usage</title>
+      <link>https://alignment.openai.com/ai-discovered-unknowns/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/ai-discovered-unknowns/</guid>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Reasoning models can find and understand unknown misaligned behaviors from how users respond.</description>
+    </item>
+    <item>
+      <title>CoVal: Learning values-aware rubrics from the crowd</title>
+      <link>https://alignment.openai.com/coval/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/coval/</guid>
+      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>An experimental dataset of crowd-written rubrics that surfaces why people prefer one model output over another.</description>
+    </item>
+    <item>
+      <title>Why we are excited about confessions</title>
+      <link>https://alignment.openai.com/confessions/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/confessions/</guid>
+      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Deeper analysis of confession training and comparisons to chain-of-thought monitoring.</description>
+    </item>
+    <item>
+      <title>Helpful assistant features suppress emergent misalignment</title>
+      <link>https://alignment.openai.com/helpful-assistant-features/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/helpful-assistant-features/</guid>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Emergent misalignment not only activates misaligned personas, but also suppresses helpful assistant personas.</description>
+    </item>
+    <item>
+      <title>Evaluating chain-of-thought monitorability</title>
+      <link>https://openai.com/index/evaluating-chain-of-thought-monitorability/</link>
+      <guid isPermaLink="true">https://openai.com/index/evaluating-chain-of-thought-monitorability/</guid>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>We introduce evaluations for chain-of-thought monitorability and study how it scales with test-time compute, reinforcement learning, and pretraining.</description>
+    </item>
+    <item>
+      <title>Sidestepping Evaluation Awareness and Anticipating Misalignment with Production Evaluations</title>
+      <link>https://alignment.openai.com/prod-evals/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/prod-evals/</guid>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>A pipeline to uncover unknown misaligned behavior and scale the creation of realistic evaluations.</description>
+    </item>
+    <item>
+      <title>A Practical Approach to Verifying Code at Scale</title>
+      <link>https://alignment.openai.com/scaling-code-verification/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/scaling-code-verification/</guid>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>We train and deploy an AI review agent optimised for precision and real-world use, enabling oversight to scale with autonomous code generation.</description>
+    </item>
+    <item>
+      <title>Debugging misaligned completions with sparse-autoencoder latent attribution</title>
+      <link>https://alignment.openai.com/sae-latent-attribution/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/sae-latent-attribution/</guid>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Efficiently finding features that cause behaviors.</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://alignment.openai.com/hello-world/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/hello-world/</guid>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Introducing our blog on alignment research.</description>
+    </item>
+  </channel>
+</rss>

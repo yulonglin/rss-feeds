@@ -1,0 +1,61 @@
+name: Update feeds
+
+on:
+  schedule:
+    # 00:00, 08:00 and 16:00 UTC. GitHub disables scheduled workflows after 60 days
+    # with no repository activity; each successful refresh commits, which resets that.
+    - cron: "0 0,8,16 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - ".github/workflows/update-feeds.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-feeds
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Tests
+        run: uv run --group dev pytest -q
+
+      - name: Rebuild feeds
+        id: rebuild
+        continue-on-error: true
+        run: uv run aisafetyfeeds
+
+      - name: Validate every feed parses
+        if: always()
+        run: uv run --with feedparser python scripts/validate.py
+
+      - name: Commit whatever refreshed
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes."
+            exit 0
+          fi
+          git add docs state
+          git commit -m "Refresh feeds ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git push
+
+      - name: Fail the run if a source was unreachable
+        if: always() && steps.rebuild.outcome == 'failure'
+        run: |
+          echo "::error::At least one source failed to refresh; its feed kept its previous contents."
+          exit 1
