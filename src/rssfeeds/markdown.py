@@ -50,6 +50,17 @@ Content belongs to its publishers. This repository only reformats what they alre
 """
 
 
+SETUP = """## DNS setup this needs
+
+The feeds are already built, committed and served. The only outstanding step is pointing the domain at them.
+
+- In Cloudflare DNS for yulonglin.com, add a **CNAME** record: name `feeds`, target `yulonglin.github.io`.
+- Set it to **DNS only** (grey cloud, not proxied). GitHub provisions the HTTPS certificate itself, and Cloudflare's proxy can block that validation. You can switch the proxy on later once the certificate has issued.
+- GitHub Pages already has `feeds.yulonglin.com` recorded as the custom domain, so nothing is needed on that side.
+- Until the record exists, every endpoint stays reachable at its `yulonglin.github.io/rss-feeds/` address.
+"""
+
+
 def render_table(statuses: list[FeedStatus]) -> str:
     rows = ["| Feed | Source | Subscribe to this URL | Items |", "|---|---|---|---|"]
     for s in sorted(statuses, key=lambda s: (s.spec.org, s.spec.slug)):
@@ -84,6 +95,8 @@ def render_vault_doc(statuses: list[FeedStatus]) -> str:
         + render_table(statuses)
         + "\n\n"
         + WHY
+        + "\n"
+        + SETUP
         + "\n"
         + NOTES.split("## Running it locally")[0].rstrip()
         + "\n\nGenerated from the repository registry; edit the repo, not this file.\n"
