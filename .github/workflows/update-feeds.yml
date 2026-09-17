@@ -73,7 +73,7 @@ jobs:
           Run log: $RUN_URL
 
           If the change is real and the feed genuinely shrank, re-run with \`uv run rssfeeds --allow-shrink\`."
-          existing=$(gh issue list --state open --label feed-broken --limit 1 --json number --jq '.[0].number')
+          existing=$(gh issue list --state open --label feed-broken --limit 1 --json number --jq '.[0].number // empty')
           if [ -n "$existing" ]; then
             gh issue comment "$existing" --body "$body"
           else

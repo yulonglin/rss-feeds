@@ -131,3 +131,42 @@ def test_silent_truncation_is_refused(tmp_path: Path) -> None:
 
     forced = next(s for s in write_feeds(make(3), tmp_path, allow_shrink=True) if s.spec is spec)
     assert forced.written and forced.item_count == 3
+
+
+def test_failing_source_exits_nonzero_and_preserves_the_feed(tmp_path, monkeypatch) -> None:
+    """The condition that drives the feed-broken alert: a source error must exit 1."""
+    import rssfeeds.__main__ as cli
+    from rssfeeds.models import SourceResult
+
+    docs = tmp_path / "docs"
+    good = SourceResult(
+        items=[
+            Item(
+                title="Kept",
+                link="https://example.com/keep",
+                guid="https://example.com/keep",
+                published=datetime(2026, 1, 1, tzinfo=UTC),
+            )
+        ]
+    )
+    monkeypatch.setattr(
+        cli,
+        "collect",
+        lambda _fs: dict.fromkeys(("research", "notices", "reports", "system_cards", "metr"), good),
+    )
+    cli.build(docs=docs, state=tmp_path / "s.json", readme=tmp_path / "R.md")
+    before = (docs / "feeds" / "openai-alignment-research.xml").read_bytes()
+
+    broken = SourceResult(error="no article.ap-post entries found - page layout may have changed")
+    monkeypatch.setattr(
+        cli,
+        "collect",
+        lambda _fs: {
+            **dict.fromkeys(("notices", "reports", "system_cards", "metr"), good),
+            "research": broken,
+        },
+    )
+    with pytest.raises(SystemExit) as exc:
+        cli.build(docs=docs, state=tmp_path / "s.json", readme=tmp_path / "R.md")
+    assert exc.value.code == 1, "a broken source must redden the run"
+    assert (docs / "feeds" / "openai-alignment-research.xml").read_bytes() == before
