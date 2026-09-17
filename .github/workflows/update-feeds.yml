@@ -23,6 +23,10 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      # Never re-resolve on CI: a lockfile rewritten here would dirty the tree and make
+      # the commit step stage nothing, which is exactly how this job failed once.
+      UV_FROZEN: "1"
     steps:
       - uses: actions/checkout@v4
 
@@ -40,18 +44,18 @@ jobs:
 
       - name: Validate every feed parses
         if: always()
-        run: uv run --with feedparser python scripts/validate.py
+        run: uv run --group dev python scripts/validate.py
 
       - name: Commit whatever refreshed
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "No changes."
+          git add docs state
+          if git diff --cached --quiet; then
+            echo "No feed changes to commit."
             exit 0
           fi
-          git add docs state
           git commit -m "Refresh feeds ($(date -u +%Y-%m-%dT%H:%MZ))"
           git push
 
