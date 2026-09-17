@@ -57,7 +57,7 @@ The feeds are already built, committed and served. The only outstanding step is 
 - In Cloudflare DNS for yulonglin.com, add a **CNAME** record: name `feeds`, target `yulonglin.github.io`.
 - Set it to **DNS only** (grey cloud, not proxied). GitHub provisions the HTTPS certificate itself, and Cloudflare's proxy can block that validation. You can switch the proxy on later once the certificate has issued.
 - GitHub Pages already has `feeds.yulonglin.com` recorded as the custom domain, so nothing is needed on that side.
-- Until the record exists, every endpoint stays reachable at its `yulonglin.github.io/rss-feeds/` address.
+- **Until that record exists the endpoints are down.** Setting the custom domain makes GitHub Pages 301 every `yulonglin.github.io/rss-feeds/` URL to `feeds.yulonglin.com`, which does not resolve yet, so there is no working address in the meantime. Adding the CNAME fixes it with no further action; certificate issuance then takes a few minutes.
 """
 
 
