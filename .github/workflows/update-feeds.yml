@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: update-feeds
@@ -53,6 +54,28 @@ jobs:
           git add docs state
           git commit -m "Refresh feeds ($(date -u +%Y-%m-%dT%H:%MZ))"
           git push
+
+      - name: Open or update an issue when a source breaks
+        if: always() && steps.rebuild.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="Feed refresh is failing"
+          body="A source did not refresh cleanly. The affected feed kept its previous contents rather than publishing an empty or truncated file.
+
+          Most likely cause: the upstream page changed layout and no longer matches the selectors in \`src/rssfeeds/sources/\`.
+
+          Run log: $RUN_URL
+
+          If the change is real and the feed genuinely shrank, re-run with \`uv run rssfeeds --allow-shrink\`."
+          existing=$(gh issue list --state open --label feed-broken --limit 1 --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh label create feed-broken --color b60205 --description "A source stopped refreshing" 2>/dev/null || true
+            gh issue create --title "$title" --label feed-broken --body "$body"
+          fi
 
       - name: Fail the run if a source was unreachable
         if: always() && steps.rebuild.outcome == 'failure'

@@ -15,6 +15,11 @@ from .sources import openai_alignment as oai
 from .sources import openai_system_cards as cards
 from .state import FirstSeen
 
+# A refresh that returns far fewer entries than the last published run usually means the
+# page still matches our selectors but no longer lays out the way it did - a silent
+# truncation, which is worse than an outright failure because it looks like a normal feed.
+SHRINK_THRESHOLD = 0.6
+
 
 @dataclass
 class FeedStatus:
@@ -61,7 +66,9 @@ def _inspect(path: Path) -> tuple[int, datetime | None]:
     return len(items), newest
 
 
-def write_feeds(results: dict[str, SourceResult], out_dir: Path) -> list[FeedStatus]:
+def write_feeds(
+    results: dict[str, SourceResult], out_dir: Path, *, allow_shrink: bool = False
+) -> list[FeedStatus]:
     out_dir.mkdir(parents=True, exist_ok=True)
     statuses: list[FeedStatus] = []
 
@@ -80,6 +87,22 @@ def write_feeds(results: dict[str, SourceResult], out_dir: Path) -> list[FeedSta
             items = items[: spec.limit]
         if not spec.include_content:
             items = [i.model_copy(update={"content_html": None}) for i in items]
+
+        previous_count, _ = _inspect(path)
+        floor = int(previous_count * SHRINK_THRESHOLD)
+        if not allow_shrink and previous_count and len(items) < floor:
+            statuses.append(
+                FeedStatus(
+                    spec,
+                    False,
+                    previous_count,
+                    _inspect(path)[1],
+                    f"refusing to shrink {previous_count} -> {len(items)} entries "
+                    f"(below the {floor} floor); source layout may have changed. "
+                    f"Re-run with --allow-shrink if the drop is real.",
+                )
+            )
+            continue
 
         xml = build_rss(
             title=spec.title,

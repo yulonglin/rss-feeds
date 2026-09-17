@@ -22,6 +22,7 @@ def build(
     state: Path = ROOT / "state" / "first_seen.json",
     readme: Path = ROOT / "README.md",
     vault: Path | None = None,
+    allow_shrink: bool = False,
 ) -> None:
     """Fetch every source, rewrite the feeds that succeeded, and regenerate the index.
 
@@ -32,7 +33,7 @@ def build(
     results = collect(first_seen)
     first_seen.save()
 
-    statuses = write_feeds(results, docs / "feeds")
+    statuses = write_feeds(results, docs / "feeds", allow_shrink=allow_shrink)
     write_manifest(statuses, docs / "feeds.json")
     write_index(statuses, docs / "index.html")
     write_if_changed(readme, render_readme(statuses))

@@ -95,3 +95,39 @@ def test_published_feed_parses(spec) -> None:
         assert len(parsed.entries) <= spec.limit
     if not spec.include_content:
         assert all(not e.get("content") for e in parsed.entries)
+
+
+def test_silent_truncation_is_refused(tmp_path: Path) -> None:
+    """A source that still parses but returns far fewer entries must not overwrite."""
+    from rssfeeds.build import write_feeds
+    from rssfeeds.models import SourceResult
+    from rssfeeds.registry import FEEDS
+
+    spec = next(f for f in FEEDS if f.slug == "openai-alignment-research")
+
+    def make(n: int) -> dict[str, SourceResult]:
+        items = [
+            Item(
+                title=f"Post {i}",
+                link=f"https://example.com/{i}",
+                guid=f"https://example.com/{i}",
+                published=datetime(2026, 1, 1 + i, tzinfo=UTC),
+            )
+            for i in range(n)
+        ]
+        return {
+            k: SourceResult(items=items)
+            for k in ("research", "notices", "reports", "system_cards", "metr")
+        }
+
+    full = write_feeds(make(20), tmp_path)
+    assert next(s for s in full if s.spec is spec).item_count == 20
+    before = (tmp_path / spec.filename).read_bytes()
+
+    shrunk = next(s for s in write_feeds(make(3), tmp_path) if s.spec is spec)
+    assert not shrunk.written
+    assert "refusing to shrink" in (shrunk.error or "")
+    assert (tmp_path / spec.filename).read_bytes() == before, "must keep the last good feed"
+
+    forced = next(s for s in write_feeds(make(3), tmp_path, allow_shrink=True) if s.spec is spec)
+    assert forced.written and forced.item_count == 3
