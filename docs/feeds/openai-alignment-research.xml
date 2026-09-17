@@ -7,7 +7,7 @@
     <language>en</language>
     <generator>rss-feeds (https://github.com/yulonglin/rss-feeds)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
-    <atom:link href="https://yulonglin.github.io/rss-feeds/feeds/openai-alignment-research.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://feeds.yulonglin.com/feeds/openai-alignment-research.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/" rel="via" type="text/html" />
     <lastBuildDate>Sun, 06 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>

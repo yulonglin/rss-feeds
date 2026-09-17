@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
-SITE_BASE = "https://yulonglin.github.io/rss-feeds/"
+SITE_BASE = "https://feeds.yulonglin.com/"
 REPO_URL = "https://github.com/yulonglin/rss-feeds"
 
 

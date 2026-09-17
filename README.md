@@ -2,21 +2,21 @@
 
 Clean, public RSS endpoints for blogs whose own feeds are missing, stale, broken or full of translated duplicates. Currently AI safety research sources; adding another is one entry in the registry. Rebuilt every 8 hours by GitHub Actions and served from GitHub Pages.
 
-Browse the endpoints at **<https://yulonglin.github.io/rss-feeds/>**. A machine-readable list is at **<https://yulonglin.github.io/rss-feeds/feeds.json>**.
+Browse the endpoints at **<https://feeds.yulonglin.com/>**. A machine-readable list is at **<https://feeds.yulonglin.com/feeds.json>**.
 
 ## The feeds
 
 | Feed | Source | Subscribe to this URL | Items |
 |---|---|---|---|
-| METR - English only | [METR feed.xml](https://metr.org/) | `https://yulonglin.github.io/rss-feeds/feeds/metr-en.xml` | 89 |
-| METR - English only (latest 50) | [METR feed.xml](https://metr.org/) | `https://yulonglin.github.io/rss-feeds/feeds/metr-en-50.xml` | 50 |
-| METR - English only (headlines and summaries) | [METR feed.xml](https://metr.org/) | `https://yulonglin.github.io/rss-feeds/feeds/metr-en-lite.xml` | 89 |
-| OpenAI Alignment - everything | [Alignment Research Blog (all sections)](https://alignment.openai.com/) | `https://yulonglin.github.io/rss-feeds/feeds/openai-alignment-all.xml` | 36 |
-| OpenAI Alignment - everything (latest 50) | [Alignment Research Blog (all sections)](https://alignment.openai.com/) | `https://yulonglin.github.io/rss-feeds/feeds/openai-alignment-all-50.xml` | 36 |
-| OpenAI Alignment - Misalignment Notices | [Misalignment Notices](https://alignment.openai.com/misalignment-reports/) | `https://yulonglin.github.io/rss-feeds/feeds/openai-alignment-notices.xml` | 3 |
-| OpenAI Alignment - Misalignment Reports | [Misalignment Reports](https://alignment.openai.com/misalignment-reports/) | `https://yulonglin.github.io/rss-feeds/feeds/openai-alignment-reports.xml` | 6 |
-| OpenAI Alignment - Research and Releases | [Research and Releases](https://alignment.openai.com/) | `https://yulonglin.github.io/rss-feeds/feeds/openai-alignment-research.xml` | 27 |
-| OpenAI System Cards | [Deployment Safety Hub](https://deploymentsafety.openai.com/) | `https://yulonglin.github.io/rss-feeds/feeds/openai-system-cards.xml` | 24 |
+| METR - English only | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/feeds/metr-en.xml` | 89 |
+| METR - English only (latest 50) | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/feeds/metr-en-50.xml` | 50 |
+| METR - English only (headlines and summaries) | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/feeds/metr-en-lite.xml` | 89 |
+| OpenAI Alignment - everything | [Alignment Research Blog (all sections)](https://alignment.openai.com/) | `https://feeds.yulonglin.com/feeds/openai-alignment-all.xml` | 36 |
+| OpenAI Alignment - everything (latest 50) | [Alignment Research Blog (all sections)](https://alignment.openai.com/) | `https://feeds.yulonglin.com/feeds/openai-alignment-all-50.xml` | 36 |
+| OpenAI Alignment - Misalignment Notices | [Misalignment Notices](https://alignment.openai.com/misalignment-reports/) | `https://feeds.yulonglin.com/feeds/openai-alignment-notices.xml` | 3 |
+| OpenAI Alignment - Misalignment Reports | [Misalignment Reports](https://alignment.openai.com/misalignment-reports/) | `https://feeds.yulonglin.com/feeds/openai-alignment-reports.xml` | 6 |
+| OpenAI Alignment - Research and Releases | [Research and Releases](https://alignment.openai.com/) | `https://feeds.yulonglin.com/feeds/openai-alignment-research.xml` | 27 |
+| OpenAI System Cards | [Deployment Safety Hub](https://deploymentsafety.openai.com/) | `https://feeds.yulonglin.com/feeds/openai-system-cards.xml` | 24 |
 
 ## Why each feed exists
 
