@@ -40,6 +40,7 @@ OAI_ALIGNMENT = "https://alignment.openai.com/"
 OAI_REPORTS = "https://alignment.openai.com/misalignment-reports/"
 OAI_CARDS = "https://deploymentsafety.openai.com/"
 METR_BLOG = "https://metr.org/"
+DARIO = "https://darioamodei.com/"
 
 FEEDS: list[FeedSpec] = [
     FeedSpec(
@@ -169,5 +170,22 @@ FEEDS: list[FeedSpec] = [
         include_content=False,
         upstream_status="Official feed.xml is ~8.9 MB with translated duplicates.",
         notes="Click through to read; article text is not carried in this variant.",
+    ),
+    FeedSpec(
+        slug="dario-amodei",
+        title="Dario Amodei",
+        description=(
+            "Essays and short posts from Dario Amodei's personal site, with the full text of "
+            "each piece. Entries are tagged Essay or Short post, matching the site's own split."
+        ),
+        org="Dario Amodei",
+        source_name="darioamodei.com",
+        source_url=DARIO,
+        sources=("dario",),
+        upstream_status="No feed of any kind upstream, and no structured dates in the markup.",
+        notes=(
+            "The site prints a month and year rather than a full date, so every entry is "
+            "dated the first of its month."
+        ),
     ),
 ]

@@ -128,6 +128,20 @@
       "items": 89,
       "newest": "2026-08-31",
       "healthy": true
+    },
+    {
+      "slug": "dario-amodei",
+      "title": "Dario Amodei",
+      "description": "Essays and short posts from Dario Amodei's personal site, with the full text of each piece. Entries are tagged Essay or Short post, matching the site's own split.",
+      "org": "Dario Amodei",
+      "feed_url": "https://feeds.yulonglin.com/dario-amodei.xml",
+      "source_name": "darioamodei.com",
+      "source_url": "https://darioamodei.com/",
+      "upstream_status": "No feed of any kind upstream, and no structured dates in the markup.",
+      "notes": "The site prints a month and year rather than a full date, so every entry is dated the first of its month.",
+      "items": 6,
+      "newest": "2026-09-01",
+      "healthy": true
     }
   ]
 }

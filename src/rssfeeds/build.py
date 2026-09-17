@@ -10,6 +10,7 @@ from xml.etree import ElementTree as ET
 from .models import SourceResult
 from .registry import FEEDS, REPO_URL, SITE_BASE, FeedSpec
 from .rss import build_rss
+from .sources import dario_amodei as dario_src
 from .sources import metr as metr_src
 from .sources import openai_alignment as oai
 from .sources import openai_system_cards as cards
@@ -38,6 +39,7 @@ def collect(first_seen: FirstSeen) -> dict[str, SourceResult]:
         "reports": oai.reports(first_seen),
         "system_cards": cards.system_cards(),
         "metr": metr_src.metr_english(),
+        "dario": dario_src.dario_amodei(),
     }
 
 

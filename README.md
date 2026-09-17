@@ -8,6 +8,7 @@ Browse the endpoints at **<https://feeds.yulonglin.com/>**. A machine-readable l
 
 | Feed | Source | Subscribe to this URL | Items |
 |---|---|---|---|
+| Dario Amodei | [darioamodei.com](https://darioamodei.com/) | `https://feeds.yulonglin.com/dario-amodei.xml` | 6 |
 | METR - English only | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/metr-en.xml` | 89 |
 | METR - English only (latest 50) | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/metr-en-50.xml` | 50 |
 | METR - English only (headlines and summaries) | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/metr-en-lite.xml` | 89 |

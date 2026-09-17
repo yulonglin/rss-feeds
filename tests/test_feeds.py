@@ -14,6 +14,9 @@ from rssfeeds.state import FirstSeen
 
 FEEDS_DIR = Path(__file__).resolve().parents[1] / "docs"
 
+# Derived from the registry so adding a source cannot silently break these tests.
+ALL_SOURCES = tuple({name for f in FEEDS for name in f.sources})
+
 
 @pytest.mark.parametrize(
     "link,expected",
@@ -115,10 +118,7 @@ def test_silent_truncation_is_refused(tmp_path: Path) -> None:
             )
             for i in range(n)
         ]
-        return {
-            k: SourceResult(items=items)
-            for k in ("research", "notices", "reports", "system_cards", "metr")
-        }
+        return dict.fromkeys(ALL_SOURCES, SourceResult(items=items))
 
     full = write_feeds(make(20), tmp_path)
     assert next(s for s in full if s.spec is spec).item_count == 20
@@ -152,7 +152,7 @@ def test_failing_source_exits_nonzero_and_preserves_the_feed(tmp_path, monkeypat
     monkeypatch.setattr(
         cli,
         "collect",
-        lambda _fs: dict.fromkeys(("research", "notices", "reports", "system_cards", "metr"), good),
+        lambda _fs: dict.fromkeys(ALL_SOURCES, good),
     )
     cli.build(docs=docs, state=tmp_path / "s.json", readme=tmp_path / "R.md")
     before = (docs / "openai-alignment-research.xml").read_bytes()
@@ -162,7 +162,7 @@ def test_failing_source_exits_nonzero_and_preserves_the_feed(tmp_path, monkeypat
         cli,
         "collect",
         lambda _fs: {
-            **dict.fromkeys(("notices", "reports", "system_cards", "metr"), good),
+            **dict.fromkeys(ALL_SOURCES, good),
             "research": broken,
         },
     )
@@ -170,3 +170,33 @@ def test_failing_source_exits_nonzero_and_preserves_the_feed(tmp_path, monkeypat
         cli.build(docs=docs, state=tmp_path / "s.json", readme=tmp_path / "R.md")
     assert exc.value.code == 1, "a broken source must redden the run"
     assert (docs / "openai-alignment-research.xml").read_bytes() == before
+
+
+@pytest.mark.parametrize(
+    "text,expected",
+    [
+        ("January 2026", date(2026, 1, 1)),
+        ("  October 2024 ", date(2024, 10, 1)),
+        ("september 2026", date(2026, 9, 1)),
+        ("2026", None),
+        ("Jan 2026", None),
+        ("Smarch 2026", None),
+        ("", None),
+    ],
+)
+def test_dario_month_year_dates(text, expected) -> None:
+    from rssfeeds.sources.dario_amodei import _parse_month_year
+
+    assert _parse_month_year(text) == expected
+
+
+def test_dario_feed_carries_body_text_for_every_entry() -> None:
+    """Short posts and essays use different content containers; both must yield text."""
+    path = FEEDS_DIR / "dario-amodei.xml"
+    if not path.exists():
+        pytest.skip("dario-amodei.xml not generated yet")
+    parsed = feedparser.parse(path.read_bytes())
+    assert not parsed.bozo
+    empty = [e.title for e in parsed.entries if not e.get("content", [{}])[0].get("value")]
+    assert not empty, f"entries with no body text: {empty}"
+    assert {t.term for e in parsed.entries for t in e.get("tags", [])} == {"Essay", "Short post"}
