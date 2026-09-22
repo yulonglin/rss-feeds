@@ -1,7 +1,7 @@
 {
   "site": "https://feeds.yulonglin.com/",
   "repo": "https://github.com/yulonglin/rss-feeds",
-  "generated": "2026-09-17",
+  "generated": "2026-09-22",
   "feeds": [
     {
       "slug": "openai-alignment-research",
@@ -29,7 +29,7 @@
       "notes": "",
       "items": 3,
       "newest": "2026-09-11",
-      "healthy": true
+      "healthy": false
     },
     {
       "slug": "openai-alignment-reports",
@@ -43,7 +43,7 @@
       "notes": "Upstream publishes no date for these, so each entry is dated the day this generator first saw it.",
       "items": 6,
       "newest": "2026-09-17",
-      "healthy": true
+      "healthy": false
     },
     {
       "slug": "openai-alignment-all",
@@ -57,7 +57,7 @@
       "notes": "",
       "items": 36,
       "newest": "2026-09-17",
-      "healthy": true
+      "healthy": false
     },
     {
       "slug": "openai-alignment-all-50",
@@ -71,7 +71,7 @@
       "notes": "",
       "items": 36,
       "newest": "2026-09-17",
-      "healthy": true
+      "healthy": false
     },
     {
       "slug": "openai-system-cards",
