@@ -1,7 +1,7 @@
 {
   "site": "https://feeds.yulonglin.com/",
   "repo": "https://github.com/yulonglin/rss-feeds",
-  "generated": "2026-09-22",
+  "generated": "2026-09-23",
   "feeds": [
     {
       "slug": "openai-alignment-research",
@@ -97,8 +97,8 @@
       "source_url": "https://metr.org/",
       "upstream_status": "Official feed.xml is valid but ~8.9 MB and interleaves /es/ and /zh-Hans/ duplicates of English posts.",
       "notes": "",
-      "items": 89,
-      "newest": "2026-08-31",
+      "items": 90,
+      "newest": "2026-09-22",
       "healthy": true
     },
     {
@@ -112,7 +112,7 @@
       "upstream_status": "Official feed.xml is ~8.9 MB with translated duplicates.",
       "notes": "",
       "items": 50,
-      "newest": "2026-08-31",
+      "newest": "2026-09-22",
       "healthy": true
     },
     {
@@ -125,8 +125,8 @@
       "source_url": "https://metr.org/",
       "upstream_status": "Official feed.xml is ~8.9 MB with translated duplicates.",
       "notes": "Click through to read; article text is not carried in this variant.",
-      "items": 89,
-      "newest": "2026-08-31",
+      "items": 90,
+      "newest": "2026-09-22",
       "healthy": true
     },
     {
