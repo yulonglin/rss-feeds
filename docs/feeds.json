@@ -1,7 +1,7 @@
 {
   "site": "https://feeds.yulonglin.com/",
   "repo": "https://github.com/yulonglin/rss-feeds",
-  "generated": "2026-09-23",
+  "generated": "2026-09-26",
   "feeds": [
     {
       "slug": "openai-alignment-research",
@@ -29,7 +29,7 @@
       "notes": "",
       "items": 3,
       "newest": "2026-09-11",
-      "healthy": false
+      "healthy": true
     },
     {
       "slug": "openai-alignment-reports",
@@ -40,10 +40,10 @@
       "source_name": "Misalignment Reports",
       "source_url": "https://alignment.openai.com/misalignment-reports/",
       "upstream_status": "No feed of any kind upstream.",
-      "notes": "Upstream publishes no date for these, so each entry is dated the day this generator first saw it.",
-      "items": 6,
-      "newest": "2026-09-17",
-      "healthy": false
+      "notes": "Upstream shows only a last-updated date, so each entry keeps the date this generator first saw it and does not jump back to the top when edited.",
+      "items": 9,
+      "newest": "2026-09-25",
+      "healthy": true
     },
     {
       "slug": "openai-alignment-all",
@@ -55,9 +55,9 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "No merged feed upstream.",
       "notes": "",
-      "items": 36,
-      "newest": "2026-09-17",
-      "healthy": false
+      "items": 39,
+      "newest": "2026-09-25",
+      "healthy": true
     },
     {
       "slug": "openai-alignment-all-50",
@@ -69,9 +69,9 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "No merged feed upstream.",
       "notes": "",
-      "items": 36,
-      "newest": "2026-09-17",
-      "healthy": false
+      "items": 39,
+      "newest": "2026-09-25",
+      "healthy": true
     },
     {
       "slug": "openai-system-cards",
@@ -142,6 +142,20 @@
       "items": 6,
       "newest": "2026-09-01",
       "healthy": true
+    },
+    {
+      "slug": "tldr-ai",
+      "title": "TLDR AI",
+      "description": "The TLDR AI daily newsletter, one entry per issue with every story's headline, read time and summary, grouped under the issue's own sections. Sponsor slots and utm tracking are removed.",
+      "org": "TLDR",
+      "feed_url": "https://feeds.yulonglin.com/tldr-ai.xml",
+      "source_name": "TLDR AI",
+      "source_url": "https://tldr.tech/ai",
+      "upstream_status": "Official /api/rss/ai exists but each item is only the emoji headline and a link: no summary and none of the stories.",
+      "notes": "",
+      "items": 0,
+      "newest": null,
+      "healthy": false
     }
   ]
 }
