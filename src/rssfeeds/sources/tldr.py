@@ -16,6 +16,7 @@ from email.utils import parsedate_to_datetime
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from xml.etree import ElementTree as ET
 
+import httpx
 from lxml import html as lx
 
 from ..http import fetch_bytes, fetch_text
@@ -129,6 +130,17 @@ def _issues(newsletter: str) -> list[tuple[str, str, str]]:
     ]
 
 
+def _fetch_page(url: str) -> str | None:
+    """An issue page, or None when TLDR lists an issue it never published (seen: a 404
+    for 2026-09-16 while the feed still carried it). Any other failure propagates."""
+    try:
+        return fetch_text(url)
+    except httpx.HTTPStatusError as exc:
+        if exc.response.status_code == 404:
+            return None
+        raise
+
+
 def tldr(newsletter: str, label: str) -> SourceResult:
     try:
         issues = _issues(newsletter)
@@ -139,13 +151,16 @@ def tldr(newsletter: str, label: str) -> SourceResult:
 
     try:
         with ThreadPoolExecutor(max_workers=6) as pool:
-            pages = list(pool.map(fetch_text, [link for _, link, _ in issues]))
-        rendered = [parse_issue(p) for p in pages]
+            pages = list(pool.map(_fetch_page, [link for _, link, _ in issues]))
+        rendered = [parse_issue(p) if p is not None else None for p in pages]
     except Exception as exc:  # noqa: BLE001
         return SourceResult(error=f"issue fetch/parse failed: {exc}")
 
     items = []
-    for (headline, link, pub), (content, titles) in zip(issues, rendered, strict=True):
+    for (headline, link, pub), issue in zip(issues, rendered, strict=True):
+        if issue is None:
+            continue
+        content, titles = issue
         items.append(
             Item(
                 title=headline or link.rsplit("/", 1)[-1],
