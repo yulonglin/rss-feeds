@@ -314,3 +314,44 @@ def test_tldr_issue_without_stories_fails_loudly() -> None:
 
     with pytest.raises(ValueError):
         parse_issue("<html><body><section></section></body></html>")
+
+
+TANGLE_DAILY = (
+    "<p>Intro</p>"
+    "<h3 id='quick-hits'>Quick hits.</h3><p>Headline soup</p>"
+    "<div class='kg-card kg-cta-card'>Today’s partner: buy</div>"
+    "<h3 id='today%E2%80%99s-topic'>Today’s topic.</h3><p>The story.</p>"
+    "<h4>What the left is saying.</h4><p>Left.</p>"
+    "<div class='kg-card kg-cta-card'>Today’s partner: buy more</div>"
+    "<h4>My take.</h4><p>Take.</p>"
+    "<h3 id='under-the-radar'>Under the radar.</h3><p>Quiet story.</p>"
+    "<h3 id='the-extras'>The extras.</h3><p>Fluff</p>"
+    "<h3 id='have-a-nice-day'>Have a nice day.</h3><p>Puppies</p>"
+) + "<p>padding</p>" * 250
+
+
+def test_tangle_keeps_only_topic_and_under_the_radar() -> None:
+    from rssfeeds.sources.tangle import select
+
+    out = select("https://www.readtangle.com/x/", "Isaac Saul", ["Iran"], TANGLE_DAILY)
+    assert out is not None
+    for kept in ("The story.", "Left.", "Take.", "Quiet story."):
+        assert kept in out
+    for dropped in ("Intro", "Headline soup", "buy", "Fluff", "Puppies"):
+        assert dropped not in out
+
+
+def test_tangle_drops_teasers_previews_and_recaps() -> None:
+    from rssfeeds.sources.tangle import select
+
+    essay = "<p>An essay.</p>" * 300
+    teaser = "<p>Watch our video</p>"
+    assert select("https://www.readtangle.com/v/", "Isaac Saul", [], teaser) is None
+    assert select("https://www.readtangle.com/f/", "Isaac Saul", ["Friday edition"], essay) is None
+    assert select("https://www.readtangle.com/s/", "Tangle Staff", ["The Sunday"], essay) is None
+    assert (
+        select("https://www.readtangle.com/otherposts/r/", "Tangle Staff", ["reader-essay"], essay)
+        is None
+    )
+    kept = select("https://www.readtangle.com/otherposts/e/", "Isaac Saul", [], essay)
+    assert kept is not None and kept.count("An essay.") == 300

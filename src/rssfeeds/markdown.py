@@ -28,6 +28,7 @@ WHY = """## Why each feed exists
 | OpenAI, System Cards | `deploymentsafety.openai.com/posts.xml` | A broken dev build: 255 bytes, zero items, `<link>` of `http://localhost:4321/`. |
 | METR | `metr.org/feed.xml` | Valid, but ~8.9 MB and interleaved with `/es/` and `/zh-Hans/` duplicates of English posts. |
 | TLDR AI | `tldr.tech/api/rss/ai` | Headline and link only: none of the issue's stories or summaries. |
+| Tangle | `readtangle.com/rss/` | Complete, but most of each daily edition and many of the entries are packaging around the one section worth reading. |
 """
 
 NOTES = """## Things worth knowing

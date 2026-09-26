@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import html
 import re
-from concurrent.futures import ThreadPoolExecutor
+import time
 from email.utils import parsedate_to_datetime
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from xml.etree import ElementTree as ET
@@ -25,6 +25,9 @@ from ..models import Item, SourceResult
 BASE = "https://tldr.tech/"
 
 # "Bringing Your Muse to Life (5 minute read)" -> title, "5 minute read"
+# TLDR's own hiring posts run as ordinary stories, untagged.
+_OWN_JOB_ADS = "https://jobs.ashbyhq.com/tldr.tech"
+
 _TRAILING_TAG = re.compile(r"^(?P<title>.*?)\s*\((?P<tag>[^()]*)\)\s*$")
 
 
@@ -85,10 +88,11 @@ def parse_issue(page: str) -> tuple[str, list[str]]:
             if not link or not h:
                 continue
             title, tag = _split_tag(_text(h[0]))
-            if tag.lower() == "sponsor":
+            href = _clean_url(link[0].get("href"))
+            if tag.lower() == "sponsor" or href.startswith(_OWN_JOB_ADS):
                 continue
             body = art.cssselect("div.newsletter-html")
-            stories.append((title, tag, _clean_url(link[0].get("href")), body[0] if body else None))
+            stories.append((title, tag, href, body[0] if body else None))
         if not stories:
             continue
         if header is not None:
@@ -130,15 +134,23 @@ def _issues(newsletter: str) -> list[tuple[str, str, str]]:
     ]
 
 
-def _fetch_page(url: str) -> str | None:
-    """An issue page, or None when TLDR lists an issue it never published (seen: a 404
-    for 2026-09-16 while the feed still carried it). Any other failure propagates."""
-    try:
-        return fetch_text(url)
-    except httpx.HTTPStatusError as exc:
-        if exc.response.status_code == 404:
-            return None
-        raise
+def _fetch_page(url: str, *, attempts: int = 3) -> str | None:
+    """An issue page, or None when it stays 404 after retries.
+
+    tldr.tech answers bursts of requests with 404s rather than 429s: fetching 20 issues
+    six at a time lost 15 of them at random. So pages are fetched one at a time, a 404 is
+    retried after a pause, and only a persistent 404 counts as an issue that was never
+    published. Any other failure propagates.
+    """
+    for attempt in range(attempts):
+        try:
+            return fetch_text(url)
+        except httpx.HTTPStatusError as exc:
+            if exc.response.status_code != 404:
+                raise
+            if attempt + 1 < attempts:
+                time.sleep(2 * (attempt + 1))
+    return None
 
 
 def tldr(newsletter: str, label: str) -> SourceResult:
@@ -150,11 +162,16 @@ def tldr(newsletter: str, label: str) -> SourceResult:
         return SourceResult(error=f"{feed_url(newsletter)} listed no issues")
 
     try:
-        with ThreadPoolExecutor(max_workers=6) as pool:
-            pages = list(pool.map(_fetch_page, [link for _, link, _ in issues]))
+        pages = [_fetch_page(link) for _, link, _ in issues]
         rendered = [parse_issue(p) if p is not None else None for p in pages]
     except Exception as exc:  # noqa: BLE001
         return SourceResult(error=f"issue fetch/parse failed: {exc}")
+
+    missing = sum(p is None for p in pages)
+    if missing * 2 > len(pages):
+        return SourceResult(
+            error=f"{missing} of {len(pages)} issue pages returned 404 - likely rate limiting"
+        )
 
     items = []
     for (headline, link, pub), issue in zip(issues, rendered, strict=True):

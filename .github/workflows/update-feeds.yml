@@ -31,53 +31,6 @@ jobs:
         with:
           enable-cache: true
 
-      - name: DEBUG dump feeds
-        continue-on-error: true
-        run: |
-          cat > /tmp/dump.py <<'PYEOF'
-          import httpx, re
-          from collections import Counter
-          from xml.etree import ElementTree as ET
-          from lxml import html as lx
-          H={"User-Agent": "Mozilla/5.0 rss-feeds/0.1 (+https://github.com/yulonglin/rss-feeds)"}
-          NS={"content":"http://purl.org/rss/1.0/modules/content/","dc":"http://purl.org/dc/elements/1.1/"}
-          r = httpx.get("https://www.readtangle.com/rss/", follow_redirects=True, headers=H, timeout=60)
-          ch = ET.fromstring(r.content).find("channel")
-          items = ch.findall("item")
-          print("TANGLE", len(items), len(r.content))
-          for it in items:
-              cats = [c.text for c in it.findall("category")]
-              body = it.findtext("content:encoded", namespaces=NS) or ""
-              print("-", it.findtext("pubDate")[:16], "|", it.findtext("title"), "|", it.findtext("link"), "|", cats, "|", it.findtext("dc:creator", namespaces=NS), "|", len(body))
-          done = set()
-          for it in items:
-              link = it.findtext("link")
-              kind = link.split("/")[3]
-              if kind in done: continue
-              done.add(kind)
-              body = it.findtext("content:encoded", namespaces=NS) or ""
-              doc = lx.fromstring(f"<div>{body}</div>")
-              print("=== OUTLINE", kind, it.findtext("title"))
-              for el in doc.iter():
-                  if el.tag in ("h1","h2","h3","h4") or (el.tag in ("p",) and el.text_content().strip().isupper() and len(el.text_content())<60) or (el.tag=="strong" and len(el.text_content())<50 and el.getparent().tag=="p" and el.getparent().text_content().strip()==el.text_content().strip()):
-                      print("  ", el.tag, el.get("id"), (el.text_content() or "").strip()[:90])
-                  if el.tag=="div" and el.get("class") and "kg-" in el.get("class"):
-                      print("  [div]", el.get("class")[:60], el.text_content().strip()[:60])
-          for u in ["https://www.pon.harvard.edu/feed/", "https://www.pon.harvard.edu/daily/feed/"]:
-              r = httpx.get(u, follow_redirects=True, headers=H, timeout=60)
-              print("== PON", u, r.status_code, r.url, len(r.content))
-              try:
-                  ch = ET.fromstring(r.content).find("channel")
-                  for it in ch.findall("item"):
-                      body = it.findtext("content:encoded", namespaces=NS) or it.findtext("description") or ""
-                      print("-", (it.findtext("pubDate") or "")[:16], "|", it.findtext("title"), "|", it.findtext("link"), "|", [c.text for c in it.findall("category")][:6], "|", len(body))
-                  body = ch.find("item").findtext("content:encoded", namespaces=NS) or ch.find("item").findtext("description")
-                  print("FIRSTBODY", body[:2500])
-              except Exception as e:
-                  print("ERR", e, r.text[:500])
-          PYEOF
-          uv run python /tmp/dump.py
-
       - name: Tests
         run: uv run --group dev pytest -q
 

@@ -42,6 +42,7 @@ OAI_CARDS = "https://deploymentsafety.openai.com/"
 METR_BLOG = "https://metr.org/"
 DARIO = "https://darioamodei.com/"
 TLDR_AI = "https://tldr.tech/ai"
+TANGLE = "https://www.readtangle.com/"
 
 FEEDS: list[FeedSpec] = [
     FeedSpec(
@@ -204,6 +205,24 @@ FEEDS: list[FeedSpec] = [
         upstream_status=(
             "Official /api/rss/ai exists but each item is only the emoji headline and a "
             "link: no summary and none of the stories."
+        ),
+    ),
+    FeedSpec(
+        slug="tangle",
+        title="Tangle - the good parts",
+        description=(
+            "Tangle's daily edition cut down to Today's topic (the story, what the left and "
+            "right are saying, and Isaac Saul's take) and Under the radar, plus Isaac's "
+            "standalone essays. Sponsors, quick hits, extras, teasers, paywalled previews "
+            "and the Sunday recap are left out."
+        ),
+        org="Tangle",
+        source_name="readtangle.com",
+        source_url=TANGLE,
+        sources=("tangle",),
+        upstream_status=(
+            "Official /rss/ is complete but interleaves the daily with video and podcast "
+            "teasers, paywalled previews, recaps, reader essays and sponsor cards."
         ),
     ),
 ]

@@ -14,6 +14,7 @@ from .sources import dario_amodei as dario_src
 from .sources import metr as metr_src
 from .sources import openai_alignment as oai
 from .sources import openai_system_cards as cards
+from .sources import tangle as tangle_src
 from .sources import tldr as tldr_src
 from .state import FirstSeen
 
@@ -42,6 +43,7 @@ def collect(first_seen: FirstSeen) -> dict[str, SourceResult]:
         "metr": metr_src.metr_english(),
         "dario": dario_src.dario_amodei(),
         "tldr_ai": tldr_src.tldr("ai", "TLDR AI"),
+        "tangle": tangle_src.tangle(),
     }
 
 
