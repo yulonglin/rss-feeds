@@ -24,14 +24,15 @@ WHY = """## Why each feed exists
 |---|---|---|
 | OpenAI, Research and Releases | `alignment.openai.com/rss.xml` | Valid, but last built 2026-07-21 and missing every post hosted on openai.com proper. |
 | OpenAI, Misalignment Notices | none | No feed published at all. |
-| OpenAI, Misalignment Reports | none | No feed published at all, and no dates in the markup. |
+| OpenAI, Misalignment Reports | none | No feed published at all, and only a last-updated date in the markup. |
 | OpenAI, System Cards | `deploymentsafety.openai.com/posts.xml` | A broken dev build: 255 bytes, zero items, `<link>` of `http://localhost:4321/`. |
 | METR | `metr.org/feed.xml` | Valid, but ~8.9 MB and interleaved with `/es/` and `/zh-Hans/` duplicates of English posts. |
+| TLDR AI | `tldr.tech/api/rss/ai` | Headline and link only: none of the issue's stories or summaries. |
 """
 
 NOTES = """## Things worth knowing
 
-- **Misalignment Reports carry no publication date.** Nothing in the page markup gives one. Each report is dated the day this generator first saw it, recorded in `state/first_seen.json` and committed, so entries do not resurface as new at every refresh.
+- **Misalignment Reports are dated when first seen, not when last updated.** The page shows only a last-updated date, and dating by it would push a report back to the top of the feed every time it is edited. Each report keeps the date this generator first saw it (the page's date, for reports seen since that date appeared), recorded in `state/first_seen.json` and committed.
 - **System cards follow OpenAI's own index, not their sitemap.** The sitemap lists two further pages (`/gpt-5-codex/`, `/o3/`) that OpenAI's listing omits, and carries no dates at all. Matching the listing keeps the feed to what the publisher actually presents as current.
 - **A layout change is caught two ways.** Each scraper is pinned to specific selectors, so a page that no longer matches them yields zero entries and fails loudly. A page that still matches but returns far fewer entries than the last published run is refused too, at a 60% floor, because a silently truncated feed looks normal and is therefore worse than an outright failure. Either case opens a `feed-broken` issue on the repository and reddens the scheduled run. If a drop is genuine, `uv run rssfeeds --allow-shrink` accepts it.
 - **A source that fails leaves its feed alone.** If METR is unreachable the five OpenAI feeds still refresh; the workflow run goes red and the stale feed keeps its last good contents rather than emptying.

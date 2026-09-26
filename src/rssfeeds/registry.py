@@ -41,6 +41,7 @@ OAI_REPORTS = "https://alignment.openai.com/misalignment-reports/"
 OAI_CARDS = "https://deploymentsafety.openai.com/"
 METR_BLOG = "https://metr.org/"
 DARIO = "https://darioamodei.com/"
+TLDR_AI = "https://tldr.tech/ai"
 
 FEEDS: list[FeedSpec] = [
     FeedSpec(
@@ -85,8 +86,8 @@ FEEDS: list[FeedSpec] = [
         sources=("reports",),
         upstream_status="No feed of any kind upstream.",
         notes=(
-            "Upstream publishes no date for these, so each entry is dated the day this "
-            "generator first saw it."
+            "Upstream shows only a last-updated date, so each entry keeps the date this "
+            "generator first saw it and does not jump back to the top when edited."
         ),
     ),
     FeedSpec(
@@ -186,6 +187,23 @@ FEEDS: list[FeedSpec] = [
         notes=(
             "The site prints a month and year rather than a full date, so every entry is "
             "dated the first of its month."
+        ),
+    ),
+    FeedSpec(
+        slug="tldr-ai",
+        title="TLDR AI",
+        description=(
+            "The TLDR AI daily newsletter, one entry per issue with every story's headline, "
+            "read time and summary, grouped under the issue's own sections. Sponsor slots "
+            "and utm tracking are removed."
+        ),
+        org="TLDR",
+        source_name="TLDR AI",
+        source_url=TLDR_AI,
+        sources=("tldr_ai",),
+        upstream_status=(
+            "Official /api/rss/ai exists but each item is only the emoji headline and a "
+            "link: no summary and none of the stories."
         ),
     ),
 ]

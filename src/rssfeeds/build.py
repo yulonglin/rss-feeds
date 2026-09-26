@@ -14,6 +14,7 @@ from .sources import dario_amodei as dario_src
 from .sources import metr as metr_src
 from .sources import openai_alignment as oai
 from .sources import openai_system_cards as cards
+from .sources import tldr as tldr_src
 from .state import FirstSeen
 
 # A refresh that returns far fewer entries than the last published run usually means the
@@ -40,6 +41,7 @@ def collect(first_seen: FirstSeen) -> dict[str, SourceResult]:
         "system_cards": cards.system_cards(),
         "metr": metr_src.metr_english(),
         "dario": dario_src.dario_amodei(),
+        "tldr_ai": tldr_src.tldr("ai", "TLDR AI"),
     }
 
 

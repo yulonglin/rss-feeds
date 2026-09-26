@@ -54,6 +54,11 @@ def research() -> SourceResult:
     return SourceResult(items=items)
 
 
+def _entry_date(entry) -> date | None:
+    t = entry.cssselect(".cb-meta time[datetime]") or entry.cssselect("time[datetime]")
+    return date.fromisoformat(t[0].get("datetime")) if t else None
+
+
 def notices() -> SourceResult:
     try:
         doc = lx.fromstring(fetch_text(REPORTS_URL))
@@ -61,63 +66,75 @@ def notices() -> SourceResult:
         return SourceResult(error=f"fetch/parse failed: {exc}")
 
     items: list[Item] = []
-    for art in doc.cssselect("article.ap-notice"):
-        t = art.cssselect("time[datetime]")
-        h = art.cssselect(".ap-notice-title")
-        if not t or not h:
+    for entry in doc.cssselect("#notice-entries details.cb-notice"):
+        when = _entry_date(entry)
+        h = entry.cssselect("summary h3")
+        if when is None or not h:
             continue
-        src = art.cssselect("a.ap-notice-source")
-        body = [p for p in art.cssselect("p") if "ap-notice-meta" not in (p.get("class") or "")]
-        anchor = art.get("id") or ""
+        src = entry.cssselect("a.ap-notice-source")
+        body = entry.cssselect(".cb-copy")
+        anchor = entry.get("id") or ""
         items.append(
             Item(
                 title=_text(h[0]),
                 link=urljoin(BASE, src[0].get("href")) if src else f"{REPORTS_URL}#{anchor}",
                 guid=f"{REPORTS_URL}#{anchor}" if anchor else urljoin(BASE, src[0].get("href")),
-                published=Item.at_midnight(date.fromisoformat(t[0].get("datetime"))),
+                published=Item.at_midnight(when),
                 description=_text(body[0]) if body else "",
                 categories=["Misalignment Notice"],
             )
         )
     if not items:
         return SourceResult(
-            error="no article.ap-notice entries found - page layout may have changed"
+            error="no details.cb-notice entries found - page layout may have changed"
         )
     return SourceResult(items=items)
 
 
+def _facts(entry) -> dict[str, str]:
+    """The Model / Observed during / Report updated pairs under each report."""
+    facts = {}
+    for dt in entry.cssselect("dl dt"):
+        dd = dt.getnext()
+        if dd is not None and dd.tag == "dd":
+            facts[_text(dt)] = _text(dd)
+    return facts
+
+
 def reports(first_seen: FirstSeen) -> SourceResult:
-    """Reports carry no publication date anywhere in the markup, so they are stamped
-    with the date this tool first saw them (see state/first_seen.json)."""
+    """Reports show only a last-updated date. Dating by it would move a report to the top
+    of the feed every time OpenAI edits it, so each report keeps the date it was first
+    seen (state/first_seen.json); a report new to us is seeded with the page's date."""
     try:
         doc = lx.fromstring(fetch_text(REPORTS_URL))
     except Exception as exc:  # noqa: BLE001
         return SourceResult(error=f"fetch/parse failed: {exc}")
 
     items: list[Item] = []
-    for art in doc.cssselect("article.ap-report"):
-        a = art.cssselect("a.ap-report-link")
-        h = art.cssselect(".ap-report-title")
+    for entry in doc.cssselect("#report-entries details.cb-entry"):
+        a = entry.cssselect("a.cb-link")
+        h = entry.cssselect("summary h3")
         if not a or not h:
             continue
         link = urljoin(BASE, a[0].get("href"))
-        summary = art.cssselect(".ap-report-summary")
-        scope = art.cssselect(".ap-report-scope")
-        desc = _text(summary[0]) if summary else ""
+        copy = entry.cssselect(".cb-copy")
+        desc = _text(copy[0]) if copy else ""
+        facts = _facts(entry)
+        scope = "; ".join(f"{k}: {facts[k]}" for k in ("Model", "Observed during") if k in facts)
         if scope:
-            desc = f"{desc}\n\n{_text(scope[0])}".strip()
+            desc = f"{desc}\n\n{scope}".strip()
         items.append(
             Item(
                 title=_text(h[0]),
                 link=link,
                 guid=link,
-                published=first_seen.stamp(link),
+                published=first_seen.stamp(link, today=_entry_date(entry)),
                 description=desc,
                 categories=["Misalignment Report"],
             )
         )
     if not items:
         return SourceResult(
-            error="no article.ap-report entries found - page layout may have changed"
+            error="no details.cb-entry report entries found - page layout may have changed"
         )
     return SourceResult(items=items)

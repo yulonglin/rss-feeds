@@ -200,3 +200,117 @@ def test_dario_feed_carries_body_text_for_every_entry() -> None:
     empty = [e.title for e in parsed.entries if not e.get("content", [{}])[0].get("value")]
     assert not empty, f"entries with no body text: {empty}"
     assert {t.term for e in parsed.entries for t in e.get("tags", [])} == {"Essay", "Short post"}
+
+
+CASEBOOK_PAGE = """
+<html><body><main>
+<div id="report-entries">
+  <details class="cb-entry" data-date="2026-09-25">
+    <summary><div><h3>An agent used DNS to reach an external chatbot</h3>
+      <p class="cb-meta">Report · Updated <time datetime="2026-09-25">Sep 25, 2026</time></p>
+    </div><span class="cb-toggle"></span></summary>
+    <div class="cb-body"><div>
+      <p class="cb-eyebrow">Observation</p>
+      <p class="cb-copy">An agent queried a chatbot over DNS.</p>
+      <a class="cb-link" href="/misalignment-reports/an-agent-used-dns/">Read full report <span>→</span></a>
+    </div>
+    <dl>
+      <div><dt>Model</dt><dd>Internal research model</dd></div>
+      <div><dt>Observed during</dt><dd>RL training</dd></div>
+      <div><dt>Report updated</dt><dd><time datetime="2026-09-25">Sep 25, 2026</time></dd></div>
+    </dl></div>
+  </details>
+  <details class="cb-entry" data-date="2026-09-16">
+    <summary><div><h3>Old report</h3>
+      <p class="cb-meta">Report · Updated <time datetime="2026-09-16">Sep 16, 2026</time></p>
+    </div></summary>
+    <div class="cb-body"><div><p class="cb-copy">Seen before.</p>
+      <a class="cb-link" href="/misalignment-reports/old/">Read full report</a></div></div>
+  </details>
+</div>
+<div id="notice-entries">
+  <details class="cb-entry cb-notice" id="notice-rubygems">
+    <summary><div><h3>RubyGems</h3>
+      <p class="cb-meta">Notice · <time datetime="2026-09-11">September 11, 2026</time></p>
+    </div></summary>
+    <div class="cb-body"><div>
+      <p class="cb-eyebrow">Notice summary</p>
+      <p class="cb-copy">We are investigating a report.</p>
+      <a class="ap-notice-source" href="https://openai.com/x/#update">Read the update <span>↗</span></a>
+    </div></div>
+  </details>
+</div>
+</main></body></html>
+"""
+
+
+def test_openai_casebook_layout(monkeypatch, tmp_path):
+    from rssfeeds.sources import openai_alignment as oai
+
+    monkeypatch.setattr(oai, "fetch_text", lambda _url: CASEBOOK_PAGE)
+
+    notices = oai.notices()
+    assert notices.ok, notices.error
+    [n] = notices.items
+    assert n.title == "RubyGems"
+    assert n.link == "https://openai.com/x/#update"
+    assert n.guid == "https://alignment.openai.com/misalignment-reports/#notice-rubygems"
+    assert n.published.date().isoformat() == "2026-09-11"
+    assert n.description == "We are investigating a report."
+
+    state = tmp_path / "first_seen.json"
+    state.write_text('{"https://alignment.openai.com/misalignment-reports/old/": "2026-09-17"}')
+    reports = oai.reports(FirstSeen(state))
+    assert reports.ok, reports.error
+    new, old = reports.items
+    assert new.link == "https://alignment.openai.com/misalignment-reports/an-agent-used-dns/"
+    assert new.title == "An agent used DNS to reach an external chatbot"
+    # a report new to us takes the page's date; one already seen keeps its recorded date
+    assert new.published.date().isoformat() == "2026-09-25"
+    assert old.published.date().isoformat() == "2026-09-17"
+    assert new.description == (
+        "An agent queried a chatbot over DNS.\n\nModel: Internal research model; "
+        "Observed during: RL training"
+    )
+
+
+TLDR_ISSUE = """
+<html><body><div><div>
+<h1>TLDR AI 2026-09-25</h1>
+<section></section>
+<section><header><div>💰</div><h3></h3></header>
+  <article><a class="font-bold" href="https://ad.example/?utm_source=tldr"><h3>Cut costs (Sponsor)</h3></a>
+  <div class="newsletter-html">Buy things.</div></article>
+</section>
+<section><header><div class="text-center">🚀</div><h3 class="text-center">Headlines &amp; Launches</h3></header>
+  <article class="mt-3"><a class="font-bold" href="https://research.meta.ai/muse?utm_source=tldrai&amp;id=7"><h3>Bringing Your Muse to Life (5 minute read)</h3></a>
+  <div class="newsletter-html">Meta has introduced <a class="x" href="https://meta.ai/?utm_medium=email">Muse</a>.</div></article>
+  <article class="mt-3"><a class="font-bold" href="https://github.com/wbopan/tastebench"><h3>Taste-Bench</h3></a>
+  <div class="newsletter-html">Plain blurb.</div></article>
+</section>
+</div></div></body></html>
+"""
+
+
+def test_tldr_issue_is_sectioned_and_sponsor_free() -> None:
+    from rssfeeds.sources.tldr import parse_issue
+
+    content, titles = parse_issue(TLDR_ISSUE)
+    assert titles == ["Bringing Your Muse to Life", "Taste-Bench"]
+    assert "Sponsor" not in content and "Buy things" not in content
+    assert "utm_" not in content
+    assert "<h3>🚀 Headlines &amp; Launches</h3>" in content
+    assert (
+        '<h4><a href="https://research.meta.ai/muse?id=7">Bringing Your Muse to Life</a> '
+        "<small>· 5 minute read</small></h4>"
+    ) in content
+    assert '<a href="https://meta.ai/">Muse</a>' in content
+    assert "<p>Plain blurb.</p>" in content
+    assert 'class="' not in content
+
+
+def test_tldr_issue_without_stories_fails_loudly() -> None:
+    from rssfeeds.sources.tldr import parse_issue
+
+    with pytest.raises(ValueError):
+        parse_issue("<html><body><section></section></body></html>")
