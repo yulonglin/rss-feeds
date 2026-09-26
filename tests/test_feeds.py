@@ -424,3 +424,37 @@ def test_collect_isolates_a_source_that_raises(monkeypatch, tmp_path) -> None:
     results = build.collect(FirstSeen(tmp_path / "s.json"))
     assert results["tangle"].error and "ValueError" in results["tangle"].error
     assert results["research"] is ok
+
+
+def test_default_opml_is_the_configured_set_in_folders() -> None:
+    from xml.etree import ElementTree as ET
+
+    from rssfeeds.opml import default_entries, render_opml
+    from rssfeeds.registry import EXTERNAL_DEFAULTS
+
+    data = render_opml("t", default_entries())
+    assert data == render_opml("t", default_entries()), "must be byte-stable"
+    root = ET.fromstring(data)
+    folders = {o.get("text"): o for o in root.find("body")}
+    urls = {o.get("xmlUrl") for o in root.iter("outline") if o.get("xmlUrl")}
+
+    expected = {f.url for f in FEEDS if f.default} | {e.url for e in EXTERNAL_DEFAULTS}
+    assert urls == expected
+    # overlapping variants stay out of the default set
+    assert "https://feeds.yulonglin.com/openai-alignment-research.xml" not in urls
+    assert "https://feeds.yulonglin.com/metr-en.xml" not in urls
+    # every feed sits inside a folder, never at the top level
+    assert all(o.get("xmlUrl") is None for o in root.find("body"))
+    assert set(folders) == {f.folder for f in FEEDS if f.default} | {
+        e.folder for e in EXTERNAL_DEFAULTS
+    }
+
+
+def test_all_opml_lists_every_published_feed() -> None:
+    from xml.etree import ElementTree as ET
+
+    from rssfeeds.opml import all_entries, render_opml
+
+    root = ET.fromstring(render_opml("t", all_entries()))
+    urls = [o.get("xmlUrl") for o in root.iter("outline") if o.get("xmlUrl")]
+    assert sorted(urls) == sorted(f.url for f in FEEDS)
