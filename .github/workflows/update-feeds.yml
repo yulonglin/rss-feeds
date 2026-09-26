@@ -34,6 +34,27 @@ jobs:
         with:
           enable-cache: true
 
+      - name: DEBUG dump page
+        run: |
+          cat > /tmp/dump.py <<'PYEOF'
+          import httpx
+          from lxml import html as lx
+          url = "https://alignment.openai.com/misalignment-reports/"
+          r = httpx.get(url, follow_redirects=True, headers={"User-Agent": "rss-feeds/0.1 (+https://github.com/yulonglin/rss-feeds)"})
+          print("STATUS", r.status_code, r.url, len(r.text))
+          doc = lx.fromstring(r.text)
+          body = doc.find("body")
+          def walk(el, d=0):
+              if not isinstance(el.tag, str) or el.tag in ("script", "style", "svg", "path"): return
+              attrs = " ".join(f'{k}="{v[:80]}"' for k, v in el.attrib.items() if k in ("class", "id", "href", "datetime", "data-date"))
+              txt = (el.text or "").strip().replace("\n", " ")[:70]
+              print("  " * d + f"<{el.tag} {attrs}> {txt}")
+              for c in el: walk(c, d + 1)
+          walk(body)
+          PYEOF
+          uv run python /tmp/dump.py
+          exit 1
+
       - name: Tests
         run: uv run --group dev pytest -q
 
