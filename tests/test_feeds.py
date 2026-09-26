@@ -6,7 +6,7 @@ from pathlib import Path
 import feedparser
 import pytest
 
-from rssfeeds.models import Item
+from rssfeeds.models import Item, SourceResult
 from rssfeeds.registry import FEEDS
 from rssfeeds.rss import build_rss
 from rssfeeds.sources.metr import is_english
@@ -355,3 +355,72 @@ def test_tangle_drops_teasers_previews_and_recaps() -> None:
     )
     kept = select("https://www.readtangle.com/otherposts/e/", "Isaac Saul", [], essay)
     assert kept is not None and kept.count("An essay.") == 300
+
+
+@pytest.mark.parametrize(
+    ("url", "expected"),
+    [
+        # plain tracking
+        ("https://a.com/p?utm_source=tldr&id=7", "https://a.com/p?id=7"),
+        # TLDR's double-escaped hrefs leave "amp;utm_source" keys
+        (
+            "https://qwen.ai/blog?id=qwen3.8-livetranslate&amp;utm_source=tldrai",
+            "https://qwen.ai/blog?id=qwen3.8-livetranslate",
+        ),
+        # tracking hidden in a query-style fragment
+        ("https://goodfire.com/r#?utm_source=tldrai", "https://goodfire.com/r"),
+        (
+            "https://baseten.co/b#quantization?utm_source=tldrai",
+            "https://baseten.co/b#quantization",
+        ),
+        # untouched when there is nothing to strip, byte for byte
+        ("https://a.com/p?foo&x=a,b:c", "https://a.com/p?foo&x=a,b:c"),
+    ],
+)
+def test_tldr_clean_url(url: str, expected: str) -> None:
+    from rssfeeds.sources.tldr import _clean_url
+
+    assert _clean_url(url) == expected
+
+
+def test_tangle_essay_drops_scripts_forms_and_share_buttons() -> None:
+    from rssfeeds.sources.tangle import select
+
+    essay = (
+        "Opening line."
+        + "<p>Real argument.</p>" * 200
+        + "<script>share()</script>"
+        + "<div class='tangle-share-row'><a href='x'><svg></svg></a></div>"
+        + "<div class='kg-card kg-signup-card'><form><input></form>Join Tangle</div>"
+        + "<p>Closing.</p>"
+    )
+    out = select("https://www.readtangle.com/otherposts/e/", "Isaac Saul", [], essay)
+    assert out is not None
+    assert "Opening line." in out and "Closing." in out
+    for junk in ("<script", "share()", "<form", "svg", "Join Tangle"):
+        assert junk not in out
+
+
+def test_collect_isolates_a_source_that_raises(monkeypatch, tmp_path) -> None:
+    from rssfeeds import build
+    from rssfeeds.sources import tangle as tangle_src
+
+    def boom():
+        raise ValueError("Invalid date value or format")
+
+    ok = SourceResult(items=[])
+    for mod, name in [
+        (build.oai, "research"),
+        (build.oai, "notices"),
+        (build.cards, "system_cards"),
+        (build.metr_src, "metr_english"),
+        (build.dario_src, "dario_amodei"),
+    ]:
+        monkeypatch.setattr(mod, name, lambda: ok)
+    monkeypatch.setattr(build.oai, "reports", lambda _fs: ok)
+    monkeypatch.setattr(build.tldr_src, "tldr", lambda *_a: ok)
+    monkeypatch.setattr(tangle_src, "tangle", boom)
+
+    results = build.collect(FirstSeen(tmp_path / "s.json"))
+    assert results["tangle"].error and "ValueError" in results["tangle"].error
+    assert results["research"] is ok

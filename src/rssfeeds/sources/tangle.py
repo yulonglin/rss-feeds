@@ -15,6 +15,8 @@ Everything else is dropped.
 
 from __future__ import annotations
 
+import html
+import sys
 from datetime import UTC
 from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
@@ -39,13 +41,33 @@ def _norm(text: str) -> str:
     return " ".join(text.replace("’", "'").split()).strip(" .").lower()
 
 
-def _is_ad(el) -> bool:
-    return "kg-cta-card" in (el.get("class") or "")
+# Ghost cards and embeds that are packaging, not writing: sponsor slots, signup
+# forms, share buttons and the scripts that drive them.
+_PACKAGING_CLASSES = ("kg-cta-card", "kg-signup-card", "tangle-share")
+_PACKAGING_TAGS = {"script", "style", "form", "iframe", "noscript"}
+
+
+def _is_packaging(el) -> bool:
+    cls = el.get("class") or ""
+    return el.tag in _PACKAGING_TAGS or any(c in cls for c in _PACKAGING_CLASSES)
+
+
+def _strip_packaging(root) -> None:
+    """Remove packaging anywhere in the tree, keeping the text that follows it."""
+    for el in [e for e in root.iter() if isinstance(e.tag, str) and e is not root]:
+        if _is_packaging(el) and el.getparent() is not None:
+            el.drop_tree()  # drop_tree keeps el.tail in the parent
+
+
+def _parse(body: str):
+    root = lx.fragment_fromstring(body, create_parent="div")
+    _strip_packaging(root)
+    return root
 
 
 def trim_daily(body: str) -> str | None:
     """Keep only the KEEP_SECTIONS of a daily edition. None if it has none of them."""
-    root = lx.fragment_fromstring(body, create_parent="div")
+    root = _parse(body)
     out: list[str] = []
     keeping = False
     for el in root:
@@ -53,18 +75,19 @@ def trim_daily(body: str) -> str | None:
             continue
         if el.tag == "h3":
             keeping = _norm(el.text_content()) in KEEP_SECTIONS
-        if keeping and not _is_ad(el):
+        if keeping:
             out.append(lx.tostring(el, encoding="unicode", method="html"))
     return "\n".join(out) if out else None
 
 
 def _strip_ads(body: str) -> str:
-    root = lx.fragment_fromstring(body, create_parent="div")
-    return "\n".join(
-        lx.tostring(el, encoding="unicode", method="html")
-        for el in root
-        if isinstance(el.tag, str) and not _is_ad(el)
-    )
+    root = _parse(body)
+    lead = html.escape(root.text.strip()) if root.text and root.text.strip() else ""
+    parts = [f"<p>{lead}</p>"] if lead else []
+    parts += [
+        lx.tostring(el, encoding="unicode", method="html") for el in root if isinstance(el.tag, str)
+    ]
+    return "\n".join(parts)
 
 
 def select(link: str, author: str, categories: list[str], body: str) -> str | None:
@@ -79,6 +102,16 @@ def select(link: str, author: str, categories: list[str], body: str) -> str | No
     return trim_daily(body)
 
 
+def _looks_daily(link: str, categories: list[str], body: str) -> bool:
+    """A full-length entry that select() should have trimmed rather than skipped."""
+    cats = {_norm(c) for c in categories}
+    return (
+        len(body) >= TEASER_MAX_CHARS
+        and "/otherposts/" not in link
+        and not cats & {"friday edition", "the sunday", "reader-essay"}
+    )
+
+
 def tangle() -> SourceResult:
     try:
         channel = ET.fromstring(fetch_bytes(FEED)).find("channel")
@@ -89,28 +122,40 @@ def tangle() -> SourceResult:
 
     entries = channel.findall("item")
     items: list[Item] = []
+    dailies = trimmed = 0
     for it in entries:
         link = (it.findtext("link") or "").strip()
         author = (it.findtext("dc:creator", namespaces=NS) or "").strip()
         categories = [c.text or "" for c in it.findall("category")]
         body = it.findtext("content:encoded", namespaces=NS) or ""
-        content = select(link, author, categories, body)
-        if content is None:
+        try:
+            content = select(link, author, categories, body)
+            if _looks_daily(link, categories, body):
+                dailies += 1
+                trimmed += content is not None
+            if content is None:
+                continue
+            published = parsedate_to_datetime(it.findtext("pubDate") or "").astimezone(UTC)
+        except Exception as exc:  # noqa: BLE001 - one malformed entry must not sink the feed
+            print(f"tangle: skipped {link or '?'}: {exc}", file=sys.stderr)
             continue
         items.append(
             Item(
                 title=(it.findtext("title") or "").strip(),
                 link=link,
                 guid=link,
-                published=parsedate_to_datetime(it.findtext("pubDate") or "").astimezone(UTC),
+                published=published,
                 description=(it.findtext("description") or "").strip(),
                 content_html=content,
                 author=author or None,
                 categories=["Essay" if "/otherposts/" in link else "Daily edition"],
             )
         )
-    if entries and not items:
+    if dailies and not trimmed:
         return SourceResult(
-            error="no entry had a Today's topic section - newsletter layout may have changed"
+            error=f"{dailies} daily editions but none had a Today's topic section - "
+            "newsletter layout may have changed"
         )
+    if entries and not items:
+        return SourceResult(error="every entry was filtered out - feed layout may have changed")
     return SourceResult(items=items)

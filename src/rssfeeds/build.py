@@ -34,17 +34,25 @@ class FeedStatus:
 
 
 def collect(first_seen: FirstSeen) -> dict[str, SourceResult]:
-    """Run every source independently: one site being down must not block the others."""
-    return {
-        "research": oai.research(),
-        "notices": oai.notices(),
-        "reports": oai.reports(first_seen),
-        "system_cards": cards.system_cards(),
-        "metr": metr_src.metr_english(),
-        "dario": dario_src.dario_amodei(),
-        "tldr_ai": tldr_src.tldr("ai", "TLDR AI"),
-        "tangle": tangle_src.tangle(),
+    """Run every source independently: one site being down must not block the others,
+    and neither must one source raising where it did not expect to."""
+    sources = {
+        "research": oai.research,
+        "notices": oai.notices,
+        "reports": lambda: oai.reports(first_seen),
+        "system_cards": cards.system_cards,
+        "metr": metr_src.metr_english,
+        "dario": dario_src.dario_amodei,
+        "tldr_ai": lambda: tldr_src.tldr("ai", "TLDR AI"),
+        "tangle": tangle_src.tangle,
     }
+    results = {}
+    for name, run in sources.items():
+        try:
+            results[name] = run()
+        except Exception as exc:  # noqa: BLE001 - reported as that source's failure
+            results[name] = SourceResult(error=f"unexpected {type(exc).__name__}: {exc}")
+    return results
 
 
 def _inspect(path: Path) -> tuple[int, datetime | None]:
@@ -96,7 +104,7 @@ def write_feeds(
 
         previous_count, _ = _inspect(path)
         floor = int(previous_count * SHRINK_THRESHOLD)
-        if not allow_shrink and previous_count and len(items) < floor:
+        if spec.shrink_guard and not allow_shrink and previous_count and len(items) < floor:
             statuses.append(
                 FeedStatus(
                     spec,

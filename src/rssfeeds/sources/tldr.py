@@ -13,7 +13,7 @@ import html
 import re
 import time
 from email.utils import parsedate_to_datetime
-from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from urllib.parse import urlsplit, urlunsplit
 from xml.etree import ElementTree as ET
 
 import httpx
@@ -35,15 +35,33 @@ def feed_url(newsletter: str) -> str:
     return f"{BASE}api/rss/{newsletter}"
 
 
+def _strip_utm(query: str) -> tuple[str, bool]:
+    """Remove utm_* pairs from a query string, keeping every other byte as it was."""
+    kept, dropped = [], False
+    for pair in query.split("&"):
+        key = pair.split("=", 1)[0]
+        # TLDR double-escapes some hrefs upstream, leaving "amp;utm_source=..." keys.
+        if key.removeprefix("amp;").startswith("utm_"):
+            dropped = True
+        elif pair:
+            kept.append(pair)
+    return "&".join(kept), dropped
+
+
 def _clean_url(url: str) -> str:
-    """Drop utm_* parameters so links are the plain article URL."""
+    """Drop utm_* tracking from the query and from a query-style fragment
+    ("#?utm_source=..." or "#section?utm_source=..."). A URL with no tracking is
+    returned exactly as given, so nothing else about it gets re-encoded."""
     parts = urlsplit(url)
-    query = [
-        (k, v)
-        for k, v in parse_qsl(parts.query, keep_blank_values=True)
-        if not k.startswith("utm_")
-    ]
-    return urlunsplit(parts._replace(query=urlencode(query)))
+    query, q_dropped = _strip_utm(parts.query)
+    frag, f_dropped = parts.fragment, False
+    if "?" in frag:
+        anchor, _, frag_query = frag.partition("?")
+        frag_query, f_dropped = _strip_utm(frag_query)
+        frag = f"{anchor}?{frag_query}" if frag_query else anchor
+    if not (q_dropped or f_dropped):
+        return url
+    return urlunsplit(parts._replace(query=query, fragment=frag))
 
 
 def _text(el) -> str:
@@ -135,21 +153,24 @@ def _issues(newsletter: str) -> list[tuple[str, str, str]]:
 
 
 def _fetch_page(url: str, *, attempts: int = 3) -> str | None:
-    """An issue page, or None when it stays 404 after retries.
+    """An issue page, or None when it still can't be fetched after retries.
 
     tldr.tech answers bursts of requests with 404s rather than 429s: fetching 20 issues
-    six at a time lost 15 of them at random. So pages are fetched one at a time, a 404 is
-    retried after a pause, and only a persistent 404 counts as an issue that was never
-    published. Any other failure propagates.
+    six at a time lost 15 of them at random. So pages are fetched one at a time, and a
+    404, a 429, a 5xx or a dropped connection is retried after a pause. A page that
+    still fails is left out of this run; tldr() fails the source if most pages do.
     """
     for attempt in range(attempts):
         try:
             return fetch_text(url)
         except httpx.HTTPStatusError as exc:
-            if exc.response.status_code != 404:
+            code = exc.response.status_code
+            if code != 404 and code != 429 and code < 500:
                 raise
-            if attempt + 1 < attempts:
-                time.sleep(2 * (attempt + 1))
+        except httpx.TransportError:
+            pass
+        if attempt + 1 < attempts:
+            time.sleep(2 * (attempt + 1))
     return None
 
 
@@ -170,7 +191,7 @@ def tldr(newsletter: str, label: str) -> SourceResult:
     missing = sum(p is None for p in pages)
     if missing * 2 > len(pages):
         return SourceResult(
-            error=f"{missing} of {len(pages)} issue pages returned 404 - likely rate limiting"
+            error=f"{missing} of {len(pages)} issue pages could not be fetched - likely rate limiting"
         )
 
     items = []
@@ -178,12 +199,16 @@ def tldr(newsletter: str, label: str) -> SourceResult:
         if issue is None:
             continue
         content, titles = issue
+        try:
+            published = Item.at_midnight(parsedate_to_datetime(pub).date())
+        except (TypeError, ValueError):
+            continue  # an undated issue can't be placed in the feed
         items.append(
             Item(
                 title=headline or link.rsplit("/", 1)[-1],
                 link=link,
                 guid=link,
-                published=Item.at_midnight(parsedate_to_datetime(pub).date()),
+                published=published,
                 description="\n".join(f"• {t}" for t in titles),
                 content_html=content,
                 author="TLDR",

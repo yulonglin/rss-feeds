@@ -56,7 +56,13 @@ def research() -> SourceResult:
 
 def _entry_date(entry) -> date | None:
     t = entry.cssselect(".cb-meta time[datetime]") or entry.cssselect("time[datetime]")
-    return date.fromisoformat(t[0].get("datetime")) if t else None
+    if not t:
+        return None
+    try:
+        # Tolerate a full timestamp ("2026-09-25T10:00:00Z") as well as a bare date.
+        return date.fromisoformat((t[0].get("datetime") or "")[:10])
+    except ValueError:
+        return None
 
 
 def notices() -> SourceResult:

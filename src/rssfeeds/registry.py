@@ -25,6 +25,9 @@ class FeedSpec:
     limit: int | None = None
     include_content: bool = True
     notes: str = ""
+    # Refuse a refresh that drops below 60% of the previous item count. Off for feeds
+    # that mirror a short sliding window, where a quiet week legitimately shrinks them.
+    shrink_guard: bool = True
     categories: list[str] = field(default_factory=list)
 
     @property
@@ -220,6 +223,7 @@ FEEDS: list[FeedSpec] = [
         source_name="readtangle.com",
         source_url=TANGLE,
         sources=("tangle",),
+        shrink_guard=False,
         upstream_status=(
             "Official /rss/ is complete but interleaves the daily with video and podcast "
             "teasers, paywalled previews, recaps, reader essays and sponsor cards."
