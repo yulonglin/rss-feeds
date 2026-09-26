@@ -34,16 +34,30 @@ jobs:
       - name: DEBUG dump page
         run: |
           cat > /tmp/dump.py <<'PYEOF'
-          import httpx
+          import httpx, re
           from lxml import html as lx
-          url = "https://alignment.openai.com/misalignment-reports/"
-          r = httpx.get(url, follow_redirects=True, headers={"User-Agent": "rss-feeds/0.1 (+https://github.com/yulonglin/rss-feeds)"})
-          print("STATUS", r.status_code, r.url, len(r.text))
+          H={"User-Agent": "rss-feeds/0.1 (+https://github.com/yulonglin/rss-feeds)"}
+          for u in ["https://tldr.tech/api/rss/ai"]:
+              r = httpx.get(u, follow_redirects=True, headers=H)
+              print("STATUS", r.status_code, r.url, len(r.text), r.headers.get("content-type"))
+              t = r.text
+              print(t[:1500])
+              i = t.find("<item>"); j = t.find("</item>", i); k = t.find("</item>", j+5)
+              print("=== ITEM1 ===")
+              print(t[i:j+7][:9000])
+              print("=== ITEM2 HEAD ===")
+              print(t[j:k][:1500])
+              print("NITEMS", t.count("<item>"))
+              links = re.findall(r"<link>([^<]+)</link>", t)[:6]
+              print(links)
+          link = re.findall(r"<item>.*?<link>([^<]+)</link>", t, re.S)[0]
+          r = httpx.get(link, follow_redirects=True, headers=H)
+          print("PAGE", r.status_code, r.url, len(r.text))
           doc = lx.fromstring(r.text)
           body = doc.find("body")
           def walk(el, d=0):
-              if not isinstance(el.tag, str) or el.tag in ("script", "style", "svg", "path"): return
-              attrs = " ".join(f'{k}="{v[:80]}"' for k, v in el.attrib.items() if k in ("class", "id", "href", "datetime", "data-date"))
+              if not isinstance(el.tag, str) or el.tag in ("script", "style", "svg", "path", "head"): return
+              attrs = " ".join(f'{k}="{v[:60]}"' for k, v in el.attrib.items() if k in ("class", "id", "href"))
               txt = (el.text or "").strip().replace("\n", " ")[:70]
               print("  " * d + f"<{el.tag} {attrs}> {txt}")
               for c in el: walk(c, d + 1)
