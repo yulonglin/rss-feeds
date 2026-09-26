@@ -7,10 +7,7 @@ on:
     - cron: "0 0,8,16 * * *"
   workflow_dispatch:
   push:
-    branches: [main]
-    paths:
-      - "src/**"
-      - ".github/workflows/update-feeds.yml"
+    branches: [main, claude/ci-newsletter-formatting-ucsqfq]
 
 permissions:
   contents: write
