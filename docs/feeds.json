@@ -153,9 +153,9 @@
       "source_url": "https://tldr.tech/ai",
       "upstream_status": "Official /api/rss/ai exists but each item is only the emoji headline and a link: no summary and none of the stories.",
       "notes": "",
-      "items": 0,
-      "newest": null,
-      "healthy": false
+      "items": 5,
+      "newest": "2026-09-25",
+      "healthy": true
     }
   ]
 }

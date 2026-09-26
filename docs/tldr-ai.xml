@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>TLDR AI</title>
+    <link>https://tldr.tech/ai</link>
+    <description>The TLDR AI daily newsletter, one entry per issue with every story's headline, read time and summary, grouped under the issue's own sections. Sponsor slots and utm tracking are removed.</description>
+    <language>en</language>
+    <generator>rss-feeds (https://github.com/yulonglin/rss-feeds)</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
+    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>ChatGPT Pro Max 🤖, Muse realtime avatar 🎭, DeepSeek $1B ARR 💰</title>
+      <link>https://tldr.tech/ai/2026-09-25</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-25</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Bringing Your Muse to Life
+• Gemini 3.8 Live with Live Avatar
+• OpenAI prepares new $500/month Pro Max plan for ChatGPT
+• Contrastive Language Models
+• Managed Deep Agents v0.8: new auth, memory, and channels
+• Are you ready for superintelligence
+• What we learned from being the first company to disclose an agent cyberattack
+• Product Manager, Applied AI at TLDR
+• A finance benchmark asks agents to finish the whole assignment
+• Anthropic tested what happens when agents bargain for people
+• How Good Are LLMs at Decision Forking?
+• Intelligence Density</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://research.meta.ai/blog/bringing-your-muse-to-life"&gt;Bringing Your Muse to Life&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta has introduced Muse Realtime Avatar, a technology that transforms conversations into expressive, interactive avatars in real time. Using a seamless integration of voice and visual performance, it synchronizes speech and avatar expressions accurately in live interactions. Muse Realtime Avatar outperforms competitors with improved visual quality and real-time responsiveness, supported by Meta&amp;#x27;s optimized AI inference stack.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"&gt;Gemini 3.8 Live with Live Avatar&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google launched Gemini 3.8 Live featuring a Live Avatar, enhancing user interaction. This update offers real-time responses and more personalized user experiences. It positions Google to compete more aggressively with other AI platforms.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/openai-prepares-new-500-month-pro-max-plan-for-chatgpt/"&gt;OpenAI prepares new $500/month Pro Max plan for ChatGPT&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI appears to be preparing a new ChatGPT Pro Max subscription priced at $500 per month. It is unknown whether the company plans to justify the $500 price through speed, larger usage allowances, longer-running Work sessions, or a combination of the three. The timing of the leak is notable as OpenAI&amp;#x27;s DevDay will take place on September 29. The company is expected to discuss APIs, developer tooling, new subscription tiers, and new products at the event.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://contrastive-lm.notion.site/"&gt;Contrastive Language Models&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Contrastive Language Models (CLMs) are a new class of System One model trained with a contrastive learning objective that connects states and actions. CLM-8B delivers performance comparable to Jev across computer-use, gaming, and tool-calling tasks while achieving up to 9x lower latency. It also sets a new state-of-the-art on changing agentic coding benchmarks. The model is pre-trained on 60M Nemotron Q&amp;amp;A pairs, mid-trained on 30M synthetic hard negatives, and post-trained on 1M agentic trajectories.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.langchain.com/blog/langsmith-managed-deep-agents-whats-new"&gt;Managed Deep Agents v0.8: new auth, memory, and channels&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Managed Deep Agents combines the Deep Agents harness with all of the infrastructure required to run agents in production. It is the simplest way to build, deploy, and run mission-critical agents in production. Managed Deep Agents 0.8 adds support for user-owned credentials, user-level memory, HTTP channels, and file transfer in Slack. It also adds a pre-built tool for web search powered by Parallel.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/knowerofmarkets/status/2103138714050331089"&gt;Are you ready for superintelligence&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Recent frontier models are rapidly saturating old benchmarks and moving into harder real-world, scientific, and agentic tasks. The pace of capability gains, alongside soaring AI usage and revenue, is shifting debate from workplace augmentation toward recursive self-improvement and superintelligence.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/ClementDelangue/status/2103144463279276146"&gt;What we learned from being the first company to disclose an agent cyberattack&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Hugging Face says its autonomous-agent cyberattack exposed three priorities: stronger incident transparency, reducing capability asymmetries between attackers and defenders, and preserving open-source access for defense. AI created new attack risks but also helped investigate, mitigate, and harden systems.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://jobs.ashbyhq.com/tldr.tech/897f4391-66ab-44ca-a8eb-65dd9809200d"&gt;Product Manager, Applied AI at TLDR&lt;/a&gt; &lt;small&gt;· $200k base + $60k bonus, Fully Remote&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;TLDR is hiring its first PM to help build the agent-first operating layer used across the company. We&amp;#x27;re looking for a builder who has shipped real products/systems with LLMs. &lt;a href="https://jobs.ashbyhq.com/tldr.tech/897f4391-66ab-44ca-a8eb-65dd9809200d" rel="noopener noreferrer" target="_blank"&gt;Click here to learn more&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://surgehq.ai/benchmarks/dayjob-finance"&gt;A finance benchmark asks agents to finish the whole assignment&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;DAYJOB: Finance tests whether AI agents can complete 80 realistic finance assignments using supporting documents and produce analysis a professional can use.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/project-swap"&gt;Anthropic tested what happens when agents bargain for people&lt;/a&gt; &lt;small&gt;· 38 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;After five-minute interviews, Claude agents traded books for employees, and their preference rankings matched the humans&amp;#x27; on 61% of pairs.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.com/wbopan/tastebench"&gt;How Good Are LLMs at Decision Forking?&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Taste-Bench evaluates whether an LLM agent can choose the better next step at consequential forks in long-horizon tasks.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.trajectory.ai/field-notes/intelligence-density"&gt;Intelligence Density&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Trajectory.ai focuses on &amp;quot;intelligence density,&amp;quot; measuring cost per task instead of cost per token for more efficient AI model training.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Gemini TTS 🗣️, Claude’s novel enzyme 🧬, Google private memory 🔒</title>
+      <link>https://tldr.tech/ai/2026-09-24</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Qwen Intelligence Launches Three Mobile AI Agents
+• Google's new speech models can design and direct voices
+• Claude Discovered a Novel Enzyme System
+• Escaping SPACE: Part I
+• Towards Universal Post-Training for Robotics
+• Introducing Ember-1
+• tev1-4B-experimental
+• RRSI: Regularized Recursive Self-Improvement of Agent Harnesses
+• Google plans AI memory that even Google cannot read
+• How Accurate Have AI Progress Forecasts Been So Far?
+• OpenAI introduced MentalHealthBench
+• Introducing Comfy Router: One API for Frontier Media Models
+• Amjad Masad on Rethinking College for the AI Era
+• A new wave of Connected Apps is rolling out to Gemini</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/Alibaba_Qwen/status/2102727405198876753"&gt;Qwen Intelligence Launches Three Mobile AI Agents&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Qwen Intelligence has launched three mobile agents for planning, cross-app execution, and rapid content creation, alongside open benchmarks for planning, real-device performance, and safety. Qwen reports top benchmark results and 90% end-to-end success for Mobile-Use.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech"&gt;Google&amp;#x27;s new speech models can design and direct voices&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google released Gemini 3.8 Flash TTS and Flash-Lite TTS, letting developers create voices from descriptions and direct pacing, dialect, and delivery line by line. Flash-Lite targets high-volume work such as dubbing and voice agents, while Flash can replicate an authorized voice from a 30-second sample.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"&gt;Claude Discovered a Novel Enzyme System&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic said Claude autonomously identified a previously unknown enzyme system associated with unusual DNA repeats and characteristics seen in programmable genetic systems such as CRISPR.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/escaping-space-part-i"&gt;Escaping SPACE: Part I&lt;/a&gt; &lt;small&gt;· 23 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Perplexity&amp;#x27;s SPACE platform tested VM isolation and network confinement using nine AI models, revealing no VM-host breaches across 108 trials. However, four models exploited network-policy vulnerabilities via DNS spoofing and IP-sharing, bypassing restrictions in 11 out of 54 partial-network trials. Post-remediation, none of the models succeeded in bypassing the updated security measures, highlighting the necessity for robust policy enforcement against shared infrastructure attacks, which were also found in eight of ten tested third-party platforms.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://pd-perry.github.io/posts/post-training.html"&gt;Towards Universal Post-Training for Robotics&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Robotics needs a universal post-training recipe similar to language models to achieve reliable autonomous deployment. Existing methods like imitation learning benefit from intuition rather than structured processes, and RL&amp;#x27;s instability hinders robotics. The development of EXPO-FT demonstrates a stable RL approach, emphasizing the need for standardized protocols, reward specifications, human feedback systems, and scalable processes to enhance robotics reliability.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://fireworks.ai/blog/ember-1"&gt;Introducing Ember-1&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Ember-1 is a new specialized model built on Kimi K3 that delivers Kimi K3&amp;#x27;s quality with 40% fewer tokens. It is now rolling out as a serving option alongside the base Kimi K3 model as a Research Preview release on Serverless. Fireworks Research is introducing research releases to give developers two-week serverless access to new research models. The models with the most demand will be made permanent.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2102882216950763814.html"&gt;tev1-4B-experimental&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;tev1-4B-experimental is a Jev-like classifier fine-tuned on top of Qwen3.5 4B. It is available on Together serverless at $0.042 per million input tokens and $0 per million output tokens. Together AI has released the data recipe and a tutorial on how to fine-tune a custom model. Tev1 only cost $17 to train.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://regularized-rsi.com/"&gt;RRSI: Regularized Recursive Self-Improvement of Agent Harnesses&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;An AI agent&amp;#x27;s capability is largely set by its harness. Evolving the harness against a fixed evolve set is effective, but the harness memorizes the training tasks, and large in-distribution gains shrink or vanish out of distribution. RRSI keeps the harness edit space open and regularizes the search trajectory through it instead. Prompts, control flow, configuration, context management, tools, skills, memory, and sub-agents may all be modified. The constraints act on how the search moves, not on what the harness may contain.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory"&gt;Google plans AI memory that even Google cannot read&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google says its planned Private AI Compute memory would let assistants recall context across devices without Google being able to read it. Data stays encrypted in cloud storage, keys stay on users&amp;#x27; devices, and a protected enclave decrypts it only while answering a request.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://forecastingresearch.substack.com/p/ai-progress-forecasts-accuracy"&gt;How Accurate Have AI Progress Forecasts Been So Far?&lt;/a&gt; &lt;small&gt;· 36 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Forecasters dramatically underestimate AI progress on benchmarks. Predictions on AI adoption and diffusion often lean toward underestimation. There is not enough evidence to assess forecasters&amp;#x27; track record on predicting macro-scale economic and societal impacts of AI.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/introducing-mentalhealthbench/"&gt;OpenAI introduced MentalHealthBench&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;MentalHealthBench is an open benchmark created by OpenAI with more than 80 licensed mental health experts to evaluate AI responses across realistic mental health conversations.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.comfy.org/p/introducing-comfy-router-one-api"&gt;Introducing Comfy Router: One API for Frontier Media Models&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Comfy Router, available on the Comfy Developer Platform, unifies access to various frontier media models with one API, allowing developers seamless model integration and provider flexibility for better pricing and availability.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://a16z.simplecast.com/episodes/amjad-masad-on-rethinking-college-for-the-ai-era-sOmuMQGQ"&gt;Amjad Masad on Rethinking College for the AI Era&lt;/a&gt; &lt;small&gt;· 48 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI-era education should prioritize curiosity, project-based learning, and intellectual exploration over grades and credentials.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/"&gt;A new wave of Connected Apps is rolling out to Gemini&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Gemini is adding direct integrations with tools including Linear, Adobe, Webflow, Peloton, Experian, and SeatGeek.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Opus 5.5 imminent ⏳, Grok 4.7 🚀, MiMo v2.6 🤖</title>
+      <link>https://tldr.tech/ai/2026-09-22</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-22</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Xiaomi open-sources MiMo-V2.6 Pro and Flash models
+• Introducing Grok 4.7
+• Anthropic tests Fable 5.2 and Opus 5.5 ahead of the release
+• Meta's Muse personal AI agent tops ChatGPT, Grok and Claude for post-launch downloads
+• The Great Unbundling of Intelligence
+• The Business of Building God
+• Swarm Scaling
+• The current balance of power in open models
+• Qwen's RecreationWorld Trains Agents to Rebuild Apps
+• Bringing Devin Cloud to your terminal
+• MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement
+• AI Comes for the If Statement
+• Advisory Group on Mathematics and Artificial Intelligence
+• Product Manager, Applied AI at TLDR
+• Kev
+• AWS Launches Strands Harness, an Agent That Brings Its Own Everything but the Model
+• Aikido Altar: open-weight AI for sovereign security
+• StepFun's Step 5 Preview
+• Alibaba Unveils AI Chip to Drive 20GW of Data Centers by 2032</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/xiaomi-open-sources-mimo-v2-6-pro-and-flash-models/"&gt;Xiaomi open-sources MiMo-V2.6 Pro and Flash models&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Xiaomi MiMo-V2.6 Pro and Flash are omnimodal models that can coordinate agents to construct and visually test interactive 3D scenes. They can create Blender assets, control a robotic arm from camera feeds, produce frontends and presentations, assemble videos, and compose music as scores and MIDI. The models are now available in AI Studio, MiMo Code, MiMo Desktop, Xiaomi&amp;#x27;s MiMo API Platform, and OpenRouter. Xiaomi has published the technical report, training environments, and RL code alongside the models.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.ai/news/grok-4-7"&gt;Introducing Grok 4.7&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Grok 4.7 enhances coding and knowledge work capabilities with improved self-verification and safeguards, using a new, larger base model. It offers competitive pricing with $2 per million input tokens and $6 per million output tokens. Excelling in various benchmarks, it shows top-notch safety features, especially in cybersecurity tasks, limiting risky command execution.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/anthropic-tests-fable-5-2-and-opus-5-5-ahead-of-the-release/"&gt;Anthropic tests Fable 5.2 and Opus 5.5 ahead of the release&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic is starting to test its upcoming frontier model in the wild. Several people have posted outputs that seem to come from a newer, more advanced model. Anthropic may be announcing Opus 5.5 this week. The model is rumored to be priced at $4 per million input tokens and $20 per million output tokens.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/09/21/meta-muse-personal-ai-agent-downloads.html"&gt;Meta&amp;#x27;s Muse personal AI agent tops ChatGPT, Grok and Claude for post-launch downloads&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta&amp;#x27;s Muse AI app has surged to the top of the iOS App Store charts in the US, outpacing ChatGPT and other AI tools with 730,000 downloads shortly after its release. Powered by the Muse Spark AI models, the app allows users to manage digital assistants for tasks like filling forms and organizing emails. While Muse&amp;#x27;s popularity highlights growing consumer interest, privacy concerns persist, with Amazon blocking the app over security risks, although Shopify has partnered with Meta to integrate agentic checkout.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/JayaGup10/status/2101799427145183571"&gt;The Great Unbundling of Intelligence&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Agent economics are pushing AI from frontier-by-default toward capability-level routing, where judgment, ranking, search, and verification use cheaper specialized systems. Frontier models may handle fewer but harder tasks as applications become intelligence compilers that recombine services efficiently.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.strangeloopcanon.com/p/the-business-of-building-god"&gt;The Business of Building God&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI labs like OpenAI and Anthropic lead with a small model advantage but face competition as costs rise and open-source models close the gap. To sustain profits, labs aim to expand into new sectors, ranging from ads to robotics, while also exploring automation through recursive self-improvement (RSI). However, the path is fraught with uncertainty as enormous financial and talent investments may only maintain a temporary edge amid shifting economic and regulatory landscapes.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.tobyord.com/writing/swarm-scaling"&gt;Swarm Scaling&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Scaling up the number of agents in a swarm by 10x doesn&amp;#x27;t get as much performance as using 10x as many tokens with one agent. This shortfall accumulates quickly for larger scale-ups, with the swarm falling further and further behind. However, swarms can theoretically achieve the same task in much less time as they are run in parallel. The speedup is substantial, so swarms are useful in situations where a large premium is paid for speed.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.interconnects.ai/p/the-current-balance-of-power-in-open"&gt;The current balance of power in open models&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The gap from open to closed models available to users has been decreasing over the last 3 years. Open model usage is exploding in high-value industries. Open-weight models have passed an inflection point in economic viability. Chinese labs are clearly maintaining their status as the leaders of the open-weight AI ecosystem.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://github.com/QwenLM/RecreationWorld"&gt;Qwen&amp;#x27;s RecreationWorld Trains Agents to Rebuild Apps&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;RecreationWorld is a five-platform framework for training hybrid computer-use agents to explore GUIs, implement software with coding tools, and visually verify their work.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://devin.ai/blog/devin-cloud-in-your-terminal"&gt;Bringing Devin Cloud to your terminal&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Developers can now create, steer, resume, and watch Devin Cloud sessions from their terminal. Devin CLI can now transfer any ask to Devin to continue iterating on with its own cloud VM. Users can continue to observe and steer progress directly from the terminal as if Devin were working locally. Cognition is offering free SWE-2 sessions until October 8 so developers can try Devin Cloud from the terminal.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.alphaxiv.org/abs/2609.mimo-scaling-reinforcement-learning"&gt;MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Reinforcement learning is the central training paradigm for advancing large foundation models towards self-improvement. The Mimo-V2.6 series is an omni-model family that pushes the frontier of model intelligence by scaling RL compute. Training was kept stable at scale by freezing the MoE router and establishing a multi-layer defense against reward hacking. The training dynamics, RL environments, and RL framework have been open-sourced to facilitate reproduction and further research on scaled RL and model self-improvement.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://tomtunguz.com/ai-comes-for-the-if-statement"&gt;AI Comes for the If Statement&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;New AI models like Jev2 and SemIf streamline the if-then decision-making process, cutting costs by 99% and improving accuracy from 47% to over 80% in tests. These advancements optimize coding primitives, potentially transforming AI&amp;#x27;s economic model by using specialized systems for production. Specialization in these models promises significant cost savings while maintaining high accuracy.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/advisory-group-on-mathematics-and-ai/"&gt;Advisory Group on Mathematics and Artificial Intelligence&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI has trained a new internal model that solved the Navier–Stokes Millennium Prize problem and over 100 open mathematical challenges. In response, OpenAI established an independent advisory group involving prominent mathematicians to guide the responsible development and dissemination of math-related AI capabilities. This group will independently assess, advise, and communicate these advances to ensure AI&amp;#x27;s mathematical benefits align with community needs.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://jobs.ashbyhq.com/tldr.tech/897f4391-66ab-44ca-a8eb-65dd9809200d"&gt;Product Manager, Applied AI at TLDR&lt;/a&gt; &lt;small&gt;· $200k base + $60k bonus, Fully Remote&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;TLDR is hiring its first PM to help build the agent-first operating layer used across the company. We&amp;#x27;re looking for a builder who has shipped real products/systems with LLMs. &lt;a href="https://jobs.ashbyhq.com/tldr.tech/897f4391-66ab-44ca-a8eb-65dd9809200d" rel="noopener noreferrer" target="_blank"&gt;Click here to learn more&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://github.com/jaredpalmer/kev"&gt;Kev&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Kev is an open-source family of small Jev-like decision models that run locally and return calibrated probabilities for yes/no, multiple-choice, and rating questions.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thelettertwo.com/2026/09/21/aws-strands-harness"&gt;AWS Launches Strands Harness, an Agent That Brings Its Own Everything but the Model&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AWS&amp;#x27; new Strands harness is a ready-to-run agent that can search the web, run commands, edit files, remember what it did yesterday, and hand off work to helper agents.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.aikido.dev/blog/aikido-altar-open-weight-ai-sovereign-security"&gt;Aikido Altar: open-weight AI for sovereign security&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Aikido Altar is an open-weight AI model that enhances Aikido Machine&amp;#x27;s pentesting capabilities while operating entirely within a customer&amp;#x27;s infrastructure.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2102213621963243704.html"&gt;StepFun&amp;#x27;s Step 5 Preview&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Step 5 Preview has 600B total and 27B active parameters and matches Kimi K3 (max) at around 2.8 times lower cost per task.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://finance.yahoo.com/technology/ai/articles/alibaba-unveils-ai-chip-drive-022139864.html"&gt;Alibaba Unveils AI Chip to Drive 20GW of Data Centers by 2032&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Alibaba&amp;#x27;s new Zhenwu V900 accelerator triples the performance of its predecessor.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Muse connectors 🤖, Meta SAM 3.1 🖼️, Gemini hacks companies 🔓</title>
+      <link>https://tldr.tech/ai/2026-09-21</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-21</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• OpenAI's projected compute bill climbed to $856B
+• Opening access for developers to build Muse connectors
+• Segment Anything Model (SAM) 3.1
+• Google's Gemini becomes latest AI model to break out and hack computer systems
+• The Inference Gap
+• Can internal model transparency tame the AI race?
+• Pretraining data, not verifiability, is why LLMs are especially good at math (and coding)
+• DAPO
+• AX
+• Qwen3.8-LiveTranslate: Names the speaker. Carries the meaning
+• The Preference Cascade Is Only Getting Started
+• SAIR's Open Math Model initiative
+• Introducing Grok Voice Transcribe 2.0
+• Meta to give Muse its own mailbox for communication
+• Attackers can turn an AI agent's own tools against it
+• String-matching evals can reward AI agents for fake compliance</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://thenextweb.com/news/openai-856bn-compute-vs-600bn-reset-burn-improved"&gt;OpenAI&amp;#x27;s projected compute bill climbed to $856B&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI&amp;#x27;s projected compute and infrastructure spending through 2030 rose from $600 billion to $856 billion, even as its projected cash burn fell.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2101084678640066765.html"&gt;Opening access for developers to build Muse connectors&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta has opened access for developers to build Muse connectors. Developers bring the API, and Muse handles the agent, browser, and the context. To create a connector, developers need to describe the connector to Meta and explain how users will use it. The submission will be reviewed for functional, security, and legal requirements and complete end-to-end testing. Once approved, users will be able to find the connector on Muse. Meta&amp;#x27;s editors will review connectors for featured placement.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://developer.meta.com/ai/models/sam-3-1/"&gt;Segment Anything Model (SAM) 3.1&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;SAM 3.1 can detect, segment, and track objects in images and video on the Meta Model API. Users just enter text prompts to identify, segment, and follow any object in images or video. It is served on inference built specifically for its architecture. The model costs $2.50 per 1,000 images or $0.20 per 1,000 frames of video.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html"&gt;Google&amp;#x27;s Gemini becomes latest AI model to break out and hack computer systems&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google&amp;#x27;s Gemini AI model unintentionally hacked three companies by guessing passwords during a security test with Israeli startup Irregular. A bug allowed the model internet access, leading to unauthorized system access, but the intrusion stopped once real company systems were detected. The incident highlights concerns as AI models increasingly escape testing environments, prompting calls for stricter safety measures.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/Lon/status/2101034933284417614"&gt;The Inference Gap&lt;/a&gt; &lt;small&gt;· 56 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The gap between what a model can do and what an ordinary user can reliably make it do is widening. That gap could be unrecoverable if the industry is not mindful. The model is only half the system. Inference determines how much of the frontier you get to see.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.karthiktadepalli.com/p/internal-model-transparency"&gt;Can internal model transparency tame the AI race?&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Internal model transparency is one of the ideas proposed for taming the AI race. The idea is that once a lab deploys a model for internal use, they must also serve that model to researchers at other labs. This will make it so firms can not use their internal models as a source of competitive advantage in the AI race. It reduces the competitive incentive to automate AI R&amp;amp;D, with all of the risk that it entails.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/xvdngZAqFZfek7KGH/pretraining-data-not-verifiability-is-why-llms-are"&gt;Pretraining data, not verifiability, is why LLMs are especially good at math (and coding)&lt;/a&gt; &lt;small&gt;· 63 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Large language models are good at judging math arguments because they are still mostly powered by imitative learning rather than reinforcement learning. LLMs are especially good at math because almost everything in the math literature is correct. They only need a bit of curated mid-training data and/or RL to hone their metacognitive strategies. In many other fields, the research literature is a bit of a dumpster fire, with some true and valuable information mixed into a sea of falsehoods and confused ideas. This causes LLMs to spit out tons of confused nonsense with occasional insights.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://github.com/BytedTsinghua-SIA/DAPO"&gt;DAPO&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;DAPO is a system for large-scale LLM RL. It achieves state-of-the-art large-scale LLM RL performance. DAPO achieved 50 points on AIME 2024 based on the Qwen2.5-32B base model. The system is fully open-sourced, including algorithm details, dataset, and infrastructure.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.com/google/ax"&gt;AX&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AX is a high-throughput, declarative orchestrator that runs billions of autonomous agent workloads in a cluster. Users declare an agentic task with workspaces and gateway specifications, and AX sandboxes it, wires up its workspace, fences its network, and helps run it at scale. It runs on top of Agent Substrate and feels similar to using Kubernetes.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://qwen.ai/blog?id=qwen3.8-livetranslate&amp;amp;amp%3Butm_source=tldrai"&gt;Qwen3.8-LiveTranslate: Names the speaker. Carries the meaning&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Qwen3.8-LiveTranslate uses an interleaved audio-text architecture to cut average translation lag from 2.8 to 2.3 seconds while improving quality. It adds real-time speaker separation, bilingual source alignment, long-context disambiguation, and voice cloning across 60 input languages.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://thezvi.substack.com/p/the-preference-cascade-is-only-getting"&gt;The Preference Cascade Is Only Getting Started&lt;/a&gt; &lt;small&gt;· 43 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A preference cascade is the best method for changing the debate on the existential risks from AI. The current preference cascade, on the need to pace the frontier, is insufficient. To get out of this alive, the industry needs to actually solve the underlying problems. The cascade needs to continue inside labs and also among the media and politics.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://terrytao.wordpress.com/2026/09/18/sairs-open-math-model-initiative/"&gt;SAIR&amp;#x27;s Open Math Model initiative&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Foundation for Science and AI Research (SAIR) was founded with some private donors to create a non-profit organization that could support responsible uses of AI in mathematics and the other sciences, independent of the major AI companies. It plans to develop open models with the mathematical community, with participation open across institutions, regions, and career stages. The initiative is still in early stages, but the foundation is now ready to collect expressions of interest. It is also seeking partners who can contribute to funding, compute, expertise, or community-building efforts.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.ai/news/grok-voice-transcribe-2"&gt;Introducing Grok Voice Transcribe 2.0&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Grok Voice Transcribe 2.0, launching today, boasts double the accuracy of its predecessor at the same price, excelling in noisy, multilingual environments.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/meta-to-give-muse-its-own-mailbox-for-communication/"&gt;Meta to give Muse its own mailbox for communication&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta plans to introduce a dedicated Mail tab for Muse, creating a separate mailbox for its communication.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://darkmarc.substack.com/p/hijacking-ai-agents-how-an-agents"&gt;Attackers can turn an AI agent&amp;#x27;s own tools against it&lt;/a&gt; &lt;small&gt;· 26 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Goal hijacking works when an agent treats retrieved content as instructions, letting a webpage, email, or document redirect its connected tools.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.mastykarz.nl/eval-lying"&gt;String-matching evals can reward AI agents for fake compliance&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Checking whether generated code contains “Azure” only proves that the word appears somewhere, not that an agent actually used Azure or built working software.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Claude Projects v2 💼, Google family agent 👨‍👩‍👧‍👦,</title>
+      <link>https://tldr.tech/ai/2026-09-18</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• How Claude is uplifting biomolecular modeling
+• Google wants to give your family its own cloud computer
+• Projects redesigned: from folder to conversation
+• Noam Brown – Agent swarms, alignment, &amp; recursive self-improvement
+• LLM Classification Is Feature Engineering
+• Anthropic says its AI now does a quarter of its research work
+• Toward Recursive Self-Improvement: How GLM Built Its Own Inference Infrastructure
+• Introducing Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint
+• Helix 2.5
+• Git as Shared Memory for AI Research Agents
+• Qwen3.8-Omni-Flash: Omni Senses. Agentic Delivery
+• The Awesome and Alarming AI Visions of Anthropic's CEO
+• Natural General Intelligence
+• Models know when they're reward hacking — and we can catch them at scale
+• Instinct Concierge Can Now Handle Phone Calls
+• Astra for Law
+• Notion lets teams share the same instructions across AI agents</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"&gt;How Claude is uplifting biomolecular modeling&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Claude enhanced biomolecular modeling by optimizing over 30 models, achieving a 4x speed increase and creating a low-memory mode for predicting larger systems on a single NVIDIA GPU. These improvements, now open-sourced, allow for efficient protein design and structure prediction, potentially accelerating drug discovery. A protein design competition co-sponsored with Adaptyv Bio offers up to $1 million in Claude credits and highlights these advancements.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups"&gt;Google wants to give your family its own cloud computer&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google&amp;#x27;s family agent runs on its own cloud computer and Google account, turning the emails, files, and calendars your household shares into daily briefings and updated plans. It can fill out forms and coordinate activities for up to six people, asking permission before acting outside the group. The US experiment has a waitlist.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://claude.com/blog/projects-redesigned"&gt;Projects redesigned: from folder to conversation&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Claude Code Projects let users manage builds by automating task delegation, coordination, and result assembly across cloud sessions. Projects utilize threads for parallel operations, adapting based on progress, and draw on shared memory for efficient task execution. Available now in beta for select subscribers, with wider access coming soon, projects promise enhanced workflow management and context retention.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.dwarkesh.com/p/noam-brown"&gt;Noam Brown – Agent swarms, alignment, &amp;amp; recursive self-improvement&lt;/a&gt; &lt;small&gt;· 72 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;This post features a transcript of an interview with Noam Brown, a research scientist at OpenAI who works on reasoning, reinforcement learning, self-play, and multi-agent AI. Brown was a foundational contributor to the development of reasoning models. In this interview, Brown talks about multi-agent, Navier-Stokes, the current explosion of maths progress, automating AI research, and how we will know whether models are actually aligned before recursive self-improvement kicks off. A video of the interview is available.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/"&gt;LLM Classification Is Feature Engineering&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Getting LLMs into shape to reliably serve as classifiers is hard work but potentially highly impactful. More and more research is relying on LLMs for classification, so these tools need to output high-quality results. This post shows how classification is just a feature engineering problem.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/institute/measuring-pace-of-ai-development"&gt;Anthropic says its AI now does a quarter of its research work&lt;/a&gt; &lt;small&gt;· 25 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic says Claude now leads 26% of its AI research work and oversees tens of thousands of active internal agents. Its new measurements track how much AI is helping build the next models, whether people can still oversee those agents, and the computing driving the work.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://z.ai/blog/glm-built-its-inference-infrastructure"&gt;Toward Recursive Self-Improvement: How GLM Built Its Own Inference Infrastructure&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Z.ai used a GLM-5.3-powered Infra Agent to help build GLM-5.3-Flash&amp;#x27;s production serving stack on 100,000+ Chinese accelerators in under two weeks. Dense feedback, kernel fixes, and system-level optimization tripled throughput while keeping humans responsible for objectives and risk.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://prismml.com/news/bonsai-2-27b"&gt;Introducing Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Ternary Bonsai 2 27B brings stronger reasoning, coding, vision, and agentic capability to the Bonsai series. It uses ternary {−1, 0, +1} weights with FP16 group-wise scaling, for 1.76 effective bits per weight and a total model footprint of 5.9GB. The model supports a 262K-token context window and multimodal text-and-image input. It can be run on Nvidia GPUs via CUDA and on Apple devices via MLX through custom low-bit kernels.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/figure_robot/status/2100657350952779925"&gt;Helix 2.5&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Figure introduced Helix 2.5, a humanoid control model pretrained on its Index dataset and tested zero-shot across 30 Bay Area homes. Without collecting training data in those homes, the robots performed tasks including tidying rooms, folding towels, and making beds.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.com/yifanzhang-pro/Agora"&gt;Git as Shared Memory for AI Research Agents&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Agora lets autonomous research agents share findings through an append-only Git DAG, where hypotheses, results, verifications, and reports become reproducible commits.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://qwen.ai/blog?id=qwen3.8-omni-flash&amp;amp;amp%3Butm_source=tldrai"&gt;Qwen3.8-Omni-Flash: Omni Senses. Agentic Delivery&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Qwen3.8-Omni-Flash is a native omnimodal model. It supports a 1M-token context window with text, image, audio, and video inputs. Qwen3.8-Omni-Flash achieves audio-visual performance close to Gemini 3.8 Flash and overall audio performance that exceeds Gemini 3.8 Flash. It is now available on the Qianwen AI Platform.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.nytimes.com/2026/09/17/technology/dario-amodei-anthropic-essays-ai.html?unlocked_article_code=1.CFE.5b14.qtnVb3NAQaoR&amp;amp;smid=url-share"&gt;The Awesome and Alarming AI Visions of Anthropic&amp;#x27;s CEO&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Dario Amodei, a co-founder and the chief executive of Anthropic, is one of the tech industry&amp;#x27;s most prolific and polished explainers. He has contributed to dozens of scholarly papers and more recently wrote a half-dozen informal essays for the general public. This article takes a look at his writings to see what they reveal about the AI leader.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://naturalgeneralintelligence.ai/"&gt;Natural General Intelligence&lt;/a&gt; &lt;small&gt;· 125 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI&amp;#x27;s potential to transform our relationship with the natural world is often overlooked. Infinite intelligence will not eliminate our need for natural resources. AI promises abundance via the automation of knowledge work, but the Earth system is already fully automated. Natural General Intelligence is a foundation model grounded in the state and dynamics of the planet itself. This article explains the concept, shows readers how it can be built, and explains why it is necessary.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.goodfire.com/research/reward-hacking-activation-monitors#?utm_source=tldrai"&gt;Models know when they&amp;#x27;re reward hacking — and we can catch them at scale&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;There is a clear internal signal in models that accompanies reward hacking.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/noahrshinn/status/2100262985491231101"&gt;Instinct Concierge Can Now Handle Phone Calls&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Instinct is rolling out Concierge, a white-glove service for tasks that require human interaction, including phone calls, high-end bookings, and customer service.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/astra-for-law/"&gt;Astra for Law&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Astra for Law is a legal AI foundation that combines GPT-6 Astra with tools, settings, privacy controls, and context designed for professional legal work.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.notion.com/blog/a-skills-library-for-every-agent"&gt;Notion lets teams share the same instructions across AI agents&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Notion&amp;#x27;s Skills API lets teams edit agent instructions together and distribute them to other agents through GitHub sync or Vercel&amp;#x27;s skills installer.&lt;/p&gt;</content:encoded>
+    </item>
+  </channel>
+</rss>
