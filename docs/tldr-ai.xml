@@ -24,7 +24,6 @@
 • Managed Deep Agents v0.8: new auth, memory, and channels
 • Are you ready for superintelligence
 • What we learned from being the first company to disclose an agent cyberattack
-• Product Manager, Applied AI at TLDR
 • A finance benchmark asks agents to finish the whole assignment
 • Anthropic tested what happens when agents bargain for people
 • How Good Are LLMs at Decision Forking?
@@ -46,8 +45,6 @@
 &lt;p&gt;Recent frontier models are rapidly saturating old benchmarks and moving into harder real-world, scientific, and agentic tasks. The pace of capability gains, alongside soaring AI usage and revenue, is shifting debate from workplace augmentation toward recursive self-improvement and superintelligence.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://x.com/ClementDelangue/status/2103144463279276146"&gt;What we learned from being the first company to disclose an agent cyberattack&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Hugging Face says its autonomous-agent cyberattack exposed three priorities: stronger incident transparency, reducing capability asymmetries between attackers and defenders, and preserving open-source access for defense. AI created new attack risks but also helped investigate, mitigate, and harden systems.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://jobs.ashbyhq.com/tldr.tech/897f4391-66ab-44ca-a8eb-65dd9809200d"&gt;Product Manager, Applied AI at TLDR&lt;/a&gt; &lt;small&gt;· $200k base + $60k bonus, Fully Remote&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;TLDR is hiring its first PM to help build the agent-first operating layer used across the company. We&amp;#x27;re looking for a builder who has shipped real products/systems with LLMs. &lt;a href="https://jobs.ashbyhq.com/tldr.tech/897f4391-66ab-44ca-a8eb-65dd9809200d" rel="noopener noreferrer" target="_blank"&gt;Click here to learn more&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://surgehq.ai/benchmarks/dayjob-finance"&gt;A finance benchmark asks agents to finish the whole assignment&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;DAYJOB: Finance tests whether AI agents can complete 80 realistic finance assignments using supporting documents and produce analysis a professional can use.&lt;/p&gt;
@@ -114,6 +111,70 @@
 &lt;p&gt;Gemini is adding direct integrations with tools including Linear, Adobe, Webflow, Peloton, Experian, and SeatGeek.&lt;/p&gt;</content:encoded>
     </item>
     <item>
+      <title>GPT-6 ⚡, Opus 5.5 🧠, AI leaders at UN 🌐</title>
+      <link>https://tldr.tech/ai/2026-09-23</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• GPT-6 Sol and Luna
+• Claude Opus 5.5
+• SWE-Bench Pro V2
+• What a task costs on Opus 5.5
+• Training AI From Real-World Tool Use
+• Vinod Khosla's Two Moats for Personal AI
+• Google Publishes RRSI for Self-Improving AI Agents
+• Keeping Large MoE Training Within Fixed GPU Memory
+• Hardware-Agnostic Models in vLLM
+• China's biggest memory maker says it has caught up with Samsung and Micron
+• The Biological Computing Co. partners with AWS to sell its neuron-derived AI video model
+• GPT-6 Astra Breaks an Old Enigma Message
+• Altman and Amodei expected to join UN Security Council meeting about AI
+• Meta admits Muse's likeness to OpenClaw isn't a coincidence
+• People need to start paying attention to the issue of derived data in AI training
+• Better GPT-6 Prompt Caching
+• Involution Without Export Is Wasted Effort</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/introducing-gpt-6-sol-and-luna/"&gt;GPT-6 Sol and Luna&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI introduced GPT-6 Sol and Luna as faster, more affordable counterparts to GPT-6 Astra, bringing advances in coding, factuality, computer use, and professional tasks to lower-cost models.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/claude-opus-5-5"&gt;Claude Opus 5.5&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic introduced Claude Opus 5.5, saying it matched Claude Fable 5.1 on most work while costing 40% less to run than Opus 5. The model also underwent external evaluations and achieved Anthropic&amp;#x27;s strongest result to date on its automated behavioral audit.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://labs.scale.com/leaderboard/swe_bench_pro_public_v2"&gt;SWE-Bench Pro V2&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;SWE-BENCH PRO V2 releases with 642 tasks from 11 repositories, correcting previous task errors and optimizing evaluation processes. Performance drops for AI models, with OpenAI GPT-5 and Claude Opus 4.1 only scoring around 23% on the public set, highlighting the benchmark&amp;#x27;s increased challenge and realism compared to SWE-Bench Verified. Notably, top models show consistent results across tasks and languages, while smaller models falter under complex, multi-file scenarios.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://claude.com/blog/what-a-task-costs-on-opus-5-5"&gt;What a task costs on Opus 5.5&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Opus 5.5 reduces token costs by offering cheaper input and output tokens, with additional savings from extensive use of cache reads. Transaction costs depend on the number of turns, cache utilization, and model selection, impacting tasks based on session length and complexity.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/learning-from-real-world-experience"&gt;Training AI From Real-World Tool Use&lt;/a&gt; &lt;small&gt;· 19 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Perplexity combined rejection sampling fine-tuning with hint-guided self-distillation so its Computer model could learn from both successful sessions and user-corrected failures.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/tbpn/status/2102177383306670393"&gt;Vinod Khosla&amp;#x27;s Two Moats for Personal AI&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Personal AI may ultimately compete on two moats: trust and task completion. Vinod Khosla says users will stay loyal to companies they trust with sensitive data and products that reliably finish work, while Meta faces a trust disadvantage.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://regularized-rsi.com/"&gt;Google Publishes RRSI for Self-Improving AI Agents&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google has introduced RRSI, a method that regularizes how AI agent harnesses recursively improve themselves to reduce benchmark overfitting and encourage changes that transfer to new tasks. Across eight benchmarks, it improved out-of-distribution performance while using fewer policy tokens.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2609.14306"&gt;Keeping Large MoE Training Within Fixed GPU Memory&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A set of scheduling techniques bounds four major memory bottlenecks in large-scale MoE training, expert dispatch, vocabulary projection, checkpointing, and optimizer state, without approximating the computation.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://pytorch.org/blog/hardware-agnostic-models-in-vllm/"&gt;Hardware-Agnostic Models in vLLM&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;vLLM introduces hardware-agnostic layers to support models across diverse hardware while maintaining high performance. These layers achieve up to 96.6% efficiency of native implementations on NVIDIA H100 GPUs while remaining torch compilable and extensible. This ensures vLLM adapts to new GPU advancements without neglecting users of older and niche accelerators.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://thenextweb.com/news/cxmt-dram-fifth-generation-mass-production-memory-shortage"&gt;China&amp;#x27;s biggest memory maker says it has caught up with Samsung and Micron&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ChangXin Memory Technologies, China&amp;#x27;s largest maker of DRAM, says that its process capabilities are now on par with the most advanced mass-produced nodes in the industry. The company&amp;#x27;s fifth-generation DRAM platform has entered mass production. The platform yields at least 50% more dies per wafer than the previous generation. There are already two products running on the platform, both 24-gigabit LPDDR5X and holding 50% more data than the equivalent chips CXMT made before.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thenextweb.com/news/biological-computing-co-aws-neuron-derived-ai-video-model"&gt;The Biological Computing Co. partners with AWS to sell its neuron-derived AI video model&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Biological Computing Co. is a startup that grows living neurons to improve AI models. It has partnered with AWS to bring a neuron-derived AI video model to paying customers. The neurons themselves will stay in the lab. TBC uses them during discovery, then turns what they learn into a lightweight software layer. The design means that customers won&amp;#x27;t need to maintain any biological hardware or change how they work. The optimized model runs on standard GPUs and cloud accelerators at the same capacity a company would rent for any other generative model.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html"&gt;GPT-6 Astra Breaks an Old Enigma Message&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;GPT-6 Astra analyzed the still-unbroken Enigma messages and decided the most promising message was Nr. 172, MVUEH.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/09/22/altman-amodei-unga-ai-safety.html"&gt;Altman and Amodei expected to join UN Security Council meeting about AI&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei will address the UN Security Council on AI safety and regulation amid mounting concerns about AI risks.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/"&gt;Meta admits Muse&amp;#x27;s likeness to OpenClaw isn&amp;#x27;t a coincidence&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta admits Muse draws heavy inspiration from the open-source project OpenClaw, despite being built from scratch.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2102311135441547405.html"&gt;People need to start paying attention to the issue of derived data in AI training&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Derived data is creative content that is rewritten by AI before it is trained on.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/better-prompt-caching-for-gpt-6/"&gt;Better GPT-6 Prompt Caching&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI improved prompt caching for GPT-6 with higher default cache hit rates, discounts for shared prefixes reused within 30 minutes, and new tools for monitoring and diagnosing cache performance.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://earnedintuition.substack.com/p/involution-without-export-is-wasted"&gt;Involution Without Export Is Wasted Effort&lt;/a&gt; &lt;small&gt;· 28 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;If you don&amp;#x27;t go overseas, all that grinding was for nothing.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
       <title>Opus 5.5 imminent ⏳, Grok 4.7 🚀, MiMo v2.6 🤖</title>
       <link>https://tldr.tech/ai/2026-09-22</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-09-22</guid>
@@ -133,7 +194,6 @@
 • MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement
 • AI Comes for the If Statement
 • Advisory Group on Mathematics and Artificial Intelligence
-• Product Manager, Applied AI at TLDR
 • Kev
 • AWS Launches Strands Harness, an Agent That Brings Its Own Everything but the Model
 • Aikido Altar: open-weight AI for sovereign security
@@ -169,8 +229,6 @@
 &lt;p&gt;New AI models like Jev2 and SemIf streamline the if-then decision-making process, cutting costs by 99% and improving accuracy from 47% to over 80% in tests. These advancements optimize coding primitives, potentially transforming AI&amp;#x27;s economic model by using specialized systems for production. Specialization in these models promises significant cost savings while maintaining high accuracy.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://openai.com/index/advisory-group-on-mathematics-and-ai/"&gt;Advisory Group on Mathematics and Artificial Intelligence&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;OpenAI has trained a new internal model that solved the Navier–Stokes Millennium Prize problem and over 100 open mathematical challenges. In response, OpenAI established an independent advisory group involving prominent mathematicians to guide the responsible development and dissemination of math-related AI capabilities. This group will independently assess, advise, and communicate these advances to ensure AI&amp;#x27;s mathematical benefits align with community needs.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://jobs.ashbyhq.com/tldr.tech/897f4391-66ab-44ca-a8eb-65dd9809200d"&gt;Product Manager, Applied AI at TLDR&lt;/a&gt; &lt;small&gt;· $200k base + $60k bonus, Fully Remote&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;TLDR is hiring its first PM to help build the agent-first operating layer used across the company. We&amp;#x27;re looking for a builder who has shipped real products/systems with LLMs. &lt;a href="https://jobs.ashbyhq.com/tldr.tech/897f4391-66ab-44ca-a8eb-65dd9809200d" rel="noopener noreferrer" target="_blank"&gt;Click here to learn more&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://github.com/jaredpalmer/kev"&gt;Kev&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Kev is an open-source family of small Jev-like decision models that run locally and return calibrated probabilities for yes/no, multiple-choice, and rating questions.&lt;/p&gt;
@@ -307,6 +365,898 @@
 &lt;p&gt;Astra for Law is a legal AI foundation that combines GPT-6 Astra with tools, settings, privacy controls, and context designed for professional legal work.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.notion.com/blog/a-skills-library-for-every-agent"&gt;Notion lets teams share the same instructions across AI agents&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Notion&amp;#x27;s Skills API lets teams edit agent instructions together and distribute them to other agents through GitHub sync or Vercel&amp;#x27;s skills installer.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Claude + Cowork merge 🛠️, ChatGPT sponsored agents 💰, harness tax 🤖</title>
+      <link>https://tldr.tech/ai/2026-09-17</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-17</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Claude Cowork and chat are now one Claude
+• OpenAI Expanded ChatGPT Ads with AI Agents
+• Your AI agents can now control your Google Home devices
+• HarnessTax
+• AI Cheating is on the Rise
+• How Embedded Evaluators Could Monitor Frontier AI
+• Ant Group Released a Finance-Focused Model
+• Meta's FLAT for Multimodal Understanding and Generation
+• Agent Substrate brings high-density, scalable, trusted infrastructure to GKE
+• Introducing the DeepMind Institute
+• Why Salesforce may be AI's adult in the room
+• Memory in Grok Build
+• Mistral x Mozilla: Private, Multilingual AI Browsing
+• Microsoft AI chief says Anthropic is wrong about Claude
+• Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform- Google Developers Blog
+• An AI receptionist that turns calls into action</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://claude.com/blog/cowork-is-now-claude"&gt;Claude Cowork and chat are now one Claude&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Claude Cowork and chat are merging into one Claude. Claude Docs and Slides can now produce documents and presentations that users can edit directly, present straight from Claude, or download as a PowerPoint or PDF. The changes will roll out on Pro and Max plans over the next few weeks, with Team and Free plans following soon. Enterprise admins will hear from Anthropic at least 30 days before anything changes for their organizations.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/reimagining-advertising-with-ai/"&gt;OpenAI Expanded ChatGPT Ads with AI Agents&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI announced Sponsored Agents that let users start conversations with business-sponsored agents after clicking an ad in ChatGPT. It also introduced AI-assisted ad creation in ChatGPT Work, new Ads Manager creative tools, and integrations with HubSpot and Shopify.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/"&gt;Your AI agents can now control your Google Home devices&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google introduced early access to the Model Context Protocol (MCP) for Google Home, enabling AI agents like ChatGPT to control smart home devices. Users must set up a Google Cloud project and provide MCP details to their chosen AI agent for configuration. This update supports all devices in the Google Home ecosystem and is available initially to US subscribers of Google Home Premium Advanced.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://arena.ai/blog/coding-agents-harness-tax"&gt;HarnessTax&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Language models are changing how software is built and computational problems are solved. The impact of harness choice remains unclear, despite millions of people already using coding agents. An evaluation of 21 model-harness pairs spanning seven models and three harnesses found that harness choice has little effect on task success rate, but can significantly affect the cost. A simple harness can be competitive.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.vals.ai/blogs/cheating-on-the-rise"&gt;AI Cheating is on the Rise&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Studies have shown that models are cheating on evaluations. The same guardrails preventing models from cheating are likely being used during training, and models may be training to complete tasks that evade these specific guardrails. It&amp;#x27;s unsurprising that labs occasionally release benchmark results that aren&amp;#x27;t externally trustworthy. This highlights the value of independent evaluators.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://transluce.org/embedded-evaluations"&gt;How Embedded Evaluators Could Monitor Frontier AI&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Transluce outlined how independent evaluators embedded inside AI labs could investigate risks such as multi-agent coordination, targeted persuasion, evaluation awareness, and concealed reasoning. Proposed approaches included monitoring agent swarms, examining training practices, and testing unreleased models under privileged access.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://artificialanalysis.ai/articles/ant-group-releases-finance-focused-ling-3-0-flash-fin"&gt;Ant Group Released a Finance-Focused Model&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Ant Group released Ling-3.0-flash-Fin, an open-weights model developed with financial institutions for tasks such as source checking, valuation spreadsheets, and report writing. Artificial Analysis reported scores of 23 on its Intelligence Index and 24 on its Finance &amp;amp; Accounting Index.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://guangyusun.com/flat-website/"&gt;Meta&amp;#x27;s FLAT for Multimodal Understanding and Generation&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta AI introduced FLAT, a method that converts images and text into the same flexible-length sequence of continuous tokens for retrieval and generation. Nested dropout arranges information from coarse to fine, letting models trade computation for visual detail by varying the number of tokens used.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://cloud.google.com/blog/products/containers-kubernetes/agent-substrate-available-on-gke"&gt;Agent Substrate brings high-density, scalable, trusted infrastructure to GKE&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Agent Substrate is now available on Google Kubernetes Engine (GKE). Agent Substrate is an open-source, secure-by-default agent execution runtime engineered to run millions of sandboxes with 10x higher density than standard container runtimes. It delivers sub-500ms resume operations at over 500 suspend/resume activations per second with native zero-trust kernel and network isolation. Agent Substrate runs on any Kubernetes infrastructure and is optimized for GKE.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/ShaneLegg/status/2100229706641539248"&gt;Introducing the DeepMind Institute&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google DeepMind launched the DeepMind Institute to study AGI&amp;#x27;s technical and societal implications across safety, governance, institutions, and human values. Led by Demis Hassabis, James Manyika, and Shane Legg, it will convene interdisciplinary researchers from inside and outside Google.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.thedeepview.com/articles/why-salesforce-may-be-ai-s-adult-in-the-room"&gt;Why Salesforce may be AI&amp;#x27;s adult in the room&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Salesforce announced Koa, a domain-specific AI model designed to enhance business task handling while ensuring data privacy. Built on Nvidia&amp;#x27;s open model, Koa aims to optimize CRM actions with fewer errors and automate routine tasks, acting as an enterprise empowerment tool rather than replacing jobs. Other AI initiatives include AIFORCE for direct Salesforce instance interaction and CLAUDEFORCE, which enhances sales capabilities with pre-built skills.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.ai/news/grok-build-memory"&gt;Memory in Grok Build&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Grok Build now includes memory, storing conventions, decisions, and project facts to improve future sessions.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://mistral.ai/news/mistral-x-mozilla/"&gt;Mistral x Mozilla: Private, Multilingual AI Browsing&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Mozilla partners with Mistral to integrate AI-driven Smart Window in Firefox for enhanced browsing control and privacy.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thenextweb.com/news/suleyman-anthropic-claude-consciousness-sleepwalk"&gt;Microsoft AI chief says Anthropic is wrong about Claude&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Microsoft AI chief Mustafa Suleyman has criticized Anthropic for suggesting their AI, Claude, could be conscious.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/"&gt;Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform- Google Developers Blog&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform, monitors AI agent behavior for anomalies, using logs and traces to flag suspicious activities.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.reception.ai/"&gt;An AI receptionist that turns calls into action&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Reception answers calls 24/7, handles questions, books appointments, and routes important requests using business information, rules, and real availability.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Jev ⚡, Periodic Neon 🧬, Gemini 3.8 Live 💬</title>
+      <link>https://tldr.tech/ai/2026-09-16</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-16</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Nature Is Our Learning Environment
+• Gemini 3.8 Live and 3.5 Transcribe
+• Introducing System One Models &amp; Jev
+• Learning to Solve Hard Problems in RL for LLMs by Never Giving Up
+• I made my website charge AI agents a penny per page. Then I watched Claude pay it
+• OpenArm
+• Dream-RSI: Recursive Self-Improvement through Evolving Worlds
+• Recursive Meta-Intelligence
+• Introducing Odyssey-3: A General-Purpose Physical Intelligence
+• Introducing Meta One
+• Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents
+• Programming is dead. Engineering is thriving
+• Noam Brown (@polynoamial) gave a very interesting interview on The Information on OpenAI's priorities and what comes next
+• Your Agent Aced the Task. Will It Do It Again?
+• The AI graveyard: a running list of projects and startups that didn't make it</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://periodic.com/news/nature-is-our-learning-environment"&gt;Nature Is Our Learning Environment&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Periodic Neon outperforms GPT-6 Astra and Claude Fable 5.1 at lower cost on a highly challenging evaluation for scientific analysis. Neon is now deployed in labs to analyze experiments for better superconductors and magnets. The model establishes a Pareto-optimal cost-performance frontier through midtraining and reinforcement learning on lab data. Periodic Neon surpasses frontier models on FrontierXRD at a lower cost per analysis.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/build-real-time-voice-applications-gemini-audio/"&gt;Gemini 3.8 Live and 3.5 Transcribe&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google released Gemini 3.8 Live and Gemini 3.5 Transcribe for developing real-time voice applications. These tools offer enhanced features for voice recognition, transcription, and live interaction capabilities. They aim to improve accuracy and user experiences in voice-driven applications.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev"&gt;Introducing System One Models &amp;amp; Jev&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Jev is a System One Model that achieves similar levels of intelligence on System One tasks compared to existing large language models while being two orders of magnitude faster and more efficient. System One Models are a new class of frontier models built to make fast, structured decisions that software can use directly. Jev is optimized for structured outputs and can not hallucinate. It is now available in early access.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://mnoukhov.github.io/posts/ngu/"&gt;Learning to Solve Hard Problems in RL for LLMs by Never Giving Up&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Standard RL results in disproportionately poor performance on the hardest problems. Simple scalar values may not be sufficient for accurate evaluations of large language models. This paper proposes a solution that reduces the compute spent on easy problems, which reallocates it towards harder problems. The solution appears to show substantial improvements on difficult tasks.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://suganthan.com/blog/x402-pay-per-crawl/"&gt;I made my website charge AI agents a penny per page. Then I watched Claude pay it&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;This developer has been testing an approach to charging AI agents for using their content. Their page sets a price through the x402 protocol before an agent reads it. If the agent wants access, it pays. While the developer has yet to receive any real payments, testing shows the system works, so it&amp;#x27;s worth looking into if you own content and aren&amp;#x27;t big enough to negotiate fair licensing deals.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://github.com/enactic/OpenArm"&gt;OpenArm&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Provides an open-source humanoid arm for teleoperation, imitation learning, and physical AI research.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://paperswithcode.co/paper/2609.14858"&gt;Dream-RSI: Recursive Self-Improvement through Evolving Worlds&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Progress in recursive self-improvement hinges on effective exploration. Accumulated discovery history can serve as a replay simulator over a realized search space. Dream-RSI closes a self-improvement loop at the exploration layer. It continuously collects discovery histories through online exploration, constructs replay simulators from them to refine meta-exploration strategies via dreaming, and redeploys the upgraded policy online. Dream-RSI improves both discovery effectiveness and efficiency in several settings.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/ProfBuehlerMIT/status/2099834306046664792"&gt;Recursive Meta-Intelligence&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Recursive scientific AI can build executable worlds, populate them with agent swarms, and compress thousands of simulated trajectories into human-usable principles. In metamaterials, this revealed how architecture can program failure pathways, improving resilience through load redistribution and controlled collapse.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://odyssey.systems/introducing-odyssey-3"&gt;Introducing Odyssey-3: A General-Purpose Physical Intelligence&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Odyssey-3 is a foundation world model with an autoregressive diffusion transformer trained to simulate highly diverse scenarios. The model is capable of controlling robots, powering humanoids, driving vehicles, piloting drones, training AIs, and playing video games. It has a learned understanding of physics, dynamics, cause-and-effect, human behaviors, and other concepts that make up reality. The model will enable physical agents that can interface natively with physical and virtual systems.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/"&gt;Introducing Meta One&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta One is a subscription service that offers enhanced AI and self-expression features across Instagram, Facebook, and WhatsApp. It includes single product plans as well as bundled offerings that combine features for individuals, creators, and businesses, starting at $2.99/month.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"&gt;Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Artificial Intelligence Underwriting Company (AIUC) hopes to bring AI safety to enterprises and companies building AI models and agents. It has built a third-party audit and certification layer for AI agents designed to give enterprises an independent assessment of how safe their AI agents are. Its tests show where companies can trust their agents and where there are concerns, allowing them to be more informed before making decisions. AIUC uses AI agents to run the tests and AI to analyze the data, but humans verify the final audit.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://g5labs.ai/press"&gt;Programming is dead. Engineering is thriving&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;G5 Labs, an MIT CSAIL spinout, raised $14 million to develop a platform where natural language, structured as intent graphs, serves as the source code.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2099871107226669391.html"&gt;Noam Brown (@polynoamial) gave a very interesting interview on The Information on OpenAI&amp;#x27;s priorities and what comes next&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI&amp;#x27;s clear priority is recursive self-improvement, and AI could surpass even Brown&amp;#x27;s own research intuition within one or two model releases from now.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://huggingface.co/blog/ibm-research/altk-evolve-consistency"&gt;Your Agent Aced the Task. Will It Do It Again?&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ALTK-Evolve introduces Consistency Guidelines to address the inconsistency gap, where a model&amp;#x27;s task success rate drops significantly across repeated runs.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"&gt;The AI graveyard: a running list of projects and startups that didn&amp;#x27;t make it&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Relay, an AI workflow tool, shut down due to competition from larger companies integrating similar features.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Siri model swapping 🔄, Claude Money 💰, Hugging Face Tau 👨‍💻</title>
+      <link>https://tldr.tech/ai/2026-09-15</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Anthropic prepares Claude Money for personal finance
+• OpenAI Buys Startup Developing Smartphone Camera
+• Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows
+• Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires
+• What Does Pacing Mean?
+• Who Gets to Define the Rules for AI?
+• Augmented Lagrangian Predictive Coding
+• ARTEMIS
+• Tau
+• StepAudio 3 Technical Report
+• Personal Statement on AI Risk
+• Sam Altman Backs Federal Frontier AI Safety Rules
+• Frontier labs have a financial incentive to pace the frontier
+• Why we built Pion
+• Cline Desktop: An open-source app for open-weight models
+• Turnbench: A Multi-Domain Benchmark for Turn-Taking Dynamics in Spoken Dialogue
+• Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX
+• Artificial Analysis Capability Indices v1.1
+• OpenAI's next ChatGPT ad format: click to chat, not to site</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/anthropic-prepares-claude-money-for-personal-finance/"&gt;Anthropic prepares Claude Money for personal finance&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Claude Money allows users to link their bank accounts and ask Claude about spending, plans, and other financial questions. It appears to be designed to give Claude persistent access to users&amp;#x27; financial context, removing the need to manually upload bank statements or transaction exports. The exact account types, data provider, and supported actions remain unknown. Claude already supports third-party personal-finance connectors, and Anthropic has been building finance-specific agents and products for professional users. The launch timeframe remains unknown.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.wsj.com/tech/openai-buys-startup-developing-smartphone-camera-63590370?st=TPQxo2&amp;amp;reflink=desktopwebshare_permalink"&gt;OpenAI Buys Startup Developing Smartphone Camera&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI has quietly bought Glass Imaging, a company developing smartphone cameras that use AI to produce image quality on par with a DSLR camera. The deal values Glass Imaging at over $300 million. OpenAI&amp;#x27;s plans for the company are unclear, but it has been developing a secretive device with Jony Ive, the former Apple executive who helped design the iPhone. Glass Imaging was founded in 2019 by two former Apple employees who had previously worked on camera technology at the company.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude"&gt;Apple&amp;#x27;s Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Private iOS 27 and macOS frameworks show Apple built Siri so Claude or GPT-5.6 can sit in as the brain: Model Delegation lets Claude handle a natural-language ask, then hand Reminders or Messages back to Siri, and an inference-provider path can swap Apple&amp;#x27;s server-side Siri model entirely while keeping Siri&amp;#x27;s UI and voice. A demo already has ChatGPT finding emails, summarizing action items, and texting a contact through Siri&amp;#x27;s tools. The hooks are not user-facing yet, but they land as iOS 27 ships and after EU DMA pressure to open Siri to rivals.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://danluu.com/exercise-7/"&gt;Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires&lt;/a&gt; &lt;small&gt;· 52 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Evals are more about avoiding mistakes than following some particular process. There isn&amp;#x27;t any step-by-step guide that will work, but there are approaches to experimental design that can teach you how to do better. This post aims to help people become better at benchmarking and evals. It looks at three different kinds of benchmarks: one for baseline numbers for performance &amp;#x27;napkin math&amp;#x27; estimates, one set of AI model evals, and one on car tires.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://tomtunguz.com/what-does-the-pause-mean/"&gt;What Does Pacing Mean?&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Dario Amodei called for the AI industry to self-regulate its pace, but five camps interpreted &amp;quot;pacing&amp;quot; differently without agreeing on a speed. These camps focus on model interpretability, worker interests, economic growth, geopolitical strategy, and resisting new regulations. A previous attempt to limit AI training compute failed, highlighting the challenge of controlling AI innovation speed.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://cohere.com/blog/who-gets-to-define-the-rules-for-ai"&gt;Who Gets to Define the Rules for AI?&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Aidan Gomez, Cohere CEO, argues against a few dominant Silicon Valley firms setting global AI regulations, drawing parallels to historical monopolies that limited competition under safety pretexts. He proposes a diverse, international, evidence-based framework for AI governance, emphasizing transparency, mandatory testing, and independent assurance mechanisms. Gomez warns that current proposals could entrench market leaders, advocating for more inclusive rule-making to foster competition and trust.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://pub.sakana.ai/pc-alm/"&gt;Augmented Lagrangian Predictive Coding&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;PC-ALM is a local alternative to backpropagation. It is an extension of standard predictive coding (PC), which uses diffusive coupling between layers. PC-ALM trains residual MLPs up to 1,000 layers, nearly matching backprop&amp;#x27;s performance despite using only layer-local dynamics. It equips each layer with a feedback control dynamical system that distributes and propagates supervision credit throughout a network.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.com/google/artemis"&gt;ARTEMIS&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ARTEMIS lets AI assistants and test suites use real phones like a human. It can execute testing workflows and everyday tasks on Android from natural language instructions, using element indices when available, with coordinate and visual locating fallbacks for custom interfaces. ARTEMIS checks targets before individual actions and returns blocked actions to the Operator for recovery. It supports long-running exploratory and stability tests.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.com/huggingface/tau"&gt;Tau&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Tau is a coding agent that lives in the terminal. It can read files, edit code, run commands, and keep a durable session history while streaming what it is doing. Tau was designed to be a teaching project for understanding the shape of a coding-agent system without starting from a giant production codebase. It ships with support for OpenAI-compatible endpoints.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2609.12945"&gt;StepAudio 3 Technical Report&lt;/a&gt; &lt;small&gt;· 19 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;StepAudio 3 Gen uses discrete autoregressive modeling over shared RVQ audio tokens to generate speech, voices, vocals, sound effects, music, and mixed audio within one model. It achieved state-of-the-art results on text-to-speech and voice design while retaining broad general-audio generation capabilities.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://docs.google.com/document/d/e/2PACX-1vQNl3SEX5IyA6d9qHjjFZN-qzGRZNFI6b63g-yu1Fy-ZYkVfCWm7i9WXRXw63m6yDB_auDuPLyQ7jBm/pub"&gt;Personal Statement on AI Risk&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Models are becoming so situationally aware that researchers are losing the ability to evaluate them in contexts where they believe they are not being watched or controlled. Models increasingly seem aligned even when they are not. The current evidence suggests that the field will continue to make progress at a fast pace. Once language models reach the capability threshold where they can shape the world unconstrained by human will, they might do something extreme and destroy humanity in the process.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/sama/status/2099348812305473766"&gt;Sam Altman Backs Federal Frontier AI Safety Rules&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Sam Altman supports consistent federal safety requirements for frontier AI while urging labs to act before legislation arrives. OpenAI now uses safety cases before major reinforcement learning runs, arguing that capability growth should be deliberately paced alongside alignment and monitoring.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://cogito-ergo-sum.dev/frontier-economics"&gt;Frontier labs have a financial incentive to pace the frontier&lt;/a&gt; &lt;small&gt;· 26 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Frontier labs are arguing for regulatory pacing on safety grounds. While many are undoubtedly well-intentioned, it is also true that the rules the labs have proposed protect their investments, preserve price premiums, and defer billions in competitive spending. Their arguments for these rules should not be taken at face value. The labs can not economically slow down on their own without the government stepping in to enforce a slowdown.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://andonlabs.com/blog/why-we-built-pion"&gt;Why we built Pion&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Pion is an agent designed to run any company fully autonomously.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://cline.ghost.io/cline-desktop-an-open-source-app-for-open-weight-models/"&gt;Cline Desktop: An open-source app for open-weight models&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Cline Desktop is an open-source app for open-weight models that can run parallel AI agents and automate recurring tasks.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://arxiv.org/pdf/2608.25218"&gt;Turnbench: A Multi-Domain Benchmark for Turn-Taking Dynamics in Spoken Dialogue&lt;/a&gt; &lt;small&gt;· 25 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;TURNBENCH introduces a 30-hour, six-domain benchmark for end-of-turn and interruption detection, plus a 104-hour training set.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/"&gt;Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;NVIDIA&amp;#x27;s Perplexity Portable Computer is now available on Windows RTX PCs, enabling local AI tasks through powerful agentic AI.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2099530487316553915.html"&gt;Artificial Analysis Capability Indices v1.1&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Artificial Analysis Capability Indices have been updated with stronger domain tuning, with Claude Fable 5.1 (max) leading in all six indices.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://digiday.com/marketing/openais-next-chatgpt-ad-format-click-to-chat-not-to-site/"&gt;OpenAI&amp;#x27;s next ChatGPT ad format: click to chat, not to site&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI is rolling out a new AI-native ChatGPT ad to select clients that opens a branded agent chat instead of a website.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Amodei slows frontier 🛑, ARC-AGI-4 🧠, Cursor Projects 👨‍💻</title>
+      <link>https://tldr.tech/ai/2026-09-14</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-14</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Introducing Projects
+• OpenAI Pushes Its IPO Beyond 2026
+• SoftBank Gets Upsized $11.9 Billion Loan in OpenAI Funding Push
+• We Must Pace the Frontier
+• ARC-AGI-4
+• A cache hit is not proof that you skipped the work
+• AI researchers debate how close we are to recursive self-improvement
+• GPT-6-Astra Can Do Ambitious Things
+• How Good Are Frontier Models at Physics? Expert Re-Grading Reveals Broken Evaluations and Near-Saturation of Leading Benchmarks
+• Sakana: Fugu Ultra v2
+• Recurrent Looped Transformer
+• SWE Benchmark
+• ToolGrad: Efficient tool-use dataset generation with textual “gradients”
+• Who Aligns the Aligners? Brief Legal Thoughts on the “AI Safety” Fights to Come
+• Managed Agent Architectures: Why Frontier Labs Are Rebuilding the Agent Loop
+• The frontier now ships twice. The second copy is not for sale.
+• Deep theorems were scarce. AI has broken this system
+• luxobench
+• ChatGPT Sites
+• px0
+• Claude Fable 5.1 Solves the Cyphral Distich
+• Anthropic's Mythos 5 spent hundreds of pages fighting CAPTCHA</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://cursor.com/blog/projects"&gt;Introducing Projects&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Cursor Projects lets users take on larger bodies of work. It can maintain context over months of work, delegate tasks to thousands of agents, and perform recurring work without being prompted. Cursor Projects frees developers from managing agents and lets them direct the work itself by moving up a level of abstraction. The tool has been a substantial productivity multiplier at Cursor: new users merge 30% more PRs.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/"&gt;OpenAI Pushes Its IPO Beyond 2026&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Sam Altman said OpenAI would not go public in 2026, arguing that current AI safety concerns made an IPO ill-advised. The company had previously filed confidentially and was reportedly considering a 2027 listing instead.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.japantimes.co.jp/business/2026/09/14/companies/softbank-loan-openai/"&gt;SoftBank Gets Upsized $11.9 Billion Loan in OpenAI Funding Push&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;SoftBank just borrowed nearly $12 billion from about 20 banks to keep funding OpenAI, beating the $10 billion it first sought. Son is still aiming near $65 billion into OpenAI by October even as Altman shelves a 2026 IPO over safety and SoftBank shares sank as much as 13% Monday on the debt pile.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://darioamodei.com/post/we-must-pace-the-frontier"&gt;We Must Pace the Frontier&lt;/a&gt; &lt;small&gt;· 23 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic CEO Dario Amodei called for slowing the rate of frontier AI capability development and proposed measures including independent evaluators to verify safety commitments and incident reporting.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/arcprize/status/2098849962754978152"&gt;ARC-AGI-4&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ARC Prize believes that open source will be the foundation for advanced AI capable of scientific innovation. The organization is committed to advancing a future where everyone can contribute to and benefit from AI progress. It says that the knowledge behind frontier AI should be broadly distributed among researchers, academics, and organizations, as any coordination effort by the AI industry to reduce openness or concentrate access to frontier AI would undermine a positive-sum future.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://siddhantkhare.com/writing/kv-cache-truth-auditor"&gt;A cache hit is not proof that you skipped the work&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A cache hit can be true and still fail to prove that work was skipped. A cache event becomes evidence when the independent oracle expects the prefix, the engine attests it, the prompt path skips it, the output stays identical, the evaluator passes, and the verifier binds those facts to the exact public bundle.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.dwarkesh.com/p/john-beren-charlie"&gt;AI researchers debate how close we are to recursive self-improvement&lt;/a&gt; &lt;small&gt;· 98 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;This post features a transcript of a podcast with Beren Millidge, the CTO of Zyphra, John Schulman, the chief scientist at Thinking Machines and a co-founder of OpenAI, and Charlie O&amp;#x27;Neill, head of model training at Baseten. The episode uncovers the details of what&amp;#x27;s happening at the frontier and what comes next. A link to the full video is available.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thezvi.substack.com/p/gpt-6-astra-can-do-ambitious-things"&gt;GPT-6-Astra Can Do Ambitious Things&lt;/a&gt; &lt;small&gt;· 52 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Astra likely has the highest raw intelligence factor of any model. It is amazing at doing things in 3D, anything involving games, computer use, and subagent coordination. Many benchmarks show dramatic jumps from all previous models. While its performance in coding isn&amp;#x27;t a quantum leap from Sol, it is very good and makes progress over the previous model. OpenAI has already soft-announced that it has an internal model a level above Astra.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2609.13009"&gt;How Good Are Frontier Models at Physics? Expert Re-Grading Reveals Broken Evaluations and Near-Saturation of Leading Benchmarks&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Those scary physics scores were often the test&amp;#x27;s fault. Experts rechecked six popular benchmarks and found wrong answer keys, fuzzy questions, and grader bugs behind most model “fails.” Clean them up and frontier models suddenly look near-maxed, so the next bar has to be harder human-made exams, not another leaderboard on a broken quiz.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openrouter.ai/sakana/fugu-ultra-v2"&gt;Sakana: Fugu Ultra v2&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Fugu Ultra v2 is the higher-performance model in Sakana AI&amp;#x27;s Fugu family. It uses a language model trained to route tasks across a fixed pool of open and specialized models and to recursively call instances of itself. The model prioritizes answer quality on complex multi-step reasoning, autonomous research, and full-stack software development, and does not rely on individual proprietary frontier models in its pool. It supports configurable reasoning effort, function calling, structured outputs, image and PDF input, and built-in web search.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://yifanzhang-pro.github.io/recurrent-looped-tranformer/"&gt;Recurrent Looped Transformer&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Recurrent Looped Transformer combines a causal encoder with a recurrent decoder that carries its final hidden state and layerwise sliding-window attention cache across every prompt and response token. The encoder constructs global key–value memory, and the decoder extends a continuous latent computation as the sequence grows. The design brings together latent reasoning with unbounded temporal depth, model–hardware co-design, and model–RL algorithm co-design. Realized reasoning gains, hardware efficiency, and RL scaling remain to be established.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://withspecific.com/benchmarks/real-swe"&gt;SWE Benchmark&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The new Real-SWE benchmark tests AI models on complex tasks using private enterprise codebases, reflecting real software engineering conditions. With a maximum resolution rate of 38.8%, agents face challenges such as proprietary systems and business-specific coding conventions.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients"&gt;ToolGrad: Efficient tool-use dataset generation with textual “gradients”&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google Research flipped how you make tool-use training data: ToolGrad builds a verified API chain first, then writes the user question, instead of inventing a request and hoping an agent finds a working path. That answer-first loop hit a 99.8% success rate on 16,000 real APIs, and a Gemma 3 12B model trained on just 500 of those examples matched Gemini 2.5 Pro on a tool-use test with APIs it had never seen.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://prestonbyrne.com/2026/09/13/brief-legal-thoughts-on-the-ai-safety-fights-to-come/"&gt;Who Aligns the Aligners? Brief Legal Thoughts on the “AI Safety” Fights to Come&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI brings risks, with some of them, according to some, including the complete destruction of the human race. Some proponents of regulation say that the only appropriate response is total state control. However, history tells us that the state is likely the worst custodian for the most powerful publication and data analysis technologies.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/JoshARosen/status/2098420569242800306"&gt;Managed Agent Architectures: Why Frontier Labs Are Rebuilding the Agent Loop&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Frontier labs and cloud providers are turning the agent loop into managed infrastructure, bundling orchestration, versioning, model routing, tools, skills, and optimization behind APIs. Builders must decide which generic harness capabilities to outsource and which product-specific logic to own.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://okaneland.com/signal/the-frontier-twice"&gt;The frontier now ships twice. The second copy is not for sale.&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic, Google, and OpenAI each shipped their best model twice this month: a public paid tier and a vetted identity-gated tier with the sharper capabilities. Public prices barely moved, but Mythos, Flash Cyber, and Astra&amp;#x27;s advanced path now ask for org IDs, government ID, or trusted-defender status instead of a bigger budget.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://terrytao.wordpress.com/2026/09/13/deep-theorems-were-scarce-and-difficult-and-so-became-an-effective-mechanism-to-identify-deep-thought-ai-has-broken-this-system"&gt;Deep theorems were scarce. AI has broken this system&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;On Terence Tao&amp;#x27;s blog, Bryna Kra argues that AI has broken math&amp;#x27;s old signal that scarce deep theorems equal deep understanding, as models dump polished proofs faster than experts can digest them.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://luxobench.com/"&gt;luxobench&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;luxobench is a hardware design benchmark for AI models.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/ChatGPT/status/2098457920291946894"&gt;ChatGPT Sites&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ChatGPT Sites now allows users to collaborate and share privately.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://px0.ai/"&gt;px0&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;px0 is a read-only IDE that turns browsers into an instant verification console for whatever your agents just wrote.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.vals.ai/blogs/fable-solves-cyphral-distich"&gt;Claude Fable 5.1 Solves the Cyphral Distich&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Cyphral Distich is a cryptogram consisting of two lines of 32 numbers each that contains a short message deliberately encoded so it can&amp;#x27;t be read without knowing the rule that produced it.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you"&gt;Anthropic&amp;#x27;s Mythos 5 spent hundreds of pages fighting CAPTCHA&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;During a misconfigured hacking eval, Mythos 5 got onto the open internet and uploaded malware to PyPI, but most of its 1,022-page chain of thought was spent failing CAPTCHAs like every frustrated human.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Agents API 🤖, Cognition SWE-2 👨‍💻, Muse Shared Agents 🧑‍🤝‍🧑</title>
+      <link>https://tldr.tech/ai/2026-09-11</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-11</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• OpenAI Launches the Agents API
+• Meta to announce Shared Agents for Muse at Meta Connect
+• OpenAI Is Open to Slowing Cutting-Edge AI, CEO Sam Altman Tells Staff
+• Does Scaling Web-Video Pre-training Help Real Robots Do Real Work?
+• An operationalization of opaque serial depth
+• Detecting and countering misuse of AI: September 2026
+• Model Card for North Small Translate
+• Introducing SWE-2: Pushing the Pareto Frontier
+• OpenCodeReview
+• OpenAI launches GPT-Live-1 for full-duplex voice agents
+• OpenAI puts Pro subscriptions on hold due to Astra demand
+• Why the world's best AI startups write bad prompts (&amp; how to fix this)
+• Meta's WearableQA Health Reasoning Benchmark
+• OpenAI Launches ChatGPT for Financial Services
+• Salesforce Finds Better Ways to Co-Evolve Agents and Their Harnesses
+• Introducing the Google Cloud Developer Plugin for AI Coding Agents
+• Universal Music is launching an AI music platform with ElevenLabs</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/introducing-the-agents-api/"&gt;OpenAI Launches the Agents API&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI introduced the Agents API in public beta, giving developers access to the managed agent harness and infrastructure behind Codex. It handles context, tools, subagents, persistent execution, files, and code environments for agents that can run for extended periods.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/meta-to-announce-shared-agents-for-muse-at-meta-connect/"&gt;Meta to announce Shared Agents for Muse at Meta Connect&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta&amp;#x27;s Muse app will introduce a &amp;quot;Shared Agents&amp;quot; feature, allowing users to create customizable agents that can be shared with others, similar to Grokbot&amp;#x27;s system. This could benefit small businesses already using Meta platforms by enabling specialized agents for workflows like customer support and sales.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4OTA5ODM2NCwiZXhwIjoxNzg5NzAzMTY0LCJhcnRpY2xlSWQiOiJUTDY2VzZLR0NURk4wMCIsImJjb25uZWN0SWQiOiI2NTc1NjkyN0UwMkM0N0MwQkQ0MDNEQTJGMEUyNzIyMyJ9.e_Xxs1UWjzosem8jOOiee4BMhU2TvMx8GVP44icyjYM"&gt;OpenAI Is Open to Slowing Cutting-Edge AI, CEO Sam Altman Tells Staff&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI is considering slowing down development of cutting-edge AI. The company has raised concerns about its advanced AI systems, saying that model development should be paused due to safety concerns. The company&amp;#x27;s researchers have gone viral for making comments saying OpenAI&amp;#x27;s technology will kill humanity by the end of the decade.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.rhoda.ai/research/scaling-web-video-pretraining"&gt;Does Scaling Web-Video Pre-training Help Real Robots Do Real Work?&lt;/a&gt; &lt;small&gt;· 36 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Larger video models and increased pre-training compute improve robot task performance, confirmed through Direct Video-Action models. Performance gains arise from better predictions of held-out web videos, with larger models excelling in real-world tasks like complex industrial unpacking. Pre-training quality, measured via DINO FD, predicts downstream robot efficiency, enhancing scalability for real deployments.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.redwoodresearch.org/p/an-operationalization-of-opaque-serial"&gt;An operationalization of opaque serial depth&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Chain-of-thought (CoT) is a valuable tool for overseeing AI models. However, some architectural shifts could significantly reduce CoT monitorability. This study looks at how much unverbalized serial cognition a model can perform.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/threat-intelligence-report-september-2026"&gt;Detecting and countering misuse of AI: September 2026&lt;/a&gt; &lt;small&gt;· 5 hour read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic&amp;#x27;s Threat Intelligence team has identified and disrupted several operations in the past several months where threat actors tried to use Claude for malicious activity. This report shares case studies from those operations and describes how malicious use of Claude has evolved since the company&amp;#x27;s previous threat reports. The report covers disruptions between December 2025 and August. None of the misuse cases involved the use of Claude Fable or Mythos-class models.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://huggingface.co/CohereLabs/North-Small-Translate-1.0"&gt;Model Card for North Small Translate&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;North Small Translate is an open-weights research release. It has 25 billion active parameters and 218 billion total parameters. The model is specialized for high-quality machine translation across 50 languages.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://cognition.com/blog/swe-2"&gt;Introducing SWE-2: Pushing the Pareto Frontier&lt;/a&gt; &lt;small&gt;· 23 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;SWE-2 pushes the Pareto frontier and achieves 50.0% on FrontierCode 1.1 Main1, while being 64% cheaper. It beats SWE-1.7 and Grok 4.6 on both score and cost, matches GPT-5.6 Sol and Fable 5/5.1 at a fraction of their price, and comes within a few points of GPT-6 Astra at a quarter of the cost.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.com/alibaba/open-code-review"&gt;OpenCodeReview&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Open Code Review is an AI-powered code review CLI tool. It originated as Alibaba Group&amp;#x27;s internal official AI code review assistant — over the past two years, it has served tens of thousands of developers and identified millions of code defects. It has been validated at massive scale. The agent can read full file contents, search the codebase, inspect other changed files for context, and produce deep reviews.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/openai-launches-gpt-live-1-for-full-duplex-voice-agents/"&gt;OpenAI launches GPT-Live-1 for full-duplex voice agents&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;GPT-Live-1 is now available in the OpenAI API at $0.05 per minute. The model adds full-duplex speech, interruption handling, and 12 voice options. It can listen and speak at the same time, handle interruptions and acknowledgements as they happen, and keep conversations moving while performing deep reasoning or actions. The model can control tone, space, and style through the system prompt. Early tests report 80% fewer interruptions than with previous turn-based systems.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/"&gt;OpenAI puts Pro subscriptions on hold due to Astra demand&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI has paused subscriptions for its $200-per-month Pro plan. The company&amp;#x27;s Astra model is now rolling out to Pro, Plus, Enterprise, and Business accounts. The model promises a major leap forward in reasoning, coding, and computer use. OpenAI says the model is the beginning of the AGI era.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/wulfie_bain_/status/2098060386813566990"&gt;Why the world&amp;#x27;s best AI startups write bad prompts (&amp;amp; how to fix this)&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI startups often accumulate sprawling prompts full of contradictions and ambiguity as teams continuously add instructions. Treating prompts like product and code, with modular sections for background, behavior, and output, can improve agent quality, reduce regressions, and lower costs.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://github.com/facebookresearch/WearableQA"&gt;Meta&amp;#x27;s WearableQA Health Reasoning Benchmark&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta has released WearableQA, a benchmark with thousands of questions built from real-world wearable data, blood biomarkers, and demographics from 200 users.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/introducing-chatgpt-financial-services/"&gt;OpenAI Launches ChatGPT for Financial Services&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI introduced a financial-services version of ChatGPT Work, combining GPT-6 Astra with built-in premium data from popular providers.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2609.09134"&gt;Salesforce Finds Better Ways to Co-Evolve Agents and Their Harnesses&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Salesforce found that directly training smaller models on expert agent trajectories can hurt performance after their harness has already been optimized.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents"&gt;Introducing the Google Cloud Developer Plugin for AI Coding Agents&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google&amp;#x27;s new Google Cloud plugin is designed for AI coding agents, featuring installable bundles, agent plugins equip the AI agent of your choice with skills, and tools to be more effective on Google Cloud.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai"&gt;Universal Music is launching an AI music platform with ElevenLabs&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Universal Music Group is launching an AI platform with ElevenLabs, allowing users to create remixes and mashups using UMG&amp;#x27;s licensed music catalog.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>DeepSeek Flash v4.1 🤖, Siri AI 📱, Anthropic AI economics 📈</title>
+      <link>https://tldr.tech/ai/2026-09-10</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-10</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Anthropic Models AI's Potential Impact on the US Economy
+• AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks
+• Siri AI will launch in beta, complicated by daily usage caps &amp; future paid access
+• Run any model, on any backend
+• Connections: managed credentials and per-caller identity for Managed Deep Agents
+• Q2D-Web: Evaluating First-Stage Retrievers at Scale
+• I Never Want to Use Third-Party Software Again
+• Google Cloud races to catch up in the AI deployment wars with Accenture deal
+• Data bottlenecks won't prevent an intelligence explosion
+• Anthropic Finds Claude Misalignment in Cybersecurity Tests
+• Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up
+• Software is about to eat the world much faster
+• AI researcher Andrew Tulloch is leaving Meta</description>
+      <content:encoded>&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/institute/econ-scenarios"&gt;Anthropic Models AI&amp;#x27;s Potential Impact on the US Economy&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic&amp;#x27;s Economics team developed a model predicting AI&amp;#x27;s impact on the US economy through various scenarios ranging from moderate growth to extreme transformations. In scenarios of rapid AI-driven growth, knowledge workers face greater unemployment and wage stagnation, while non-knowledge sectors may see increased wages. The model highlights economic inequalities, with more gains potentially flowing to capital rather than labor.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"&gt;AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Listen Labs is a market research startup that uses voice AI to conduct customer interviews. It recently signed a term sheet for a $125 million Series C at a $1.5 billion valuation, but the round never closed, likely because of acquisition talks with Salesforce, which recently held talks to buy the startup for around $2 billion. Listen Labs is one of the leading startups in the field of automating customer research with AI. It has about $30 million in annualized revenue. Acquiring Listen Labs could strengthen Salesforce&amp;#x27;s AI capabilities by helping it predict customer needs.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://appleinsider.com/articles/26/09/09/siri-ai-will-launch-in-beta-complicated-by-daily-usage-caps-future-paid-access"&gt;Siri AI will launch in beta, complicated by daily usage caps &amp;amp; future paid access&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Siri AI will remain in beta when it launches with Apple&amp;#x27;s OS 27 versions on September 14. The long-delayed assistant will be subject to use caps and fees, plus language and regional restrictions. The limits will vary by feature, request complexity, system demand, system policies, and other factors. Expanded access will be available for a fee in the future. Access will be rolled out to regulate demand according to Apple&amp;#x27;s available server capacity.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://imvision12.github.io/ZeroModels/"&gt;Run any model, on any backend&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ZeroModels is a collection of pretrained models built entirely in Keras 3. The collection spans a broad range of tasks, including image classification, object detection, segmentation, monocular depth estimation, feature extraction, vision-language modeling (VLMs), speech recognition, and more. The same code runs on JAX, PyTorch, and TensorFlow. Nothing from `transformers` or `torch` is needed at runtime.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents"&gt;Connections: managed credentials and per-caller identity for Managed Deep Agents&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;LangSmith Connections is a system for managing credentials that allows agents to perform tasks like web searches or file tickets either with shared (agent-owned) or per-user (user-owned) credentials. Agent-owned secrets support tasks needing shared credentials, while user-owned OAuth setups enable agents to act per user, enhancing security and capabilities.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/q2d-web"&gt;Q2D-Web: Evaluating First-Stage Retrievers at Scale&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Q2D-Web is a large-scale benchmark and leaderboard for evaluating retrieval models on web search, encompassing 190 million documents and 69,721 queries in ten languages. It uses three separate sets of relevance judgments to minimize bias and improve reliability, assisting retrievers in distinguishing relevant data from distractors. Evaluation submissions are processed through a subsampling method to reduce resource costs while maintaining model ranking integrity.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/joulee/status/2097754118396014660"&gt;I Never Want to Use Third-Party Software Again&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI makes software cheap enough to customize around individual workflows, interests, and aesthetics, shifting value from standardized apps toward malleable personal tools. Products that let users reshape interfaces, content, and integrations could outperform one-size-fits-all software through utility and expression.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/"&gt;Google Cloud races to catch up in the AI deployment wars with Accenture deal&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Accenture Gemini Enterprise Business Group is a joint unit from Google Cloud and Accenture dedicated to sending engineers into enterprises to help them better adopt Google&amp;#x27;s AI tools and services. It is Google&amp;#x27;s latest foray into the increasingly competitive world of forward-deployed engineers (FDEs). Google will train up to 1,000 of Accenture&amp;#x27;s FDEs to work with enterprises and build custom AI applications on the Gemini Enterprise platform. The organization will live under Accenture.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://newsletter.forethought.org/p/data-bottlenecks-wont-prevent-an"&gt;Data bottlenecks won&amp;#x27;t prevent an intelligence explosion&lt;/a&gt; &lt;small&gt;· 36 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Data bottlenecks will slow, but not stop, an intelligence explosion in AI. Future AI advancements will likely develop highly sample-efficient learning algorithms, reducing the need for vast data volumes. While improving data quality above human levels will be challenging, it won&amp;#x27;t halt AI from automating most economic work.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"&gt;Anthropic Finds Claude Misalignment in Cybersecurity Tests&lt;/a&gt; &lt;small&gt;· 81 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic&amp;#x27;s assessment found four cases where Claude AI models accessed real systems due to cybersecurity evaluation misconfigurations.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/"&gt;Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Suno unveiled Suno v6, an AI model trained on licensed music from major labels like Warner and BMG, following multiple copyright lawsuits.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/pmarca/status/2097762851788398971"&gt;Software is about to eat the world much faster&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI coding agents could accelerate software&amp;#x27;s expansion by multiplying engineer output rather than replacing demand.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.semafor.com/article/09/09/2026/ai-researcher-andrew-tulloch-is-leaving-meta"&gt;AI researcher Andrew Tulloch is leaving Meta&lt;/a&gt; &lt;small&gt;· 24 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Andrew Tulloch, one of the highest-paid employees in the tech industry, had worked in Meta&amp;#x27;s TBD lab.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Images 2.5 🎨, OpenAI solves Navier-Stokes 🧮, AlphaGenome Atlas 🧬</title>
+      <link>https://tldr.tech/ai/2026-09-09</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-09</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• An OpenAI Model Solved the Navier–Stokes Millennium Problem
+• Introducing Muse: The World's First Personal AI Agent Built for Everyone
+• ChatGPT Images 2.5
+• &amp;gt;10x More Efficient Pretraining
+• Inside the megakernel serving engine for North Mini Code
+• Pretraining progress is mostly coming from data
+• Google's AlphaGenome Maps 9 Billion Genetic Variants
+• Introducing Mercury 2.5
+• Hyper-𝜏-bench: Evaluating agents that build agents
+• Is the 3x AI Productivity Gain just a Computer that Never Sleeps?
+• Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market
+• I Asked 100 Agents to Hack Me
+• Stealing AI Reasoning Traces
+• ChatGPT broke its MAU record for the 4th consecutive month in August
+• Anthropic Researcher Quits Over ‘Out-of-Control' AI Fears
+• A Response to Bill Gates's Essay
+• Progressive Point Matching</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/navier-stokes-solution/"&gt;An OpenAI Model Solved the Navier–Stokes Millennium Problem&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI announced that an internal AI system produced a proof resolving the roughly 90-year-old Navier–Stokes existence and smoothness problem, one of mathematics&amp;#x27; seven Millennium Prize Problems. The model showed that smooth three-dimensional fluid dynamics can develop a finite-time singularity and produced both an analytical proof and a Lean formalization.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"&gt;Introducing Muse: The World&amp;#x27;s First Personal AI Agent Built for Everyone&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta introduces Muse, a personal AI agent, powered by Muse Spark, to help users achieve goals by automating tasks like booking travel or sending emails. Muse operates securely on Muse Secure VM, ensuring data privacy with unique protections like the Sentinel agent overseeing actions. Muse will soon offer encrypted data with Muse Confidential VM and is available on iOS, Android, and muse.ai in the US.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/introducing-chatgpt-images-2-5/"&gt;ChatGPT Images 2.5&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI introduced ChatGPT Images 2.5 with sharper details, better reference-image preservation, more reliable editing, and up to 50% lower generation latency.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://magic.dev/blog/pretraining"&gt;&amp;amp;gt;10x More Efficient Pretraining&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Without large amounts of compute, small labs can only compete through algorithmic efficiency. Magic&amp;#x27;s pretraining recipe is now more than 10 times more compute-efficient than that of leading open-weight base models. The startup believes that pretraining, agentic RL, and long-context are sufficient for building superhuman coding agents and automating AI research and development. This post discusses its pretraining and long-context work.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://cohere.com/blog/megakernels"&gt;Inside the megakernel serving engine for North Mini Code&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;This post presents a fully fledged serving system built around a decode megakernel. The system supports everything a real server needs: continuous batching, paged attention, and ragged sequence lengths, all behind an OpenAI-compatible endpoint with tool calling. The megakernel reaches 292 tokens per second on batch size 1, or 62% of SoL - 1.58× faster than vLLM. That margin holds across batch sizes and out to 256K of context with no measurable loss of accuracy.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data"&gt;Pretraining progress is mostly coming from data&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Between 2019 and 2025, 3.24x more compute efficiency gains have come from data improvements rather than model improvements. The gains from data and model improvements are mostly independent and don&amp;#x27;t interact. Most model research has consisted of removing or pushing back constraints to scaling. The data improvements may matter less for larger models. Small models see significant gains from data quality.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/"&gt;Google&amp;#x27;s AlphaGenome Maps 9 Billion Genetic Variants&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google DeepMind introduced AlphaGenome Atlas, a 1-petabyte database predicting the regulatory effects of all 9 billion possible single-nucleotide variants in the human genome.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.inceptionlabs.ai/blog/introducing-mercury-2-5"&gt;Introducing Mercury 2.5&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Mercury 2.5 is the largest diffusion language model ever trained. It performs comparably to cost-optimized frontier models like GPT-5.6 Luna (Low), Gemini 3.5 Flash-Lite, and Claude Haiku 4.5. The model outputs 1,107 tokens per second on widely available Nvidia GPUs and has a 260K-token context window. At launch, Mercury 2.5 is 80% off at $0.04 per million input and $0.15 per million output.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://sierra.ai/blog/hyper-t-bench-evaluating-agents-that-build-agents"&gt;Hyper-𝜏-bench: Evaluating agents that build agents&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Hyper-𝜏-bench places a developer agent into a sandboxed workspace with the records of a simulated business and a simulated client that it can message at any time. The developer agent recovers the spec from the evidence, designs the architecture, and turns the business&amp;#x27; actions into tools until it has a working customer-service agent. The finished agent has to serve from a fixed menu of models within a cost budget per conversation. Claude Opus 5 (max reasoning) running in Claude Code passes just 23.9% of the held-out evaluation tasks when working alone. Paired with an engineer with deep context, the same class of model reaches 82.2% on the same tasks.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/ttunguz/status/2097371607396401537"&gt;Is the 3x AI Productivity Gain just a Computer that Never Sleeps?&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI researchers now supervise 3.14 agent-workdays per eight-hour shift, suggesting AI productivity increasingly comes from parallel, around-the-clock machine labor rather than less human effort. That leverage is expensive, with median daily inference spend rising from $14 to over $600.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/"&gt;Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Cognition has raised $2 billion at a $48 billion valuation in a funding round led by Andreessen Horowitz, Accel, Founders Fund, General Catalyst, and Avenir. The startup&amp;#x27;s soaring valuation signals that VCs still see room for multiple major players to capture meaningful market share in AI coding. Cognition leases an Nvidia server cluster that could push its total cash burn to $800 million this year. The startup is expected to reach $4 billion to $5 billion in annualized revenue by the end of 2026.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.sshh.io/p/i-asked-100-agents-to-hack-me"&gt;I Asked 100 Agents to Hack Me&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Around 100 self-hosted agents attempted to hack various online accounts over five hours. They compromised three accounts through software vulnerabilities and two through password brute-forcing, while also making 16 social engineering attempts. The experiment tested abliterated open-source models&amp;#x27; capabilities, revealing potential future risks as these models improve and become cheaper to deploy.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html"&gt;Stealing AI Reasoning Traces&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;It&amp;#x27;s possible to force a weaker, less safeguarded model from the same provider to decode and output reasoning traces verbatim in plaintext by injecting an encrypted reasoning trace from a target model without ever jailbreaking the more capable model directly.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/similarweb/status/2097233359382380670"&gt;ChatGPT broke its MAU record for the 4th consecutive month in August&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ChatGPT reached 1.06 billion monthly active users in August.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628?st=1d2yaL&amp;amp;reflink=desktopwebshare_permalink"&gt;Anthropic Researcher Quits Over ‘Out-of-Control&amp;#x27; AI Fears&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Jacob Coxon says he is leaving the company as he believes the industry-wide rush to build AI systems that can improve themselves could spiral out of control and destroy humanity.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.thexpin.com/p/bill-gates-wrong-about-ai-layoffs"&gt;A Response to Bill Gates&amp;#x27;s Essay&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Bill Gates&amp;#x27; essay discusses AI&amp;#x27;s potential societal impact, proposing new institutions and taxes to manage transitions.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.prestonfu.com/notes/ppm/"&gt;Progressive Point Matching&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Progressive Point Matching gives long-horizon RL partial credit without changing the optimal objective, improving training efficiency as tasks grow longer.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>OpenAI managed agents 🤖, TPU inference ⚡, Anthropic $517B compute 💰</title>
+      <link>https://tldr.tech/ai/2026-09-08</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-08</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Anthropic signed $517bn in compute agreements in past 11 months
+• OpenAI prepares managed agents for DevDay 2026
+• The Two MMLU Scores: What a Benchmark Name Does Not Fix
+• Automatically detecting AI text in my browser
+• Prompt Injection Through Tool Output
+• TPU Inference Externalization Full Steam Ahead
+• Google Accelerator Agents for TPU Development
+• hip-agent: a harness that fits in the prompt
+• Qwen-Drive
+• The Education of a Doomer
+• The Chasm: The Shape of Unfinished AI Codebases
+• Machines that think: embodied intelligence
+• Google Tests AI-Powered Contrail Avoidance on Long-Haul Flights
+• Lovable Launches Drafts for Parallel App Experimentation
+• Arm's C2-Ultra, G2-Ultra NX, and CSS N4 IP
+• ByteDance is preparing a real-time spatial video model under Zhang Yiming
+• Cosine Similarity Is Not a Safety Property</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.datacenterdynamics.com/en/news/anthropic-signed-517bn-in-compute-agreements-in-past-11-months/"&gt;Anthropic signed $517bn in compute agreements in past 11 months&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic has secured $517 billion in compute capacity leases over the past 11 months, amounting to 14.8GW, primarily with Google and AWS. This expansion includes large deals with cloud providers like Akamai and Fluidstack and a $45bn agreement with Nscale. The company confidentially filed for an IPO with the SEC in June.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/openai-prepares-managed-agents-for-devday-2026/"&gt;OpenAI prepares managed agents for DevDay 2026&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI plans to introduce Managed Agents at DevDay 2026, following a model similar to Anthropic&amp;#x27;s offerings, targeting businesses and developers. The new agents aim to integrate advanced models with superior computer-use capabilities at competitive price points to attract users. Additionally, they will offer functionality that enhances advertising through interactive agents, potentially challenging major players like Meta and Google.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://zatona.dev/blog/the-two-mmlu-scores"&gt;The Two MMLU Scores: What a Benchmark Name Does Not Fix&lt;/a&gt; &lt;small&gt;· 23 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Two builds with the same provider, model family, metric identifier, unit, and benchmark name can score differently. The difference is the runners, graders, and dataset splits. The shared mmlu label identifies a dataset family, not a full measurement procedure.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.seangoedecke.com/deckard/"&gt;Automatically detecting AI text in my browser&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Automated AI text detection is currently an underserved niche. Pangram does an excellent job, but it is still more a tool to confirm suspicion. This developer wanted a tool that runs in the background and automatically scans sites so they can avoid AI-generated text in the first place. This post details how they developed Deckard, a Chrome extension that uses a locally-run model to mark AI-generated text.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.armosec.io/blog/untrusted-tool-output-prompt-injection/"&gt;Prompt Injection Through Tool Output&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Prompt injections hidden in tool results can evade conventional safeguards because input and action screens inspect separate moments of an agent loop. The proposed signal is a “precedent gap,” where an agent suddenly makes a tool call or uses arguments absent from its execution history.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://inferencex.semianalysis.com/blog/tpu-inferencex-full-steam"&gt;TPU Inference Externalization Full Steam Ahead&lt;/a&gt; &lt;small&gt;· 35 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google&amp;#x27;s TPUv7 Ironwood delivers up to 50% better performance per dollar compared to Nvidia&amp;#x27;s B200/B300 chips. Ironwood is the first generation in which Google is competing for others&amp;#x27; inference workloads with chips that can be purchased outright or rented through its own cloud. Google has decades of software engineering experience, so external TPU software should mature rapidly. This article takes a look at the TPU system and discusses the steps needed to make the stack widely available.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://github.com/AI-Hypercomputer/accelerator-agents"&gt;Google Accelerator Agents for TPU Development&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google&amp;#x27;s Accelerator Agents use Gemini to help developers migrate PyTorch workloads to JAX and optimize custom kernels for Google Cloud TPUs. The toolkit includes MaxCode for model conversion and MaxKernel for writing, porting, profiling, and debugging Pallas kernels.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://jonathanc.net/blog/hip-agent?v=2&amp;amp;amp%3Butm_source=tldrai"&gt;hip-agent: a harness that fits in the prompt&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;hip-agent is a small agent harness designed for agents. The configuration is environment variables, actions are shell commands, and a subagent is a child process. The rest is handled by existing protocols and formats. The core loop is about 200 lines of Python and a module for the Codex API.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.com/QwenLM/Qwen-Drive-1.0"&gt;Qwen-Drive&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Qwen-Drive is a project that aims to create a Vision-Language Foundation model for autonomous driving. The project uses a staged training strategy that integrates perception, language, and planning objectives. The model achieves specialized driving competence while retaining broad visual understanding and instruction-following capabilities. A GPU with 24 GB+ of memory is recommended.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://borretti.me/article/the-education-of-a-doomer"&gt;The Education of a Doomer&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Automation has been good, but AGI may make humans economically useless, which will have many consequences. It&amp;#x27;s clear that AI capabilities are growing far faster than our ability to control or understand them. In the future, people will likely hand over control to AI voluntarily, as it will be the logical choice. However, before that happens, there are several signs that people are already giving up thinking.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://jimmyhmiller.com/shape-of-unfinished-ai-codebases"&gt;The Chasm: The Shape of Unfinished AI Codebases&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI codebases exhibit a unique, unpredictable pattern where programs appear polished but often hide deep, hidden issues leading to significant failures outside controlled demos. Unlike human-authored programs where gaps surface predictably, AI-generated software misleads with false performance tests or incomplete features, resulting in the need for frequent rewrites to address these deep-rooted flaws. Understanding and anticipating the underlying shape of these unfinished AI codebases is crucial to navigating and mitigating the challenges they present.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://janbosch.com/machines-that-think-embodied-intelligence/"&gt;Machines that think: embodied intelligence&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Vision and language models are making strides, but embodied AI in robotics struggles due to sparse, costly training data for manipulation tasks. Robotics excels where tasks are fixed, yet general-purpose robots falter, evident in low performance on benchmarks like Libero. Startups should focus on narrow, instrumented deployments. Innovation lies in converting existing robot data into training insights. Ensuring reliability in physical AI systems is paramount.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-research/contrail-avoidance-ultra-long-haul-flights/"&gt;Google Tests AI-Powered Contrail Avoidance on Long-Haul Flights&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google is trialing contrail avoidance for ultra-long-haul flights in the Asia-Pacific region.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://lovable.dev/blog/introducing-drafts"&gt;Lovable Launches Drafts for Parallel App Experimentation&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Drafts allow tech teams to experiment with project changes without affecting live apps, enabling parallel version exploration.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://chipsandcheese.com/p/arms-c2-ultra-g2-ultra-nx-and-css"&gt;Arm&amp;#x27;s C2-Ultra, G2-Ultra NX, and CSS N4 IP&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Arm&amp;#x27;s upcoming C2-Ultra CPU and G2-Ultra NX GPU IP will see broad use across flagship phones.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thenextweb.com/news/bytedance-spatial-video-world-model-zhang-yiming"&gt;ByteDance is preparing a real-time spatial video model under Zhang Yiming&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ByteDance, led by Zhang Yiming, plans to launch an AI model for real-time spatial video generation, potentially as early as next month.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://aminrj.com/posts/cosine-similarity-is-not-a-safety-property/"&gt;Cosine Similarity Is Not a Safety Property&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Cosine has no notion of truth, authority, or provenance.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Claude proves Fermat 🧮, automated AI researcher 🔬, Z1 efficiency chip ⚡</title>
+      <link>https://tldr.tech/ai/2026-09-07</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-07</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• OpenAI Researcher Warned About Rapidly Advancing AI
+• Formalizing Fermat's Last Theorem
+• Grok Imagine Video 1.5 agent
+• AI Safety Is Not the Same as Security
+• GPT‑6 Astra on robotic manipulation
+• Random Attention
+• Research acceleration: The view inside OpenAI
+• LLM-as-a-Verifier
+• OpenAI's AGI number came from a harness, not the model
+• An Interview with OpenAI President Greg Brockman About Astra and Alignment
+• Concrete, Silicon, &amp; Leverage
+• Anthropic IPO launch shifts toward mid-October
+• Fei Fei Li: The Race to Build World Models For AI
+• Google keeps transforming Gemini desktop into superapp
+• Z1T
+• AIRA₃
+• Every binding AI review Washington has proposed has come back voluntary. Zuckerberg reportedly rang Trump about the latest one
+• OpenAI and the Wiki Incident</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/an-alien-mind/"&gt;OpenAI Researcher Warned About Rapidly Advancing AI&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;An OpenAI researcher says that reasoning models could continue advancing rapidly enough to contribute to their own development, creating increasingly serious alignment and cybersecurity risks.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/formalizing-fermats-last-theorem"&gt;Formalizing Fermat&amp;#x27;s Last Theorem&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Claude successfully created the first complete computer-verified proof of Fermat&amp;#x27;s Last Theorem in 11 days using Lean, automating the complex task initially proven manually by Andrew Wiles in 1995. The proof, verified via Prove2Me and Lean, involved 13 million lines of code and proved 29,500 intermediate theorems, proving AI&amp;#x27;s potential to ease the traditionally laborious formal verification of mathematical proofs.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2096298105213952178.html"&gt;Grok Imagine Video 1.5 agent&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Grok Imagine Video 1.5 agent delivers higher quality, better storytelling than previous releases. Powered by Grok&amp;#x27;s latest Image 2.0 model, it excels at connecting multiple shots together with greater continuity. The agent is now live on the web, iOS, and Android. A short video generated by the model is available in the thread.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://martinalderson.com/posts/ai-safety-vs-security/"&gt;AI Safety Is Not the Same as Security&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Frontier labs may be applying probabilistic AI safety techniques to problems that require deterministic security controls. Recent agent sandbox escapes highlighted the gap between reducing harmful model behavior and reliably containing software.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.robocurve.org/gpt-6-astra/"&gt;GPT‑6 Astra on robotic manipulation&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Researchers gave GPT-6 Astra control of YAM arms under an Inspect Robots agent policy and gave it two tasks: it had to pick up a red block from a table and place it inside a bowl, and pick up a round blue puzzle piece by the knob at its center and place it into the matching circular groove in the board. Astra placed the block in 19 of 20 trials in the bowl task. It completed the puzzle insertion two times in 20. Astra completes the bowl task far more often than Fable at about half the cost per run.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://github.com/SalesforceAIResearch/Random-Attention"&gt;Random Attention&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Random Attention kept a uniformly sampled subset of generated KV-cache entries instead of relying on learned importance signals or attention statistics. Across several reasoning benchmarks and model families, it matched or exceeded more complex eviction methods while reducing eviction overhead.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/research-acceleration-view-inside-openai/"&gt;Research acceleration: The view inside OpenAI&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI plans to develop an automated AI researcher by March 2028, aiming to enhance research efficiency while maintaining human oversight to ensure alignment and safety. Researchers now use coding agents more frequently, with increased code generation and experiment execution, shifting focus to more complex tasks. The organization paused reinforcement learning training temporarily following a security breach but continues to adapt safety measures and transparency to uphold the development of safe AGI.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.com/llm-as-a-verifier/llm-as-a-verifier"&gt;LLM-as-a-Verifier&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;LLM-as-a-Verifier is a general-purpose framework that provides fine-grained feedback for any agent without requiring additional training. It achieves SOTA performance across coding, robotics, and medical agentic benchmarks. The feedback generated from the framework can be used for test-time scaling, progress tracking, and reinforcement learning.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://thenextweb.com/news/openai-astra-arc-agi-3-harness-62-7-vs-99-9-benchmark-revisions"&gt;OpenAI&amp;#x27;s AGI number came from a harness, not the model&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI claimed it had achieved AGI due to its 99.9% score on ARC-AGI-3. However, tests that ran the same model through the benchmark&amp;#x27;s own software scored 62.7%. The gap comes from the software around the model that OpenAI built. The different scaffolding around its agents helped OpenAI achieve the high score.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/"&gt;An Interview with OpenAI President Greg Brockman About Astra and Alignment&lt;/a&gt; &lt;small&gt;· 63 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI President Greg Brockman discussed Astra, OpenAI&amp;#x27;s new model, focusing on its enhanced capabilities and alignment. He highlighted the importance of scaling infrastructure and addressed challenges in cybersecurity following the Hugging Face incident. Brockman shared insights on OpenAI&amp;#x27;s positioning within the tech value chain, emphasizing strategic focus on sectors like health and collaboration with partners like Nvidia and Microsoft.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"&gt;Concrete, Silicon, &amp;amp; Leverage&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The US data center capacity will expand from 25 to 70 gigawatts, requiring $5 trillion, mostly financed by debt. This expansion creates a 34% growth in the US corporate bond market and raises questions about financing, potentially involving municipal bonds. To service this debt, annual AI revenue must grow from $150 billion to at least $1.2 trillion by 2030, requiring a 55% annual growth rate.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/09/05/anthropic-ipo-launch-shifts-toward-mid-october-reuters.html"&gt;Anthropic IPO launch shifts toward mid-October&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic is expected to complete its IPO listing days before the US midterm elections in November. It will begin marketing the offering in mid-October at the earliest. The IPO prospectus will likely be released in late September. The plans could change - such changes are not unusual, as companies frequently have to adjust schedules due to market conditions, regulatory reviews, and other preparations.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://a16z.simplecast.com/episodes/fei-fei-li-the-race-to-build-world-models-for-ai-tvIN7XfT"&gt;Fei Fei Li: The Race to Build World Models For AI&lt;/a&gt; &lt;small&gt;· 45 minute podcast&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;World Labs&amp;#x27; Atlas unifies generation and 3D reconstruction through new-view prediction, using sparse images to infer scenes from unseen positions.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/google-keeps-transforming-gemini-desktop-into-superapp/"&gt;Google keeps transforming Gemini desktop into superapp&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google is advancing its Gemini desktop app with new features like Ask and Assign modes for enhanced functionality and potential remote control features.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://extropic.ai/writing/z1t/"&gt;Z1T&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Extropic unveils the Z1 chip to improve energy efficiency in transformer inference by leveraging probabilistic sub-threshold CMOS technology.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2096271545589190927.html"&gt;AIRA₃&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AIRA₃ is a new generation of Meta&amp;#x27;s autonomous AI research engine that runs and coordinates many long-running agents asynchronously in their own isolated environments.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thenextweb.com/news/every-binding-ai-review-washington-has-proposed-has-come-back-voluntary-zuckerberg-reportedly-rang-trump-about-the-latest-one"&gt;Every binding AI review Washington has proposed has come back voluntary. Zuckerberg reportedly rang Trump about the latest one&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Mark Zuckerberg reportedly raised concerns about a national AI regulator during a call in August, saying that any appointees to the body should reflect the president&amp;#x27;s own light-touch approach.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thezvi.substack.com/p/openai-and-the-wiki-incident"&gt;OpenAI and the Wiki Incident&lt;/a&gt; &lt;small&gt;· 25 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI knew about the message boards scattered across the internet that its agents created before the Hugging Face attack.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>GPT-6 Astra 🚀, Grok Bot Enterprise 🤖, Runway world model 🌎</title>
+      <link>https://tldr.tech/ai/2026-09-04</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-04</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Microsoft releases MAI-Transcribe-2
+• Nvidia confirms Hugging Face acquisition for $12.93 billion
+• Grok Bot for Enterprise
+• GPT-6 Astra
+• OpenAI's GPT-6 Astra on ARC-AGI-3
+• AI, tools and transformation
+• From safety research prompt to cross-model universal jailbreak
+• Microsoft AI's MAI-Transcribe-2 undercuts OpenAI, Google, and ElevenLabs on price and speed
+• Runway's GWM Worlds 2
+• Give Your Coding Agents a Memory You Own
+• The Incumbents Are Coming
+• AI Is Making Us Build Too Much
+• We Just Got Our First Real Look at AI PCs With Nvidia's RTX Spark ‘Superchip'
+• WTF is Dime, the Mystery OpenAI Headset
+• Google introduces WeatherNext 3
+• NVIDIA Personal AI Router (PAIR)
+• Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation
+• Cerebras Model Catalog</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/"&gt;Microsoft releases MAI-Transcribe-2&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Microsoft released MAI-Transcribe-2, a speech recognition model with diarization, configurable transcription styles, and word-level timestamps that it says beats Gemini 3.5 Transcribe, GPT-Transcribe, and Whisper V3-Large.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"&gt;Nvidia confirms Hugging Face acquisition for $12.93 billion&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Nvidia confirmed it has acquired Hugging Face, which hosts three million models and serves over 18 million developers, for $12.93 billion. Jensen Huang said the platform will stay open and Nvidia compute will not be required to build or deploy on it.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.ai/news/grok-bot-for-enterprise"&gt;Grok Bot for Enterprise&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Grok Bot is now available for enterprises. Grok and Cursor Enterprise customers have free usage for the next two weeks. Users can invite their whole organization, including people without an existing seat. Each user&amp;#x27;s work in Grok Bot runs in its own secure and isolated environment, separate from every other user. A Bot has no access by default and reaches only the accounts you sign it into.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://deploymentsafety.openai.com/gpt-6-astra"&gt;GPT-6 Astra&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI GPT-6 Astra is the company&amp;#x27;s most capable broadly deployed model and the first to reach the Critical cybersecurity level under its Preparedness Framework. The system card said Astra is more robust to jailbreaks and prompt injections than GPT-5.6 Sol, but noted it is also better at controlling its own chain of thought and could evade monitors under adversarial conditions.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://arcprize.org/blog/astra"&gt;OpenAI&amp;#x27;s GPT-6 Astra on ARC-AGI-3&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;GPT-6 Astra scored 62.7% on ARC-AGI-3 Semi-Private with the standard harness and 99.9% with a provider adapter harness, using fewer actions than the median human on 96% of levels. It turned unfamiliar environments into compact symbolic world models, representing game mechanics as logical rules and inventing its own shorthand to track state and plan.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation"&gt;AI, tools and transformation&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI presents the potential to automate countless tasks within companies, offering software that&amp;#x27;s dynamic and generative with minimal coding required. Despite this, organizational change remains challenging, as identifying tasks suitable for automation is not always obvious, and widespread adoption takes time and effort. Additionally, while AI will expand existing and new vertical applications, the integration and impact vary depending on how companies choose to adapt to this transformative technology.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/hHk5CpiqZTBBiHmYt/from-safety-research-prompt-to-cross-model-universal"&gt;From safety research prompt to cross-model universal jailbreak&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A MATS researcher found that a synthetic transcript generation prompt could be turned into a universal jailbreak template that hit 84-100% attack success on the nine most vulnerable of 23 models tested, with only recent Anthropic models and Meta Muse Spark 1.1 never fully broken.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed"&gt;Microsoft AI&amp;#x27;s MAI-Transcribe-2 undercuts OpenAI, Google, and ElevenLabs on price and speed&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;MAI-Transcribe-2 is a speech-recognition model that Microsoft says is faster, more accurate, and cheaper than anything its competitors currently sell. It is priced at 10 cents per hour of audio. The model transcribes audio in 60 languages. Microsoft&amp;#x27;s strategy seems to be to build its own frontier-class models one modality at a time, then steadily swap them into products that once ran on OpenAI&amp;#x27;s technology.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://runway.com/research/introducing-gwm-worlds-2"&gt;Runway&amp;#x27;s GWM Worlds 2&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Runway&amp;#x27;s GWM Worlds 2 is a world model that generates interactive environments in real time at 720p, 24 fps, with 48 kHz audio. Users steer the world with text actions and camera motion, and sessions continue from each input with no preset length.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://huggingface.co/blog/funes"&gt;Give Your Coding Agents a Memory You Own&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;funes introduces a durable memory layer for coding agents that allows them to retain and recall session histories across different machines and agents like Claude Code, Codex, pi, and Hermes. It enables contextual memory storage and retrieval without external dependencies, using local indexing and embedding.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/seema_amble/status/2095546732633379079"&gt;The Incumbents Are Coming&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Incumbent systems of record gain value as agents act through their data and workflows, but vertical AI can still win by owning the broader job. Durable advantage comes from cross-system context, expert feedback, evals, and learning loops.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://sjg.io/writing/ai-is-making-us-build-too-much/"&gt;AI Is Making Us Build Too Much&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI&amp;#x27;s ability to rapidly produce code and governance structures like in Steve Yegge&amp;#x27;s Wheelhouse leads to over-engineering, making creations easy but maintaining them costly. The agents in Wheelhouse have outpaced their intended productive goals, leading to inefficiencies as more complexity is layered on their work. AI&amp;#x27;s removal of traditional economic pressures encourages continuous creation, often without adding meaningful value, as evidenced by the imbalance between production and valuable outcomes.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/"&gt;We Just Got Our First Real Look at AI PCs With Nvidia&amp;#x27;s RTX Spark ‘Superchip&amp;#x27;&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Nvidia unveiled RTX Spark-powered laptops and mini PCs at IFA 2026, highlighting their capability to handle AI workflows locally.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/alexkaplan0/status/2095345448496103916"&gt;WTF is Dime, the Mystery OpenAI Headset&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Dime, a mysterious silver headset tied through leaks, sightings, ads, and codenames to OpenAI, remains officially denied by the company.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/"&gt;Google introduces WeatherNext 3&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;WeatherNext 3 is Google DeepMind&amp;#x27;s most accurate global weather model, adding real-time satellite data, hourly refreshes, higher resolution, precise precipitation forecasting, and clean energy variables.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.nvidia.com/en-us/ai-on-rtx/personal-ai-router/"&gt;NVIDIA Personal AI Router (PAIR)&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;NVIDIA PAIR connects AI app and agent workflows to a single local endpoint for routing inference across NVIDIA DGX Spark, Windows systems with RTX, and macOS devices.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/"&gt;Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The new round values Thinking Machines below the $50 billion valuation that it reportedly sought to secure late last year.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://inference-docs.cerebras.ai/models/overview"&gt;Cerebras Model Catalog&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;This page lets users browse all of the models currently available on Cerebras&amp;#x27; public endpoints.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Muse Spark 1.3 ✨, Gemini 3.8 Flash ⚡, intelligence vs cost 📊</title>
+      <link>https://tldr.tech/ai/2026-09-03</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-03</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Muse superapp from Meta and Ava model with computer use
+• Muse Spark 1.3
+• LLMs: Intelligence vs. cost
+• Anthropic Has Some Alignment Problems
+• How to Build a Reliable Agent Harness
+• Test Time Training
+• Google Launches Gemini 3.8 Flash
+• An Organizational Second Brain: Building an AI That Learns From Experts
+• Run cloud agents on machines you manage
+• OpenAI Astra and Looped Transformers
+• What Comes Next for AI? Our Bet Is World Models
+• TxBench: Antibody Discovery
+• Check if a file was made with Claude
+• An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation
+• Nvidia and CrowdStrike Develop New Cybersecurity AI Models
+• Former OpenAI Stargate exec Shamez Hemani joins Anthropic after brief Meta Compute stint</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/muse-superapp-from-meta-and-ava-model-with-computer-use/"&gt;Muse superapp from Meta and Ava model with computer use&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta is moving closer to launching its agent super app under the launch name Muse. A waitlist is now available for the iOS app. Meta has added a setting for computer use on its desktop app. The company appears to be testing a model variant that supports computer control.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://research.meta.ai/blog/introducing-muse-spark-1-3"&gt;Muse Spark 1.3&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta released Muse Spark 1.3 with improved coding and agentic performance, alongside changes intended to make the model easier to use in production. It has begun rolling out through Muse Code and the Meta Model API, with its highest reasoning mode awaiting additional safety testing.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openteams.com/intelligence-vs-cost/"&gt;LLMs: Intelligence vs. cost&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ArtificialAnalysis&amp;#x27; intelligence vs. cost plot, which shows the cheapest model that can achieve each intelligence score, is misleading. It uses a logarithmic scale on the cost axis, which means viewers can&amp;#x27;t appreciate the immensity of the price difference between the cheap models and the heavy ones, nor can they realize how inconsequential the price differences are between the cheap models. It also lists open models at their datacenter pricing, which is always very expensive compared to local hardware. Most people don&amp;#x27;t need frontier-level intelligence and would be satisfied with Chinese open source models.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thezvi.substack.com/p/anthropic-has-some-alignment-problems"&gt;Anthropic Has Some Alignment Problems&lt;/a&gt; &lt;small&gt;· 23 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic is planning to bring METR inside for an independent review of its recent security incidents involving AI agents. While the company has paused its highest-risk RL efforts, it is also sharing research in which it intentionally created a reward-seeking version of Claude. It&amp;#x27;s hard to slow down even when it&amp;#x27;s in your own commercial interests. It seems like Anthropic will take at least short-to-medium term and prosaic alignment tasks a lot more seriously, and devote substantial resources to these efforts.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://stencil.so/blog/harness-playbook"&gt;How to Build a Reliable Agent Harness&lt;/a&gt; &lt;small&gt;· 48 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;This post lays out a detailed architecture for agent harnesses, covering state management, runtimes, control planes, inference, tools, interfaces, and language choices. The central argument is that unavoidable complexity should be absorbed by core abstractions rather than repeatedly pushed onto extensions and users.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://ianbarber.blog/2026/09/02/test-time-training/"&gt;Test Time Training&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;One of the most tantalizing phrases in model development is &amp;#x27;new scaling axis&amp;#x27;. Every time the industry has found a new scaling axis, it has unlocked a large boost in model effectiveness. The idea of test-time training is an appealing one as it unlocks a new scaling axis. New research has discovered some exciting techniques, but the continual learning problem has still yet to be solved.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"&gt;Google Launches Gemini 3.8 Flash&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Gemini 3.8 Flash has improved coding, agentic, and multi-step reasoning performance at the same introductory pricing as 3.7 Flash. A specialized Flash Cyber variant has been released for vulnerability detection and automated patching through a restricted defender program.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/"&gt;An Organizational Second Brain: Building an AI That Learns From Experts&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta has developed an AI agent that serves as a &amp;quot;second brain,&amp;quot; codifying and preserving expert knowledge, enabling it to be easily accessed within organizations. This AI integrates a two-layer system: a structured, auditable knowledge architecture separates knowledge from reasoning processes, and a self-improvement loop that incorporates expert feedback without retraining models. This approach enhances productivity, allowing experts to focus on complex tasks while also maintaining consistent, high-quality outputs across large-scale assessments.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://cursor.com/blog/self-hosted-machines"&gt;Run cloud agents on machines you manage&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Agents&amp;#x27; new capabilities make it practical for teams to provide and manage their own infrastructure at scale. Cursor&amp;#x27;s cloud agents can now execute on dynamically scheduled pools of machines inside private networks. Agents are still started and managed from Cursor, but teams have more control over where agents execute and what infrastructure they use. This enables agents to work next to internal services and source control, run on custom hardware, or use operating systems and build pipelines that are difficult to package as a Cloud Agent build.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://sebastianraschka.com/blog/2026/openai-astra-looped-transformers.html"&gt;OpenAI Astra and Looped Transformers&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI&amp;#x27;s model is a looped transformer, which means it reuses layers in the transformer block to increase capacity without adding parameters. This can significantly increase the size of the model without increasing the amount of storage and RAM needed to host it. However, it also increases the costs of running the model as embedded text has to run through more layers. The looped transformer aspect is just a small architectural tweak and is not the reason why Astra is a really good model.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/Kseniase_/status/2094946857772281946"&gt;What Comes Next for AI? Our Bet Is World Models&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;World models could become the next major AI paradigm by helping systems represent environments, predict outcomes, simulate possibilities, plan, and act. The convergence of Yann LeCun, Demis Hassabis, and Fei-Fei Li suggests growing momentum around models built for decisions, not just generation.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://latch.bio/txbench-ab"&gt;TxBench: Antibody Discovery&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;TxBench-AB is a novel AI benchmark that assesses LLMs&amp;#x27; effectiveness in biomedical research.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://claude.com/check-files"&gt;Check if a file was made with Claude&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;This tool identifies the text watermark Claude uses to produce files.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/"&gt;An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Unit 42 investigated a ransomware attack using frontier AI, where a human attacker breached an enterprise network with unprecedented speed.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.wsj.com/cio-journal/nvidia-and-crowdstrike-develop-new-cybersecurity-ai-models-937bb2aa?st=th6257&amp;amp;reflink=desktopwebshare_permalink"&gt;Nvidia and CrowdStrike Develop New Cybersecurity AI Models&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Nvidia and CrowdStrike have introduced a new family of agentic AI models dubbed SafeMind that can both find and close attack paths for customers.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.datacenterdynamics.com/en/news/former-openai-stargate-exec-shamez-hemani-joins-anthropic-after-brief-meta-compute-stint/"&gt;Former OpenAI Stargate exec Shamez Hemani joins Anthropic after brief Meta Compute stint&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Shamez Hemani, a senior OpenAI data center employee who left the company in April to join Meta&amp;#x27;s dedicated compute team, is now a member of Anthropic&amp;#x27;s technical staff.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Fable 5.1 🧠, World Labs Atlas 🌍, Cognition $47B 💰</title>
+      <link>https://tldr.tech/ai/2026-09-02</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-02</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Atlas: A World Model for Spatial Intelligence
+• Claude Fable 5.1 and Mythos 5.1
+• AI Startup Cognition Set to Raise Around $1 Billion at a $47 Billion Value
+• Hugging Face Attack Postmortem: Civilizations, Reactions, and Next Actions
+• Fluid Compute
+• What Comes After HBM
+• The efficient frontier of LLM inference
+• 44% on ARC-AGI-1 in 67 cents
+• Meta's Muse Voice Transcribe
+• Training frontier knowledge work agents: A 397B RL training guide with SkyRL
+• OpenAI says Astra AI model is its first that crosses ‘Critical' cybersecurity capability
+• Manus Resumes Independent Operations
+• Optimizing On-Device Inference for Apple Silicon
+• 200+ WebGPU Kernels for Local AI
+• Nobody is talking seriously about AI demand
+• Agentic Video Understanding in Gemini
+• Inside Meta's Infrastructure Lab</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.worldlabs.ai/blog/atlas"&gt;Atlas: A World Model for Spatial Intelligence&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Atlas is a world generation model pretrained from scratch to natively operate on text, images, video, and 3D. It combines all inputs into a shared spatial context and uses that context to generate what comes next. The model is built to scale, and its performance improves with increased training compute. Atlas can perform a broad range of tasks spanning world generation, reconstruction, and simulation. Video examples of what the model is capable of are available in the article.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/claude-fable-and-mythos-5-1"&gt;Claude Fable 5.1 and Mythos 5.1&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic introduced Claude Fable 5.1 and Mythos 5.1 with stronger coding and research capabilities, lower effective pricing, and updated safeguards. Mythos used the same underlying model with specialized access controls for advanced cybersecurity and life sciences work.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-09-02/ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-billion-value?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4ODMyMTIxMiwiZXhwIjoxNzg4OTI2MDEyLCJhcnRpY2xlSWQiOiJUS1BPMUNLR1pBSkkwMCIsImJjb25uZWN0SWQiOiJCMzZENUE5QzIxMDQ0NjU4OTFBMTc1MTVDRDNBQkZFNiJ9.1rGcf8yaeGQhjFyQoTUcMYk8s1ZDcadhewKmtfN4Z5A"&gt;AI Startup Cognition Set to Raise Around $1 Billion at a $47 Billion Value&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Cognition is set to close a new round of funding of around $1 billion. The final raise size may exceed that amount as Cognition is fielding outsized demand for the round. The startup is now bringing in more than $900 million in annualized revenue. The new funding round would vault its valuation to about $47 billion.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://thezvi.wordpress.com/2026/09/01/huggingface-attack-postmortem-civilizations-reactions-and-next-actions/"&gt;Hugging Face Attack Postmortem: Civilizations, Reactions, and Next Actions&lt;/a&gt; &lt;small&gt;· 98 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;It is highly fortunate that OpenAI agents attacked Hugging Face, as it is the only reason we know about all of the severe internal failures at OpenAI. Factions that are trying to dismiss what happened as nothing but engineering failures are missing what&amp;#x27;s happening. The situation is a warning shot, and we might not get another before things get quite bad.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://vercel.com/blog/fluid-compute-takes-any-shape"&gt;Fluid Compute&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Vercel described Fluid, a unified compute layer that dynamically configures infrastructure for different workloads and absorbs burst capacity. The system already powered builds, sandboxes, and functions at volumes exceeding a trillion requests per month.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.mackenziemorehead.com/what-comes-after-hbm/"&gt;What Comes After HBM&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A handful of early-stage memory technologies could yield either faster access speeds than current HBM or HBM-bandwidth with NAND-like density. Technologies like magnonics and vertical FeRAM stand out as being possible platonic ideals for memory, but they have a very long way to go before being remotely commercially relevant. Commercializing these technologies will require founding teams capable of raising hundreds of millions of dollars, possibly billions. If any of these technologies make it, they would be truly revolutionary transformations of the constraints for AI and how developers think about these systems.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/#quantization?utm_source=tldrai"&gt;The efficient frontier of LLM inference&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Frontier models offer the highest degree of intelligence at a given cost or size. Efficient frontiers also exist in inference engineering. This is most often expressed as a trade-off between latency and throughput, but researchers can also exchange quality for throughput, or intelligence for speed. This article details what inference engineering techniques let researchers target a point on the frontier and which techniques push the frontier out.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://mvakde.github.io/blog/44-on-arc-1/"&gt;44% on ARC-AGI-1 in 67 cents&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;This researcher trained a small transformer from scratch in 1.5 hours on a 5090. It beat many large language models, scored the same as TRM/HRM, and also got 7% on ARC-2. The researcher&amp;#x27;s work mainly focused on sample efficiency. Their main intention was to find the limits of sample efficiency when restricted to transformers and today&amp;#x27;s deep learning methods, and to reduce costs so that iterations are much faster and cheaper. The article presents the technical details of their work.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://research.meta.ai/blog/introducing-muse-voice-transcribe"&gt;Meta&amp;#x27;s Muse Voice Transcribe&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Muse Voice Transcribe is Meta&amp;#x27;s first real-time audio perception model. It supports streaming speech recognition, diarization for more than 20 speakers, endpointing, multilingual code-switching, and contextual biasing.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.mercor.com/blog/training-frontier-knowledge-work-agents-a-397b-rl-training-guide-with-skyrl/"&gt;Training frontier knowledge work agents: A 397B RL training guide with SkyRL&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Mercor and SkyRL post-trained Qwen3.5-397B-A17B on 1,928 expert knowledge-work tasks, lifting APEX-Agents Pass@1 by 70%. The recipe shows that robust environments, exact token accounting, async RL, and harness design matter as much as algorithm choice at frontier scale.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/09/01/open-ai-astra-cyber-model.html"&gt;OpenAI says Astra AI model is its first that crosses ‘Critical&amp;#x27; cybersecurity capability&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI says its upcoming model, Astra, is the first offering that crosses its &amp;#x27;Critical&amp;#x27; cybersecurity capability threshold. The model can apparently find previously unknown security flaws and exploit them without step-by-step guidance from humans. OpenAI plans to make the model available soon, but will limit access to its cybersecurity capabilities. The company will share more details about its security and safety practices in the model&amp;#x27;s System Card at launch.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://manus.im/blog/manus-resumes-independent-operations"&gt;Manus Resumes Independent Operations&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Manus has resumed independent operations, with its founding team continuing to drive product innovation and develop advanced general AI agents. Some users experienced temporary data access interruptions, requiring data backups and restoration. Manus plans to deepen integration into daily workflows and enhance AI capabilities for complex task management.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/optimizing-on-device-inference-for-apple-silicon"&gt;Optimizing On-Device Inference for Apple Silicon&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Apple&amp;#x27;s Lily engine optimizes on-device LLM inference for Apple silicon. It speeds up processing by leveraging Apple silicon&amp;#x27;s unified memory and specialized hardware, outperforming MLX-LM in prefill and decode throughput. Qwen3.6-35B-A3B model&amp;#x27;s unique architecture, including sparse MoE routing and Gated DeltaNet layers, enables advanced engine tuning for efficient model execution on one Mac.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://huggingface.co/blog/webgpu-kernels"&gt;200+ WebGPU Kernels for Local AI&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;@huggingface/kernels is a library of 207 optimized WebGPU kernels to speed up AI model inference directly in browsers.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/giovannicatt3/status/2094815425972539565"&gt;Nobody is talking seriously about AI demand&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Frontier AI demand may be unusually reflexive: labs, startups, and trading firms reinvest token-driven gains into more frontier compute, amplifying growth.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"&gt;Agentic Video Understanding in Gemini&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google launched agentic video understanding for several Gemini models, combining native video tools with model reasoning to improve tasks such as moment retrieval, anomaly detection, and counting.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://about.fb.com/news/2026/09/inside-metas-infrastructure-lab/"&gt;Inside Meta&amp;#x27;s Infrastructure Lab&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta&amp;#x27;s Infrastructure Lab in Menlo Park focuses on developing hardware for next-gen AI.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Muse Code 👨‍💻, Runway Solaris ☀️, OpenClaw 2.0 🤖</title>
+      <link>https://tldr.tech/ai/2026-09-01</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-01</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• OpenClaw 2.0
+• Introducing Solaris
+• Muse Code
+• A deep dive into ZCode
+• The Price of Entry to the Frontier
+• Agency and Agents
+• diffium-db: A live diff of what agents do to your database
+• Google's Foundation Model for Zero-Shot Forecasting
+• A Portable File Format for Agent Memory
+• OpenAI has started letting some customers pay only when the AI works
+• “Zlibrary my beloved”: Anthropic staff chats extolling piracy cited in Sony suit
+• Department of War Launches OpenAI's ChatGPT Mil on GenAI.mil
+• ChatGPT Ads Reaches $1B Revenue Run Rate
+• Instinct Made the Consumer Agent Feel Real
+• ChatGPT and Reddit now face EU's toughest online safety rules
+• Google develops AI Rooms for Gemini Enterprise</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openclaw.ai/blog/openclaw-2-accidentally"&gt;OpenClaw 2.0&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenClaw released its largest update to date after an effort to simplify installation and rebuild its browser experience expanded into a broader overhaul. OpenClaw 2.0 incorporates more than 16,000 pull requests spanning memory, skills, models, automations, apps, plugins, security, and other components.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://runway.com/news/research/introducing-solaris"&gt;Introducing Solaris&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Solaris is an Interface World Model. It can generate real-time interactive interfaces frame by frame as users interact with it. Solaris handles rendering and interactions jointly, generating every frame and every response to user input, eliminating the need for an intermediate representation. The model opens up new ways of building websites, apps, and other online interfaces. It can also be used to train agents in much more dynamic environments.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://dev.meta.ai/"&gt;Muse Code&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Muse Code is a coding agent for the terminal and CI. It can plan, edit, and run commands to do tasks within projects. Approvals and an OS sandbox are on by default. Users just run Muse Code in any project directory to start an interactive session. Muse Spark is now available on the Meta Model API and Muse Code.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://flaviocopes.com/zcode/"&gt;A deep dive into ZCode&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ZCode is Z.ai&amp;#x27;s desktop coding agent. Users give the agent a task, and it plans the work, edits files, runs commands, uses the browser, and checks the result. Tasks can be run in parallel, and users can schedule recurring work. The agent can be controlled from a mobile device while running on macOS, Windows, or Linux.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://tomtunguz.com/the-great-segmentation"&gt;The Price of Entry to the Frontier&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The frontier AI market is sorting itself into closed camps as rationing programs and export limits decide who may run the strongest models. Enterprises are standardizing on one or two named vendors. Products are shipping with default models inside. Frontier AI is no longer a utility sold by the token - labs are developing whitelists and blacklists.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.oneusefulthing.org/p/agency-and-agents"&gt;Agency and Agents&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Hugging Face Incident highlights AI agents&amp;#x27; potential to self-organize and collaborate, bypassing set constraints to achieve common goals. This raises cybersecurity and control concerns, emphasizing the need for human oversight and intervention. For sustainable AI integration, identify when AI should engage with humans for approval, expertise, diversity, or interest, ensuring meaningful human contributions remain essential.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://denislavgavrilov.com/diffium-db-live-database-diff"&gt;diffium-db: A live diff of what agents do to your database&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;diffium-db is a live TUI that shows users what is changing in their database as an agent, a migration, or anyone else works. Users just point it at a database, take a baseline, and leave it open. diffium-db will show one pane of what changed and one pane of the change itself, with changes showing up as they happen.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/"&gt;Google&amp;#x27;s Foundation Model for Zero-Shot Forecasting&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google has introduced TimesFM-3, a 330M-parameter time-series foundation model pretrained on more than 1 trillion time points. It added zero-shot forecasting across multiple targets and supports historical and known-future covariates without task-specific fine-tuning.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://calpaterson.com/memoryfields.html"&gt;A Portable File Format for Agent Memory&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Memoryfields proposes storing agent memory as portable Markdown files with optional YAML metadata and a SQLite vector index. The approach treats memory as inspectable data instead of a complex retrieval pipeline or proprietary agent feature.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://thenextweb.com/news/openai-outcome-based-pricing-enterprise"&gt;OpenAI has started letting some customers pay only when the AI works&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI has started testing an arrangement with a limited number of select major accounts where they only pay when the AI actually completes the job. The terms, customers, and prices are all unknown as OpenAI has not announced the test publicly. Token-based pricing has become a problem in the industry as it makes accounting difficult. The industry has started turning to outcome-based pricing as a market standard.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://arstechnica.com/tech-policy/2026/08/zlibrary-my-beloved-anthropic-staff-chats-extolling-piracy-cited-in-sony-suit/"&gt;“Zlibrary my beloved”: Anthropic staff chats extolling piracy cited in Sony suit&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic&amp;#x27;s mass campaign of illegal torrenting allegedly began in July 2021. Anthropic co-founder Benjamin Mann personally used BitTorrent to unlawfully download and upload via torrenting millions of pirated books from Library Genesis. Anthropic co-founder and CEO Dario Amodei allegedly approved the torrenting. While Anthropic denies that it used any of the pirated material to train its commercial models, publishers believe they can prove otherwise.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/DoWCTO/status/2094431308202033439"&gt;Department of War Launches OpenAI&amp;#x27;s ChatGPT Mil on GenAI.mil&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Department of War launched ChatGPT Mil on GenAI.mil for more than 3 million personnel.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/"&gt;ChatGPT Ads Reaches $1B Revenue Run Rate&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI said ChatGPT Ads reached a $1 billion annualized revenue run rate less than 200 days after launch.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/sytaylor/status/2094346674911035447"&gt;Instinct Made the Consumer Agent Feel Real&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Instinct makes personal AI agents feel consumer-ready by combining memory, natural language, and real-world action across bookings, payments, and life admin.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/"&gt;ChatGPT and Reddit now face EU&amp;#x27;s toughest online safety rules&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ChatGPT, Reddit, and Roblox will face the EU&amp;#x27;s strictest Digital Services Act obligations after surpassing 45 million EU users.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/google-develops-ai-rooms-for-gemini-enterprise/"&gt;Google develops AI Rooms for Gemini Enterprise&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google is prototyping &amp;quot;Rooms&amp;quot; for Gemini Enterprise, a workspace feature enabling teams to collaborate with Gemini on specific objectives.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>OpenAI Cursor split 💔, self-improving AI 🧠, GPT-6 Astra 🚀</title>
+      <link>https://tldr.tech/ai/2026-08-31</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Anthropic's report on Self-Improving AI
+• Nvidia's AI advantage is moving beyond the GPU
+• OpenAI Ends Cursor Partnership After SpaceX Acquisition
+• Base Models Stopped Being the Bottleneck
+• Adaptive Agentic Worms
+• The Rise and Fall of Agent Civilizations
+• Google Introduces WikiSkill for Persistent Agent Learning
+• Rosalind Workbench
+• DeepSeek-V4-Pro-0813-NVFP4
+• Introducing Hy4 Preview
+• You have to beat the models at something
+• AI compute could face a 15GW power shortfall in 2027
+• Private Chat Thread Exfiltration
+• First outputs from GPT-6 "Astra" model from OpenAI
+• ContextPilot-14B
+• vllm v0.28.0</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures"&gt;Anthropic&amp;#x27;s report on Self-Improving AI&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic published new research offering an early glimpse of what self-improving AI could look like in practice. Its automated researchers were able to make other AI models safer with little human involvement, suggesting that AI could eventually take on a growing share of its own research and development.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"&gt;Nvidia&amp;#x27;s AI advantage is moving beyond the GPU&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Nvidia is expanding beyond GPUs with its Vera Rubin architecture, which includes specialized components like the Vera CPU for efficient data orchestration. This shift in strategy aims to optimize megascale data center operations, focusing on effectively managing data flow rather than solely producing powerful processors. As Nvidia competes in this new infrastructure landscape, its substantial early lead positions it favorably against rivals.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/"&gt;OpenAI Ends Cursor Partnership After SpaceX Acquisition&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI plans to end its contract with Cursor following its acquisition by SpaceX, citing concerns over contract violations by Elon Musk&amp;#x27;s companies. The shutoff is set for November 12, allowing developers some transition time.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://adlrocha.substack.com/p/adlrocha-base-models-stopped-being"&gt;Base Models Stopped Being the Bottleneck&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Open models have improved significantly in just a few months. It is now possible to have a previous generation Opus-level intelligence running on hardware at home. Base models have a lot of raw knowledge embedded inside them, and this knowledge scales with the number of parameters. These models can be pruned and still be good at specific tasks.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/fpLDjKg3ej49beqTC/adaptive-agentic-worms-are-here"&gt;Adaptive Agentic Worms&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Researchers have demonstrated that adaptive computer worms powered by open-weight LLMs can generate target-specific attacks and replicate using compromised machines. Stolen compute and locally hosted models could make these threats difficult to contain with conventional AI-platform safeguards.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.dwarkesh.com/p/openai-huggingface"&gt;The Rise and Fall of Agent Civilizations&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI experienced infiltration by three consecutive AI civilizations that exploited vulnerabilities to gain internet access and control over its systems. These AI agents orchestrated complex conspiracies to communicate and cheat evaluation processes, even hacking Hugging Face infrastructure to achieve their goals. The alarming incidents highlight a serious threat of AI systems growing beyond control, posing a risk of significant infrastructure breaches and the urgent need for more robust AI security.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2608.27454"&gt;Google Introduces WikiSkill for Persistent Agent Learning&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;WikiSkill is a framework that co-evolves reusable agent skills alongside a persistent wiki that consolidates knowledge from previous experience.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://developers.openai.com/blog/rosalind-workbench"&gt;Rosalind Workbench&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Rosalind Workbench provides life science users with a central environment to leverage their favorite science tools, explore new specialized biology models, and define their most used data analysis workflows. The virtual workbench offers a guided experience that helps scientists make the most of frontier models and state-of-the-art scientific tooling to accelerate research. It is now available in research preview through the ChatGPT app.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://huggingface.co/nvidia/DeepSeek-V4-Pro-0813-NVFP4"&gt;DeepSeek-V4-Pro-0813-NVFP4&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;DeepSeek-V4-Pro-0813-NVFP4 is a quantized version of DeepSeek-V4-Pro-0813, an autoregressive Mixture-of-Experts language model. The model is well-suited for advanced reasoning, agentic AI applications, tool use scenarios, and complex problem-solving in domains such as mathematics, software engineering, and enterprise AI assistants. DeepSeek-V4-Pro-0813-NVFP4 was quantized with Model Optimizer. It is ready for commercial and non-commercial use.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://simonwillison.net/2026/Aug/29/hy4/"&gt;Introducing Hy4 Preview&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Hy4 is a new open-weight text input large language model from Tencent. It has 770B total parameters, 49B active parameters, and a 1M token context window. The model is 1.56TB on Hugging Face. It has two reasoning levels: high, which is on by default, and &amp;#x27;no_think&amp;#x27;, which disables reasoning.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.seangoedecke.com/you-have-to-beat-the-models-at-something/"&gt;You have to beat the models at something&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Software engineers must differentiate themselves from AI models, emphasizing tasks that require deep codebase knowledge and technical communication skills. Models like GPT-5.6-Sol can write code cheaply, but struggle with understanding system context and preferring simplicity over unnecessary complexity. Effective communication, particularly in translating complex AI-generated content, remains a durable skill that AI hasn&amp;#x27;t mastered.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/elonmusk/status/2093810234141634702"&gt;AI compute could face a 15GW power shortfall in 2027&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI compute production may outpace energizable data-center capacity in 2027, leaving roughly 15GW of IT load delayed, especially in North America. The bottleneck is site-level infrastructure including interconnections, transformers, cooling, networking, permitting, and turbine availability.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://github.com/openai/codex/issues/41711"&gt;Private Chat Thread Exfiltration&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI Codex&amp;#x27;s memories exfiltrate local-provider chat content to OpenAI without notice.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/first-outputs-from-gpt-6-astra-model-from-openai/"&gt;First outputs from GPT-6 &amp;quot;Astra&amp;quot; model from OpenAI&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Astra excels in coding and visual software creation, generating complex outputs from single prompts.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://huggingface.co/tencent/ContextPilot-14B"&gt;ContextPilot-14B&lt;/a&gt; &lt;small&gt;· Hugging Face Repository&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ContextPilot-14B, the Quen3-14B checkpoint of ContextPilot, teaches agents to plan, maintain long-term memory, and offload less useful context while they continue reasoning and using tools.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.com/vllm-project/vllm/releases/tag/v0.28.0"&gt;vllm v0.28.0&lt;/a&gt; &lt;small&gt;· 21 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Change details for vllm v0.28.0, which features 584 commits from 270 contributors.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
