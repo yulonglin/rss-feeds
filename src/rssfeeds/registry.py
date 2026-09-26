@@ -25,6 +25,9 @@ class FeedSpec:
     limit: int | None = None
     include_content: bool = True
     notes: str = ""
+    # Refuse a refresh that drops below 60% of the previous item count. Off for feeds
+    # that mirror a short sliding window, where a quiet week legitimately shrinks them.
+    shrink_guard: bool = True
     categories: list[str] = field(default_factory=list)
 
     @property
@@ -41,6 +44,8 @@ OAI_REPORTS = "https://alignment.openai.com/misalignment-reports/"
 OAI_CARDS = "https://deploymentsafety.openai.com/"
 METR_BLOG = "https://metr.org/"
 DARIO = "https://darioamodei.com/"
+TLDR_AI = "https://tldr.tech/ai"
+TANGLE = "https://www.readtangle.com/"
 
 FEEDS: list[FeedSpec] = [
     FeedSpec(
@@ -85,8 +90,8 @@ FEEDS: list[FeedSpec] = [
         sources=("reports",),
         upstream_status="No feed of any kind upstream.",
         notes=(
-            "Upstream publishes no date for these, so each entry is dated the day this "
-            "generator first saw it."
+            "Upstream shows only a last-updated date, so each entry keeps the date this "
+            "generator first saw it and does not jump back to the top when edited."
         ),
     ),
     FeedSpec(
@@ -186,6 +191,42 @@ FEEDS: list[FeedSpec] = [
         notes=(
             "The site prints a month and year rather than a full date, so every entry is "
             "dated the first of its month."
+        ),
+    ),
+    FeedSpec(
+        slug="tldr-ai",
+        title="TLDR AI",
+        description=(
+            "The TLDR AI daily newsletter, one entry per issue with every story's headline, "
+            "read time and summary, grouped under the issue's own sections. Sponsor slots "
+            "and utm tracking are removed."
+        ),
+        org="TLDR",
+        source_name="TLDR AI",
+        source_url=TLDR_AI,
+        sources=("tldr_ai",),
+        upstream_status=(
+            "Official /api/rss/ai exists but each item is only the emoji headline and a "
+            "link: no summary and none of the stories."
+        ),
+    ),
+    FeedSpec(
+        slug="tangle",
+        title="Tangle - the good parts",
+        description=(
+            "Tangle's daily edition cut down to Today's topic (the story, what the left and "
+            "right are saying, and Isaac Saul's take) and Under the radar, plus Isaac's "
+            "standalone essays. Sponsors, quick hits, extras, teasers, paywalled previews "
+            "and the Sunday recap are left out."
+        ),
+        org="Tangle",
+        source_name="readtangle.com",
+        source_url=TANGLE,
+        sources=("tangle",),
+        shrink_guard=False,
+        upstream_status=(
+            "Official /rss/ is complete but interleaves the daily with video and podcast "
+            "teasers, paywalled previews, recaps, reader essays and sponsor cards."
         ),
     ),
 ]

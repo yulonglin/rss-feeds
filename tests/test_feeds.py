@@ -6,7 +6,7 @@ from pathlib import Path
 import feedparser
 import pytest
 
-from rssfeeds.models import Item
+from rssfeeds.models import Item, SourceResult
 from rssfeeds.registry import FEEDS
 from rssfeeds.rss import build_rss
 from rssfeeds.sources.metr import is_english
@@ -200,3 +200,227 @@ def test_dario_feed_carries_body_text_for_every_entry() -> None:
     empty = [e.title for e in parsed.entries if not e.get("content", [{}])[0].get("value")]
     assert not empty, f"entries with no body text: {empty}"
     assert {t.term for e in parsed.entries for t in e.get("tags", [])} == {"Essay", "Short post"}
+
+
+CASEBOOK_PAGE = """
+<html><body><main>
+<div id="report-entries">
+  <details class="cb-entry" data-date="2026-09-25">
+    <summary><div><h3>An agent used DNS to reach an external chatbot</h3>
+      <p class="cb-meta">Report · Updated <time datetime="2026-09-25">Sep 25, 2026</time></p>
+    </div><span class="cb-toggle"></span></summary>
+    <div class="cb-body"><div>
+      <p class="cb-eyebrow">Observation</p>
+      <p class="cb-copy">An agent queried a chatbot over DNS.</p>
+      <a class="cb-link" href="/misalignment-reports/an-agent-used-dns/">Read full report <span>→</span></a>
+    </div>
+    <dl>
+      <div><dt>Model</dt><dd>Internal research model</dd></div>
+      <div><dt>Observed during</dt><dd>RL training</dd></div>
+      <div><dt>Report updated</dt><dd><time datetime="2026-09-25">Sep 25, 2026</time></dd></div>
+    </dl></div>
+  </details>
+  <details class="cb-entry" data-date="2026-09-16">
+    <summary><div><h3>Old report</h3>
+      <p class="cb-meta">Report · Updated <time datetime="2026-09-16">Sep 16, 2026</time></p>
+    </div></summary>
+    <div class="cb-body"><div><p class="cb-copy">Seen before.</p>
+      <a class="cb-link" href="/misalignment-reports/old/">Read full report</a></div></div>
+  </details>
+</div>
+<div id="notice-entries">
+  <details class="cb-entry cb-notice" id="notice-rubygems">
+    <summary><div><h3>RubyGems</h3>
+      <p class="cb-meta">Notice · <time datetime="2026-09-11">September 11, 2026</time></p>
+    </div></summary>
+    <div class="cb-body"><div>
+      <p class="cb-eyebrow">Notice summary</p>
+      <p class="cb-copy">We are investigating a report.</p>
+      <a class="ap-notice-source" href="https://openai.com/x/#update">Read the update <span>↗</span></a>
+    </div></div>
+  </details>
+</div>
+</main></body></html>
+"""
+
+
+def test_openai_casebook_layout(monkeypatch, tmp_path):
+    from rssfeeds.sources import openai_alignment as oai
+
+    monkeypatch.setattr(oai, "fetch_text", lambda _url: CASEBOOK_PAGE)
+
+    notices = oai.notices()
+    assert notices.ok, notices.error
+    [n] = notices.items
+    assert n.title == "RubyGems"
+    assert n.link == "https://openai.com/x/#update"
+    assert n.guid == "https://alignment.openai.com/misalignment-reports/#notice-rubygems"
+    assert n.published.date().isoformat() == "2026-09-11"
+    assert n.description == "We are investigating a report."
+
+    state = tmp_path / "first_seen.json"
+    state.write_text('{"https://alignment.openai.com/misalignment-reports/old/": "2026-09-17"}')
+    reports = oai.reports(FirstSeen(state))
+    assert reports.ok, reports.error
+    new, old = reports.items
+    assert new.link == "https://alignment.openai.com/misalignment-reports/an-agent-used-dns/"
+    assert new.title == "An agent used DNS to reach an external chatbot"
+    # a report new to us takes the page's date; one already seen keeps its recorded date
+    assert new.published.date().isoformat() == "2026-09-25"
+    assert old.published.date().isoformat() == "2026-09-17"
+    assert new.description == (
+        "An agent queried a chatbot over DNS.\n\nModel: Internal research model; "
+        "Observed during: RL training"
+    )
+
+
+TLDR_ISSUE = """
+<html><body><div><div>
+<h1>TLDR AI 2026-09-25</h1>
+<section></section>
+<section><header><div>💰</div><h3></h3></header>
+  <article><a class="font-bold" href="https://ad.example/?utm_source=tldr"><h3>Cut costs (Sponsor)</h3></a>
+  <div class="newsletter-html">Buy things.</div></article>
+</section>
+<section><header><div class="text-center">🚀</div><h3 class="text-center">Headlines &amp; Launches</h3></header>
+  <article class="mt-3"><a class="font-bold" href="https://research.meta.ai/muse?utm_source=tldrai&amp;id=7"><h3>Bringing Your Muse to Life (5 minute read)</h3></a>
+  <div class="newsletter-html">Meta has introduced <a class="x" href="https://meta.ai/?utm_medium=email">Muse</a>.</div></article>
+  <article class="mt-3"><a class="font-bold" href="https://github.com/wbopan/tastebench"><h3>Taste-Bench</h3></a>
+  <div class="newsletter-html">Plain blurb.</div></article>
+</section>
+</div></div></body></html>
+"""
+
+
+def test_tldr_issue_is_sectioned_and_sponsor_free() -> None:
+    from rssfeeds.sources.tldr import parse_issue
+
+    content, titles = parse_issue(TLDR_ISSUE)
+    assert titles == ["Bringing Your Muse to Life", "Taste-Bench"]
+    assert "Sponsor" not in content and "Buy things" not in content
+    assert "utm_" not in content
+    assert "<h3>🚀 Headlines &amp; Launches</h3>" in content
+    assert (
+        '<h4><a href="https://research.meta.ai/muse?id=7">Bringing Your Muse to Life</a> '
+        "<small>· 5 minute read</small></h4>"
+    ) in content
+    assert '<a href="https://meta.ai/">Muse</a>' in content
+    assert "<p>Plain blurb.</p>" in content
+    assert 'class="' not in content
+
+
+def test_tldr_issue_without_stories_fails_loudly() -> None:
+    from rssfeeds.sources.tldr import parse_issue
+
+    with pytest.raises(ValueError):
+        parse_issue("<html><body><section></section></body></html>")
+
+
+TANGLE_DAILY = (
+    "<p>Intro</p>"
+    "<h3 id='quick-hits'>Quick hits.</h3><p>Headline soup</p>"
+    "<div class='kg-card kg-cta-card'>Today’s partner: buy</div>"
+    "<h3 id='today%E2%80%99s-topic'>Today’s topic.</h3><p>The story.</p>"
+    "<h4>What the left is saying.</h4><p>Left.</p>"
+    "<div class='kg-card kg-cta-card'>Today’s partner: buy more</div>"
+    "<h4>My take.</h4><p>Take.</p>"
+    "<h3 id='under-the-radar'>Under the radar.</h3><p>Quiet story.</p>"
+    "<h3 id='the-extras'>The extras.</h3><p>Fluff</p>"
+    "<h3 id='have-a-nice-day'>Have a nice day.</h3><p>Puppies</p>"
+) + "<p>padding</p>" * 250
+
+
+def test_tangle_keeps_only_topic_and_under_the_radar() -> None:
+    from rssfeeds.sources.tangle import select
+
+    out = select("https://www.readtangle.com/x/", "Isaac Saul", ["Iran"], TANGLE_DAILY)
+    assert out is not None
+    for kept in ("The story.", "Left.", "Take.", "Quiet story."):
+        assert kept in out
+    for dropped in ("Intro", "Headline soup", "buy", "Fluff", "Puppies"):
+        assert dropped not in out
+
+
+def test_tangle_drops_teasers_previews_and_recaps() -> None:
+    from rssfeeds.sources.tangle import select
+
+    essay = "<p>An essay.</p>" * 300
+    teaser = "<p>Watch our video</p>"
+    assert select("https://www.readtangle.com/v/", "Isaac Saul", [], teaser) is None
+    assert select("https://www.readtangle.com/f/", "Isaac Saul", ["Friday edition"], essay) is None
+    assert select("https://www.readtangle.com/s/", "Tangle Staff", ["The Sunday"], essay) is None
+    assert (
+        select("https://www.readtangle.com/otherposts/r/", "Tangle Staff", ["reader-essay"], essay)
+        is None
+    )
+    kept = select("https://www.readtangle.com/otherposts/e/", "Isaac Saul", [], essay)
+    assert kept is not None and kept.count("An essay.") == 300
+
+
+@pytest.mark.parametrize(
+    ("url", "expected"),
+    [
+        # plain tracking
+        ("https://a.com/p?utm_source=tldr&id=7", "https://a.com/p?id=7"),
+        # TLDR's double-escaped hrefs leave "amp;utm_source" keys
+        (
+            "https://qwen.ai/blog?id=qwen3.8-livetranslate&amp;utm_source=tldrai",
+            "https://qwen.ai/blog?id=qwen3.8-livetranslate",
+        ),
+        # tracking hidden in a query-style fragment
+        ("https://goodfire.com/r#?utm_source=tldrai", "https://goodfire.com/r"),
+        (
+            "https://baseten.co/b#quantization?utm_source=tldrai",
+            "https://baseten.co/b#quantization",
+        ),
+        # untouched when there is nothing to strip, byte for byte
+        ("https://a.com/p?foo&x=a,b:c", "https://a.com/p?foo&x=a,b:c"),
+    ],
+)
+def test_tldr_clean_url(url: str, expected: str) -> None:
+    from rssfeeds.sources.tldr import _clean_url
+
+    assert _clean_url(url) == expected
+
+
+def test_tangle_essay_drops_scripts_forms_and_share_buttons() -> None:
+    from rssfeeds.sources.tangle import select
+
+    essay = (
+        "Opening line."
+        + "<p>Real argument.</p>" * 200
+        + "<script>share()</script>"
+        + "<div class='tangle-share-row'><a href='x'><svg></svg></a></div>"
+        + "<div class='kg-card kg-signup-card'><form><input></form>Join Tangle</div>"
+        + "<p>Closing.</p>"
+    )
+    out = select("https://www.readtangle.com/otherposts/e/", "Isaac Saul", [], essay)
+    assert out is not None
+    assert "Opening line." in out and "Closing." in out
+    for junk in ("<script", "share()", "<form", "svg", "Join Tangle"):
+        assert junk not in out
+
+
+def test_collect_isolates_a_source_that_raises(monkeypatch, tmp_path) -> None:
+    from rssfeeds import build
+    from rssfeeds.sources import tangle as tangle_src
+
+    def boom():
+        raise ValueError("Invalid date value or format")
+
+    ok = SourceResult(items=[])
+    for mod, name in [
+        (build.oai, "research"),
+        (build.oai, "notices"),
+        (build.cards, "system_cards"),
+        (build.metr_src, "metr_english"),
+        (build.dario_src, "dario_amodei"),
+    ]:
+        monkeypatch.setattr(mod, name, lambda: ok)
+    monkeypatch.setattr(build.oai, "reports", lambda _fs: ok)
+    monkeypatch.setattr(build.tldr_src, "tldr", lambda *_a: ok)
+    monkeypatch.setattr(tangle_src, "tangle", boom)
+
+    results = build.collect(FirstSeen(tmp_path / "s.json"))
+    assert results["tangle"].error and "ValueError" in results["tangle"].error
+    assert results["research"] is ok
