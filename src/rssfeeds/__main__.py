@@ -7,6 +7,7 @@ import cyclopts
 
 from .build import collect, write_feeds, write_manifest
 from .markdown import render_readme, render_vault_doc, write_if_changed
+from .opml import write_opml
 from .page import write_index
 from .state import FirstSeen
 
@@ -36,6 +37,7 @@ def build(
     statuses = write_feeds(results, docs, allow_shrink=allow_shrink)
     write_manifest(statuses, docs / "feeds.json")
     write_index(statuses, docs / "index.html")
+    write_opml(docs)
     write_if_changed(readme, render_readme(statuses))
     if vault is not None:
         write_if_changed(vault, render_vault_doc(statuses))

@@ -97,6 +97,7 @@ def render_index(statuses: list[FeedStatus]) -> str:
 <div class="wrap">
 <h1>RSS Feeds</h1>
 <p class="lede">Clean RSS endpoints for blogs whose own feeds are missing, stale, broken or full of translated duplicates. Currently AI safety research; the setup takes any source. Rebuilt every 8 hours. Paste any URL below into NetNewsWire, Feedly, or anything else that speaks RSS.</p>
+<p class="lede">Or import a whole set at once: <a href="subscriptions.opml">subscriptions.opml</a> is the recommended set, in folders; <a href="all.opml">all.opml</a> is every feed here. In NetNewsWire: File &rarr; Import Subscriptions.</p>
 {"".join(parts)}
 <footer>
 <p>{healthy} of {len(statuses)} feeds refreshed successfully on the last run. A machine-readable list of every endpoint is at <a href="feeds.json">feeds.json</a>.</p>

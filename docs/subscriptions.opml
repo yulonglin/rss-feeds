@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.1">
+  <head>
+    <title>RSS Feeds - recommended set</title>
+  </head>
+  <body>
+    <outline text="AI safety" title="AI safety">
+      <outline text="OpenAI Alignment - everything" title="OpenAI Alignment - everything" type="rss" xmlUrl="https://feeds.yulonglin.com/openai-alignment-all.xml" htmlUrl="https://alignment.openai.com/" />
+      <outline text="OpenAI System Cards" title="OpenAI System Cards" type="rss" xmlUrl="https://feeds.yulonglin.com/openai-system-cards.xml" htmlUrl="https://deploymentsafety.openai.com/" />
+      <outline text="METR - English only (latest 50)" title="METR - English only (latest 50)" type="rss" xmlUrl="https://feeds.yulonglin.com/metr-en-50.xml" htmlUrl="https://metr.org/" />
+      <outline text="Dario Amodei" title="Dario Amodei" type="rss" xmlUrl="https://feeds.yulonglin.com/dario-amodei.xml" htmlUrl="https://darioamodei.com/" />
+    </outline>
+    <outline text="Newsletters" title="Newsletters">
+      <outline text="TLDR AI" title="TLDR AI" type="rss" xmlUrl="https://feeds.yulonglin.com/tldr-ai.xml" htmlUrl="https://tldr.tech/ai" />
+      <outline text="Tangle - the good parts" title="Tangle - the good parts" type="rss" xmlUrl="https://feeds.yulonglin.com/tangle.xml" htmlUrl="https://www.readtangle.com/" />
+      <outline text="Simon Willison" title="Simon Willison" type="rss" xmlUrl="https://simonwillison.net/atom/entries/" htmlUrl="https://simonwillison.net/" />
+      <outline text="Simon Willison - prompt injection" title="Simon Willison - prompt injection" type="rss" xmlUrl="https://simonwillison.net/tags/prompt-injection.atom" htmlUrl="https://simonwillison.net/tags/prompt-injection/" />
+    </outline>
+  </body>
+</opml>

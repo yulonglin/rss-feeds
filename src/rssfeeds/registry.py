@@ -13,6 +13,17 @@ REPO_URL = "https://github.com/yulonglin/rss-feeds"
 
 
 @dataclass(frozen=True)
+class ExternalFeed:
+    """A feed published by someone else that is clean as it is, listed only so the
+    recommended subscription set can include it. Nothing is fetched or rebuilt."""
+
+    title: str
+    url: str
+    site_url: str
+    folder: str
+
+
+@dataclass(frozen=True)
 class FeedSpec:
     slug: str
     title: str
@@ -28,6 +39,9 @@ class FeedSpec:
     # Refuse a refresh that drops below 60% of the previous item count. Off for feeds
     # that mirror a short sliding window, where a quiet week legitimately shrinks them.
     shrink_guard: bool = True
+    # In the recommended set published as subscriptions.opml, under this folder.
+    default: bool = False
+    folder: str = "AI safety"
     categories: list[str] = field(default_factory=list)
 
     @property
@@ -107,6 +121,7 @@ FEEDS: list[FeedSpec] = [
         source_url=OAI_ALIGNMENT,
         sources=("research", "notices", "reports"),
         upstream_status="No merged feed upstream.",
+        default=True,
     ),
     FeedSpec(
         slug="openai-alignment-all-50",
@@ -130,6 +145,7 @@ FEEDS: list[FeedSpec] = [
         upstream_status=(
             "A /posts.xml exists but is a broken dev build: zero items and a localhost link."
         ),
+        default=True,
     ),
     FeedSpec(
         slug="metr-en",
@@ -160,6 +176,7 @@ FEEDS: list[FeedSpec] = [
         sources=("metr",),
         limit=50,
         upstream_status="Official feed.xml is ~8.9 MB with translated duplicates.",
+        default=True,
     ),
     FeedSpec(
         slug="metr-en-lite",
@@ -192,6 +209,7 @@ FEEDS: list[FeedSpec] = [
             "The site prints a month and year rather than a full date, so every entry is "
             "dated the first of its month."
         ),
+        default=True,
     ),
     FeedSpec(
         slug="tldr-ai",
@@ -209,6 +227,8 @@ FEEDS: list[FeedSpec] = [
             "Official /api/rss/ai exists but each item is only the emoji headline and a "
             "link: no summary and none of the stories."
         ),
+        default=True,
+        folder="Newsletters",
     ),
     FeedSpec(
         slug="tangle",
@@ -228,5 +248,24 @@ FEEDS: list[FeedSpec] = [
             "Official /rss/ is complete but interleaves the daily with video and podcast "
             "teasers, paywalled previews, recaps, reader essays and sponsor cards."
         ),
+        default=True,
+        folder="Newsletters",
+    ),
+]
+
+# Published elsewhere and already clean, so they are subscribed to directly rather than
+# rebuilt here. Tag feeds live at simonwillison.net/tags/<tag>.atom.
+EXTERNAL_DEFAULTS: list[ExternalFeed] = [
+    ExternalFeed(
+        title="Simon Willison",
+        url="https://simonwillison.net/atom/entries/",
+        site_url="https://simonwillison.net/",
+        folder="Newsletters",
+    ),
+    ExternalFeed(
+        title="Simon Willison - prompt injection",
+        url="https://simonwillison.net/tags/prompt-injection.atom",
+        site_url="https://simonwillison.net/tags/prompt-injection/",
+        folder="Newsletters",
     ),
 ]
