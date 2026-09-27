@@ -4,6 +4,8 @@ Clean, public RSS endpoints for blogs whose own feeds are missing, stale, broken
 
 Browse the endpoints at **<https://feeds.yulonglin.com/>**. A machine-readable list is at **<https://feeds.yulonglin.com/feeds.json>**.
 
+To subscribe to a whole set at once, import **<https://feeds.yulonglin.com/subscriptions.opml>** (the recommended set, in folders) or **<https://feeds.yulonglin.com/all.opml>** (every feed here). The recommended set is the feeds marked `default=True` in `src/rssfeeds/registry.py`, plus the outside feeds in `EXTERNAL_DEFAULTS`.
+
 ## The feeds
 
 | Feed | Source | Subscribe to this URL | Items |

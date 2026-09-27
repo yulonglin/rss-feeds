@@ -16,6 +16,8 @@ INTRO = """# RSS Feeds
 Clean, public RSS endpoints for blogs whose own feeds are missing, stale, broken or full of translated duplicates. Currently AI safety research sources; adding another is one entry in the registry. Rebuilt every 8 hours by GitHub Actions and served from GitHub Pages.
 
 Browse the endpoints at **<{site}>**. A machine-readable list is at **<{site}feeds.json>**.
+
+To subscribe to a whole set at once, import **<{site}subscriptions.opml>** (the recommended set, in folders) or **<{site}all.opml>** (every feed here). The recommended set is the feeds marked `default=True` in `src/rssfeeds/registry.py`, plus the outside feeds in `EXTERNAL_DEFAULTS`.
 """
 
 WHY = """## Why each feed exists

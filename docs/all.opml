@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.1">
+  <head>
+    <title>RSS Feeds - every feed</title>
+  </head>
+  <body>
+    <outline text="AI safety" title="AI safety">
+      <outline text="OpenAI Alignment - Research and Releases" title="OpenAI Alignment - Research and Releases" type="rss" xmlUrl="https://feeds.yulonglin.com/openai-alignment-research.xml" htmlUrl="https://alignment.openai.com/" />
+      <outline text="OpenAI Alignment - Misalignment Notices" title="OpenAI Alignment - Misalignment Notices" type="rss" xmlUrl="https://feeds.yulonglin.com/openai-alignment-notices.xml" htmlUrl="https://alignment.openai.com/misalignment-reports/" />
+      <outline text="OpenAI Alignment - Misalignment Reports" title="OpenAI Alignment - Misalignment Reports" type="rss" xmlUrl="https://feeds.yulonglin.com/openai-alignment-reports.xml" htmlUrl="https://alignment.openai.com/misalignment-reports/" />
+      <outline text="OpenAI Alignment - everything" title="OpenAI Alignment - everything" type="rss" xmlUrl="https://feeds.yulonglin.com/openai-alignment-all.xml" htmlUrl="https://alignment.openai.com/" />
+      <outline text="OpenAI Alignment - everything (latest 50)" title="OpenAI Alignment - everything (latest 50)" type="rss" xmlUrl="https://feeds.yulonglin.com/openai-alignment-all-50.xml" htmlUrl="https://alignment.openai.com/" />
+      <outline text="OpenAI System Cards" title="OpenAI System Cards" type="rss" xmlUrl="https://feeds.yulonglin.com/openai-system-cards.xml" htmlUrl="https://deploymentsafety.openai.com/" />
+      <outline text="METR - English only" title="METR - English only" type="rss" xmlUrl="https://feeds.yulonglin.com/metr-en.xml" htmlUrl="https://metr.org/" />
+      <outline text="METR - English only (latest 50)" title="METR - English only (latest 50)" type="rss" xmlUrl="https://feeds.yulonglin.com/metr-en-50.xml" htmlUrl="https://metr.org/" />
+      <outline text="METR - English only (headlines and summaries)" title="METR - English only (headlines and summaries)" type="rss" xmlUrl="https://feeds.yulonglin.com/metr-en-lite.xml" htmlUrl="https://metr.org/" />
+      <outline text="Dario Amodei" title="Dario Amodei" type="rss" xmlUrl="https://feeds.yulonglin.com/dario-amodei.xml" htmlUrl="https://darioamodei.com/" />
+    </outline>
+    <outline text="Newsletters" title="Newsletters">
+      <outline text="TLDR AI" title="TLDR AI" type="rss" xmlUrl="https://feeds.yulonglin.com/tldr-ai.xml" htmlUrl="https://tldr.tech/ai" />
+      <outline text="Tangle - the good parts" title="Tangle - the good parts" type="rss" xmlUrl="https://feeds.yulonglin.com/tangle.xml" htmlUrl="https://www.readtangle.com/" />
+    </outline>
+  </body>
+</opml>
