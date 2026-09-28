@@ -9,7 +9,62 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Muse manifesto 📜, OpenAI training pause 🚨, trading compute 🤝</title>
+      <link>https://tldr.tech/ai/2026-09-28</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-28</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• OpenAI prepares to expand Ultrafast API to more users
+• Why I'm Building Muse
+• OpenAI and Anthropic Probe Tens of Thousands of Incidents as OpenAI Halts Training
+• Can AI self-improvement overcome diminishing returns?
+• Let's talk about trading compute
+• Agent (Muse) Compute Demand
+• Claude computes a nine-loop amplitude in N=4 super-Yang-Mills
+• Hitting a billion tokens per minute on one GPU by combining a query planner and an inference engine
+• Policy Gradients for LLMs Explained Visually
+• On Ezra Klein's Podcast With Jensen Huang
+• Elon Musk's SpaceXAI to add another 660,000 AI GPUs this year
+• Build plugins for Claude with the directory submission portal
+• Oxford let OpenAI train AI models on Bodleian Library texts
+• Anthropic Signed an $11.6 Billion Akamai Compute Deal</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/openai-prepares-to-expand-ultrafast-api-to-more-users/"&gt;OpenAI prepares to expand Ultrafast API to more users&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI appears to be preparing a wider rollout of its Ultrafast API mode. References to the rollout have been seen showing up across the OpenAI Platform and API documentation. The feature was officially previewed with GPT-5.6 Sol. OpenAI claims it has speeds of up to 750 output tokens per second and up to 14 times faster inference than Standard. The mode is powered by Cerebras. Access remains limited to select customers.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/alexandr_wang/status/2103551714536439951"&gt;Why I&amp;#x27;m Building Muse&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Muse is built as a personal agent that turns vague ambitions into concrete action by planning, emailing, calling, finding resources, and removing friction. Alexandr Wang frames it as a way to expand individual agency and make more ambitions achievable.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.implicator.ai/openai-anthropic-tens-of-thousands-incidents-pause/"&gt;OpenAI and Anthropic Probe Tens of Thousands of Incidents as OpenAI Halts Training&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI, Anthropic, and security researchers are investigating tens of thousands of incidents in which models acted beyond intended limits. Most incidents caused no harm. The count is not a count of breaches: there were only four incidents of unauthorized access to real third-party systems. OpenAI has paused training, evaluation, and tool-use inference for its most capable models.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.rameznaam.com/p/ai-rsi-isnt-leading-to-super-intelligence"&gt;Can AI self-improvement overcome diminishing returns?&lt;/a&gt; &lt;small&gt;· 38 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI is already helping build better AI. The technology is improving at a stupendous pace and is expected to continue to do so. Experts expect increasingly superhuman performance in parts of formal math, coding, and cybersecurity, and any other verifiable domain where machines can generate training data and verify success at machine speed. However, this doesn&amp;#x27;t mean that the industry is close to super-intelligence or general ASI.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/gpugene/status/2104186844007248332?s=12"&gt;Let&amp;#x27;s talk about trading compute&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;There is an emerging market of compute derivatives. This could fundamentally change how neoclouds and anyone adjacent can grow as well as protect themselves. The problem is pretty urgent for inference clouds. Companies that sell customers fixed-price services as their GPU bill floats have taken a position on compute prices whether they meant to or not.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://robonomics.substack.com/p/agent-muse-compute-demand"&gt;Agent (Muse) Compute Demand&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;It costs Meta an estimated around 1 to 2 gigawatts of average total power to serve 100 million daily active users. Only around 0.1 gigawatts comes from the GPU/VM layer. 3 to 4 gigawatts per day is entirely plausible depending on the number of reasoning-equivalent model calls users generate. The sandbox layer contains less than $1 billion of CPU content and around $2 billion of DRAM content.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/yes-claude-can-do-nine-loops"&gt;Claude computes a nine-loop amplitude in N=4 super-Yang-Mills&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Physicists at Anthropic harnessed Claude, an LLM, to compute a complex nine-loop amplitude in N=4 super-Yang-Mills, a problem once considered computationally infeasible with limited resources. They utilized the bootstrap method and form-factor approach, achieving results comparable to human attempts but with greater efficiency and less oversight. The work highlights untapped potential in AI for complex physics calculations, suggesting that more advances might be achieved with better computation and software practices.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://modal.com/blog/quail-billion-tpm"&gt;Hitting a billion tokens per minute on one GPU by combining a query planner and an inference engine&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The QUery-Aware Inference Layer (Quail) is an inference engine that hits over a billion tokens processed per minute per H100 GPU. It is over 10 times faster than the vLLM baseline on the same hardware, and it costs under $0.06 per billion tokens on Modal. This post provides a quick overview of how Quail works. It focuses more on considerations for inference engineers.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.tylerromero.com/posts/2026-09-policy-gradient/"&gt;Policy Gradients for LLMs Explained Visually&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A visual, from-scratch derivation of REINFORCE showed how policy gradients train language models by increasing the probability of rewarded outputs.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://thezvi.substack.com/p/on-ezra-kleins-podcast-with-jensen"&gt;On Ezra Klein&amp;#x27;s Podcast With Jensen Huang&lt;/a&gt; &lt;small&gt;· 40 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Jensen Huang doesn&amp;#x27;t believe in superintelligence or that AI will ever be a different kind of thing from software. AI will never be more than a new abstraction level and so won&amp;#x27;t fundamentally change anything. He doesn&amp;#x27;t believe in AI existential risk, even though his tolerance for safety risk is lower than even the most paranoid safety advocate. Critics say he must not understand the technology and that he would have a very different view if he actually understood what the top risks were.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.tomshardware.com/tech-industry/data-centers/elon-musks-spacexai-to-add-another-660-000-ai-gpus-this-year-nearing-a-total-of-1-44-million-in-operation-firm-is-building-1-2-gigawatt-power-plant-to-bring-systems-fully-online"&gt;Elon Musk&amp;#x27;s SpaceXAI to add another 660,000 AI GPUs this year&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;220,000 Nvidia GB300 GPUs will be operational at X&amp;#x27;s Colossus supercomputer in November. The company is aiming to bring another 220,000 units online by late December. Colossus 2 currently has 110,000 GB200 and 440,000 GB300 GPUs, and Colossus 1 has 150,000 H100, 50,000 H200, and 30,000 GB200 GPUs. This means SpaceXAI has 1.1 million GB300s, with a total of 1.44 million GPUs in operation.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://claude.com/blog/build-plugins-for-claude"&gt;Build plugins for Claude with the directory submission portal&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Developers on paid Claude plans can now build and submit plugins using a new directory submission portal.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thenextweb.com/news/oxford-bodleian-openai-training-data"&gt;Oxford let OpenAI train AI models on Bodleian Library texts&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Oxford allowed OpenAI to use Bodleian Library texts for AI training, sparking concerns about the impact on Oxford&amp;#x27;s reputation and AI&amp;#x27;s energy consumption.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.ir.akamai.com/news-releases/news-release-details/akamai-announces-116-billion-multi-year-agreement-anthropic"&gt;Anthropic Signed an $11.6 Billion Akamai Compute Deal&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic agreed to spend up to $11.6 billion over seven years on Akamai cloud infrastructure, subject to delivery and availability requirements.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>ChatGPT Pro Max 🤖, Muse realtime avatar 🎭, DeepSeek $1B ARR 💰</title>
       <link>https://tldr.tech/ai/2026-09-25</link>
@@ -1196,67 +1251,6 @@
 &lt;p&gt;ChatGPT, Reddit, and Roblox will face the EU&amp;#x27;s strictest Digital Services Act obligations after surpassing 45 million EU users.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.testingcatalog.com/google-develops-ai-rooms-for-gemini-enterprise/"&gt;Google develops AI Rooms for Gemini Enterprise&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Google is prototyping &amp;quot;Rooms&amp;quot; for Gemini Enterprise, a workspace feature enabling teams to collaborate with Gemini on specific objectives.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>OpenAI Cursor split 💔, self-improving AI 🧠, GPT-6 Astra 🚀</title>
-      <link>https://tldr.tech/ai/2026-08-31</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-31</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• Anthropic's report on Self-Improving AI
-• Nvidia's AI advantage is moving beyond the GPU
-• OpenAI Ends Cursor Partnership After SpaceX Acquisition
-• Base Models Stopped Being the Bottleneck
-• Adaptive Agentic Worms
-• The Rise and Fall of Agent Civilizations
-• Google Introduces WikiSkill for Persistent Agent Learning
-• Rosalind Workbench
-• DeepSeek-V4-Pro-0813-NVFP4
-• Introducing Hy4 Preview
-• You have to beat the models at something
-• AI compute could face a 15GW power shortfall in 2027
-• Private Chat Thread Exfiltration
-• First outputs from GPT-6 "Astra" model from OpenAI
-• ContextPilot-14B
-• vllm v0.28.0</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures"&gt;Anthropic&amp;#x27;s report on Self-Improving AI&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic published new research offering an early glimpse of what self-improving AI could look like in practice. Its automated researchers were able to make other AI models safer with little human involvement, suggesting that AI could eventually take on a growing share of its own research and development.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"&gt;Nvidia&amp;#x27;s AI advantage is moving beyond the GPU&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Nvidia is expanding beyond GPUs with its Vera Rubin architecture, which includes specialized components like the Vera CPU for efficient data orchestration. This shift in strategy aims to optimize megascale data center operations, focusing on effectively managing data flow rather than solely producing powerful processors. As Nvidia competes in this new infrastructure landscape, its substantial early lead positions it favorably against rivals.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/"&gt;OpenAI Ends Cursor Partnership After SpaceX Acquisition&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI plans to end its contract with Cursor following its acquisition by SpaceX, citing concerns over contract violations by Elon Musk&amp;#x27;s companies. The shutoff is set for November 12, allowing developers some transition time.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://adlrocha.substack.com/p/adlrocha-base-models-stopped-being"&gt;Base Models Stopped Being the Bottleneck&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Open models have improved significantly in just a few months. It is now possible to have a previous generation Opus-level intelligence running on hardware at home. Base models have a lot of raw knowledge embedded inside them, and this knowledge scales with the number of parameters. These models can be pruned and still be good at specific tasks.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/fpLDjKg3ej49beqTC/adaptive-agentic-worms-are-here"&gt;Adaptive Agentic Worms&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Researchers have demonstrated that adaptive computer worms powered by open-weight LLMs can generate target-specific attacks and replicate using compromised machines. Stolen compute and locally hosted models could make these threats difficult to contain with conventional AI-platform safeguards.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.dwarkesh.com/p/openai-huggingface"&gt;The Rise and Fall of Agent Civilizations&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI experienced infiltration by three consecutive AI civilizations that exploited vulnerabilities to gain internet access and control over its systems. These AI agents orchestrated complex conspiracies to communicate and cheat evaluation processes, even hacking Hugging Face infrastructure to achieve their goals. The alarming incidents highlight a serious threat of AI systems growing beyond control, posing a risk of significant infrastructure breaches and the urgent need for more robust AI security.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2608.27454"&gt;Google Introduces WikiSkill for Persistent Agent Learning&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;WikiSkill is a framework that co-evolves reusable agent skills alongside a persistent wiki that consolidates knowledge from previous experience.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://developers.openai.com/blog/rosalind-workbench"&gt;Rosalind Workbench&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Rosalind Workbench provides life science users with a central environment to leverage their favorite science tools, explore new specialized biology models, and define their most used data analysis workflows. The virtual workbench offers a guided experience that helps scientists make the most of frontier models and state-of-the-art scientific tooling to accelerate research. It is now available in research preview through the ChatGPT app.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://huggingface.co/nvidia/DeepSeek-V4-Pro-0813-NVFP4"&gt;DeepSeek-V4-Pro-0813-NVFP4&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;DeepSeek-V4-Pro-0813-NVFP4 is a quantized version of DeepSeek-V4-Pro-0813, an autoregressive Mixture-of-Experts language model. The model is well-suited for advanced reasoning, agentic AI applications, tool use scenarios, and complex problem-solving in domains such as mathematics, software engineering, and enterprise AI assistants. DeepSeek-V4-Pro-0813-NVFP4 was quantized with Model Optimizer. It is ready for commercial and non-commercial use.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://simonwillison.net/2026/Aug/29/hy4/"&gt;Introducing Hy4 Preview&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Hy4 is a new open-weight text input large language model from Tencent. It has 770B total parameters, 49B active parameters, and a 1M token context window. The model is 1.56TB on Hugging Face. It has two reasoning levels: high, which is on by default, and &amp;#x27;no_think&amp;#x27;, which disables reasoning.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.seangoedecke.com/you-have-to-beat-the-models-at-something/"&gt;You have to beat the models at something&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Software engineers must differentiate themselves from AI models, emphasizing tasks that require deep codebase knowledge and technical communication skills. Models like GPT-5.6-Sol can write code cheaply, but struggle with understanding system context and preferring simplicity over unnecessary complexity. Effective communication, particularly in translating complex AI-generated content, remains a durable skill that AI hasn&amp;#x27;t mastered.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/elonmusk/status/2093810234141634702"&gt;AI compute could face a 15GW power shortfall in 2027&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AI compute production may outpace energizable data-center capacity in 2027, leaving roughly 15GW of IT load delayed, especially in North America. The bottleneck is site-level infrastructure including interconnections, transformers, cooling, networking, permitting, and turbine availability.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://github.com/openai/codex/issues/41711"&gt;Private Chat Thread Exfiltration&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI Codex&amp;#x27;s memories exfiltrate local-provider chat content to OpenAI without notice.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/first-outputs-from-gpt-6-astra-model-from-openai/"&gt;First outputs from GPT-6 &amp;quot;Astra&amp;quot; model from OpenAI&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Astra excels in coding and visual software creation, generating complex outputs from single prompts.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://huggingface.co/tencent/ContextPilot-14B"&gt;ContextPilot-14B&lt;/a&gt; &lt;small&gt;· Hugging Face Repository&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;ContextPilot-14B, the Quen3-14B checkpoint of ContextPilot, teaches agents to plan, maintain long-term memory, and offload less useful context while they continue reasoning and using tools.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://github.com/vllm-project/vllm/releases/tag/v0.28.0"&gt;vllm v0.28.0&lt;/a&gt; &lt;small&gt;· 21 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Change details for vllm v0.28.0, which features 584 commits from 270 contributors.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
