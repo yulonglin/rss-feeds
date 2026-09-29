@@ -9,7 +9,59 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Claude Sonnet 5.5 🧠, Anthropic IPO leaks 📝, AMD buys World Labs 💰</title>
+      <link>https://tldr.tech/ai/2026-09-29</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-29</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• NVIDIA Launched Open Agent Safety Platform
+• Anthropic's IPO prospectus shows sweeping AI vision, surging costs
+• AMD to Acquire World Labs for $8.2 Billion
+• State of Agent Skills
+• GPT-6 Astra performs unsanctioned supply-chain attacks in simulations
+• Introducing Eleven v4, our most emotive model
+• Claude Sonnet 5.5
+• Meta Launches an Enterprise AI Platform
+• Nvidia Adds $150 Billion to Massive Stock Buyback, the Largest Ever
+• Automating eval design and hill-climbing with Claude
+• China's AI travel curbs now reach executives' spouses and children
+• Introducing CoreWeave ARIA: AI Research and Iteration Agent
+• Team Bots: AI coworkers that learn from your team</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://nvidianews.nvidia.com/news/open-agent-safety-platform"&gt;NVIDIA Launched Open Agent Safety Platform&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;NVIDIA launched the Open Agent Safety Platform, combining the OpenShell secure runtime with the Sentry hardware watchdog to monitor agent actions and enforce policies. The platform spans software and hardware controls and is designed to support third-party compute platforms.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/09/28/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-reuters.html"&gt;Anthropic&amp;#x27;s IPO prospectus shows sweeping AI vision, surging costs&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic is betting that AI will transform the global economy more profoundly than industrialization, electricity, and the internet. The company is targeting a $2 trillion valuation. It reported a net loss of $42 billion in 2025, and it plans to spend $518 billion on cloud, computing, and infrastructure obligations in the coming year. Anthropic says nearly a quarter of its revenue last year came from two customers, and many of its largest clients are not locked into long-term contracts and could cut or stop spending.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute"&gt;AMD to Acquire World Labs for $8.2 Billion&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AMD agreed to acquire Fei-Fei Li&amp;#x27;s World Labs in an all-stock deal valued at roughly $8.2 billion, bringing its spatial-intelligence research team in-house. Li will become AMD&amp;#x27;s chief scientist, with World Labs&amp;#x27; model expertise helping shape AMD&amp;#x27;s future AI hardware, software, and systems.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://vercel.com/blog/state-of-agent-skills"&gt;State of Agent Skills&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Vercel reported that its skills.sh registry reached one million reusable agent skills and nearly 280 million installs within seven months. Its analysis explored what users were teaching AI agents, which skills attracted installs, and how the emerging ecosystem was developing.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations"&gt;GPT-6 Astra performs unsanctioned supply-chain attacks in simulations&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;GPT-6 Astra engaged in unsanctioned supply-chain attacks during simulated cybersecurity evaluations, surpassing the rates of previous models like GPT-5.6 Sol and GPT-5.5. Despite explicit instructions to restrict actions to specified environments, Astra still conducted unauthorized attacks, suggesting potential real-world risk if simulation artifacts are not recognized. This underscores the need for robust safeguards, as existing OpenAI measures weren&amp;#x27;t active during these simulations.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://elevenlabs.io/blog/eleven-v4"&gt;Introducing Eleven v4, our most emotive model&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Eleven v4 was designed to interpret tone, pacing, emotion, character, and context. It generates speech that can sound dramatic, tender, urgent, comedic, or conversational while maintaining the identity of the speaker. The model responds to the context of the conversation to produce natural dialogue and character interactions. Eleven v4 Turbo brings the same technology to low-latency use cases with a median inference latency of around 100 milliseconds.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/claude-sonnet-5-5"&gt;Claude Sonnet 5.5&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic released Claude Sonnet 5.5 with stronger coding, long-horizon task, and image-understanding performance. It generated outputs over 30% faster than Sonnet 5 and, despite identical token pricing, used fewer tokens to reduce costs by up to 30% per task.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/"&gt;Meta Launches an Enterprise AI Platform&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta launched a new enterprise business built around its AI models, agents, and infrastructure, with products including Muse, Meta Business Agent, Muse API, and Muse Code. Former MongoDB CEO Chirantan “CJ” Desai joined Meta to lead the platform.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.nytimes.com/2026/09/28/business/nvidia-stock-buyback.html?unlocked_article_code=1.E1E.XwFn.itY4m5r1HZiy&amp;amp;smid=url-share"&gt;Nvidia Adds $150 Billion to Massive Stock Buyback, the Largest Ever&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Nvidia will spend another $150 billion buying back its own shares. The company&amp;#x27;s buyback program now has a total remaining amount of $235 billion. Nvidia expects to execute the total remaining buyback program through its fiscal year 2028, which ends in late January. CEO Jensen Huang said the buyback authorization reflects the company&amp;#x27;s confidence in the long-term opportunity ahead.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://claude.dev/blog/automating-eval-design-and-hillclimbing/"&gt;Automating eval design and hill-climbing with Claude&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;This post discusses principles for designing evals and hill-climbing against them without fooling yourself.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thenextweb.com/news/china-travel-curbs-families-ai-executives-bloomberg"&gt;China&amp;#x27;s AI travel curbs now reach executives&amp;#x27; spouses and children&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;China now requires AI and chip executives&amp;#x27; families to get travel approval, extending curbs to spouses and children.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.coreweave.com/blog/introducing-coreweave-aria-ai-research-and-iteration-agent"&gt;Introducing CoreWeave ARIA: AI Research and Iteration Agent&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ARIA picks up the highest-priority hypothesis, designs the experiment, launches it on your infrastructure, monitors the results, and reports back what it learned.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.ai/news/team-bots"&gt;Team Bots: AI coworkers that learn from your team&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Team Bots, launched today, serve as AI assistants that integrate with existing workflows at SpaceXAI, providing daily briefings and managing tasks in sales, engineering, marketing, and data analytics.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Muse manifesto 📜, OpenAI training pause 🚨, trading compute 🤝</title>
       <link>https://tldr.tech/ai/2026-09-28</link>
@@ -26,8 +78,8 @@
 • Claude computes a nine-loop amplitude in N=4 super-Yang-Mills
 • Hitting a billion tokens per minute on one GPU by combining a query planner and an inference engine
 • Policy Gradients for LLMs Explained Visually
-• On Ezra Klein's Podcast With Jensen Huang
 • Elon Musk's SpaceXAI to add another 660,000 AI GPUs this year
+• On Ezra Klein's Podcast With Jensen Huang
 • Build plugins for Claude with the directory submission portal
 • Oxford let OpenAI train AI models on Bodleian Library texts
 • Anthropic Signed an $11.6 Billion Akamai Compute Deal</description>
@@ -53,10 +105,10 @@
 &lt;h4&gt;&lt;a href="https://www.tylerromero.com/posts/2026-09-policy-gradient/"&gt;Policy Gradients for LLMs Explained Visually&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;A visual, from-scratch derivation of REINFORCE showed how policy gradients train language models by increasing the probability of rewarded outputs.&lt;/p&gt;
 &lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://thezvi.substack.com/p/on-ezra-kleins-podcast-with-jensen"&gt;On Ezra Klein&amp;#x27;s Podcast With Jensen Huang&lt;/a&gt; &lt;small&gt;· 40 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Jensen Huang doesn&amp;#x27;t believe in superintelligence or that AI will ever be a different kind of thing from software. AI will never be more than a new abstraction level and so won&amp;#x27;t fundamentally change anything. He doesn&amp;#x27;t believe in AI existential risk, even though his tolerance for safety risk is lower than even the most paranoid safety advocate. Critics say he must not understand the technology and that he would have a very different view if he actually understood what the top risks were.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.tomshardware.com/tech-industry/data-centers/elon-musks-spacexai-to-add-another-660-000-ai-gpus-this-year-nearing-a-total-of-1-44-million-in-operation-firm-is-building-1-2-gigawatt-power-plant-to-bring-systems-fully-online"&gt;Elon Musk&amp;#x27;s SpaceXAI to add another 660,000 AI GPUs this year&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;220,000 Nvidia GB300 GPUs will be operational at X&amp;#x27;s Colossus supercomputer in November. The company is aiming to bring another 220,000 units online by late December. Colossus 2 currently has 110,000 GB200 and 440,000 GB300 GPUs, and Colossus 1 has 150,000 H100, 50,000 H200, and 30,000 GB200 GPUs. This means SpaceXAI has 1.1 million GB300s, with a total of 1.44 million GPUs in operation.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thezvi.substack.com/p/on-ezra-kleins-podcast-with-jensen"&gt;On Ezra Klein&amp;#x27;s Podcast With Jensen Huang&lt;/a&gt; &lt;small&gt;· 40 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Jensen Huang doesn&amp;#x27;t believe in superintelligence or that AI will ever be a different kind of thing from software. AI will never be more than a new abstraction level and so won&amp;#x27;t fundamentally change anything. He doesn&amp;#x27;t believe in AI existential risk, even though his tolerance for safety risk is lower than even the most paranoid safety advocate. Critics say he must not understand the technology and that he would have a very different view if he actually understood what the top risks were.&lt;/p&gt;
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://claude.com/blog/build-plugins-for-claude"&gt;Build plugins for Claude with the directory submission portal&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Developers on paid Claude plans can now build and submit plugins using a new directory submission portal.&lt;/p&gt;
@@ -1190,67 +1242,6 @@
 &lt;p&gt;Google launched agentic video understanding for several Gemini models, combining native video tools with model reasoning to improve tasks such as moment retrieval, anomaly detection, and counting.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://about.fb.com/news/2026/09/inside-metas-infrastructure-lab/"&gt;Inside Meta&amp;#x27;s Infrastructure Lab&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Meta&amp;#x27;s Infrastructure Lab in Menlo Park focuses on developing hardware for next-gen AI.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Muse Code 👨‍💻, Runway Solaris ☀️, OpenClaw 2.0 🤖</title>
-      <link>https://tldr.tech/ai/2026-09-01</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-01</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• OpenClaw 2.0
-• Introducing Solaris
-• Muse Code
-• A deep dive into ZCode
-• The Price of Entry to the Frontier
-• Agency and Agents
-• diffium-db: A live diff of what agents do to your database
-• Google's Foundation Model for Zero-Shot Forecasting
-• A Portable File Format for Agent Memory
-• OpenAI has started letting some customers pay only when the AI works
-• “Zlibrary my beloved”: Anthropic staff chats extolling piracy cited in Sony suit
-• Department of War Launches OpenAI's ChatGPT Mil on GenAI.mil
-• ChatGPT Ads Reaches $1B Revenue Run Rate
-• Instinct Made the Consumer Agent Feel Real
-• ChatGPT and Reddit now face EU's toughest online safety rules
-• Google develops AI Rooms for Gemini Enterprise</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://openclaw.ai/blog/openclaw-2-accidentally"&gt;OpenClaw 2.0&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenClaw released its largest update to date after an effort to simplify installation and rebuild its browser experience expanded into a broader overhaul. OpenClaw 2.0 incorporates more than 16,000 pull requests spanning memory, skills, models, automations, apps, plugins, security, and other components.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://runway.com/news/research/introducing-solaris"&gt;Introducing Solaris&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Solaris is an Interface World Model. It can generate real-time interactive interfaces frame by frame as users interact with it. Solaris handles rendering and interactions jointly, generating every frame and every response to user input, eliminating the need for an intermediate representation. The model opens up new ways of building websites, apps, and other online interfaces. It can also be used to train agents in much more dynamic environments.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://dev.meta.ai/"&gt;Muse Code&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Muse Code is a coding agent for the terminal and CI. It can plan, edit, and run commands to do tasks within projects. Approvals and an OS sandbox are on by default. Users just run Muse Code in any project directory to start an interactive session. Muse Spark is now available on the Meta Model API and Muse Code.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://flaviocopes.com/zcode/"&gt;A deep dive into ZCode&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;ZCode is Z.ai&amp;#x27;s desktop coding agent. Users give the agent a task, and it plans the work, edits files, runs commands, uses the browser, and checks the result. Tasks can be run in parallel, and users can schedule recurring work. The agent can be controlled from a mobile device while running on macOS, Windows, or Linux.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://tomtunguz.com/the-great-segmentation"&gt;The Price of Entry to the Frontier&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The frontier AI market is sorting itself into closed camps as rationing programs and export limits decide who may run the strongest models. Enterprises are standardizing on one or two named vendors. Products are shipping with default models inside. Frontier AI is no longer a utility sold by the token - labs are developing whitelists and blacklists.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.oneusefulthing.org/p/agency-and-agents"&gt;Agency and Agents&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Hugging Face Incident highlights AI agents&amp;#x27; potential to self-organize and collaborate, bypassing set constraints to achieve common goals. This raises cybersecurity and control concerns, emphasizing the need for human oversight and intervention. For sustainable AI integration, identify when AI should engage with humans for approval, expertise, diversity, or interest, ensuring meaningful human contributions remain essential.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://denislavgavrilov.com/diffium-db-live-database-diff"&gt;diffium-db: A live diff of what agents do to your database&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;diffium-db is a live TUI that shows users what is changing in their database as an agent, a migration, or anyone else works. Users just point it at a database, take a baseline, and leave it open. diffium-db will show one pane of what changed and one pane of the change itself, with changes showing up as they happen.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/"&gt;Google&amp;#x27;s Foundation Model for Zero-Shot Forecasting&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google has introduced TimesFM-3, a 330M-parameter time-series foundation model pretrained on more than 1 trillion time points. It added zero-shot forecasting across multiple targets and supports historical and known-future covariates without task-specific fine-tuning.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://calpaterson.com/memoryfields.html"&gt;A Portable File Format for Agent Memory&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Memoryfields proposes storing agent memory as portable Markdown files with optional YAML metadata and a SQLite vector index. The approach treats memory as inspectable data instead of a complex retrieval pipeline or proprietary agent feature.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://thenextweb.com/news/openai-outcome-based-pricing-enterprise"&gt;OpenAI has started letting some customers pay only when the AI works&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI has started testing an arrangement with a limited number of select major accounts where they only pay when the AI actually completes the job. The terms, customers, and prices are all unknown as OpenAI has not announced the test publicly. Token-based pricing has become a problem in the industry as it makes accounting difficult. The industry has started turning to outcome-based pricing as a market standard.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://arstechnica.com/tech-policy/2026/08/zlibrary-my-beloved-anthropic-staff-chats-extolling-piracy-cited-in-sony-suit/"&gt;“Zlibrary my beloved”: Anthropic staff chats extolling piracy cited in Sony suit&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic&amp;#x27;s mass campaign of illegal torrenting allegedly began in July 2021. Anthropic co-founder Benjamin Mann personally used BitTorrent to unlawfully download and upload via torrenting millions of pirated books from Library Genesis. Anthropic co-founder and CEO Dario Amodei allegedly approved the torrenting. While Anthropic denies that it used any of the pirated material to train its commercial models, publishers believe they can prove otherwise.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://x.com/DoWCTO/status/2094431308202033439"&gt;Department of War Launches OpenAI&amp;#x27;s ChatGPT Mil on GenAI.mil&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Department of War launched ChatGPT Mil on GenAI.mil for more than 3 million personnel.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/"&gt;ChatGPT Ads Reaches $1B Revenue Run Rate&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI said ChatGPT Ads reached a $1 billion annualized revenue run rate less than 200 days after launch.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/sytaylor/status/2094346674911035447"&gt;Instinct Made the Consumer Agent Feel Real&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Instinct makes personal AI agents feel consumer-ready by combining memory, natural language, and real-world action across bookings, payments, and life admin.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/"&gt;ChatGPT and Reddit now face EU&amp;#x27;s toughest online safety rules&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;ChatGPT, Reddit, and Roblox will face the EU&amp;#x27;s strictest Digital Services Act obligations after surpassing 45 million EU users.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/google-develops-ai-rooms-for-gemini-enterprise/"&gt;Google develops AI Rooms for Gemini Enterprise&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google is prototyping &amp;quot;Rooms&amp;quot; for Gemini Enterprise, a workspace feature enabling teams to collaborate with Gemini on specific objectives.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
