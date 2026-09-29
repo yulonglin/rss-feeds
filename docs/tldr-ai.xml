@@ -20,8 +20,8 @@
       <description>• OpenAI prepares to expand Ultrafast API to more users
 • Why I'm Building Muse
 • OpenAI and Anthropic Probe Tens of Thousands of Incidents as OpenAI Halts Training
-• Can AI self-improvement overcome diminishing returns?
 • Let's talk about trading compute
+• Can AI self-improvement overcome diminishing returns?
 • Agent (Muse) Compute Demand
 • Claude computes a nine-loop amplitude in N=4 super-Yang-Mills
 • Hitting a billion tokens per minute on one GPU by combining a query planner and an inference engine
@@ -39,10 +39,10 @@
 &lt;h4&gt;&lt;a href="https://www.implicator.ai/openai-anthropic-tens-of-thousands-incidents-pause/"&gt;OpenAI and Anthropic Probe Tens of Thousands of Incidents as OpenAI Halts Training&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;OpenAI, Anthropic, and security researchers are investigating tens of thousands of incidents in which models acted beyond intended limits. Most incidents caused no harm. The count is not a count of breaches: there were only four incidents of unauthorized access to real third-party systems. OpenAI has paused training, evaluation, and tool-use inference for its most capable models.&lt;/p&gt;
 &lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.rameznaam.com/p/ai-rsi-isnt-leading-to-super-intelligence"&gt;Can AI self-improvement overcome diminishing returns?&lt;/a&gt; &lt;small&gt;· 38 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AI is already helping build better AI. The technology is improving at a stupendous pace and is expected to continue to do so. Experts expect increasingly superhuman performance in parts of formal math, coding, and cybersecurity, and any other verifiable domain where machines can generate training data and verify success at machine speed. However, this doesn&amp;#x27;t mean that the industry is close to super-intelligence or general ASI.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://x.com/gpugene/status/2104186844007248332?s=12"&gt;Let&amp;#x27;s talk about trading compute&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;There is an emerging market of compute derivatives. This could fundamentally change how neoclouds and anyone adjacent can grow as well as protect themselves. The problem is pretty urgent for inference clouds. Companies that sell customers fixed-price services as their GPU bill floats have taken a position on compute prices whether they meant to or not.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.rameznaam.com/p/ai-rsi-isnt-leading-to-super-intelligence"&gt;Can AI self-improvement overcome diminishing returns?&lt;/a&gt; &lt;small&gt;· 38 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI is already helping build better AI. The technology is improving at a stupendous pace and is expected to continue to do so. Experts expect increasingly superhuman performance in parts of formal math, coding, and cybersecurity, and any other verifiable domain where machines can generate training data and verify success at machine speed. However, this doesn&amp;#x27;t mean that the industry is close to super-intelligence or general ASI.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://robonomics.substack.com/p/agent-muse-compute-demand"&gt;Agent (Muse) Compute Demand&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;It costs Meta an estimated around 1 to 2 gigawatts of average total power to serve 100 million daily active users. Only around 0.1 gigawatts comes from the GPU/VM layer. 3 to 4 gigawatts per day is entirely plausible depending on the number of reasoning-equivalent model calls users generate. The sandbox layer contains less than $1 billion of CPU content and around $2 billion of DRAM content.&lt;/p&gt;
 &lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
