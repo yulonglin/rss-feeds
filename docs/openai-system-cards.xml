@@ -9,7 +9,15 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-system-cards.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://deploymentsafety.openai.com/" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Addendum to GPT-6 Astra System Card: GPT-6.1 Sol</title>
+      <link>https://deploymentsafety.openai.com/gpt-6-1-sol</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-6-1-sol</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>Safety evaluations and safeguards for GPT-6.1 Sol, an addendum to the GPT-6 Astra system card.</description>
+    </item>
     <item>
       <title>ChatGPT Images 2.5 System Card</title>
       <link>https://deploymentsafety.openai.com/chatgpt-images-2-5</link>
