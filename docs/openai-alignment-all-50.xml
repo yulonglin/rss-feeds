@@ -9,7 +9,15 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-alignment-all-50.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Towards safety cases for frontier AI training</title>
+      <link>https://openai.com/index/towards-safety-cases-for-frontier-ai-training/</link>
+      <guid isPermaLink="true">https://openai.com/index/towards-safety-cases-for-frontier-ai-training/</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Initial guidelines for safety cases covering technical safeguards, operational practices, and investigations of misalignment incidents during frontier AI training.</description>
+    </item>
     <item>
       <title>Self-replicating prompt injections exist</title>
       <link>https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/</link>

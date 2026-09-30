@@ -13,8 +13,8 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "Official /rss.xml exists but was last built 2026-07-21 and omits every externally hosted post.",
       "notes": "",
-      "items": 27,
-      "newest": "2026-09-06",
+      "items": 28,
+      "newest": "2026-09-28",
       "healthy": true
     },
     {
@@ -55,8 +55,8 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "No merged feed upstream.",
       "notes": "",
-      "items": 39,
-      "newest": "2026-09-25",
+      "items": 40,
+      "newest": "2026-09-28",
       "healthy": true
     },
     {
@@ -69,8 +69,8 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "No merged feed upstream.",
       "notes": "",
-      "items": 39,
-      "newest": "2026-09-25",
+      "items": 40,
+      "newest": "2026-09-28",
       "healthy": true
     },
     {
@@ -97,8 +97,8 @@
       "source_url": "https://metr.org/",
       "upstream_status": "Official feed.xml is valid but ~8.9 MB and interleaves /es/ and /zh-Hans/ duplicates of English posts.",
       "notes": "",
-      "items": 91,
-      "newest": "2026-09-27",
+      "items": 92,
+      "newest": "2026-09-30",
       "healthy": true
     },
     {
@@ -112,7 +112,7 @@
       "upstream_status": "Official feed.xml is ~8.9 MB with translated duplicates.",
       "notes": "",
       "items": 50,
-      "newest": "2026-09-27",
+      "newest": "2026-09-30",
       "healthy": true
     },
     {
@@ -125,8 +125,8 @@
       "source_url": "https://metr.org/",
       "upstream_status": "Official feed.xml is ~8.9 MB with translated duplicates.",
       "notes": "Click through to read; article text is not carried in this variant.",
-      "items": 91,
-      "newest": "2026-09-27",
+      "items": 92,
+      "newest": "2026-09-30",
       "healthy": true
     },
     {
@@ -168,7 +168,7 @@
       "upstream_status": "Official /rss/ is complete but interleaves the daily with video and podcast teasers, paywalled previews, recaps, reader essays and sponsor cards.",
       "notes": "",
       "items": 6,
-      "newest": "2026-09-29",
+      "newest": "2026-09-30",
       "healthy": true
     }
   ]
