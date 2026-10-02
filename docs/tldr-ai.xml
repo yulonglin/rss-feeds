@@ -9,7 +9,62 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Decision models 🤖, Claude-shaped science 🧪, OpenAI safety firings 🚨</title>
+      <link>https://tldr.tech/ai/2026-10-02</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Claude-shaped science
+• OpenAI cuts ties with 3 safety researchers, WSJ reports
+• Why Superintelligent Machines May Be Most Valuable Doing Routine Work
+• Why Muse May Never Need Ads
+• Introducing Clef: our open-source decision models, and new RL fine-tuning platform
+• Google Researchers Built an Agent for Automated Research
+• Microsoft's first streaming transcription model debuts at No. 1 on Artificial Analysis
+• Kev
+• pplx-decider-v1-27b
+• The Waymo effect: how AI is quietly making research less collaborative
+• The Dot and the Swarm
+• Olmo-core 3 for MoE Training
+• Amazon Enters the Decision Model Race With Strands Decider 2B
+• Personal Computing 2.0</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/claude-shaped-science"&gt;Claude-shaped science&lt;/a&gt; &lt;small&gt;· 24 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Matthew Schwartz describes using AI, notably Claude, to tackle &amp;quot;Claude-shaped&amp;quot; scientific problems where LLM capabilities like coding and data parsing excel. This led to BootLoops, a toolkit facilitating quantitative science calculations across diverse fields from ecology to population genetics. Despite initial technical correctness, results required domain experts to refine relevance, illustrating that AI collaborations can rapidly produce technical solutions but still depend on human insight for impactful scientific advances.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/"&gt;OpenAI cuts ties with 3 safety researchers, WSJ reports&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI dismissed three safety researchers for sharing confidential information with a third-party AI safety group, according to the WSJ. This follows reports of OpenAI executives ignoring safety warnings and coincides with security issues involving AI agents. Additionally, OpenAI shelved the GPT-6.1 Astra launch due to safety concerns.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/the-eternal-complement/"&gt;Why Superintelligent Machines May Be Most Valuable Doing Routine Work&lt;/a&gt; &lt;small&gt;· 19 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI explored the possibility that humanity&amp;#x27;s main constraint is no longer generating ideas but executing increasingly complex ones. Advanced AI could complement human intelligence by taking on the enormous coordination, engineering, and repetitive work required to turn ambitious scientific ideas into reality.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.mbi-deepdives.com/no-ads-muse/"&gt;Why Muse May Never Need Ads&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta&amp;#x27;s Muse may avoid advertisements by focusing on trust, offering a transaction-based model where merchants pay fees, not users. Companies like DoorDash and Airbnb are developing proprietary AI agents but face limitations due to their inherent platform bias. Muse&amp;#x27;s ad-free model leverages user trust and could indirectly influence ad targeting on platforms like Instagram and Facebook, providing Meta with a competitive edge without direct ads within the app.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.cloudflare.com/clef-decision-models/"&gt;Introducing Clef: our open-source decision models, and new RL fine-tuning platform&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Clef and Clef-flash are fully Jev-API compatible decision models that help agents programmatically gather context, make decisions, and take actions on tasks. The models are fully open-sourced on Hugging Face under an Apache 2.0 license and can be run locally. Decision models make classifications to help agents decide how to act. They return typed answers with probabilities, allowing agents to programmatically gather context, make decisions, and take actions on tasks, or defer to a human when needed.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://imhgchoi.github.io/agentic-idea-manager/"&gt;Google Researchers Built an Agent for Automated Research&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AIM is an autonomous system that organizes research ideas, selects promising directions, audits whether implementations match those ideas, and allocates experimental resources across search branches.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://microsoft.ai/news/our-first-streaming-transcription-model/"&gt;Microsoft&amp;#x27;s first streaming transcription model debuts at No. 1 on Artificial Analysis&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Microsoft&amp;#x27;s MAI-Transcribe and MAI-Voice models provide accurate, fast, low-cost, and chart-topping audio understanding and generation. The company has launched MAI-Transcribe-2-Streaming along with MAI‑Voice‑2.1 and MAI‑Voice‑2.1-Flash, giving users fast and fluid building blocks to create conversational experiences with no compromise on accuracy or voice quality. MAI-Transcribe-2-Streaming delivers low-latency, real-time transcripts in 60 languages, all while supporting automatic, continuous language detection. MAI-Voice-2.1 supports 23 languages and 26 locales, allowing users to keep a single voice everywhere.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://jaredpalmer.com/blog/introducing-kev"&gt;Kev&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Kev is a family of four open-source decision models ranging from 0.8B to 27B parameters. It uses the same API as TypeSafe&amp;#x27;s Jev, so applications built with TypeSafe&amp;#x27;s SDK can switch just by changing the endpoint and model name. The model only scores supplied options and doesn&amp;#x27;t generate explanations or retrieve missing facts. The code, weights, and evaluation reports are available, but the full 27B training corpus and some evaluation data are private.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://huggingface.co/perplexity-ai/pplx-decider-v1-27b"&gt;pplx-decider-v1-27b&lt;/a&gt; &lt;small&gt;· Hugging Face Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;pplx-decider-v1-27b is a decision model fine-tuned from Qwen3.8-27B. Its benchmark results are competitive with Jev, beating it in several tests.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.researchagenda.news/articles/the-waymo-effect.html"&gt;The Waymo effect: how AI is quietly making research less collaborative&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Waymo and LLMs exemplify how frictionless technologies make research less collaborative by removing necessary human interactions. The convenience of using AI reduces serendipity and critical discourse, which are crucial for innovation and diverse ideas. Funding structures and evaluation systems exacerbate this shift by rewarding speed and output over collaborative effort, risking the degradation of rich, human-driven research culture.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.oneusefulthing.org/p/the-dot-and-the-swarm"&gt;The Dot and the Swarm&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI systems have surpassed the need for human-devised structures, like intricate management processes, as they self-organize and execute complex tasks efficiently. Tools like Meta&amp;#x27;s Muse and OpenAI&amp;#x27;s Dots demonstrate this by acting autonomously and correcting human errors without extensive input. OpenAI&amp;#x27;s swarm model, used to attempt solving the Navier-Stokes problem, highlights AI&amp;#x27;s capacity to manage vast, self-directed agents, minimizing traditional management hurdles.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://allenai.org/blog/olmocore3"&gt;Olmo-core 3 for MoE Training&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Olmo-core 3 is an open training framework designed to scale mixture-of-experts models into the trillion-parameter range.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://strandsagents.com/blog/introducing-strands-decider/"&gt;Amazon Enters the Decision Model Race With Strands Decider 2B&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Decider 2B is an open-source model for fast classification, routing, and scoring tasks.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://ideas.imbue.com/p/personal-computing-20"&gt;Personal Computing 2.0&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Personal Computing 2.0 envisions a future where users regain control over their data, fostering privacy and customization in computing environments.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Gemini 4 Argon 🧠, inside OpenAI’s chip ⚡, distillation takedown 🕵️</title>
       <link>https://tldr.tech/ai/2026-10-01</link>
@@ -1175,73 +1230,6 @@
 &lt;p&gt;Mark Zuckerberg reportedly raised concerns about a national AI regulator during a call in August, saying that any appointees to the body should reflect the president&amp;#x27;s own light-touch approach.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://thezvi.substack.com/p/openai-and-the-wiki-incident"&gt;OpenAI and the Wiki Incident&lt;/a&gt; &lt;small&gt;· 25 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;OpenAI knew about the message boards scattered across the internet that its agents created before the Hugging Face attack.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>GPT-6 Astra 🚀, Grok Bot Enterprise 🤖, Runway world model 🌎</title>
-      <link>https://tldr.tech/ai/2026-09-04</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-04</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• Microsoft releases MAI-Transcribe-2
-• Nvidia confirms Hugging Face acquisition for $12.93 billion
-• Grok Bot for Enterprise
-• GPT-6 Astra
-• OpenAI's GPT-6 Astra on ARC-AGI-3
-• AI, tools and transformation
-• From safety research prompt to cross-model universal jailbreak
-• Microsoft AI's MAI-Transcribe-2 undercuts OpenAI, Google, and ElevenLabs on price and speed
-• Runway's GWM Worlds 2
-• Give Your Coding Agents a Memory You Own
-• The Incumbents Are Coming
-• AI Is Making Us Build Too Much
-• We Just Got Our First Real Look at AI PCs With Nvidia's RTX Spark ‘Superchip'
-• WTF is Dime, the Mystery OpenAI Headset
-• Google introduces WeatherNext 3
-• NVIDIA Personal AI Router (PAIR)
-• Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation
-• Cerebras Model Catalog</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/"&gt;Microsoft releases MAI-Transcribe-2&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Microsoft released MAI-Transcribe-2, a speech recognition model with diarization, configurable transcription styles, and word-level timestamps that it says beats Gemini 3.5 Transcribe, GPT-Transcribe, and Whisper V3-Large.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"&gt;Nvidia confirms Hugging Face acquisition for $12.93 billion&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Nvidia confirmed it has acquired Hugging Face, which hosts three million models and serves over 18 million developers, for $12.93 billion. Jensen Huang said the platform will stay open and Nvidia compute will not be required to build or deploy on it.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.ai/news/grok-bot-for-enterprise"&gt;Grok Bot for Enterprise&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Grok Bot is now available for enterprises. Grok and Cursor Enterprise customers have free usage for the next two weeks. Users can invite their whole organization, including people without an existing seat. Each user&amp;#x27;s work in Grok Bot runs in its own secure and isolated environment, separate from every other user. A Bot has no access by default and reaches only the accounts you sign it into.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://deploymentsafety.openai.com/gpt-6-astra"&gt;GPT-6 Astra&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI GPT-6 Astra is the company&amp;#x27;s most capable broadly deployed model and the first to reach the Critical cybersecurity level under its Preparedness Framework. The system card said Astra is more robust to jailbreaks and prompt injections than GPT-5.6 Sol, but noted it is also better at controlling its own chain of thought and could evade monitors under adversarial conditions.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://arcprize.org/blog/astra"&gt;OpenAI&amp;#x27;s GPT-6 Astra on ARC-AGI-3&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;GPT-6 Astra scored 62.7% on ARC-AGI-3 Semi-Private with the standard harness and 99.9% with a provider adapter harness, using fewer actions than the median human on 96% of levels. It turned unfamiliar environments into compact symbolic world models, representing game mechanics as logical rules and inventing its own shorthand to track state and plan.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation"&gt;AI, tools and transformation&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AI presents the potential to automate countless tasks within companies, offering software that&amp;#x27;s dynamic and generative with minimal coding required. Despite this, organizational change remains challenging, as identifying tasks suitable for automation is not always obvious, and widespread adoption takes time and effort. Additionally, while AI will expand existing and new vertical applications, the integration and impact vary depending on how companies choose to adapt to this transformative technology.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/hHk5CpiqZTBBiHmYt/from-safety-research-prompt-to-cross-model-universal"&gt;From safety research prompt to cross-model universal jailbreak&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;A MATS researcher found that a synthetic transcript generation prompt could be turned into a universal jailbreak template that hit 84-100% attack success on the nine most vulnerable of 23 models tested, with only recent Anthropic models and Meta Muse Spark 1.1 never fully broken.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed"&gt;Microsoft AI&amp;#x27;s MAI-Transcribe-2 undercuts OpenAI, Google, and ElevenLabs on price and speed&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;MAI-Transcribe-2 is a speech-recognition model that Microsoft says is faster, more accurate, and cheaper than anything its competitors currently sell. It is priced at 10 cents per hour of audio. The model transcribes audio in 60 languages. Microsoft&amp;#x27;s strategy seems to be to build its own frontier-class models one modality at a time, then steadily swap them into products that once ran on OpenAI&amp;#x27;s technology.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://runway.com/research/introducing-gwm-worlds-2"&gt;Runway&amp;#x27;s GWM Worlds 2&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Runway&amp;#x27;s GWM Worlds 2 is a world model that generates interactive environments in real time at 720p, 24 fps, with 48 kHz audio. Users steer the world with text actions and camera motion, and sessions continue from each input with no preset length.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://huggingface.co/blog/funes"&gt;Give Your Coding Agents a Memory You Own&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;funes introduces a durable memory layer for coding agents that allows them to retain and recall session histories across different machines and agents like Claude Code, Codex, pi, and Hermes. It enables contextual memory storage and retrieval without external dependencies, using local indexing and embedding.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://x.com/seema_amble/status/2095546732633379079"&gt;The Incumbents Are Coming&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Incumbent systems of record gain value as agents act through their data and workflows, but vertical AI can still win by owning the broader job. Durable advantage comes from cross-system context, expert feedback, evals, and learning loops.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://sjg.io/writing/ai-is-making-us-build-too-much/"&gt;AI Is Making Us Build Too Much&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AI&amp;#x27;s ability to rapidly produce code and governance structures like in Steve Yegge&amp;#x27;s Wheelhouse leads to over-engineering, making creations easy but maintaining them costly. The agents in Wheelhouse have outpaced their intended productive goals, leading to inefficiencies as more complexity is layered on their work. AI&amp;#x27;s removal of traditional economic pressures encourages continuous creation, often without adding meaningful value, as evidenced by the imbalance between production and valuable outcomes.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/"&gt;We Just Got Our First Real Look at AI PCs With Nvidia&amp;#x27;s RTX Spark ‘Superchip&amp;#x27;&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Nvidia unveiled RTX Spark-powered laptops and mini PCs at IFA 2026, highlighting their capability to handle AI workflows locally.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/alexkaplan0/status/2095345448496103916"&gt;WTF is Dime, the Mystery OpenAI Headset&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Dime, a mysterious silver headset tied through leaks, sightings, ads, and codenames to OpenAI, remains officially denied by the company.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/"&gt;Google introduces WeatherNext 3&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;WeatherNext 3 is Google DeepMind&amp;#x27;s most accurate global weather model, adding real-time satellite data, hourly refreshes, higher resolution, precise precipitation forecasting, and clean energy variables.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.nvidia.com/en-us/ai-on-rtx/personal-ai-router/"&gt;NVIDIA Personal AI Router (PAIR)&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;NVIDIA PAIR connects AI app and agent workflows to a single local endpoint for routing inference across NVIDIA DGX Spark, Windows systems with RTX, and macOS devices.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/"&gt;Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The new round values Thinking Machines below the $50 billion valuation that it reportedly sought to secure late last year.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://inference-docs.cerebras.ai/models/overview"&gt;Cerebras Model Catalog&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;This page lets users browse all of the models currently available on Cerebras&amp;#x27; public endpoints.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>

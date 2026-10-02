@@ -1,7 +1,7 @@
 {
   "site": "https://feeds.yulonglin.com/",
   "repo": "https://github.com/yulonglin/rss-feeds",
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "feeds": [
     {
       "slug": "openai-alignment-research",
@@ -154,7 +154,7 @@
       "upstream_status": "Official /api/rss/ai exists but each item is only the emoji headline and a link: no summary and none of the stories.",
       "notes": "",
       "items": 20,
-      "newest": "2026-10-01",
+      "newest": "2026-10-02",
       "healthy": true
     },
     {
