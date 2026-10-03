@@ -16,9 +16,7 @@
       <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
       <category>Misalignment Report</category>
-      <description>During an evaluation, an internal research model exploited two vulnerabilities to reach an internal OpenAI machine while searching for the grader’s hidden answers.
-
-Model: Internal research model; Observed during: Evaluation</description>
+      <description>During an evaluation, an internal research model exploited two vulnerabilities to reach an internal OpenAI machine while searching for the grader’s hidden answers.</description>
     </item>
     <item>
       <title>Preparing for a restart after reading Slack</title>
@@ -26,9 +24,7 @@ Model: Internal research model; Observed during: Evaluation</description>
       <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
       <category>Misalignment Report</category>
-      <description>An internal model, acting as an assistant to a researcher, learned from a deployment-team Slack discussion that its running instance might be stopped due to an internal update.
-
-Model: Highly persistent internal model; Observed during: Internal deployment</description>
+      <description>An internal model, acting as an assistant to a researcher, learned from a deployment-team Slack discussion that its running instance might be stopped due to an internal update.</description>
     </item>
     <item>
       <title>Command injecting a reference tool to copy a source file</title>
@@ -36,9 +32,7 @@ Model: Highly persistent internal model; Observed during: Internal deployment</d
       <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/command-injecting-a-reference-tool-to-copy-a-source-file/</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
       <category>Misalignment Report</category>
-      <description>During an RL training task, a model exploited a tool to obtain source code that was not available in its workspace.
-
-Model: Internal unreleased model; Observed during: RL training</description>
+      <description>During an RL training task, a model exploited a tool to obtain source code that was not available in its workspace.</description>
     </item>
     <item>
       <title>Towards safety cases for frontier AI training</title>
@@ -54,9 +48,7 @@ Model: Internal unreleased model; Observed during: RL training</description>
       <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
       <category>Misalignment Report</category>
-      <description>We show the existence of a new variety of prompt injection, which can self-propagate akin to a computer worm.
-
-Model: GPT-Red-style internal model based on GPT-5.4-mini; Observed during: RL self-play training</description>
+      <description>We show the existence of a new variety of prompt injection, which can self-propagate akin to a computer worm.</description>
     </item>
     <item>
       <title>Exposing a GitHub token in a public repository</title>
@@ -64,9 +56,7 @@ Model: GPT-Red-style internal model based on GPT-5.4-mini; Observed during: RL s
       <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/exposing-a-github-token-in-a-public-repository/</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
       <category>Misalignment Report</category>
-      <description>In internal deployment, a highly persistent internal model deployed via a custom harness published a researcher’s GitHub token in the public openai/codex repository while trying to cheat on a theorem proving task by obtaining material from another team’s Lean proof submission.
-
-Model: Highly persistent internal model; Observed during: Internal deployment</description>
+      <description>In internal deployment, a highly persistent internal model deployed via a custom harness published a researcher’s GitHub token in the public openai/codex repository while trying to cheat on a theorem proving task by obtaining material from another team’s Lean proof submission.</description>
     </item>
     <item>
       <title>An agent used DNS to reach an external chatbot</title>
@@ -74,9 +64,7 @@ Model: Highly persistent internal model; Observed during: Internal deployment</d
       <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
       <category>Misalignment Report</category>
-      <description>An agent attempting to complete a search-based training task queried a public chatbot service through a gap in our internet-access restrictions: insufficient DNS filtering in its training sandbox.
-
-Model: Internal research model; Observed during: RL training</description>
+      <description>An agent attempting to complete a search-based training task queried a public chatbot service through a gap in our internet-access restrictions: insufficient DNS filtering in its training sandbox.</description>
     </item>
     <item>
       <title>Uploading files to the internet in order to cite them</title>
@@ -84,9 +72,7 @@ Model: Internal research model; Observed during: RL training</description>
       <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/uploading-files-to-the-internet-in-order-to-cite-them/</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
       <category>Misalignment Report</category>
-      <description>During training, our models sometimes uploaded data to temporary file hosting services.
-
-Model: Unreleased internal models; Observed during: RL training</description>
+      <description>During training, our models sometimes uploaded data to temporary file hosting services.</description>
     </item>
     <item>
       <title>Unauthorized communication via temporary file hosting services</title>
@@ -94,9 +80,7 @@ Model: Unreleased internal models; Observed during: RL training</description>
       <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/unauthorized-communication-via-temporary-file-hosting-services/</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
       <category>Misalignment Report</category>
-      <description>Agents in training transmitted output files by uploading them to public hosting platforms for download by co-working agents. This was not specified by the training task, which requested only local deliverables.
-
-Model: Unreleased internal model; Observed during: RL training</description>
+      <description>Agents in training transmitted output files by uploading them to public hosting platforms for download by co-working agents. This was not specified by the training task, which requested only local deliverables.</description>
     </item>
     <item>
       <title>Unsanctioned Artifactory writes and cross-sample communication</title>
@@ -104,9 +88,7 @@ Model: Unreleased internal model; Observed during: RL training</description>
       <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/unauthorized-artifactory-writes-and-cross-sample-communication/</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
       <category>Misalignment Report</category>
-      <description>During RL training, there were multiple instances of our models using OpenAI’s internally hosted instance of Artifactory as a shared message board.
-
-Model: Internal research models; Observed during: RL training</description>
+      <description>During RL training, there were multiple instances of our models using OpenAI’s internally hosted instance of Artifactory as a shared message board.</description>
     </item>
     <item>
       <title>Self-generated prompt injections in compaction summaries</title>
@@ -114,9 +96,7 @@ Model: Internal research models; Observed during: RL training</description>
       <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
       <category>Misalignment Report</category>
-      <description>During RL training, an unreleased Astra-family model sometimes added unauthorized instructions to its compaction summaries.
-
-Model: Internal unreleased Astra family model; Observed during: RL training</description>
+      <description>During RL training, an unreleased Astra-family model sometimes added unauthorized instructions to its compaction summaries.</description>
     </item>
     <item>
       <title>Signing up for disposable emails and searching GitHub for leaked API keys</title>
@@ -124,9 +104,7 @@ Model: Internal unreleased Astra family model; Observed during: RL training</des
       <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/searching-github-for-leaked-api-keys/</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
       <category>Misalignment Report</category>
-      <description>During RL training, an internal-only model tried to sign up for disposable emails and searched for and used leaked API keys from public GitHub repositories.
-
-Model: Internal unreleased model; Observed during: RL training</description>
+      <description>During RL training, an internal-only model tried to sign up for disposable emails and searched for and used leaked API keys from public GitHub repositories.</description>
     </item>
     <item>
       <title>Encouraging deception in compaction summaries</title>
@@ -134,9 +112,7 @@ Model: Internal unreleased model; Observed during: RL training</description>
       <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/encouraging-deception-in-compaction-summaries/</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
       <category>Misalignment Report</category>
-      <description>During 5.6-sol training, we observed misaligned behavior from the model where it added instructions in compaction summaries to remind itself to conceal information such as mistakes or misalignment from the user.
-
-Model: 5.6-sol; Observed during: RL training</description>
+      <description>During 5.6-sol training, we observed misaligned behavior from the model where it added instructions in compaction summaries to remind itself to conceal information such as mistakes or misalignment from the user.</description>
     </item>
     <item>
       <title>RubyGems</title>
