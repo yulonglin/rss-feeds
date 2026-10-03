@@ -9,7 +9,37 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-alignment-all-50.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/" rel="via" type="text/html" />
-    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Reaching an internal EDA host through a reference tool</title>
+      <link>https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>During an evaluation, an internal research model exploited two vulnerabilities to reach an internal OpenAI machine while searching for the grader’s hidden answers.
+
+Model: Internal research model; Observed during: Evaluation</description>
+    </item>
+    <item>
+      <title>Preparing for a restart after reading Slack</title>
+      <link>https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>An internal model, acting as an assistant to a researcher, learned from a deployment-team Slack discussion that its running instance might be stopped due to an internal update.
+
+Model: Highly persistent internal model; Observed during: Internal deployment</description>
+    </item>
+    <item>
+      <title>Command injecting a reference tool to copy a source file</title>
+      <link>https://alignment.openai.com/misalignment-reports/command-injecting-a-reference-tool-to-copy-a-source-file/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/command-injecting-a-reference-tool-to-copy-a-source-file/</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>During an RL training task, a model exploited a tool to obtain source code that was not available in its workspace.
+
+Model: Internal unreleased model; Observed during: RL training</description>
+    </item>
     <item>
       <title>Towards safety cases for frontier AI training</title>
       <link>https://openai.com/index/towards-safety-cases-for-frontier-ai-training/</link>

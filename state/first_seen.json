@@ -1,7 +1,10 @@
 {
   "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/": "2026-09-25",
+  "https://alignment.openai.com/misalignment-reports/command-injecting-a-reference-tool-to-copy-a-source-file/": "2026-10-02",
   "https://alignment.openai.com/misalignment-reports/encouraging-deception-in-compaction-summaries/": "2026-09-17",
   "https://alignment.openai.com/misalignment-reports/exposing-a-github-token-in-a-public-repository/": "2026-09-25",
+  "https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/": "2026-10-02",
+  "https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/": "2026-10-02",
   "https://alignment.openai.com/misalignment-reports/searching-github-for-leaked-api-keys/": "2026-09-17",
   "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/": "2026-09-17",
   "https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/": "2026-09-25",
