@@ -479,9 +479,9 @@ def fake_inbox(monkeypatch):
     from rssfeeds import private
 
     monkeypatch.setenv(private.ENV_VAR, f'{{"scholar-inbox": "{FAKE_INBOX}"}}')
-    private.inbox_ids.cache_clear()
+    private.config.cache_clear()
     yield
-    private.inbox_ids.cache_clear()
+    private.config.cache_clear()
 
 
 def test_output_carrying_an_inbox_id_or_token_is_refused(tmp_path, fake_inbox) -> None:
@@ -498,6 +498,7 @@ def test_output_carrying_an_inbox_id_or_token_is_refused(tmp_path, fake_inbox) -
         return dict.fromkeys(ALL_SOURCES, SourceResult(items=[item]))
 
     for body in (
+        "https://example.com/x?sha_key=fake0token0fake0token0fake0token",
         f"see https://{KTN_HOST}/feeds/{FAKE_INBOX}",
         f"mail {FAKE_INBOX}@{KTN_HOST}",
         '<a href="https://www.scholar-inbox.com/login?sha_key=abc">x</a>',
@@ -538,11 +539,11 @@ def test_unconfigured_inbox_is_an_error_not_a_crash(monkeypatch, tmp_path) -> No
 
     monkeypatch.delenv(private.ENV_VAR, raising=False)
     monkeypatch.setattr(private, "LOCAL_FILE", tmp_path / "absent.json")
-    private.inbox_ids.cache_clear()
+    private.config.cache_clear()
     try:
         assert "no inbox ID" in (ai_digest().error or "")
     finally:
-        private.inbox_ids.cache_clear()
+        private.config.cache_clear()
 
 
 SCHOLAR_CARD = """
@@ -650,21 +651,205 @@ def test_conversation_email_is_flattened_and_untracked(tmp_path) -> None:
         assert gone not in content
 
 
-def test_generic_newsletter_drops_personal_and_tracked_links() -> None:
-    from rssfeeds.sources.ai_digest import link
+def _email(subject: str, body: str, n: int = 1):
+    from rssfeeds.newsletter_email import Email
 
-    assert (
-        link("https://theaidigest.org/post?utm_source=x", "a post")
-        == "https://theaidigest.org/post?utm_source=x"
+    return Email(f"urn:x:{n}", subject, datetime(2026, 10, n, tzinfo=UTC), body)
+
+
+CONFIRM_EMAIL = (
+    "<html><body><p>Thanks for subscribing! Please confirm your subscription.</p>"
+    '<p><a href="https://theaidigest.org/confirm?token=fake0token0fake0token0fake0token">'
+    "Click here to confirm your subscription to this newsletter</a></p></body></html>"
+)
+ACCOUNT_EMAIL = (
+    "<html><body><p>Use this link to sign in to your account.</p>"
+    '<p><a href="https://example.org/session/abc?u=fake1user1fake1user1fake1user1">'
+    "Sign in to The Conversation and Scholar Inbox right now</a></p></body></html>"
+)
+
+
+def test_ai_digest_publishes_nothing_until_reviewed(monkeypatch) -> None:
+    from rssfeeds.sources import ai_digest as src
+
+    issue = "<html><body><p>Real-looking issue</p><a href='https://x.org/a?k=1'>a</a></body></html>"
+    monkeypatch.setattr(
+        src,
+        "fetch_inbox",
+        lambda _slug: [
+            _email("Confirm your subscription", CONFIRM_EMAIL, 1),
+            _email("Your sign-in link", ACCOUNT_EMAIL, 2),
+            _email("AI Digest: October", issue, 3),
+        ],
     )
-    for href, text in [
-        ("https://theaidigest.org/unsubscribe?u=1", "Unsubscribe"),
-        ("https://example.com/prefs", "Manage preferences"),
-        ("https://click.example.com/abc", "story"),
-        ("https://pm-bounces.theaidigest.org/x", "story"),
-        ("mailto:a@b.c", "mail"),
+    res = src.ai_digest()
+    assert res.error is None and res.items == []
+
+
+def test_account_messages_are_recognised_and_newsletters_are_not() -> None:
+    from rssfeeds.newsletter_email import is_account_message
+
+    assert is_account_message(_email("Confirm your subscription", CONFIRM_EMAIL))
+    assert is_account_message(_email("Hello", ACCOUNT_EMAIL))
+    assert is_account_message(_email("Welcome to Scholar Inbox", "<p>hi</p>"))
+    assert not is_account_message(_email("📣 Scholar Alert Digest 02/10", SCHOLAR_EMAIL))
+    assert not is_account_message(_email("Unregulated AI and security threats", CONVERSATION_EMAIL))
+
+
+def test_scholar_inbox_drops_account_mail(monkeypatch) -> None:
+    from rssfeeds.sources import scholar_inbox as src
+
+    monkeypatch.setattr(
+        src,
+        "fetch_inbox",
+        lambda _slug: [
+            _email("Confirm your subscription", CONFIRM_EMAIL, 1),
+            _email("Your sign-in link", ACCOUNT_EMAIL, 2),
+            _email("📣 Scholar Alert Digest 02/10", SCHOLAR_EMAIL, 3),
+        ],
+    )
+    res = src.scholar_inbox()
+    assert [i.title for i in res.items] == ["Scholar Inbox, 3 Oct 2026: 1 papers"]
+    body = res.items[0].content_html
+    assert "token" not in body and "session" not in body
+
+
+def test_conversation_drops_account_mail_and_unknown_links(monkeypatch, tmp_path) -> None:
+    from rssfeeds.sources import the_conversation as src
+
+    # Placed above the sign-off, so it is the allowlist and not the footer cut that drops it.
+    sneaky = CONVERSATION_EMAIL.replace(
+        "<tr><td>👋",
+        "<tr><td><a href='https://theconversation.com/account/confirm?token=fake0token0fake0token0'>"
+        "A long anchor that looks just like a story headline</a>"
+        "<img src='https://images.theconversation.com/files/2/x.jpg?w=600&uid=fake1user1fake1user1ab'>"
+        "<img src='https://tracker.example.com/open.gif?id=fake1user1fake1user1ab'></td></tr>"
+        "<tr><td>👋",
+        1,
+    )
+    assert sneaky != CONVERSATION_EMAIL
+    monkeypatch.setattr(
+        src,
+        "fetch_inbox",
+        lambda _slug: [
+            _email("Confirm your subscription", CONFIRM_EMAIL, 1),
+            _email("Your sign-in link", ACCOUNT_EMAIL, 2),
+            _email("Unregulated AI", sneaky, 3),
+        ],
+    )
+    monkeypatch.setattr(src.LinkCache, "resolve", lambda self, titles: None)
+    cache = src.LinkCache(tmp_path / "links.json")
+    cache.data[src.norm_title("Why robots can’t fold laundry, explained at length")] = (
+        "https://theconversation.com/why-robots-cant-fold-laundry-123456?utm_source=x#frag"
+    )
+    cache.save()
+    res = src.the_conversation(tmp_path / "links.json")
+    assert [i.title for i in res.items] == ["Unregulated AI"]
+    body = res.items[0].content_html
+    assert 'href="https://theconversation.com/why-robots-cant-fold-laundry-123456"' in body
+    for gone in ("token", "uid=", "tracker.example.com", "account/confirm", "utm_", "#frag"):
+        assert gone not in body
+    assert 'src="https://images.theconversation.com/files/2/x.jpg?w=600"' in body
+    assert "A long anchor that looks just like a story headline" in body  # text kept, link not
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "https://theaidigest.org/confirm?token=abc",
+        "https://example.org/u?email=a%40b.c",
+        "https://example.org/x?id=fake1user1fake1user1fake1user1",
+        "https://example.org/x#view?auth_key=1",
+    ],
+)
+def test_leak_guard_flags_token_like_query_params(url) -> None:
+    from rssfeeds import private
+
+    assert private.leaks(f'<a href="{url}">x</a>')
+    assert not private.leaks(f'<a href="{url}">x</a>', tokens=False) or "auth_key" in url
+
+
+def test_leak_guard_passes_ordinary_links() -> None:
+    from rssfeeds import private
+
+    ok = (
+        '<a href="https://arxiv.org/search/?query=A+Paper&amp;searchtype=title">x</a>'
+        '<img src="https://images.theconversation.com/files/1/a.jpg?ixlib=rb-4.1.1&amp;rect=0%2C141%2C7548%2C4246&amp;q=45&amp;w=668">'
+        '<a href="http://[broken">y</a>'
+    )
+    assert private.leaks(ok) == []
+
+
+MALFORMED_CONFIGS = [
+    "not json at all",
+    '["abcdef1234567890abcd"]',
+    "null",
+    '"abcdef1234567890abcd"',
+    '{"scholar-inbox": 5}',
+    '{"scholar-inbox": ""}',
+    '{"scholar-inbox": {"id": "abcdef1234567890abcd"}}',
+    '{"scholar-inbox": "abcdef1234567890abcd", "the-conversation": null}',
+    '{"scholar-inbox": "https://example.com/abcdef1234567890abcd.xml"}',
+]
+
+
+@pytest.mark.parametrize("raw", MALFORMED_CONFIGS)
+def test_malformed_inbox_config_fails_only_the_email_feeds(raw, tmp_path, monkeypatch, capsys):
+    import rssfeeds.__main__ as cli
+    from rssfeeds import build, private
+    from rssfeeds.registry import FEEDS
+
+    good = SourceResult(
+        items=[
+            Item(
+                title="Kept",
+                link="https://example.com/keep",
+                guid="https://example.com/keep",
+                published=datetime(2026, 1, 1, tzinfo=UTC),
+            )
+        ]
+    )
+    for mod, name in [
+        (build.oai, "research"),
+        (build.oai, "notices"),
+        (build.cards, "system_cards"),
+        (build.metr_src, "metr_english"),
+        (build.dario_src, "dario_amodei"),
+        (build.tangle_src, "tangle"),
+        (build.gates_src, "gates_notes"),
     ]:
-        assert link(href, text) is None
+        monkeypatch.setattr(mod, name, lambda: good)
+    monkeypatch.setattr(build.oai, "reports", lambda _fs: good)
+    monkeypatch.setattr(build.tldr_src, "tldr", lambda *_a: good)
+    monkeypatch.setattr(build.ps_src, "project_syndicate", lambda _p: good)
+
+    def no_network(url):
+        raise AssertionError("an email source fetched despite a malformed config")
+
+    monkeypatch.setattr("rssfeeds.newsletter_email.fetch_bytes", no_network)
+    monkeypatch.setenv(private.ENV_VAR, raw)
+    private.config.cache_clear()
+
+    docs = tmp_path / "docs"
+    docs.mkdir()
+    email_specs = [f for f in FEEDS if f.email]
+    assert email_specs
+    for spec in email_specs:
+        (docs / spec.filename).write_bytes(b"<previous/>")
+    try:
+        with pytest.raises(SystemExit) as exc:
+            cli.build(docs=docs, state=tmp_path / "s.json", readme=tmp_path / "R.md")
+    finally:
+        private.config.cache_clear()
+    assert exc.value.code == 1
+    for spec in FEEDS:
+        if spec.email:
+            assert (docs / spec.filename).read_bytes() == b"<previous/>"
+        else:
+            assert b"Kept" in (docs / spec.filename).read_bytes(), spec.slug
+    out = capsys.readouterr()
+    assert "abcdef1234567890abcd" not in out.out + out.err
+    assert "KTN_FEEDS" in out.out
 
 
 def test_linearize_strips_layout_and_tracking() -> None:

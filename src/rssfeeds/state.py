@@ -4,6 +4,7 @@ import json
 from datetime import UTC, date, datetime
 from pathlib import Path
 
+from . import private
 from .models import Item
 
 
@@ -28,4 +29,5 @@ class FirstSeen:
 
     def save(self) -> None:
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        self.path.write_text(json.dumps(dict(sorted(self._data.items())), indent=2) + "\n")
+        text = json.dumps(dict(sorted(self._data.items())), indent=2) + "\n"
+        self.path.write_text(private.ensure_clean(text, self.path.name))

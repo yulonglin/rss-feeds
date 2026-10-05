@@ -42,6 +42,9 @@ class FeedSpec:
     # Publish a valid feed with no items rather than failing, for a newsletter inbox that
     # has not received its first issue yet.
     allow_empty: bool = False
+    # Built from one of Yulong's own email inboxes: held to the strict leak check, and
+    # failed alone (keeping its last XML) when the inbox config is missing or malformed.
+    email: bool = False
     # In the recommended set published as subscriptions.opml, under this folder.
     default: bool = False
     folder: str = "AI safety"
@@ -266,6 +269,7 @@ FEEDS: list[FeedSpec] = [
 FEEDS += [
     FeedSpec(
         slug="scholar-inbox",
+        email=True,
         title="Scholar Inbox - daily paper digest",
         description=(
             "Scholar Inbox's daily digest of recommended papers, one entry per day, each paper "
@@ -287,6 +291,7 @@ FEEDS += [
     ),
     FeedSpec(
         slug="the-conversation",
+        email=True,
         title="The Conversation - newsletters",
         description=(
             "The Conversation's Global daily, AI weekly and business weekly newsletters, "
@@ -312,10 +317,11 @@ FEEDS += [
     ),
     FeedSpec(
         slug="ai-digest",
+        email=True,
         title="AI Digest",
         description=(
-            "AI Digest's email updates, flattened to readable paragraphs, headings and images, "
-            "with tracking pixels, tracked and personal links, and the footer removed."
+            "AI Digest's email updates. Held empty for now: issues are published only once a "
+            "real one has been reviewed and its links and images can be allowlisted."
         ),
         org="AI Digest",
         source_name="theaidigest.org",
@@ -324,7 +330,7 @@ FEEDS += [
         shrink_guard=False,
         allow_empty=True,
         upstream_status="Email only; no feed of any kind upstream.",
-        notes="Empty until the first issue arrives.",
+        notes="Empty until an issue has been reviewed and its formatter enabled.",
         default=True,
         folder="Newsletters",
     ),

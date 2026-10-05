@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from . import private
 from .build import FeedStatus
 from .registry import REPO_URL, SITE_BASE
 
@@ -33,7 +34,7 @@ WHY = """## Why each feed exists
 | Tangle | `readtangle.com/rss/` | Complete, but most of each daily edition and many of the entries are packaging around the one section worth reading. |
 | Scholar Inbox | none (email only) | Styled table cards, an ambiguous dd/mm date in the subject, and every link a personal auto-login link. |
 | The Conversation | none (email only) | Layout tables, logos, a tracking pixel and footers, with every link, headlines included, behind a per-recipient click tracker. |
-| AI Digest | none (email only) | An HTML email, not a feed. |
+| AI Digest | none (email only) | An HTML email, not a feed. Published empty until a real issue has been reviewed. |
 | Project Syndicate | `project-syndicate.org/rss` | Summary only, the image hidden in an enclosure, utm tracking on every link, and only the first author of co-written pieces. |
 | Gates Notes | `gatesnotes.com/home/rss` | Gone, and every gatesnotes.com page answers scripts with a 403. |
 """
@@ -46,7 +47,7 @@ NOTES = """## Things worth knowing
 - **A source that fails leaves its feed alone.** If METR is unreachable the five OpenAI feeds still refresh; the workflow run goes red and the stale feed keeps its last good contents rather than emptying.
 - **`lastBuildDate` comes from the newest item, never the clock.** A run that finds nothing new produces byte-identical files and therefore no commit, which keeps the git history meaningful.
 - **Non-English filtering matches the shape of a locale segment**, not a fixed list, so a language METR adds later is dropped without a code change.
-- **Email-only newsletters come from private inboxes whose addresses are never committed.** A kill-the-newsletter inbox's feed URL is also its address, so the IDs are read at build time from the `KTN_FEEDS` repository secret (JSON mapping slug to inbox ID), or locally from a gitignored `feeds.local.json` shaped like `feeds.local.example.json`. Every feed is checked before it is written: one containing an inbox ID, any link to the inbox service, Scholar Inbox's login key or The Conversation's click tracker is refused, and the run goes red.
+- **Email-only newsletters come from private inboxes whose addresses are never committed.** A kill-the-newsletter inbox's feed URL is also its address, so the IDs are read at build time from the `KTN_FEEDS` repository secret (JSON mapping slug to inbox ID), or locally from a gitignored `feeds.local.json` shaped like `feeds.local.example.json`. A malformed secret fails only the three email feeds, which keep their last contents. Email content is rebuilt through an allowlist (article links and story images for The Conversation, public title searches for Scholar Inbox), account and confirmation emails are dropped, and AI Digest stays empty until a real issue has been reviewed. Everything written - feeds, `feeds.json`, the OPML files, `index.html`, this README and `state/` - is checked first: an inbox ID, any link to the inbox service, Scholar Inbox's login key or The Conversation's click tracker, and (outside publishers' own feeds) any token-like query parameter, refuses the write and reddens the run.
 - **The Conversation's headlines are linked by exact title**, matched first against the site's regional Atom feeds and then its search, because the email's own links are per-recipient trackers. Matches are kept in `state/conversation_links.json`; a headline that cannot be matched stays unlinked and is retried next run.
 - **Gates Notes is read from the content API the site is built from** (a public Kontent.ai delivery endpoint), since gatesnotes.com itself refuses scripted requests.
 - **GitHub disables scheduled workflows after 60 days of repository inactivity.** Each successful refresh commits, which resets that counter; a long stretch with no new posts anywhere is the one way this could quietly stop.
@@ -119,4 +120,4 @@ def render_vault_doc(statuses: list[FeedStatus]) -> str:
 def write_if_changed(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     if not path.exists() or path.read_text() != text:
-        path.write_text(text)
+        path.write_text(private.ensure_clean(text, path.name))

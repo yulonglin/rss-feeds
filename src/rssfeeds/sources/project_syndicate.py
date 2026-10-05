@@ -21,6 +21,7 @@ from urllib.parse import urlsplit
 from lxml import etree
 from lxml import html as lx
 
+from .. import private
 from ..http import fetch_bytes, fetch_text
 from ..models import Item, SourceResult
 from ..newsletter_email import strip_utm
@@ -101,7 +102,8 @@ def project_syndicate(cache_path: Path) -> SourceResult:
             )
         )
     cache_path.parent.mkdir(parents=True, exist_ok=True)
-    cache_path.write_text(json.dumps(dict(sorted(cache.items())), indent=2) + "\n")
+    text = json.dumps(dict(sorted(cache.items())), indent=2) + "\n"
+    cache_path.write_text(private.ensure_clean(text, cache_path.name))
     if not items:
         return SourceResult(error="feed had no usable items - layout may have changed")
     return SourceResult(items=items)

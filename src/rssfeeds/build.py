@@ -149,7 +149,7 @@ def write_feeds(
             items=items,
             source_url=spec.source_url,
         )
-        leaked = private.leaks(xml.decode("utf-8"))
+        leaked = private.leaks(xml.decode("utf-8"), tokens=spec.email)
         if leaked:
             # Fail closed: a private inbox address or subscriber token in the output means
             # a formatter missed something, and publishing it cannot be undone.
@@ -201,4 +201,4 @@ def write_manifest(statuses: list[FeedStatus], path: Path) -> None:
                 return
         except json.JSONDecodeError:
             pass
-    path.write_text(new)
+    path.write_text(private.ensure_clean(new, path.name))

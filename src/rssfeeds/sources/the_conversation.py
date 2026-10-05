@@ -27,9 +27,19 @@ from urllib.parse import quote_plus, urljoin, urlsplit
 from lxml import etree
 from lxml import html as lx
 
+from .. import private
 from ..http import fetch_bytes, fetch_text
 from ..models import Item, SourceResult
-from ..newsletter_email import InboxError, cut_at, fetch_inbox, linearize, text_of
+from ..newsletter_email import (
+    InboxError,
+    allowlist,
+    cut_at,
+    fetch_inbox,
+    is_account_message,
+    keep_params,
+    linearize,
+    text_of,
+)
 
 SLUG = "the-conversation"
 SITE = "https://theconversation.com/"
@@ -44,10 +54,37 @@ FOOTER = (
     "you're receiving this newsletter",
     "unsubscribe",
 )
-# Logos, section icons and the editor's avatar; story images live on images.theconversation.com.
-_CHROME_IMG = ("cdn.theconversation.com/static/", "cdn.theconversation.com/newsletter_lists/")
-_CHROME_IMG_HOSTS = ("storage.theconversation.com",)
+# imgix rendering parameters, the same for every recipient (crop, quality, width, format).
+_IMGIX_SAFE = frozenset({"ixlib", "rect", "q", "auto", "w", "h", "fit", "dpr", "crop"})
 _DATELINE = re.compile(r"^[A-Z][a-z]+ \d{1,2}, \d{4}$")
+
+
+def article_url(url: str) -> str | None:
+    """The canonical article URL, or None for anything that is not a theconversation.com
+    article: no query, no fragment, so nothing per-recipient can ride along."""
+    try:
+        parts = urlsplit(url)
+    except ValueError:
+        return None
+    if (
+        parts.scheme in ("http", "https")
+        and parts.netloc.lower() == "theconversation.com"
+        and _ARTICLE_PATH.match(parts.path)
+    ):
+        return f"https://theconversation.com{parts.path}"
+    return None
+
+
+def story_image(url: str) -> str | None:
+    """Story images only (images.theconversation.com/files/...), with imgix parameters only.
+    Logos, icons, the editor's avatar and the tracking pixel live elsewhere and are dropped."""
+    try:
+        parts = urlsplit(url)
+    except ValueError:
+        return None
+    if parts.netloc.lower() == "images.theconversation.com" and parts.path.startswith("/files/"):
+        return keep_params(url, _IMGIX_SAFE)
+    return None
 
 
 def norm_title(text: str) -> str:
@@ -63,7 +100,8 @@ class LinkCache:
 
     def save(self) -> None:
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        self.path.write_text(json.dumps(dict(sorted(self.data.items())), indent=2) + "\n")
+        text = json.dumps(dict(sorted(self.data.items())), indent=2) + "\n"
+        self.path.write_text(private.ensure_clean(text, self.path.name))
 
     def _from_feeds(self) -> dict[str, str]:
         if self._feeds is None:
@@ -121,7 +159,8 @@ class LinkCache:
                     self.data[key] = url
 
     def get(self, title: str) -> str | None:
-        return self.data.get(norm_title(title))
+        url = self.data.get(norm_title(title))
+        return article_url(url) if url else None
 
 
 def _headlines(email_html: str) -> set[str]:
@@ -136,12 +175,8 @@ def _headlines(email_html: str) -> set[str]:
 
 
 def _is_chrome(block: str) -> bool:
-    if block.startswith("<img"):
-        src = re.search(r'src="([^"]+)"', block)
-        url = html.unescape(src.group(1)) if src else ""
-        return any(m in url for m in _CHROME_IMG) or urlsplit(url).netloc in _CHROME_IMG_HOSTS
     text = text_of(block)
-    return text in ("Read the article", "Read more", "Listen now") or not text
+    return text in ("Read the article", "Read more", "Listen now") or not (text or "<img" in block)
 
 
 def kind(blocks: list[str]) -> str:
@@ -162,7 +197,9 @@ def render(email_html: str, links: LinkCache) -> tuple[str, list[str], str, str 
 
     raw = linearize(email_html, link=link)
     category = kind(raw)
-    blocks = [b for b in cut_at(raw, FOOTER) if not _is_chrome(b)]
+    # Every link and image is rebuilt through the allowlist: articles and story images only.
+    kept = (allowlist(b, link=article_url, image=story_image) for b in cut_at(raw, FOOTER))
+    blocks = [b for b in kept if not _is_chrome(b)]
     # The masthead repeats the date and edition already carried by the item.
     while blocks and (
         _DATELINE.match(text_of(blocks[0])) or text_of(blocks[0]) == "Global Edition"
@@ -182,7 +219,7 @@ def render(email_html: str, links: LinkCache) -> tuple[str, list[str], str, str 
             out.append(f"<h3>{inner}</h3>")
             after_headline = 1
             continue
-        if after_headline == 1 and len(text) < 200 and "<a " not in b:
+        if after_headline == 1 and text and len(text) < 200 and "<a " not in b and "<img" not in b:
             out.append(f"<p><em>{html.escape(text)}</em></p>")  # byline
             after_headline = 2
             continue
@@ -201,7 +238,7 @@ def render(email_html: str, links: LinkCache) -> tuple[str, list[str], str, str 
 
 def the_conversation(cache_path: Path) -> SourceResult:
     try:
-        emails = fetch_inbox(SLUG)
+        emails = [e for e in fetch_inbox(SLUG) if not is_account_message(e)]
     except InboxError as exc:
         return SourceResult(error=str(exc))
 

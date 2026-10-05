@@ -4,6 +4,7 @@ from html import escape
 from itertools import groupby
 from pathlib import Path
 
+from . import private
 from .build import FeedStatus
 from .registry import REPO_URL
 
@@ -114,4 +115,4 @@ def write_index(statuses: list[FeedStatus], path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     html = render_index(statuses)
     if not path.exists() or path.read_text() != html:
-        path.write_text(html)
+        path.write_text(private.ensure_clean(html, path.name))

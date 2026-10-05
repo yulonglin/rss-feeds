@@ -209,3 +209,81 @@ def cut_at(blocks: list[str], markers: tuple[str, ...]) -> list[str]:
 
 def text_of(fragment: str) -> str:
     return _text_of(fragment)
+
+
+# --- what may be published -----------------------------------------------------------
+
+# Subscription confirmations, welcomes, sign-in links and other account mail are about
+# the subscriber, not the newsletter, and typically carry a personal link. They are
+# never published, whatever their links look like.
+_ACCOUNT_SUBJECT = re.compile(
+    r"\b(confirm|confirmation|verify|verification|activate|welcome|password|sign[- ]?in|"
+    r"log[- ]?in|magic link|one[- ]time|security code|your account|you'?re subscribed|"
+    r"subscription (confirmed|update|change))\b",
+    re.IGNORECASE,
+)
+_ACCOUNT_BODY = (
+    "confirm your",
+    "verify your",
+    "activate your",
+    "reset your password",
+    "sign in to your",
+    "log in to your",
+    "your account",
+    "magic link",
+    "one-time code",
+    "verification code",
+    "confirm your subscription",
+    "thanks for subscribing",
+    "thank you for subscribing",
+)
+
+
+def is_account_message(email: Email) -> bool:
+    if _ACCOUNT_SUBJECT.search(email.subject):
+        return True
+    text = _text_of(email.html).replace("’", "'").lower()
+    return any(phrase in text for phrase in _ACCOUNT_BODY)
+
+
+def allowlist(
+    fragment: str,
+    *,
+    link: Callable[[str], str | None],
+    image: Callable[[str], str | None],
+) -> str:
+    """Rebuild every link and image in `fragment` through an allowlist.
+
+    `link(url)` and `image(url)` return the canonical URL to publish, or None. A link that
+    is refused keeps its text; an image that is refused is removed. Nothing reaches the
+    output that one of the two callables did not produce.
+    """
+    root = lx.fragment_fromstring(fragment, create_parent="div")
+    for img in list(root.iter("img")):
+        src = image(img.get("src") or "")
+        if src:
+            img.set("src", src)
+        else:
+            img.drop_tree()
+    for a in list(root.iter("a")):
+        href = link(a.get("href") or "")
+        if href:
+            a.set("href", href)
+        else:
+            a.drop_tag()
+    for el in root.iter():
+        if isinstance(el.tag, str):
+            for attr in list(el.attrib):
+                if attr not in _ATTRS.get(el.tag, ()):
+                    del el.attrib[attr]
+    out = html.escape(root.text or "") + "".join(
+        lx.tostring(c, encoding="unicode", method="html") for c in root
+    )
+    return out.strip()
+
+
+def keep_params(url: str, safe: frozenset[str]) -> str:
+    """`url` as https with no fragment and only the query parameters named in `safe`."""
+    parts = urlsplit(url)
+    query = "&".join(p for p in parts.query.split("&") if p.split("=", 1)[0] in safe)
+    return urlunsplit(("https", parts.netloc.lower(), parts.path, query, ""))

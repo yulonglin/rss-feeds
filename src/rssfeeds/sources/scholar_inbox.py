@@ -19,7 +19,14 @@ from urllib.parse import quote_plus
 from lxml import html as lx
 
 from ..models import Item, SourceResult
-from ..newsletter_email import Email, InboxError, fetch_inbox
+from ..newsletter_email import (
+    Email,
+    InboxError,
+    allowlist,
+    fetch_inbox,
+    is_account_message,
+    keep_params,
+)
 
 SLUG = "scholar-inbox"
 SITE = "https://www.scholar-inbox.com/"
@@ -65,6 +72,15 @@ def parse_digest(email_html: str) -> tuple[list[dict[str, str]], str]:
     return papers, summary
 
 
+def _public_search(url: str) -> str | None:
+    """Only the title searches this module builds, with only their own parameters."""
+    if url.startswith("https://arxiv.org/search/?"):
+        return keep_params(url, frozenset({"query", "searchtype"}))
+    if url.startswith("https://scholar.google.com/scholar?"):
+        return keep_params(url, frozenset({"q"}))
+    return None
+
+
 def render(papers: list[dict[str, str]], summary: str) -> str:
     lede = f"{summary}; the top {len(papers)} are below." if summary else ""
     out = [f"<p>{html.escape(lede)}</p>"] if lede else []
@@ -79,10 +95,12 @@ def render(papers: list[dict[str, str]], summary: str) -> str:
             f"{html.escape(p['authors'])}<br><small>{html.escape(meta)}</small></p></li>"
         )
     out.append("</ol>")
-    return "\n".join(out)
+    return allowlist("\n".join(out), link=_public_search, image=lambda _url: None)
 
 
 def to_item(email: Email) -> Item | None:
+    if is_account_message(email):
+        return None  # sign-in links, confirmations: personal, never published
     papers, summary = parse_digest(email.html)
     if not papers:
         return None

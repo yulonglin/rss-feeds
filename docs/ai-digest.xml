@@ -3,7 +3,7 @@
   <channel>
     <title>AI Digest</title>
     <link>https://theaidigest.org/</link>
-    <description>AI Digest's email updates, flattened to readable paragraphs, headings and images, with tracking pixels, tracked and personal links, and the footer removed.</description>
+    <description>AI Digest's email updates. Held empty for now: issues are published only once a real one has been reviewed and its links and images can be allowlisted.</description>
     <language>en</language>
     <generator>rss-feeds (https://github.com/yulonglin/rss-feeds)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
