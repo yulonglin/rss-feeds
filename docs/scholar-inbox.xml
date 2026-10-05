@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 02 Oct 2026 11:28:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 12:00:13 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 5 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:911bb89d25cf0961</guid>
+      <pubDate>Mon, 05 Oct 2026 12:00:13 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability
+• A Near-Zero Monitor Readout Is Not Evidence of Behavioral Control
+• Prospective Hindsight: Self-Calibrating Reinforcement Learning via Prediction-Reality Gaps
+• Test-time Calibration Learning for Large Language Model Reasoning
+• On the Chain-of-Thought Monitorability of Looped Language Models</description>
+      <content:encoded>&lt;p&gt;Matched 85 of 1503 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Efficient+Reasoning+Training+Does+Not+Always+Harm+CoT+Faithfulness+and+Monitorability&amp;amp;searchtype=title"&gt;&lt;strong&gt;Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Samuel Lewis-Lim, Xingwei Tan, Mario Sanger, Zhixue Zhao, Nikolaos Aletras&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 2) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=A+Near-Zero+Monitor+Readout+Is+Not+Evidence+of+Behavioral+Control&amp;amp;searchtype=title"&gt;&lt;strong&gt;A Near-Zero Monitor Readout Is Not Evidence of Behavioral Control&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Zhe Zhou, Tianhua Tao&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 2) · relevance 82&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Prospective+Hindsight%3A+Self-Calibrating+Reinforcement+Learning+via+Prediction-Reality+Gaps&amp;amp;searchtype=title"&gt;&lt;strong&gt;Prospective Hindsight: Self-Calibrating Reinforcement Learning via Prediction-Reality Gaps&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jiaxin Zhang, Xiangyu Peng, Qinglin Chen, Yu Li, Hiroaki Hayashi, Chien-Sheng Wu&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 2) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Test-time+Calibration+Learning+for+Large+Language+Model+Reasoning&amp;amp;searchtype=title"&gt;&lt;strong&gt;Test-time Calibration Learning for Large Language Model Reasoning&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Zizhuo Zhang, Xiong Peng, Jingwei Sun, Rong Yao, Shixiong Kai, Mingxuan Yuan, Bo Han&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 2) · relevance 79&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=On+the+Chain-of-Thought+Monitorability+of+Looped+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;On the Chain-of-Thought Monitorability of Looped Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Han Wang, Ishwar B Balappanawar, Huan Zhang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 2) · relevance 78&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 2 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>

@@ -9,7 +9,62 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Prime Inference 📈, agent population 📈, Claude academy 🎓</title>
+      <link>https://tldr.tech/ai/2026-10-05</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Prime Inference: Fast, Reliable Serving for Frontier Open Models
+• Aleph Alpha releases open-weight Kolibri with 1M context
+• Anthropic to invest $100 million to train AI engineer talent
+• How many AI agents could run on the AI chips shipped through 2027?
+• AI21 uses Kueue to manage a 10,000-GPU fleet
+• Smaller models are the future of AI sovereignty
+• Whistle: Speech to Text in 16.9 MB
+• Vx
+• Muse, dots, Instinct, and the question every agent will be asked
+• Human Intelligence is Surprising
+• Toward provably private learning from federated data
+• Multimodal Models Learn From Their Own Critiques
+• Meta open sources code to let you make Muse AI gadgets
+• Solving Open Research Problems Together</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.primeintellect.ai/blog/prime-inference"&gt;Prime Inference: Fast, Reliable Serving for Frontier Open Models&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Prime Inference covers both serverless endpoints and reserved capacity. It offers resilient serving of frontier open-source models on Prime Intellect&amp;#x27;s GPU infrastructure across multiple data centers. The serving platform has powered large-scale RL rollouts, synthetic data generation, evaluations, and long-running coding agents at Prime, processing nearly a trillion tokens internally every day. Prime&amp;#x27;s mission is to build frontier open models and the open superintelligence stack for continuously improving agents.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/aleph-alpha-releases-open-weight-kolibri-with-1m-context/"&gt;Aleph Alpha releases open-weight Kolibri with 1M context&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Kolibri is an open-weight English-German Mixture-of-Experts model with 78.1 billion parameters. It supports tool calling and contexts up to one million tokens. The model is available on Hugging Face under the Apache 2.0 license. It is designed for sovereign, mission-critical work in government and regulated industries.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/10/02/anthropic-to-invest-100-million-to-train-ai-engineer-talent.html"&gt;Anthropic to invest $100 million to train AI engineer talent&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic is investing $100 million in the Claude Frontier Academy to train 10,000 AI engineers by 2027. The program partners with firms like Accenture and Morgan Stanley to enhance AI fluency and enterprise tech integration. The initiative addresses increasing demand for AI expertise in various industries.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://epoch.ai/publications/estimating-the-agent-population"&gt;How many AI agents could run on the AI chips shipped through 2027?&lt;/a&gt; &lt;small&gt;· 34 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI chips shipped through 2027 could run tens to hundreds of millions of concurrent frontier-model agents. These agents could supply as many weekly working hours as about 140-720 million full-time employees. Even a modest use of this capacity would require a massive increase in global demand for AI. Using 20% of the estimated central capacity would imply $2.6 trillion to $5.3 trillion a year in API-equivalent spending.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.ai21.com/blog/how-ai21-manages-its-gpu-fleet-with-kueue"&gt;AI21 uses Kueue to manage a 10,000-GPU fleet&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI21 describes replacing ad hoc GPU-capacity negotiations with queueing and fair scheduling across a shared Google Cloud cluster. A Google Cloud case study says high-priority workloads began 83% sooner under the new setup.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://katecarruthers.com/smaller-models-are-the-future-of-ai-sovereignty-2/"&gt;Smaller models are the future of AI sovereignty&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Australia needs AI sovereignty by retaining control and choice, not relying on external companies for critical capabilities. Smaller, specialized AI models offer practical benefits such as adaptability, cost-efficiency, and easier governance compared to larger, frontier models. Embracing a portfolio approach with open-weight models increases options, fostering managed interdependence without becoming dependent on a single provider.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://cactuscompute.com/blog/whistle"&gt;Whistle: Speech to Text in 16.9 MB&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Whistle is an open speech recognition model that runs on the same CPU engine as Needle. It can transcribe English, German, French, Spanish, Italian, Dutch, and Polish. At 16.8 MB, the model can run on mobiles, wearables, robots, smart home devices, automobiles, and microcontrollers.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://vxlang.org/"&gt;Vx&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Vx is a systems programming language for heterogeneous computing. It puts hardware topology, memory placement, and reachability directly into the type system. Vx front-loads into type checking a class of bug that normally surfaces as a runtime crash, silent corruption, or an out-of-memory error at training step 1,200. Vx is the right language for things that must be correct and fast across ten kinds of silicon.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/worldnetwork/status/2105989118287134752"&gt;Muse, dots, Instinct, and the question every agent will be asked&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Agentic services will increasingly need to prove both which agent is acting and whether a real person authorized it. World ID lets users delegate privacy-preserving Proof of Human credentials to agents for access, limits, and approvals.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/RayanKrishnan/status/2106053382448484796"&gt;Human Intelligence is Surprising&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Human intelligence is a recent evolutionary accident, while AI can optimize directly against explicit objectives and rapidly surpass people on measurable tasks. The harder human problem is defining worthwhile objectives without steering models toward the wrong capabilities.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://research.google/blog/toward-provably-private-learning-from-federated-data/"&gt;Toward provably private learning from federated data&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google&amp;#x27;s new Federated Learning system provides externally verifiable privacy guarantees while shifting computation to the server to improve training speed, accuracy, and device coverage.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2609.38721"&gt;Multimodal Models Learn From Their Own Critiques&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;UniEvo-VL lets a single multimodal model act as both teacher and student, using its own critiques as privileged information during test-time self-improvement.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"&gt;Meta open sources code to let you make Muse AI gadgets&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta has open-sourced code to allow integration of its Muse AI agent into custom gadgets.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://research.meta.ai/blog/solving-open-research-problems-together"&gt;Solving Open Research Problems Together&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta partnered with mathematicians to solve open mathematical research problems using its Muse Spark AI models.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Decision models 🤖, Claude-shaped science 🧪, OpenAI safety firings 🚨</title>
       <link>https://tldr.tech/ai/2026-10-02</link>
@@ -1163,73 +1218,6 @@
 &lt;p&gt;ByteDance, led by Zhang Yiming, plans to launch an AI model for real-time spatial video generation, potentially as early as next month.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://aminrj.com/posts/cosine-similarity-is-not-a-safety-property/"&gt;Cosine Similarity Is Not a Safety Property&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Cosine has no notion of truth, authority, or provenance.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Claude proves Fermat 🧮, automated AI researcher 🔬, Z1 efficiency chip ⚡</title>
-      <link>https://tldr.tech/ai/2026-09-07</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-07</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• OpenAI Researcher Warned About Rapidly Advancing AI
-• Formalizing Fermat's Last Theorem
-• Grok Imagine Video 1.5 agent
-• AI Safety Is Not the Same as Security
-• GPT‑6 Astra on robotic manipulation
-• Random Attention
-• Research acceleration: The view inside OpenAI
-• LLM-as-a-Verifier
-• OpenAI's AGI number came from a harness, not the model
-• An Interview with OpenAI President Greg Brockman About Astra and Alignment
-• Concrete, Silicon, &amp; Leverage
-• Anthropic IPO launch shifts toward mid-October
-• Fei Fei Li: The Race to Build World Models For AI
-• Google keeps transforming Gemini desktop into superapp
-• Z1T
-• AIRA₃
-• Every binding AI review Washington has proposed has come back voluntary. Zuckerberg reportedly rang Trump about the latest one
-• OpenAI and the Wiki Incident</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/an-alien-mind/"&gt;OpenAI Researcher Warned About Rapidly Advancing AI&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;An OpenAI researcher says that reasoning models could continue advancing rapidly enough to contribute to their own development, creating increasingly serious alignment and cybersecurity risks.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/formalizing-fermats-last-theorem"&gt;Formalizing Fermat&amp;#x27;s Last Theorem&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Claude successfully created the first complete computer-verified proof of Fermat&amp;#x27;s Last Theorem in 11 days using Lean, automating the complex task initially proven manually by Andrew Wiles in 1995. The proof, verified via Prove2Me and Lean, involved 13 million lines of code and proved 29,500 intermediate theorems, proving AI&amp;#x27;s potential to ease the traditionally laborious formal verification of mathematical proofs.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2096298105213952178.html"&gt;Grok Imagine Video 1.5 agent&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Grok Imagine Video 1.5 agent delivers higher quality, better storytelling than previous releases. Powered by Grok&amp;#x27;s latest Image 2.0 model, it excels at connecting multiple shots together with greater continuity. The agent is now live on the web, iOS, and Android. A short video generated by the model is available in the thread.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://martinalderson.com/posts/ai-safety-vs-security/"&gt;AI Safety Is Not the Same as Security&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Frontier labs may be applying probabilistic AI safety techniques to problems that require deterministic security controls. Recent agent sandbox escapes highlighted the gap between reducing harmful model behavior and reliably containing software.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://openai.robocurve.org/gpt-6-astra/"&gt;GPT‑6 Astra on robotic manipulation&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Researchers gave GPT-6 Astra control of YAM arms under an Inspect Robots agent policy and gave it two tasks: it had to pick up a red block from a table and place it inside a bowl, and pick up a round blue puzzle piece by the knob at its center and place it into the matching circular groove in the board. Astra placed the block in 19 of 20 trials in the bowl task. It completed the puzzle insertion two times in 20. Astra completes the bowl task far more often than Fable at about half the cost per run.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://github.com/SalesforceAIResearch/Random-Attention"&gt;Random Attention&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Random Attention kept a uniformly sampled subset of generated KV-cache entries instead of relying on learned importance signals or attention statistics. Across several reasoning benchmarks and model families, it matched or exceeded more complex eviction methods while reducing eviction overhead.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/research-acceleration-view-inside-openai/"&gt;Research acceleration: The view inside OpenAI&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI plans to develop an automated AI researcher by March 2028, aiming to enhance research efficiency while maintaining human oversight to ensure alignment and safety. Researchers now use coding agents more frequently, with increased code generation and experiment execution, shifting focus to more complex tasks. The organization paused reinforcement learning training temporarily following a security breach but continues to adapt safety measures and transparency to uphold the development of safe AGI.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://github.com/llm-as-a-verifier/llm-as-a-verifier"&gt;LLM-as-a-Verifier&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;LLM-as-a-Verifier is a general-purpose framework that provides fine-grained feedback for any agent without requiring additional training. It achieves SOTA performance across coding, robotics, and medical agentic benchmarks. The feedback generated from the framework can be used for test-time scaling, progress tracking, and reinforcement learning.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://thenextweb.com/news/openai-astra-arc-agi-3-harness-62-7-vs-99-9-benchmark-revisions"&gt;OpenAI&amp;#x27;s AGI number came from a harness, not the model&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI claimed it had achieved AGI due to its 99.9% score on ARC-AGI-3. However, tests that ran the same model through the benchmark&amp;#x27;s own software scored 62.7%. The gap comes from the software around the model that OpenAI built. The different scaffolding around its agents helped OpenAI achieve the high score.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/"&gt;An Interview with OpenAI President Greg Brockman About Astra and Alignment&lt;/a&gt; &lt;small&gt;· 63 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI President Greg Brockman discussed Astra, OpenAI&amp;#x27;s new model, focusing on its enhanced capabilities and alignment. He highlighted the importance of scaling infrastructure and addressed challenges in cybersecurity following the Hugging Face incident. Brockman shared insights on OpenAI&amp;#x27;s positioning within the tech value chain, emphasizing strategic focus on sectors like health and collaboration with partners like Nvidia and Microsoft.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"&gt;Concrete, Silicon, &amp;amp; Leverage&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The US data center capacity will expand from 25 to 70 gigawatts, requiring $5 trillion, mostly financed by debt. This expansion creates a 34% growth in the US corporate bond market and raises questions about financing, potentially involving municipal bonds. To service this debt, annual AI revenue must grow from $150 billion to at least $1.2 trillion by 2030, requiring a 55% annual growth rate.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/09/05/anthropic-ipo-launch-shifts-toward-mid-october-reuters.html"&gt;Anthropic IPO launch shifts toward mid-October&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic is expected to complete its IPO listing days before the US midterm elections in November. It will begin marketing the offering in mid-October at the earliest. The IPO prospectus will likely be released in late September. The plans could change - such changes are not unusual, as companies frequently have to adjust schedules due to market conditions, regulatory reviews, and other preparations.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://a16z.simplecast.com/episodes/fei-fei-li-the-race-to-build-world-models-for-ai-tvIN7XfT"&gt;Fei Fei Li: The Race to Build World Models For AI&lt;/a&gt; &lt;small&gt;· 45 minute podcast&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;World Labs&amp;#x27; Atlas unifies generation and 3D reconstruction through new-view prediction, using sparse images to infer scenes from unseen positions.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/google-keeps-transforming-gemini-desktop-into-superapp/"&gt;Google keeps transforming Gemini desktop into superapp&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google is advancing its Gemini desktop app with new features like Ask and Assign modes for enhanced functionality and potential remote control features.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://extropic.ai/writing/z1t/"&gt;Z1T&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Extropic unveils the Z1 chip to improve energy efficiency in transformer inference by leveraging probabilistic sub-threshold CMOS technology.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2096271545589190927.html"&gt;AIRA₃&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AIRA₃ is a new generation of Meta&amp;#x27;s autonomous AI research engine that runs and coordinates many long-running agents asynchronously in their own isolated environments.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://thenextweb.com/news/every-binding-ai-review-washington-has-proposed-has-come-back-voluntary-zuckerberg-reportedly-rang-trump-about-the-latest-one"&gt;Every binding AI review Washington has proposed has come back voluntary. Zuckerberg reportedly rang Trump about the latest one&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Mark Zuckerberg reportedly raised concerns about a national AI regulator during a call in August, saying that any appointees to the body should reflect the president&amp;#x27;s own light-touch approach.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://thezvi.substack.com/p/openai-and-the-wiki-incident"&gt;OpenAI and the Wiki Incident&lt;/a&gt; &lt;small&gt;· 25 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI knew about the message boards scattered across the internet that its agents created before the Hugging Face attack.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>

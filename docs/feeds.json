@@ -29,7 +29,7 @@
       "notes": "",
       "items": 3,
       "newest": "2026-09-11",
-      "healthy": true
+      "healthy": false
     },
     {
       "slug": "openai-alignment-reports",
@@ -43,7 +43,7 @@
       "notes": "Upstream shows only a last-updated date, so each entry keeps the date this generator first saw it and does not jump back to the top when edited.",
       "items": 12,
       "newest": "2026-10-02",
-      "healthy": true
+      "healthy": false
     },
     {
       "slug": "openai-alignment-all",
@@ -57,7 +57,7 @@
       "notes": "",
       "items": 43,
       "newest": "2026-10-02",
-      "healthy": true
+      "healthy": false
     },
     {
       "slug": "openai-alignment-all-50",
@@ -71,7 +71,7 @@
       "notes": "",
       "items": 43,
       "newest": "2026-10-02",
-      "healthy": true
+      "healthy": false
     },
     {
       "slug": "openai-system-cards",
@@ -154,7 +154,7 @@
       "upstream_status": "Official /api/rss/ai exists but each item is only the emoji headline and a link: no summary and none of the stories.",
       "notes": "",
       "items": 20,
-      "newest": "2026-10-02",
+      "newest": "2026-10-05",
       "healthy": true
     },
     {
@@ -167,8 +167,8 @@
       "source_url": "https://www.readtangle.com/",
       "upstream_status": "Official /rss/ is complete but interleaves the daily with video and podcast teasers, paywalled previews, recaps, reader essays and sponsor cards.",
       "notes": "",
-      "items": 4,
-      "newest": "2026-10-01",
+      "items": 5,
+      "newest": "2026-10-05",
       "healthy": true
     },
     {
@@ -181,8 +181,8 @@
       "source_url": "https://www.scholar-inbox.com/",
       "upstream_status": "Email only. Each digest is a stack of styled table cards, titled with an ambiguous dd/mm date, and every link in it is a personal auto-login link.",
       "notes": "Rebuilt from each paper's fields; nothing from the email's markup or links is kept.",
-      "items": 16,
-      "newest": "2026-10-02",
+      "items": 17,
+      "newest": "2026-10-05",
       "healthy": true
     },
     {
@@ -224,7 +224,7 @@
       "upstream_status": "Official /rss is valid but summary-only, keeps the image in an enclosure most readers ignore, tags every link with utm tracking and credits only the first author of co-written pieces.",
       "notes": "",
       "items": 20,
-      "newest": "2026-10-02",
+      "newest": "2026-10-05",
       "healthy": true
     },
     {
