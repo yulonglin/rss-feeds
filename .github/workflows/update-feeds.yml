@@ -40,6 +40,9 @@ jobs:
       - name: Rebuild feeds
         id: rebuild
         continue-on-error: true
+        env:
+          # JSON {slug: inbox id} for the email-only newsletters; see src/rssfeeds/private.py.
+          KTN_FEEDS: ${{ secrets.KTN_FEEDS }}
         run: uv run rssfeeds
 
       - name: Validate every feed parses

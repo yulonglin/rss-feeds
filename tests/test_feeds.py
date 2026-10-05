@@ -93,7 +93,8 @@ def test_published_feed_parses(spec) -> None:
         pytest.skip(f"{spec.filename} not generated yet")
     parsed = feedparser.parse(path.read_bytes())
     assert not parsed.bozo, parsed.get("bozo_exception")
-    assert parsed.entries, "a published feed must never be empty"
+    if not spec.allow_empty:
+        assert parsed.entries, "a published feed must never be empty"
     if spec.limit:
         assert len(parsed.entries) <= spec.limit
     if not spec.include_content:
@@ -419,6 +420,10 @@ def test_collect_isolates_a_source_that_raises(monkeypatch, tmp_path) -> None:
         monkeypatch.setattr(mod, name, lambda: ok)
     monkeypatch.setattr(build.oai, "reports", lambda _fs: ok)
     monkeypatch.setattr(build.tldr_src, "tldr", lambda *_a: ok)
+    monkeypatch.setattr(build.ai_digest_src, "ai_digest", lambda: ok)
+    monkeypatch.setattr(build.scholar_src, "scholar_inbox", lambda: ok)
+    monkeypatch.setattr(build.conversation_src, "the_conversation", lambda _p: ok)
+    monkeypatch.setattr(build.ps_src, "project_syndicate", lambda _p: ok)
     monkeypatch.setattr(tangle_src, "tangle", boom)
 
     results = build.collect(FirstSeen(tmp_path / "s.json"))
@@ -458,3 +463,252 @@ def test_all_opml_lists_every_published_feed() -> None:
     root = ET.fromstring(render_opml("t", all_entries()))
     urls = [o.get("xmlUrl") for o in root.iter("outline") if o.get("xmlUrl")]
     assert sorted(urls) == sorted(f.url for f in FEEDS)
+
+
+# --- email newsletters ------------------------------------------------------------------
+# Every fixture below is synthetic. Never paste a real newsletter email here: it carries
+# the private inbox address and the subscriber's tokens.
+
+FAKE_INBOX = "zzfakeinboxid0000001"
+KTN_HOST = "kill-the-newsletter.com"  # as in rssfeeds.private
+
+
+@pytest.fixture
+def fake_inbox(monkeypatch):
+    from rssfeeds import private
+
+    monkeypatch.setenv(private.ENV_VAR, f'{{"scholar-inbox": "{FAKE_INBOX}"}}')
+    private.inbox_ids.cache_clear()
+    yield
+    private.inbox_ids.cache_clear()
+
+
+def test_output_carrying_an_inbox_id_or_token_is_refused(tmp_path, fake_inbox) -> None:
+    from rssfeeds.build import write_feeds
+
+    def result(body: str) -> dict[str, SourceResult]:
+        item = Item(
+            title=body,  # in the title too, so feeds that drop content_html are checked
+            link="https://example.com/x",
+            guid="g",
+            published=datetime(2026, 1, 1, tzinfo=UTC),
+            content_html=body,
+        )
+        return dict.fromkeys(ALL_SOURCES, SourceResult(items=[item]))
+
+    for body in (
+        f"see https://{KTN_HOST}/feeds/{FAKE_INBOX}",
+        f"mail {FAKE_INBOX}@{KTN_HOST}",
+        '<a href="https://www.scholar-inbox.com/login?sha_key=abc">x</a>',
+        '<img src="https://clicks.theconversation.com/q/abc">',
+    ):
+        statuses = write_feeds(result(body), tmp_path)
+        assert all(not s.written and "refusing to publish" in s.error for s in statuses)
+        assert not list(tmp_path.glob("*.xml"))
+        assert all(FAKE_INBOX not in (s.error or "") for s in statuses)
+
+
+def test_inbox_errors_never_carry_the_address(monkeypatch, fake_inbox) -> None:
+    import httpx
+
+    from rssfeeds import newsletter_email
+    from rssfeeds.sources.scholar_inbox import scholar_inbox
+
+    def boom(url):
+        req = httpx.Request("GET", url)
+        raise httpx.HTTPStatusError(
+            f"404 for {url}", request=req, response=httpx.Response(404, request=req)
+        )
+
+    monkeypatch.setattr(newsletter_email, "fetch_bytes", boom)
+    res = scholar_inbox()
+    assert res.error and "404" in res.error and FAKE_INBOX not in res.error
+
+    monkeypatch.setattr(
+        newsletter_email, "fetch_bytes", lambda url: (_ for _ in ()).throw(OSError(url))
+    )
+    res = scholar_inbox()
+    assert res.error and FAKE_INBOX not in res.error and "kill-the-newsletter" not in res.error
+
+
+def test_unconfigured_inbox_is_an_error_not_a_crash(monkeypatch, tmp_path) -> None:
+    from rssfeeds import private
+    from rssfeeds.sources.ai_digest import ai_digest
+
+    monkeypatch.delenv(private.ENV_VAR, raising=False)
+    monkeypatch.setattr(private, "LOCAL_FILE", tmp_path / "absent.json")
+    private.inbox_ids.cache_clear()
+    try:
+        assert "no inbox ID" in (ai_digest().error or "")
+    finally:
+        private.inbox_ids.cache_clear()
+
+
+SCHOLAR_CARD = """
+<table><tr><td width="4">&#160;</td><td>
+  <table><tr><td><span>97</span></td><td><span>ArXiv 2026 (September 30)</span></td></tr></table>
+  <p><a href="https://www.scholar-inbox.com/login?sha_key=SECRET&amp;date=1&amp;paper_id=X.pdf"
+        style="font-weight:700">  A Paper   About Probes </a></p>
+  <!-- Authors -->
+  <p style="color:#5F6368">Ada Lovelace, Alan Turing</p>
+  <p><a href="https://www.scholar-inbox.com/login?sha_key=SECRET&amp;paper_id=X.pdf&amp;tab=podcast">Listen</a></p>
+</td></tr></table>"""
+SCHOLAR_EMAIL = f"""<html><head><style>a{{color:red}}</style></head><body>
+<p>We found 134 articles relevant to you (of 2464 total).</p>
+<a href="https://www.scholar-inbox.com/login?sha_key=SECRET&amp;date=1">View Full Digest</a>
+<p>Dear Reader,</p>{SCHOLAR_CARD}
+<p>Important: Do not share this email - it contains your personal secret key.</p>
+<a href="https://scholar-inbox.com/unsubscribe_digest/TOKEN">unsubscribe</a>
+<hr><p><small><a href="https://{KTN_HOST}/feeds/{FAKE_INBOX}">Kill the Newsletter! feed settings</a></small></p>
+</body></html>"""
+
+
+def test_scholar_digest_is_rebuilt_from_fields_only() -> None:
+    from rssfeeds.newsletter_email import Email
+    from rssfeeds.sources.scholar_inbox import to_item
+
+    email = Email(
+        "urn:x:1",
+        "📣 Scholar Alert Digest 02/10",
+        datetime(2026, 10, 2, 11, tzinfo=UTC),
+        SCHOLAR_EMAIL,
+    )
+    item = to_item(email)
+    assert item is not None
+    assert item.title == "Scholar Inbox, 2 Oct 2026: 1 papers"
+    body = item.content_html
+    for gone in (
+        "SECRET",
+        "sha_key",
+        "TOKEN",
+        "scholar-inbox.com/login",
+        "kill-the-newsletter",
+        FAKE_INBOX,
+        "Dear",
+    ):
+        assert gone not in body
+    assert "<strong>A Paper About Probes</strong>" in body
+    assert "Ada Lovelace, Alan Turing" in body
+    assert "ArXiv 2026 (September 30) · relevance 97" in body
+    assert "arxiv.org/search/?query=A+Paper+About+Probes&amp;searchtype=title" in body
+    assert "Matched 134 of 2464 new papers; the top 1 are below." in body
+    assert item.guid.startswith("scholar-inbox:") and "urn" not in item.guid
+
+
+CONVERSATION_EMAIL = f"""<html><head><style>.x{{}}</style></head><body>
+<div style="display:none">Plus: preheader text</div>
+<table><tr><td><img src="https://cdn.theconversation.com/static/tc/logos/logo.png" alt="The Conversation"></td></tr>
+<tr><td>October 2, 2026</td></tr><tr><td>Global Edition</td></tr>
+<tr><td><p>Editor's note with <a href="https://clicks.theconversation.com/f/a/AAA~~/BBB">an inline link</a>.</p></td></tr>
+<tr><td>Lead Story</td></tr>
+<tr><td><a href="https://clicks.theconversation.com/f/a/CCC~~/DDD"><img src="https://images.theconversation.com/files/1/story.jpg" width="468"></a></td></tr>
+<tr><td><a href="https://clicks.theconversation.com/f/a/EEE~~/FFF">Why robots can’t fold laundry, explained at length</a></td></tr>
+<tr><td>Jane Doe, University of Somewhere</td></tr>
+<tr><td>A standfirst sentence about laundry.</td></tr>
+<tr><td><a href="https://clicks.theconversation.com/f/a/GGG~~/HHH">Read the article</a></td></tr>
+<tr><td>👋 That’s all for this week. Reply to this email to send questions about AI.</td></tr>
+<tr><td>You’re receiving this newsletter from The Conversation</td></tr>
+<tr><td><a href="https://clicks.theconversation.com/f/a/III~~/JJJ">Unsubscribe or manage your preferences</a>
+<img src="https://clicks.theconversation.com/q/pixel" width="1" height="1"></td></tr></table>
+<hr><p><small><a href="https://{KTN_HOST}/feeds/{FAKE_INBOX}">Kill the Newsletter! feed settings</a></small></p>
+</body></html>"""
+
+
+def test_conversation_email_is_flattened_and_untracked(tmp_path) -> None:
+    from rssfeeds.sources.the_conversation import LinkCache, norm_title, render
+
+    links = LinkCache(tmp_path / "links.json")
+    links.data[norm_title("Why robots can't fold laundry, explained at length")] = (
+        "https://theconversation.com/why-robots-cant-fold-laundry-123456"
+    )
+    content, titles, kind, first = render(CONVERSATION_EMAIL, links)
+    assert titles == ["Why robots can’t fold laundry, explained at length"]
+    assert kind == "AI weekly"
+    assert first == "https://theconversation.com/why-robots-cant-fold-laundry-123456"
+    assert (
+        '<h3><a href="https://theconversation.com/why-robots-cant-fold-laundry-123456">'
+        "Why robots can’t fold laundry, explained at length</a></h3>"
+    ) in content
+    assert "<p><em>Jane Doe, University of Somewhere</em></p>" in content
+    assert "<p><strong>Lead Story</strong></p>" in content
+    assert "an inline link" in content and "images.theconversation.com/files/1/story.jpg" in content
+    for gone in (
+        "clicks.",
+        "preheader",
+        "logo.png",
+        "Read the article",
+        "That’s all",
+        "receiving",
+        "Unsubscribe",
+        "kill-the-newsletter",
+        FAKE_INBOX,
+        "style",
+        "October 2, 2026",
+        "Global Edition",
+    ):
+        assert gone not in content
+
+
+def test_generic_newsletter_drops_personal_and_tracked_links() -> None:
+    from rssfeeds.sources.ai_digest import link
+
+    assert (
+        link("https://theaidigest.org/post?utm_source=x", "a post")
+        == "https://theaidigest.org/post?utm_source=x"
+    )
+    for href, text in [
+        ("https://theaidigest.org/unsubscribe?u=1", "Unsubscribe"),
+        ("https://example.com/prefs", "Manage preferences"),
+        ("https://click.example.com/abc", "story"),
+        ("https://pm-bounces.theaidigest.org/x", "story"),
+        ("mailto:a@b.c", "mail"),
+    ]:
+        assert link(href, text) is None
+
+
+def test_linearize_strips_layout_and_tracking() -> None:
+    from rssfeeds.newsletter_email import linearize
+
+    blocks = linearize(
+        '<html><body><table><tr><td style="padding:4px"><span style="color:red">Hello <b>there</b></span></td></tr>'
+        '<tr><td><a href="https://x.org/a?utm_source=n&amp;id=2">kept</a><img src="https://t.co/p.gif" width="1"></td></tr>'
+        "</table></body></html>",
+        link=lambda h, t: h,
+    )
+    assert blocks == ["<p>Hello <b>there</b></p>", '<p><a href="https://x.org/a?id=2">kept</a></p>']
+
+
+def test_project_syndicate_item_is_rebuilt(tmp_path, monkeypatch) -> None:
+    from rssfeeds.sources import project_syndicate as ps
+
+    feed = b"""\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/"><channel>
+<item><title>Care First</title>
+<link>https://www.project-syndicate.org/commentary/care-by-ann-lee-2-and-bo-wu-2026-10?utm_source=rss&amp;utm_medium=feed</link>
+<description><![CDATA[<p>Summary text.</p>]]></description><dc:creator>Ann Lee</dc:creator>
+<pubDate>Fri, 02 Oct 2026 14:31:14 GMT</pubDate>
+<guid isPermaLink="true">https://www.project-syndicate.org/commentary/care-by-ann-lee-2-and-bo-wu-2026-10</guid>
+<media:content url="https://webapi.project-syndicate.org/library/a.jpg" medium="image"><media:copyright>Someone/AFP</media:copyright></media:content>
+</item></channel></rss>"""
+    monkeypatch.setattr(ps, "fetch_bytes", lambda url: feed)
+    monkeypatch.setattr(
+        ps,
+        "fetch_text",
+        lambda url: (
+            "<html><head><title>Care First by Ann Lee &amp; Bo Wu - Project Syndicate</title></head></html>"
+        ),
+    )
+    res = ps.project_syndicate(tmp_path / "bylines.json")
+    (item,) = res.items
+    assert (
+        item.link
+        == "https://www.project-syndicate.org/commentary/care-by-ann-lee-2-and-bo-wu-2026-10"
+    )
+    assert item.author == "Ann Lee and Bo Wu"
+    assert "utm_" not in item.content_html
+    assert '<img src="https://webapi.project-syndicate.org/library/a.jpg"' in item.content_html
+    assert "Photo: Someone/AFP" in item.content_html and "<p>Summary text.</p>" in item.content_html
+
+    # The byline is cached, so a later run that cannot reach the page keeps it.
+    monkeypatch.setattr(ps, "fetch_text", lambda url: (_ for _ in ()).throw(OSError("down")))
+    assert ps.project_syndicate(tmp_path / "bylines.json").items[0].author == "Ann Lee and Bo Wu"
