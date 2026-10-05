@@ -7,14 +7,20 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
+from . import private
 from .models import SourceResult
 from .registry import FEEDS, REPO_URL, SITE_BASE, FeedSpec
 from .rss import build_rss
+from .sources import ai_digest as ai_digest_src
 from .sources import dario_amodei as dario_src
+from .sources import gates_notes as gates_src
 from .sources import metr as metr_src
 from .sources import openai_alignment as oai
 from .sources import openai_system_cards as cards
+from .sources import project_syndicate as ps_src
+from .sources import scholar_inbox as scholar_src
 from .sources import tangle as tangle_src
+from .sources import the_conversation as conversation_src
 from .sources import tldr as tldr_src
 from .state import FirstSeen
 
@@ -36,6 +42,7 @@ class FeedStatus:
 def collect(first_seen: FirstSeen) -> dict[str, SourceResult]:
     """Run every source independently: one site being down must not block the others,
     and neither must one source raising where it did not expect to."""
+    state_dir = first_seen.path.parent
     sources = {
         "research": oai.research,
         "notices": oai.notices,
@@ -45,6 +52,15 @@ def collect(first_seen: FirstSeen) -> dict[str, SourceResult]:
         "dario": dario_src.dario_amodei,
         "tldr_ai": lambda: tldr_src.tldr("ai", "TLDR AI"),
         "tangle": tangle_src.tangle,
+        "ai_digest": ai_digest_src.ai_digest,
+        "scholar_inbox": scholar_src.scholar_inbox,
+        "the_conversation": lambda: conversation_src.the_conversation(
+            state_dir / "conversation_links.json"
+        ),
+        "project_syndicate": lambda: ps_src.project_syndicate(
+            state_dir / "project_syndicate_bylines.json"
+        ),
+        "gates_notes": gates_src.gates_notes,
     }
     results = {}
     for name, run in sources.items():
@@ -52,6 +68,9 @@ def collect(first_seen: FirstSeen) -> dict[str, SourceResult]:
             results[name] = run()
         except Exception as exc:  # noqa: BLE001 - reported as that source's failure
             results[name] = SourceResult(error=f"unexpected {type(exc).__name__}: {exc}")
+        if results[name].error:
+            # Errors are printed to the public CI log; never let an inbox ID ride along.
+            results[name] = SourceResult(error=private.scrub(results[name].error))
     return results
 
 
@@ -88,7 +107,11 @@ def write_feeds(
 
     for spec in FEEDS:
         path = out_dir / spec.filename
-        broken = [n for n in spec.sources if not results[n].ok]
+        broken = [
+            n
+            for n in spec.sources
+            if results[n].error or not (results[n].items or spec.allow_empty)
+        ]
         if broken:
             reasons = "; ".join(f"{n}: {results[n].error or 'no items'}" for n in broken)
             count, newest = _inspect(path)
@@ -126,6 +149,15 @@ def write_feeds(
             items=items,
             source_url=spec.source_url,
         )
+        leaked = private.leaks(xml.decode("utf-8"), tokens=spec.email)
+        if leaked:
+            # Fail closed: a private inbox address or subscriber token in the output means
+            # a formatter missed something, and publishing it cannot be undone.
+            count, newest = _inspect(path)
+            statuses.append(
+                FeedStatus(spec, False, count, newest, f"refusing to publish: contains {leaked}")
+            )
+            continue
         if not path.exists() or path.read_bytes() != xml:
             path.write_bytes(xml)
         statuses.append(
@@ -169,4 +201,4 @@ def write_manifest(statuses: list[FeedStatus], path: Path) -> None:
                 return
         except json.JSONDecodeError:
             pass
-    path.write_text(new)
+    path.write_text(private.ensure_clean(new, path.name))

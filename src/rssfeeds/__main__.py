@@ -9,6 +9,7 @@ from .build import collect, write_feeds, write_manifest
 from .markdown import render_readme, render_vault_doc, write_if_changed
 from .opml import write_opml
 from .page import write_index
+from .private import LeakError
 from .state import FirstSeen
 
 app = cyclopts.App(name="rssfeeds", help="Rebuild the public AI safety RSS endpoints.")
@@ -32,15 +33,19 @@ def build(
     """
     first_seen = FirstSeen(state)
     results = collect(first_seen)
-    first_seen.save()
-
-    statuses = write_feeds(results, docs, allow_shrink=allow_shrink)
-    write_manifest(statuses, docs / "feeds.json")
-    write_index(statuses, docs / "index.html")
-    write_opml(docs)
-    write_if_changed(readme, render_readme(statuses))
-    if vault is not None:
-        write_if_changed(vault, render_vault_doc(statuses))
+    try:
+        first_seen.save()
+        statuses = write_feeds(results, docs, allow_shrink=allow_shrink)
+        write_manifest(statuses, docs / "feeds.json")
+        write_index(statuses, docs / "index.html")
+        write_opml(docs)
+        write_if_changed(readme, render_readme(statuses))
+        if vault is not None:
+            write_if_changed(vault, render_vault_doc(statuses))
+    except LeakError as exc:
+        # Each write is checked before it happens, so nothing unsafe reached disk.
+        print(f"FAIL {exc}", file=sys.stderr)
+        raise SystemExit(1) from None
 
     failed = []
     for s in statuses:

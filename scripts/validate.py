@@ -7,6 +7,8 @@ from pathlib import Path
 
 import feedparser
 
+from rssfeeds.registry import FEEDS
+
 FEEDS_DIR = Path(__file__).resolve().parents[1] / "docs"
 
 
@@ -16,11 +18,13 @@ def main() -> int:
         print("no feeds found", file=sys.stderr)
         return 1
 
+    # A newsletter inbox that has not received its first issue publishes an empty feed.
+    may_be_empty = {f.filename for f in FEEDS if f.allow_empty}
     failures = 0
     for p in paths:
         parsed = feedparser.parse(p.read_bytes())
         entries = len(parsed.entries)
-        if parsed.bozo or entries == 0:
+        if parsed.bozo or (entries == 0 and p.name not in may_be_empty):
             reason = parsed.get("bozo_exception", "zero entries")
             print(f"FAIL {p.name}: {reason}", file=sys.stderr)
             failures += 1

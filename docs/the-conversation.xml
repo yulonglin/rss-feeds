@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>The Conversation - newsletters</title>
+    <link>https://theconversation.com/global/newsletters</link>
+    <description>The Conversation's Global daily, AI weekly and business weekly newsletters, flattened to the editor's note and each story's section, image, headline, byline and standfirst, with every headline linked straight to its article. Entries are tagged with which newsletter they came from.</description>
+    <language>en</language>
+    <generator>rss-feeds (https://github.com/yulonglin/rss-feeds)</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <atom:link href="https://feeds.yulonglin.com/the-conversation.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://theconversation.com/global/newsletters" rel="via" type="text/html" />
+    <lastBuildDate>Fri, 02 Oct 2026 13:06:40 +0000</lastBuildDate>
+    <item>
+      <title>Unregulated AI and security threats</title>
+      <link>https://theconversation.com/trump-frames-unregulated-ai-as-a-way-to-keep-ahead-of-china-but-in-fact-it-harms-us-national-security-292642</link>
+      <guid isPermaLink="false">the-conversation:7f13c134430dcd8d</guid>
+      <pubDate>Fri, 02 Oct 2026 13:06:40 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>AI weekly</category>
+      <description>• Trump frames unregulated AI as a way to keep ahead of China – but in fact, it harms US national security
+• US tech leaders are urgently calling for rules on AI – China already has them
+• Meta wants people to use ‘AI agents’ to do daily tasks for them. Here’s why that’s a problem
+• The ‘War Games’ problem: Computer science has long understood what it takes to keep AI under control
+• Using an AI chatbot to practice new languages can be helpful, but it doesn’t replace speaking with an actual person</description>
+      <content:encoded>&lt;p&gt;When we started this newsletter on artificial intelligence, we very deliberately decided that it would not be only about technology, because the story of AI in society is so broad. The discussion around whether and how to regulate AI reflects that complexity. In one piece this week, an international relations scholar argues that the Trump administration’s opposition to regulation – under the argument that there’s a global race that regulation would slow – actually benefits Chinese companies. And a cybersecurity researcher reveals that China has been regulating algorithms and AI usage for years. Elsewhere this week, an ethics expert makes the case that blaming AIs for “rogue” actions can be misguided, and a critical look at Meta’s new Muse AI agent technology.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lead Story&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762150/original/file-20260924-50-b3v7d2.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C141%2C7548%2C4246&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/trump-frames-unregulated-ai-as-a-way-to-keep-ahead-of-china-but-in-fact-it-harms-us-national-security-292642"&gt;Trump frames unregulated AI as a way to keep ahead of China – but in fact, it harms US national security&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Stephen Collins, Kennesaw State University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;An unregulated sector has risks in itself but will also aid the rapid advancement of AI in China.&lt;/p&gt;
+&lt;p&gt;China uses a process known as distillation to exploit cutting-edge U.S. AI models to train China's own models. The process enables China to develop models nearly as powerful but much more efficient, using far fewer resources... As a result of its distillation strategy, the pace of China's AI progress is tightly linked to U.S. progress.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Regulation&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762719/original/file-20260929-50-azua6z.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C198%2C6391%2C3594&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/us-tech-leaders-are-urgently-calling-for-rules-on-ai-china-already-has-them-292965"&gt;US tech leaders are urgently calling for rules on AI – China already has them&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Madeline Carr, UCL&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;China has already implemented many rules governing the use of artificial intelligence.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Agents&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/763022/original/file-20260930-50-ubkefz.png?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C1920%2C1080&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/meta-wants-people-to-use-ai-agents-to-do-daily-tasks-for-them-heres-why-thats-a-problem-292962"&gt;Meta wants people to use ‘AI agents’ to do daily tasks for them. Here’s why that’s a problem&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Francesco Bailo, University of Sydney; Rob Nicholls, University of Sydney&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Meta can’t beat its rivals on raw AI capability. With its new Muse agent, it doesn’t need to.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technology&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762638/original/file-20260928-50-saj32q.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C143%2C1600%2C900&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/the-wargames-problem-computer-science-has-long-understood-what-it-takes-to-keep-ai-under-control-292884"&gt;The ‘War Games’ problem: Computer science has long understood what it takes to keep AI under control&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Deven Desai, Georgia Institute of Technology&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A hit 1983 movie illustrates what computer scientists have long known: If you give an AI agent a goal but don’t control what it can and can’t do, you shouldn’t be surprised by what it does.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762930/original/file-20260929-50-owbmz1.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C313%2C6000%2C3375&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/using-an-ai-chatbot-to-practice-new-languages-can-be-helpful-but-it-doesnt-replace-speaking-with-an-actual-person-288482"&gt;Using an AI chatbot to practice new languages can be helpful, but it doesn’t replace speaking with an actual person&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Antonio Perez-Nunez, College of Charleston&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;People might feel more comfortable making mistakes if they’re interacting with AI chatbots. But they will miss the nuances that come from conversing with real people.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>FlyDubai and the Israeli election</title>
+      <link>https://theconversation.com/flydubai-attack-feeds-into-netanyahus-protector-narrative-with-crucial-elections-approaching-293336</link>
+      <guid isPermaLink="false">the-conversation:1c4190b61d17644a</guid>
+      <pubDate>Fri, 02 Oct 2026 12:04:55 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Global daily</category>
+      <description>• Flydubai attack feeds into Netanyahu’s ‘protector’ narrative with crucial elections approaching
+• Could a former IDF chief break Benjamin Netanyahu’s grip on power in Israel?
+• With a tragedy averted, the Flydubai incident has put cockpit security under new scrutiny
+• Almost everyone naturally turns left when walking – and we still have no idea why
+• The ‘War Games’ problem: Computer science has long understood what it takes to keep AI under control
+• Manchester City supporters have been gaslit. What happens now?</description>
+      <content:encoded>&lt;p&gt;The attempted hijacking of FlyDubai flight FZ1073 has put a few people in focus, not least the wounded pilot who managed to open the cockpit door and the passengers who rushed in to help subdue the co-pilot.&lt;/p&gt;
+&lt;p&gt;But back in Israel, it is how the the near-tragedy might affect the fortunes of Benjamin Netanyahu that is stimulating some of the coverage.&lt;/p&gt;
+&lt;p&gt;The motive of the co-pilot – seemingly bent on crashing the airplane and killing the mainly Israeli passengers – has not been publicly established. But with crucial elections just weeks away, the Israeli prime minister can already point to the event to further his narrative of a country under attack and in need of his firm guidance.&lt;/p&gt;
+&lt;p&gt;As Middle East expert Ran Porat notes: “Netanyahu was quick to incorporate the plane attack into his campaign by posting on his social media accounts a video and images of him embracing and praising one of the passengers (a Netanyahu supporter) who stormed the cockpit, his shirt still stained with blood.”&lt;/p&gt;
+&lt;p&gt;But will it be enough to save him in the upcoming vote. Speaking prior to the FlyDubai incident, Israeli politics scholar Dov Waxman sat down with The Conversation Weekly podcast to explain what is at stake in the election and assess Netanyahu’s chances of defying the polls and a strong challenge from Gadi Eisenkot, a former chief of the Israel Defense Forces and leader of the newly formed Yashar party.&lt;/p&gt;
+&lt;p&gt;Elsewhere this week, we have been monitoring the escalating fighting in Ethiopia and pondering: why do people tend to turn left when walking?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Matt Williams&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Senior International Editor&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Top story&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/763256/original/file-20261001-50-244iy9.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C428%2C8192%2C4608&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;p&gt;Israeli passengers arrive back in Israel after the attempted hijacking of a passenger plane over Saudi Arabia. Abir Sultan/EPA&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/flydubai-attack-feeds-into-netanyahus-protector-narrative-with-crucial-elections-approaching-293336"&gt;Flydubai attack feeds into Netanyahu’s ‘protector’ narrative with crucial elections approaching&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Ran Porat, Monash University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Netanyahu was quick to incorporate the plane attack into his campaign by posting videos and images on his social media accounts.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762980/original/file-20260930-50-grv206.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C402%2C5361%2C2680&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/could-a-former-idf-chief-break-benjamin-netanyahus-grip-on-power-in-israel-293097"&gt;Could a former IDF chief break Benjamin Netanyahu’s grip on power in Israel?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Isabella Podwinski, The Conversation; Justin Bergman, The Conversation&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;On The Conversation Weekly, why Israel’s political magician might be out of tricks and how a former IDF chief could be the one to upstage him.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/763258/original/file-20261001-60-vilpzw.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C436%2C5258%2C2629&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/with-a-tragedy-averted-the-flydubai-incident-has-put-cockpit-security-under-new-scrutiny-293331"&gt;With a tragedy averted, the Flydubai incident has put cockpit security under new scrutiny&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Steven Leib, CQUniversity Australia; Guido Carim Junior, CQUniversity Australia&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A core tenet of aviation security is keeping threats out of the cockpit. What happens if the danger is one of the pilots?&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762806/original/file-20260929-50-h6y16i.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C3840%2C2160&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/almost-everyone-naturally-turns-left-when-walking-and-we-still-have-no-idea-why-292144"&gt;Almost everyone naturally turns left when walking – and we still have no idea why&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Iñaki Echeverría Huarte, Universidad de Navarra; Ángel Garcimartín Montero, Universidad de Navarra; Iker Zuriguel Ballaz, Universidad de Navarra&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Across ages, genders, cultures and conditions, crowds always walk in a counter-clockwise spiral.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762638/original/file-20260928-50-saj32q.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C143%2C1600%2C900&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/the-wargames-problem-computer-science-has-long-understood-what-it-takes-to-keep-ai-under-control-292884"&gt;The ‘War Games’ problem: Computer science has long understood what it takes to keep AI under control&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Deven Desai, Georgia Institute of Technology&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A hit 1983 movie illustrates what computer scientists have long known: If you give an AI agent a goal but don’t control what it can and can’t do, you shouldn’t be surprised by what it does.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/763073/original/file-20260930-50-n6nnlu.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C184%2C3565%2C2005&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/manchester-city-supporters-have-been-gaslit-what-happens-now-293249"&gt;Manchester City supporters have been gaslit. What happens now?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Josh Bland, University of Cambridge&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The evidence now requires Manchester City supporters to make the distinction their owners have spent years blurring.&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/christa-pikes-botched-execution-exposes-the-deep-contradictions-of-a-painless-state-imposed-death-293432"&gt; Christa Pike’s botched execution exposes the deep contradictions of a ‘painless’ state-imposed death &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Julian Koplin, Monash University; The University of Melbourne &lt;/p&gt; &lt;p&gt;Lethal injections are not typically administered by doctors, given executions are incompatible with their oath to protect lives.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/one-in-three-ukrainian-civilians-estimated-to-meet-the-criteria-for-ptsd-or-complex-ptsd-new-study-293253"&gt; One in three Ukrainian civilians estimated to meet the criteria for PTSD or complex PTSD – new study &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Gwendolyn Sasse, Centre for East European and International Studies (ZOiS); University of Oxford; Deirdre MacManus, King's College London &lt;/p&gt; &lt;p&gt;War-related trauma now affects most people in Ukraine and presents a major threat to the country’s resiliance in the face of continuing Russian aggression.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/dozens-of-men-failed-to-stop-an-alleged-gang-rape-at-cornell-heres-the-misperception-that-keeps-bystanders-from-intervening-and-how-to-short-circuit-it-293321"&gt; Dozens of men failed to stop an alleged gang rape at Cornell – here’s the misperception that keeps bystanders from intervening and how to short-circuit it &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Catherine A. Sanderson, Amherst College &lt;/p&gt; &lt;p&gt;People may accept bad behavior – even sexual assault – when they overestimate how acceptable their peers think it is. But there are ways to undermine this thinking and make intervention more likely.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/ethiopia-is-sliding-back-toward-war-a-look-at-what-is-driving-the-fighting-and-why-it-matters-293073"&gt; Ethiopia is sliding back toward war – a look at what is driving the fighting and why it matters &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Alemayehu Fentaw Weldemariam, Indiana University &lt;/p&gt; &lt;p&gt;An offensive in the Tigray region followed months of aerial strikes by the Ethiopian government. The situation could spark a wider regional conflict.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/johannesburg-and-medellin-what-south-africa-can-learn-from-colombia-about-fixing-a-broken-city-292092"&gt; Johannesburg and Medellín: what South Africa can learn from Colombia about fixing a broken city &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Ivor Chipkin, University of Pretoria &lt;/p&gt; &lt;p&gt;The recovery of Medellín in Colombia depended on a city government that could combine security, investment and capable utilities.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/from-suicide-bombers-to-positions-of-authority-the-changing-role-of-women-in-jihadi-groups-292409"&gt; From suicide bombers to positions of authority – the changing role of women in jihadi groups &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Sara Harmouch, George Washington University &lt;/p&gt; &lt;p&gt;More women are taking up training and recruiting positions in the Islamic State group and other militant organizations.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Shocked at price of filling your car? It could get worse</title>
+      <link>https://theconversation.com/why-fuel-prices-may-go-higher-still-292853</link>
+      <guid isPermaLink="false">the-conversation:7f73ada8725315c0</guid>
+      <pubDate>Wed, 30 Sep 2026 14:06:07 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Global daily</category>
+      <description>• Why fuel prices may go higher still
+• AI has made borrowing more expensive – an expert explains how bond markets are changing
+• Gen Z communicates differently in the workplace, but older colleagues can still decode them
+• Cities keep shelling out taxpayer money for sports stadiums, yet the economics almost never makes sense
+• How Trump’s crypto winnings undermined the industry’s push for looser regulation
+• How smoking makes Australians poorer – and what we can do about it</description>
+      <content:encoded>&lt;p&gt;When the Strait of Hormuz shut in early March, after the U.S. and Israel attacked Iran, petroleum industry analysts projected crude oil prices could reach $150 or even $200 a barrel.&lt;/p&gt;
+&lt;p&gt;Seven months later, they’ve only just topped $100, thanks to various efforts to keep oil prices from skyrocketing, write Joshua Busby and Greg Pollock, U.S.-based scholars of the energy industry and national security.&lt;/p&gt;
+&lt;p&gt;But the cushions that have forestalled the nightmare scenarios so far have run their course, Busby and Pollock write. And as the war continues, the strait is still shut. They explain why “significant price hikes – and perhaps even shortages – may be on the way."t&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jeff Inglis&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Environment + Energy Editor, The Conversation US &lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762315/original/file-20260925-50-ci5zbw.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C261%2C5000%2C2812&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/why-fuel-prices-may-go-higher-still-292853"&gt;Why fuel prices may go higher still&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Joshua Busby, The University of Texas at Austin; Greg Pollock, Georgetown University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Seven months into the US conflict with Iran, with no clear end in sight, the global oil market has now largely exhausted the safety measures that exist to keep a lid on petroleum prices.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Essential briefings&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/761394/original/file-20260922-50-rt8ioz.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C584%2C7000%2C3500&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/ai-has-made-borrowing-more-expensive-an-expert-explains-how-bond-markets-are-changing-292033"&gt;AI has made borrowing more expensive – an expert explains how bond markets are changing&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Alex Dryden, SOAS, University of London&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Tech is having a big effect on bond markets.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762017/original/file-20260924-72-xnnd8i.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C116%2C5184%2C2592&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/gen-z-communicates-differently-in-the-workplace-but-older-colleagues-can-still-decode-them-292108"&gt;Gen Z communicates differently in the workplace, but older colleagues can still decode them&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Jeff LeBlanc, Boston University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Gen Z workers don’t communicate better or worse than previous generations, but they learned to do so under very different circumstances.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762607/original/file-20260928-50-bfxs2u.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C701%2C8398%2C4199&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/cities-keep-shelling-out-taxpayer-money-for-sports-stadiums-yet-the-economics-almost-never-makes-sense-292058"&gt;Cities keep shelling out taxpayer money for sports stadiums, yet the economics almost never makes sense&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Abigail Hall, University of Tampa; Aaron D. Wood, University of Tampa&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Communities almost never see a boost in job or income growth after taxpayers subsidize a new sports facility.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/761602/original/file-20260922-60-dfu5ki.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C16%2C6336%2C3168&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/how-trumps-crypto-winnings-undermined-the-industrys-push-for-looser-regulation-289123"&gt;How Trump’s crypto winnings undermined the industry’s push for looser regulation&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Lee Reiners, Duke University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The crypto industry scored a series of wins in 2025, only to see its top legislative goal fail in 2026.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quote of the week&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;High cigarette prices encourage quitting. The challenge is ensuring people who are most addicted to smoking receive the support they need to quit... The most effective response is to invest tobacco tax revenue into helping more people quit for good.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;—&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Coral Gartner, Director of the NHMRC Centre of Research Excellence on Achieving the Tobacco Endgame, University of Queensland, and Ara Cho, Research Fellow at the School of Public Health, University of Queensland&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/how-smoking-makes-australians-poorer-and-what-we-can-do-about-it-290345"&gt;How smoking makes Australians poorer – and what we can do about it&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Energy&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/oil-and-gas-industry-expected-surplus-but-war-brought-shortage-instead-292406"&gt; Oil and gas industry expected surplus – but war brought shortage instead &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; John Patrick Schoeneman Jr., Oklahoma State University &lt;/p&gt; &lt;p&gt;Any work to ease current shortages and price hikes while the Strait of Hormuz remains closed will take years and billions of dollars.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Environment&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/we-can-finally-measure-the-damage-each-new-coal-gas-or-oil-project-will-do-to-people-and-nature-292128"&gt; We can finally measure the damage each new coal, gas or oil project will do to people and nature &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Sarah Perkins-Kirkpatrick, Australian National University; Claudia Stepin, Australian National University; Gillian Moon, UNSW ; Maria Nawaz, UNSW ; Wesley Morgan, UNSW &lt;/p&gt; &lt;p&gt;For decades, we couldn’t trace the link between new fossil fuel projects and their damage to people and planet. But now we can.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Work&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/ai-is-creating-jobs-as-well-as-erasing-them-but-how-rewarding-are-they-292848"&gt; AI is creating jobs as well as erasing them – but how rewarding are they? &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Akhil Bhardwaj, University of Bath &lt;/p&gt; &lt;p&gt;One area of burgeoning employment is in people cleaning up ‘workslop’.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Economy&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/canadas-1-trillion-investment-push-promises-growth-but-raises-questions-about-who-benefits-292205"&gt; Canada’s $1-trillion investment push promises growth — but raises questions about who benefits &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Paul Calluzzo, Queen's University, Ontario; Dan Cohen, Queen's University, Ontario; Evan Jo, Queen's University, Ontario &lt;/p&gt; &lt;p&gt;The federal government is betting on tax incentives and private capital to drive growth, but questions remain over costs, oversight and who benefits.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Inequality&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/84-cents-for-every-1-why-indigenous-workers-earn-less-in-australia-and-what-to-do-about-it-292899"&gt; 84 cents for every $1: why Indigenous workers earn less in Australia – and what to do about it &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Nareen Young, University of Technology Sydney; Jane O'Leary, University of Technology Sydney; Joshua Gilbert, University of Technology Sydney &lt;/p&gt; &lt;p&gt;Across all jobs – from managers and professionals to labourers – a study found Indigenous workers earn an average of 15.9% less per hour than all workers.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Technology&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/trump-frames-unregulated-ai-as-a-way-to-keep-ahead-of-china-but-in-fact-it-harms-us-national-security-292642"&gt; Trump frames unregulated AI as a way to keep ahead of China – but in fact, it harms US national security &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Stephen Collins, Kennesaw State University &lt;/p&gt; &lt;p&gt;An unregulated sector has risks in itself but will also aid the rapid advancement of AI in China.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Agriculture&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/more-land-better-life-south-african-farming-study-asks-if-thats-the-road-to-rural-development-290459"&gt; More land, better life? South African farming study asks if that’s the road to rural development &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Neo Mathinya, University of the Free State; Linus Franke, University of the Free State &lt;/p&gt; &lt;p&gt;There is no single pathway from small-scale farming to improved livelihoods.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Personal Finance&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/why-making-americans-bet-with-cash-could-protect-people-from-gambling-problems-290131"&gt; Why making Americans bet with cash could protect people from gambling problems &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Jay L. Zagorsky, Boston University &lt;/p&gt; &lt;p&gt;By adding friction and making it possible for people around problem gamblers to see what they’re up to, a cash requirement could protect them from big losses.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;img src="https://images.theconversation.com/files/762911/original/resized_20260929-50-59of25.png?ixlib=rb-4.1.1&amp;amp;q=70&amp;amp;auto=format&amp;amp;w=900&amp;amp;fit=clip" alt="A chart comparing % of Australians who experienced food insecurity in 2020 and 2024."&gt;</content:encoded>
+    </item>
+    <item>
+      <title>El Niño's deadly heat threat to the Sahel</title>
+      <link>https://theconversation.com/nigeria-faces-the-worlds-highest-projected-death-toll-from-super-el-nino-heat-what-could-save-lives-292786</link>
+      <guid isPermaLink="false">the-conversation:b990e4eb5b82de3a</guid>
+      <pubDate>Tue, 29 Sep 2026 06:31:42 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Global daily</category>
+      <description>• Nigeria faces the world’s highest projected death toll from super El Niño heat: what could save lives
+• Yemen’s Houthis move to control crucial waterway – our research maps the countries most at risk</description>
+      <content:encoded>&lt;p&gt;Nigeria, Sudan, Niger and Chad face tens of thousands of additional deaths over the coming months as the super El Niño brings extreme heat to countries where many people cannot afford to keep cool. Michael Greenstone, Tamma Carleton, Genevieve Maricle and Emily Grover-Kopec explain why the risks are so high and how governments can act now to save lives by issuing heat warnings, providing drinking water and places to cool down, and protecting outdoor workers.&lt;/p&gt;
+&lt;p&gt;There’s another battle for control raging over the Bab al-Mandab strait, a maritime chokepoint between Africa and the Arabian Peninsula. Academics have mapped which countries would be most affected by a Houthi blockade.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Anna Weekes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Environment + Energy Editor, Africa &lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762076/original/file-20260924-50-qzpth8.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C581%2C5568%2C3132&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/nigeria-faces-the-worlds-highest-projected-death-toll-from-super-el-nino-heat-what-could-save-lives-292786"&gt;Nigeria faces the world’s highest projected death toll from super El Niño heat: what could save lives&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Michael Greenstone, University of Chicago; Tamma Carleton, University of California, Berkeley&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The super El Niño could cause 31,400 extra heat deaths in Nigeria alone. Heat warnings, cooling centres and worker protections could help save lives.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762008/original/file-20260924-50-esi9dl.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C627%2C6000%2C3375&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/yemens-houthis-move-to-control-crucial-waterway-our-research-maps-the-countries-most-at-risk-292317"&gt;Yemen’s Houthis move to control crucial waterway – our research maps the countries most at risk&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Johannes Lumma, University of Oxford; Jasper Verschuur, Delft University of Technology&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Over a dozen countries depend on the Bab al-Mandab Strait for more than half of their maritime trade by value.&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/why-fuel-prices-may-go-higher-still-292853"&gt; Why fuel prices may go higher still &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Joshua Busby, The University of Texas at Austin; Greg Pollock, Georgetown University &lt;/p&gt; &lt;p&gt;Seven months into the US conflict with Iran, with no clear end in sight, the global oil market has now largely exhausted the safety measures that exist to keep a lid on petroleum prices.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/climate-disasters-are-getting-worse-risks-escalate-when-authoritarian-regimes-keep-neighbours-in-the-dark-291857"&gt; Climate disasters are getting worse – risks escalate when authoritarian regimes keep neighbours in the dark &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Natasha Lindstaedt, University of Essex &lt;/p&gt; &lt;p&gt;With extreme weather and glacier melt predicted to increase, neighbouring nations will need to act together to prevent deaths.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/a-bestselling-novel-was-pulled-from-a-french-literary-prize-after-ai-accusations-what-next-292963"&gt; A bestselling novel was pulled from a French literary prize after AI accusations – what next? &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Anthony Cordingley, University of Sydney &lt;/p&gt; &lt;p&gt;The latest literary AI scandal forces us to question what we expect of writers. Some French authors argue AI is now part of our lives – and authorship is evolving.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/ai-companies-could-learn-safety-lessons-from-the-history-of-nuclear-weapons-292623"&gt; AI companies could learn safety lessons from the history of nuclear weapons &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Stephanie Decker, University of Birmingham &lt;/p&gt; &lt;p&gt;There are clear parallels between today’s AI debate and how the world tackled the threat from nuclear weapons.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/stripped-titles-compensating-rivals-how-the-manchester-city-cheating-scandal-could-play-out-292970"&gt; Stripped titles? Compensating rivals? How the Manchester City cheating scandal could play out &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; James Skinner, University of Newcastle; Danny F Hill, Providence College &lt;/p&gt; &lt;p&gt;Manchester City could be facing enormous sanctions for cheating – and the fallout may spread to its 13 teams around the world, from New York to Melbourne.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/planting-trees-in-the-wrong-places-is-not-a-climate-solution-290796"&gt; Planting trees in the wrong places is not a climate solution &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Joy Kehinde Adebisi, Western University &lt;/p&gt; &lt;p&gt;Global tree-planting campaigns can harm natural drylands. Effective climate restoration must work within dryland ecosystems, not seek to replace them.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Could AI really wipe out humanity? 5 scenarios</title>
+      <link>https://theconversation.com/how-would-ai-actually-kill-all-humans-here-are-the-top-5-scenarios-292220</link>
+      <guid isPermaLink="false">the-conversation:f60bbdc471af21e3</guid>
+      <pubDate>Fri, 25 Sep 2026 13:05:51 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>AI weekly</category>
+      <description>• How would AI actually kill all humans? Here are the top 5 scenarios
+• AI can be more comforting than a person – our research shows why
+• Russia-Ukraine war is accelerating the dangerous race toward fully autonomous drones
+• Why AI has trouble predicting the fury of hurricane intensity
+• Government hacks, rogue agents and no transparency: can we ever fully trust AI?</description>
+      <content:encoded>&lt;p&gt;When ChatGPT first launched publicly, the mood among consumers seemed to be mostly amazement. Four years later, the narrative around the future of artificial intelligence has become decidedly dark. This week’s newsletter reflects that dramatic shift with a story on the most likely scenarios of AI systems getting outside human control and a podcast discussing what regulations might look like. We also look at the advancement of autonomous drones in the Ukraine-Russia war and why chatbots can appear more comforting than human companions. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lead Story&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/761054/original/file-20260921-50-57p6qs.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C2309%2C1298&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/how-would-ai-actually-kill-all-humans-here-are-the-top-5-scenarios-292220"&gt;How would AI actually kill all humans? Here are the top 5 scenarios&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Toby Walsh, UNSW&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The most probable scenario is likely not what you think.&lt;/p&gt;
+&lt;p&gt;Imagine – and it doesn’t take a lot of imagination – that AI causes massive job losses, pollutes the information space with misinformation, fractures our politics, and destroys human relationships with fake synthetic companionship.&lt;/p&gt;
+&lt;p&gt;Society might easily break. Slowly but surely, we’d stop being able to support human life at any scale.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI and Humanity&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/758809/original/file-20260909-50-5ybh2g.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C7008%2C3942&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/ai-can-be-more-comforting-than-a-person-our-research-shows-why-291614"&gt;AI can be more comforting than a person – our research shows why&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Sarah A. Walker, Durham University; Belen Lopez-Perez, University of Manchester&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We increasingly turn to chatbots when we are upset. But what they cannot do may be what matters most.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Military&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/761235/original/file-20260921-50-m4wsl8.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C394%2C4032%2C2268&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/russia-ukraine-war-is-accelerating-the-dangerous-race-toward-fully-autonomous-drones-290877"&gt;Russia-Ukraine war is accelerating the dangerous race toward fully autonomous drones&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Amy McAuliffe, University of Notre Dame&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Drones with autonomous functions reduce dependence on communications links and can escape attempts at jamming. But they come with huge ethical risks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technology&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/747520/original/file-20260713-70-z4a1wm.png?ixlib=rb-4.1.1&amp;amp;rect=0%2C58%2C1476%2C830&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/why-ai-has-trouble-predicting-the-fury-of-hurricane-intensity-287281"&gt;Why AI has trouble predicting the fury of hurricane intensity&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Chanh Kieu, Indiana University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Storms like 2026’s Hurricane Polo that rapidly intensify can catch communities off guard and leave little time to prepare or evacuate. Being able to forecast those risks can save lives.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Podcast 🎙️&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/761939/original/file-20260924-50-nb9jbq.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C268%2C5851%2C3291&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/government-hacks-rogue-agents-and-no-transparency-can-we-ever-fully-trust-ai-292536"&gt;Government hacks, rogue agents and no transparency: can we ever fully trust AI?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Gemma Ware, The Conversation&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;AI expert Nick Jennings speaks to The Conversation Weekly podcast about calls for a slowdown in the development of frontier AI models.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Can we ever fully trust AI agents?</title>
+      <link>https://theconversation.com/government-hacks-rogue-agents-and-no-transparency-can-we-ever-fully-trust-ai-292536</link>
+      <guid isPermaLink="false">the-conversation:77355c66e154db95</guid>
+      <pubDate>Fri, 25 Sep 2026 11:41:19 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Global daily</category>
+      <description>• Government hacks, rogue agents and no transparency: can we ever fully trust AI?
+• Trump and Xi face an AI security dilemma – but face-to-face diplomacy could be a start in mitigating it
+• How would AI actually kill all humans? Here are the top 5 scenarios
+• Mosque attack highlights evolving extremism landscape that has brought Pakistan-Afghanistan ties to crisis point
+• Russia-Ukraine war is accelerating the dangerous race toward fully autonomous drones
+• UN chief says world’s biggest problem is the changing way power is used – Donald Trump’s speech confirms his diagnosis</description>
+      <content:encoded>&lt;p&gt;As more incidents emerge of AI agents going rogue during testing, can we ​ever fully trust them? In the latest hack, Australia revealed OpenAI agents hacked into a government database containing health data – and took nearly three months to disclose the breach.&lt;/p&gt;
+&lt;p&gt;On the latest episode of The Conversation Weekly podcast, AI expert Nick Jennings says tech company leaders have choices about how they develop their models. “It’s not that they have to keep going ​… or that the AI is forcing them to keep going on and keep improving.​”&lt;/p&gt;
+&lt;p&gt;Experts remain sceptical about the likelihood of AI wiping out humanity, but calls for regulation are growing and dominated coverage of the White House summit between Xi Jinping and Donald Trump.&lt;/p&gt;
+&lt;p&gt;Jennings, who has researched multi-agentic AI for decades, says that while calls for a kill switch won’t be as simple as adding a “big red button” that turns the AI off, it’s important to have external control over the system.&lt;/p&gt;
+&lt;p&gt;Elsewhere this week we have been keeping an eye on goings-on at the United Nations and previewing the upcoming elections in Brazil.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Gemma Ware&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Head of Audio, The Conversation UK &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Top story&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/761939/original/file-20260924-50-nb9jbq.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C268%2C5851%2C3291&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;p&gt;&lt;strong&gt;NicoElNino/Alamy&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/government-hacks-rogue-agents-and-no-transparency-can-we-ever-fully-trust-ai-292536"&gt;Government hacks, rogue agents and no transparency: can we ever fully trust AI?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Gemma Ware, The Conversation&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;AI expert Nick Jennings speaks to The Conversation Weekly podcast about calls for a slowdown in the development of frontier AI models.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/761998/original/file-20260924-50-dfbne8.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C178%2C4000%2C2000&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/trump-and-xi-face-an-ai-security-dilemma-but-face-to-face-diplomacy-could-be-a-start-in-mitigating-it-292644"&gt;Trump and Xi face an AI security dilemma – but face-to-face diplomacy could be a start in mitigating it&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Nicholas John Wheeler, University of Birmingham; BASIC; Marcus Holmes, William &amp;amp; Mary&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The question is whether both leaders appreciate each other’s security fears.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/761054/original/file-20260921-50-57p6qs.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C144%2C2309%2C1154&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/how-would-ai-actually-kill-all-humans-here-are-the-top-5-scenarios-292220"&gt;How would AI actually kill all humans? Here are the top 5 scenarios&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Toby Walsh, UNSW&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The most probable scenario is likely not what you think.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/761742/original/file-20260923-50-u2vqxy.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C426%2C5634%2C3169&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/mosque-attack-highlights-evolving-extremism-landscape-that-has-brought-pakistan-afghanistan-ties-to-crisis-point-292416"&gt;Mosque attack highlights evolving extremism landscape that has brought Pakistan-Afghanistan ties to crisis point&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Saif Tahir, Te Herenga Waka — Victoria University of Wellington; Amira Jadoon, Clemson University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Convergence and competition between militant groups has spurred violence. Meanwhile, Pakistan accuses Afghanistan of harboring terrorists.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/761235/original/file-20260921-50-m4wsl8.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C394%2C4032%2C2268&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/russia-ukraine-war-is-accelerating-the-dangerous-race-toward-fully-autonomous-drones-290877"&gt;Russia-Ukraine war is accelerating the dangerous race toward fully autonomous drones&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Amy McAuliffe, University of Notre Dame&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Drones with autonomous functions reduce dependence on communications links and can escape attempts at jamming. But they come with huge ethical risks.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762020/original/file-20260924-60-5bnoh0.jpg?ixlib=rb-4.1.1&amp;amp;rect=581%2C340%2C1954%2C1380&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/un-chief-says-worlds-biggest-problem-is-the-changing-way-power-is-used-donald-trumps-speech-confirms-his-diagnosis-292755"&gt;UN chief says world’s biggest problem is the changing way power is used – Donald Trump’s speech confirms his diagnosis&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Martin Waehlisch, University of Birmingham; Stefan Wolff, University of Birmingham&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The UN general assembly meeting brought together many leaders whose countries are locked in conflict.&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/how-three-colonial-powers-gained-and-then-lost-control-over-the-straits-of-hormuz-and-bab-el-mandeb-292255"&gt; How three colonial powers gained – and then lost – control over the straits of Hormuz and Bab el-Mandeb &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Ibrahim Al-Marashi, IE University; California State University San Marcos &lt;/p&gt; &lt;p&gt;The Portuguese, Dutch and British empires all vied for control over the vital shipping lane.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/swan-song-dianas-brother-flips-the-royal-family-the-bird-in-his-scathing-new-book-292678"&gt; Swan Song: Diana’s brother flips the royal family the bird in his scathing new book &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Kate Cantrell, University of Southern Queensland &lt;/p&gt; &lt;p&gt;Charles Spencer’s book is as much about him as about the sister he claims to speak for. Beneath the score-settling, it’s a story of a brother still grieving.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/elections-in-brazil-a-subdued-digital-campaign-heightens-uncertainty-about-the-results-292729"&gt; Elections in Brazil: A subdued, digital campaign heightens uncertainty about the results &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Sergio Abranches, Universidade Federal do Rio de Janeiro (UFRJ) &lt;/p&gt; &lt;p&gt;A political scientist analyzes the uncertain outlook for this year’s elections and the risks their results pose to governability and democracy in Brazil.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/septembers-ozone-hole-was-the-biggest-in-20-years-the-warning-signs-appeared-months-ago-292457"&gt; September’s ozone hole was the biggest in 20 years. The warning signs appeared months ago &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Hannah E. Kessenich, University of Otago; Annika Seppälä, University of Otago; Dan Smale, Earth Sciences New Zealand &lt;/p&gt; &lt;p&gt;This spring’s ozone hole is likely to be among the top ten most severe of all time, bringing weather changes to New Zealand and Australia.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/as-war-in-the-middle-east-widens-saudi-arabias-new-defence-pact-could-face-a-major-test-292357"&gt; As war in the Middle East widens, Saudi Arabia’s new defence pact could face a major test &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Amin Saikal, Australian National University; The University of Western Australia; Victoria University &lt;/p&gt; &lt;p&gt;Saudi Arabia’s escalating conflict with the Houthis in Yemen will force its new defence partners Turkey and Pakistan to confront some difficult questions.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/this-18th-century-gospel-has-reignited-a-fierce-battle-over-ethiopias-looted-heritage-292625"&gt; This 18th-century Gospel has reignited a fierce battle over Ethiopia’s looted heritage &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Jacopo Gnisci, UCL &lt;/p&gt; &lt;p&gt;The controversy highlights a broader, escalating global movement demanding the return of African antiquities.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
+    </item>
+    <item>
+      <title>In 'back to office' push, culture is king</title>
+      <link>https://theconversation.com/how-employers-can-make-good-decisions-about-remote-work-before-the-next-crisis-strikes-282671</link>
+      <guid isPermaLink="false">the-conversation:326ac614c91e5fde</guid>
+      <pubDate>Wed, 23 Sep 2026 13:06:19 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Business weekly</category>
+      <description>• How employers can make good decisions about remote work before the next crisis strikes
+• EPA says repealing power plant emissions rules will save billions – but its estimate leaves out health and climate costs
+• Want to help Nepal recover from its deadly floods? Here’s what tourists need to know
+• The US sells more to Brazil than it buys – but Trump is slapping steep tariffs on its exports anyway
+• US consumers and businesses are now facing a future of more expensive borrowing
+• Is England right to introduce a tourism tax?</description>
+      <content:encoded>&lt;p&gt;The arguments over remote and hybrid work aren’t going away more than six years after the COVID-19 pandemic started.&lt;/p&gt;
+&lt;p&gt;But what if this debate fixated less on, say, the CEO’s management style or specific workplace format and focused more closely on organizational culture? After all, this ranges from highly collaborative to extremely hierarchical, with many variations along the gamut.&lt;/p&gt;
+&lt;p&gt;Sebastian Fixson of Babson College believes culture is a powerful determinant in whether remote and hybrid policies work. He and his colleagues Gina O’Connor and Jonathan Sims looked at four global companies that took different routes during and after the pandemic as they tried to return operations to normal. &lt;/p&gt;
+&lt;p&gt;It was organizational culture, they found, that established how quickly an employer successfully established a balance between remote, on-site and hybrid work after the pandemic’s earliest phase.&lt;/p&gt;
+&lt;p&gt;“The hierarchical companies moved faster but struggled more with managerial issues over workplace policies,” he writes. “In contrast, the collaborative companies took longer to decide on their workplace policies but encountered less pushback from their employees.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Helen Fessenden&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Senior Economy and Business Editor, The Conversation US &lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/760274/original/file-20260916-60-3tfj7q.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C326%2C4847%2C2726&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/how-employers-can-make-good-decisions-about-remote-work-before-the-next-crisis-strikes-282671"&gt;How employers can make good decisions about remote work before the next crisis strikes&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Sebastian Fixson, Babson College&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Whether work gets done on-site, remotely or using a hybrid of the two can have a lot to do with an employer’s organizational culture.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Essential briefings&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/760650/original/file-20260917-50-toyzzo.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C421%2C6418%2C3209&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/epa-says-repealing-power-plant-emissions-rules-will-save-billions-but-its-estimate-leaves-out-health-and-climate-costs-292051"&gt;EPA says repealing power plant emissions rules will save billions – but its estimate leaves out health and climate costs&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Akshaya Jha, Carnegie Mellon University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Keeping aging coal plants open, building new gas plants and choices about pollution controls affect electricity bills. Pollution adds health costs and climate damage that may not appear on those bills.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/757414/original/file-20260902-50-3yrnns.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C589%2C6240%2C3120&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/want-to-help-nepal-recover-from-its-deadly-floods-heres-what-tourists-need-to-know-290947"&gt;Want to help Nepal recover from its deadly floods? Here’s what tourists need to know&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Brent Ritchie, The University of Queensland&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Almost one in seven jobs in Nepal rely on tourism. Travellers need to consider these things before planning a return to Nepal.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/760019/original/file-20260915-82-79xm0t.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C333%2C3999%2C1999&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/the-us-sells-more-to-brazil-than-it-buys-but-trump-is-slapping-steep-tariffs-on-its-exports-anyway-290591"&gt;The US sells more to Brazil than it buys – but Trump is slapping steep tariffs on its exports anyway&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Filipe Mendonça, Universidade Federal de Uberlândia (UFU); Henrique Menezes, Universidade Federal da Paraíba (UFPB)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Because Trump picked this fight due to his concerns about Brazilian politics, that country’s presidential elections might quell it soon.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/760267/original/file-20260916-50-c1jn4i.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C56%2C4960%2C2480&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/us-consumers-and-businesses-are-now-facing-a-future-of-more-expensive-borrowing-291848"&gt;US consumers and businesses are now facing a future of more expensive borrowing&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;John W. Diamond, Rice University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The Federal Reserve’s rate hike comes as the US economy is increasingly moving at two very different speeds.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quote of the week&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A price increase in accommodation often leads to less money being spent in restaurants and shops or on activities ... A levy’s true cost may end up being paid by businesses that will only marginally benefit from any funds it raises.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;—&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Linda Osti, Senior Lecturer in Tourism Management, Bangor University&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/is-england-right-to-introduce-a-tourism-tax-291814"&gt;Is England right to introduce a tourism tax?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Trade&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/after-the-eus-offer-to-canada-could-australia-also-embrace-a-eurovision-292223"&gt; After the EU’s offer to Canada, could Australia also embrace a ‘Eurovision’? &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Tim Harcourt, University of Technology Sydney &lt;/p&gt; &lt;p&gt;In a hostile trading world, mid-sized nations are forging new relationships. Canada has the right idea.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Work&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/living-with-chronic-pain-at-work-supportive-managers-can-help-but-they-cant-solve-everything-292101"&gt; Living with chronic pain at work: Supportive managers can help, but they can’t solve everything &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Nick Turner, University of Calgary; Duygu Biricik Gulseren, York University, Canada; Fırat K Sayın, Saint Mary’s University &lt;/p&gt; &lt;p&gt;New research shows supportive supervisors may help protect employees’ psychological well-being, but meaningful support requires workplaces that can adapt to changing needs.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Agriculture&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/will-el-nino-send-food-prices-soaring-this-summer-291547"&gt; Will El Niño send food prices soaring this summer? &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Don Gunasekera, Deakin University &lt;/p&gt; &lt;p&gt;This year’s El Niño is likely to be the strongest on record. That would boost some fruit supplies – but it could also push up wheat, sugar and beef prices.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Economy&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/every-party-has-pitched-its-own-supermarket-fix-what-if-we-combined-the-best-ideas-292359"&gt; Every party has pitched its own supermarket fix. What if we combined the best ideas? &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Jonathan Baker, Adelaide University &lt;/p&gt; &lt;p&gt;The election has produced competing prescriptions for NZ’s grocery market – each targets a different barrier to genuine competition.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/australia-in-the-2060s-an-optimistic-outlook-dominates-budget-forecasts-in-the-intergenerational-report-291458"&gt; Australia in the 2060s: an optimistic outlook dominates budget forecasts in the Intergenerational Report &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Stephen Bartos, University of Canberra; John Hawkins, University of Canberra &lt;/p&gt; &lt;p&gt;The report counts on a lot of factors turning out for the best: AI boosting economic growth and global warming meeting the Paris goals for a start.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Consumers&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/how-the-pro-nicotine-wellness-movement-rebranded-an-addictive-drug-290129"&gt; How the pro-nicotine ‘wellness’ movement rebranded an addictive drug &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Hasmeena Kathuria, University of Wisconsin-Madison &lt;/p&gt; &lt;p&gt;Nicotine products like pouches and patches are being promoted for cognitive enhancement, stress reduction, improved athletic performance and much more – with little scientific evidence.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Technology&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/advertising-is-coming-to-ai-chatbots-and-it-could-influence-the-answers-you-get-291235"&gt; Advertising is coming to AI chatbots — and it could influence the answers you get &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Carlos Diaz Ruiz, Hanken School of Economics; Broderick Turner, Virginia Tech; Erick M. Mas, University of South Florida; Zeynep Arsel, Concordia University &lt;/p&gt; &lt;p&gt;AI companies are turning to advertising to fund expensive systems. But commercial incentives could influence how answers are generated.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/its-ok-if-managers-step-in-to-help-their-sales-staff-but-not-too-much-291745"&gt; It’s OK if managers step in to help their sales staff – but not too much &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Daniel E. Chavez, University of Tennessee &lt;/p&gt; &lt;p&gt;It’s fairly common for managers to intervene to help sales staff, but they have to balance competing duties.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Chart of the week&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/761596/original/resized_20260922-50-ucyzww.png?ixlib=rb-4.1.1&amp;amp;q=70&amp;amp;auto=format&amp;amp;w=900&amp;amp;fit=clip" alt="A map of the United States showing fuel prices by state."&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Trump and Xi: the touchy subjects on summit agenda</title>
+      <link>https://theconversation.com/trump-declares-victory-in-greenland-but-the-deal-exposes-a-deeper-crisis-of-trust-292440</link>
+      <guid isPermaLink="false">the-conversation:24d1381cdb3c3b6c</guid>
+      <pubDate>Tue, 22 Sep 2026 06:34:20 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Global daily</category>
+      <description>• Three Ts will dominate Trump-Xi summit – but expect little movement on trade, less on Taiwan and who knows on tech
+• Trump declares victory in Greenland, but the deal exposes a deeper crisis of trust</description>
+      <content:encoded>&lt;p&gt;It’s four months since Presidents Xi Jinping and Donald Trump had their last summit. When they meet again on Thursday the odds are that they will focus on trade, technology and Taiwan. &lt;/p&gt;
+&lt;p&gt;But will they be able to come to any sort of transformative agreement on any? Rana Mitter has his doubts given the difficulties underlying each of the issues as well as the fact that the leaders seem to have fundamentally incompatible agendas on all three topics.&lt;/p&gt;
+&lt;p&gt;After months of demanding the United States take “total control” over Greenland, Trump announced he had struck a deal with the governments of Greenland and Denmark. He declared the new security deal a personal triumph, but, as Shannon Brincat and Juan Cáceres write, Denmark and Greenland confirmed the deal in more subdued terms.&lt;/p&gt;
+&lt;p&gt;On the face of it, it seems like everyone wins: Trump gets to declare victory, Denmark and Greenland get to keep nominal sovereignty, and NATO avoids a rupture. But there is a more troubling reading, too – and it rings alarm bells for democracy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Caroline Southey&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Founding Editor, Africa&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/760975/original/file-20260920-50-a2zbbr.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C76%2C2145%2C1206&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;Three Ts will dominate Trump-Xi summit – but expect little movement on trade, less on Taiwan and who knows on tech&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Rana Mitter, Harvard Kennedy School&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Chinese and American leaders meet amid growing urgency over the issue of AI regulation.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/760956/original/file-20260920-50-dsrh5i.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C499%2C5808%2C3267&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/trump-declares-victory-in-greenland-but-the-deal-exposes-a-deeper-crisis-of-trust-292440"&gt;Trump declares victory in Greenland, but the deal exposes a deeper crisis of trust&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Shannon Brincat, University of the Sunshine Coast; Juan Zahir Naranjo Cáceres, University of the Sunshine Coast&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;When a loyal ally can be squeezed over land inside its own territory, collective defence starts to look like an open protection racket.&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/when-presidents-ban-journalists-from-the-white-house-the-first-amendment-is-not-the-only-constitutional-right-at-stake-292435"&gt; When presidents ban journalists from the White House, the First Amendment is not the only constitutional right at stake &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Wayne Unger, Quinnipiac University &lt;/p&gt; &lt;p&gt;When President Trump barred three news organizations from the White House, a lawsuit followed. In it, the news outlets invoked their Fifth and First amendments rights.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/as-war-in-the-middle-east-widens-saudi-arabias-new-defence-pact-could-face-a-major-test-292357"&gt; As war in the Middle East widens, Saudi Arabia’s new defence pact could face a major test &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Amin Saikal, Australian National University; The University of Western Australia; Victoria University &lt;/p&gt; &lt;p&gt;Saudi Arabia’s escalating conflict with the Houthis in Yemen will force its new defence partners Turkey and Pakistan to confront some difficult questions.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/calls-for-global-regulation-of-ai-are-growing-what-exactly-could-it-look-like-292243"&gt; Calls for global regulation of AI are growing. What exactly could it look like? &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Stan Karanasios, The University of Queensland &lt;/p&gt; &lt;p&gt;AI is a global technology. A global approach to regulating it is urgently needed.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/apples-new-watches-are-always-listening-292117"&gt; Apple’s new watches are always listening &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Luke Heemsbergen, Deakin University &lt;/p&gt; &lt;p&gt;Apple’s vision of constant recording that still ‘protects your privacy’ may help usher in a world where ambient surveillance is the norm.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Why AI labs push ahead despite doomsday talk</title>
+      <link>https://theconversation.com/we-really-do-earnestly-believe-ai-could-kill-all-humans-if-ai-labs-are-so-worried-about-ai-doom-why-dont-they-stop-291595</link>
+      <guid isPermaLink="false">the-conversation:1c045661d57f7022</guid>
+      <pubDate>Fri, 18 Sep 2026 13:03:45 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>AI weekly</category>
+      <description>• ‘We really do earnestly believe AI could kill all humans’: if AI labs are so worried about AI doom, why don’t they stop?
+• Russian team ‘misused’ Claude AI to train a killer drone on scraped Ukrainian war footage
+• No, AI systems don’t have a drive to survive – a developmental psychologist explains why it only looks that way
+• How AI could make us work even harder</description>
+      <content:encoded>&lt;p&gt;Experts have been warning for years that artificial intelligence could pose an existential threat to humanity, but this week marked a turning point, with even the CEOs of AI labs calling for a slowdown. What would that look like, and could nuclear proliferation pacts offer a model for regulating AI? Our experts offer analyses from different perspectives. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lead Story&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/759257/original/file-20260911-50-hweewd.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C5678%2C4050&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/we-really-do-earnestly-believe-ai-could-kill-all-humans-if-ai-labs-are-so-worried-about-ai-doom-why-dont-they-stop-291595"&gt;‘We really do earnestly believe AI could kill all humans’: if AI labs are so worried about AI doom, why don’t they stop?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Michael Noetel, The University of Queensland&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A powerful mix of hopes, fears and arms-race dynamics means AI companies won’t slow down unless they’re forced to.&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/is-the-nuclear-non-proliferation-pact-a-model-for-regulating-runaway-ai-292104"&gt; Is the nuclear non-proliferation pact a model for regulating runaway AI? &lt;/a&gt; &lt;/h4&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/tech-leaders-are-calling-for-an-ai-slowdown-but-what-would-that-mean-in-practice-291945"&gt; Tech leaders are calling for an ‘AI slowdown’ – but what would that mean in practice? &lt;/a&gt; &lt;/h4&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/the-decades-old-ai-alignment-problem-has-finally-become-a-reality-solving-it-wont-be-easy-289812"&gt; The decades-old ‘AI alignment problem’ has finally become a reality. Solving it won’t be easy &lt;/a&gt; &lt;/h4&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;AI firms already report signs of 'recursive self-improvement,' where each model helps to build a better successor. According to OpenAI’s chief scientist, models are improving faster than humans’ ability to control them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Military&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/760041/original/file-20260915-60-9y99.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C96%2C6000%2C3375&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/russian-team-misused-claude-ai-to-train-a-killer-drone-on-scraped-ukrainian-war-footage-291965"&gt;Russian team ‘misused’ Claude AI to train a killer drone on scraped Ukrainian war footage&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;John R. Heckman, Brock University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Visual footage — even that created by journalists and civilians to document conflict and hold nations accountable — can now become raw material for weapons development.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technology&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/759763/original/file-20260914-50-u68ixt.jpg?ixlib=rb-4.1.1&amp;amp;rect=87%2C0%2C3875%2C2179&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/no-ai-systems-dont-have-a-drive-to-survive-a-developmental-psychologist-explains-why-it-only-looks-that-way-290775"&gt;No, AI systems don’t have a drive to survive – a developmental psychologist explains why it only looks that way&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Peter J. Marshall, Temple University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In tests, some AI systems resisted being shut down. But an instinct to stay “alive” isn’t the reason they behaved that way.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Work&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/757461/original/file-20260902-50-kgrwkz.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C3840%2C2160&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/how-ai-could-make-us-work-even-harder-286688"&gt;How AI could make us work even harder&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Malte Jauch, University of Essex&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Automation may simply speed up the rat race.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>What a Houthi advance might mean</title>
+      <link>https://theconversation.com/houthi-advance-boosts-irans-leverage-over-the-us-and-saudi-arabia-but-may-cost-rebel-group-its-legitimacy-back-in-yemen-291930</link>
+      <guid isPermaLink="false">the-conversation:e33e80a12211f764</guid>
+      <pubDate>Fri, 18 Sep 2026 11:44:35 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Global daily</category>
+      <description>• Houthi advance boosts Iran’s leverage over the US and Saudi Arabia – but may cost rebel group its legitimacy back in Yemen
+• Africa’s Red Sea states face growing risks as Houthi rebels expand their reach
+• Rapid Houthi advances in Yemen pose massive strategic risks for Saudi Arabia in the Gulf
+• Russia’s parliamentary elections will not be a referendum on the Ukraine war – or anything, really
+• Why AI consciousness could become the next great societal divide
+• Wendell Berry spent his life farming and writing – his legacy is an ethic of care for the natural world</description>
+      <content:encoded>&lt;p&gt;Since 2022, an uneasy truce has largely kept a lid on the civil war in Yemen. But a rapid advance by the Houthis and tit-for-tat attacks with Saudi Arabia, which backs the Yemeni government in control of non-Houthi areas, risks reigniting that conflict. &lt;/p&gt;
+&lt;p&gt;Houthi control of the Bab el-Mandeb Strait also creates a further headache for the Gulf region, and establishes a second maritime chokehold accompanying Iran’s restrictions over the Strait of Hormuz. That, in turn, threatens global shipping and risks dragging more countries into the wider – and increasingly messy – Middle East conflict.&lt;/p&gt;
+&lt;p&gt;So what happens next? Gulf analyst Kristian Coates Ulrichsen notes there is “very little appetite in Riyadh for a new military operation in Yemen, especially since the Houthis are skilled in asymmetric combat and have far more advanced drone and other technological capabilities than they possessed during the previous rounds of conflict with Saudi Arabia.”&lt;/p&gt;
+&lt;p&gt;Yet there are risks for the Houthis, writes Mahad Darar. “It is one thing to take territory and quite another thing to hold it … the Houthis may now find themselves controlling a strait the world wants reopened while still lacking the one thing that strait was never going to buy them: a whole country that actually consents to their rule.”&lt;/p&gt;
+&lt;p&gt;Elsewhere this week we have been previewing the Russian parliamentary elections and asking: Are robotic vacuums spying on us?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Matt Williams&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Senior International Editor&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Top story&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/760309/original/file-20260916-50-buyyaa.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C424%2C4360%2C2452&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;p&gt;Yemen’s Houthi armed forces patrol the capital Sanaa on Sept. 12, 2026. Mohammed Huwaish/AFP via Getty Images&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/houthi-advance-boosts-irans-leverage-over-the-us-and-saudi-arabia-but-may-cost-rebel-group-its-legitimacy-back-in-yemen-291930"&gt;Houthi advance boosts Iran’s leverage over the US and Saudi Arabia – but may cost rebel group its legitimacy back in Yemen&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Mahad D. Darar, Colorado State University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Seizure of the Bab el-Mandeb Strait complicates a widening conflict in the Persian Gulf. It also risks reigniting Yemen’s civil war.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/760497/original/file-20260917-50-ujo9r7.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C345%2C3237%2C1618&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/africas-red-sea-states-face-growing-risks-as-houthi-rebels-expand-their-reach-292160"&gt;Africa’s Red Sea states face growing risks as Houthi rebels expand their reach&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Burak Şakir Şeker, Ankara Hacı Bayram Veli University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The African shoreline is now much more valuable to outsiders who want to monitor, contain or outflank the waterway opposite them.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/760203/original/file-20260916-60-xjz1e.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C42%2C1024%2C512&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/rapid-houthi-advances-in-yemen-pose-massive-strategic-risks-for-saudi-arabia-in-the-gulf-292070"&gt;Rapid Houthi advances in Yemen pose massive strategic risks for Saudi Arabia in the Gulf&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Kristian Coates Ulrichsen, Rice University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The resumption of fighting, paired with the ongoing closure of the Strait of Hormuz, complicates regional strategy and energy policy for the Gulf powerhouse.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/760433/original/file-20260917-50-9s2dpp.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C313%2C6000%2C3375&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/russias-parliamentary-elections-will-not-be-a-referendum-on-the-ukraine-war-or-anything-really-291445"&gt;Russia’s parliamentary elections will not be a referendum on the Ukraine war – or anything, really&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Alasdair McCallum, Monash University; Pete Lentini, Monash University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Russia is convening its first national parliamentary elections since invading Ukraine, which offer a great deal of predictability but also some unexpected surprises.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/759591/original/file-20260914-50-dgypml.jpeg?ixlib=rb-4.1.1&amp;amp;rect=0%2C585%2C5649%2C3055&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/why-ai-consciousness-could-become-the-next-great-societal-divide-291886"&gt;Why AI consciousness could become the next great societal divide&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Lucius Caviola, University of Cambridge&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Ideally, experts should guide this debate. Unfortunately, they disagree too.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/759978/original/file-20260915-50-k6dpf8.jpg?ixlib=rb-4.1.1&amp;amp;rect=423%2C0%2C2029%2C1141&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/wendell-berry-spent-his-life-farming-and-writing-his-legacy-is-an-ethic-of-care-for-the-natural-world-292047"&gt;Wendell Berry spent his life farming and writing – his legacy is an ethic of care for the natural world&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Hannah Green, University of Bristol&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Every reader, farmers and non-farmers alike, can learn from his broader ethics of care, attention and negotiation with the natural world.&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/thanks-trump-why-canada-may-become-the-european-unions-first-ever-associate-member-292059"&gt; Thanks, Trump: Why Canada may become the European Union’s first ever ‘associate member’ &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Stewart Prest, University of British Columbia &lt;/p&gt; &lt;p&gt;Canada has spent the last century defending European democracies. Now it’s asking them to return the favour.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/your-robotic-vacuum-is-a-witness-what-home-robots-mean-for-evidence-privacy-and-the-law-291849"&gt; Your robotic vacuum is a witness: What home robots mean for evidence, privacy and the law &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Henry F. Fradella, Arizona State University; George Grispos, Arizona State University; Jihun Joun, Arizona State University &lt;/p&gt; &lt;p&gt;Laws against surreptitiously recording someone extend to home devices like robot vacuums, but those recordings can still be used against you in court.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/3-african-wild-dogs-travelled-over-4-000km-to-find-mates-why-thats-good-news-for-the-endangered-species-289537"&gt; 3 African wild dogs travelled over 4,000km to find mates – why that’s good news for the endangered species &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Scott Creel, Montana State University &lt;/p&gt; &lt;p&gt;New GPS tracking on African wild dogs found they could travel long distances to find mates, but more than half did not survive the journey.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/history-is-being-rewritten-at-an-archaeological-site-in-morocco-what-the-discovery-of-an-ancient-wall-tells-us-278911"&gt; History is being rewritten at an archaeological site in Morocco. What the discovery of an ancient wall tells us &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Giulio Lucarini, National Research Council (CNR); Cyprian Broodbank, University of Cambridge; Toby C. Wilkinson, University of Cambridge &lt;/p&gt; &lt;p&gt;Communities in the north-west Maghreb were able to coordinate large construction projects thousands of years ago.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/the-international-olympic-committee-wants-mental-health-screening-in-elite-sports-heres-why-291981"&gt; The International Olympic Committee wants mental health screening in elite sports. Here’s why &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Rosemary Purcell, The University of Melbourne &lt;/p&gt; &lt;p&gt;The mythology of the bullet-proof athlete often obscures the reality of elite sport’s mental toll.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/how-a-traditional-nordic-way-of-eating-could-help-you-live-longer-282282"&gt; How a traditional Nordic way of eating could help you live longer &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Daniel Borch Ibsen, Aarhus University; Christina C. Dahm, Aarhus University; Michael Fridén, Aarhus University &lt;/p&gt; &lt;p&gt;Adopting a Nordic diet could cut your risk of heart disease and diabetes.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Why Trump is always reassessing America's value</title>
+      <link>https://theconversation.com/how-portfolio-reasoning-explains-trumps-constant-reevaluation-of-americas-value-290121</link>
+      <guid isPermaLink="false">the-conversation:581d0a7c77b854e7</guid>
+      <pubDate>Wed, 16 Sep 2026 13:04:49 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Business weekly</category>
+      <description>• How ‘portfolio reasoning’ explains Trump’s constant reevaluation of America’s value
+• Employers look for resilient staff – then leave them to burn out
+• AI is supercharging money scams – here’s what you can do to protect yourself
+• Why big tech will hate the Australian tax office’s latest ruling
+• When a bet may not be gambling – the puzzle of prediction markets
+• How soybeans took over the American diet – without anyone noticing</description>
+      <content:encoded>&lt;p&gt;There’s no shortage of theories that try to explain U.S. President Donald Trump. But what if his actions can be understood from the decades he spent as a real estate developer trying to maximize the value of his properties?&lt;/p&gt;
+&lt;p&gt;That approach, according to Penn State University’s Chris Spielvogel, can explain a lot. Dubbed “portfolio theory” by economists, it’s a way of thinking that treats what one has – from property to obligations – as a collection of holdings to be continually managed and reassessed to maximize their value. It’s how Trump ran his real estate empire, and the presidency has let him apply it on a far grander scale, Spielvogel argues.&lt;/p&gt;
+&lt;p&gt;“The soaring stock market, foreign investment growth and more tariff revenue become proof of the United States’ rising value,” writes Spielvogel, a communications scholar. “Alliances, treaties and obligations become holdings whose worth depends on maximizing their returns through continuous renegotiation.” This mindset also explains why Trump has often fixated on acquisition, from Greenland to Venezuela’s oil assets to government shares in companies.&lt;/p&gt;
+&lt;p&gt;One question remains: With U.S. midterm elections looming, how much will this theory be tested by the limits of democratic governance? As Spielvogel notes, “Democratic commitments have no privileged place in its financial calculations.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Helen Fessenden&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Senior Economy and Business Editor, The Conversation US &lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/759727/original/file-20260914-50-lrxtok.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C55%2C2512%2C1413&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/how-portfolio-reasoning-explains-trumps-constant-reevaluation-of-americas-value-290121"&gt;How ‘portfolio reasoning’ explains Trump’s constant reevaluation of America’s value&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;J. Christian Spielvogel, Penn State&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Trump has approached governing through the same framework as his former business portfolio, where he casts the US as a flagship holding whose value he was elected to increase.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Essential briefings&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/755959/original/file-20260825-60-jvp05q.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C150%2C999%2C499&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/employers-look-for-resilient-staff-then-leave-them-to-burn-out-290463"&gt;Employers look for resilient staff – then leave them to burn out&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Laura Chamberlain, Warwick Business School, University of Warwick&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Resilience in the workplace is valued in a crisis, but how many firms do anything to develop resilient workers?&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/759167/original/file-20260910-50-nmw00r.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C125%2C5000%2C2500&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/ai-is-supercharging-money-scams-heres-what-you-can-do-to-protect-yourself-291326"&gt;AI is supercharging money scams – here’s what you can do to protect yourself&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Pawan Jain, University of Michigan Flint&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Good habits by consumers can stymie scams, but US regulations have fallen behind the technology.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/759005/original/file-20260910-50-ua27yu.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C900%2C5999%2C2999&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/why-big-tech-will-hate-the-australian-tax-offices-latest-ruling-291571"&gt;Why big tech will hate the Australian tax office’s latest ruling&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Kerrie Sadiq, Queensland University of Technology&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Australia’s laws don’t deal with all the ways local profits are shifted offshore. The ATO aims to close that gap.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/759118/original/file-20260910-50-5fqhle.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C48%2C999%2C499&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/when-a-bet-may-not-be-gambling-the-puzzle-of-prediction-markets-291707"&gt;When a bet may not be gambling – the puzzle of prediction markets&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Filippo Annunziata, Bocconi University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Prediction markets offer the chance to speculate on the outcome of a sports match or election.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quote of the week&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Soy conquered America not because Americans craved the bean, but because it was remarkably versatile. Its protein could feed a chicken or a pig, its oil could fry French fries or propel a truck, and its lecithin could emulsify chocolate or mayonnaise. It could ship easily, too.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;—&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Edward D. Melillo, Professor of History and Environmental Studies, Amherst College&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/how-soybeans-took-over-the-american-diet-without-anyone-noticing-290915"&gt;How soybeans took over the American diet – without anyone noticing&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Consumers&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/the-tourism-industry-is-slowly-waking-up-to-solo-travelers-needs-291494"&gt; The tourism industry is slowly waking up to solo travelers’ needs &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Peter McGraw, University of Colorado Boulder &lt;/p&gt; &lt;p&gt;More and more travelers want the freedom of going it alone, but with connections and activities with other people.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Inequality&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/canadas-fast-delivery-comes-at-a-cost-for-migrant-truck-drivers-289577"&gt; Canada’s fast delivery comes at a cost for migrant truck drivers &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Émile Baril, Concordia University; Juliana Tinoco Sampedro, Concordia University &lt;/p&gt; &lt;p&gt;Low freight rates, unpaid working time and immigration rules can leave some drivers with little room to push back against difficult working conditions.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Economy&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/australias-female-economists-have-been-making-history-for-nearly-150-years-its-time-we-knew-their-stories-289297"&gt; Australia’s female economists have been making history for nearly 150 years. It’s time we knew their stories &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Duygu Yengin, Adelaide University &lt;/p&gt; &lt;p&gt;In a stubbornly male dominated field, how brilliant did a woman have to be to succeed?&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Personal Finance&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/buy-now-pay-later-doesnt-feel-like-debt-for-young-people-that-can-be-a-big-problem-291149"&gt; ‘Buy now, pay later’ doesn’t feel like debt. For young people, that can be a big problem &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Aaron Gilbert, Auckland University of Technology; Ayesha Scott, Griffith University; Qian Wang, Auckland University of Technology; Sommer Kapitan, Auckland University of Technology &lt;/p&gt; &lt;p&gt;A survey of young New Zealanders finds four in ten didn’t view buy now, pay later as debt. That perception can influence how they use it.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Technology&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/what-the-settlement-left-out-meta-can-still-collect-data-from-kids-291130"&gt; What the settlement left out: Meta can still collect data from kids &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Randolph A Robinson II, University of Illinois Chicago &lt;/p&gt; &lt;p&gt;The settlement calls for changes to Meta’s platforms but does not change the company’s surveillance-based business model&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/ai-has-arrived-in-south-africas-boardrooms-but-company-law-hasnt-caught-up-291004"&gt; AI has arrived in South Africa’s boardrooms – but company law hasn’t caught up &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Rehana Cassim, University of South Africa &lt;/p&gt; &lt;p&gt;Clear rules are urgently needed to prevent a legal vacuum in South African boardrooms.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Transportation&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/africas-air-travel-is-reliant-on-distant-hubs-why-its-time-to-fix-this-288049"&gt; Africa’s air travel is reliant on distant hubs: why it’s time to fix this &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Arthur Shirichena, University of Manchester &lt;/p&gt; &lt;p&gt;The war against Iran has exposed Africa’s dependence on external transit hubs for international and even intra-African connectivity.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Labor&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/to-crack-the-job-market-internships-can-be-just-as-key-for-young-people-as-the-degree-288647"&gt; To crack the job market, internships can be just as key for young people as the degree &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Matthew J. Mayhew, The Ohio State University; Courtney DeRoche, The Ohio State University; Yun-Han Weng, The Ohio State University &lt;/p&gt; &lt;p&gt;Job preparation through internships matters more than ever for young people amid a precarious and fast-changing job market.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Chart of the week&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/760066/original/file-20260915-50-1zqcpt.PNG?ixlib=rb-4.1.1&amp;amp;q=70&amp;amp;auto=format&amp;amp;w=900&amp;amp;fit=clip" alt="A chart showing the fate of 29 US based science publications."&gt;</content:encoded>
+    </item>
+    <item>
+      <title>China's interest in humanoid robots for war</title>
+      <link>https://theconversation.com/china-is-exploring-humanoid-robots-for-war-but-what-role-could-they-play-291813</link>
+      <guid isPermaLink="false">the-conversation:98bca2e83aa350f4</guid>
+      <pubDate>Tue, 15 Sep 2026 06:32:46 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Global daily</category>
+      <description>• China is exploring humanoid robots for war – but what role could they play?
+• Africa’s air travel is reliant on distant hubs: why it’s time to fix this</description>
+      <content:encoded>&lt;p&gt;Incredible progress is being made in the field of humanoid robotics and it seems China’s military has now taken an interest. On the open battlefield, armed robots that move on tracks (a bit like a tank) are more stable and manoeuvrable. But in urban settings humanoid robots would have the advantage because they could replace humans in certain dangerous situations, like liberating hostages or neutralising booby traps. They could even navigate a staircase. &lt;/p&gt;
+&lt;p&gt;Robotics researcher Kartikeya Walia examines the issue and says there needs to be an urgent international conversation about how to control them.&lt;/p&gt;
+&lt;p&gt;Direct flights between most African countries remain limited, forcing many travellers to go through external transit hubs to get into another African country. This reliance on Dubai, Doha, Abu Dhabi, Istanbul or Europe is costly. First, it makes Africa’s air travel vulnerable to geopolitical events. Second, it is inefficient. Arthur Shirichena suggests how the problem can be fixed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paul Rincon&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Commissioning Editor, Science, Technology and Business &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Top story&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/759396/original/file-20260911-60-ff70jd.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C313%2C5997%2C3373&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;p&gt;Humanoid robots parade during the 2026 World Humanoid Robot Games opening ceremony. Wu Hao / EPA Images&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/china-is-exploring-humanoid-robots-for-war-but-what-role-could-they-play-291813"&gt;China is exploring humanoid robots for war – but what role could they play?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Kartikeya Walia, Nottingham Trent University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The People’s Liberation Army called for researchers to accelerate progress on building humanoid robots designed for military uses.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/758098/original/file-20260905-50-j8en2.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C541%2C5184%2C2916&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;p&gt;&lt;strong&gt;Jeffry Surianto via Pexels&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/africas-air-travel-is-reliant-on-distant-hubs-why-its-time-to-fix-this-288049"&gt;Africa’s air travel is reliant on distant hubs: why it’s time to fix this&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Arthur Shirichena, University of Manchester&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The war against Iran has exposed Africa’s dependence on external transit hubs for international and even intra-African connectivity.&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/why-the-supreme-court-blocked-trump-and-the-postal-service-from-restricting-mail-in-voting-for-the-midterms-291319"&gt; Why the Supreme Court blocked Trump and the Postal Service from restricting mail-in voting for the midterms &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; John J. Martin, Quinnipiac University &lt;/p&gt; &lt;p&gt;An election law scholar explains the president’s effort to dramatically limit mail voting ahead of the midterm elections – and why the court decided to block it.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/banking-scandal-rocks-brazils-politics-and-the-countrys-presidential-election-in-october-291931"&gt; Banking scandal rocks Brazil’s politics and the country’s presidential election in October &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Guilherme Casarões, Florida International University &lt;/p&gt; &lt;p&gt;After ten months of investigation, the Banco Master case points to banker Daniel Vorcaro managing to take the country’s political system hostage.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/big-ai-wants-to-slow-down-ai-research-is-it-a-safety-pause-or-a-strategic-retreat-291867"&gt; Big AI wants to slow down AI research. Is it a safety pause or a strategic retreat? &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Andrew Cullen, The University of Melbourne &lt;/p&gt; &lt;p&gt;AI companies are calling for a coordinated pause to progress – but making it work, and keeping AI safe, won’t be easy.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/new-world-map-makes-africa-look-bigger-whats-the-fuss-about-cartographers-explain-291691"&gt; New world map makes Africa look bigger: what’s the fuss about? Cartographers explain &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Jack Swab, University of Tennessee; Derek H. Alderman, University of Tennessee &lt;/p&gt; &lt;p&gt;Correcting the mental map of global leaders is an important step in amplifying Africa’s relevance and rights.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/houthi-rebels-control-of-red-sea-oil-chokepoint-exposes-deep-divisions-in-brics-291576"&gt; Houthi rebels’ control of Red Sea oil chokepoint exposes deep divisions in Brics &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Stefan Wolff, University of Birmingham &lt;/p&gt; &lt;p&gt;Rapid expansion of the bloc means that its 21 members have deeply divergent interests, particularly in the Middle East.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/how-anti-bribery-laws-apply-to-trumps-promise-of-5-000-payments-if-republicans-keep-control-of-congress-291722"&gt; How anti-bribery laws apply to Trump’s promise of $5,000 payments if Republicans keep control of Congress &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Austin Sarat, Amherst College &lt;/p&gt; &lt;p&gt;Bribery involves offering money to a particular person, but Trump did not make his $5,000 offer to any single voter or set of voters.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/receipts-memes-and-supermarket-shelves-how-iranians-are-documenting-the-economic-cost-of-war-online-291267"&gt; Receipts, memes and supermarket shelves: how Iranians are documenting the economic cost of war online &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Hamideh Khaleghi Mohammadi, University of Sydney; Ali Abbasi, University of Sydney &lt;/p&gt; &lt;p&gt;With food inflation over 128%, ordinary households are seeing – and documenting – the impact of sanctions at the checkout.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Why AI skin cancer tools fail on darker skin</title>
+      <link>https://theconversation.com/ai-skin-cancer-detection-tools-are-getting-better-but-only-for-people-with-light-skin-289717</link>
+      <guid isPermaLink="false">the-conversation:d2cb6d23fd798042</guid>
+      <pubDate>Fri, 11 Sep 2026 11:23:50 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>AI weekly</category>
+      <description>• AI skin cancer detection tools are getting better – but only for people with light skin
+• OpenAI claims another huge mathematical result amid fights over credit, ethics and privacy
+• New EU laws make AI content labels compulsory – but might just make it harder to spot deepfakes
+• AI agents can now remember and hackers can ‘poison’ their memories — a new cybersecurity threat
+• AI is helping ease competition for scarce space on the airwaves</description>
+      <content:encoded>&lt;p&gt;Artificial intelligence-based systems are making great progress in spotting warnings for skin cancer, but their training has left a major blind spot for people with dark skin. This week, we also learn about the EU’s new regulation to watermark AI-generated content and an emerging AI-based security risk known as “memory poisoning.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lead Story&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/757617/original/file-20260902-50-8vfzmv.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C6720%2C3780&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/ai-skin-cancer-detection-tools-are-getting-better-but-only-for-people-with-light-skin-289717"&gt;AI skin cancer detection tools are getting better – but only for people with light skin&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Mohamed Akrout, University of Tennessee&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;These apps and software programs could provide access to lifesaving screening – if researchers can find a way to remove the baked-in bias.&lt;/p&gt;
+&lt;p&gt;Today, the medical AI field is at a crossroads. While some of these AI skin-scanning tools are already making their way into clinics and app stores for use in the U.S. and around the world, researchers and regulators are already pushing for stricter testing across all skin tones before these tools are widely deployed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Science&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/759008/original/file-20260910-50-7lw4zs.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C191%2C7000%2C3937&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/openai-claims-another-huge-mathematical-result-amid-fights-over-credit-ethics-and-privacy-291575"&gt;OpenAI claims another huge mathematical result amid fights over credit, ethics and privacy&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Andrew Cullen, The University of Melbourne&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI found a solution to the long-standing Navier-Stokes problem. Not everyone is happy about how they did it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Regulation&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/754009/original/file-20260814-50-88hy22.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C703%2C4400%2C2475&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/new-eu-laws-make-ai-content-labels-compulsory-but-might-just-make-it-harder-to-spot-deepfakes-289597"&gt;New EU laws make AI content labels compulsory – but might just make it harder to spot deepfakes&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Rory Mulcahy, University of the Sunshine Coast; Aimee Riedel, Griffith University; Lucas Whittaker, Swinburne University of Technology; Renee Barnes, University of the Sunshine Coast&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Labels alone won’t be enough to tackle the rise of deepfakes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cybersecurity&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/757357/original/file-20260901-50-rup0yy.jpg?ixlib=rb-4.1.1&amp;amp;rect=3%2C0%2C3641%2C2048&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/ai-agents-can-now-remember-and-hackers-can-poison-their-memories-a-new-cybersecurity-threat-290024"&gt;AI agents can now remember and hackers can ‘poison’ their memories — a new cybersecurity threat&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Abbas Yazdinejad, University of Regina&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Memory makes AI agents more useful, but it can also allow malicious instructions to remain hidden and influence decisions long after an attack.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technology&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/757869/original/file-20260903-50-gmszrf.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C451%2C8640%2C4860&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/ai-is-helping-ease-competition-for-scarce-space-on-the-airwaves-267519"&gt;AI is helping ease competition for scarce space on the airwaves&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Aylin Yener, The Ohio State University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Radio spectrum is a critical but limited resource, but advances in technology are making it possible to share.&lt;/p&gt;</content:encoded>
+    </item>
+  </channel>
+</rss>

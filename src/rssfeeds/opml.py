@@ -11,6 +11,7 @@ from __future__ import annotations
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
+from . import private
 from .registry import EXTERNAL_DEFAULTS, FEEDS
 
 # (folder, title, feed url, site url)
@@ -58,4 +59,5 @@ def write_opml(docs: Path) -> None:
         path = docs / name
         data = render_opml(title, entries)
         if not path.exists() or path.read_bytes() != data:
+            private.ensure_clean(data.decode("utf-8"), path.name)
             path.write_bytes(data)

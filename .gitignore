@@ -4,3 +4,6 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 pytest-of-yulong/
+# Private newsletter inbox IDs; see src/rssfeeds/private.py
+feeds.local.json
+.env

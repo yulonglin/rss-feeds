@@ -19,6 +19,11 @@
     <outline text="Newsletters" title="Newsletters">
       <outline text="TLDR AI" title="TLDR AI" type="rss" xmlUrl="https://feeds.yulonglin.com/tldr-ai.xml" htmlUrl="https://tldr.tech/ai" />
       <outline text="Tangle - the good parts" title="Tangle - the good parts" type="rss" xmlUrl="https://feeds.yulonglin.com/tangle.xml" htmlUrl="https://www.readtangle.com/" />
+      <outline text="Scholar Inbox - daily paper digest" title="Scholar Inbox - daily paper digest" type="rss" xmlUrl="https://feeds.yulonglin.com/scholar-inbox.xml" htmlUrl="https://www.scholar-inbox.com/" />
+      <outline text="The Conversation - newsletters" title="The Conversation - newsletters" type="rss" xmlUrl="https://feeds.yulonglin.com/the-conversation.xml" htmlUrl="https://theconversation.com/global/newsletters" />
+      <outline text="AI Digest" title="AI Digest" type="rss" xmlUrl="https://feeds.yulonglin.com/ai-digest.xml" htmlUrl="https://theaidigest.org/" />
+      <outline text="Project Syndicate" title="Project Syndicate" type="rss" xmlUrl="https://feeds.yulonglin.com/project-syndicate.xml" htmlUrl="https://www.project-syndicate.org/" />
+      <outline text="Gates Notes" title="Gates Notes" type="rss" xmlUrl="https://feeds.yulonglin.com/gates-notes.xml" htmlUrl="https://www.gatesnotes.com/" />
     </outline>
   </body>
 </opml>

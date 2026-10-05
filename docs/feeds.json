@@ -1,7 +1,7 @@
 {
   "site": "https://feeds.yulonglin.com/",
   "repo": "https://github.com/yulonglin/rss-feeds",
-  "generated": "2026-10-03",
+  "generated": "2026-10-05",
   "feeds": [
     {
       "slug": "openai-alignment-research",
@@ -169,6 +169,76 @@
       "notes": "",
       "items": 4,
       "newest": "2026-10-01",
+      "healthy": true
+    },
+    {
+      "slug": "scholar-inbox",
+      "title": "Scholar Inbox - daily paper digest",
+      "description": "Scholar Inbox's daily digest of recommended papers, one entry per day, each paper with its title, authors, venue and relevance score, the title linking to a public arXiv or Google Scholar search.",
+      "org": "Scholar Inbox",
+      "feed_url": "https://feeds.yulonglin.com/scholar-inbox.xml",
+      "source_name": "Scholar Inbox",
+      "source_url": "https://www.scholar-inbox.com/",
+      "upstream_status": "Email only. Each digest is a stack of styled table cards, titled with an ambiguous dd/mm date, and every link in it is a personal auto-login link.",
+      "notes": "Rebuilt from each paper's fields; nothing from the email's markup or links is kept.",
+      "items": 16,
+      "newest": "2026-10-02",
+      "healthy": true
+    },
+    {
+      "slug": "the-conversation",
+      "title": "The Conversation - newsletters",
+      "description": "The Conversation's Global daily, AI weekly and business weekly newsletters, flattened to the editor's note and each story's section, image, headline, byline and standfirst, with every headline linked straight to its article. Entries are tagged with which newsletter they came from.",
+      "org": "The Conversation",
+      "feed_url": "https://feeds.yulonglin.com/the-conversation.xml",
+      "source_name": "The Conversation newsletters",
+      "source_url": "https://theconversation.com/global/newsletters",
+      "upstream_status": "Email only. Nested layout tables, logos, a tracking pixel and footers, and every link wrapped in a per-recipient click tracker.",
+      "notes": "A headline that cannot be matched to its article by exact title is left unlinked rather than pointed at the tracker.",
+      "items": 13,
+      "newest": "2026-10-02",
+      "healthy": true
+    },
+    {
+      "slug": "ai-digest",
+      "title": "AI Digest",
+      "description": "AI Digest's email updates. Held empty for now: issues are published only once a real one has been reviewed and its links and images can be allowlisted.",
+      "org": "AI Digest",
+      "feed_url": "https://feeds.yulonglin.com/ai-digest.xml",
+      "source_name": "theaidigest.org",
+      "source_url": "https://theaidigest.org/",
+      "upstream_status": "Email only; no feed of any kind upstream.",
+      "notes": "Empty until an issue has been reviewed and its formatter enabled.",
+      "items": 0,
+      "newest": null,
+      "healthy": true
+    },
+    {
+      "slug": "project-syndicate",
+      "title": "Project Syndicate",
+      "description": "Project Syndicate commentary, each entry with its lead image and photo credit, the summary, the full byline and a clean link to the article. The articles themselves are paywalled and are not reproduced.",
+      "org": "Project Syndicate",
+      "feed_url": "https://feeds.yulonglin.com/project-syndicate.xml",
+      "source_name": "project-syndicate.org",
+      "source_url": "https://www.project-syndicate.org/",
+      "upstream_status": "Official /rss is valid but summary-only, keeps the image in an enclosure most readers ignore, tags every link with utm tracking and credits only the first author of co-written pieces.",
+      "notes": "",
+      "items": 20,
+      "newest": "2026-10-02",
+      "healthy": true
+    },
+    {
+      "slug": "gates-notes",
+      "title": "Gates Notes",
+      "description": "Bill Gates's essays from Gates Notes with the full text of each, including pull quotes, images and photo essays, tagged with the site's own topics.",
+      "org": "Gates Notes",
+      "feed_url": "https://feeds.yulonglin.com/gates-notes.xml",
+      "source_name": "gatesnotes.com",
+      "source_url": "https://www.gatesnotes.com/",
+      "upstream_status": "The old /home/rss feed is gone, and every gatesnotes.com page answers scripts with a 403. Read from the content API the site itself is built from.",
+      "notes": "",
+      "items": 20,
+      "newest": "2026-08-26",
       "healthy": true
     }
   ]

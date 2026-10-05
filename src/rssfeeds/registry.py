@@ -39,6 +39,12 @@ class FeedSpec:
     # Refuse a refresh that drops below 60% of the previous item count. Off for feeds
     # that mirror a short sliding window, where a quiet week legitimately shrinks them.
     shrink_guard: bool = True
+    # Publish a valid feed with no items rather than failing, for a newsletter inbox that
+    # has not received its first issue yet.
+    allow_empty: bool = False
+    # Built from one of Yulong's own email inboxes: held to the strict leak check, and
+    # failed alone (keeping its last XML) when the inbox config is missing or malformed.
+    email: bool = False
     # In the recommended set published as subscriptions.opml, under this folder.
     default: bool = False
     folder: str = "AI safety"
@@ -60,6 +66,11 @@ METR_BLOG = "https://metr.org/"
 DARIO = "https://darioamodei.com/"
 TLDR_AI = "https://tldr.tech/ai"
 TANGLE = "https://www.readtangle.com/"
+AI_DIGEST = "https://theaidigest.org/"
+SCHOLAR_INBOX = "https://www.scholar-inbox.com/"
+CONVERSATION = "https://theconversation.com/global/newsletters"
+PROJECT_SYNDICATE = "https://www.project-syndicate.org/"
+GATES_NOTES = "https://www.gatesnotes.com/"
 
 FEEDS: list[FeedSpec] = [
     FeedSpec(
@@ -247,6 +258,116 @@ FEEDS: list[FeedSpec] = [
         upstream_status=(
             "Official /rss/ is complete but interleaves the daily with video and podcast "
             "teasers, paywalled previews, recaps, reader essays and sponsor cards."
+        ),
+        default=True,
+        folder="Newsletters",
+    ),
+]
+
+# Email-only newsletters arrive in private kill-the-newsletter inboxes; see private.py for
+# why their addresses are never committed and where they are read from.
+FEEDS += [
+    FeedSpec(
+        slug="scholar-inbox",
+        email=True,
+        title="Scholar Inbox - daily paper digest",
+        description=(
+            "Scholar Inbox's daily digest of recommended papers, one entry per day, each paper "
+            "with its title, authors, venue and relevance score, the title linking to a public "
+            "arXiv or Google Scholar search."
+        ),
+        org="Scholar Inbox",
+        source_name="Scholar Inbox",
+        source_url=SCHOLAR_INBOX,
+        sources=("scholar_inbox",),
+        shrink_guard=False,
+        upstream_status=(
+            "Email only. Each digest is a stack of styled table cards, titled with an "
+            "ambiguous dd/mm date, and every link in it is a personal auto-login link."
+        ),
+        notes="Rebuilt from each paper's fields; nothing from the email's markup or links is kept.",
+        default=True,
+        folder="Newsletters",
+    ),
+    FeedSpec(
+        slug="the-conversation",
+        email=True,
+        title="The Conversation - newsletters",
+        description=(
+            "The Conversation's Global daily, AI weekly and business weekly newsletters, "
+            "flattened to the editor's note and each story's section, image, headline, byline "
+            "and standfirst, with every headline linked straight to its article. Entries are "
+            "tagged with which newsletter they came from."
+        ),
+        org="The Conversation",
+        source_name="The Conversation newsletters",
+        source_url=CONVERSATION,
+        sources=("the_conversation",),
+        shrink_guard=False,
+        upstream_status=(
+            "Email only. Nested layout tables, logos, a tracking pixel and footers, and every "
+            "link wrapped in a per-recipient click tracker."
+        ),
+        notes=(
+            "A headline that cannot be matched to its article by exact title is left unlinked "
+            "rather than pointed at the tracker."
+        ),
+        default=True,
+        folder="Newsletters",
+    ),
+    FeedSpec(
+        slug="ai-digest",
+        email=True,
+        title="AI Digest",
+        description=(
+            "AI Digest's email updates. Held empty for now: issues are published only once a "
+            "real one has been reviewed and its links and images can be allowlisted."
+        ),
+        org="AI Digest",
+        source_name="theaidigest.org",
+        source_url=AI_DIGEST,
+        sources=("ai_digest",),
+        shrink_guard=False,
+        allow_empty=True,
+        upstream_status="Email only; no feed of any kind upstream.",
+        notes="Empty until an issue has been reviewed and its formatter enabled.",
+        default=True,
+        folder="Newsletters",
+    ),
+    FeedSpec(
+        slug="project-syndicate",
+        title="Project Syndicate",
+        description=(
+            "Project Syndicate commentary, each entry with its lead image and photo credit, "
+            "the summary, the full byline and a clean link to the article. The articles "
+            "themselves are paywalled and are not reproduced."
+        ),
+        org="Project Syndicate",
+        source_name="project-syndicate.org",
+        source_url=PROJECT_SYNDICATE,
+        sources=("project_syndicate",),
+        upstream_status=(
+            "Official /rss is valid but summary-only, keeps the image in an enclosure most "
+            "readers ignore, tags every link with utm tracking and credits only the first "
+            "author of co-written pieces."
+        ),
+        default=True,
+        folder="Newsletters",
+    ),
+    FeedSpec(
+        slug="gates-notes",
+        title="Gates Notes",
+        description=(
+            "Bill Gates's essays from Gates Notes with the full text of each, including pull "
+            "quotes, images and photo essays, tagged with the site's own topics."
+        ),
+        org="Gates Notes",
+        source_name="gatesnotes.com",
+        source_url=GATES_NOTES,
+        sources=("gates_notes",),
+        upstream_status=(
+            "The old /home/rss feed is gone, and every gatesnotes.com page answers scripts "
+            "with a 403. Read from the content API the site itself is built from."
         ),
         default=True,
         folder="Newsletters",
