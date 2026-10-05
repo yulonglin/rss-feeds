@@ -848,8 +848,34 @@ def test_malformed_inbox_config_fails_only_the_email_feeds(raw, tmp_path, monkey
         else:
             assert b"Kept" in (docs / spec.filename).read_bytes(), spec.slug
     out = capsys.readouterr()
-    assert "abcdef1234567890abcd" not in out.out + out.err
+    assert "abcdef1234567890abcd" not in _unmasked(out.out + out.err)
     assert "KTN_FEEDS" in out.out
+
+
+def _unmasked(log: str) -> str:
+    """The log minus GitHub's ::add-mask:: commands, which the runner consumes and never
+    shows, and which must name the value they mask. Everything else is checked as is."""
+    return "\n".join(line for line in log.splitlines() if not line.startswith("::add-mask::"))
+
+
+def test_on_github_actions_every_inbox_id_is_masked(monkeypatch, capsys) -> None:
+    """With GITHUB_ACTIONS=true each configured ID, and each ID-shaped string in a config
+    too malformed to parse, is registered as a mask before anything else can print it."""
+    from rssfeeds import private
+
+    monkeypatch.setenv("GITHUB_ACTIONS", "true")
+    for raw, expected in [
+        (f'{{"scholar-inbox": "{FAKE_INBOX}"}}', {FAKE_INBOX}),
+        ('["abcdef1234567890abcd"]', {"abcdef1234567890abcd"}),
+    ]:
+        monkeypatch.setenv(private.ENV_VAR, raw)
+        private.config.cache_clear()
+        try:
+            private.config()
+        finally:
+            private.config.cache_clear()
+        out = capsys.readouterr().out
+        assert {line.removeprefix("::add-mask::") for line in out.splitlines()} == expected
 
 
 def test_linearize_strips_layout_and_tracking() -> None:
