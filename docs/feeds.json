@@ -29,7 +29,7 @@
       "notes": "",
       "items": 3,
       "newest": "2026-09-11",
-      "healthy": false
+      "healthy": true
     },
     {
       "slug": "openai-alignment-reports",
@@ -40,10 +40,10 @@
       "source_name": "Misalignment Reports",
       "source_url": "https://alignment.openai.com/misalignment-reports/",
       "upstream_status": "No feed of any kind upstream.",
-      "notes": "Upstream shows only a last-updated date, so each entry keeps the date this generator first saw it and does not jump back to the top when edited.",
+      "notes": "New reports use First posted; each entry keeps the date this generator first saw it and does not jump back to the top when edited.",
       "items": 12,
       "newest": "2026-10-02",
-      "healthy": false
+      "healthy": true
     },
     {
       "slug": "openai-alignment-all",
@@ -57,7 +57,7 @@
       "notes": "",
       "items": 43,
       "newest": "2026-10-02",
-      "healthy": false
+      "healthy": true
     },
     {
       "slug": "openai-alignment-all-50",
@@ -71,7 +71,7 @@
       "notes": "",
       "items": 43,
       "newest": "2026-10-02",
-      "healthy": false
+      "healthy": true
     },
     {
       "slug": "openai-system-cards",
