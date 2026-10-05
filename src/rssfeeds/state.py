@@ -11,7 +11,7 @@ from .models import Item
 class FirstSeen:
     """Stamps undated entries with the date this tool first observed them.
 
-    Some sources (OpenAI's misalignment Reports) publish no date at all. Using the
+    Some sources historically published no date at all. Using the
     current time each run would make every entry look new at every refresh. Instead the
     first run that sees a guid records today's date and commits it; later runs reuse it.
     """
