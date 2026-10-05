@@ -35,6 +35,7 @@ WHY = """## Why each feed exists
 | The Conversation | none (email only) | Layout tables, logos, a tracking pixel and footers, with every link, headlines included, behind a per-recipient click tracker. |
 | AI Digest | none (email only) | An HTML email, not a feed. |
 | Project Syndicate | `project-syndicate.org/rss` | Summary only, the image hidden in an enclosure, utm tracking on every link, and only the first author of co-written pieces. |
+| Gates Notes | `gatesnotes.com/home/rss` | Gone, and every gatesnotes.com page answers scripts with a 403. |
 """
 
 NOTES = """## Things worth knowing
@@ -47,6 +48,7 @@ NOTES = """## Things worth knowing
 - **Non-English filtering matches the shape of a locale segment**, not a fixed list, so a language METR adds later is dropped without a code change.
 - **Email-only newsletters come from private inboxes whose addresses are never committed.** A kill-the-newsletter inbox's feed URL is also its address, so the IDs are read at build time from the `KTN_FEEDS` repository secret (JSON mapping slug to inbox ID), or locally from a gitignored `feeds.local.json` shaped like `feeds.local.example.json`. Every feed is checked before it is written: one containing an inbox ID, any link to the inbox service, Scholar Inbox's login key or The Conversation's click tracker is refused, and the run goes red.
 - **The Conversation's headlines are linked by exact title**, matched first against the site's regional Atom feeds and then its search, because the email's own links are per-recipient trackers. Matches are kept in `state/conversation_links.json`; a headline that cannot be matched stays unlinked and is retried next run.
+- **Gates Notes is read from the content API the site is built from** (a public Kontent.ai delivery endpoint), since gatesnotes.com itself refuses scripted requests.
 - **GitHub disables scheduled workflows after 60 days of repository inactivity.** Each successful refresh commits, which resets that counter; a long stretch with no new posts anywhere is the one way this could quietly stop.
 
 ## Running it locally

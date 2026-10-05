@@ -424,6 +424,7 @@ def test_collect_isolates_a_source_that_raises(monkeypatch, tmp_path) -> None:
     monkeypatch.setattr(build.scholar_src, "scholar_inbox", lambda: ok)
     monkeypatch.setattr(build.conversation_src, "the_conversation", lambda _p: ok)
     monkeypatch.setattr(build.ps_src, "project_syndicate", lambda _p: ok)
+    monkeypatch.setattr(build.gates_src, "gates_notes", lambda: ok)
     monkeypatch.setattr(tangle_src, "tangle", boom)
 
     results = build.collect(FirstSeen(tmp_path / "s.json"))
@@ -712,3 +713,41 @@ def test_project_syndicate_item_is_rebuilt(tmp_path, monkeypatch) -> None:
     # The byline is cached, so a later run that cannot reach the page keeps it.
     monkeypatch.setattr(ps, "fetch_text", lambda url: (_ for _ in ()).throw(OSError("down")))
     assert ps.project_syndicate(tmp_path / "bylines.json").items[0].author == "Ann Lee and Bo Wu"
+
+
+def test_gates_notes_components_render_as_plain_html() -> None:
+    from rssfeeds.sources.gates_notes import to_item
+
+    obj = '<object type="application/kenticocloud" data-type="item" data-rel="link" data-codename="{}"></object>'
+    raw = {
+        "system": {"codename": "an_essay", "name": "an-essay"},
+        "elements": {
+            "date": {"value": "2026-08-26T07:00:00Z"},
+            "article_title": {"value": "An essay"},
+            "article_subtitle": {"value": "<p>A subtitle.</p>"},
+            "byline": {"value": "Bill Gates"},
+            "body_content": {
+                "value": obj.format("css")
+                + '<p>First <a href="/other-essay">para</a>.</p>'
+                + obj.format("q")
+                + "<p><br></p>"
+            },
+            "page_taxonomy_set__gn_taxonomy": {"value": [{"name": "Save lives"}]},
+        },
+    }
+    modular = {
+        "css": {
+            "system": {"type": "html_block"},
+            "elements": {"html_block_text": {"value": "<style>x</style>"}},
+        },
+        "q": {"system": {"type": "quote"}, "elements": {"quote_copy": {"value": "<p>Quoted.</p>"}}},
+    }
+    item = to_item(raw, modular)
+    assert item.link == "https://www.gatesnotes.com/an-essay"
+    assert item.guid == "gatesnotes:an_essay"
+    assert item.categories == ["Save lives"]
+    assert item.content_html == (
+        "<p><em>A subtitle.</em></p>\n"
+        '<p>First <a href="https://www.gatesnotes.com/other-essay">para</a>.</p>'
+        "<blockquote><p>Quoted.</p></blockquote>"
+    )

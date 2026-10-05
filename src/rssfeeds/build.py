@@ -13,6 +13,7 @@ from .registry import FEEDS, REPO_URL, SITE_BASE, FeedSpec
 from .rss import build_rss
 from .sources import ai_digest as ai_digest_src
 from .sources import dario_amodei as dario_src
+from .sources import gates_notes as gates_src
 from .sources import metr as metr_src
 from .sources import openai_alignment as oai
 from .sources import openai_system_cards as cards
@@ -59,6 +60,7 @@ def collect(first_seen: FirstSeen) -> dict[str, SourceResult]:
         "project_syndicate": lambda: ps_src.project_syndicate(
             state_dir / "project_syndicate_bylines.json"
         ),
+        "gates_notes": gates_src.gates_notes,
     }
     results = {}
     for name, run in sources.items():

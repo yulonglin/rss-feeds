@@ -67,6 +67,7 @@ AI_DIGEST = "https://theaidigest.org/"
 SCHOLAR_INBOX = "https://www.scholar-inbox.com/"
 CONVERSATION = "https://theconversation.com/global/newsletters"
 PROJECT_SYNDICATE = "https://www.project-syndicate.org/"
+GATES_NOTES = "https://www.gatesnotes.com/"
 
 FEEDS: list[FeedSpec] = [
     FeedSpec(
@@ -343,6 +344,24 @@ FEEDS += [
             "Official /rss is valid but summary-only, keeps the image in an enclosure most "
             "readers ignore, tags every link with utm tracking and credits only the first "
             "author of co-written pieces."
+        ),
+        default=True,
+        folder="Newsletters",
+    ),
+    FeedSpec(
+        slug="gates-notes",
+        title="Gates Notes",
+        description=(
+            "Bill Gates's essays from Gates Notes with the full text of each, including pull "
+            "quotes, images and photo essays, tagged with the site's own topics."
+        ),
+        org="Gates Notes",
+        source_name="gatesnotes.com",
+        source_url=GATES_NOTES,
+        sources=("gates_notes",),
+        upstream_status=(
+            "The old /home/rss feed is gone, and every gatesnotes.com page answers scripts "
+            "with a 403. Read from the content API the site itself is built from."
         ),
         default=True,
         folder="Newsletters",
