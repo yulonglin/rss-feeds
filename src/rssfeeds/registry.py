@@ -115,7 +115,7 @@ FEEDS: list[FeedSpec] = [
         sources=("reports",),
         upstream_status="No feed of any kind upstream.",
         notes=(
-            "Upstream shows only a last-updated date, so each entry keeps the date this "
+            "New reports use First posted; each entry keeps the date this "
             "generator first saw it and does not jump back to the top when edited."
         ),
     ),

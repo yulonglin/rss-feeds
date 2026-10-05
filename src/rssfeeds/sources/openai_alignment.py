@@ -55,7 +55,12 @@ def research() -> SourceResult:
 
 
 def _entry_date(entry) -> date | None:
-    t = entry.cssselect(".cb-meta time[datetime]") or entry.cssselect("time[datetime]")
+    # Tables put incident/activity dates first (sometimes only YYYY-MM). Never
+    # mistake those, or Last updated, for publication dates.
+    if entry.tag == "tbody":
+        t = entry.cssselect('td[data-label="First posted"] time[datetime]')
+    else:
+        t = entry.cssselect(".cb-meta time[datetime]") or entry.cssselect("time[datetime]")
     if not t:
         return None
     try:
@@ -72,14 +77,16 @@ def notices() -> SourceResult:
         return SourceResult(error=f"fetch/parse failed: {exc}")
 
     items: list[Item] = []
-    for entry in doc.cssselect("#notice-entries details.cb-notice"):
+    for entry in doc.cssselect(
+        "#notice-entries details.cb-notice, #notice-entries > tbody.report-entry"
+    ):
         when = _entry_date(entry)
-        h = entry.cssselect("summary h3")
-        if when is None or not h:
-            continue
-        src = entry.cssselect("a.ap-notice-source")
-        body = entry.cssselect(".cb-copy")
+        h = entry.cssselect("summary h3, a.report-title")
+        src = entry.cssselect("a.ap-notice-source[href], a.report-title[href]")
+        body = entry.cssselect(".cb-copy, .description-content")
         anchor = entry.get("id") or ""
+        if when is None or not h or not _text(h[0]) or not (anchor or src):
+            return SourceResult(error="malformed notice entry - page layout may have changed")
         items.append(
             Item(
                 title=_text(h[0]),
@@ -91,9 +98,7 @@ def notices() -> SourceResult:
             )
         )
     if not items:
-        return SourceResult(
-            error="no details.cb-notice entries found - page layout may have changed"
-        )
+        return SourceResult(error="no notice entries found - page layout may have changed")
     return SourceResult(items=items)
 
 
@@ -108,23 +113,29 @@ def _facts(entry) -> dict[str, str]:
 
 
 def reports(first_seen: FirstSeen) -> SourceResult:
-    """Reports show only a last-updated date. Dating by it would move a report to the top
-    of the feed every time OpenAI edits it, so each report keeps the date it was first
-    seen (state/first_seen.json); a report new to us is seeded with the page's date."""
+    """Keep stored dates stable; seed new reports with First posted in the table
+    layout, or the updated date supplied by the legacy card layout."""
     try:
         doc = lx.fromstring(fetch_text(REPORTS_URL))
     except Exception as exc:  # noqa: BLE001
         return SourceResult(error=f"fetch/parse failed: {exc}")
 
     items: list[Item] = []
-    for entry in doc.cssselect("#report-entries details.cb-entry"):
-        a = entry.cssselect("a.cb-link")
-        h = entry.cssselect("summary h3")
-        if not a or not h:
-            continue
+    for entry in doc.cssselect(
+        "#report-entries details.cb-entry, #report-entries > tbody.report-entry"
+    ):
+        a = entry.cssselect("a.cb-link[href], a.report-title[href]")
+        h = entry.cssselect("summary h3, a.report-title")
+        when = _entry_date(entry)
+        if not a or not a[0].get("href") or not h or not _text(h[0]):
+            return SourceResult(error="malformed report entry - page layout may have changed")
+        if entry.tag == "tbody" and when is None:
+            return SourceResult(
+                error="missing report First posted date - page layout may have changed"
+            )
         link = urljoin(BASE, a[0].get("href"))
-        copy = entry.cssselect(".cb-copy")
-        desc = _text(copy[0]) if copy else ""
+        copy = entry.cssselect(".cb-copy, .description-content p")
+        desc = "\n\n".join(_text(p) for p in copy)
         facts = _facts(entry)
         scope = "; ".join(f"{k}: {facts[k]}" for k in ("Model", "Observed during") if k in facts)
         if scope:
@@ -134,13 +145,11 @@ def reports(first_seen: FirstSeen) -> SourceResult:
                 title=_text(h[0]),
                 link=link,
                 guid=link,
-                published=first_seen.stamp(link, today=_entry_date(entry)),
+                published=first_seen.stamp(link, today=when),
                 description=desc,
                 categories=["Misalignment Report"],
             )
         )
     if not items:
-        return SourceResult(
-            error="no details.cb-entry report entries found - page layout may have changed"
-        )
+        return SourceResult(error="no report entries found - page layout may have changed")
     return SourceResult(items=items)
