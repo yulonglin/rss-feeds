@@ -10,18 +10,23 @@ To subscribe to a whole set at once, import **<https://feeds.yulonglin.com/subsc
 
 | Feed | Source | Subscribe to this URL | Items |
 |---|---|---|---|
+| AI Digest | [theaidigest.org](https://theaidigest.org/) | `https://feeds.yulonglin.com/ai-digest.xml` | 0 |
 | Dario Amodei | [darioamodei.com](https://darioamodei.com/) | `https://feeds.yulonglin.com/dario-amodei.xml` | 6 |
-| METR - English only | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/metr-en.xml` | 90 |
+| Gates Notes | [gatesnotes.com](https://www.gatesnotes.com/) | `https://feeds.yulonglin.com/gates-notes.xml` | 20 |
+| METR - English only | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/metr-en.xml` | 92 |
 | METR - English only (latest 50) | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/metr-en-50.xml` | 50 |
-| METR - English only (headlines and summaries) | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/metr-en-lite.xml` | 90 |
-| OpenAI Alignment - everything | [Alignment Research Blog (all sections)](https://alignment.openai.com/) | `https://feeds.yulonglin.com/openai-alignment-all.xml` | 39 |
-| OpenAI Alignment - everything (latest 50) | [Alignment Research Blog (all sections)](https://alignment.openai.com/) | `https://feeds.yulonglin.com/openai-alignment-all-50.xml` | 39 |
+| METR - English only (headlines and summaries) | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/metr-en-lite.xml` | 92 |
+| OpenAI Alignment - everything | [Alignment Research Blog (all sections)](https://alignment.openai.com/) | `https://feeds.yulonglin.com/openai-alignment-all.xml` | 43 |
+| OpenAI Alignment - everything (latest 50) | [Alignment Research Blog (all sections)](https://alignment.openai.com/) | `https://feeds.yulonglin.com/openai-alignment-all-50.xml` | 43 |
 | OpenAI Alignment - Misalignment Notices | [Misalignment Notices](https://alignment.openai.com/misalignment-reports/) | `https://feeds.yulonglin.com/openai-alignment-notices.xml` | 3 |
-| OpenAI Alignment - Misalignment Reports | [Misalignment Reports](https://alignment.openai.com/misalignment-reports/) | `https://feeds.yulonglin.com/openai-alignment-reports.xml` | 9 |
-| OpenAI Alignment - Research and Releases | [Research and Releases](https://alignment.openai.com/) | `https://feeds.yulonglin.com/openai-alignment-research.xml` | 27 |
-| OpenAI System Cards | [Deployment Safety Hub](https://deploymentsafety.openai.com/) | `https://feeds.yulonglin.com/openai-system-cards.xml` | 24 |
+| OpenAI Alignment - Misalignment Reports | [Misalignment Reports](https://alignment.openai.com/misalignment-reports/) | `https://feeds.yulonglin.com/openai-alignment-reports.xml` | 12 |
+| OpenAI Alignment - Research and Releases | [Research and Releases](https://alignment.openai.com/) | `https://feeds.yulonglin.com/openai-alignment-research.xml` | 28 |
+| OpenAI System Cards | [Deployment Safety Hub](https://deploymentsafety.openai.com/) | `https://feeds.yulonglin.com/openai-system-cards.xml` | 25 |
+| Project Syndicate | [project-syndicate.org](https://www.project-syndicate.org/) | `https://feeds.yulonglin.com/project-syndicate.xml` | 20 |
+| Scholar Inbox - daily paper digest | [Scholar Inbox](https://www.scholar-inbox.com/) | `https://feeds.yulonglin.com/scholar-inbox.xml` | 16 |
 | TLDR AI | [TLDR AI](https://tldr.tech/ai) | `https://feeds.yulonglin.com/tldr-ai.xml` | 20 |
-| Tangle - the good parts | [readtangle.com](https://www.readtangle.com/) | `https://feeds.yulonglin.com/tangle.xml` | 5 |
+| Tangle - the good parts | [readtangle.com](https://www.readtangle.com/) | `https://feeds.yulonglin.com/tangle.xml` | 4 |
+| The Conversation - newsletters | [The Conversation newsletters](https://theconversation.com/global/newsletters) | `https://feeds.yulonglin.com/the-conversation.xml` | 13 |
 
 ## Why each feed exists
 
@@ -34,6 +39,11 @@ To subscribe to a whole set at once, import **<https://feeds.yulonglin.com/subsc
 | METR | `metr.org/feed.xml` | Valid, but ~8.9 MB and interleaved with `/es/` and `/zh-Hans/` duplicates of English posts. |
 | TLDR AI | `tldr.tech/api/rss/ai` | Headline and link only: none of the issue's stories or summaries. |
 | Tangle | `readtangle.com/rss/` | Complete, but most of each daily edition and many of the entries are packaging around the one section worth reading. |
+| Scholar Inbox | none (email only) | Styled table cards, an ambiguous dd/mm date in the subject, and every link a personal auto-login link. |
+| The Conversation | none (email only) | Layout tables, logos, a tracking pixel and footers, with every link, headlines included, behind a per-recipient click tracker. |
+| AI Digest | none (email only) | An HTML email, not a feed. |
+| Project Syndicate | `project-syndicate.org/rss` | Summary only, the image hidden in an enclosure, utm tracking on every link, and only the first author of co-written pieces. |
+| Gates Notes | `gatesnotes.com/home/rss` | Gone, and every gatesnotes.com page answers scripts with a 403. |
 
 ## Things worth knowing
 
@@ -43,6 +53,9 @@ To subscribe to a whole set at once, import **<https://feeds.yulonglin.com/subsc
 - **A source that fails leaves its feed alone.** If METR is unreachable the five OpenAI feeds still refresh; the workflow run goes red and the stale feed keeps its last good contents rather than emptying.
 - **`lastBuildDate` comes from the newest item, never the clock.** A run that finds nothing new produces byte-identical files and therefore no commit, which keeps the git history meaningful.
 - **Non-English filtering matches the shape of a locale segment**, not a fixed list, so a language METR adds later is dropped without a code change.
+- **Email-only newsletters come from private inboxes whose addresses are never committed.** A kill-the-newsletter inbox's feed URL is also its address, so the IDs are read at build time from the `KTN_FEEDS` repository secret (JSON mapping slug to inbox ID), or locally from a gitignored `feeds.local.json` shaped like `feeds.local.example.json`. Every feed is checked before it is written: one containing an inbox ID, any link to the inbox service, Scholar Inbox's login key or The Conversation's click tracker is refused, and the run goes red.
+- **The Conversation's headlines are linked by exact title**, matched first against the site's regional Atom feeds and then its search, because the email's own links are per-recipient trackers. Matches are kept in `state/conversation_links.json`; a headline that cannot be matched stays unlinked and is retried next run.
+- **Gates Notes is read from the content API the site is built from** (a public Kontent.ai delivery endpoint), since gatesnotes.com itself refuses scripted requests.
 - **GitHub disables scheduled workflows after 60 days of repository inactivity.** Each successful refresh commits, which resets that counter; a long stretch with no new posts anywhere is the one way this could quietly stop.
 
 ## Running it locally

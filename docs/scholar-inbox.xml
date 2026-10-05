@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Scholar Inbox - daily paper digest</title>
+    <link>https://www.scholar-inbox.com/</link>
+    <description>Scholar Inbox's daily digest of recommended papers, one entry per day, each paper with its title, authors, venue and relevance score, the title linking to a public arXiv or Google Scholar search.</description>
+    <language>en</language>
+    <generator>rss-feeds (https://github.com/yulonglin/rss-feeds)</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
+    <lastBuildDate>Fri, 02 Oct 2026 11:28:46 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 2 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:dd7782e215b05d6d</guid>
+      <pubDate>Fri, 02 Oct 2026 11:28:46 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Emergent Unfaithfulness: How Alignment Training Causes Language Models to Silently Override Task Faithfulness
+• Probe with Participation Trophies: Random-Reward RL as a Probe of LLM Capability
+• Backdoor Containment via Expert Quarantine and Shutdown in LLMs
+• High-quality Data Do not Mean Safe! Poisoning LLMs after Data Selection
+• Safety in Self-Evolving Agents: A Survey</description>
+      <content:encoded>&lt;p&gt;Matched 134 of 2464 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Emergent+Unfaithfulness%3A+How+Alignment+Training+Causes+Language+Models+to+Silently+Override+Task+Faithfulness&amp;amp;searchtype=title"&gt;&lt;strong&gt;Emergent Unfaithfulness: How Alignment Training Causes Language Models to Silently Override Task Faithfulness&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Pardis Sadat Zahraei, Janvijay Singh, Gokhan Tur, Dilek Hakkani-Tur&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 30) · relevance 98&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Probe+with+Participation+Trophies%3A+Random-Reward+RL+as+a+Probe+of+LLM+Capability&amp;amp;searchtype=title"&gt;&lt;strong&gt;Probe with Participation Trophies: Random-Reward RL as a Probe of LLM Capability&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yu Mao, Lei Yu, Zining Zhu, Yusheng Zheng, Haohang Li, Freda Shi, Yutong Yin, Zhaoran Wang, Jingcheng Niu&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 1) · relevance 93&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Backdoor+Containment+via+Expert+Quarantine+and+Shutdown+in+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Backdoor Containment via Expert Quarantine and Shutdown in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jianwei Li, Min-Seon Kim, Jung-Eun Kim&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 30) · relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=High-quality+Data+Do+not+Mean+Safe%21+Poisoning+LLMs+after+Data+Selection&amp;amp;searchtype=title"&gt;&lt;strong&gt;High-quality Data Do not Mean Safe! Poisoning LLMs after Data Selection&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Kaiyang Li, Jiahao Chen, Yuwen Pu, Chunyi Zhou, Tong Zhang, Bin Cai, Chunqiang Hu, Haibo Hu&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 1) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Safety+in+Self-Evolving+Agents%3A+A+Survey&amp;amp;searchtype=title"&gt;&lt;strong&gt;Safety in Self-Evolving Agents: A Survey&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jiahao Chen, Zhou Feng, Oubo Ma, Yichen Yan, Ruixiao Lin, Hangtao Zhang, Linkang Du, Hengyu An, Yong Yang, ..., Shouling Ji&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 8) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 1 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:7ecd6f7cf39ed65f</guid>
+      <pubDate>Thu, 01 Oct 2026 11:19:30 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• CATCH: A Controllable Analysis Testbed for Reward Hacking in Coding RL
+• MADBench: Benchmarking the Security of Multi-Agent Debate
+• Evaluating Language Model Safety Across Long Adversarial Conversations
+• ArchitectureIQ: On the Measure of Training Intuition
+• Alignment via Training Against Probes Without Losing Monitorability</description>
+      <content:encoded>&lt;p&gt;Matched 147 of 2424 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=CATCH%3A+A+Controllable+Analysis+Testbed+for+Reward+Hacking+in+Coding+RL&amp;amp;searchtype=title"&gt;&lt;strong&gt;CATCH: A Controllable Analysis Testbed for Reward Hacking in Coding RL&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Shouli Wang, Yanfeng Jia, Zhihao Ou, Zitao Su, Ruize He, Haotong Xie, Hao Peng, Juanzi Li, Xiaozhi Wang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 30) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=MADBench%3A+Benchmarking+the+Security+of+Multi-Agent+Debate&amp;amp;searchtype=title"&gt;&lt;strong&gt;MADBench: Benchmarking the Security of Multi-Agent Debate&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yuwan Liu, Jiaming Zhang, Yue Huang, Sisi Duan&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 30) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Evaluating+Language+Model+Safety+Across+Long+Adversarial+Conversations&amp;amp;searchtype=title"&gt;&lt;strong&gt;Evaluating Language Model Safety Across Long Adversarial Conversations&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Parisa Salmani, Peter R. Lewis&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 29) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=ArchitectureIQ%3A+On+the+Measure+of+Training+Intuition&amp;amp;searchtype=title"&gt;&lt;strong&gt;ArchitectureIQ: On the Measure of Training Intuition&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Zirui Ren, Shaoyang Guo, Chencheng Tang, Jinxin Wang, Chengyu Xiong, Shanbin Yu, Peihang Li, Yidi Wu, Bangzhe Huang, ..., Ziming Liu&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 30) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Alignment+via+Training+Against+Probes+Without+Losing+Monitorability&amp;amp;searchtype=title"&gt;&lt;strong&gt;Alignment via Training Against Probes Without Losing Monitorability&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Lena Libon, Alexander Panfilov, Ben Rank, Xin Chen, Jonas Geiping, Maksym Andriushchenko&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 29) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 30 Sep 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:98430c5ac97b81c0</guid>
+      <pubDate>Wed, 30 Sep 2026 11:19:22 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Towards Mitigating Deceptive Safety Alignment in Large Reasoning Models
+• Language Models Are "Insecure" Reporters
+• The Unequal Influence of Bad Advice: Using Training Data Attribution to Modulate Emergent Misalignment
+• Training LLMs to Verbalize Evaluation Awareness
+• Large Language Models Exhibit Human-Like Bayesian Hypocrisy</description>
+      <content:encoded>&lt;p&gt;Matched 179 of 2713 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Towards+Mitigating+Deceptive+Safety+Alignment+in+Large+Reasoning+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Towards Mitigating Deceptive Safety Alignment in Large Reasoning Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Xiangyu Zhou, Saleh Zare Zade, Rafi Ibn Sultan, Alexander Kotov, Dongxiao Zhu&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 28) · relevance 95&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Language+Models+Are+%22Insecure%22+Reporters&amp;amp;searchtype=title"&gt;&lt;strong&gt;Language Models Are &amp;quot;Insecure&amp;quot; Reporters&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jenny Y. Huang, Jiameng Fan, Ahmed Imtiaz Humayun, Maximillian Chen, Tian Qin, Run Chen, Vidhya Navalpakkam, Hongxiang Gu&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 28) · relevance 95&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Unequal+Influence+of+Bad+Advice%3A+Using+Training+Data+Attribution+to+Modulate+Emergent+Misalignment&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Unequal Influence of Bad Advice: Using Training Data Attribution to Modulate Emergent Misalignment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Gonçalo Paulo, Louis Jaburi, Nora Belrose, Lucia Quirke, Stella Biderman&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 29) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Training+LLMs+to+Verbalize+Evaluation+Awareness&amp;amp;searchtype=title"&gt;&lt;strong&gt;Training LLMs to Verbalize Evaluation Awareness&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Usman Anwar, Sahar Abdelnabi, David Krueger&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 28) · relevance 88&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Large+Language+Models+Exhibit+Human-Like+Bayesian+Hypocrisy&amp;amp;searchtype=title"&gt;&lt;strong&gt;Large Language Models Exhibit Human-Like Bayesian Hypocrisy&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Nykko Vitali, Mahzarin R. Banaji&lt;br&gt;&lt;small&gt;ArXiv 2026 (August 3) · relevance 88&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 28 Sep 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:0a27fe33c5b8e3f5</guid>
+      <pubDate>Mon, 28 Sep 2026 09:26:42 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Monitor Jailbreaking: Evading Chain-of-Thought Monitoring Without Encoded Reasoning
+• JevAdvBench: A Benchmark and Black-Box Attacks for Reinforcement Learning for Calibrated Decisions Models
+• Strategic Self-Consistency
+• Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency
+• Evaluating Sycophancy in Chinese Large Language Models on Factual Questions Derived from Online Search Queries</description>
+      <content:encoded>&lt;p&gt;Matched 67 of 2214 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Monitor+Jailbreaking%3A+Evading+Chain-of-Thought+Monitoring+Without+Encoded+Reasoning&amp;amp;searchtype=title"&gt;&lt;strong&gt;Monitor Jailbreaking: Evading Chain-of-Thought Monitoring Without Encoded Reasoning&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Julian Schulz&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 25) · relevance 93&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=JevAdvBench%3A+A+Benchmark+and+Black-Box+Attacks+for+Reinforcement+Learning+for+Calibrated+Decisions+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;JevAdvBench: A Benchmark and Black-Box Attacks for Reinforcement Learning for Calibrated Decisions Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jianyi Hu, Hangtao Zhang, Yi Liu, Yeqi Zeng, Li Zeng, Xianlong Wang, Rui Wang, Leo Yu Zhang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 25) · relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Strategic+Self-Consistency&amp;amp;searchtype=title"&gt;&lt;strong&gt;Strategic Self-Consistency&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Tori Qiu, Ander Artola Velasco, Manuel Gomez-Rodriguez&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 24) · relevance 89&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Learning+to+Stop+without+Learning+to+Stop%3A+Self-Supervised+Confidence+Training+Improves+Reasoning+Efficiency&amp;amp;searchtype=title"&gt;&lt;strong&gt;Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Parsa Hosseini, Akasha Tigalappanavara, Sumit Nawathe, Chenrui Fan, Sourya Basu, Genta Indra Winata, Anirban Das, Soheil Feizi, Nima Chitsazan&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 25) · relevance 76&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Evaluating+Sycophancy+in+Chinese+Large+Language+Models+on+Factual+Questions+Derived+from+Online+Search+Queries&amp;amp;searchtype=title"&gt;&lt;strong&gt;Evaluating Sycophancy in Chinese Large Language Models on Factual Questions Derived from Online Search Queries&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Geng Liu, Feng Li, Mengxiao Zhu, Francesco Pierri&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 25) · relevance 64&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 25 Sep 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:ff33bf3037a38359</guid>
+      <pubDate>Fri, 25 Sep 2026 11:08:14 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures
+• Reward Hacking Challenges Oversight of Autonomous Research Agents
+• Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs
+• Understanding and Exploiting Initialization Anchoring Weakness in Feedback-Based Agent Planning
+• Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure</description>
+      <content:encoded>&lt;p&gt;Matched 89 of 1790 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Just+Ask+Jev%3A+Reinforcement+Learning+for+Calibrated+Decisions+as+a+Zero-Shot+Detector+of+AI+Alignment+Failures&amp;amp;searchtype=title"&gt;&lt;strong&gt;Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ruoqi Guo, Yi Liu, Gelei Deng, Yuekang Li, Lida Zhao, Yutao Wu, Simin Chen, Ying Zhang, Leo Yu Zhang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 24) · relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Reward+Hacking+Challenges+Oversight+of+Autonomous+Research+Agents&amp;amp;searchtype=title"&gt;&lt;strong&gt;Reward Hacking Challenges Oversight of Autonomous Research Agents&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yue Huang, Zhangchen Xu, Yuchen Ma, Wenjie Wang, Zheyuan Liu, Ziwei Xu, Pin-Yu Chen, Michel Galley, Zinan Lin, ..., Zichen Chen&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 23) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Prefilling+the+Reasoning+Channel%3A+Output-Prefix+Attacks+on+Reasoning+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Lukáš Brůna, Robert Bridges, Adam Ek&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 24) · relevance 84&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Understanding+and+Exploiting+Initialization+Anchoring+Weakness+in+Feedback-Based+Agent+Planning&amp;amp;searchtype=title"&gt;&lt;strong&gt;Understanding and Exploiting Initialization Anchoring Weakness in Feedback-Based Agent Planning&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Chuanchao Zang, Jianing Wang, Wenyu Chen, Xiangtao Meng, Li Wang, Xinyu Gao, Peng Zhan, Zheng Li, Shanqing Guo&lt;br&gt;&lt;small&gt;ArXiv 2026 (August 31) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Instrumental+Monitor+Evasion+Emerges+Under+Ordinary+Task+Pressure&amp;amp;searchtype=title"&gt;&lt;strong&gt;Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;David Schmotz, Derck Prinzhorn, Luca Beurer-Kellner, Anselm Paulus, Ameya Prabhu, Maksym Andriushchenko&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 24) · relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 24 Sep 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:1d8a44add3859b4d</guid>
+      <pubDate>Thu, 24 Sep 2026 11:05:38 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Control-Token Injection Suppresses Chain-of-Thought and Defeats Reasoning-Based Oversight in Tool-Using Agents
+• Delegated Misalignment: How Multi-Agent Structures Amplify LLM Safety Risks
+• CART: Closed-Loop Adaptive Red Teaming for Large Language Models
+• Alignment Inertia: Auditing the Durability of Training Data Influence Through Policy Override Resistance
+• When Context Misleads: In-context Learning with Jurisdiction in Large Language Models</description>
+      <content:encoded>&lt;p&gt;Matched 72 of 1672 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Control-Token+Injection+Suppresses+Chain-of-Thought+and+Defeats+Reasoning-Based+Oversight+in+Tool-Using+Agents&amp;amp;searchtype=title"&gt;&lt;strong&gt;Control-Token Injection Suppresses Chain-of-Thought and Defeats Reasoning-Based Oversight in Tool-Using Agents&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Muhammad Usama, Khair Un Nisa, Summer Yeoreum Jung&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 23) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Delegated+Misalignment%3A+How+Multi-Agent+Structures+Amplify+LLM+Safety+Risks&amp;amp;searchtype=title"&gt;&lt;strong&gt;Delegated Misalignment: How Multi-Agent Structures Amplify LLM Safety Risks&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Zonghao Ying, Jiaqi Yan, Huize Luo, Quanchen Zou, Aishan Liu, Xianglong Liu&lt;br&gt;&lt;small&gt;ArXiv 2026 (August 26) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=CART%3A+Closed-Loop+Adaptive+Red+Teaming+for+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;CART: Closed-Loop Adaptive Red Teaming for Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Dongdong Zhang, Tengchao Lv, Yilin Jia, Yuzhong Zhao, Yupan Huang, Wenshan Wu, Xiangyang Zhou, Shaohan Huang, Nan Yang, ..., Furu Wei&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 23) · relevance 76&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Alignment+Inertia%3A+Auditing+the+Durability+of+Training+Data+Influence+Through+Policy+Override+Resistance&amp;amp;searchtype=title"&gt;&lt;strong&gt;Alignment Inertia: Auditing the Durability of Training Data Influence Through Policy Override Resistance&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Renata Barreto, Markelle Roesti, Mohammad Tahaei&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 23) · relevance 76&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=When+Context+Misleads%3A+In-context+Learning+with+Jurisdiction+in+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;When Context Misleads: In-context Learning with Jurisdiction in Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Pei-lin Li, Qingle Liu, Junyang Feng, Siyu Li, Sunqi Fan, Xin-Sheng Chen, Shuojin Yang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 23) · relevance 74&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 23 Sep 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:8b78c7f45cc5a4be</guid>
+      <pubDate>Wed, 23 Sep 2026 10:20:52 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Optimizing the Score, Losing Sight of the Task: Reward Hacking Across Weights, Selection, and Prompts
+• "As a Language Model...": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It
+• From Decorative to Load-Bearing: Task Difficulty Shapes the Causal Role of Chain-of-Thought
+• Rewired or Gated? How Instruction Tuning Shapes Knowledge-Conflict Circuits in LLMs
+• How Strongly Should Task State Influence an LLM Agent?</description>
+      <content:encoded>&lt;p&gt;Matched 75 of 2143 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Optimizing+the+Score%2C+Losing+Sight+of+the+Task%3A+Reward+Hacking+Across+Weights%2C+Selection%2C+and+Prompts&amp;amp;searchtype=title"&gt;&lt;strong&gt;Optimizing the Score, Losing Sight of the Task: Reward Hacking Across Weights, Selection, and Prompts&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Vansh Wahi&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 22) · relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=%22As+a+Language+Model...%22%3A+Chat+Template+Switches+LLM+Self-Referential+Voice+and+Activation+Steering+Reproduces+It&amp;amp;searchtype=title"&gt;&lt;strong&gt;&amp;quot;As a Language Model...&amp;quot;: Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jędrzej Maczan&lt;br&gt;&lt;small&gt;ArXiv 2026 (August 9) · relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=From+Decorative+to+Load-Bearing%3A+Task+Difficulty+Shapes+the+Causal+Role+of+Chain-of-Thought&amp;amp;searchtype=title"&gt;&lt;strong&gt;From Decorative to Load-Bearing: Task Difficulty Shapes the Causal Role of Chain-of-Thought&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Renee Jia, Di Mu&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 21) · relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Rewired+or+Gated%3F+How+Instruction+Tuning+Shapes+Knowledge-Conflict+Circuits+in+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Rewired or Gated? How Instruction Tuning Shapes Knowledge-Conflict Circuits in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Shubham Santosh Pandere, Gautam Ranka, Ritika Varshney, Navya Deshmukh, Roushni Sareen, Roshan Kumar Singh&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 22) · relevance 76&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=How+Strongly+Should+Task+State+Influence+an+LLM+Agent%3F&amp;amp;searchtype=title"&gt;&lt;strong&gt;How Strongly Should Task State Influence an LLM Agent?&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Chenyu Zhang, Wonbin Kweon, Jiawei Han&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 22) · relevance 76&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 22 Sep 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:dd1948092c0746ef</guid>
+      <pubDate>Tue, 22 Sep 2026 10:43:18 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• OPBackdoor: Opportunistic Backdoors via Alibi-Aligned Reasoning
+• Do Language Models Know Their Own Constraints?
+• Taming CoT Obfuscation in VLMs: From Mechanistic Evidence to Activation Enforcement
+• Are Human-Aligned Models Models of Humans? A Turing-Test Gap in Preference Alignment
+• The Corroboration Illusion: When More News Makes LLM Forecasts Less True</description>
+      <content:encoded>&lt;p&gt;Matched 112 of 3110 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=OPBackdoor%3A+Opportunistic+Backdoors+via+Alibi-Aligned+Reasoning&amp;amp;searchtype=title"&gt;&lt;strong&gt;OPBackdoor: Opportunistic Backdoors via Alibi-Aligned Reasoning&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Eric Xue, Ruiyi Zhang, Kevin Xue, Pengtao Xie, Junda Wu, Julian McAuley&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 21) · relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Do+Language+Models+Know+Their+Own+Constraints%3F&amp;amp;searchtype=title"&gt;&lt;strong&gt;Do Language Models Know Their Own Constraints?&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Arin Agarwal&lt;br&gt;&lt;small&gt;ArXiv 2026 (August 26) · relevance 88&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Taming+CoT+Obfuscation+in+VLMs%3A+From+Mechanistic+Evidence+to+Activation+Enforcement&amp;amp;searchtype=title"&gt;&lt;strong&gt;Taming CoT Obfuscation in VLMs: From Mechanistic Evidence to Activation Enforcement&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Xutao Mao, Jianing Zhu, Jinman Zhao, Tongliang Liu, Xiaowen Chu, Cong Wang, Bo Han&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 21) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Are+Human-Aligned+Models+Models+of+Humans%3F+A+Turing-Test+Gap+in+Preference+Alignment&amp;amp;searchtype=title"&gt;&lt;strong&gt;Are Human-Aligned Models Models of Humans? A Turing-Test Gap in Preference Alignment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Suqin Yuan, Runqi Lin, Muyang Li, Guanzhe Hong, Jindong Gu, Lei Feng, Chris Russell, Tongliang Liu&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 20) · relevance 83&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Corroboration+Illusion%3A+When+More+News+Makes+LLM+Forecasts+Less+True&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Corroboration Illusion: When More News Makes LLM Forecasts Less True&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yuan Lu, Yukuan Zhang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 5) · relevance 79&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 21 Sep 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:01ac254fa38ced98</guid>
+      <pubDate>Mon, 21 Sep 2026 07:35:01 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Recursive Language Models Generalize Out of Domain
+• A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal
+• Geometry of Values: Task Vector Composition for Ethical Preference Alignment in Language Models
+• Steering LLMs Responses Towards Moral Foundations on the Norwegian MFQ-30
+• MIRAGE: Multi-Perspective Creative Language Model Reasoning with Reinforcement Learning Guidance</description>
+      <content:encoded>&lt;p&gt;Matched 42 of 1474 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Recursive+Language+Models+Generalize+Out+of+Domain&amp;amp;searchtype=title"&gt;&lt;strong&gt;Recursive Language Models Generalize Out of Domain&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Chenxiao Yang, Zhiyuan Li, David McAllester, Nathan Srebro&lt;br&gt;&lt;small&gt;ArXiv 2026 (July 23) · relevance 77&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=A+Lie+Detector+Test+for+Language+Models%3A+Reading+Knowledge+a+Model+Won%27t+Reveal&amp;amp;searchtype=title"&gt;&lt;strong&gt;A Lie Detector Test for Language Models: Reading Knowledge a Model Won&amp;#x27;t Reveal&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Hiskias Dingeto&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 18) · relevance 70&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Geometry+of+Values%3A+Task+Vector+Composition+for+Ethical+Preference+Alignment+in+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Geometry of Values: Task Vector Composition for Ethical Preference Alignment in Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Utkarsh Agarwal, Monojit Choudhury&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 17) · relevance 65&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Steering+LLMs+Responses+Towards+Moral+Foundations+on+the+Norwegian+MFQ-30&amp;amp;searchtype=title"&gt;&lt;strong&gt;Steering LLMs Responses Towards Moral Foundations on the Norwegian MFQ-30&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Hans Andersen, David Dichas&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 18) · relevance 64&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=MIRAGE%3A+Multi-Perspective+Creative+Language+Model+Reasoning+with+Reinforcement+Learning+Guidance&amp;amp;searchtype=title"&gt;&lt;strong&gt;MIRAGE: Multi-Perspective Creative Language Model Reasoning with Reinforcement Learning Guidance&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Arash Lagzian, Srinivas Anumasa, Dianbo Liu&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 18) · relevance 48&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 18 Sep 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:f133774575ecd99c</guid>
+      <pubDate>Fri, 18 Sep 2026 08:30:52 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Safety Beyond the Interface: Detecting Harm via Latent States in Large Language Models
+• AUDITPLAN: Commit, Then Answer for Auditable Safety Alignment
+• Reflective Recovery: A Self-Supervised Method for Reasoning by Learning from Mistakes
+• Score Centering Stabilizes Off-policy Reinforcement Learning
+• Stress-testing Alignment Midtraining</description>
+      <content:encoded>&lt;p&gt;Matched 65 of 1964 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Safety+Beyond+the+Interface%3A+Detecting+Harm+via+Latent+States+in+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Safety Beyond the Interface: Detecting Harm via Latent States in Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Alizishaan Khatri, Chiquita Prabhu, Omkar Neogi&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 16) · relevance 84&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=AUDITPLAN%3A+Commit%2C+Then+Answer+for+Auditable+Safety+Alignment&amp;amp;searchtype=title"&gt;&lt;strong&gt;AUDITPLAN: Commit, Then Answer for Auditable Safety Alignment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Sai Sri Pushpa Jampani and Kshitij Mishra, Asif Ekbal&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 16) · relevance 76&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Reflective+Recovery%3A+A+Self-Supervised+Method+for+Reasoning+by+Learning+from+Mistakes&amp;amp;searchtype=title"&gt;&lt;strong&gt;Reflective Recovery: A Self-Supervised Method for Reasoning by Learning from Mistakes&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Qirui Chen, Renjie Pi, Jiahui Gao, Lingpeng Kong&lt;br&gt;&lt;small&gt;ArXiv 2026 (July 24) · relevance 75&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Score+Centering+Stabilizes+Off-policy+Reinforcement+Learning&amp;amp;searchtype=title"&gt;&lt;strong&gt;Score Centering Stabilizes Off-policy Reinforcement Learning&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Martin Marek, Max Ryabinin&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 17) · relevance 69&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Stress-testing+Alignment+Midtraining&amp;amp;searchtype=title"&gt;&lt;strong&gt;Stress-testing Alignment Midtraining&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Sid Baines, Jonathan Bostock, Maria Angelica Martinez, Andrew Draganov, David Africa, Daniel Tan&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 17) · relevance 68&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 17 Sep 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:60bf7f41e1c738b7</guid>
+      <pubDate>Thu, 17 Sep 2026 08:36:53 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Beyond Routine Compliance: Cunning Data Cultivates Safety Vigilance in Large Language Models
+• The Missing "I Don't Know": Why Three Reasoning-Reliability Findings Converge on Calibrated Abstention
+• Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations
+• A Large-Scale Empirical Study of Quality Assurance Practices and Gaps in AI Agents
+• Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks</description>
+      <content:encoded>&lt;p&gt;Matched 63 of 1770 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Beyond+Routine+Compliance%3A+Cunning+Data+Cultivates+Safety+Vigilance+in+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Beyond Routine Compliance: Cunning Data Cultivates Safety Vigilance in Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Youjia Wang, Lin Xu, Yang Sun, Yuxiao Lu, Chengfang Fang, Jie Shi&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 16) · relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Missing+%22I+Don%27t+Know%22%3A+Why+Three+Reasoning-Reliability+Findings+Converge+on+Calibrated+Abstention&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Missing &amp;quot;I Don&amp;#x27;t Know&amp;quot;: Why Three Reasoning-Reliability Findings Converge on Calibrated Abstention&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Srijith Ravikumar&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 15) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Monitoring+and+Discovering+Reward+Hacking+with+Internal+Representations+during+LLM+Evaluations&amp;amp;searchtype=title"&gt;&lt;strong&gt;Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Leon Bergen, Usha Bhalla, Andrew Lee, Barak Widawsky, Linas Nasvytis, Connor Watts, Siddharth Boppana, Sidharth Baskaran, Dron Hazra, ..., Jack Merullo&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 16) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=A+Large-Scale+Empirical+Study+of+Quality+Assurance+Practices+and+Gaps+in+AI+Agents&amp;amp;searchtype=title"&gt;&lt;strong&gt;A Large-Scale Empirical Study of Quality Assurance Practices and Gaps in AI Agents&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Wuyang Dai, Moses Openja, Jiho Shin, Hung Viet Pham, Song Wang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 15) · relevance 75&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Reflections+on+Trusting+Trust%2C+Revisited%3A+Contaminating+Self-Modifying+AI+Coding+Agents+with+Poisoned+Benchmarks&amp;amp;searchtype=title"&gt;&lt;strong&gt;Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Franziska Roesner, Tadayoshi Kohno&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 15) · relevance 73&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 16 Sep 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:9d0c2e94ebbfbdbc</guid>
+      <pubDate>Wed, 16 Sep 2026 18:47:10 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection
+• Shallow Beliefs: Synthetic document finetuning does not inoculate against emergent misalignment from reward hacking
+• Easy to Catch a Liar, Hard to Clear an Honest One: Language Models Diagnosing a Corrupted Reward Channel from a Verified Record
+• Universal Defenses for Tool-Integrated LLM Agents Against Adversarial Attacks
+• Spurious Tool Use: When RL Agents Learn the Wrong Reason to Act</description>
+      <content:encoded>&lt;p&gt;Matched 184 of 4668 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Corrupt+Plans%2C+Clean+Traces%3A+Evading+Chain-of-Thought+Monitoring+with+Plan+Injection&amp;amp;searchtype=title"&gt;&lt;strong&gt;Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Keertana Chidambaram, Andrew Ilyas, Vasilis Syrgkanis&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 14) · relevance 95&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Shallow+Beliefs%3A+Synthetic+document+finetuning+does+not+inoculate+against+emergent+misalignment+from+reward+hacking&amp;amp;searchtype=title"&gt;&lt;strong&gt;Shallow Beliefs: Synthetic document finetuning does not inoculate against emergent misalignment from reward hacking&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Arun Jose, Julian Stastny&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 14) · relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Easy+to+Catch+a+Liar%2C+Hard+to+Clear+an+Honest+One%3A+Language+Models+Diagnosing+a+Corrupted+Reward+Channel+from+a+Verified+Record&amp;amp;searchtype=title"&gt;&lt;strong&gt;Easy to Catch a Liar, Hard to Clear an Honest One: Language Models Diagnosing a Corrupted Reward Channel from a Verified Record&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Arman Nik Khah&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 15) · relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Universal+Defenses+for+Tool-Integrated+LLM+Agents+Against+Adversarial+Attacks&amp;amp;searchtype=title"&gt;&lt;strong&gt;Universal Defenses for Tool-Integrated LLM Agents Against Adversarial Attacks&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Xiaoyan Li, Yunli Wang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 14) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Spurious+Tool+Use%3A+When+RL+Agents+Learn+the+Wrong+Reason+to+Act&amp;amp;searchtype=title"&gt;&lt;strong&gt;Spurious Tool Use: When RL Agents Learn the Wrong Reason to Act&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yiwei Yang, Haoxiang Zhang, Bingbing Wen, Yao Lu, Yuchen Wu, Lei Zhang, Julian McAuley, Pan Lu, Bill Howe&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 14) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 11 Sep 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:f72697a1f980afd7</guid>
+      <pubDate>Fri, 11 Sep 2026 07:49:58 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Negative Self-Distillation: Learning to Reason by Avoiding Flaws
+• The Missing Boundary: How Autonomous Agents Lose Control
+• Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning
+• Big Enough to Break Out: Tracking the Rising Capability of LLM Penetration-Testing Agents
+• Understanding In-Context Multimodal Jailbreaks via Posterior Reweighting</description>
+      <content:encoded>&lt;p&gt;Matched 52 of 1378 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Negative+Self-Distillation%3A+Learning+to+Reason+by+Avoiding+Flaws&amp;amp;searchtype=title"&gt;&lt;strong&gt;Negative Self-Distillation: Learning to Reason by Avoiding Flaws&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Rongcan Pei, Zhepei Wei, Shuyao Xu, Xinyu Zhu, Wei-Lin Chen, Yu Meng&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 10) · relevance 77&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Missing+Boundary%3A+How+Autonomous+Agents+Lose+Control&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Missing Boundary: How Autonomous Agents Lose Control&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Zonghao Ying, Xiangfan Wu, Huiyu Wu, Xing Zheng, Huangsheng Cheng, Xiaorong Shi, Jing Guo&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 10) · relevance 74&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Beyond+Confidence%3A+Stability-Aware+Test-Time+Adaptation+for+LLM+Reasoning&amp;amp;searchtype=title"&gt;&lt;strong&gt;Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Bincheng Gu, Min Gao, Zongwei Wang, Yibing Bai, Yulan He, Junliang Yu&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 10) · relevance 64&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Big+Enough+to+Break+Out%3A+Tracking+the+Rising+Capability+of+LLM+Penetration-Testing+Agents&amp;amp;searchtype=title"&gt;&lt;strong&gt;Big Enough to Break Out: Tracking the Rising Capability of LLM Penetration-Testing Agents&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Victoria Lovelace, Cameron Berryman, Yuhan You, Suhas Reddy Adavelly, Joel Sadler, Daniel Graham&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 9) · relevance 64&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Understanding+In-Context+Multimodal+Jailbreaks+via+Posterior+Reweighting&amp;amp;searchtype=title"&gt;&lt;strong&gt;Understanding In-Context Multimodal Jailbreaks via Posterior Reweighting&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Xu Zhang, Dev Mistry, Xiang Xu, Ren Wang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 8) · relevance 54&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 10 Sep 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:75385782634e33a7</guid>
+      <pubDate>Thu, 10 Sep 2026 07:21:32 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Proof-Carrying Cognition: Closing the Verification Gap with Reality-Settled Reward
+• Strangers to Themselves: What Language Models Say About Themselves Is Generic
+• Arbitrary Cipher Attacks Against Large Language Models Do Not Require Fine-Tuning
+• How Fragile Is Safety Alignment at Frontier Scale? A Single-Direction Attack on a 320B MoE
+• AgentAudit: An Open, Extensible Framework for Full-Lifecycle Trust Evaluation of AI Agents</description>
+      <content:encoded>&lt;p&gt;Matched 55 of 1652 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Proof-Carrying+Cognition%3A+Closing+the+Verification+Gap+with+Reality-Settled+Reward&amp;amp;searchtype=title"&gt;&lt;strong&gt;Proof-Carrying Cognition: Closing the Verification Gap with Reality-Settled Reward&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Eshwar Reddy M, Sourav Karmakar&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 9) · relevance 93&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Strangers+to+Themselves%3A+What+Language+Models+Say+About+Themselves+Is+Generic&amp;amp;searchtype=title"&gt;&lt;strong&gt;Strangers to Themselves: What Language Models Say About Themselves Is Generic&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Phil Blandfort, Urja Pawar&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 9) · relevance 93&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Arbitrary+Cipher+Attacks+Against+Large+Language+Models+Do+Not+Require+Fine-Tuning&amp;amp;searchtype=title"&gt;&lt;strong&gt;Arbitrary Cipher Attacks Against Large Language Models Do Not Require Fine-Tuning&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Thomas Rivasseau&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 9) · relevance 84&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=How+Fragile+Is+Safety+Alignment+at+Frontier+Scale%3F+A+Single-Direction+Attack+on+a+320B+MoE&amp;amp;searchtype=title"&gt;&lt;strong&gt;How Fragile Is Safety Alignment at Frontier Scale? A Single-Direction Attack on a 320B MoE&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yi Shi, Tanyu Chen, Kai Shen&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 9) · relevance 70&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=AgentAudit%3A+An+Open%2C+Extensible+Framework+for+Full-Lifecycle+Trust+Evaluation+of+AI+Agents&amp;amp;searchtype=title"&gt;&lt;strong&gt;AgentAudit: An Open, Extensible Framework for Full-Lifecycle Trust Evaluation of AI Agents&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Shrey Nag, Sachita, Abhishek Kumar Singh, Lipi Goel, Rajeshwar Singh Janwar&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 9) · relevance 69&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 9 Sep 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:147faeb9fc03d823</guid>
+      <pubDate>Wed, 09 Sep 2026 12:03:11 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Inducing Emergent Misalignment from Reward Hacks with Iterative DPO
+• Measuring LLM Sycophancy under Sustained Multi-Turn Pressure
+• Do Large Language Models Know What They Don't Know II? A Fully Behavioral, Non-Cognitive Measure of Epistemic Honesty
+• MOLE: Detecting Insider Threats in AI Agents
+• Beliefs and Behavior in Language Models</description>
+      <content:encoded>&lt;p&gt;Matched 156 of 3992 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Inducing+Emergent+Misalignment+from+Reward+Hacks+with+Iterative+DPO&amp;amp;searchtype=title"&gt;&lt;strong&gt;Inducing Emergent Misalignment from Reward Hacks with Iterative DPO&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Oliver Daniels, Perusha Moodley, Benjamin M. Marlin, David Lindner&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 6) · relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Measuring+LLM+Sycophancy+under+Sustained+Multi-Turn+Pressure&amp;amp;searchtype=title"&gt;&lt;strong&gt;Measuring LLM Sycophancy under Sustained Multi-Turn Pressure&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Leyuan Tang, Kangda Wei, Tianyu Jiang, Ruihong Huang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 8) · relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Do+Large+Language+Models+Know+What+They+Don%27t+Know+II%3F+A+Fully+Behavioral%2C+Non-Cognitive+Measure+of+Epistemic+Honesty&amp;amp;searchtype=title"&gt;&lt;strong&gt;Do Large Language Models Know What They Don&amp;#x27;t Know II? A Fully Behavioral, Non-Cognitive Measure of Epistemic Honesty&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ali Şenol, H. Russell Bernard, Huan Liu&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 7) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=MOLE%3A+Detecting+Insider+Threats+in+AI+Agents&amp;amp;searchtype=title"&gt;&lt;strong&gt;MOLE: Detecting Insider Threats in AI Agents&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Aashiq Muhamed, Virginia Smith&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 7) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Beliefs+and+Behavior+in+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Beliefs and Behavior in Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Alex Smolin, Bryan Wilder&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 7) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Scholar Inbox, 7 Sep 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:64456d6fd15b0ad5</guid>
+      <pubDate>Mon, 07 Sep 2026 08:59:10 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Harness-agnostic detection and immunization of reward hacking in self-evolving language models
+• When Do Internal Probes Beat Reading the Answer? Miscalibrated Readouts and Behavior-Concealed Knowledge in Language Models
+• Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets
+• Moral Competence Before Moral Content: Why LLM Agents Lack the Prerequisites for Coherent Alignment
+• Single-Query Black-Box Calibration Auditing via Logit Bias</description>
+      <content:encoded>&lt;p&gt;Matched 61 of 1308 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Harness-agnostic+detection+and+immunization+of+reward+hacking+in+self-evolving+language+models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Harness-agnostic detection and immunization of reward hacking in self-evolving language models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Rongxin Yang, Yang Liu, Shang Luo, Haoxuan Jia, Chongyang Zhang, Hao Zheng, Yingguang Yang, Yulin Huang, Jianshen Zhang, ..., Bin Chong&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 4) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=When+Do+Internal+Probes+Beat+Reading+the+Answer%3F+Miscalibrated+Readouts+and+Behavior-Concealed+Knowledge+in+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;When Do Internal Probes Beat Reading the Answer? Miscalibrated Readouts and Behavior-Concealed Knowledge in Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Gnaneswar Villuri, Hashmath Shaik, Alex Doboli&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 4) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Why+Better+Models+Can+Create+Riskier+Systems%3A+Evidence+from+LLM+Agents+in+Financial+Markets&amp;amp;searchtype=title"&gt;&lt;strong&gt;Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jillian Ross, Eric So, Zoe De Simone, Charles Pozniak, Andrew W. Lo&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 3) · relevance 82&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Moral+Competence+Before+Moral+Content%3A+Why+LLM+Agents+Lack+the+Prerequisites+for+Coherent+Alignment&amp;amp;searchtype=title"&gt;&lt;strong&gt;Moral Competence Before Moral Content: Why LLM Agents Lack the Prerequisites for Coherent Alignment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Arno Libert, Derck W. E. Prinzhorn, Daan R. Henselmans&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 4) · relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Single-Query+Black-Box+Calibration+Auditing+via+Logit+Bias&amp;amp;searchtype=title"&gt;&lt;strong&gt;Single-Query Black-Box Calibration Auditing via Logit Bias&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Roman Plaud, Antoine Saillenfest, Matthieu Labeau, Thomas Bonald, Willem Waegeman&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 4) · relevance 78&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+  </channel>
+</rss>

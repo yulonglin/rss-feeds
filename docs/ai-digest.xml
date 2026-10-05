@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>AI Digest</title>
+    <link>https://theaidigest.org/</link>
+    <description>AI Digest's email updates, flattened to readable paragraphs, headings and images, with tracking pixels, tracked and personal links, and the footer removed.</description>
+    <language>en</language>
+    <generator>rss-feeds (https://github.com/yulonglin/rss-feeds)</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <atom:link href="https://feeds.yulonglin.com/ai-digest.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://theaidigest.org/" rel="via" type="text/html" />
+  </channel>
+</rss>
