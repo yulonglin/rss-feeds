@@ -13,8 +13,8 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "Official /rss.xml exists but was last built 2026-07-21 and omits every externally hosted post.",
       "notes": "",
-      "items": 28,
-      "newest": "2026-09-28",
+      "items": 29,
+      "newest": "2026-10-06",
       "healthy": true
     },
     {
@@ -55,8 +55,8 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "No merged feed upstream.",
       "notes": "",
-      "items": 43,
-      "newest": "2026-10-02",
+      "items": 44,
+      "newest": "2026-10-06",
       "healthy": true
     },
     {
@@ -69,8 +69,8 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "No merged feed upstream.",
       "notes": "",
-      "items": 43,
-      "newest": "2026-10-02",
+      "items": 44,
+      "newest": "2026-10-06",
       "healthy": true
     },
     {
@@ -97,8 +97,8 @@
       "source_url": "https://metr.org/",
       "upstream_status": "Official feed.xml is valid but ~8.9 MB and interleaves /es/ and /zh-Hans/ duplicates of English posts.",
       "notes": "",
-      "items": 92,
-      "newest": "2026-09-30",
+      "items": 93,
+      "newest": "2026-10-06",
       "healthy": true
     },
     {
@@ -112,7 +112,7 @@
       "upstream_status": "Official feed.xml is ~8.9 MB with translated duplicates.",
       "notes": "",
       "items": 50,
-      "newest": "2026-09-30",
+      "newest": "2026-10-06",
       "healthy": true
     },
     {
@@ -125,8 +125,8 @@
       "source_url": "https://metr.org/",
       "upstream_status": "Official feed.xml is ~8.9 MB with translated duplicates.",
       "notes": "Click through to read; article text is not carried in this variant.",
-      "items": 92,
-      "newest": "2026-09-30",
+      "items": 93,
+      "newest": "2026-10-06",
       "healthy": true
     },
     {
@@ -167,8 +167,8 @@
       "source_url": "https://www.readtangle.com/",
       "upstream_status": "Official /rss/ is complete but interleaves the daily with video and podcast teasers, paywalled previews, recaps, reader essays and sponsor cards.",
       "notes": "",
-      "items": 4,
-      "newest": "2026-10-05",
+      "items": 5,
+      "newest": "2026-10-06",
       "healthy": true
     },
     {

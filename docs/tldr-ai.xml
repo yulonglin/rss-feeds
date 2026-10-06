@@ -20,9 +20,9 @@
       <description>• OpenAI to Add Text Watermarks
 • Instinct in group chats
 • OpenAI in $30 Billion Round Talks With UAE Funds, BlackRock
-• How Devin's Memory and Dreaming Work
 • How to Build an AI-Native Software Factory
 • OpenAI's B2B Marketplace: The Hyperscaler Of AI Apps
+• How Devin's Memory and Dreaming Work
 • Framefields
 • Announcing d1 with vision
 • Reflection Introduces Beam Model
@@ -43,12 +43,12 @@
 &lt;h4&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-10-05/openai-in-talks-with-uae-funds-blackrock-for-30-billion-round?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTI1MzgzNiwiZXhwIjoxNzkxODU4NjM2LCJhcnRpY2xlSWQiOiJUTUZUQ1lWVFRDWlgwMCIsImJjb25uZWN0SWQiOiJFQTExNDNDNTM4NEE0RUY5QTg5RjJEN0IxMTg2MzcwOSJ9.vS73_YQLDTKfkP47Ng4A03lSGOWrQB5ypl8y3nr5r2A"&gt;OpenAI in $30 Billion Round Talks With UAE Funds, BlackRock&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;OpenAI is in talks with multiple investment funds from the United Arab Emirates to help anchor a $30 billion round of financing. The UAE funds have discussed forming a syndicate to invest as much as $10 billion in the round. The University of California&amp;#x27;s endowment fund, BlackRock, Thrive Capital, and Andreessen Horowitz may also participate in the round alongside that syndicate. The fundraise is ongoing, and the details could change.&lt;/p&gt;
 &lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://devin.ai/blog/memory-and-dreaming"&gt;How Devin&amp;#x27;s Memory and Dreaming Work&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Devin&amp;#x27;s new Memory system carries preferences, corrections, and project learnings across sessions, while Dreaming periodically reorganizes and connects that information. The process deduplicates memories, links them to past sessions and artifacts, and can derive new knowledge from accumulated work.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.theaithinker.com/p/how-to-build-an-ai-native-software"&gt;How to Build an AI-Native Software Factory&lt;/a&gt; &lt;small&gt;· 19 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;A practical look at the infrastructure companies need around coding agents once usage scales beyond individual developers. Using Uber&amp;#x27;s software factory as the main case study, it covers cloud execution, model gateways, agent identity, testing, migrations, code review, and measuring economics such as cost per merged pull request.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.akashbajwa.co/p/openais-b2b-marketplace-the-hyperscaler"&gt;OpenAI&amp;#x27;s B2B Marketplace: The Hyperscaler Of AI Apps&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;The OpenAI B2B marketplace opened on September 29 with 32 partners. OpenAI wants to position itself as the platform that the wider AI ecosystem is built on and relies on for distribution. This will consolidate AI sprawl and make it easier for customers to budget. If the marketplace gains traction, we may see an evolution similar to the cloud ecosystem where labs and AI apps co-sell, apps get charged a listing fee, and buyers receive one invoice for their spend.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://devin.ai/blog/memory-and-dreaming"&gt;How Devin&amp;#x27;s Memory and Dreaming Work&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Devin&amp;#x27;s new Memory system carries preferences, corrections, and project learnings across sessions, while Dreaming periodically reorganizes and connects that information. The process deduplicates memories, links them to past sessions and artifacts, and can derive new knowledge from accumulated work.&lt;/p&gt;
 &lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://github.com/gatewai-dev/framefields"&gt;Framefields&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Framefields is an npm package built for coding agents. It enables agents to create Photoshop-inspired compositing and VFX, After Effects-style motion, typography, and keyframing, and Blender-style 3D scenes, cameras, and models. The agent writes a TypeScript composition, checks frames, and renders an MP4. Framefields renders directly on GPU hardware in Node.js and modern WebGPU browsers.&lt;/p&gt;

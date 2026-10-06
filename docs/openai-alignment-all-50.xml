@@ -9,7 +9,15 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-alignment-all-50.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Meet LASER: Recursive sampling for safer conversations</title>
+      <link>https://alignment.openai.com/laser/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/laser/</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>LASER (Logistic Augmented Sampling over Embeddings, Recursively) helps us evaluate model safety more efficiently by combining logistic classifiers with reasoning models to identify high-value data for evaluation.</description>
+    </item>
     <item>
       <title>Reaching an internal EDA host through a reference tool</title>
       <link>https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/</link>
