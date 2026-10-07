@@ -11,6 +11,14 @@
     <atom:link href="https://alignment.openai.com/" rel="via" type="text/html" />
     <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>Studying metagaming latents in language models</title>
+      <link>https://alignment.openai.com/metagaming-latents/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/metagaming-latents/</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Reasoning about how a task will be monitored or rewarded appears to draw on several overlapping processes, not a single mechanism.</description>
+    </item>
+    <item>
       <title>Meet LASER: Recursive sampling for safer conversations</title>
       <link>https://alignment.openai.com/laser/</link>
       <guid isPermaLink="true">https://alignment.openai.com/laser/</guid>
