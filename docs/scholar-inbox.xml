@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 06 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 09:21:15 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 7 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:aa443d385dba9906</guid>
+      <pubDate>Wed, 07 Oct 2026 09:21:15 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• The Model Plants the Trigger: Answer-Side Backdoor Attacks in Multi-Turn Large Language Models
+• SIGMA: Self-Improving Alignment Generalization from a Model Spec
+• Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment
+• Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training
+• Toward Alignment Scaling Laws: A Framework and First Preregistered Measurements</description>
+      <content:encoded>&lt;p&gt;Matched 97 of 2368 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Model+Plants+the+Trigger%3A+Answer-Side+Backdoor+Attacks+in+Multi-Turn+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Model Plants the Trigger: Answer-Side Backdoor Attacks in Multi-Turn Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yibo Zhang, Tianrong Guan, Liang Lin, Puze Wang, Jin Wang, Qingsong Wen&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 6) · relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=SIGMA%3A+Self-Improving+Alignment+Generalization+from+a+Model+Spec&amp;amp;searchtype=title"&gt;&lt;strong&gt;SIGMA: Self-Improving Alignment Generalization from a Model Spec&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jingyu Zhang, Shruti Palaskar, Daniel Khashabi, Benjamin Van Durme, Leon A. Gatys, Joseph Yitan Cheng&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 6) · relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Principled+Under+Pressure%3A+Post-Training+Decides+Whether+LLMs+Act+on+Their+Own+Moral+Judgment&amp;amp;searchtype=title"&gt;&lt;strong&gt;Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Orion Reblitz-Richardson&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 6) · relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Understanding+and+Enhancing+Backdoor+Persistency+in+LLM+Agent+Post-Training&amp;amp;searchtype=title"&gt;&lt;strong&gt;Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Qiusi Zhan, Nian Lyu, Stephanie Ding, Arnav Mehta, Xander Davies, Daniel Kang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 5) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Toward+Alignment+Scaling+Laws%3A+A+Framework+and+First+Preregistered+Measurements&amp;amp;searchtype=title"&gt;&lt;strong&gt;Toward Alignment Scaling Laws: A Framework and First Preregistered Measurements&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jeremy Canale&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 6) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 6 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
@@ -365,27 +386,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Do+Large+Language+Models+Know+What+They+Don%27t+Know+II%3F+A+Fully+Behavioral%2C+Non-Cognitive+Measure+of+Epistemic+Honesty&amp;amp;searchtype=title"&gt;&lt;strong&gt;Do Large Language Models Know What They Don't Know II? A Fully Behavioral, Non-Cognitive Measure of Epistemic Honesty&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ali Şenol, H. Russell Bernard, Huan Liu&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 7) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=MOLE%3A+Detecting+Insider+Threats+in+AI+Agents&amp;amp;searchtype=title"&gt;&lt;strong&gt;MOLE: Detecting Insider Threats in AI Agents&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Aashiq Muhamed, Virginia Smith&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 7) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Beliefs+and+Behavior+in+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Beliefs and Behavior in Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Alex Smolin, Bryan Wilder&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 7) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Scholar Inbox, 7 Sep 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:64456d6fd15b0ad5</guid>
-      <pubDate>Mon, 07 Sep 2026 08:59:10 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• Harness-agnostic detection and immunization of reward hacking in self-evolving language models
-• When Do Internal Probes Beat Reading the Answer? Miscalibrated Readouts and Behavior-Concealed Knowledge in Language Models
-• Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets
-• Moral Competence Before Moral Content: Why LLM Agents Lack the Prerequisites for Coherent Alignment
-• Single-Query Black-Box Calibration Auditing via Logit Bias</description>
-      <content:encoded>&lt;p&gt;Matched 61 of 1308 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Harness-agnostic+detection+and+immunization+of+reward+hacking+in+self-evolving+language+models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Harness-agnostic detection and immunization of reward hacking in self-evolving language models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Rongxin Yang, Yang Liu, Shang Luo, Haoxuan Jia, Chongyang Zhang, Hao Zheng, Yingguang Yang, Yulin Huang, Jianshen Zhang, ..., Bin Chong&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 4) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=When+Do+Internal+Probes+Beat+Reading+the+Answer%3F+Miscalibrated+Readouts+and+Behavior-Concealed+Knowledge+in+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;When Do Internal Probes Beat Reading the Answer? Miscalibrated Readouts and Behavior-Concealed Knowledge in Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Gnaneswar Villuri, Hashmath Shaik, Alex Doboli&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 4) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Why+Better+Models+Can+Create+Riskier+Systems%3A+Evidence+from+LLM+Agents+in+Financial+Markets&amp;amp;searchtype=title"&gt;&lt;strong&gt;Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jillian Ross, Eric So, Zoe De Simone, Charles Pozniak, Andrew W. Lo&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 3) · relevance 82&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Moral+Competence+Before+Moral+Content%3A+Why+LLM+Agents+Lack+the+Prerequisites+for+Coherent+Alignment&amp;amp;searchtype=title"&gt;&lt;strong&gt;Moral Competence Before Moral Content: Why LLM Agents Lack the Prerequisites for Coherent Alignment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Arno Libert, Derck W. E. Prinzhorn, Daan R. Henselmans&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 4) · relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Single-Query+Black-Box+Calibration+Auditing+via+Logit+Bias&amp;amp;searchtype=title"&gt;&lt;strong&gt;Single-Query Black-Box Calibration Auditing via Logit Bias&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Roman Plaud, Antoine Saillenfest, Matthieu Labeau, Thomas Bonald, Willem Waegeman&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 4) · relevance 78&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
   </channel>

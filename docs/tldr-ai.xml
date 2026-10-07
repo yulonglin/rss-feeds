@@ -9,7 +9,68 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Mistral Large 4 🧠, OpenAI Decisions API ❓, Nano Banana 2.1 🍌</title>
+      <link>https://tldr.tech/ai/2026-10-07</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Mistral Large 4
+• Nano Banana 2.1
+• Sharing AI progress in mathematics
+• The Cyber Risk Discourse is Broken
+• Building Faster Emergency Patching Systems
+• Decisions API is now available in Public Beta
+• EmbeddingGemma 2
+• Introducing Personal Agent Protocol
+• Building the Most Diverse UMI Dataset in Robotics
+• In Race With US, China Struggles to Recruit Foreign AI Researchers
+• A $12B DeepSeek Raise Is Reportedly Close, With Tencent And CATL Among Backers
+• Claude now works with Google Docs, Sheets, and Slides
+• US-China AI Gap Hits 3%, and DeepSeek V4.1 Flash Now Leads on Agentic Coding Benchmarks
+• Hark debuts an AI agent a year before its first devices
+• AICR v1.0: Open, stable, and verifiable GPU cluster configuration
+• Anthropic Expands Verified Access to Cyber Capabilities</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://mistral.ai/news/mistral-large-4/"&gt;Mistral Large 4&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Mistral Large 4 is a one-trillion-parameter multimodal model positioned as a European alternative to leading closed and open AI systems.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://deepmind.google/models/model-cards/nano-banana-2-1/"&gt;Nano Banana 2.1&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Nano Banana 2.1 is a member of the Gemini 3 series of models. It can take text and image inputs and output images and text. Based on Gemini 3.6 Flash, the model has a token context window of up to 1 million. Nano Banana 2.1 is available in the Gemini app and API, Google AI Studio, Google Search AI Mode, Google Ads, Google Flow, and Google Stitch.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/sharing-ai-progress-in-mathematics/"&gt;Sharing AI progress in mathematics&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI has released a broad range of mathematical results produced by an internal frontier model. It has published the results in a GitHub repository along with protocols for paper revisions and citations. The repository contains formalizations of many of the proofs in Lean and will be updated with more formalizations as they are obtained. It also includes 10 summaries of the model&amp;#x27;s reasoning, estimations of compute spent in terms of Pro usage on ChatGPT, and statistics about the number of attempted problems.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken"&gt;The Cyber Risk Discourse is Broken&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Open-weight models potentially pose an untenable risk to society&amp;#x27;s functionality. Chinese companies continue to release open-weight models with strong cyber capabilities. GLM-5.3 crosses a threshold of capability, but there is little public evidence that much has changed. Some say that open-weight models will result in a crippling of cyber infrastructure - after many years of debating open-weight risks, we will finally start to get some real answers.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://projectzero.google/2026/10/emergency-patching.html"&gt;Building Faster Emergency Patching Systems&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google Project Zero examined how large software vendors can patch urgent vulnerabilities faster than their normal release cycles allow. The guide breaks down the full remediation pipeline (from triage and development through testing, delivery, and activation) and highlights systems designed for exceptional security incidents.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877"&gt;Decisions API is now available in Public Beta&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI&amp;#x27;s Decisions API is now available to all developers in public beta. It makes decisions up to 10 times faster than GPT-6 Luna through the Responses API. The Decisions API accepts text and image inputs and supports three kinds of outputs: predicates, choices, and scores. It costs $0.10 per 1 million input tokens - there are no cache-read, cache-write, or output-token charges.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"&gt;EmbeddingGemma 2&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;EmbeddingGemma 2 is a 740M-parameter model that maps text, code, images, audio, and video into a shared embedding space. Built for on-device inference and released under Apache 2.0, it enables multimodal search and retrieval without sending data to the cloud.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://sierra.ai/blog/introducing-personal-agent-protocol"&gt;Introducing Personal Agent Protocol&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Personal Agent Protocol is an open standard that Meta and Sierra are developing along with other industry partners. It is designed to handle authentication, empower consumers, and give companies visibility into what personal agents do through their websites, APIs, or company agents. Consumers decide what access to give their personal agents, and companies set parameters for what those agents can do. The protocol is open for anyone to implement.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://pantheon.inc/research/diverse-umi"&gt;Building the Most Diverse UMI Dataset in Robotics&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Pantheon rapidly assembled a robust UMI data collection operation, creating a diverse dataset to improve dexterous manipulation in robotics. They built custom infrastructure and hardware, drastically reducing data collection costs from $60/hr to $10/hr while ensuring data diversity. By incorporating innovative freeform and scripted methodologies, Pantheon accumulated over a million unique tasks, overcoming traditional data limitations for enhanced AI model training.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.nytimes.com/2026/10/06/science/china-ai-research-recruitment.html?unlocked_article_code=1.G1E.vzNX.LAgmpYtxdpWb&amp;amp;smid=url-share"&gt;In Race With US, China Struggles to Recruit Foreign AI Researchers&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;China has made recruiting the world&amp;#x27;s best scientists a national priority. It introduced a visa for scientists and is offering lucrative research grants. Foreigners are not coming despite those efforts. The number of Chinese scientists working in the US has risen rather than declined.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://yellow.com/news/deepseek-12b-raise-close-tencent-catl"&gt;A $12B DeepSeek Raise Is Reportedly Close, With Tencent And CATL Among Backers&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;DeepSeek is nearing a $12 billion raise, surpassing its initial 50 billion yuan target, with Tencent and CATL as major contributors. The funding boost follows the release of DeepSeek&amp;#x27;s latest AI model, with expectations it might reach 100 billion yuan. The company is also preparing for a potential Shanghai STAR Market IPO, employing CITIC Securities for assistance.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"&gt;Claude now works with Google Docs, Sheets, and Slides&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Claude now integrates with Google Docs, Sheets, and Slides for all paid plans, allowing direct editing within files.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.techtimes.com/articles/328620/20261006/us-china-ai-gap-hits-3-deepseek-v41-flash-now-leads-agentic-coding-benchmarks.htm"&gt;US-China AI Gap Hits 3%, and DeepSeek V4.1 Flash Now Leads on Agentic Coding Benchmarks&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;DeepSeek V4.1 Flash, a Chinese AI model, now leads in agentic coding benchmarks, surpassing US competitors.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thenextweb.com/news/hark-pro-agent-hardware-europe"&gt;Hark debuts an AI agent a year before its first devices&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Hark has released an AI agent that buys groceries, books cars, and pays bills.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration"&gt;AICR v1.0: Open, stable, and verifiable GPU cluster configuration&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;NVIDIA&amp;#x27;s AI Cluster Runtime (AICR) v1.0 offers version-locked, validated recipes for stable GPU-accelerated Kubernetes cluster configurations.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/news/cyber-verification-program"&gt;Anthropic Expands Verified Access to Cyber Capabilities&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic expanded its Cyber Verification Program into three access tiers for qualifying security professionals, providing its most capable models with reduced cyber blocking.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Instinct group chats 💬, Reflection’s 501B model 🧠, OpenAI text watermarks 🏷️</title>
       <link>https://tldr.tech/ai/2026-10-06</link>
@@ -1157,70 +1218,6 @@
 &lt;p&gt;AI coding agents could accelerate software&amp;#x27;s expansion by multiplying engineer output rather than replacing demand.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.semafor.com/article/09/09/2026/ai-researcher-andrew-tulloch-is-leaving-meta"&gt;AI researcher Andrew Tulloch is leaving Meta&lt;/a&gt; &lt;small&gt;· 24 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Andrew Tulloch, one of the highest-paid employees in the tech industry, had worked in Meta&amp;#x27;s TBD lab.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Images 2.5 🎨, OpenAI solves Navier-Stokes 🧮, AlphaGenome Atlas 🧬</title>
-      <link>https://tldr.tech/ai/2026-09-09</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-09</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• An OpenAI Model Solved the Navier–Stokes Millennium Problem
-• Introducing Muse: The World's First Personal AI Agent Built for Everyone
-• ChatGPT Images 2.5
-• &amp;gt;10x More Efficient Pretraining
-• Inside the megakernel serving engine for North Mini Code
-• Pretraining progress is mostly coming from data
-• Google's AlphaGenome Maps 9 Billion Genetic Variants
-• Introducing Mercury 2.5
-• Hyper-𝜏-bench: Evaluating agents that build agents
-• Is the 3x AI Productivity Gain just a Computer that Never Sleeps?
-• Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market
-• I Asked 100 Agents to Hack Me
-• Stealing AI Reasoning Traces
-• ChatGPT broke its MAU record for the 4th consecutive month in August
-• Anthropic Researcher Quits Over ‘Out-of-Control' AI Fears
-• A Response to Bill Gates's Essay
-• Progressive Point Matching</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/navier-stokes-solution/"&gt;An OpenAI Model Solved the Navier–Stokes Millennium Problem&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI announced that an internal AI system produced a proof resolving the roughly 90-year-old Navier–Stokes existence and smoothness problem, one of mathematics&amp;#x27; seven Millennium Prize Problems. The model showed that smooth three-dimensional fluid dynamics can develop a finite-time singularity and produced both an analytical proof and a Lean formalization.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"&gt;Introducing Muse: The World&amp;#x27;s First Personal AI Agent Built for Everyone&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Meta introduces Muse, a personal AI agent, powered by Muse Spark, to help users achieve goals by automating tasks like booking travel or sending emails. Muse operates securely on Muse Secure VM, ensuring data privacy with unique protections like the Sentinel agent overseeing actions. Muse will soon offer encrypted data with Muse Confidential VM and is available on iOS, Android, and muse.ai in the US.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/introducing-chatgpt-images-2-5/"&gt;ChatGPT Images 2.5&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI introduced ChatGPT Images 2.5 with sharper details, better reference-image preservation, more reliable editing, and up to 50% lower generation latency.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://magic.dev/blog/pretraining"&gt;&amp;amp;gt;10x More Efficient Pretraining&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Without large amounts of compute, small labs can only compete through algorithmic efficiency. Magic&amp;#x27;s pretraining recipe is now more than 10 times more compute-efficient than that of leading open-weight base models. The startup believes that pretraining, agentic RL, and long-context are sufficient for building superhuman coding agents and automating AI research and development. This post discusses its pretraining and long-context work.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://cohere.com/blog/megakernels"&gt;Inside the megakernel serving engine for North Mini Code&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;This post presents a fully fledged serving system built around a decode megakernel. The system supports everything a real server needs: continuous batching, paged attention, and ragged sequence lengths, all behind an OpenAI-compatible endpoint with tool calling. The megakernel reaches 292 tokens per second on batch size 1, or 62% of SoL - 1.58× faster than vLLM. That margin holds across batch sizes and out to 256K of context with no measurable loss of accuracy.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data"&gt;Pretraining progress is mostly coming from data&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Between 2019 and 2025, 3.24x more compute efficiency gains have come from data improvements rather than model improvements. The gains from data and model improvements are mostly independent and don&amp;#x27;t interact. Most model research has consisted of removing or pushing back constraints to scaling. The data improvements may matter less for larger models. Small models see significant gains from data quality.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/"&gt;Google&amp;#x27;s AlphaGenome Maps 9 Billion Genetic Variants&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google DeepMind introduced AlphaGenome Atlas, a 1-petabyte database predicting the regulatory effects of all 9 billion possible single-nucleotide variants in the human genome.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.inceptionlabs.ai/blog/introducing-mercury-2-5"&gt;Introducing Mercury 2.5&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Mercury 2.5 is the largest diffusion language model ever trained. It performs comparably to cost-optimized frontier models like GPT-5.6 Luna (Low), Gemini 3.5 Flash-Lite, and Claude Haiku 4.5. The model outputs 1,107 tokens per second on widely available Nvidia GPUs and has a 260K-token context window. At launch, Mercury 2.5 is 80% off at $0.04 per million input and $0.15 per million output.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://sierra.ai/blog/hyper-t-bench-evaluating-agents-that-build-agents"&gt;Hyper-𝜏-bench: Evaluating agents that build agents&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Hyper-𝜏-bench places a developer agent into a sandboxed workspace with the records of a simulated business and a simulated client that it can message at any time. The developer agent recovers the spec from the evidence, designs the architecture, and turns the business&amp;#x27; actions into tools until it has a working customer-service agent. The finished agent has to serve from a fixed menu of models within a cost budget per conversation. Claude Opus 5 (max reasoning) running in Claude Code passes just 23.9% of the held-out evaluation tasks when working alone. Paired with an engineer with deep context, the same class of model reaches 82.2% on the same tasks.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://x.com/ttunguz/status/2097371607396401537"&gt;Is the 3x AI Productivity Gain just a Computer that Never Sleeps?&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI researchers now supervise 3.14 agent-workdays per eight-hour shift, suggesting AI productivity increasingly comes from parallel, around-the-clock machine labor rather than less human effort. That leverage is expensive, with median daily inference spend rising from $14 to over $600.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/"&gt;Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Cognition has raised $2 billion at a $48 billion valuation in a funding round led by Andreessen Horowitz, Accel, Founders Fund, General Catalyst, and Avenir. The startup&amp;#x27;s soaring valuation signals that VCs still see room for multiple major players to capture meaningful market share in AI coding. Cognition leases an Nvidia server cluster that could push its total cash burn to $800 million this year. The startup is expected to reach $4 billion to $5 billion in annualized revenue by the end of 2026.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blog.sshh.io/p/i-asked-100-agents-to-hack-me"&gt;I Asked 100 Agents to Hack Me&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Around 100 self-hosted agents attempted to hack various online accounts over five hours. They compromised three accounts through software vulnerabilities and two through password brute-forcing, while also making 16 social engineering attempts. The experiment tested abliterated open-source models&amp;#x27; capabilities, revealing potential future risks as these models improve and become cheaper to deploy.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html"&gt;Stealing AI Reasoning Traces&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;It&amp;#x27;s possible to force a weaker, less safeguarded model from the same provider to decode and output reasoning traces verbatim in plaintext by injecting an encrypted reasoning trace from a target model without ever jailbreaking the more capable model directly.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/similarweb/status/2097233359382380670"&gt;ChatGPT broke its MAU record for the 4th consecutive month in August&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;ChatGPT reached 1.06 billion monthly active users in August.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628?st=1d2yaL&amp;amp;reflink=desktopwebshare_permalink"&gt;Anthropic Researcher Quits Over ‘Out-of-Control&amp;#x27; AI Fears&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Jacob Coxon says he is leaving the company as he believes the industry-wide rush to build AI systems that can improve themselves could spiral out of control and destroy humanity.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.thexpin.com/p/bill-gates-wrong-about-ai-layoffs"&gt;A Response to Bill Gates&amp;#x27;s Essay&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Bill Gates&amp;#x27; essay discusses AI&amp;#x27;s potential societal impact, proposing new institutions and taxes to manage transitions.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.prestonfu.com/notes/ppm/"&gt;Progressive Point Matching&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Progressive Point Matching gives long-horizon RL partial credit without changing the optimal objective, improving training efficiency as tasks grow longer.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>

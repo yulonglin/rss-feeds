@@ -83,8 +83,8 @@
       "source_url": "https://deploymentsafety.openai.com/",
       "upstream_status": "A /posts.xml exists but is a broken dev build: zero items and a localhost link.",
       "notes": "",
-      "items": 25,
-      "newest": "2026-09-29",
+      "items": 26,
+      "newest": "2026-10-07",
       "healthy": true
     },
     {
@@ -154,7 +154,7 @@
       "upstream_status": "Official /api/rss/ai exists but each item is only the emoji headline and a link: no summary and none of the stories.",
       "notes": "",
       "items": 20,
-      "newest": "2026-10-06",
+      "newest": "2026-10-07",
       "healthy": true
     },
     {
@@ -167,8 +167,8 @@
       "source_url": "https://www.readtangle.com/",
       "upstream_status": "Official /rss/ is complete but interleaves the daily with video and podcast teasers, paywalled previews, recaps, reader essays and sponsor cards.",
       "notes": "",
-      "items": 5,
-      "newest": "2026-10-06",
+      "items": 4,
+      "newest": "2026-10-07",
       "healthy": true
     },
     {
@@ -182,7 +182,7 @@
       "upstream_status": "Email only. Each digest is a stack of styled table cards, titled with an ambiguous dd/mm date, and every link in it is a personal auto-login link.",
       "notes": "Rebuilt from each paper's fields; nothing from the email's markup or links is kept.",
       "items": 18,
-      "newest": "2026-10-06",
+      "newest": "2026-10-07",
       "healthy": true
     },
     {
@@ -196,7 +196,7 @@
       "upstream_status": "Email only. Nested layout tables, logos, a tracking pixel and footers, and every link wrapped in a per-recipient click tracker.",
       "notes": "A headline that cannot be matched to its article by exact title is left unlinked rather than pointed at the tracker.",
       "items": 13,
-      "newest": "2026-10-06",
+      "newest": "2026-10-07",
       "healthy": true
     },
     {
@@ -224,7 +224,7 @@
       "upstream_status": "Official /rss is valid but summary-only, keeps the image in an enclosure most readers ignore, tags every link with utm tracking and credits only the first author of co-written pieces.",
       "notes": "",
       "items": 20,
-      "newest": "2026-10-06",
+      "newest": "2026-10-07",
       "healthy": true
     },
     {
@@ -238,7 +238,7 @@
       "upstream_status": "The old /home/rss feed is gone, and every gatesnotes.com page answers scripts with a 403. Read from the content API the site itself is built from.",
       "notes": "",
       "items": 20,
-      "newest": "2026-08-26",
+      "newest": "2026-10-07",
       "healthy": true
     }
   ]
