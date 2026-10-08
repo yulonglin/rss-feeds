@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 07 Oct 2026 09:21:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 09:24:56 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 8 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:e469e4305be80a9b</guid>
+      <pubDate>Thu, 08 Oct 2026 09:24:56 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Reasoning-Token Spikes Under Prompted Untruthful Responding in Large Language Models
+• Beyond the Sycophancy Score: How Task, Model, and Pressure Shape LLM Yielding
+• AI Safety Considerations for Agents With Limited Time to Act
+• SLDR: Defending Against Malicious Fine-tuning via Selective Layers Recovery and Dynamic Routing
+• SafeEvo: Deciphering the Safety Alignment Mechanism and Evolution in Language Models</description>
+      <content:encoded>&lt;p&gt;Matched 109 of 2210 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Reasoning-Token+Spikes+Under+Prompted+Untruthful+Responding+in+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Reasoning-Token Spikes Under Prompted Untruthful Responding in Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Maverick Morales, Tomáš Dominik, Vermut Gao, Katrina Shirey, Paulius Rimkevičius, Aaron Schurger, Uri Maoz&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 7) · relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Beyond+the+Sycophancy+Score%3A+How+Task%2C+Model%2C+and+Pressure+Shape+LLM+Yielding&amp;amp;searchtype=title"&gt;&lt;strong&gt;Beyond the Sycophancy Score: How Task, Model, and Pressure Shape LLM Yielding&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Guang Yang, Homa Hosseinmardi, Fengchen Liu, Amir Ghasemian&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 30) · relevance 89&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=AI+Safety+Considerations+for+Agents+With+Limited+Time+to+Act&amp;amp;searchtype=title"&gt;&lt;strong&gt;AI Safety Considerations for Agents With Limited Time to Act&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Leo Zeitler, Jack Richings, Victoria Nockles&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 7) · relevance 78&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=SLDR%3A+Defending+Against+Malicious+Fine-tuning+via+Selective+Layers+Recovery+and+Dynamic+Routing&amp;amp;searchtype=title"&gt;&lt;strong&gt;SLDR: Defending Against Malicious Fine-tuning via Selective Layers Recovery and Dynamic Routing&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Hui Zhang and Yachao Yuan and Jiayun Wang and Yuanzhuo Li and Hongtao Wang, Yali Yuan&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 7) · relevance 78&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=SafeEvo%3A+Deciphering+the+Safety+Alignment+Mechanism+and+Evolution+in+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;SafeEvo: Deciphering the Safety Alignment Mechanism and Evolution in Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Miao Yu, Hao Huang, Lu Yuan, Yunpeng Li, Kun Wang, Zuming Jiang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 7) · relevance 77&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 7 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
