@@ -9,7 +9,94 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/the-conversation.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://theconversation.com/global/newsletters" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 07 Oct 2026 15:28:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 12:32:59 +0000</lastBuildDate>
+    <item>
+      <title>Is AI becoming a new religion?</title>
+      <link>https://theconversation.com/why-ai-resembles-a-charismatic-religious-leader-291831</link>
+      <guid isPermaLink="false">the-conversation:e7a8d5157871debe</guid>
+      <pubDate>Fri, 09 Oct 2026 12:32:59 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>AI weekly</category>
+      <description>• Why AI resembles a charismatic religious leader
+• Why a decade of AI safety promises keep failing to bite
+• Trump wants an AI Force like Space Force, but that could make AI’s risks harder to manage
+• Why most health apps are biased even before their first lines of code are written
+• We’ve tracked $80M of spending on almost 170 AI-generated political ads this year – it’s weird</description>
+      <content:encoded>&lt;p&gt;What happens when a person moves from asking a chatbot for emotional support and advice to spiritual guidance? AI is already transforming the practice of religion in many ways, but a scholar of religion delves into whether AI represents a new kind of religious movement. Also this week, a couple of articles examine the daunting challenges regulating AI technology at an international level, another piece examines the bias inherent in AI-infused health monitoring apps, and a look at the varied – and sometimes odd – ways AI is shaking up political campaigns in the U.S.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lead Story&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/760622/original/file-20260917-60-h9pkeh.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C6240%2C3510&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/why-ai-resembles-a-charismatic-religious-leader-291831"&gt;Why AI resembles a charismatic religious leader&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Morgan Shipley, Michigan State University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;AI can function as a charismatic figure without standing on a stage, establishing a church or gathering disciples, writes a scholar of religion.&lt;/p&gt;
+&lt;p&gt;At this point, AI clearly offers something more significant than access to information. By helping people interpret their lives, AI is entering territory historically occupied by therapists, spiritual advisers and religious communities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Regulation&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/763528/original/file-20261002-50-ygiq79.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C202%2C3874%2C2179&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/why-a-decade-of-ai-safety-promises-keep-failing-to-bite-293342"&gt;Why a decade of AI safety promises keep failing to bite&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Jon Whittle, The University of Melbourne&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Donald Trump’s White House Accord on Super Intelligence looks set to join a long line of ineffectual calls for self-regulation from the tech industry.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/761853/original/file-20260923-50-l3n1i4.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C862%2C8256%2C4644&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/trump-wants-an-ai-force-like-space-force-but-that-could-make-ais-risks-harder-to-manage-292575"&gt;Trump wants an AI Force like Space Force, but that could make AI’s risks harder to manage&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Jason M. Blazakis, Middlebury College&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;An AI Force would likely push China to create its own. That arms race could turn a technology already slipping out of human control into a weapon.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Health&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/755380/original/file-20260821-50-rqrtxt.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C132%2C1280%2C720&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/why-most-health-apps-are-biased-even-before-their-first-lines-of-code-are-written-286261"&gt;Why most health apps are biased even before their first lines of code are written&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Mahima Kalla, The University of Melbourne; Noushin Nazarian, The University of Melbourne&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Apps and wearables are often built on invisible assumptions that might not be relevant to you. A new study shows how we can change that.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Politics&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/763163/original/file-20260930-50-yghztt.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C122%2C2058%2C1157&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/weve-tracked-80m-of-spending-on-almost-170-ai-generated-political-ads-this-year-its-weird-292105"&gt;We’ve tracked $80M of spending on almost 170 AI-generated political ads this year – it’s weird&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Travis N. Ridout, Washington State University; Erika Franklin Fowler, Wesleyan University; Michael Franz, Bowdoin College&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Almost 170 ads and $80 million in spending and only 31% with a disclaimer: Here’s what researchers found when they tracked AI in this year’s campaign ads.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>And the winners were ...</title>
+      <link>https://theconversation.com/im-a-physicist-who-worked-on-the-nobel-winning-neutrino-search-heres-how-a-cubic-kilometer-of-antarctic-ice-became-a-telescope-for-ghost-particles-from-space-293747</link>
+      <guid isPermaLink="false">the-conversation:4c32c53c683b9a4d</guid>
+      <pubDate>Fri, 09 Oct 2026 11:53:01 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Global daily</category>
+      <description>• I’m a physicist who worked on the Nobel-winning neutrino search – here’s how a cubic kilometer of Antarctic ice became a telescope for ghost particles from space
+• Nobel laureate Karl Deisseroth on how light is changing what we know about the brain
+• Nobel prize in chemistry awarded for work on mirror-image molecules
+• French student protests: comparisons with 1968 will only serve the political extremes
+• Is this the ‘mathocalypse’? Why OpenAI’s latest results dump has left mathematicians in shock
+• Coolcations: tourism boom is taking a toll on chillier destinations</description>
+      <content:encoded>&lt;p&gt;When Karl Deisseroth was studying to be a doctor in the 1990s, he took a rotation working with psychiatric patients. &lt;/p&gt;
+&lt;p&gt;It ​s​tarted him down a path of discovery about how the brain works that would eventually lead him to become a Nobel laureate.​ “The brain is billions of fragile, extremely vulnerable, transparent, very fast-acting cells,” Deisseroth said in an interview for The Conversation Weekly podcast. &lt;/p&gt;
+&lt;p&gt;“I was impressed by the magnitude of the challenge.” He reflects on how his research pioneered the field of optogenetics, a new tool that uses light to control nerve cells to investigate how their activity shapes our feelings and behaviour​.&lt;/p&gt;
+&lt;p&gt;Other scientific endeavours rewarded by the Nobel committees this week include a giant observatory at the South Pole, built to capture glimpses of neutrinos, ghostly messengers from space. A scientist who worked on the project explains what it’s like to work there. And we explain the science behind the mirror-image molecules that won the Nobel prize in chemistry.&lt;/p&gt;
+&lt;p&gt;And as Canadian poet Anne Carson was named the new Nobel laureate for literature, a classics expert appreciates how she discovered new possibilities within language.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Gemma Ware&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Head of Audio, The Conversation UK &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Top story&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/764306/original/file-20261006-60-ds0ckd.jpg?ixlib=rb-4.1.1&amp;amp;rect=488%2C333%2C6207%2C3766&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;p&gt;The IceCube observatory sits atop the South Pole’s 1.8-miles-thick pure, clear ice sheet. Ilya Bodo, IceCube/NSF&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/im-a-physicist-who-worked-on-the-nobel-winning-neutrino-search-heres-how-a-cubic-kilometer-of-antarctic-ice-became-a-telescope-for-ghost-particles-from-space-293747"&gt;I’m a physicist who worked on the Nobel-winning neutrino search – here’s how a cubic kilometer of Antarctic ice became a telescope for ghost particles from space&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Tyce DeYoung, Michigan State University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The 2026 Nobel Prize in physics recognizes Francis Halzen’s vision in building an unusual telescope in Antarctica, as well as the neutrino discoveries it’s made.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/764871/original/file-20261008-50-m2lfos.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C192%2C5705%2C2852&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/nobel-laureate-karl-deisseroth-on-how-light-is-changing-what-we-know-about-the-brain-293925"&gt;Nobel laureate Karl Deisseroth on how light is changing what we know about the brain&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Gemma Ware, The Conversation&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;From algae to a Nobel prize: listen to The Conversation Weekly podcast to hear Karl Deisseroth explain his brain science breakthrough.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/764552/original/file-20261007-50-6diqgk.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C596%2C4096%2C2048&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/nobel-prize-in-chemistry-awarded-for-work-on-mirror-image-molecules-293816"&gt;Nobel prize in chemistry awarded for work on mirror-image molecules&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Matthew Addicoat, Nottingham Trent University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The prize was awarded for work that produces one version of a mirror image molecule.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/764611/original/file-20261007-50-cpyrkl.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C5999%2C4000&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/french-student-protests-comparisons-with-1968-will-only-serve-the-political-extremes-293879"&gt;French student protests: comparisons with 1968 will only serve the political extremes&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;David Lees, University of Warwick&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Both far left and far right will try to make political capital out of the unrest.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/765115/original/file-20261009-50-mgf66.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C531%2C4095%2C2303&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/is-this-the-mathocalypse-why-openais-latest-results-dump-has-left-mathematicians-in-shock-293837"&gt;Is this the ‘mathocalypse’? Why OpenAI’s latest results dump has left mathematicians in shock&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Melissa Lee, Monash University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI released 722 new AI-generated mathematical papers at once – three have been retracted, and mathematicians are coming to grips with the rest.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/764539/original/file-20261007-50-9a1q8k.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C4928%2C2772&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/coolcations-tourism-boom-is-taking-a-toll-on-chillier-destinations-292403"&gt;Coolcations: tourism boom is taking a toll on chillier destinations&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Mehri Khosravi, University of East London; United Nations University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Holiday destinations in northern Europe saw a boost in tourist numbers this summer, but for some this throws up new problems.&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/yemen-is-spiralling-into-another-civil-war-that-could-swiftly-engulf-in-the-entire-region-293104"&gt; Yemen is spiralling into another civil war that could swiftly engulf in the entire region &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Amin Saikal, Australian National University; The University of Western Australia; Victoria University &lt;/p&gt; &lt;p&gt;Turkey and Pakistan are poised to send troops to Saudi Arabia, but so far the Trump administration has avoided getting involved.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/sexual-assault-survivors-stories-may-shift-over-time-a-psychologist-explains-why-it-doesnt-mean-theyre-lying-293766"&gt; Sexual assault survivors’ stories may shift over time – a psychologist explains why it doesn’t mean they’re lying &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Michele Patterson Ford, Dickinson College &lt;/p&gt; &lt;p&gt;The brain’s acute response to the trauma of sexual assault can block a person’s ability to accurately assess what they experienced.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/three-years-after-october-7-global-attention-on-gaza-has-receded-the-real-test-will-come-after-israels-election-292360"&gt; Three years after October 7, global attention on Gaza has receded. The real test will come after Israel’s election &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Eyal Mayroz, University of Sydney &lt;/p&gt; &lt;p&gt;A small but vocal global campaign has maintained pressure on Israel, but will this hold if a less extreme government is elected?&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/sudans-death-toll-in-2025-could-be-as-high-as-100-000-how-we-did-the-count-292159"&gt; Sudan’s death toll in 2025 could be as high as 100,000: how we did the count &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Paola Vesco, Peace Research Institute Oslo (PRIO); Amber Deniz, Uppsala University; David Randahl, Swedish Defence University; Johan Brosché, Uppsala University; Magnus Öberg, Uppsala University &lt;/p&gt; &lt;p&gt;Much of the difference in number of deaths across reports stems from how organisations select and handle sources.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/leap-seconds-have-helped-keep-clocks-synchronized-with-earths-rotation-but-their-time-may-be-over-heres-why-291017"&gt; Leap seconds have helped keep clocks synchronized with Earth’s rotation, but their time may be over – here’s why &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Vahe Peroomian, USC Dornsife College of Letters, Arts and Sciences &lt;/p&gt; &lt;p&gt;If you think about leap years, it may seem like humans have a very odd way of measuring time. Sometimes, timekeepers even have to add extra seconds to clocks.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/digger-channels-kubricks-dr-strangelove-for-the-climate-crisis-until-its-twist-293720"&gt; Digger channels Kubrick’s Dr. Strangelove for the climate crisis – until its twist &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Guy Westwell, Queen Mary University of London &lt;/p&gt; &lt;p&gt;Digger’s hat is borrowed from Major ‘King’ Kong (Slim Pickens), a character in Stanley Kubrick’s film masterpiece.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
+    </item>
     <item>
       <title>Why an obscure US accounting proposal is causing an outcry</title>
       <link>https://theconversation.com/us-regulators-want-to-make-corporate-earnings-reports-less-frequent-but-investors-have-doubts-289338</link>
@@ -479,116 +566,6 @@
 &lt;h3&gt;&lt;a href="https://theconversation.com/how-ai-could-make-us-work-even-harder-286688"&gt;How AI could make us work even harder&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Malte Jauch, University of Essex&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Automation may simply speed up the rat race.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>What a Houthi advance might mean</title>
-      <link>https://theconversation.com/houthi-advance-boosts-irans-leverage-over-the-us-and-saudi-arabia-but-may-cost-rebel-group-its-legitimacy-back-in-yemen-291930</link>
-      <guid isPermaLink="false">the-conversation:e33e80a12211f764</guid>
-      <pubDate>Fri, 18 Sep 2026 11:44:35 +0000</pubDate>
-      <dc:creator>The Conversation</dc:creator>
-      <category>Global daily</category>
-      <description>• Houthi advance boosts Iran’s leverage over the US and Saudi Arabia – but may cost rebel group its legitimacy back in Yemen
-• Africa’s Red Sea states face growing risks as Houthi rebels expand their reach
-• Rapid Houthi advances in Yemen pose massive strategic risks for Saudi Arabia in the Gulf
-• Russia’s parliamentary elections will not be a referendum on the Ukraine war – or anything, really
-• Why AI consciousness could become the next great societal divide
-• Wendell Berry spent his life farming and writing – his legacy is an ethic of care for the natural world</description>
-      <content:encoded>&lt;p&gt;Since 2022, an uneasy truce has largely kept a lid on the civil war in Yemen. But a rapid advance by the Houthis and tit-for-tat attacks with Saudi Arabia, which backs the Yemeni government in control of non-Houthi areas, risks reigniting that conflict. &lt;/p&gt;
-&lt;p&gt;Houthi control of the Bab el-Mandeb Strait also creates a further headache for the Gulf region, and establishes a second maritime chokehold accompanying Iran’s restrictions over the Strait of Hormuz. That, in turn, threatens global shipping and risks dragging more countries into the wider – and increasingly messy – Middle East conflict.&lt;/p&gt;
-&lt;p&gt;So what happens next? Gulf analyst Kristian Coates Ulrichsen notes there is “very little appetite in Riyadh for a new military operation in Yemen, especially since the Houthis are skilled in asymmetric combat and have far more advanced drone and other technological capabilities than they possessed during the previous rounds of conflict with Saudi Arabia.”&lt;/p&gt;
-&lt;p&gt;Yet there are risks for the Houthis, writes Mahad Darar. “It is one thing to take territory and quite another thing to hold it … the Houthis may now find themselves controlling a strait the world wants reopened while still lacking the one thing that strait was never going to buy them: a whole country that actually consents to their rule.”&lt;/p&gt;
-&lt;p&gt;Elsewhere this week we have been previewing the Russian parliamentary elections and asking: Are robotic vacuums spying on us?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Matt Williams&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Senior International Editor&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Top story&lt;/strong&gt;&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/760309/original/file-20260916-50-buyyaa.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C424%2C4360%2C2452&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;p&gt;Yemen’s Houthi armed forces patrol the capital Sanaa on Sept. 12, 2026. Mohammed Huwaish/AFP via Getty Images&lt;/p&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/houthi-advance-boosts-irans-leverage-over-the-us-and-saudi-arabia-but-may-cost-rebel-group-its-legitimacy-back-in-yemen-291930"&gt;Houthi advance boosts Iran’s leverage over the US and Saudi Arabia – but may cost rebel group its legitimacy back in Yemen&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Mahad D. Darar, Colorado State University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Seizure of the Bab el-Mandeb Strait complicates a widening conflict in the Persian Gulf. It also risks reigniting Yemen’s civil war.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/760497/original/file-20260917-50-ujo9r7.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C345%2C3237%2C1618&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/africas-red-sea-states-face-growing-risks-as-houthi-rebels-expand-their-reach-292160"&gt;Africa’s Red Sea states face growing risks as Houthi rebels expand their reach&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Burak Şakir Şeker, Ankara Hacı Bayram Veli University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The African shoreline is now much more valuable to outsiders who want to monitor, contain or outflank the waterway opposite them.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/760203/original/file-20260916-60-xjz1e.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C42%2C1024%2C512&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/rapid-houthi-advances-in-yemen-pose-massive-strategic-risks-for-saudi-arabia-in-the-gulf-292070"&gt;Rapid Houthi advances in Yemen pose massive strategic risks for Saudi Arabia in the Gulf&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Kristian Coates Ulrichsen, Rice University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The resumption of fighting, paired with the ongoing closure of the Strait of Hormuz, complicates regional strategy and energy policy for the Gulf powerhouse.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/760433/original/file-20260917-50-9s2dpp.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C313%2C6000%2C3375&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/russias-parliamentary-elections-will-not-be-a-referendum-on-the-ukraine-war-or-anything-really-291445"&gt;Russia’s parliamentary elections will not be a referendum on the Ukraine war – or anything, really&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Alasdair McCallum, Monash University; Pete Lentini, Monash University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Russia is convening its first national parliamentary elections since invading Ukraine, which offer a great deal of predictability but also some unexpected surprises.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/759591/original/file-20260914-50-dgypml.jpeg?ixlib=rb-4.1.1&amp;amp;rect=0%2C585%2C5649%2C3055&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/why-ai-consciousness-could-become-the-next-great-societal-divide-291886"&gt;Why AI consciousness could become the next great societal divide&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Lucius Caviola, University of Cambridge&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Ideally, experts should guide this debate. Unfortunately, they disagree too.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/759978/original/file-20260915-50-k6dpf8.jpg?ixlib=rb-4.1.1&amp;amp;rect=423%2C0%2C2029%2C1141&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/wendell-berry-spent-his-life-farming-and-writing-his-legacy-is-an-ethic-of-care-for-the-natural-world-292047"&gt;Wendell Berry spent his life farming and writing – his legacy is an ethic of care for the natural world&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Hannah Green, University of Bristol&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Every reader, farmers and non-farmers alike, can learn from his broader ethics of care, attention and negotiation with the natural world.&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/thanks-trump-why-canada-may-become-the-european-unions-first-ever-associate-member-292059"&gt; Thanks, Trump: Why Canada may become the European Union’s first ever ‘associate member’ &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Stewart Prest, University of British Columbia &lt;/p&gt; &lt;p&gt;Canada has spent the last century defending European democracies. Now it’s asking them to return the favour.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/your-robotic-vacuum-is-a-witness-what-home-robots-mean-for-evidence-privacy-and-the-law-291849"&gt; Your robotic vacuum is a witness: What home robots mean for evidence, privacy and the law &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Henry F. Fradella, Arizona State University; George Grispos, Arizona State University; Jihun Joun, Arizona State University &lt;/p&gt; &lt;p&gt;Laws against surreptitiously recording someone extend to home devices like robot vacuums, but those recordings can still be used against you in court.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/3-african-wild-dogs-travelled-over-4-000km-to-find-mates-why-thats-good-news-for-the-endangered-species-289537"&gt; 3 African wild dogs travelled over 4,000km to find mates – why that’s good news for the endangered species &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Scott Creel, Montana State University &lt;/p&gt; &lt;p&gt;New GPS tracking on African wild dogs found they could travel long distances to find mates, but more than half did not survive the journey.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/history-is-being-rewritten-at-an-archaeological-site-in-morocco-what-the-discovery-of-an-ancient-wall-tells-us-278911"&gt; History is being rewritten at an archaeological site in Morocco. What the discovery of an ancient wall tells us &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Giulio Lucarini, National Research Council (CNR); Cyprian Broodbank, University of Cambridge; Toby C. Wilkinson, University of Cambridge &lt;/p&gt; &lt;p&gt;Communities in the north-west Maghreb were able to coordinate large construction projects thousands of years ago.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/the-international-olympic-committee-wants-mental-health-screening-in-elite-sports-heres-why-291981"&gt; The International Olympic Committee wants mental health screening in elite sports. Here’s why &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Rosemary Purcell, The University of Melbourne &lt;/p&gt; &lt;p&gt;The mythology of the bullet-proof athlete often obscures the reality of elite sport’s mental toll.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/how-a-traditional-nordic-way-of-eating-could-help-you-live-longer-282282"&gt; How a traditional Nordic way of eating could help you live longer &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Daniel Borch Ibsen, Aarhus University; Christina C. Dahm, Aarhus University; Michael Fridén, Aarhus University &lt;/p&gt; &lt;p&gt;Adopting a Nordic diet could cut your risk of heart disease and diabetes.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Why Trump is always reassessing America's value</title>
-      <link>https://theconversation.com/how-portfolio-reasoning-explains-trumps-constant-reevaluation-of-americas-value-290121</link>
-      <guid isPermaLink="false">the-conversation:581d0a7c77b854e7</guid>
-      <pubDate>Wed, 16 Sep 2026 13:04:49 +0000</pubDate>
-      <dc:creator>The Conversation</dc:creator>
-      <category>Business weekly</category>
-      <description>• How ‘portfolio reasoning’ explains Trump’s constant reevaluation of America’s value
-• Employers look for resilient staff – then leave them to burn out
-• AI is supercharging money scams – here’s what you can do to protect yourself
-• Why big tech will hate the Australian tax office’s latest ruling
-• When a bet may not be gambling – the puzzle of prediction markets
-• How soybeans took over the American diet – without anyone noticing</description>
-      <content:encoded>&lt;p&gt;There’s no shortage of theories that try to explain U.S. President Donald Trump. But what if his actions can be understood from the decades he spent as a real estate developer trying to maximize the value of his properties?&lt;/p&gt;
-&lt;p&gt;That approach, according to Penn State University’s Chris Spielvogel, can explain a lot. Dubbed “portfolio theory” by economists, it’s a way of thinking that treats what one has – from property to obligations – as a collection of holdings to be continually managed and reassessed to maximize their value. It’s how Trump ran his real estate empire, and the presidency has let him apply it on a far grander scale, Spielvogel argues.&lt;/p&gt;
-&lt;p&gt;“The soaring stock market, foreign investment growth and more tariff revenue become proof of the United States’ rising value,” writes Spielvogel, a communications scholar. “Alliances, treaties and obligations become holdings whose worth depends on maximizing their returns through continuous renegotiation.” This mindset also explains why Trump has often fixated on acquisition, from Greenland to Venezuela’s oil assets to government shares in companies.&lt;/p&gt;
-&lt;p&gt;One question remains: With U.S. midterm elections looming, how much will this theory be tested by the limits of democratic governance? As Spielvogel notes, “Democratic commitments have no privileged place in its financial calculations.”&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Helen Fessenden&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; Senior Economy and Business Editor, The Conversation US &lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/759727/original/file-20260914-50-lrxtok.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C55%2C2512%2C1413&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/how-portfolio-reasoning-explains-trumps-constant-reevaluation-of-americas-value-290121"&gt;How ‘portfolio reasoning’ explains Trump’s constant reevaluation of America’s value&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;J. Christian Spielvogel, Penn State&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Trump has approached governing through the same framework as his former business portfolio, where he casts the US as a flagship holding whose value he was elected to increase.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Essential briefings&lt;/strong&gt;&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/755959/original/file-20260825-60-jvp05q.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C150%2C999%2C499&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/employers-look-for-resilient-staff-then-leave-them-to-burn-out-290463"&gt;Employers look for resilient staff – then leave them to burn out&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Laura Chamberlain, Warwick Business School, University of Warwick&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Resilience in the workplace is valued in a crisis, but how many firms do anything to develop resilient workers?&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/759167/original/file-20260910-50-nmw00r.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C125%2C5000%2C2500&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/ai-is-supercharging-money-scams-heres-what-you-can-do-to-protect-yourself-291326"&gt;AI is supercharging money scams – here’s what you can do to protect yourself&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Pawan Jain, University of Michigan Flint&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Good habits by consumers can stymie scams, but US regulations have fallen behind the technology.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/759005/original/file-20260910-50-ua27yu.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C900%2C5999%2C2999&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/why-big-tech-will-hate-the-australian-tax-offices-latest-ruling-291571"&gt;Why big tech will hate the Australian tax office’s latest ruling&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Kerrie Sadiq, Queensland University of Technology&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Australia’s laws don’t deal with all the ways local profits are shifted offshore. The ATO aims to close that gap.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/759118/original/file-20260910-50-5fqhle.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C48%2C999%2C499&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/when-a-bet-may-not-be-gambling-the-puzzle-of-prediction-markets-291707"&gt;When a bet may not be gambling – the puzzle of prediction markets&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Filippo Annunziata, Bocconi University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Prediction markets offer the chance to speculate on the outcome of a sports match or election.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Quote of the week&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Soy conquered America not because Americans craved the bean, but because it was remarkably versatile. Its protein could feed a chicken or a pig, its oil could fry French fries or propel a truck, and its lecithin could emulsify chocolate or mayonnaise. It could ship easily, too.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;—&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Edward D. Melillo, Professor of History and Environmental Studies, Amherst College&lt;/p&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/how-soybeans-took-over-the-american-diet-without-anyone-noticing-290915"&gt;How soybeans took over the American diet – without anyone noticing&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Consumers&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/the-tourism-industry-is-slowly-waking-up-to-solo-travelers-needs-291494"&gt; The tourism industry is slowly waking up to solo travelers’ needs &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Peter McGraw, University of Colorado Boulder &lt;/p&gt; &lt;p&gt;More and more travelers want the freedom of going it alone, but with connections and activities with other people.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Inequality&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/canadas-fast-delivery-comes-at-a-cost-for-migrant-truck-drivers-289577"&gt; Canada’s fast delivery comes at a cost for migrant truck drivers &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Émile Baril, Concordia University; Juliana Tinoco Sampedro, Concordia University &lt;/p&gt; &lt;p&gt;Low freight rates, unpaid working time and immigration rules can leave some drivers with little room to push back against difficult working conditions.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Economy&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/australias-female-economists-have-been-making-history-for-nearly-150-years-its-time-we-knew-their-stories-289297"&gt; Australia’s female economists have been making history for nearly 150 years. It’s time we knew their stories &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Duygu Yengin, Adelaide University &lt;/p&gt; &lt;p&gt;In a stubbornly male dominated field, how brilliant did a woman have to be to succeed?&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Personal Finance&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/buy-now-pay-later-doesnt-feel-like-debt-for-young-people-that-can-be-a-big-problem-291149"&gt; ‘Buy now, pay later’ doesn’t feel like debt. For young people, that can be a big problem &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Aaron Gilbert, Auckland University of Technology; Ayesha Scott, Griffith University; Qian Wang, Auckland University of Technology; Sommer Kapitan, Auckland University of Technology &lt;/p&gt; &lt;p&gt;A survey of young New Zealanders finds four in ten didn’t view buy now, pay later as debt. That perception can influence how they use it.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Technology&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/what-the-settlement-left-out-meta-can-still-collect-data-from-kids-291130"&gt; What the settlement left out: Meta can still collect data from kids &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Randolph A Robinson II, University of Illinois Chicago &lt;/p&gt; &lt;p&gt;The settlement calls for changes to Meta’s platforms but does not change the company’s surveillance-based business model&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/ai-has-arrived-in-south-africas-boardrooms-but-company-law-hasnt-caught-up-291004"&gt; AI has arrived in South Africa’s boardrooms – but company law hasn’t caught up &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Rehana Cassim, University of South Africa &lt;/p&gt; &lt;p&gt;Clear rules are urgently needed to prevent a legal vacuum in South African boardrooms.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Transportation&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/africas-air-travel-is-reliant-on-distant-hubs-why-its-time-to-fix-this-288049"&gt; Africa’s air travel is reliant on distant hubs: why it’s time to fix this &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Arthur Shirichena, University of Manchester &lt;/p&gt; &lt;p&gt;The war against Iran has exposed Africa’s dependence on external transit hubs for international and even intra-African connectivity.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Labor&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/to-crack-the-job-market-internships-can-be-just-as-key-for-young-people-as-the-degree-288647"&gt; To crack the job market, internships can be just as key for young people as the degree &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Matthew J. Mayhew, The Ohio State University; Courtney DeRoche, The Ohio State University; Yun-Han Weng, The Ohio State University &lt;/p&gt; &lt;p&gt;Job preparation through internships matters more than ever for young people amid a precarious and fast-changing job market.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Chart of the week&lt;/strong&gt;&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/760066/original/file-20260915-50-1zqcpt.PNG?ixlib=rb-4.1.1&amp;amp;q=70&amp;amp;auto=format&amp;amp;w=900&amp;amp;fit=clip" alt="A chart showing the fate of 29 US based science publications."&gt;</content:encoded>
     </item>
   </channel>
 </rss>

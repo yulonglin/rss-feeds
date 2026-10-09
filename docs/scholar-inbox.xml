@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 08 Oct 2026 09:24:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 09:48:37 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 9 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:1c38b7cb7465c9f9</guid>
+      <pubDate>Fri, 09 Oct 2026 09:48:37 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Deception by Omission: Language Models Knowingly Hide Their Mistakes
+• How to post-train on a surrogate: Envelope sampling mitigates reward hacking
+• Safe at One Loop, Risky at Another: Aligning Safety Across Recurrent Depths in Looped Language Models
+• Thinking Inertia: LLMs Keep Thinking When Told Not To
+• Distillation for Incrimination and Distillation for Capabilities</description>
+      <content:encoded>&lt;p&gt;Matched 113 of 2690 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Deception+by+Omission%3A+Language+Models+Knowingly+Hide+Their+Mistakes&amp;amp;searchtype=title"&gt;&lt;strong&gt;Deception by Omission: Language Models Knowingly Hide Their Mistakes&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Lucas Florin, Amelie Knecht, Ulysse Schaller, Thilo Hagendorff&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 8) · relevance 88&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=How+to+post-train+on+a+surrogate%3A+Envelope+sampling+mitigates+reward+hacking&amp;amp;searchtype=title"&gt;&lt;strong&gt;How to post-train on a surrogate: Envelope sampling mitigates reward hacking&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Sanjit Dandapanthula, Shuvom Sadhuka, Samir Khan, Michael Oberst, Aaditya Ramdas, Alexandra Chouldechova&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 8) · relevance 83&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Safe+at+One+Loop%2C+Risky+at+Another%3A+Aligning+Safety+Across+Recurrent+Depths+in+Looped+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Safe at One Loop, Risky at Another: Aligning Safety Across Recurrent Depths in Looped Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yi Wang, Xiuyuan Qi, Dongqi Han, Dongsheng Li, Wenjie Wang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 7) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Thinking+Inertia%3A+LLMs+Keep+Thinking+When+Told+Not+To&amp;amp;searchtype=title"&gt;&lt;strong&gt;Thinking Inertia: LLMs Keep Thinking When Told Not To&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Dianqiao Lei, Kevin Qinghong Lin, Pan Lu, Philip Torr, James Zou&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 8) · relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Distillation+for+Incrimination+and+Distillation+for+Capabilities&amp;amp;searchtype=title"&gt;&lt;strong&gt;Distillation for Incrimination and Distillation for Capabilities&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Sebastian Prasanna, Jacqueline Tay, Alek Westover&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 7) · relevance 79&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 8 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
@@ -386,27 +407,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Arbitrary+Cipher+Attacks+Against+Large+Language+Models+Do+Not+Require+Fine-Tuning&amp;amp;searchtype=title"&gt;&lt;strong&gt;Arbitrary Cipher Attacks Against Large Language Models Do Not Require Fine-Tuning&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Thomas Rivasseau&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 9) · relevance 84&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=How+Fragile+Is+Safety+Alignment+at+Frontier+Scale%3F+A+Single-Direction+Attack+on+a+320B+MoE&amp;amp;searchtype=title"&gt;&lt;strong&gt;How Fragile Is Safety Alignment at Frontier Scale? A Single-Direction Attack on a 320B MoE&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yi Shi, Tanyu Chen, Kai Shen&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 9) · relevance 70&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=AgentAudit%3A+An+Open%2C+Extensible+Framework+for+Full-Lifecycle+Trust+Evaluation+of+AI+Agents&amp;amp;searchtype=title"&gt;&lt;strong&gt;AgentAudit: An Open, Extensible Framework for Full-Lifecycle Trust Evaluation of AI Agents&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Shrey Nag, Sachita, Abhishek Kumar Singh, Lipi Goel, Rajeshwar Singh Janwar&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 9) · relevance 69&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Scholar Inbox, 9 Sep 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:147faeb9fc03d823</guid>
-      <pubDate>Wed, 09 Sep 2026 12:03:11 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• Inducing Emergent Misalignment from Reward Hacks with Iterative DPO
-• Measuring LLM Sycophancy under Sustained Multi-Turn Pressure
-• Do Large Language Models Know What They Don't Know II? A Fully Behavioral, Non-Cognitive Measure of Epistemic Honesty
-• MOLE: Detecting Insider Threats in AI Agents
-• Beliefs and Behavior in Language Models</description>
-      <content:encoded>&lt;p&gt;Matched 156 of 3992 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Inducing+Emergent+Misalignment+from+Reward+Hacks+with+Iterative+DPO&amp;amp;searchtype=title"&gt;&lt;strong&gt;Inducing Emergent Misalignment from Reward Hacks with Iterative DPO&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Oliver Daniels, Perusha Moodley, Benjamin M. Marlin, David Lindner&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 6) · relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Measuring+LLM+Sycophancy+under+Sustained+Multi-Turn+Pressure&amp;amp;searchtype=title"&gt;&lt;strong&gt;Measuring LLM Sycophancy under Sustained Multi-Turn Pressure&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Leyuan Tang, Kangda Wei, Tianyu Jiang, Ruihong Huang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 8) · relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Do+Large+Language+Models+Know+What+They+Don%27t+Know+II%3F+A+Fully+Behavioral%2C+Non-Cognitive+Measure+of+Epistemic+Honesty&amp;amp;searchtype=title"&gt;&lt;strong&gt;Do Large Language Models Know What They Don't Know II? A Fully Behavioral, Non-Cognitive Measure of Epistemic Honesty&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ali Şenol, H. Russell Bernard, Huan Liu&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 7) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=MOLE%3A+Detecting+Insider+Threats+in+AI+Agents&amp;amp;searchtype=title"&gt;&lt;strong&gt;MOLE: Detecting Insider Threats in AI Agents&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Aashiq Muhamed, Virginia Smith&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 7) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Beliefs+and+Behavior+in+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Beliefs and Behavior in Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Alex Smolin, Bryan Wilder&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 7) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
   </channel>

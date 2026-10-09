@@ -1,7 +1,7 @@
 {
   "site": "https://feeds.yulonglin.com/",
   "repo": "https://github.com/yulonglin/rss-feeds",
-  "generated": "2026-10-08",
+  "generated": "2026-10-09",
   "feeds": [
     {
       "slug": "openai-alignment-research",
@@ -154,7 +154,7 @@
       "upstream_status": "Official /api/rss/ai exists but each item is only the emoji headline and a link: no summary and none of the stories.",
       "notes": "",
       "items": 20,
-      "newest": "2026-10-08",
+      "newest": "2026-10-09",
       "healthy": true
     },
     {
@@ -182,7 +182,7 @@
       "upstream_status": "Email only. Each digest is a stack of styled table cards, titled with an ambiguous dd/mm date, and every link in it is a personal auto-login link.",
       "notes": "Rebuilt from each paper's fields; nothing from the email's markup or links is kept.",
       "items": 19,
-      "newest": "2026-10-08",
+      "newest": "2026-10-09",
       "healthy": true
     },
     {
@@ -196,7 +196,7 @@
       "upstream_status": "Email only. Nested layout tables, logos, a tracking pixel and footers, and every link wrapped in a per-recipient click tracker.",
       "notes": "A headline that cannot be matched to its article by exact title is left unlinked rather than pointed at the tracker.",
       "items": 13,
-      "newest": "2026-10-07",
+      "newest": "2026-10-09",
       "healthy": true
     },
     {
@@ -224,7 +224,7 @@
       "upstream_status": "Official /rss is valid but summary-only, keeps the image in an enclosure most readers ignore, tags every link with utm tracking and credits only the first author of co-written pieces.",
       "notes": "",
       "items": 20,
-      "newest": "2026-10-08",
+      "newest": "2026-10-09",
       "healthy": true
     },
     {
