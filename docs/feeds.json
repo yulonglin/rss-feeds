@@ -181,7 +181,7 @@
       "source_url": "https://www.scholar-inbox.com/",
       "upstream_status": "Email only. Each digest is a stack of styled table cards, titled with an ambiguous dd/mm date, and every link in it is a personal auto-login link.",
       "notes": "Rebuilt from each paper's fields; nothing from the email's markup or links is kept.",
-      "items": 19,
+      "items": 18,
       "newest": "2026-10-09",
       "healthy": true
     },
