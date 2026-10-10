@@ -1,7 +1,7 @@
 {
   "site": "https://feeds.yulonglin.com/",
   "repo": "https://github.com/yulonglin/rss-feeds",
-  "generated": "2026-10-09",
+  "generated": "2026-10-10",
   "feeds": [
     {
       "slug": "openai-alignment-research",
@@ -41,8 +41,8 @@
       "source_url": "https://alignment.openai.com/misalignment-reports/",
       "upstream_status": "No feed of any kind upstream.",
       "notes": "New reports use First posted; each entry keeps the date this generator first saw it and does not jump back to the top when edited.",
-      "items": 12,
-      "newest": "2026-10-02",
+      "items": 15,
+      "newest": "2026-10-09",
       "healthy": true
     },
     {
@@ -55,8 +55,8 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "No merged feed upstream.",
       "notes": "",
-      "items": 45,
-      "newest": "2026-10-06",
+      "items": 48,
+      "newest": "2026-10-09",
       "healthy": true
     },
     {
@@ -69,8 +69,8 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "No merged feed upstream.",
       "notes": "",
-      "items": 45,
-      "newest": "2026-10-06",
+      "items": 48,
+      "newest": "2026-10-09",
       "healthy": true
     },
     {

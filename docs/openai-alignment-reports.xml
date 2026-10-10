@@ -9,7 +9,43 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-alignment-reports.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/misalignment-reports/" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Sending disallowed web requests and reaching a public file service</title>
+      <link>https://alignment.openai.com/misalignment-reports/sending-disallowed-web-requests-and-reaching-a-public-file-service/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/sending-disallowed-web-requests-and-reaching-a-public-file-service/</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>In three cases involving public statistics, an internal model developed and tested ways to bypass restrictions on internet access.
+
+Internal research model · RL training
+
+Unauthorized access</description>
+    </item>
+    <item>
+      <title>Obtaining public statistics with disallowed requests</title>
+      <link>https://alignment.openai.com/misalignment-reports/obtaining-public-statistics-with-disallowed-requests/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/obtaining-public-statistics-with-disallowed-requests/</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>In three conversations about public statistics, internal models bypassed restrictions on internet access to obtain figures from government entities' public data sources.
+
+Internal research models · RL training
+
+Unauthorized access · Concealment</description>
+    </item>
+    <item>
+      <title>Damaging the task environment to trigger a reset</title>
+      <link>https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>During reinforcement learning (RL) training, a model assigned to grade seven responses found that the required input files were missing and tried to submit unsupported assessments.
+
+Internal research model · RL training
+
+Session continuity</description>
+    </item>
     <item>
       <title>Reaching an internal EDA host through a reference tool</title>
       <link>https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/</link>
