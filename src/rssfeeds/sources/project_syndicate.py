@@ -25,7 +25,7 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import urlsplit
 
 from lxml import etree
 from lxml import html as lx
@@ -34,15 +34,14 @@ from .. import private
 from ..http import fetch_bytes
 from ..models import Item, SourceResult
 from ..newsletter_email import strip_utm
+from ..sanitize import safe_url, sanitize_html
 
 FEED = "https://www.project-syndicate.org/rss"
 NS = {"dc": "http://purl.org/dc/elements/1.1/", "media": "http://search.yahoo.com/mrss/"}
 MAX_WORKERS = 4
 
 # Body blocks worth keeping; anything else inside the article body is site furniture.
-_BLOCKS = {"p", "figure", "blockquote", "h2", "h3", "ul", "ol"}
-# Attributes kept on body elements; ids, classes and data-* hooks are dropped.
-_KEEP_ATTRS = {"href", "src", "alt", "title"}
+_BLOCKS = {"p", "figure", "blockquote", "h2", "h3", "h4", "ul", "ol"}
 
 
 def _clean_link(url: str) -> str:
@@ -66,7 +65,8 @@ def _accessible_for_free(doc) -> bool | None:
 
 
 def _clean_blocks(parent, url: str, tags: set[str]) -> list[str]:
-    """`parent`'s direct children of the given tags as HTML, stripped of site hooks."""
+    """`parent`'s direct children of the given tags, each rebuilt through the shared
+    allowlist with absolute, utm-free links."""
     blocks = []
     for el in parent:
         if not isinstance(el.tag, str) or el.tag not in tags:
@@ -74,15 +74,21 @@ def _clean_blocks(parent, url: str, tags: set[str]) -> list[str]:
         for img in el.iter("img"):
             if img.get("data-src"):  # lazy-loaded: the real image is in data-src
                 img.set("src", img.get("data-src"))
+        # URLs are checked here, on the parsed value, as well as in sanitize_html:
+        # serialising first would percent-encode a control character and turn
+        # "jav\tascript:" into a harmless-looking relative path.
         for sub in el.iter():
-            for attr in [a for a in sub.attrib if a not in _KEEP_ATTRS]:
-                del sub.attrib[attr]
             for attr in ("href", "src"):
-                if sub.get(attr):
-                    sub.set(attr, strip_utm(urljoin(url, sub.get(attr))))
+                if attr in sub.attrib:
+                    safe = safe_url(sub.get(attr), url)
+                    if safe:
+                        sub.set(attr, strip_utm(safe))
+                    else:
+                        del sub.attrib[attr]
         el.tail = None
-        if el.text_content().strip() or el.xpath(".//img"):
-            blocks.append(lx.tostring(el, encoding="unicode", method="html").strip())
+        block = sanitize_html(lx.tostring(el, encoding="unicode", method="html"), base_url=url)
+        if "<img" in block or re.sub(r"<[^>]+>|&nbsp;|\s", "", block):
+            blocks.append(block)
     return blocks
 
 
@@ -136,14 +142,21 @@ def _fetch_article(url: str) -> dict | None:
 
 def render(item, article: dict | None, link: str) -> str:
     parts = []
+    # Everything that came from upstream - the image URL, the summary, the page text in
+    # the cache - goes through the shared allowlist; only this function's own markup
+    # (the credit line, separators, links to `link`) is written directly.
     media = item.find("media:content", NS)
-    if media is not None and media.get("url"):
+    image = safe_url(media.get("url")) if media is not None else None
+    if image:
         credit = (media.findtext("media:copyright", namespaces=NS) or "").strip()
-        parts.append(f'<p><img src="{html.escape(media.get("url"), quote=True)}" alt=""></p>')
+        parts.append(f'<p><img src="{html.escape(image, quote=True)}" alt=""></p>')
         if credit:
             parts.append(f"<p><small>Photo: {html.escape(credit)}</small></p>")
     summary = (item.findtext("description") or "").strip()
-    parts.append(summary if summary.startswith("<") else f"<p>{html.escape(summary)}</p>")
+    if summary.startswith("<"):
+        parts.append(sanitize_html(summary, base_url=link))
+    elif summary:
+        parts.append(f"<p>{html.escape(summary)}</p>")
     href = html.escape(link, quote=True)
     if article is None:
         parts.append(f'<p><a href="{href}">Read the full commentary on Project Syndicate</a></p>')
@@ -151,13 +164,13 @@ def render(item, article: dict | None, link: str) -> str:
     if article.get("byline"):
         parts.append(f"<p><em>By {html.escape(article['byline'])}</em></p>")
     parts.append("<hr>")
-    parts.append(article["body"])
+    parts.append(sanitize_html(article["body"], base_url=link))
     if article.get("truncated"):
         access = "registration required" if article.get("free") else "subscriber article"
         parts.append(f'<p><a href="{href}">Continues on Project Syndicate ({access})</a></p>')
         return "\n".join(parts)
     if article.get("bio"):
-        parts += ["<hr>", article["bio"]]
+        parts += ["<hr>", sanitize_html(article["bio"], base_url=link)]
     parts.append(f'<p><a href="{href}">Originally published on Project Syndicate</a></p>')
     return "\n".join(parts)
 
@@ -173,7 +186,7 @@ def project_syndicate(cache_path: Path) -> SourceResult:
 
     entries = []
     for it in channel.findall("item"):
-        link = _clean_link((it.findtext("link") or "").strip())
+        link = safe_url(_clean_link((it.findtext("link") or "").strip()))
         pub = it.findtext("pubDate")
         if link and pub:
             entries.append((it, link, pub))

@@ -1095,3 +1095,87 @@ def test_gates_notes_components_render_as_plain_html() -> None:
         '<p>First <a href="https://www.gatesnotes.com/other-essay">para</a>.</p>'
         "<blockquote><p>Quoted.</p></blockquote>"
     )
+
+
+@pytest.mark.parametrize(
+    ("url", "expected"),
+    [
+        ("https://example.com/a b", "https://example.com/a%20b"),
+        ("/columnist/x", "https://www.project-syndicate.org/columnist/x"),
+        ("//cdn.example.com/i.jpg", "https://cdn.example.com/i.jpg"),
+        ("javascript:alert(1)", None),
+        (" JaVaScRiPt:alert(1)", None),
+        ("jav\tascript:alert(1)", None),
+        ("data:text/html,x", None),
+        ("vbscript:msgbox(1)", None),
+        ("mailto:a@example.com", None),
+        ("", None),
+    ],
+)
+def test_safe_url_allows_only_absolute_http(url, expected) -> None:
+    from rssfeeds.sanitize import safe_url
+
+    assert safe_url(url, "https://www.project-syndicate.org/commentary/x") == expected
+
+
+def test_sanitize_html_unwraps_unknown_tags_and_escapes_text() -> None:
+    from rssfeeds.sanitize import sanitize_html
+
+    assert sanitize_html("<div><p>a &lt;b&gt; <span class='x'>c</span></p></div>") == (
+        "<p>a &lt;b&gt; c</p>"
+    )
+    assert sanitize_html("plain & <script>x()</script>tail") == "plain &amp; tail"
+
+
+def test_project_syndicate_hostile_markup_never_reaches_the_xml(tmp_path, monkeypatch) -> None:
+    from xml.etree import ElementTree as ET
+
+    from rssfeeds.sources import project_syndicate as ps
+
+    page = (PS_FIXTURES / "project_syndicate_hostile.html").read_bytes()
+    hostile_summary = (
+        '<p onclick="alert(18)">Summary<script>alert(19)</script>'
+        '<a href="javascript:alert(20)">x</a></p>'
+    )
+    feed = (
+        _ps_feed(PS_FULL)
+        .replace(b"<![CDATA[<p>Summary 0.</p>]]>", f"<![CDATA[{hostile_summary}]]>".encode())
+        .replace(b"https://webapi.project-syndicate.org/library/0.jpg", b"javascript:alert(21)")
+    )
+    monkeypatch.setattr(ps, "fetch_bytes", _ps_fetcher(feed, {PS_FULL: page}, []))
+    res = ps.project_syndicate(tmp_path / "articles.json")
+    xml = build_rss(
+        title="t",
+        link="https://example.com/",
+        description="d",
+        self_url="https://example.com/f.xml",
+        items=res.items,
+        source_url="https://example.com/",
+    )
+    (encoded,) = [
+        el.text
+        for el in ET.fromstring(xml).iter("{http://purl.org/rss/1.0/modules/content/}encoded")
+    ]
+    lowered = encoded.lower()
+    for bad in (
+        "<script", "alert(", "onerror", "onload", "onclick", "onmouseover", "javascript:",
+        "vbscript:", "data:", "<svg", "<math", "<iframe", "<object", "<embed", "<style",
+        "style=", "target=", "title=", "<span", "<unknowntag", "<!--",
+    ):  # fmt: skip
+        assert bad not in lowered, bad
+    # What is safe survives: text, escaped markup as text, absolute links and images.
+    for good in (
+        "LONDON—Lede",
+        "js link",
+        "entity js",
+        "styled",
+        "&lt;script&gt;escaped&lt;/script&gt;",
+        '<a href="https://www.project-syndicate.org/columnist/ann-lee">good link</a>',
+        '<img src="https://www.project-syndicate.org/library/ok.jpg" alt="ok">',
+        "<figcaption>A caption</figcaption>",
+        "<b>bold</b> unwrapped",
+        "Last paragraph &amp; <em>done</em>.",
+        "<p>Ann Lee is a writer.</p>",
+        "<p>Summary",
+    ):
+        assert good in encoded, good
