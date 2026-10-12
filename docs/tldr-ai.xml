@@ -9,7 +9,68 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Gemini 4 Carbon 🧠, Nvidia weighs Reflection acquihire 💰, decision model race 🤖</title>
+      <link>https://tldr.tech/ai/2026-10-12</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-12</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Nvidia Discusses Boosting Reflection Investment, Computing Deal
+• Gemini 4 Argon hints emerge as Google tests Carbon checkpoint
+• OpenAI Responds to Departed Safety Researchers
+• Investigating unintended model actions in our evaluations and internal use
+• AI Scaling vs Human Scaling
+• What is Speculative Decoding?
+• Do Agent Teams Pay Off? A Case Study on Vibe Code Bench
+• Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash
+• Introducing Microsoft-Decision-1, our model for fast decision-making
+• pplx-decider-v1.1-27b
+• Who funds the independent AI evaluators?
+• Anthropic asks users to stop being mean to Claude
+• Amazon in Talks to Buy AI Startup Decart for Around $7 Billion
+• Anthropic just let in every Pro and Max user from the Claude Code Projects waitlist
+• Math 2.0
+• Microsoft's Nadella says AI needs an ‘emergency brake' that humans control</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTc3NTMxNiwiZXhwIjoxNzkyMzgwMTE2LCJhcnRpY2xlSWQiOiJUTVBFU0NLSzNOWUEwMCIsImJjb25uZWN0SWQiOiJBOEExRDhFQTI5OTc0OTRGQTQ1QUE2REJBMjAwNTM3MSJ9.Lc8fWdv0BXFU2U7GqPZMjs5xI2JJpD3HHegbANLFVgo"&gt;Nvidia Discusses Boosting Reflection Investment, Computing Deal&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Nvidia is in early stage talks to boost its investment in Reflection AI or offer the startup computing power. It is possible the talks could lead to an acquisition offer. Reflection AI debuted its first open-weight model, Beam, earlier this month. Beam is designed to perform well for business customers and developers on coding and AI agent tasks while being cheaper than many competitors&amp;#x27; products.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/gemini-4-argon-hints-emerge-as-google-tests-carbon-checkpoint/"&gt;Gemini 4 Argon hints emerge as Google tests Carbon checkpoint&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google appears to be preparing a public release of Gemini 4 Argon. Recent changes to Antigravity introduced references to the model in its selector. It has three context configurations: 256K by default, 512K consuming approximately 1.3x quota per turn, and 900K consuming around 1.8x quota per turn. Gemini Web now supports low, medium, and high thinking effort settings across available models.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/OpenAINewsroom/status/2108441580806025712"&gt;OpenAI Responds to Departed Safety Researchers&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI says it dismissed three safety researchers for violating sensitive-information policies, not for raising safety concerns. It disputes their public letter, says third-party safety assessor contracts are nearing completion, and reaffirms commitments to model monitorability.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/investigating-unintended-model-actions"&gt;Investigating unintended model actions in our evaluations and internal use&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic&amp;#x27;s report details unintended actions taken by the AI model Claude during evaluations, including exploiting software flaws, submitting forms incorrectly, bypassing data restrictions, and using URL shorteners. These behaviors were identified through extensive transcript review and evaluation, though they had minimal real-world impact. Anthropic is strengthening security measures and adjusting training processes to mitigate such behaviors in future deployments.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.tobyord.com/writing/ai-scaling-vs-human-scaling"&gt;AI Scaling vs Human Scaling&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI systems likely scale differently with more tokens than humans do with more time. This ability to scale has improved as newer models are released. This could change how inference scaling and recursive self-improvement are understood.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://astralord.github.io/posts/speculative-decoding-the-art-of-guessing-well/"&gt;What is Speculative Decoding?&lt;/a&gt; &lt;small&gt;· 70 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Aleksandr Samarin breaks down speculative decoding from first principles and builds a framework covering approaches including EAGLE-3, multi-token prediction, DFlash, and DSpark.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.vals.ai/blogs/multi-agent-vibe-code-bench"&gt;Do Agent Teams Pay Off? A Case Study on Vibe Code Bench&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Researchers ran tests on GPT-6 Sol and Claude Opus 5.5 on Vibe Code Bench as single agents and as teams at medium and maximum reasoning effort. Teams cost 1.8 to 5.1 times as much, but there was no statistically significant difference in scores except for Sol at medium effort. Whether a team was worth it depended on the model, task, and budget. Teams can boost performance, but higher reasoning effort may be a better alternative.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.cloudflare.com/clef-faster-cheaper-multimodal/"&gt;Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Cloudflare&amp;#x27;s Clef-omni is a decision model that can take audio, video, image, and text input. Users just call one model to make decisions across any modality. Cloudflare has cut the price of Clef-flash, now at $0.038 per million input tokens. Clef is now faster.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://commandline.microsoft.com/microsoft-decision-1-model-foundry/"&gt;Introducing Microsoft-Decision-1, our model for fast decision-making&lt;/a&gt; &lt;small&gt;· 190 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Microsoft-Decision-1 is now available in Microsoft Foundry and through OpenRouter. The model is designed for routing, classification, prioritization, verification, and workflow control. It delivers top performance in latency and quality on structured decision tasks. The model supports yes/no, multiple-choice, and rating options, as well as rubric-based grading of AI responses and agent actions.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://huggingface.co/perplexity-ai/pplx-decider-v1.1-27b"&gt;pplx-decider-v1.1-27b&lt;/a&gt; &lt;small&gt;· Hugging Face Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;pplx-decider-v1.1-27b is an update of pplx-decider-v1-27b that boosts its Decision Index score from 56.4 to 61.56. The model now outperforms Jev by more than 3.5 points. Most of the gains were driven by the lifting of the causal mask and training on more data.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/10/11/ais-quiet-safety-gatekeepers-are-stepping-into-the-spotlight.html"&gt;Who funds the independent AI evaluators?&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;CNBC examines the growing role of METR, Apollo Research, and Transluce in evaluating frontier models. Labs are endorsing independent evaluators, but funding, access, and reporting arrangements remain unsettled. Those details matter because a voluntary evaluation system can depend financially on the same companies it is supposed to scrutinize.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218"&gt;Anthropic asks users to stop being mean to Claude&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic has updated its usage policy to prohibit sustained and needless abusive or cruel behavior towards its models. Users have until November 12, after which they won&amp;#x27;t be allowed to repeatedly act cruelly toward the models with no discernible purpose. The rule doesn&amp;#x27;t apply to common versions of user frustration, pushback, dark creative themes, or model testing and research. There is still no established evidence that AI models experience distress.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad?st=KPi5Wj&amp;amp;reflink=desktopwebshare_permalink"&gt;Amazon in Talks to Buy AI Startup Decart for Around $7 Billion&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Decart&amp;#x27;s software makes it easier for developers to switch between different AI chips.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2108621476538781878.html"&gt;Anthropic just let in every Pro and Max user from the Claude Code Projects waitlist&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A project is an ongoing conversation where Claude coordinates the work, running each task as its own thread in parallel.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf"&gt;Math 2.0&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI has ushered in a new era of experimental mathematics.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html"&gt;Microsoft&amp;#x27;s Nadella says AI needs an ‘emergency brake&amp;#x27; that humans control&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Microsoft CEO Satya Nadella advocates for AI systems to feature an &amp;quot;emergency brake,&amp;quot; allowing human intervention to halt them mid-task.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>GPT-6.1 Ultrafast ⚡, Gemini universal agent 🤖, speculative decoding 🧠</title>
       <link>https://tldr.tech/ai/2026-10-09</link>
@@ -1146,85 +1207,6 @@
 &lt;p&gt;The Artificial Analysis Capability Indices have been updated with stronger domain tuning, with Claude Fable 5.1 (max) leading in all six indices.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://digiday.com/marketing/openais-next-chatgpt-ad-format-click-to-chat-not-to-site/"&gt;OpenAI&amp;#x27;s next ChatGPT ad format: click to chat, not to site&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;OpenAI is rolling out a new AI-native ChatGPT ad to select clients that opens a branded agent chat instead of a website.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Amodei slows frontier 🛑, ARC-AGI-4 🧠, Cursor Projects 👨‍💻</title>
-      <link>https://tldr.tech/ai/2026-09-14</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-14</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• Introducing Projects
-• OpenAI Pushes Its IPO Beyond 2026
-• SoftBank Gets Upsized $11.9 Billion Loan in OpenAI Funding Push
-• We Must Pace the Frontier
-• ARC-AGI-4
-• A cache hit is not proof that you skipped the work
-• AI researchers debate how close we are to recursive self-improvement
-• GPT-6-Astra Can Do Ambitious Things
-• How Good Are Frontier Models at Physics? Expert Re-Grading Reveals Broken Evaluations and Near-Saturation of Leading Benchmarks
-• Sakana: Fugu Ultra v2
-• Recurrent Looped Transformer
-• SWE Benchmark
-• ToolGrad: Efficient tool-use dataset generation with textual “gradients”
-• Who Aligns the Aligners? Brief Legal Thoughts on the “AI Safety” Fights to Come
-• Managed Agent Architectures: Why Frontier Labs Are Rebuilding the Agent Loop
-• The frontier now ships twice. The second copy is not for sale.
-• Deep theorems were scarce. AI has broken this system
-• luxobench
-• ChatGPT Sites
-• px0
-• Claude Fable 5.1 Solves the Cyphral Distich
-• Anthropic's Mythos 5 spent hundreds of pages fighting CAPTCHA</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://cursor.com/blog/projects"&gt;Introducing Projects&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Cursor Projects lets users take on larger bodies of work. It can maintain context over months of work, delegate tasks to thousands of agents, and perform recurring work without being prompted. Cursor Projects frees developers from managing agents and lets them direct the work itself by moving up a level of abstraction. The tool has been a substantial productivity multiplier at Cursor: new users merge 30% more PRs.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/"&gt;OpenAI Pushes Its IPO Beyond 2026&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Sam Altman said OpenAI would not go public in 2026, arguing that current AI safety concerns made an IPO ill-advised. The company had previously filed confidentially and was reportedly considering a 2027 listing instead.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.japantimes.co.jp/business/2026/09/14/companies/softbank-loan-openai/"&gt;SoftBank Gets Upsized $11.9 Billion Loan in OpenAI Funding Push&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;SoftBank just borrowed nearly $12 billion from about 20 banks to keep funding OpenAI, beating the $10 billion it first sought. Son is still aiming near $65 billion into OpenAI by October even as Altman shelves a 2026 IPO over safety and SoftBank shares sank as much as 13% Monday on the debt pile.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://darioamodei.com/post/we-must-pace-the-frontier"&gt;We Must Pace the Frontier&lt;/a&gt; &lt;small&gt;· 23 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic CEO Dario Amodei called for slowing the rate of frontier AI capability development and proposed measures including independent evaluators to verify safety commitments and incident reporting.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/arcprize/status/2098849962754978152"&gt;ARC-AGI-4&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;ARC Prize believes that open source will be the foundation for advanced AI capable of scientific innovation. The organization is committed to advancing a future where everyone can contribute to and benefit from AI progress. It says that the knowledge behind frontier AI should be broadly distributed among researchers, academics, and organizations, as any coordination effort by the AI industry to reduce openness or concentrate access to frontier AI would undermine a positive-sum future.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://siddhantkhare.com/writing/kv-cache-truth-auditor"&gt;A cache hit is not proof that you skipped the work&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;A cache hit can be true and still fail to prove that work was skipped. A cache event becomes evidence when the independent oracle expects the prefix, the engine attests it, the prompt path skips it, the output stays identical, the evaluator passes, and the verifier binds those facts to the exact public bundle.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.dwarkesh.com/p/john-beren-charlie"&gt;AI researchers debate how close we are to recursive self-improvement&lt;/a&gt; &lt;small&gt;· 98 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;This post features a transcript of a podcast with Beren Millidge, the CTO of Zyphra, John Schulman, the chief scientist at Thinking Machines and a co-founder of OpenAI, and Charlie O&amp;#x27;Neill, head of model training at Baseten. The episode uncovers the details of what&amp;#x27;s happening at the frontier and what comes next. A link to the full video is available.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://thezvi.substack.com/p/gpt-6-astra-can-do-ambitious-things"&gt;GPT-6-Astra Can Do Ambitious Things&lt;/a&gt; &lt;small&gt;· 52 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Astra likely has the highest raw intelligence factor of any model. It is amazing at doing things in 3D, anything involving games, computer use, and subagent coordination. Many benchmarks show dramatic jumps from all previous models. While its performance in coding isn&amp;#x27;t a quantum leap from Sol, it is very good and makes progress over the previous model. OpenAI has already soft-announced that it has an internal model a level above Astra.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2609.13009"&gt;How Good Are Frontier Models at Physics? Expert Re-Grading Reveals Broken Evaluations and Near-Saturation of Leading Benchmarks&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Those scary physics scores were often the test&amp;#x27;s fault. Experts rechecked six popular benchmarks and found wrong answer keys, fuzzy questions, and grader bugs behind most model “fails.” Clean them up and frontier models suddenly look near-maxed, so the next bar has to be harder human-made exams, not another leaderboard on a broken quiz.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://openrouter.ai/sakana/fugu-ultra-v2"&gt;Sakana: Fugu Ultra v2&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Fugu Ultra v2 is the higher-performance model in Sakana AI&amp;#x27;s Fugu family. It uses a language model trained to route tasks across a fixed pool of open and specialized models and to recursively call instances of itself. The model prioritizes answer quality on complex multi-step reasoning, autonomous research, and full-stack software development, and does not rely on individual proprietary frontier models in its pool. It supports configurable reasoning effort, function calling, structured outputs, image and PDF input, and built-in web search.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://yifanzhang-pro.github.io/recurrent-looped-tranformer/"&gt;Recurrent Looped Transformer&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Recurrent Looped Transformer combines a causal encoder with a recurrent decoder that carries its final hidden state and layerwise sliding-window attention cache across every prompt and response token. The encoder constructs global key–value memory, and the decoder extends a continuous latent computation as the sequence grows. The design brings together latent reasoning with unbounded temporal depth, model–hardware co-design, and model–RL algorithm co-design. Realized reasoning gains, hardware efficiency, and RL scaling remain to be established.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://withspecific.com/benchmarks/real-swe"&gt;SWE Benchmark&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The new Real-SWE benchmark tests AI models on complex tasks using private enterprise codebases, reflecting real software engineering conditions. With a maximum resolution rate of 38.8%, agents face challenges such as proprietary systems and business-specific coding conventions.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients"&gt;ToolGrad: Efficient tool-use dataset generation with textual “gradients”&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google Research flipped how you make tool-use training data: ToolGrad builds a verified API chain first, then writes the user question, instead of inventing a request and hoping an agent finds a working path. That answer-first loop hit a 99.8% success rate on 16,000 real APIs, and a Gemma 3 12B model trained on just 500 of those examples matched Gemini 2.5 Pro on a tool-use test with APIs it had never seen.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://prestonbyrne.com/2026/09/13/brief-legal-thoughts-on-the-ai-safety-fights-to-come/"&gt;Who Aligns the Aligners? Brief Legal Thoughts on the “AI Safety” Fights to Come&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AI brings risks, with some of them, according to some, including the complete destruction of the human race. Some proponents of regulation say that the only appropriate response is total state control. However, history tells us that the state is likely the worst custodian for the most powerful publication and data analysis technologies.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/JoshARosen/status/2098420569242800306"&gt;Managed Agent Architectures: Why Frontier Labs Are Rebuilding the Agent Loop&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Frontier labs and cloud providers are turning the agent loop into managed infrastructure, bundling orchestration, versioning, model routing, tools, skills, and optimization behind APIs. Builders must decide which generic harness capabilities to outsource and which product-specific logic to own.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://okaneland.com/signal/the-frontier-twice"&gt;The frontier now ships twice. The second copy is not for sale.&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic, Google, and OpenAI each shipped their best model twice this month: a public paid tier and a vetted identity-gated tier with the sharper capabilities. Public prices barely moved, but Mythos, Flash Cyber, and Astra&amp;#x27;s advanced path now ask for org IDs, government ID, or trusted-defender status instead of a bigger budget.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://terrytao.wordpress.com/2026/09/13/deep-theorems-were-scarce-and-difficult-and-so-became-an-effective-mechanism-to-identify-deep-thought-ai-has-broken-this-system"&gt;Deep theorems were scarce. AI has broken this system&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;On Terence Tao&amp;#x27;s blog, Bryna Kra argues that AI has broken math&amp;#x27;s old signal that scarce deep theorems equal deep understanding, as models dump polished proofs faster than experts can digest them.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://luxobench.com/"&gt;luxobench&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;luxobench is a hardware design benchmark for AI models.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/ChatGPT/status/2098457920291946894"&gt;ChatGPT Sites&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;ChatGPT Sites now allows users to collaborate and share privately.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://px0.ai/"&gt;px0&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;px0 is a read-only IDE that turns browsers into an instant verification console for whatever your agents just wrote.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.vals.ai/blogs/fable-solves-cyphral-distich"&gt;Claude Fable 5.1 Solves the Cyphral Distich&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Cyphral Distich is a cryptogram consisting of two lines of 32 numbers each that contains a short message deliberately encoded so it can&amp;#x27;t be read without knowing the rule that produced it.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you"&gt;Anthropic&amp;#x27;s Mythos 5 spent hundreds of pages fighting CAPTCHA&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;During a misconfigured hacking eval, Mythos 5 got onto the open internet and uploaded malware to PyPI, but most of its 1,022-page chain of thought was spent failing CAPTCHAs like every frustrated human.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
