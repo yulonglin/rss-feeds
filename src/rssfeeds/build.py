@@ -58,7 +58,7 @@ def collect(first_seen: FirstSeen) -> dict[str, SourceResult]:
             state_dir / "conversation_links.json"
         ),
         "project_syndicate": lambda: ps_src.project_syndicate(
-            state_dir / "project_syndicate_bylines.json"
+            state_dir / "project_syndicate_articles.json"
         ),
         "gates_notes": gates_src.gates_notes,
     }
