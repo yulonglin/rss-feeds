@@ -1,6 +1,7 @@
 from __future__ import annotations
 
-from datetime import UTC, date, datetime
+import json
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
 import feedparser
@@ -1179,3 +1180,112 @@ def test_project_syndicate_hostile_markup_never_reaches_the_xml(tmp_path, monkey
         "<p>Summary",
     ):
         assert good in encoded, good
+
+
+def test_project_syndicate_survives_a_malformed_summary_url(tmp_path, monkeypatch) -> None:
+    from rssfeeds.sources import project_syndicate as ps
+
+    feed = _ps_feed(PS_PAID).replace(
+        b"<p>Summary 0.</p>", b'<p>Summary <a href="https://[bad">link</a>.</p>'
+    )
+    monkeypatch.setattr(ps, "fetch_bytes", _ps_fetcher(feed, {}, []))
+    res = ps.project_syndicate(tmp_path / "articles.json")
+    assert res.ok
+    (item,) = res.items
+    assert "<p>Summary link.</p>" in item.content_html
+
+
+@pytest.mark.parametrize(
+    "cache_text",
+    [
+        "{",
+        "[]",
+        "null",
+        '"text"',
+        json.dumps({PS_FREE: {}}),
+        json.dumps({PS_FREE: "not a record"}),
+        json.dumps({PS_FREE: {"body": "<p>x</p>", "truncated": True, "free": True}}),
+        json.dumps(
+            {
+                PS_FREE: {
+                    "body": "<p>x</p>",
+                    "truncated": "yes",
+                    "free": True,
+                    "byline": None,
+                    "fetched": "2026-10-12T00:00:00+00:00",
+                }
+            }
+        ),
+        json.dumps(
+            {
+                PS_FREE: {
+                    "body": "<p>x</p>",
+                    "truncated": True,
+                    "free": True,
+                    "byline": None,
+                    "fetched": "2026-10-12T00:00:00",  # naive: not comparable with now
+                }
+            }
+        ),
+    ],
+)
+def test_project_syndicate_treats_a_corrupt_cache_as_a_miss(
+    tmp_path, monkeypatch, cache_text
+) -> None:
+    from rssfeeds.sources import project_syndicate as ps
+
+    pages = {PS_FREE: (PS_FIXTURES / "project_syndicate_registration.html").read_bytes()}
+    calls: list[str] = []
+    monkeypatch.setattr(ps, "fetch_bytes", _ps_fetcher(_ps_feed(PS_FREE), pages, calls))
+    cache = tmp_path / "articles.json"
+    cache.write_text(cache_text)
+    (item,) = ps.project_syndicate(cache).items
+    assert calls == [ps.FEED, PS_FREE]
+    assert "ITHACA" in item.content_html
+    rebuilt = json.loads(cache.read_text())
+    assert list(rebuilt) == [PS_FREE] and rebuilt[PS_FREE]["truncated"] is True
+
+
+def test_project_syndicate_corrupt_cache_and_failed_fetch_fall_back(tmp_path, monkeypatch) -> None:
+    from rssfeeds.sources import project_syndicate as ps
+
+    monkeypatch.setattr(ps, "fetch_bytes", _ps_fetcher(_ps_feed(PS_FREE), {}, []))
+    cache = tmp_path / "articles.json"
+    cache.write_text("{")
+    (item,) = ps.project_syndicate(cache).items
+    assert "Read the full commentary on Project Syndicate" in item.content_html
+    assert json.loads(cache.read_text()) == {}
+
+
+def test_project_syndicate_refetches_cached_pages_after_their_refresh_age(
+    tmp_path, monkeypatch
+) -> None:
+    from rssfeeds.sources import project_syndicate as ps
+
+    t0 = datetime(2026, 10, 12, 6, 0, tzinfo=UTC)
+    pages = {PS_FREE: (PS_FIXTURES / "project_syndicate_registration.html").read_bytes()}
+    calls: list[str] = []
+    monkeypatch.setattr(ps, "fetch_bytes", _ps_fetcher(_ps_feed(PS_FREE), pages, calls))
+    cache = tmp_path / "articles.json"
+
+    def run(at: datetime) -> str:
+        calls.clear()
+        return ps.project_syndicate(cache, now=at).items[0].content_html
+
+    assert "(registration required)" in run(t0)
+    # A truncated page is not fetched again within a day...
+    run(t0 + timedelta(hours=23))
+    assert calls == [ps.FEED]
+    # ...and after a day it is, so a page the site has since opened up is picked up.
+    pages[PS_FREE] = (PS_FIXTURES / "project_syndicate_full.html").read_bytes()
+    assert "Originally published on Project Syndicate" in run(t0 + timedelta(days=1))
+    assert calls == [ps.FEED, PS_FREE]
+    # A whole page waits a week.
+    run(t0 + timedelta(days=7, hours=23))
+    assert calls == [ps.FEED]
+    # A refetch that fails keeps the cached copy rather than dropping to the summary.
+    del pages[PS_FREE]
+    html = run(t0 + timedelta(days=8))
+    assert calls == [ps.FEED, PS_FREE]
+    assert "Originally published on Project Syndicate" in html
+    assert json.loads(cache.read_text())[PS_FREE]["fetched"] == "2026-10-13T06:00:00+00:00"

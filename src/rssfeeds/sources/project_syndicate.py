@@ -4,7 +4,7 @@ The official /rss is valid but thin: each item is a one-paragraph summary with n
 the lead image sits only in a media:content / enclosure element that most readers do
 not show, every link carries utm tracking, and only the first author is credited.
 
-Each article page is read once and cached in state/project_syndicate_articles.json, keyed
+Each article page is fetched and cached in state/project_syndicate_articles.json, keyed
 by the clean link, and its body is published as an anonymous reader is served it. Most
 pages serve only the opening paragraph followed by a registration wall (the body carries
 a `paywall` class and the page a `paywall--base` widget); those items end with a link
@@ -12,9 +12,13 @@ saying the article continues on Project Syndicate, and the rest is not fetched a
 way. Some pages (3 of 20 on 2026-10-12) serve the whole article and the author's bio,
 with no paywall marker, and are published whole. Promos and "editor's picks" inlays sit
 in the body as non-paragraph elements and are dropped; navigation and related-article
-blocks sit outside it. When a
-page cannot be fetched or parsed, the item falls back to the summary alone and the page
-is retried next run.
+blocks sit outside it.
+
+A cached page is fetched again after a day if it was cut short and after a week if it
+was whole, so an article the site opens up later is picked up. When a page cannot be
+fetched or parsed, the item keeps its cached copy or, if it has none, falls back to the
+summary alone; either way the page is retried next run. A cache file or record that
+does not parse or validate counts as never fetched.
 """
 
 from __future__ import annotations
@@ -23,6 +27,7 @@ import html
 import json
 import re
 from concurrent.futures import ThreadPoolExecutor
+from datetime import UTC, datetime, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -39,6 +44,10 @@ from ..sanitize import safe_url, sanitize_html
 FEED = "https://www.project-syndicate.org/rss"
 NS = {"dc": "http://purl.org/dc/elements/1.1/", "media": "http://search.yahoo.com/mrss/"}
 MAX_WORKERS = 4
+# A cached page is fetched again after this long, so an article that was cut short
+# (or has since been corrected) is picked up; a truncated one is checked sooner.
+REFRESH_TRUNCATED = timedelta(days=1)
+REFRESH_FULL = timedelta(days=7)
 
 # Body blocks worth keeping; anything else inside the article body is site furniture.
 _BLOCKS = {"p", "figure", "blockquote", "h2", "h3", "h4", "ul", "ol"}
@@ -140,6 +149,43 @@ def _fetch_article(url: str) -> dict | None:
     return article
 
 
+def _valid(record) -> bool:
+    """A cache record as `parse_article` and the refresh stamp leave it, or not at all."""
+    if not isinstance(record, dict):
+        return False
+    try:
+        if datetime.fromisoformat(record["fetched"]).tzinfo is None:
+            return False
+    except (KeyError, TypeError, ValueError):
+        return False
+    return (
+        isinstance(record.get("body"), str)
+        and bool(record["body"].strip())
+        and isinstance(record.get("truncated"), bool)
+        and isinstance(record.get("free"), bool | None)
+        and isinstance(record.get("byline"), str | None)
+        and isinstance(record.get("bio", ""), str)
+    )
+
+
+def load_cache(path: Path) -> dict[str, dict]:
+    """The cache, with anything unreadable or malformed treated as never fetched."""
+    try:
+        data = json.loads(path.read_text())
+    except (OSError, ValueError):
+        return {}
+    if not isinstance(data, dict):
+        return {}
+    return {k: v for k, v in data.items() if isinstance(k, str) and _valid(v)}
+
+
+def _due(record: dict | None, now: datetime) -> bool:
+    if record is None:
+        return True
+    age = now - datetime.fromisoformat(record["fetched"])
+    return age >= (REFRESH_TRUNCATED if record["truncated"] else REFRESH_FULL)
+
+
 def render(item, article: dict | None, link: str) -> str:
     parts = []
     # Everything that came from upstream - the image URL, the summary, the page text in
@@ -175,7 +221,8 @@ def render(item, article: dict | None, link: str) -> str:
     return "\n".join(parts)
 
 
-def project_syndicate(cache_path: Path) -> SourceResult:
+def project_syndicate(cache_path: Path, *, now: datetime | None = None) -> SourceResult:
+    now = now or datetime.now(UTC)
     try:
         # Parsed as bytes: the feed starts with a byte-order mark.
         channel = etree.fromstring(fetch_bytes(FEED)).find("channel")
@@ -191,19 +238,22 @@ def project_syndicate(cache_path: Path) -> SourceResult:
         if link and pub:
             entries.append((it, link, pub))
 
-    cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
-    # Only the site's own pages are fetched, each once; failures are retried next run.
-    missing = sorted(
+    cache = load_cache(cache_path)
+    # Only the site's own pages are fetched: new ones, and cached ones past their refresh
+    # age. A failed fetch keeps the cached copy, or the summary for a new page, and is
+    # retried next run.
+    due = sorted(
         {
             link
             for _, link, _ in entries
-            if link not in cache and urlsplit(link).netloc == "www.project-syndicate.org"
+            if _due(cache.get(link), now) and urlsplit(link).netloc == "www.project-syndicate.org"
         }
     )
+    stamp = now.isoformat(timespec="seconds")
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-        for link, article in zip(missing, pool.map(_fetch_article, missing), strict=True):
+        for link, article in zip(due, pool.map(_fetch_article, due), strict=True):
             if article is not None:
-                cache[link] = article
+                cache[link] = {**article, "fetched": stamp}
 
     items = []
     for it, link, pub in entries:

@@ -38,9 +38,12 @@ def safe_url(url: str | None, base: str | None = None) -> str | None:
     url = (url or "").strip()
     if not url or _CONTROL.search(url):
         return None
-    if base:
-        url = urljoin(base, url)
-    parts = urlsplit(url)
+    try:
+        if base:
+            url = urljoin(base, url)
+        parts = urlsplit(url)
+    except ValueError:  # e.g. "https://[bad": unparseable is refused, not raised
+        return None
     if parts.scheme.lower() not in ("http", "https") or not parts.netloc:
         return None
     return url.replace(" ", "%20")
