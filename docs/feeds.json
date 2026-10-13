@@ -1,7 +1,7 @@
 {
   "site": "https://feeds.yulonglin.com/",
   "repo": "https://github.com/yulonglin/rss-feeds",
-  "generated": "2026-10-12",
+  "generated": "2026-10-13",
   "feeds": [
     {
       "slug": "openai-alignment-research",
@@ -216,12 +216,12 @@
     {
       "slug": "project-syndicate",
       "title": "Project Syndicate",
-      "description": "Project Syndicate commentary, each entry with its lead image and photo credit, the summary, the full byline and a clean link to the article. The articles themselves are paywalled and are not reproduced.",
+      "description": "Project Syndicate commentary, each entry with its lead image and photo credit, the summary, the full byline, the article text as the site serves it to any reader, and a clean link to the article. Most articles show only their opening paragraph before a registration or subscriber wall; the rest is not reproduced.",
       "org": "Project Syndicate",
       "feed_url": "https://feeds.yulonglin.com/project-syndicate.xml",
       "source_name": "project-syndicate.org",
       "source_url": "https://www.project-syndicate.org/",
-      "upstream_status": "Official /rss is valid but summary-only, keeps the image in an enclosure most readers ignore, tags every link with utm tracking and credits only the first author of co-written pieces.",
+      "upstream_status": "Official /rss is valid but summary-only, keeps the image in an enclosure most readers ignore, tags every link with utm tracking and credits only the first author of co-written pieces. Most article pages serve anonymous readers only the opening paragraph, then a registration wall.",
       "notes": "",
       "items": 20,
       "newest": "2026-10-12",

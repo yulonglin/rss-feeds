@@ -3,7 +3,7 @@
   <channel>
     <title>Project Syndicate</title>
     <link>https://www.project-syndicate.org/</link>
-    <description>Project Syndicate commentary, each entry with its lead image and photo credit, the summary, the full byline and a clean link to the article. The articles themselves are paywalled and are not reproduced.</description>
+    <description>Project Syndicate commentary, each entry with its lead image and photo credit, the summary, the full byline, the article text as the site serves it to any reader, and a clean link to the article. Most articles show only their opening paragraph before a registration or subscriber wall; the rest is not reproduced.</description>
     <language>en</language>
     <generator>rss-feeds (https://github.com/yulonglin/rss-feeds)</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
@@ -21,7 +21,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/f9859201912c3d54b7eaaf16035bfbff.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Olivier Chassignole/AFP via Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;The scandal over antisemitic comments made by the far-right National Rally's Jordan Bardella could die down quickly, enabling Marine Le Pen to stick to her current plan: win the 2027 presidential election and name Bardella her prime minister. But there are two other possible scenarios, neither of which would be good for Bardella.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/how-will-bardella-revelations-affect-the-french-presidential-election-by-zaki-laidi-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Zaki Laïdi&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;PARIS—Jordan Bardella is little known outside of France. But if Marine Le Pen, the leader of the far-right National Rally (RN), wins next spring’s presidential election—as appears &lt;a href="https://ifopgroup.com/article/barometre-de-lelection-presidentielle-vague-6-2"&gt;increasingly likely&lt;/a&gt;—he will, she says, be her prime minister. The question is whether the growing scandal around Bardella will cause Le Pen to change her mind and, if not, how that will affect her chances of victory.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/how-will-bardella-revelations-affect-the-french-presidential-election-by-zaki-laidi-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Can China and America Handle Being Ordinary?</title>
@@ -34,7 +37,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/c2289dd6bbcb1e9f6ada4b6c182e990f.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Kevin Frayer/Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;For at least a generation, China's "economic miracle" allowed its people to look at Americans not as inhabitants of a richer world, but as potential peers. But now the two societies are peers in a different sense, because the Chinese are increasingly suffering the same rude awakening that Americans did when their own miracle ended.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/china-united-states-coping-with-end-of-extraordinary-economic-periods-by-nancy-qian-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Nancy Qian&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CHICAGO—For most of the past four decades, China’s direction of travel was clear: everything was moving forward. The country’s per capita GDP was barely &lt;a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CN"&gt;$300&lt;/a&gt; at the start of the 1990s. But its cities would soon fill with skyscrapers, highways, and subways. Families that once worried about having enough food would buy apartments, cars, and smartphones. Children would go to universities their parents could scarcely have imagined attending. In the space of a generation, China joined the World Trade Organization, hosted the Olympics, built the world’s largest high-speed rail network, and became a central engine of the global economy.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/china-united-states-coping-with-end-of-extraordinary-economic-periods-by-nancy-qian-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>How to Improve Global Mineral Governance</title>
@@ -47,20 +53,39 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/0d8e80cf451caf6bc8da01f01562a70c.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Ulet Ifansasti/Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;The race to secure critical minerals has intensified at the same time as the international community has recognized the need for more sustainable and responsible mining practices. Translating the resulting frameworks and guidelines into concrete action will require consolidating Global South policy and advocacy networks.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/global-south-networks-key-to-sustainable-responsible-mining-governance-by-hasrul-hanif-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Hasrul Hanif&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;YOGYAKARTA—Interdependence may be the theme of this year’s annual meeting of the &lt;a href="https://www.igfmining.org/event/igf-agm-2026/"&gt;Intergovernmental Forum on Mining, Minerals, Metals, and Sustainable Development&lt;/a&gt; (IGF), held in Geneva on October 12–14, but competition between countries to secure transition minerals remains intense. This scramble could have dire consequences for mineral-producing countries if it undermines sustainability standards and prevents equitable cost- and benefit-sharing between and within countries.&lt;/p&gt;
+&lt;p&gt;The International Energy Agency estimates that, to achieve net-zero emissions, demand for critical minerals will &lt;a href="https://www.weforum.org/stories/energy-transition/critical-minerals-energy-transition-supply-chain-challenges/"&gt;triple by 2030 and quadruple by 2040&lt;/a&gt;. Mineral-rich countries, aware of the “resource curse,” are seeking ways to retain control over their reserves. In a bid to promote domestic value addition and meet their economic-development objectives, many of these countries are pursuing export bans on critical raw materials.&lt;/p&gt;
+&lt;p&gt;But Indonesia’s experience as one of the first countries to implement such a ban shows that downstream industrialization is not a cure-all. It can come with substantial &lt;a href="https://cri.org/reports/does-anyone-care/"&gt;environmental and social costs&lt;/a&gt;, and the benefits are not always shared equitably with the &lt;a href="https://www.sciencedirect.com/science/article/pii/S2590332224005347"&gt;local communities&lt;/a&gt; that often bear the greatest burden of extraction and processing. And while extraction, smelting, and processing have boosted economic growth in Indonesia’s three nickel-rich provinces, they have &lt;a href="https://lpem.org/balancing-act-complementary-strategies-for-indonesias-sustainable-nickel-downstream-industry/"&gt;not contributed significantly&lt;/a&gt; to the national economy. Frontier-making—the act of transforming marginal areas into centers of resource extraction—can create new “&lt;a href="https://www.insideindonesia.org/editions/edition-159-jan-mar-2025/sacrifice-zone"&gt;sacrifice zones&lt;/a&gt;” when not accompanied by robust regulation and democratic oversight.&lt;/p&gt;
+&lt;p&gt;Meanwhile, the emphasis on sustainable mining has never been greater at the global level. In 2024, the United Nations Secretary-General’s Panel on Critical Energy Transition Minerals released a set of &lt;a href="https://www.un.org/sites/un2.un.org/files/report_sg_panel_on_critical_energy_transition_minerals_11_sept_2024.pdf"&gt;guiding principles&lt;/a&gt; that underscore the need for a new paradigm rooted in justice and equity, and for mining to benefit host countries and local communities. Regional frameworks, including the African Union’s &lt;a href="https://au.int/sites/default/files/documents/30984-doc-africa_mining_vision_english.pdf"&gt;Africa Mining Vision&lt;/a&gt;, its &lt;a href="https://www.idea.int/publications/catalogue/html/continental-frameworks-mineral-resource-governance-africa-strategies"&gt;follow-up guidelines and frameworks&lt;/a&gt;, and the &lt;a href="https://asean.org/wp-content/uploads/2025/10/ASEAN-Principles-for-Sustainable-Minerals-Development-APSMD-Brochure-1.pdf"&gt;ASEAN Principles for Sustainable Minerals Development&lt;/a&gt;, reflect similar commitments.&lt;/p&gt;
+&lt;p&gt;These agreements are sidelined, however, when countries pursue bilateral agreements that prioritize market access over all else. Consider the &lt;a href="https://theenergypioneer.com/indonesia-eu-free-trade-agreement-from-palm-oil-to-nickel/"&gt;uneven treatment&lt;/a&gt; of nickel and palm oil in the EU–Indonesia Comprehensive Economic Partnership Agreement. The European Union has strict sustainability standards for palm oil, but not for nickel, even though both sectors can cause significant social and environmental degradation.&lt;/p&gt;
+&lt;p&gt;The best way to put principles into practice is to consolidate Global South policy and advocacy networks. This would enable policymakers, civil society, and local communities to share their experience with mineral extraction and processing and their proposals for making the sector more equitable and environmentally responsible.&lt;/p&gt;
+&lt;p&gt;There is a genuine desire among policymakers in the Global South to share the lessons learned from their successes and failures. The Natural Resource Governance Institute’s &lt;a href="https://resourcegovernance.org/articles/how-south-south-learning-shaping-mineral-value-addition-strategies"&gt;South–South Transition Minerals Learning Platform&lt;/a&gt; has facilitated the dissemination of policy insights among government officials from Indonesia, Chile, Zambia, the Democratic Republic of the Congo, and other countries. While they share the same goal—to build more inclusive, resilient, and prosperous societies using mineral wealth—the platform enables a deeper understanding of how variations in commodities, domestic political economies, and value-chain positions require &lt;a href="https://resourcegovernance.org/articles/research-policy-how-south-south-learning-helping-producer-countries-turn-mineral-policy"&gt;different strategies&lt;/a&gt;, rather than a one-size-fits-all approach.&lt;/p&gt;
+&lt;p&gt;Equally important are &lt;a href="https://www.jstor.org/stable/jj.30347466"&gt;transnational or transcalar advocacy networks&lt;/a&gt; that connect civil-society groups across the Global South. They, too, can provide a platform for sharing experience and knowledge, while also strengthening collective action and extending accountability beyond national borders. By producing wide-ranging evidence of social and environmental abuses linked to mineral extraction, smelting, and processing, domestic advocacy actors can bypass governments and companies that do not adequately support local communities and directly seek out international allies to apply outside pressure.&lt;/p&gt;
+&lt;p&gt;Here, again, Indonesia provides a useful example. The prominent Indonesian NGO WALHI, together with Friends of the Earth Japan, mobilized more than one hundred organizations to urge Vale Indonesia’s shareholders to act on alleged human-rights abuses at the &lt;a href="https://www.business-humanrights.org/en/latest-news/indonesia-104-organisations-sign-letter-urging-vale-investors-to-take-action-on-alleged-human-rights-impacts-arising-from-sorowako-nickel-project/"&gt;Sorowako nickel project&lt;/a&gt;. Some shareholders, including Vale, Sumitomo Metal Mining, and Mitsui &amp;amp; Co., responded by exerting pressure on the company when the government failed to do so effectively.&lt;/p&gt;
+&lt;p&gt;Similarly, &lt;a href="https://www.reuters.com/sustainability/society-equity/investors-push-action-end-deforestation-human-rights-risks-nickel-mining--ecmii-2026-04-08/"&gt;campaigners&lt;/a&gt; from Mighty Earth, Climate Rights International, and Global Witness attracted investors’ attention by alleging widespread abuses in Indonesia’s nickel extraction and processing industry. They urged electric-vehicle battery and car producers to comply with social and environmental standards and due-diligence obligations. Weda Bay Nickel has since expressed interest in complying with Initiative for Responsible Mining Assurance standards, and some automakers have imposed stricter requirements on nickel suppliers.&lt;/p&gt;
+&lt;p&gt;This global pressure—which includes Publish What You Pay Indonesia &lt;a href="https://pwypindonesia.org/en/pwyp-indonesia-calls-for-improved-nickel-governance-at-oecd-forum-in-paris/"&gt;raising concerns&lt;/a&gt; about the country’s nickel governance at the 2025 OECD Forum on Responsible Mineral Supply Chains—has forced the Indonesian government’s hand. After &lt;a href="https://wri-indonesia.org/en/news/indonesias-coordinating-ministry-economic-affairs-national-economic-council-and-wri-indonesia"&gt;assessing the gap&lt;/a&gt; between its regulatory framework and three global standards, the government is preparing ESG (environmental, social, and governance) guidelines to help firms identify which Indonesian regulations meet the requirements of global standards in the nickel supply chain.&lt;/p&gt;
+&lt;p&gt;Advancing inclusion in transition-mineral supply chains—the goal of the IGF meeting—requires strategies for translating lofty declarations into concrete action. This can be achieved by bringing together and strengthening Global South policy and advocacy networks. Existing South–South cooperation mechanisms can expand their reach to facilitate policy learning on critical minerals, while domestic civil-society groups can deepen their global connections to put a spotlight on mining-related environmental destruction and human-rights abuses. Many pieces of the puzzle are already in place; now it is time to put them together.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Hasrul Hanif is Assistant Professor of Energy Politics at Universitas Gadjah Mada.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/global-south-networks-key-to-sustainable-responsible-mining-governance-by-hasrul-hanif-2026-10"&gt;Originally published on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>A Global Debt Crisis Is Looming</title>
       <link>https://www.project-syndicate.org/commentary/global-debt-crisis-looming-higher-interest-rates-crushing-developing-countries-by-paolo-gentiloni-et-al-2026-10</link>
       <guid isPermaLink="true">https://www.project-syndicate.org/commentary/global-debt-crisis-looming-higher-interest-rates-crushing-developing-countries-by-paolo-gentiloni-et-al-2026-10</guid>
       <pubDate>Mon, 12 Oct 2026 12:32:30 +0000</pubDate>
-      <dc:creator>Paolo Gentiloni</dc:creator>
+      <dc:creator>Paolo Gentiloni, Trevor Manuel and Mahmoud Mohieldin</dc:creator>
       <category>Commentary</category>
       <description>After a decade of debt accumulation, higher interest rates and growing refinancing needs have left the global economy increasingly exposed to shocks. And now ongoing conflicts are driving up energy prices, fueling renewed inflationary pressures and revealing dangerous cracks in the existing debt architecture.</description>
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/4bdd416d32db49582cd275957c3a7347.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Cristina Quicler/AFP via Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;After a decade of debt accumulation, higher interest rates and growing refinancing needs have left the global economy increasingly exposed to shocks. And now ongoing conflicts are driving up energy prices, fueling renewed inflationary pressures and revealing dangerous cracks in the existing debt architecture.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/global-debt-crisis-looming-higher-interest-rates-crushing-developing-countries-by-paolo-gentiloni-et-al-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Paolo Gentiloni, Trevor Manuel and Mahmoud Mohieldin&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;WASHINGTON, DC—The world is edging closer to a global debt crisis. The Iran war may have been the spark, but dry tinder has been piling up for quite a while. After a decade of debt accumulation, higher interest rates and growing refinancing needs have left the global economy increasingly exposed to shocks. And with ongoing conflicts driving up energy prices, renewed inflationary pressures are testing the limits of the existing debt architecture.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/global-debt-crisis-looming-higher-interest-rates-crushing-developing-countries-by-paolo-gentiloni-et-al-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Europe Must Look Beyond the US and China to Solve Its Productivity Problem</title>
@@ -73,7 +98,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/c925f2f75f6f84b0c105982c99b980d2.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Darren Staples/Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;Given America and China’s lead in AI and other cutting-edge innovations, it is not surprising that much of the European economic policy debate revolves around the need to emulate and catch up with these two technological superpowers. In fact, neither the US nor China offers a relevant or attractive model for Europe.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/europes-productivity-problem-cannot-be-solved-emulating-us-or-chinese-innovation-model-by-dani-rodrik-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Dani Rodrik&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CAMBRIDGE—Europe faces a productivity crisis. Over the past quarter-century, its labor productivity has risen &lt;a href="https://research-and-innovation.ec.europa.eu/knowledge-publications-tools-and-data/publications/all-publications/science-research-and-innovation-performance-eu-2026-report_en"&gt;only half as rapidly&lt;/a&gt; as that of the United States, widening the gap between American and European incomes. Thanks to higher public expenditures, stronger labor-market institutions, and superior safety nets, the benefits of European economic growth are better distributed. But without improved productivity, European economies and democracies will remain at risk.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/europes-productivity-problem-cannot-be-solved-emulating-us-or-chinese-innovation-model-by-dani-rodrik-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>A Global Economic Recovery Built on Shaky Foundations</title>
@@ -86,7 +114,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/dd06268956875d9ebca00a7fe73c0af0.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Scott Olson/Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;The latest update of the Brookings-FT TIGER survey reveals that global growth has stabilized, with both advanced and emerging market economies showing positive momentum. But amid persistent inflation and fiscal profligacy, policymakers will still be forced to push forward with structural reforms to unleash productivity growth.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/global-economy-is-experiencing-timid-recovery-by-eswar-prasad-and-thomas-riveros-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Eswar Prasad and Thomas Riveros&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;ITHACA—Despite heightened policy and geopolitical volatility, global growth has stabilized, with both advanced and emerging-market economies showing positive momentum. The October 2026 update of the Brookings-FT TIGER (Tracking Indexes for the Global Economic Recovery) reveals a world economy that, after a series of setbacks, looks set for a year of solid growth.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/global-economy-is-experiencing-timid-recovery-by-eswar-prasad-and-thomas-riveros-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>The French Far Right Embraces Austerity</title>
@@ -99,7 +130,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/c0ab36cbeb70ea92902c7e694035d324.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Marine Le Pen speaks during a National Rally event in France.&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;In a recent speech detailing her economic program, the French far-right leader Marine Le Pen offered what can only be described as a populist vision of fiscal consolidation. Whether she can make such a paradoxical formulation work will now determine her own future, and possibly that of Europe’s nationalist right.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/marine-le-pen-austerity-program-by-laurent-warlouzet-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Laurent Warlouzet&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;PARIS—Marine Le Pen, the leader of the far-right National Rally (RN) in France, has unveiled an economic program centered on rapid fiscal consolidation—more commonly known as austerity. In doing so, she has broken sharply with her own party’s past and aligned herself more closely with a longstanding trend on the European right.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/marine-le-pen-austerity-program-by-laurent-warlouzet-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Rating Africa on Its Own Terms</title>
@@ -112,7 +146,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/330663b6e29bde177a9ef8e36bb81718.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Olympia de Maismont/AFP via Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;For decades, African countries' borrowing costs have been largely determined by major credit-rating agencies whose methods overlook key features of these economies' institutions and markets. The new Africa Credit Rating Agency could mark a turning point, challenging how the continent’s credit risk is graded and priced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/new-africa-credit-rating-agency-could-mark-turning-point-for-the-continent-by-hannah-wanjie-ryder-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Hannah Wanjie Ryder&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;NAIROBI—Imagine taking an exam and answering every question correctly, only to fail because your paper was graded against the answer key for a different exam. That, in a nutshell, is what happens when African institutions are assessed by major credit-rating agencies like Fitch, Moody’s, and S&amp;amp;P.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/new-africa-credit-rating-agency-could-mark-turning-point-for-the-continent-by-hannah-wanjie-ryder-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Development Finance Needs More Than One Currency</title>
@@ -125,7 +162,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/2b9bb3a8d9334d1450bac91ec17c9e92.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Lauren DeCicca/Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;For many developing countries, renminbi-denominated loans offer a credible, increasingly accessible, and cost-effective alternative to borrowing in dollars. Now that the stability and predictability of US economic policies and institutions are in question, the Chinese currency is becoming more attractive.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/chinese-renminbi-lending-developing-countries-by-justin-yifu-lin-and-yan-wang-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Justin Yifu Lin and Yan Wang&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;BEIJING/BOSTON—The global development-finance gap remains large, and developing countries need more options. According to UN Trade and Development, developing countries &lt;a href="https://unctad.org/publication/financing-sustainable-development-report-2024"&gt;face&lt;/a&gt; an annual shortfall of $4 trillion in achieving the Sustainable Development Goals. Yet for much of the postwar era, development finance has been predominantly denominated in US dollars, leaving them exposed to changes in borrowing costs and debt burdens driven by US monetary policy and investor appetite in advanced economies.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/chinese-renminbi-lending-developing-countries-by-justin-yifu-lin-and-yan-wang-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Mélenchon Is Right About France’s Debt</title>
@@ -138,7 +178,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/ac74abfbf80dde3f599409d1d9a040b0.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Bastien Ohier/Hans Lucas via AFP Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;When, in the name of moderation, centrists brand every sensible alternative to severe austerity as “nonsense,” they leave voters only one electable rebellion on offer, and the far right is happy to supply it. That is what is happening in France today.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/sensible-melenchon-french-debt-swap-proposal-rejected-by-european-elites-by-yanis-varoufakis-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Yanis Varoufakis&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;ATHENS—The sorry state of France’s public schools, which sparked angry demonstrations across the country, was a symptom of chronic austerity. But that did not stop the sirens of deeper austerity from rehearsing their song. Emmanuel Moulin, the governor of France’s central bank, is &lt;a href="https://www.ft.com/content/74c3cc77-1593-4c49-90f9-0d92fa3a2418"&gt;calling&lt;/a&gt; for large budget cuts to avert the “risk of being gradually strangled by rising interest rates.” If that happens, social tensions will be further inflamed and desperately needed investment will vanish. With Germany already confronting deindustrialization and surging support for far-right forces, France’s public debt is shaping up as Europe’s next fault line.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/sensible-melenchon-french-debt-swap-proposal-rejected-by-european-elites-by-yanis-varoufakis-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Fukuyama, Thiel, and the Revenge of the Last Man</title>
@@ -151,7 +194,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/67041ef0d7c0034fb2202ca157f44d8c.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Gerald Matzka/Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;In his new memoir, Francis Fukuyama attempts to redeem his thesis about the end of history. But Peter Thiel’s ongoing quest to escape government oversight and wrest control of the future from democratic majorities makes a mockery of his argument all over again.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/onpoint/how-peter-thiel-turned-liberalism-against-itself-by-benn-steil-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Benn Steil&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;NEW YORK—&lt;a href="https://fukuyama.people.stanford.edu/books-and-monographs/realm-last-man-memoir"&gt;&lt;i&gt;In the Realm of the Last Man&lt;/i&gt;&lt;/a&gt;, the title of Stanford University political scientist &lt;a href="https://www.project-syndicate.org/columnist/francis-fukuyama"&gt;Francis Fukuyama&lt;/a&gt;’s new memoir, is an unmistakable reference to his 1992 bestseller &lt;a href="https://www.simonandschuster.com/books/The-End-of-History-and-the-Last-Man/Francis-Fukuyama/9780743284554"&gt;&lt;i&gt;The End of History and the Last Man&lt;/i&gt;&lt;/a&gt;. The reason he chose it, Fukuyama &lt;a href="https://prod.transcripts.cnn.com/show/ampr/date/2026-09-18/segment/01"&gt;explained&lt;/a&gt;, was that people had ignored his famous book’s warning that “democracy could break down in the future because of some of the intrinsic stresses within a liberal order”—stresses born of the discontent of those whose desire for recognition exceeds what liberal democracy can satisfy.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/onpoint/how-peter-thiel-turned-liberalism-against-itself-by-benn-steil-2026-10"&gt;Continues on Project Syndicate (subscriber article)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>The Journalists’ Revolt Against AI Scraping</title>
@@ -164,7 +210,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/a25af6e20c67a281386df04817741d80.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Kevin Dietsch/Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;Big Tech’s oligopolistic dominance has prevented the news industry from developing a sustainable business model for the digital age—a crisis that AI is exacerbating. To preserve this important pillar of democracy, the Spanish-language publisher Editorial Perfil is suing OpenAI and Microsoft for copyright infringement.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/editorial-perfil-lawsuit-against-openai-for-illegally-scraping-copyrighted-material-by-agustino-fontevecchia-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Agustino Fontevecchia&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;BUENOS AIRES—In just a few short years, AI tools like ChatGPT and Claude have become a mainstream technology. The companies behind these innovative products tout their immense potential benefit for humanity. But this narrative, while not necessarily wrong, brushes aside that these models are built on the wholesale theft of copyrighted work and threaten to weaken further an already-fragile pillar of democracy: journalism.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/editorial-perfil-lawsuit-against-openai-for-illegally-scraping-copyrighted-material-by-agustino-fontevecchia-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>MAGA’s Self-Destructive Culture War</title>
@@ -177,7 +226,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/97a689f551319af06223a7706dc60a61.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Joseph Prezioso/AFP via Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;Polls suggest that MAGA fanaticism might not be playing so well outside US President Donald Trump’s loyal base. But if the Democrats want to retake one or both chambers of Congress, they should concentrate on the economy and not answer Republican extremism with a culture war of their own.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/democrats-must-not-engage-in-maga-culture-war-to-win-midterms-by-ian-buruma-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Ian Buruma&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;NEW YORK—There are many reasons why then-US Vice President and Democratic nominee Kamala Harris lost the US presidential election to Donald Trump two years ago. Her campaign started too late. She inherited a great deal of anger against US President &lt;a href="https://www.project-syndicate.org/columnist/joseph-biden-jr"&gt;Joe Biden&lt;/a&gt;. And Trump is a gifted demagogue, who knows how to exploit fear-driven rage and hostility.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/democrats-must-not-engage-in-maga-culture-war-to-win-midterms-by-ian-buruma-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>How to Break the German Malaise</title>
@@ -190,7 +242,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/b4b4fe42364c16687830036c8d2e193c.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Christoph Reichwein/Picture Alliance via Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;For too long, Germany’s political and corporate elite coasted on the country’s postwar economic and political success story, avoiding difficult but necessary reforms that could have kept extremist populist parties at bay. Now that the barbarians are at the gates, mainstream elites must rethink everything.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/german-malaise-legacy-of-economic-social-political-complacency-and-inertia-by-helmut-k-anheier-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Helmut K. Anheier&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;BERLIN—Not so long ago, Germany seemed like it could do no wrong, thanks to its strong economy, excellent infrastructure, and stable political system. Yet now it seems as though Germany can do nothing right. With a sluggish economy and crumbling infrastructure, it is falling behind technologically and succumbing to extremist political parties.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/german-malaise-legacy-of-economic-social-political-complacency-and-inertia-by-helmut-k-anheier-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Europe’s Place in the Global Redivision of Labor</title>
@@ -203,7 +258,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/08b79b1b0912b4f3460d82364b95fd05.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Markus Scholz/Picture Alliance via Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;While the US continues to lead in software, some high-tech sectors, and hydrocarbons, China is becoming increasingly competitive in many high-tech, capital-intensive sectors, not least those once dominated by Europe. The EU does have a relative advantage in this new economic order, if only its leaders would recognize it.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/eu-relative-advantage-in-specialized-sectors-like-chip-making-machinery-by-daniel-gros-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Daniel Gros&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;MILAN—The world’s three largest continent-sized economies are moving in different directions. Each has its own strengths and weaknesses, though the balance appears to be more favorable in the United States and China than in Europe.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/eu-relative-advantage-in-specialized-sectors-like-chip-making-machinery-by-daniel-gros-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>The World Has Passed Peak Trump</title>
@@ -216,7 +274,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/81463d0e8abca5a85489b82208f13947.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Andrew Harnik/Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;US President Donald Trump, previously the most powerful, unpredictable force on the international stage, has now passed the peak of his ability to disrupt the international order. With his approval ratings collapsing, foreign leaders whose tenures will extend beyond his own are starting to write him off.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/peak-trump-world-moving-on-with-exception-of-ai-by-ian-bremmer-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Ian Bremmer&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;NEW YORK—At the UN General Assembly last month, US President Donald Trump delivered a victory speech. A decade after &lt;a href="https://www.cnn.com/videos/politics/2017/08/18/trump-albany-rally-winning-sot.cnn"&gt;telling his supporters&lt;/a&gt;  that he’d stack so many victories that “you may even get tired of winning,” he offered a list of successes, including the settlement of eight wars, action against “the bully of the Middle East” in Iran, a deal with Denmark on Greenland, and the arrest of Venezuela’s “outlaw dictator,” Nicolás Maduro.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/peak-trump-world-moving-on-with-exception-of-ai-by-ian-bremmer-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Global Financial Reform that Centers African Women</title>
@@ -229,7 +290,22 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/e16299a790070906770dee4578e13f48.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Eva Krafczyk/Picture Alliance via Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;While gender-equality objectives often fall by the wayside in times of upheaval, the current rupture in the multilateral order creates an opportunity to build a debt architecture that will deliver for the women of Africa. The first steps toward this goal can be taken at this month’s IMF–World Bank Annual Meetings in Bangkok.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/imf-must-center-african-women-recognize-social-reproduction-by-crystal-simeoni-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Crystal Simeoni&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;NAIROBI—Over the past two decades, feminist economists have scored several policy wins at the national level, ranging from gender-responsive budgets to increased investment in care infrastructure. But change at the international level remains stubbornly slow. The global financial architecture continues to generate policies that depend on women’s labor without accounting for it.&lt;/p&gt;
+&lt;p&gt;The International Monetary Fund–World Bank Annual Meetings in Bangkok this month offer an opportunity for policymakers to accelerate that change. More specifically, the first annual cycle of the newly launched &lt;a href="https://unctad.org/news/developing-countries-launch-first-ever-borrowers-platform-breakthrough-global-finance"&gt;Borrowers’ Platform&lt;/a&gt; will enable developing countries to share knowledge, exchange experiences, and speak collectively in debt discussions.&lt;/p&gt;
+&lt;p&gt;This forum is particularly important for African countries, where average spending on interest payments is &lt;a href="https://unctad.org/news/global-public-debt-hits-record-97-trillion-2023-un-urges-action"&gt;$70 per capita&lt;/a&gt;, compared with $60 on education and $39 on health. Every austerity measure prescribed by a sovereign-debt restructuring determines the extent to which public services will be squeezed—and how much women will have to pick up the slack. In Kenya, a country that remains stuck in a debt trap, women spend, on average, &lt;a href="https://africa.unwomen.org/en/stories/news/2025/10/kenya-advances-toward-a-national-care-policy-as-data-highlights-urgent-need-for-reform"&gt;three hours and thirty-seven minutes&lt;/a&gt; more than men on unpaid domestic and care work every day.&lt;/p&gt;
+&lt;p&gt;The negotiations for a United Nations Framework Convention on International Tax Cooperation provide a similar opening. This effort to rewrite the global rules so that profits are taxed where economic activity occurs could help address capital flight from Africa, estimated at &lt;a href="https://unctad.org/publication/economic-development-africa-report-2020"&gt;$88.6 billion&lt;/a&gt; annually and driven partly by tax evasion. The outcome of the negotiations will determine how much African governments have left over for clinics, schools, and water systems, and how much will be relegated to social reproduction—the unpaid or underpaid work, done most often by women and girls, that sustains life and makes all economic activity possible.&lt;/p&gt;
+&lt;p&gt;To be sure, women’s rights are often overlooked in times of upheaval. Gender equality was first on the chopping block when donor governments tightened their foreign-aid budgets, and feminist foreign policies were quietly shelved when they became inconvenient. Now the UN is weighing whether to fold UN Women and the UN Population Fund into one entity in a bid for “efficiency” precisely when those institutions are most needed.&lt;/p&gt;
+&lt;p&gt;But it is possible to rebuild global economic governance with a feminist approach. Negotiators for the UN Tax Convention should consider where social reproduction occurs, not just where multinationals are based, and allocate resources accordingly. As for the IMF, the debt restructuring process must be overhauled to assess not only whether a government can service its obligations, but also what these payments will cost in public services and women’s time.&lt;/p&gt;
+&lt;p&gt;The latter requires measuring and valuing social reproduction. Kenya found that, in 2021, women accounted for 25.8 billion hours out of a total &lt;a href="https://www.knbs.or.ke/reports/economic-value-of-unpaid-domestic-and-care-work-in-kenya-2025/"&gt;30.6 billion hours of unpaid domestic and care work&lt;/a&gt;, which the Kenya National Bureau of Statistics estimated was equivalent to 23.1% of GDP. Using these data, Kenya has since developed a National Care Policy aimed at integrating care planning into national and county budgets. In 2025, Mauritius showed how to &lt;a href="https://mauritiusbusinessresource.mu/blog/key-changes-in-vat-mauritius/"&gt;translate this awareness into fiscal policy&lt;/a&gt; by zero-rating VAT on infant food and staple vegetables. The IMF could make social reproduction visible at the international level by incorporating national household satellite accounts into Article IV consultations, its regular economic assessments of member countries.&lt;/p&gt;
+&lt;p&gt;African countries are leading the way on this front, and the multilateral financial architecture must support, not impede, their efforts. As the late development economist Thandika Mkandawire spent much of his career arguing, African governments were never short on policy ideas. But they were denied the space to do their own theorizing; instead, they were saddled with the theories underpinning stringent loan conditions.&lt;/p&gt;
+&lt;p&gt;The African Union’s &lt;a href="https://au.int/en/pressrelease/african-union-advances-implementation-common-african-position-debt-high-level-dialogue"&gt;Common African Position on Debt (CAP)&lt;/a&gt;, adopted in February, is an attempt to conceptualize a new approach. It calls for a binding UN Framework Convention on Sovereign Debt—the hoped-for structural overhaul that did not materialize at last year’s Fourth International Conference on Financing for Development—and restructuring processes that are transparent, debtor-inclusive, and no longer driven solely by creditor interests. The Borrowers’ Platform may be a voluntary coordination mechanism rather than a binding negotiating body, but that is all the more reason to advocate the CAP at the Annual Meetings.&lt;/p&gt;
+&lt;p&gt;Members of the Borrowers’ Platform should propose two concrete policy changes. First, the IMF must reform its debt-sustainability analysis, the framework it uses to determine how much debt a country can afford to service, to incorporate what repayment costs in social reproduction. This would allow African governments to shield public services from cuts. Otherwise, more countries may end up like Kenya: the National Treasury reports that &lt;a href="https://www.businessdailyafrica.com/bd/economy/debt-repayments-and-pensions-eat-up-half-of-revenues-5544688"&gt;51.8% of tax revenue&lt;/a&gt; in the last fiscal year went to debt and pension payments, leaving hardly any funds for the social programs that reduce women’s unpaid work. Second, when negotiating debt-restructuring deals, every IMF program tied to a debt restructuring must include a binding floor on spending for health, water, and care infrastructure, replacing the soft, often-missed social spending targets the Fund uses today.&lt;/p&gt;
+&lt;p&gt;What may seem like technical adjustments are actually the first steps toward creating a debt architecture that will deliver for the women of Africa. Writing about the pandemic, the novelist Arundhati Roy &lt;a href="https://www.ft.com/content/10d8f5e8-74eb-11ea-95fe-fcd274e920ca"&gt;argued&lt;/a&gt; that rupture offers “a chance to rethink the doomsday machine we have built for ourselves.” The multilateral system is undergoing its own rupture now. The task ahead is to ensure that the women of Africa are not a footnote to the system, but rather central to what comes next.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Crystal Simeoni, a pan-African feminist activist, is Director of Nawi—the Afrifem Collective.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/imf-must-center-african-women-recognize-social-reproduction-by-crystal-simeoni-2026-10"&gt;Originally published on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>How Africa Can Leverage the US-China Thaw</title>
@@ -242,7 +318,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/f5ccd7c290459d9c4483b2a53e12af7a.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Shiraaz Mohamed/Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;As dollar borrowing costs soar, Chinese rates are approaching record lows. This divergence, combined with the US-China thaw, creates an opportunity for African governments: partner with the US on gas and with China on solar and storage, and tap lower-cost Asian capital markets to finance investments in both.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/africa-can-leverage-us-china-thaw-to-improve-financing-conditions-for-energy-investment-by-prasad-ananthakrishnan-and-vera-songwe-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Prasad Ananthakrishnan and Vera Songwe&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;WASHINGTON, DC—Chinese President Xi Jinping’s state visit to the US produced a two-month extension of the current bilateral trade truce—and little else. Nonetheless, both leaders signaled that they want a more stable relationship ahead of the Asia-Pacific Economic Cooperation summit in Shenzhen in November and the G20 in Miami in December. This creates an opportunity for emerging and developing economies in Africa and elsewhere.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/africa-can-leverage-us-china-thaw-to-improve-financing-conditions-for-energy-investment-by-prasad-ananthakrishnan-and-vera-songwe-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Closing NATO’s Deterrence Gap</title>
@@ -255,7 +334,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/655791b4c8a1f4961efce7fb996b36bb.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Wojtek Radwanski/AFP via Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;With Russian provocations against NATO member states growing more frequent, the alliance urgently needs to develop a credible doctrine of punitive deterrence to guide its response to acts of aggression that fall below the threshold of war. Mere territorial defense is not enough.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/nato-deterrence-gap-russia-yet-to-face-real-punishment-by-agnia-grigas-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Agnia Grigas&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;VILNIUS—On September 23, just a week after NATO aircraft &lt;a href="https://www.bbc.com/news/articles/cjx2zgk7edlzo"&gt;shot down&lt;/a&gt; a drone that had entered Lithuanian air space from Belarus, a Russian military helicopter flying out of Kaliningrad briefly &lt;a href="https://www.reuters.com/business/aerospace-defense/russian-military-helicopter-entered-polish-airspace-briefly-polish-army-says-2026-09-23/"&gt;breached&lt;/a&gt; Polish airspace. Neither intrusion was an isolated episode. A growing catalogue of security incidents shows that the Kremlin’s war of aggression against Ukraine is pressing ever more ominously on NATO’s borders.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/nato-deterrence-gap-russia-yet-to-face-real-punishment-by-agnia-grigas-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>The India-Pakistan Cold War</title>
@@ -268,7 +350,10 @@
       <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/5ed0fb4a581caa3a3a72df30fe8e9565.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Photo: Ali Arif/AFP via Getty Images&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;The current stalemate between India and Pakistan should be viewed not as a pause between rounds of negotiation, but rather as part of a deliberate Indian strategy of disengagement. India will return to the negotiating table only after Pakistan dismantles, comprehensively and verifiably, its state-supported terrorist networks.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/india-pakistan-diplomatic-freeze-will-not-end-any-time-soon-by-shashi-tharoor-2026-10"&gt;Read the full commentary on Project Syndicate&lt;/a&gt;&lt;/p&gt;</content:encoded>
+&lt;p&gt;&lt;em&gt;By Shashi Tharoor&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;NEW DELHI—For decades, South Asia was locked in a perpetual cycle of conflict management: brief military clashes between India and Pakistan would be followed by de-escalation and the resumption of formal peace talks, which eventually gave way to another bout of conflict. But this pattern has now been broken. No high-level dialogue has taken place since 2016. Rather than some temporary diplomatic tantrum, this reflects a paradigm shift in Indian foreign policy, permanently altering the subcontinent’s security architecture.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/india-pakistan-diplomatic-freeze-will-not-end-any-time-soon-by-shashi-tharoor-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
