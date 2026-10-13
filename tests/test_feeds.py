@@ -1418,6 +1418,54 @@ def test_apollo_masks_credentials_quoted_in_transcripts(monkeypatch) -> None:
     assert key not in body and 'STRIPE_KEY = "[credential redacted]" in payment.py' in body
 
 
+def test_apollo_never_fetches_or_links_off_site(monkeypatch) -> None:
+    from rssfeeds.sources import apollo
+
+    off_card = _apollo_card("x", "Elsewhere", "21 July 2026", ["Notes"]).replace(
+        'href="/science/x"', 'href="http://169.254.169.254/latest/meta-data"'
+    )
+    pages = {APOLLO + "science": _apollo_listing([off_card], "https://evil.example/?p=2")}
+    fetched: list[str] = []
+
+    def fake_fetch(url: str) -> str:
+        fetched.append(url)
+        return pages.get(url, APOLLO_ARTICLE)
+
+    monkeypatch.setattr(apollo, "fetch_text", fake_fetch)
+    result = apollo.apollo("science")
+    # The off-site card and the off-site "next" link are both dropped, unfetched.
+    assert [i.title for i in result.items] == ["A Pinned Agenda"]
+    assert fetched == [APOLLO + "science", APOLLO + "science/agenda"]
+    with pytest.raises(ValueError):
+        apollo._fetch("https://apolloresearch.ai.evil.example/science")
+
+
+def test_apollo_markup_in_titles_summaries_and_bodies_is_inert(monkeypatch) -> None:
+    from rssfeeds.sources import apollo
+
+    title = "Hi &lt;script&gt;alert(1)&lt;/script&gt;&lt;img src=x onerror=alert(2)&gt;"
+    listing = _apollo_listing([_apollo_card("one", title, "21 July 2026", ["Notes"])], None)
+    article = APOLLO_ARTICLE.replace(
+        'content="The meta summary."', 'content="Sum &lt;img src=x onerror=alert(3)&gt;"'
+    ).replace(
+        "<h2>Intro</h2>",
+        '<h2 onclick="alert(4)">Intro</h2><img src="x" onerror="alert(5)">'
+        '<a href="javascript:alert(6)">js</a>',
+    )
+    monkeypatch.setattr(
+        apollo, "fetch_text", lambda u: listing if u == APOLLO + "science" else article
+    )
+    one = next(i for i in apollo.apollo("science").items if i.link.endswith("/one"))
+    assert one.title == "Hi alert(1)" and one.description == "Sum"
+    for bad in ("<script", "onerror", "onclick", "javascript:"):
+        assert bad not in one.content_html
+    assert '<img src="https://www.apolloresearch.ai/science/x">' in one.content_html
+    xml = build_rss(
+        title="t", link=APOLLO, description="d", self_url=APOLLO, items=[one], source_url=APOLLO
+    ).decode()
+    assert "&lt;script" not in xml and "onerror" not in xml
+
+
 def test_apollo_layout_change_is_an_error(monkeypatch) -> None:
     from rssfeeds.sources import apollo
 

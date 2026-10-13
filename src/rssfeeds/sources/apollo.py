@@ -20,7 +20,7 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from datetime import UTC, date, datetime
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 
 from lxml import html as lx
 
@@ -29,6 +29,10 @@ from ..models import Item, SourceResult
 from ..sanitize import safe_url, sanitize_html
 
 BASE = "https://www.apolloresearch.ai/"
+# The only hosts this scraper fetches from or links entries to. Links and images inside an
+# article body are not fetched here, so they keep any http(s) target, as in other feeds.
+HOSTS = frozenset({"www.apolloresearch.ai", "apolloresearch.ai"})
+_TAG = re.compile(r"<[^>]+>")
 # A runaway "next" chain means the pagination markup changed; stop rather than loop.
 MAX_PAGES = 20
 
@@ -86,8 +90,29 @@ SECTIONS = {
 }
 
 
+def _plain(text: str) -> str:
+    """Plain text for a title, summary or tag: whitespace collapsed and anything shaped
+    like a tag removed, so a decoded `&lt;script&gt;` cannot reach a reader as markup."""
+    return " ".join(_TAG.sub("", text).split())
+
+
 def _clean(el) -> str:
-    return " ".join(el.text_content().split())
+    return _plain(el.text_content())
+
+
+def _on_site(url: str | None) -> str | None:
+    """`url` if it is an https URL on Apollo's own site, else None."""
+    if not url:
+        return None
+    parts = urlsplit(url)
+    return url if parts.scheme == "https" and parts.hostname in HOSTS else None
+
+
+def _fetch(url: str) -> str:
+    """The one place this scraper reads from the network, and only from Apollo's site."""
+    if not _on_site(url):
+        raise ValueError(f"refusing to fetch off-site URL {url!r}")
+    return fetch_text(url)
 
 
 def parse_date(text: str) -> date | None:
@@ -104,7 +129,7 @@ def _cards(doc, section: Section, page_url: str) -> list[Item]:
         titles = card.cssselect(section.title)
         dates = card.cssselect(section.date)
         hrefs = [a.get("href") for a in card.cssselect("a[href]")]
-        link = safe_url(hrefs[0], page_url) if hrefs else None
+        link = _on_site(safe_url(hrefs[0], page_url)) if hrefs else None
         published = parse_date(_clean(dates[0])) if dates else None
         if not titles or not link or published is None:
             continue
@@ -133,13 +158,14 @@ def _listing(section: Section) -> list[Item]:
         if len(seen_pages) >= MAX_PAGES:
             raise RuntimeError(f"more than {MAX_PAGES} listing pages - pagination may have changed")
         seen_pages.add(url)
-        doc = lx.fromstring(fetch_text(url))
+        doc = lx.fromstring(_fetch(url))
         for item in _cards(doc, section, url):
             items.setdefault(item.link, item)
         nxt = doc.cssselect(section.next_link)
-        if not nxt:
+        nxt_url = _on_site(safe_url(nxt[0].get("href"), url)) if nxt else None
+        if not nxt_url:
             break
-        url = urljoin(url, nxt[0].get("href"))
+        url = nxt_url
     return list(items.values())
 
 
@@ -147,7 +173,7 @@ def _with_body(item: Item) -> Item:
     """The article's body, footnotes and meta description added to its listing entry. A
     page that fails to load keeps the listing entry as it is rather than dropping it."""
     try:
-        doc = lx.fromstring(fetch_text(item.link))
+        doc = lx.fromstring(_fetch(item.link))
     except Exception:  # noqa: BLE001
         return item
     blocks = doc.cssselect(".blog-rich-text") + doc.cssselect(".paper-right_footnotes")
@@ -156,7 +182,7 @@ def _with_body(item: Item) -> Item:
         for el in blocks
     ).strip()
     meta = doc.cssselect('meta[name="description"]')
-    description = " ".join((meta[0].get("content") or "").split()) if meta else ""
+    description = _plain(meta[0].get("content") or "") if meta else ""
     return item.model_copy(
         update={
             "content_html": CREDENTIAL.sub(REDACTED, body) or None,
