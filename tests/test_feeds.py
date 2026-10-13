@@ -426,6 +426,7 @@ def test_collect_isolates_a_source_that_raises(monkeypatch, tmp_path) -> None:
     monkeypatch.setattr(build.conversation_src, "the_conversation", lambda _p: ok)
     monkeypatch.setattr(build.ps_src, "project_syndicate", lambda _p: ok)
     monkeypatch.setattr(build.gates_src, "gates_notes", lambda: ok)
+    monkeypatch.setattr(build.apollo_src, "apollo", lambda _s: ok)
     monkeypatch.setattr(tangle_src, "tangle", boom)
 
     results = build.collect(FirstSeen(tmp_path / "s.json"))
@@ -823,6 +824,7 @@ def test_malformed_inbox_config_fails_only_the_email_feeds(raw, tmp_path, monkey
     monkeypatch.setattr(build.oai, "reports", lambda _fs: good)
     monkeypatch.setattr(build.tldr_src, "tldr", lambda *_a: good)
     monkeypatch.setattr(build.ps_src, "project_syndicate", lambda _p: good)
+    monkeypatch.setattr(build.apollo_src, "apollo", lambda _s: good)
 
     def no_network(url):
         raise AssertionError("an email source fetched despite a malformed config")
@@ -1289,3 +1291,193 @@ def test_project_syndicate_refetches_cached_pages_after_their_refresh_age(
     assert calls == [ps.FEED, PS_FREE]
     assert "Originally published on Project Syndicate" in html
     assert json.loads(cache.read_text())[PS_FREE]["fetched"] == "2026-10-13T06:00:00+00:00"
+
+
+# Synthetic pages shaped like apolloresearch.ai's Webflow markup (October 2026).
+APOLLO = "https://www.apolloresearch.ai/"
+
+
+def _apollo_card(slug: str, title: str, day: str, tags: list[str], pinned: bool = False) -> str:
+    filters = "".join(
+        f'<div class="w-dyn-item"><p fs-cmsfilter-field="filter">{t}</p></div>' for t in tags
+    )
+    return f"""
+    <div role="listitem" class="fidings_card {"pinned " if pinned else ""}w-dyn-item">
+      <div class="fidings_card-wrapper">
+        <p fs-cmsfilter-field="name" class="text-size-large">{title}</p>
+        <div class="fidings_card-right"><p class="text-color-sky">{tags[0]}</p>
+          <p class="text-size-small">{day}</p></div>
+        <a href="/science/{slug}" class="press_link-full w-inline-block"></a>
+      </div>
+      <div class="hide w-dyn-list"><div class="w-dyn-items">{filters}</div></div>
+    </div>"""
+
+
+def _apollo_listing(cards: list[str], next_href: str | None) -> str:
+    pinned = _apollo_card("agenda", "A Pinned Agenda", "19 January 2026", ["Notes"], pinned=True)
+    nxt = (
+        f'<div class="w-pagination-wrapper"><a href="{next_href}" class="w-pagination-next">'
+        "Load more</a></div>"
+        if next_href
+        else ""
+    )
+    return f"""<html><body>
+    <div class="hilight_card"><a href="/science/one">One</a><p>July 23, 2026</p></div>
+    <div id="research"><div class="fidings_items">
+      <div class="w-dyn-list"><div class="w-dyn-items">{pinned}</div></div>
+      <div class="w-dyn-list"><div class="w-dyn-items">{"".join(cards)}</div>{nxt}</div>
+    </div></div></body></html>"""
+
+
+APOLLO_ARTICLE = """<html><head>
+<meta name="description" content="The meta summary.">
+</head><body><h1>One</h1>
+<div class="paper-right_rich blog-rich-text w-richtext">
+  <h2>Intro</h2><p>Body with <a href="/science/two">a link</a>.</p><script>alert(1)</script>
+</div>
+<div class="paper-right_footnotes paper-right_rich w-richtext"><p>[1] A note.</p></div>
+</body></html>"""
+
+
+@pytest.mark.parametrize(
+    "text,expected",
+    [
+        ("21 July 2026", date(2026, 7, 21)),
+        (" 05  July 2026 ", date(2026, 7, 5)),
+        ("July 23, 2026", None),
+        ("2026", None),
+        ("", None),
+    ],
+)
+def test_apollo_listing_dates(text, expected) -> None:
+    from rssfeeds.sources.apollo import parse_date
+
+    assert parse_date(text) == expected
+
+
+def test_apollo_research_follows_pagination_and_reads_each_article(monkeypatch) -> None:
+    from rssfeeds.sources import apollo
+
+    pages = {
+        APOLLO + "science": _apollo_listing(
+            [
+                _apollo_card("one", "One", "21 July 2026", ["Science of Scheming"]),
+                _apollo_card("two", "Two", "03 July 2025", ["Evaluations", "Notes"]),
+                _apollo_card("undated", "No date", "", ["Evaluations"]),
+            ],
+            "?abc_page=2",
+        ),
+        APOLLO + "science?abc_page=2": _apollo_listing(
+            [_apollo_card("three", "Three", "15 September 2023", ["Interpretability"])], None
+        ),
+        APOLLO + "science/one": APOLLO_ARTICLE,
+    }
+    fetched: list[str] = []
+
+    def fake_fetch(url: str) -> str:
+        fetched.append(url)
+        if url not in pages:
+            raise RuntimeError(f"404 {url}")
+        return pages[url]
+
+    monkeypatch.setattr(apollo, "fetch_text", fake_fetch)
+    result = apollo.apollo("science")
+
+    assert result.ok
+    by_slug = {i.link.rsplit("/", 1)[1]: i for i in result.items}
+    # The pinned card repeats on every page but appears once, the undated card is skipped,
+    # and the highlight card above the grid is not read.
+    assert sorted(by_slug) == ["agenda", "one", "three", "two"]
+    assert APOLLO + "science?abc_page=2" in fetched
+    assert by_slug["two"].categories == ["Evaluations", "Notes"]
+    assert by_slug["three"].published == datetime(2023, 9, 15, tzinfo=UTC)
+
+    one = by_slug["one"]
+    assert one.link == one.guid == APOLLO + "science/one"
+    assert one.description == "The meta summary."
+    assert '<a href="https://www.apolloresearch.ai/science/two">a link</a>' in one.content_html
+    assert "A note." in one.content_html and "alert" not in one.content_html
+    # An article page that fails keeps its listing entry, without a body.
+    assert by_slug["two"].content_html is None and by_slug["two"].title == "Two"
+
+
+def test_apollo_masks_credentials_quoted_in_transcripts(monkeypatch) -> None:
+    from rssfeeds.sources import apollo
+
+    # Assembled at runtime so this file itself never holds a key-shaped string.
+    key = "sk_" + "live_" + "0123456789abcdefABCDEF"
+    article = APOLLO_ARTICLE.replace("A note.", f'STRIPE_KEY = "{key}" in payment.py')
+    item = Item(
+        title="One",
+        link=APOLLO + "monitoring/one",
+        guid=APOLLO + "monitoring/one",
+        published=datetime(2026, 7, 23, tzinfo=UTC),
+    )
+    monkeypatch.setattr(apollo, "fetch_text", lambda _u: article)
+    body = apollo._with_body(item).content_html
+    assert key not in body and 'STRIPE_KEY = "[credential redacted]" in payment.py' in body
+
+
+def test_apollo_never_fetches_or_links_off_site(monkeypatch) -> None:
+    from rssfeeds.sources import apollo
+
+    off_card = _apollo_card("x", "Elsewhere", "21 July 2026", ["Notes"]).replace(
+        'href="/science/x"', 'href="http://169.254.169.254/latest/meta-data"'
+    )
+    pages = {APOLLO + "science": _apollo_listing([off_card], "https://evil.example/?p=2")}
+    fetched: list[str] = []
+
+    def fake_fetch(url: str) -> str:
+        fetched.append(url)
+        return pages.get(url, APOLLO_ARTICLE)
+
+    monkeypatch.setattr(apollo, "fetch_text", fake_fetch)
+    result = apollo.apollo("science")
+    # The off-site card and the off-site "next" link are both dropped, unfetched.
+    assert [i.title for i in result.items] == ["A Pinned Agenda"]
+    assert fetched == [APOLLO + "science", APOLLO + "science/agenda"]
+    with pytest.raises(ValueError):
+        apollo._fetch("https://apolloresearch.ai.evil.example/science")
+
+
+def test_apollo_markup_in_titles_summaries_and_bodies_is_inert(monkeypatch) -> None:
+    from rssfeeds.sources import apollo
+
+    title = "Hi &lt;script&gt;alert(1)&lt;/script&gt;&lt;img src=x onerror=alert(2)&gt;"
+    listing = _apollo_listing([_apollo_card("one", title, "21 July 2026", ["Notes"])], None)
+    article = APOLLO_ARTICLE.replace(
+        'content="The meta summary."', 'content="Sum &lt;img src=x onerror=alert(3)&gt;"'
+    ).replace(
+        "<h2>Intro</h2>",
+        '<h2 onclick="alert(4)">Intro</h2><img src="x" onerror="alert(5)">'
+        '<a href="javascript:alert(6)">js</a>',
+    )
+    monkeypatch.setattr(
+        apollo, "fetch_text", lambda u: listing if u == APOLLO + "science" else article
+    )
+    one = next(i for i in apollo.apollo("science").items if i.link.endswith("/one"))
+    assert one.title == "Hi alert(1)" and one.description == "Sum"
+    for bad in ("<script", "onerror", "onclick", "javascript:"):
+        assert bad not in one.content_html
+    assert '<img src="https://www.apolloresearch.ai/science/x">' in one.content_html
+    xml = build_rss(
+        title="t", link=APOLLO, description="d", self_url=APOLLO, items=[one], source_url=APOLLO
+    ).decode()
+    assert "&lt;script" not in xml and "onerror" not in xml
+
+
+def test_apollo_layout_change_is_an_error(monkeypatch) -> None:
+    from rssfeeds.sources import apollo
+
+    monkeypatch.setattr(apollo, "fetch_text", lambda _u: "<html><body><p>New</p></body></html>")
+    result = apollo.apollo("governance")
+    assert not result.ok and "layout may have changed" in (result.error or "")
+
+
+def test_apollo_pagination_loop_stops(monkeypatch) -> None:
+    from rssfeeds.sources import apollo
+
+    page = _apollo_listing([], f"{APOLLO}science")
+    monkeypatch.setattr(apollo, "fetch_text", lambda _u: page)
+    # A next link back to the first page ends the walk rather than looping.
+    assert [i.title for i in apollo.apollo("science").items] == ["A Pinned Agenda"]

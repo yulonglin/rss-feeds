@@ -37,12 +37,14 @@ WHY = """## Why each feed exists
 | AI Digest | none (email only) | An HTML email, not a feed. Published empty until a real issue has been reviewed. |
 | Project Syndicate | `project-syndicate.org/rss` | Summary only, the image hidden in an enclosure, utm tracking on every link, and only the first author of co-written pieces. |
 | Gates Notes | `gatesnotes.com/home/rss` | Gone, and every gatesnotes.com page answers scripts with a 403. |
+| Apollo Research, Blog, Science, Monitoring and Governance | none | No feed published at all: four Webflow listings, Science and Governance paginated behind a "Load more" link. |
 """
 
 NOTES = """## Things worth knowing
 
 - **Misalignment Reports are dated when first seen, not when last updated.** New reports are seeded with the table’s First posted date (the updated date in the legacy card layout). Dates are committed in `state/first_seen.json` and reused, so edits do not push reports back to the top of the feed.
 - **System cards follow OpenAI's own index, not their sitemap.** The sitemap lists two further pages (`/gpt-5-codex/`, `/o3/`) that OpenAI's listing omits, and carries no dates at all. Matching the listing keeps the feed to what the publisher actually presents as current.
+- **Apollo Research feeds follow the site's four listings, not its sitemap.** Blog, Science, Monitoring and Governance are separate collections with their own URL prefixes, so no post appears in two feeds. The sitemap can list a page that no listing shows (in October 2026, one Science post); the feeds leave it out, as the publisher does.
 - **A layout change is caught two ways.** Each scraper is pinned to specific selectors, so a page that no longer matches them yields zero entries and fails loudly. A page that still matches but returns far fewer entries than the last published run is refused too, at a 60% floor, because a silently truncated feed looks normal and is therefore worse than an outright failure. Either case opens a `feed-broken` issue on the repository and reddens the scheduled run. If a drop is genuine, `uv run rssfeeds --allow-shrink` accepts it.
 - **A source that fails leaves its feed alone.** If METR is unreachable the five OpenAI feeds still refresh; the workflow run goes red and the stale feed keeps its last good contents rather than emptying.
 - **`lastBuildDate` comes from the newest item, never the clock.** A run that finds nothing new produces byte-identical files and therefore no commit, which keeps the git history meaningful.
