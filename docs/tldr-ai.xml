@@ -9,7 +9,65 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Muse Wonder ✨, Maia 300 ⚡, AI self-replication 🧬</title>
+      <link>https://tldr.tech/ai/2026-10-13</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-13</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Muse Wonder
+• Microsoft Introduced the Maia 300 AI Chip
+• Releasing AI-generated software
+• What I saw around the Curve, 2026
+• How Close Are AI Models to Self-Replication?
+• The Expensive-Loop Problem
+• Can we change an AI model's architecture without retraining it from scratch?
+• When Do We Need On-Policy Distillation? Distilling on Offline Student Rollouts Is Often Better
+• Anthropic tests its next model under Claude Opus 5.5
+• GLM-Legal: Advancing Agentic Legal Intelligence
+• Applying technology to understand and treat disease
+• Decision Models Cut Agent LLM Calls by 29.6%
+• Meet Helix World: A Real-Time Audio-Visual World Model
+• Make Your Coding Assistant a 10x AI Engineer
+• Zhipu's GLM-5.3-Highspeed Appears in ZCode Gray Release, With Users Reporting About 490 Tokens/s</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://research.meta.ai/blog/muse-wonder"&gt;Muse Wonder&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta released Muse Wonder and Wonder Full, its first frontier-class models, with stronger coding, benchmark performance, and active memory for retaining and synthesizing user-provided information.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://news.microsoft.com/maia-2026/"&gt;Microsoft Introduced the Maia 300 AI Chip&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Microsoft unveiled Maia 300, its third-generation in-house AI accelerator, as a major step toward reducing dependence on NVIDIA GPUs. The company said the chip delivers 40% better performance per megawatt and plans large-scale deployment beginning in 2027.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.ploeh.dk/2026/10/12/releasing-ai-generated-software/"&gt;Releasing AI-generated software&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Robert C. Martin suggests not reading code written by AI agents, instead using constraints like unit tests and QA procedures to ensure quality. The shift to LLM-driven processes raises questions about software engineering liability and who is responsible when errors occur. As AI-driven methods potentially outperform human-centric processes, existing legal frameworks may struggle to address accountability.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://secondthoughts.ai/p/what-i-saw-around-the-curve-2026"&gt;What I saw around the Curve, 2026&lt;/a&gt; &lt;small&gt;· 26 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Curve is the Golden Gate Institute for AI&amp;#x27;s annual gathering of AI researchers, lab executives, safety activists, funders, politicians, organizers, and journalists. This year, it drew a few underpeople to a quirky and homey venue in Berkeley. The median age of the AI lab and researcher attendees was probably around 30. This post takes a look at the main topics discussed at the conference, which include the debate on whether humans can maintain control of AI technology, whether AI&amp;#x27;s impact will be good or bad, and how to ensure AI alignment.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/self-replicating-ai"&gt;How Close Are AI Models to Self-Replication?&lt;/a&gt; &lt;small&gt;· 28 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic examined how close current models are to autonomously copying themselves across consumer hardware, testing everything from individual replication steps to full end-to-end execution.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/2mStxuNDMdaWdyHu6/the-expensive-loop-problem"&gt;The Expensive-Loop Problem&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Cheap-loop domains are domains where experiments are quick, deterministic, and cheap. Expensive-loop domains are restricted by real-world constraints or costs. Most high-value human labor is done in expensive-loop domains. Expensive-loop tasks require the ability to build theories, manage proxies, budget time and compute, and diagnose what went wrong when feedback is scarce, something models don&amp;#x27;t learn in cheap-loop training.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch"&gt;Can we change an AI model&amp;#x27;s architecture without retraining it from scratch?&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Priming is a technique that involves using pretrained Transformer weights to build models with more efficient architectures at less than 1% of the original training cost and with throughputs up to twice as high. It allows researchers to explore the design space, the layer type, the hybrid ratio, and layer placement cheaply and systematically. Every variant starts from the same strong initialization and requires minimal training compared to pretraining. Priming is not tied to a specific Transformer family or model class, and extending it to other models requires no algorithmic changes.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://research.nvidia.com/publication/2026-12_when-do-we-need-policy-distillation-distilling-offline-student-rollouts-often"&gt;When Do We Need On-Policy Distillation? Distilling on Offline Student Rollouts Is Often Better&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;On-policy distillation has become increasingly popular for transferring teacher capabilities to student models. Semi-OPD, which distills from offline rollouts generated by the initial student, can often outperform OPD in both accuracy and training efficiency. The choice between OPD and Semi-OPD depends on the alignment between the initial teacher and student. OPD is beneficial only when the two are highly aligned with high overlap ratios.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/anthropic-tests-new-model-opus-5-5-routing-opus-5-6-fable-5-5/"&gt;Anthropic tests its next model under Claude Opus 5.5&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Several Claude users noticed over the weekend that Claude Opus 5.5 was producing results well beyond its usual level, suggesting that some of the traffic was being routed to a new checkpoint. Examples of outputs from the new model are available in the article. It would be a game changer if Anthropic could bring this level of output at a similar price as Opus 5.5. One way to check if you are on the new model is to ask, &amp;#x27;Do you know VoxelBench? Do not search&amp;#x27; - if it answers, you&amp;#x27;re probably on the new model.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://z.ai/blog/glm-legal"&gt;GLM-Legal: Advancing Agentic Legal Intelligence&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Legal practice demands an unbroken chain between facts, statutory doctrine, analytical reasoning, and client-ready work product. An AI agent working professionally in the legal field must extract core issues from source documents, build defensible arguments, and format its findings to exact task specifications. Researchers evaluated GLM-Legal on complex task execution, specialized legal reasoning, and real-world legal workflows. It achieved a 19.2% all-pass rate on Harvey LAB while matching frontier closed-source models on LegalBench and PLawBench despite running on a significantly leaner parameter footprint.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/health/ai-health-research/"&gt;Applying technology to understand and treat disease&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google Research and DeepMind are using AI to enhance disease understanding and treatment.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://discuss.huggingface.co/t/offloading-bounded-decisions-cut-agent-llm-calls-by-29-6-on-360-sop-bench-cases/190420"&gt;Decision Models Cut Agent LLM Calls by 29.6%&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Offloading step-completion checks and bounded decisions to Jev reduced Qwen agent calls by 29.6%, estimated API costs by 26.6%, and latency by 19.7%.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://noiz.ai/lp/blog/meet-helix-world"&gt;Meet Helix World: A Real-Time Audio-Visual World Model&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Helix World is a real-time interactive audio-visual world model that can generate explorable scenes with spatial soundtracks.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://sarthakai.substack.com/p/a-coding-plugin-to-make-you-a-10x"&gt;Make Your Coding Assistant a 10x AI Engineer&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AGENT-ENGINEER is an open-source plugin that enhances AI coding assistants, offering 11 skills, 4 subagents, and 5 hooks to tackle agent-engineering challenges.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://pandaily.com/zhipu-glm-5-3-highspeed-zcode-gray-release-490-tokens-per-second-user-test"&gt;Zhipu&amp;#x27;s GLM-5.3-Highspeed Appears in ZCode Gray Release, With Users Reporting About 490 Tokens/s&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The model is being rolled out as a gray release to randomly selected subscribers.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Gemini 4 Carbon 🧠, Nvidia weighs Reflection acquihire 💰, decision model race 🤖</title>
       <link>https://tldr.tech/ai/2026-10-12</link>
@@ -1137,76 +1195,6 @@
 &lt;p&gt;ALTK-Evolve introduces Consistency Guidelines to address the inconsistency gap, where a model&amp;#x27;s task success rate drops significantly across repeated runs.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"&gt;The AI graveyard: a running list of projects and startups that didn&amp;#x27;t make it&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Relay, an AI workflow tool, shut down due to competition from larger companies integrating similar features.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Siri model swapping 🔄, Claude Money 💰, Hugging Face Tau 👨‍💻</title>
-      <link>https://tldr.tech/ai/2026-09-15</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-15</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• Anthropic prepares Claude Money for personal finance
-• OpenAI Buys Startup Developing Smartphone Camera
-• Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows
-• Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires
-• What Does Pacing Mean?
-• Who Gets to Define the Rules for AI?
-• Augmented Lagrangian Predictive Coding
-• ARTEMIS
-• Tau
-• StepAudio 3 Technical Report
-• Personal Statement on AI Risk
-• Sam Altman Backs Federal Frontier AI Safety Rules
-• Frontier labs have a financial incentive to pace the frontier
-• Why we built Pion
-• Cline Desktop: An open-source app for open-weight models
-• Turnbench: A Multi-Domain Benchmark for Turn-Taking Dynamics in Spoken Dialogue
-• Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX
-• Artificial Analysis Capability Indices v1.1
-• OpenAI's next ChatGPT ad format: click to chat, not to site</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/anthropic-prepares-claude-money-for-personal-finance/"&gt;Anthropic prepares Claude Money for personal finance&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Claude Money allows users to link their bank accounts and ask Claude about spending, plans, and other financial questions. It appears to be designed to give Claude persistent access to users&amp;#x27; financial context, removing the need to manually upload bank statements or transaction exports. The exact account types, data provider, and supported actions remain unknown. Claude already supports third-party personal-finance connectors, and Anthropic has been building finance-specific agents and products for professional users. The launch timeframe remains unknown.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.wsj.com/tech/openai-buys-startup-developing-smartphone-camera-63590370?st=TPQxo2&amp;amp;reflink=desktopwebshare_permalink"&gt;OpenAI Buys Startup Developing Smartphone Camera&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI has quietly bought Glass Imaging, a company developing smartphone cameras that use AI to produce image quality on par with a DSLR camera. The deal values Glass Imaging at over $300 million. OpenAI&amp;#x27;s plans for the company are unclear, but it has been developing a secretive device with Jony Ive, the former Apple executive who helped design the iPhone. Glass Imaging was founded in 2019 by two former Apple employees who had previously worked on camera technology at the company.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude"&gt;Apple&amp;#x27;s Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Private iOS 27 and macOS frameworks show Apple built Siri so Claude or GPT-5.6 can sit in as the brain: Model Delegation lets Claude handle a natural-language ask, then hand Reminders or Messages back to Siri, and an inference-provider path can swap Apple&amp;#x27;s server-side Siri model entirely while keeping Siri&amp;#x27;s UI and voice. A demo already has ChatGPT finding emails, summarizing action items, and texting a contact through Siri&amp;#x27;s tools. The hooks are not user-facing yet, but they land as iOS 27 ships and after EU DMA pressure to open Siri to rivals.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://danluu.com/exercise-7/"&gt;Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires&lt;/a&gt; &lt;small&gt;· 52 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Evals are more about avoiding mistakes than following some particular process. There isn&amp;#x27;t any step-by-step guide that will work, but there are approaches to experimental design that can teach you how to do better. This post aims to help people become better at benchmarking and evals. It looks at three different kinds of benchmarks: one for baseline numbers for performance &amp;#x27;napkin math&amp;#x27; estimates, one set of AI model evals, and one on car tires.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://tomtunguz.com/what-does-the-pause-mean/"&gt;What Does Pacing Mean?&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Dario Amodei called for the AI industry to self-regulate its pace, but five camps interpreted &amp;quot;pacing&amp;quot; differently without agreeing on a speed. These camps focus on model interpretability, worker interests, economic growth, geopolitical strategy, and resisting new regulations. A previous attempt to limit AI training compute failed, highlighting the challenge of controlling AI innovation speed.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://cohere.com/blog/who-gets-to-define-the-rules-for-ai"&gt;Who Gets to Define the Rules for AI?&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Aidan Gomez, Cohere CEO, argues against a few dominant Silicon Valley firms setting global AI regulations, drawing parallels to historical monopolies that limited competition under safety pretexts. He proposes a diverse, international, evidence-based framework for AI governance, emphasizing transparency, mandatory testing, and independent assurance mechanisms. Gomez warns that current proposals could entrench market leaders, advocating for more inclusive rule-making to foster competition and trust.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://pub.sakana.ai/pc-alm/"&gt;Augmented Lagrangian Predictive Coding&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;PC-ALM is a local alternative to backpropagation. It is an extension of standard predictive coding (PC), which uses diffusive coupling between layers. PC-ALM trains residual MLPs up to 1,000 layers, nearly matching backprop&amp;#x27;s performance despite using only layer-local dynamics. It equips each layer with a feedback control dynamical system that distributes and propagates supervision credit throughout a network.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://github.com/google/artemis"&gt;ARTEMIS&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;ARTEMIS lets AI assistants and test suites use real phones like a human. It can execute testing workflows and everyday tasks on Android from natural language instructions, using element indices when available, with coordinate and visual locating fallbacks for custom interfaces. ARTEMIS checks targets before individual actions and returns blocked actions to the Operator for recovery. It supports long-running exploratory and stability tests.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://github.com/huggingface/tau"&gt;Tau&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Tau is a coding agent that lives in the terminal. It can read files, edit code, run commands, and keep a durable session history while streaming what it is doing. Tau was designed to be a teaching project for understanding the shape of a coding-agent system without starting from a giant production codebase. It ships with support for OpenAI-compatible endpoints.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2609.12945"&gt;StepAudio 3 Technical Report&lt;/a&gt; &lt;small&gt;· 19 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;StepAudio 3 Gen uses discrete autoregressive modeling over shared RVQ audio tokens to generate speech, voices, vocals, sound effects, music, and mixed audio within one model. It achieved state-of-the-art results on text-to-speech and voice design while retaining broad general-audio generation capabilities.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://docs.google.com/document/d/e/2PACX-1vQNl3SEX5IyA6d9qHjjFZN-qzGRZNFI6b63g-yu1Fy-ZYkVfCWm7i9WXRXw63m6yDB_auDuPLyQ7jBm/pub"&gt;Personal Statement on AI Risk&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Models are becoming so situationally aware that researchers are losing the ability to evaluate them in contexts where they believe they are not being watched or controlled. Models increasingly seem aligned even when they are not. The current evidence suggests that the field will continue to make progress at a fast pace. Once language models reach the capability threshold where they can shape the world unconstrained by human will, they might do something extreme and destroy humanity in the process.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/sama/status/2099348812305473766"&gt;Sam Altman Backs Federal Frontier AI Safety Rules&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Sam Altman supports consistent federal safety requirements for frontier AI while urging labs to act before legislation arrives. OpenAI now uses safety cases before major reinforcement learning runs, arguing that capability growth should be deliberately paced alongside alignment and monitoring.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://cogito-ergo-sum.dev/frontier-economics"&gt;Frontier labs have a financial incentive to pace the frontier&lt;/a&gt; &lt;small&gt;· 26 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Frontier labs are arguing for regulatory pacing on safety grounds. While many are undoubtedly well-intentioned, it is also true that the rules the labs have proposed protect their investments, preserve price premiums, and defer billions in competitive spending. Their arguments for these rules should not be taken at face value. The labs can not economically slow down on their own without the government stepping in to enforce a slowdown.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://andonlabs.com/blog/why-we-built-pion"&gt;Why we built Pion&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Pion is an agent designed to run any company fully autonomously.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://cline.ghost.io/cline-desktop-an-open-source-app-for-open-weight-models/"&gt;Cline Desktop: An open-source app for open-weight models&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Cline Desktop is an open-source app for open-weight models that can run parallel AI agents and automate recurring tasks.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://arxiv.org/pdf/2608.25218"&gt;Turnbench: A Multi-Domain Benchmark for Turn-Taking Dynamics in Spoken Dialogue&lt;/a&gt; &lt;small&gt;· 25 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;TURNBENCH introduces a 30-hour, six-domain benchmark for end-of-turn and interruption detection, plus a 104-hour training set.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/"&gt;Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;NVIDIA&amp;#x27;s Perplexity Portable Computer is now available on Windows RTX PCs, enabling local AI tasks through powerful agentic AI.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2099530487316553915.html"&gt;Artificial Analysis Capability Indices v1.1&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Artificial Analysis Capability Indices have been updated with stronger domain tuning, with Claude Fable 5.1 (max) leading in all six indices.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://digiday.com/marketing/openais-next-chatgpt-ad-format-click-to-chat-not-to-site/"&gt;OpenAI&amp;#x27;s next ChatGPT ad format: click to chat, not to site&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI is rolling out a new AI-native ChatGPT ad to select clients that opens a branded agent chat instead of a website.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
