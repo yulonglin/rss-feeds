@@ -1,6 +1,7 @@
 from __future__ import annotations
 
-from datetime import UTC, date, datetime
+import json
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
 import feedparser
@@ -890,40 +891,173 @@ def test_linearize_strips_layout_and_tracking() -> None:
     assert blocks == ["<p>Hello <b>there</b></p>", '<p><a href="https://x.org/a?id=2">kept</a></p>']
 
 
-def test_project_syndicate_item_is_rebuilt(tmp_path, monkeypatch) -> None:
+PS_FIXTURES = Path(__file__).parent / "fixtures"
+PS_FREE = (
+    "https://www.project-syndicate.org/commentary/"
+    "global-economy-is-experiencing-timid-recovery-by-eswar-prasad-and-thomas-riveros-2026-10"
+)
+PS_PAID = (
+    "https://www.project-syndicate.org/onpoint/"
+    "how-peter-thiel-turned-liberalism-against-itself-by-benn-steil-2026-10"
+)
+PS_FULL = (
+    "https://www.project-syndicate.org/commentary/"
+    "stablecoins-are-not-the-key-to-financial-inclusion-by-michael-wiegand-2-2026-10"
+)
+
+
+def _ps_feed(*links: str) -> bytes:
+    items = "".join(
+        f"""<item><title>Item {n}</title>
+<link>{link}?utm_source=rss&amp;utm_medium=feed</link>
+<description><![CDATA[<p>Summary {n}.</p>]]></description><dc:creator>First Author</dc:creator>
+<pubDate>Fri, 09 Oct 2026 1{n}:05:15 GMT</pubDate>
+<guid isPermaLink="true">{link}</guid>
+<media:content url="https://webapi.project-syndicate.org/library/{n}.jpg" medium="image"><media:copyright>Someone/AFP</media:copyright></media:content>
+</item>"""
+        for n, link in enumerate(links)
+    )
+    return (
+        b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?>\n'
+        b'<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" '
+        b'xmlns:media="http://search.yahoo.com/mrss/"><channel>'
+        + items.encode()
+        + b"</channel></rss>"
+    )
+
+
+def _ps_fetcher(feed: bytes, pages: dict[str, bytes], calls: list[str]):
     from rssfeeds.sources import project_syndicate as ps
 
-    feed = b"""\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-<item><title>Care First</title>
-<link>https://www.project-syndicate.org/commentary/care-by-ann-lee-2-and-bo-wu-2026-10?utm_source=rss&amp;utm_medium=feed</link>
-<description><![CDATA[<p>Summary text.</p>]]></description><dc:creator>Ann Lee</dc:creator>
-<pubDate>Fri, 02 Oct 2026 14:31:14 GMT</pubDate>
-<guid isPermaLink="true">https://www.project-syndicate.org/commentary/care-by-ann-lee-2-and-bo-wu-2026-10</guid>
-<media:content url="https://webapi.project-syndicate.org/library/a.jpg" medium="image"><media:copyright>Someone/AFP</media:copyright></media:content>
-</item></channel></rss>"""
-    monkeypatch.setattr(ps, "fetch_bytes", lambda url: feed)
-    monkeypatch.setattr(
-        ps,
-        "fetch_text",
-        lambda url: (
-            "<html><head><title>Care First by Ann Lee &amp; Bo Wu - Project Syndicate</title></head></html>"
-        ),
-    )
-    res = ps.project_syndicate(tmp_path / "bylines.json")
-    (item,) = res.items
-    assert (
-        item.link
-        == "https://www.project-syndicate.org/commentary/care-by-ann-lee-2-and-bo-wu-2026-10"
-    )
-    assert item.author == "Ann Lee and Bo Wu"
-    assert "utm_" not in item.content_html
-    assert '<img src="https://webapi.project-syndicate.org/library/a.jpg"' in item.content_html
-    assert "Photo: Someone/AFP" in item.content_html and "<p>Summary text.</p>" in item.content_html
+    def fetch(url: str) -> bytes:
+        calls.append(url)
+        if url == ps.FEED:
+            return feed
+        if url in pages:
+            return pages[url]
+        raise OSError(f"down: {url}")
 
-    # The byline is cached, so a later run that cannot reach the page keeps it.
-    monkeypatch.setattr(ps, "fetch_text", lambda url: (_ for _ in ()).throw(OSError("down")))
-    assert ps.project_syndicate(tmp_path / "bylines.json").items[0].author == "Ann Lee and Bo Wu"
+    return fetch
+
+
+def test_project_syndicate_publishes_the_opening_as_served(tmp_path, monkeypatch) -> None:
+    from rssfeeds.sources import project_syndicate as ps
+
+    pages = {
+        PS_FREE: (PS_FIXTURES / "project_syndicate_registration.html").read_bytes(),
+        PS_PAID: (PS_FIXTURES / "project_syndicate_subscriber.html").read_bytes(),
+    }
+    calls: list[str] = []
+    feed = _ps_feed(PS_FREE, PS_PAID)
+    monkeypatch.setattr(ps, "fetch_bytes", _ps_fetcher(feed, pages, calls))
+    res = ps.project_syndicate(tmp_path / "articles.json")
+    free, paid = res.items
+
+    # Identity comes from the upstream item, so GUIDs and dates do not move.
+    assert free.link == free.guid == PS_FREE
+    assert free.published == datetime(2026, 10, 9, 10, 5, 15, tzinfo=UTC)
+    # The full byline is read from the page, not the first-author dc:creator.
+    assert free.author == "Eswar Prasad and Thomas Riveros"
+    assert paid.author == "Benn Steil"
+
+    html = free.content_html
+    assert html.index("Photo: Someone/AFP") < html.index("<p>Summary 0.</p>")
+    assert "<p><em>By Eswar Prasad and Thomas Riveros</em></p>" in html
+    assert "<p>ITHACA—Despite heightened policy and geopolitical volatility" in html
+    assert html.rstrip().endswith(
+        f'<a href="{PS_FREE}">Continues on Project Syndicate (registration required)</a></p>'
+    )
+    assert paid.content_html.rstrip().endswith(
+        "Continues on Project Syndicate (subscriber article)</a></p>"
+    )
+    # Inline links keep absolute targets; site chrome and the paywall widget are dropped.
+    assert '<a href="https://www.project-syndicate.org/columnist/francis-fukuyama">' in (
+        paid.content_html
+    )
+    for chrome in ("Register", "newsletter", "More from this author", "Subscribe", "data-line-id"):
+        assert chrome not in html and chrome not in paid.content_html, chrome
+    assert "utm_" not in html
+
+    # Each page is fetched once: a second run reads both from the cache.
+    assert sorted(calls) == sorted([ps.FEED, PS_FREE, PS_PAID])
+    calls.clear()
+    again = ps.project_syndicate(tmp_path / "articles.json")
+    assert calls == [ps.FEED]
+    assert [i.content_html for i in again.items] == [free.content_html, paid.content_html]
+
+
+def test_project_syndicate_publishes_a_fully_served_article_whole(tmp_path, monkeypatch) -> None:
+    from rssfeeds.sources import project_syndicate as ps
+
+    # The fixture keeps the first three and last two body paragraphs of the page.
+    pages = {PS_FULL: (PS_FIXTURES / "project_syndicate_full.html").read_bytes()}
+    monkeypatch.setattr(ps, "fetch_bytes", _ps_fetcher(_ps_feed(PS_FULL), pages, []))
+    (item,) = ps.project_syndicate(tmp_path / "articles.json").items
+
+    html = item.content_html
+    assert item.author == "Michael Wiegand"
+    assert "<p>SEATTLE—Much progress has been made on financial inclusion" in html
+    _head, body, tail = html.split("<hr>")
+    assert body.count("<p>") == 5 and tail.count("<p>") == 2  # bio, then the link
+    last = "sufficiently open, competitive, and interconnected.</p>"
+    bio = (
+        "<p>Michael Wiegand is Director of Inclusive Financial Systems at the Gates Foundation.</p>"
+    )
+    assert html.index(last) < html.index(bio)
+    assert html.rstrip().endswith(
+        f'<a href="{PS_FULL}">Originally published on Project Syndicate</a></p>'
+    )
+    # Inlays inside the body, and the survey widget after it, are not part of the article.
+    for chrome in (
+        "Dismally Obedient",
+        "PS Quarterly",
+        "Take Survey",
+        "Writing for PS",
+        "Continues",
+    ):
+        assert chrome not in html, chrome
+
+
+def test_project_syndicate_falls_back_to_the_summary_when_a_page_fails(
+    tmp_path, monkeypatch
+) -> None:
+    from rssfeeds.sources import project_syndicate as ps
+
+    pages = {PS_FREE: (PS_FIXTURES / "project_syndicate_registration.html").read_bytes()}
+    calls: list[str] = []
+    cache = tmp_path / "articles.json"
+    monkeypatch.setattr(ps, "fetch_bytes", _ps_fetcher(_ps_feed(PS_FREE, PS_PAID), pages, calls))
+    res = ps.project_syndicate(cache)
+
+    assert res.ok and len(res.items) == 2
+    ok, failed = res.items
+    assert "Continues on Project Syndicate" in ok.content_html
+    assert failed.author == "First Author"
+    assert "<p>Summary 1.</p>" in failed.content_html
+    assert failed.content_html.endswith(
+        f'<a href="{PS_PAID}">Read the full commentary on Project Syndicate</a></p>'
+    )
+    # The failure is not cached, so the next run tries that page again.
+    assert PS_PAID not in cache.read_text()
+    calls.clear()
+    ps.project_syndicate(cache)
+    assert calls == [ps.FEED, PS_PAID]
+
+
+def test_project_syndicate_skips_an_opening_that_would_fail_the_leak_check(
+    tmp_path, monkeypatch
+) -> None:
+    from rssfeeds.sources import project_syndicate as ps
+
+    page = (
+        b'<html><body><address class="article__byline"><span class="byline">A B</span>'
+        b'</address><div class="article__body"><p>Lede with '
+        b'<a href="https://example.com/x?token=abc">a tokened link</a>.</p></div></body></html>'
+    )
+    monkeypatch.setattr(ps, "fetch_bytes", _ps_fetcher(_ps_feed(PS_PAID), {PS_PAID: page}, []))
+    (item,) = ps.project_syndicate(tmp_path / "articles.json").items
+    assert "tokened" not in item.content_html
+    assert "Read the full commentary on Project Syndicate" in item.content_html
 
 
 def test_gates_notes_components_render_as_plain_html() -> None:
@@ -962,3 +1096,196 @@ def test_gates_notes_components_render_as_plain_html() -> None:
         '<p>First <a href="https://www.gatesnotes.com/other-essay">para</a>.</p>'
         "<blockquote><p>Quoted.</p></blockquote>"
     )
+
+
+@pytest.mark.parametrize(
+    ("url", "expected"),
+    [
+        ("https://example.com/a b", "https://example.com/a%20b"),
+        ("/columnist/x", "https://www.project-syndicate.org/columnist/x"),
+        ("//cdn.example.com/i.jpg", "https://cdn.example.com/i.jpg"),
+        ("javascript:alert(1)", None),
+        (" JaVaScRiPt:alert(1)", None),
+        ("jav\tascript:alert(1)", None),
+        ("data:text/html,x", None),
+        ("vbscript:msgbox(1)", None),
+        ("mailto:a@example.com", None),
+        ("", None),
+    ],
+)
+def test_safe_url_allows_only_absolute_http(url, expected) -> None:
+    from rssfeeds.sanitize import safe_url
+
+    assert safe_url(url, "https://www.project-syndicate.org/commentary/x") == expected
+
+
+def test_sanitize_html_unwraps_unknown_tags_and_escapes_text() -> None:
+    from rssfeeds.sanitize import sanitize_html
+
+    assert sanitize_html("<div><p>a &lt;b&gt; <span class='x'>c</span></p></div>") == (
+        "<p>a &lt;b&gt; c</p>"
+    )
+    assert sanitize_html("plain & <script>x()</script>tail") == "plain &amp; tail"
+
+
+def test_project_syndicate_hostile_markup_never_reaches_the_xml(tmp_path, monkeypatch) -> None:
+    from xml.etree import ElementTree as ET
+
+    from rssfeeds.sources import project_syndicate as ps
+
+    page = (PS_FIXTURES / "project_syndicate_hostile.html").read_bytes()
+    hostile_summary = (
+        '<p onclick="alert(18)">Summary<script>alert(19)</script>'
+        '<a href="javascript:alert(20)">x</a></p>'
+    )
+    feed = (
+        _ps_feed(PS_FULL)
+        .replace(b"<![CDATA[<p>Summary 0.</p>]]>", f"<![CDATA[{hostile_summary}]]>".encode())
+        .replace(b"https://webapi.project-syndicate.org/library/0.jpg", b"javascript:alert(21)")
+    )
+    monkeypatch.setattr(ps, "fetch_bytes", _ps_fetcher(feed, {PS_FULL: page}, []))
+    res = ps.project_syndicate(tmp_path / "articles.json")
+    xml = build_rss(
+        title="t",
+        link="https://example.com/",
+        description="d",
+        self_url="https://example.com/f.xml",
+        items=res.items,
+        source_url="https://example.com/",
+    )
+    (encoded,) = [
+        el.text
+        for el in ET.fromstring(xml).iter("{http://purl.org/rss/1.0/modules/content/}encoded")
+    ]
+    lowered = encoded.lower()
+    for bad in (
+        "<script", "alert(", "onerror", "onload", "onclick", "onmouseover", "javascript:",
+        "vbscript:", "data:", "<svg", "<math", "<iframe", "<object", "<embed", "<style",
+        "style=", "target=", "title=", "<span", "<unknowntag", "<!--",
+    ):  # fmt: skip
+        assert bad not in lowered, bad
+    # What is safe survives: text, escaped markup as text, absolute links and images.
+    for good in (
+        "LONDON—Lede",
+        "js link",
+        "entity js",
+        "styled",
+        "&lt;script&gt;escaped&lt;/script&gt;",
+        '<a href="https://www.project-syndicate.org/columnist/ann-lee">good link</a>',
+        '<img src="https://www.project-syndicate.org/library/ok.jpg" alt="ok">',
+        "<figcaption>A caption</figcaption>",
+        "<b>bold</b> unwrapped",
+        "Last paragraph &amp; <em>done</em>.",
+        "<p>Ann Lee is a writer.</p>",
+        "<p>Summary",
+    ):
+        assert good in encoded, good
+
+
+def test_project_syndicate_survives_a_malformed_summary_url(tmp_path, monkeypatch) -> None:
+    from rssfeeds.sources import project_syndicate as ps
+
+    feed = _ps_feed(PS_PAID).replace(
+        b"<p>Summary 0.</p>", b'<p>Summary <a href="https://[bad">link</a>.</p>'
+    )
+    monkeypatch.setattr(ps, "fetch_bytes", _ps_fetcher(feed, {}, []))
+    res = ps.project_syndicate(tmp_path / "articles.json")
+    assert res.ok
+    (item,) = res.items
+    assert "<p>Summary link.</p>" in item.content_html
+
+
+@pytest.mark.parametrize(
+    "cache_text",
+    [
+        "{",
+        "[]",
+        "null",
+        '"text"',
+        json.dumps({PS_FREE: {}}),
+        json.dumps({PS_FREE: "not a record"}),
+        json.dumps({PS_FREE: {"body": "<p>x</p>", "truncated": True, "free": True}}),
+        json.dumps(
+            {
+                PS_FREE: {
+                    "body": "<p>x</p>",
+                    "truncated": "yes",
+                    "free": True,
+                    "byline": None,
+                    "fetched": "2026-10-12T00:00:00+00:00",
+                }
+            }
+        ),
+        json.dumps(
+            {
+                PS_FREE: {
+                    "body": "<p>x</p>",
+                    "truncated": True,
+                    "free": True,
+                    "byline": None,
+                    "fetched": "2026-10-12T00:00:00",  # naive: not comparable with now
+                }
+            }
+        ),
+    ],
+)
+def test_project_syndicate_treats_a_corrupt_cache_as_a_miss(
+    tmp_path, monkeypatch, cache_text
+) -> None:
+    from rssfeeds.sources import project_syndicate as ps
+
+    pages = {PS_FREE: (PS_FIXTURES / "project_syndicate_registration.html").read_bytes()}
+    calls: list[str] = []
+    monkeypatch.setattr(ps, "fetch_bytes", _ps_fetcher(_ps_feed(PS_FREE), pages, calls))
+    cache = tmp_path / "articles.json"
+    cache.write_text(cache_text)
+    (item,) = ps.project_syndicate(cache).items
+    assert calls == [ps.FEED, PS_FREE]
+    assert "ITHACA" in item.content_html
+    rebuilt = json.loads(cache.read_text())
+    assert list(rebuilt) == [PS_FREE] and rebuilt[PS_FREE]["truncated"] is True
+
+
+def test_project_syndicate_corrupt_cache_and_failed_fetch_fall_back(tmp_path, monkeypatch) -> None:
+    from rssfeeds.sources import project_syndicate as ps
+
+    monkeypatch.setattr(ps, "fetch_bytes", _ps_fetcher(_ps_feed(PS_FREE), {}, []))
+    cache = tmp_path / "articles.json"
+    cache.write_text("{")
+    (item,) = ps.project_syndicate(cache).items
+    assert "Read the full commentary on Project Syndicate" in item.content_html
+    assert json.loads(cache.read_text()) == {}
+
+
+def test_project_syndicate_refetches_cached_pages_after_their_refresh_age(
+    tmp_path, monkeypatch
+) -> None:
+    from rssfeeds.sources import project_syndicate as ps
+
+    t0 = datetime(2026, 10, 12, 6, 0, tzinfo=UTC)
+    pages = {PS_FREE: (PS_FIXTURES / "project_syndicate_registration.html").read_bytes()}
+    calls: list[str] = []
+    monkeypatch.setattr(ps, "fetch_bytes", _ps_fetcher(_ps_feed(PS_FREE), pages, calls))
+    cache = tmp_path / "articles.json"
+
+    def run(at: datetime) -> str:
+        calls.clear()
+        return ps.project_syndicate(cache, now=at).items[0].content_html
+
+    assert "(registration required)" in run(t0)
+    # A truncated page is not fetched again within a day...
+    run(t0 + timedelta(hours=23))
+    assert calls == [ps.FEED]
+    # ...and after a day it is, so a page the site has since opened up is picked up.
+    pages[PS_FREE] = (PS_FIXTURES / "project_syndicate_full.html").read_bytes()
+    assert "Originally published on Project Syndicate" in run(t0 + timedelta(days=1))
+    assert calls == [ps.FEED, PS_FREE]
+    # A whole page waits a week.
+    run(t0 + timedelta(days=7, hours=23))
+    assert calls == [ps.FEED]
+    # A refetch that fails keeps the cached copy rather than dropping to the summary.
+    del pages[PS_FREE]
+    html = run(t0 + timedelta(days=8))
+    assert calls == [ps.FEED, PS_FREE]
+    assert "Originally published on Project Syndicate" in html
+    assert json.loads(cache.read_text())[PS_FREE]["fetched"] == "2026-10-13T06:00:00+00:00"

@@ -339,8 +339,9 @@ FEEDS += [
         title="Project Syndicate",
         description=(
             "Project Syndicate commentary, each entry with its lead image and photo credit, "
-            "the summary, the full byline and a clean link to the article. The articles "
-            "themselves are paywalled and are not reproduced."
+            "the summary, the full byline, the article text as the site serves it to any "
+            "reader, and a clean link to the article. Most articles show only their opening "
+            "paragraph before a registration or subscriber wall; the rest is not reproduced."
         ),
         org="Project Syndicate",
         source_name="project-syndicate.org",
@@ -349,7 +350,8 @@ FEEDS += [
         upstream_status=(
             "Official /rss is valid but summary-only, keeps the image in an enclosure most "
             "readers ignore, tags every link with utm tracking and credits only the first "
-            "author of co-written pieces."
+            "author of co-written pieces. Most article pages serve anonymous readers "
+            "only the opening paragraph, then a registration wall."
         ),
         default=True,
         folder="Newsletters",
