@@ -15,6 +15,10 @@
       <outline text="METR - English only (latest 50)" title="METR - English only (latest 50)" type="rss" xmlUrl="https://feeds.yulonglin.com/metr-en-50.xml" htmlUrl="https://metr.org/" />
       <outline text="METR - English only (headlines and summaries)" title="METR - English only (headlines and summaries)" type="rss" xmlUrl="https://feeds.yulonglin.com/metr-en-lite.xml" htmlUrl="https://metr.org/" />
       <outline text="Dario Amodei" title="Dario Amodei" type="rss" xmlUrl="https://feeds.yulonglin.com/dario-amodei.xml" htmlUrl="https://darioamodei.com/" />
+      <outline text="Apollo Research - Blog" title="Apollo Research - Blog" type="rss" xmlUrl="https://feeds.yulonglin.com/apollo-blog.xml" htmlUrl="https://www.apolloresearch.ai/blog" />
+      <outline text="Apollo Research - Science" title="Apollo Research - Science" type="rss" xmlUrl="https://feeds.yulonglin.com/apollo-science.xml" htmlUrl="https://www.apolloresearch.ai/science#research" />
+      <outline text="Apollo Research - Monitoring" title="Apollo Research - Monitoring" type="rss" xmlUrl="https://feeds.yulonglin.com/apollo-monitoring.xml" htmlUrl="https://www.apolloresearch.ai/monitoring#research" />
+      <outline text="Apollo Research - Governance" title="Apollo Research - Governance" type="rss" xmlUrl="https://feeds.yulonglin.com/apollo-governance.xml" htmlUrl="https://www.apolloresearch.ai/governance#research" />
     </outline>
     <outline text="Newsletters" title="Newsletters">
       <outline text="TLDR AI" title="TLDR AI" type="rss" xmlUrl="https://feeds.yulonglin.com/tldr-ai.xml" htmlUrl="https://tldr.tech/ai" />

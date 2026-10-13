@@ -12,6 +12,7 @@ from .models import SourceResult
 from .registry import FEEDS, REPO_URL, SITE_BASE, FeedSpec
 from .rss import build_rss
 from .sources import ai_digest as ai_digest_src
+from .sources import apollo as apollo_src
 from .sources import dario_amodei as dario_src
 from .sources import gates_notes as gates_src
 from .sources import metr as metr_src
@@ -61,6 +62,10 @@ def collect(first_seen: FirstSeen) -> dict[str, SourceResult]:
             state_dir / "project_syndicate_articles.json"
         ),
         "gates_notes": gates_src.gates_notes,
+        "apollo_blog": lambda: apollo_src.apollo("blog"),
+        "apollo_science": lambda: apollo_src.apollo("science"),
+        "apollo_monitoring": lambda: apollo_src.apollo("monitoring"),
+        "apollo_governance": lambda: apollo_src.apollo("governance"),
     }
     results = {}
     for name, run in sources.items():

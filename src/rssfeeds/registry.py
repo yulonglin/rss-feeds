@@ -71,6 +71,14 @@ SCHOLAR_INBOX = "https://www.scholar-inbox.com/"
 CONVERSATION = "https://theconversation.com/global/newsletters"
 PROJECT_SYNDICATE = "https://www.project-syndicate.org/"
 GATES_NOTES = "https://www.gatesnotes.com/"
+APOLLO_BLOG = "https://www.apolloresearch.ai/blog"
+APOLLO_SCIENCE = "https://www.apolloresearch.ai/science#research"
+APOLLO_MONITORING = "https://www.apolloresearch.ai/monitoring#research"
+APOLLO_GOVERNANCE = "https://www.apolloresearch.ai/governance#research"
+APOLLO_UPSTREAM = (
+    "No RSS or Atom feed: no <link rel=alternate>, and /rss.xml, /feed and each section's "
+    "rss.xml all 404."
+)
 
 FEEDS: list[FeedSpec] = [
     FeedSpec(
@@ -261,6 +269,62 @@ FEEDS: list[FeedSpec] = [
         ),
         default=True,
         folder="Newsletters",
+    ),
+    FeedSpec(
+        slug="apollo-blog",
+        title="Apollo Research - Blog",
+        description=(
+            "Posts from Apollo Research's blog: organisation updates, testimony and essays "
+            "on AI auditing and embedded evaluations, with the full text of each."
+        ),
+        org="Apollo Research",
+        source_name="Apollo Research blog",
+        source_url=APOLLO_BLOG,
+        sources=("apollo_blog",),
+        upstream_status=APOLLO_UPSTREAM,
+        default=True,
+    ),
+    FeedSpec(
+        slug="apollo-science",
+        title="Apollo Research - Science",
+        description=(
+            "Apollo Research's science of scheming, evaluations and interpretability papers "
+            "and notes, with the full text of each, tagged with the site's own research areas."
+        ),
+        org="Apollo Research",
+        source_name="Apollo Research science",
+        source_url=APOLLO_SCIENCE,
+        sources=("apollo_science",),
+        upstream_status=APOLLO_UPSTREAM,
+        default=True,
+    ),
+    FeedSpec(
+        slug="apollo-monitoring",
+        title="Apollo Research - Monitoring",
+        description=(
+            "Apollo Research's monitoring research and product posts, with the full text of "
+            "each, tagged Research or Product as on the site."
+        ),
+        org="Apollo Research",
+        source_name="Apollo Research monitoring",
+        source_url=APOLLO_MONITORING,
+        sources=("apollo_monitoring",),
+        upstream_status=APOLLO_UPSTREAM,
+        default=True,
+    ),
+    FeedSpec(
+        slug="apollo-governance",
+        title="Apollo Research - Governance",
+        description=(
+            "Apollo Research's governance work: policy memorandums, submissions, papers and "
+            "blog posts, with the full text of each, tagged with the site's own categories."
+        ),
+        org="Apollo Research",
+        source_name="Apollo Research governance",
+        source_url=APOLLO_GOVERNANCE,
+        sources=("apollo_governance",),
+        upstream_status=APOLLO_UPSTREAM,
+        default=True,
     ),
 ]
 

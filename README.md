@@ -11,21 +11,25 @@ To subscribe to a whole set at once, import **<https://feeds.yulonglin.com/subsc
 | Feed | Source | Subscribe to this URL | Items |
 |---|---|---|---|
 | AI Digest | [theaidigest.org](https://theaidigest.org/) | `https://feeds.yulonglin.com/ai-digest.xml` | 0 |
+| Apollo Research - Blog | [Apollo Research blog](https://www.apolloresearch.ai/blog) | `https://feeds.yulonglin.com/apollo-blog.xml` | 13 |
+| Apollo Research - Governance | [Apollo Research governance](https://www.apolloresearch.ai/governance#research) | `https://feeds.yulonglin.com/apollo-governance.xml` | 16 |
+| Apollo Research - Monitoring | [Apollo Research monitoring](https://www.apolloresearch.ai/monitoring#research) | `https://feeds.yulonglin.com/apollo-monitoring.xml` | 6 |
+| Apollo Research - Science | [Apollo Research science](https://www.apolloresearch.ai/science#research) | `https://feeds.yulonglin.com/apollo-science.xml` | 25 |
 | Dario Amodei | [darioamodei.com](https://darioamodei.com/) | `https://feeds.yulonglin.com/dario-amodei.xml` | 6 |
 | Gates Notes | [gatesnotes.com](https://www.gatesnotes.com/) | `https://feeds.yulonglin.com/gates-notes.xml` | 20 |
-| METR - English only | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/metr-en.xml` | 92 |
+| METR - English only | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/metr-en.xml` | 93 |
 | METR - English only (latest 50) | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/metr-en-50.xml` | 50 |
-| METR - English only (headlines and summaries) | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/metr-en-lite.xml` | 92 |
-| OpenAI Alignment - everything | [Alignment Research Blog (all sections)](https://alignment.openai.com/) | `https://feeds.yulonglin.com/openai-alignment-all.xml` | 43 |
-| OpenAI Alignment - everything (latest 50) | [Alignment Research Blog (all sections)](https://alignment.openai.com/) | `https://feeds.yulonglin.com/openai-alignment-all-50.xml` | 43 |
+| METR - English only (headlines and summaries) | [METR feed.xml](https://metr.org/) | `https://feeds.yulonglin.com/metr-en-lite.xml` | 93 |
+| OpenAI Alignment - everything | [Alignment Research Blog (all sections)](https://alignment.openai.com/) | `https://feeds.yulonglin.com/openai-alignment-all.xml` | 48 |
+| OpenAI Alignment - everything (latest 50) | [Alignment Research Blog (all sections)](https://alignment.openai.com/) | `https://feeds.yulonglin.com/openai-alignment-all-50.xml` | 48 |
 | OpenAI Alignment - Misalignment Notices | [Misalignment Notices](https://alignment.openai.com/misalignment-reports/) | `https://feeds.yulonglin.com/openai-alignment-notices.xml` | 3 |
-| OpenAI Alignment - Misalignment Reports | [Misalignment Reports](https://alignment.openai.com/misalignment-reports/) | `https://feeds.yulonglin.com/openai-alignment-reports.xml` | 12 |
-| OpenAI Alignment - Research and Releases | [Research and Releases](https://alignment.openai.com/) | `https://feeds.yulonglin.com/openai-alignment-research.xml` | 28 |
-| OpenAI System Cards | [Deployment Safety Hub](https://deploymentsafety.openai.com/) | `https://feeds.yulonglin.com/openai-system-cards.xml` | 25 |
+| OpenAI Alignment - Misalignment Reports | [Misalignment Reports](https://alignment.openai.com/misalignment-reports/) | `https://feeds.yulonglin.com/openai-alignment-reports.xml` | 15 |
+| OpenAI Alignment - Research and Releases | [Research and Releases](https://alignment.openai.com/) | `https://feeds.yulonglin.com/openai-alignment-research.xml` | 30 |
+| OpenAI System Cards | [Deployment Safety Hub](https://deploymentsafety.openai.com/) | `https://feeds.yulonglin.com/openai-system-cards.xml` | 26 |
 | Project Syndicate | [project-syndicate.org](https://www.project-syndicate.org/) | `https://feeds.yulonglin.com/project-syndicate.xml` | 20 |
-| Scholar Inbox - daily paper digest | [Scholar Inbox](https://www.scholar-inbox.com/) | `https://feeds.yulonglin.com/scholar-inbox.xml` | 16 |
+| Scholar Inbox - daily paper digest | [Scholar Inbox](https://www.scholar-inbox.com/) | `https://feeds.yulonglin.com/scholar-inbox.xml` | 17 |
 | TLDR AI | [TLDR AI](https://tldr.tech/ai) | `https://feeds.yulonglin.com/tldr-ai.xml` | 20 |
-| Tangle - the good parts | [readtangle.com](https://www.readtangle.com/) | `https://feeds.yulonglin.com/tangle.xml` | 4 |
+| Tangle - the good parts | [readtangle.com](https://www.readtangle.com/) | `https://feeds.yulonglin.com/tangle.xml` | 3 |
 | The Conversation - newsletters | [The Conversation newsletters](https://theconversation.com/global/newsletters) | `https://feeds.yulonglin.com/the-conversation.xml` | 13 |
 
 ## Why each feed exists
@@ -44,11 +48,13 @@ To subscribe to a whole set at once, import **<https://feeds.yulonglin.com/subsc
 | AI Digest | none (email only) | An HTML email, not a feed. Published empty until a real issue has been reviewed. |
 | Project Syndicate | `project-syndicate.org/rss` | Summary only, the image hidden in an enclosure, utm tracking on every link, and only the first author of co-written pieces. |
 | Gates Notes | `gatesnotes.com/home/rss` | Gone, and every gatesnotes.com page answers scripts with a 403. |
+| Apollo Research, Blog, Science, Monitoring and Governance | none | No feed published at all: four Webflow listings, Science and Governance paginated behind a "Load more" link. |
 
 ## Things worth knowing
 
 - **Misalignment Reports are dated when first seen, not when last updated.** New reports are seeded with the table’s First posted date (the updated date in the legacy card layout). Dates are committed in `state/first_seen.json` and reused, so edits do not push reports back to the top of the feed.
 - **System cards follow OpenAI's own index, not their sitemap.** The sitemap lists two further pages (`/gpt-5-codex/`, `/o3/`) that OpenAI's listing omits, and carries no dates at all. Matching the listing keeps the feed to what the publisher actually presents as current.
+- **Apollo Research feeds follow the site's four listings, not its sitemap.** Blog, Science, Monitoring and Governance are separate collections with their own URL prefixes, so no post appears in two feeds. The sitemap can list a page that no listing shows (in October 2026, one Science post); the feeds leave it out, as the publisher does.
 - **A layout change is caught two ways.** Each scraper is pinned to specific selectors, so a page that no longer matches them yields zero entries and fails loudly. A page that still matches but returns far fewer entries than the last published run is refused too, at a 60% floor, because a silently truncated feed looks normal and is therefore worse than an outright failure. Either case opens a `feed-broken` issue on the repository and reddens the scheduled run. If a drop is genuine, `uv run rssfeeds --allow-shrink` accepts it.
 - **A source that fails leaves its feed alone.** If METR is unreachable the five OpenAI feeds still refresh; the workflow run goes red and the stale feed keeps its last good contents rather than emptying.
 - **`lastBuildDate` comes from the newest item, never the clock.** A run that finds nothing new produces byte-identical files and therefore no commit, which keeps the git history meaningful.
