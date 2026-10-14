@@ -17,8 +17,8 @@
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
       <dc:creator>TLDR</dc:creator>
       <category>TLDR AI</category>
-      <description>• Muse Wonder
-• Microsoft Introduced the Maia 300 AI Chip
+      <description>• Microsoft Introduced the Maia 300 AI Chip
+• Muse Wonder
 • Releasing AI-generated software
 • What I saw around the Curve, 2026
 • How Close Are AI Models to Self-Replication?
@@ -33,10 +33,10 @@
 • Make Your Coding Assistant a 10x AI Engineer
 • Zhipu's GLM-5.3-Highspeed Appears in ZCode Gray Release, With Users Reporting About 490 Tokens/s</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://research.meta.ai/blog/muse-wonder"&gt;Muse Wonder&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Meta released Muse Wonder and Wonder Full, its first frontier-class models, with stronger coding, benchmark performance, and active memory for retaining and synthesizing user-provided information.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://news.microsoft.com/maia-2026/"&gt;Microsoft Introduced the Maia 300 AI Chip&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Microsoft unveiled Maia 300, its third-generation in-house AI accelerator, as a major step toward reducing dependence on NVIDIA GPUs. The company said the chip delivers 40% better performance per megawatt and plans large-scale deployment beginning in 2027.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://research.meta.ai/blog/muse-wonder"&gt;Muse Wonder&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta released Muse Wonder and Wonder Full, its first frontier-class models, with stronger coding, benchmark performance, and active memory for retaining and synthesizing user-provided information.&lt;/p&gt;
 &lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://blog.ploeh.dk/2026/10/12/releasing-ai-generated-software/"&gt;Releasing AI-generated software&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Robert C. Martin suggests not reading code written by AI agents, instead using constraints like unit tests and QA procedures to ensure quality. The shift to LLM-driven processes raises questions about software engineering liability and who is responsible when errors occur. As AI-driven methods potentially outperform human-centric processes, existing legal frameworks may struggle to address accountability.&lt;/p&gt;

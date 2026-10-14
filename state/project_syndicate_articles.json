@@ -1,4 +1,12 @@
 {
+  "https://www.project-syndicate.org/commentary/china-panda-diplomacy-no-longer-effective-tool-of-soft-power-by-brahma-chellaney-2026-10": {
+    "byline": "Brahma Chellaney",
+    "body": "<p>BERLIN\u2014During his recent visit to Washington, Chinese President Xi Jinping <a href=\"https://www.nytimes.com/2026/09/24/us/politics/xi-summit-pandas-atlanta-zoo.html\">announced</a> that China would send a breeding pair of giant pandas to Zoo Atlanta. The \u201cenvoys of friendship,\u201d Ping Ping and Fu Shuang, arrived just a <a href=\"https://newsroom.fedex.com/newsroom/global-english/giant-pandas-ping-ping-and-fu-shuang-arrive-in-atlanta-on-the-fedex-panda-express\">few days later</a>. This is hardly the first time China has used its iconic bear as an instrument of <a href=\"https://www.scmp.com/news/china/diplomacy/article/3274805/how-chinas-panda-loans-work-and-diplomatic-role-bears\">soft power</a>. By loaning the animals to <a href=\"https://edition.cnn.com/2023/11/16/china/china-xi-pandas-us-summit-intl-hnk\">overseas zoos</a>, it seeks to <a href=\"https://www.tandfonline.com/doi/full/10.1080/09512748.2025.2537424#abstract\">project</a> an image of China not as a threatening dragon, but rather as a tough but cuddly charmer.</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-10-14T13:20:51+00:00"
+  },
   "https://www.project-syndicate.org/commentary/china-united-states-coping-with-end-of-extraordinary-economic-periods-by-nancy-qian-2026-10": {
     "byline": "Nancy Qian",
     "body": "<p>CHICAGO\u2014For most of the past four decades, China\u2019s direction of travel was clear: everything was moving forward. The country\u2019s per capita GDP was barely <a href=\"https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CN\">$300</a> at the start of the 1990s. But its cities would soon fill with skyscrapers, highways, and subways. Families that once worried about having enough food would buy apartments, cars, and smartphones. Children would go to universities their parents could scarcely have imagined attending. In the space of a generation, China joined the World Trade Organization, hosted the Olympics, built the world\u2019s largest high-speed rail network, and became a central engine of the global economy.</p>",
@@ -23,25 +31,9 @@
     "bio": "",
     "fetched": "2026-10-14T03:45:26+00:00"
   },
-  "https://www.project-syndicate.org/commentary/democrats-must-not-engage-in-maga-culture-war-to-win-midterms-by-ian-buruma-2026-10": {
-    "byline": "Ian Buruma",
-    "body": "<p>NEW YORK\u2014There are many reasons why then-US Vice President and Democratic nominee Kamala Harris lost the US presidential election to Donald Trump two years ago. Her campaign started too late. She inherited a great deal of anger against US President <a href=\"https://www.project-syndicate.org/columnist/joseph-biden-jr\">Joe Biden</a>. And Trump is a gifted demagogue, who knows how to exploit fear-driven rage and hostility.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-10-14T03:45:26+00:00"
-  },
   "https://www.project-syndicate.org/commentary/editorial-perfil-lawsuit-against-openai-for-illegally-scraping-copyrighted-material-by-agustino-fontevecchia-2026-10": {
     "byline": "Agustino Fontevecchia",
     "body": "<p>BUENOS AIRES\u2014In just a few short years, AI tools like ChatGPT and Claude have become a mainstream technology. The companies behind these innovative products tout their immense potential benefit for humanity. But this narrative, while not necessarily wrong, brushes aside that these models are built on the wholesale theft of copyrighted work and threaten to weaken further an already-fragile pillar of democracy: journalism.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-10-14T03:45:26+00:00"
-  },
-  "https://www.project-syndicate.org/commentary/eu-relative-advantage-in-specialized-sectors-like-chip-making-machinery-by-daniel-gros-2026-10": {
-    "byline": "Daniel Gros",
-    "body": "<p>MILAN\u2014The world\u2019s three largest continent-sized economies are moving in different directions. Each has its own strengths and weaknesses, though the balance appears to be more favorable in the United States and China than in Europe.</p>",
     "truncated": true,
     "free": true,
     "bio": "",
@@ -62,14 +54,6 @@
     "free": true,
     "bio": "",
     "fetched": "2026-10-13T15:37:26+00:00"
-  },
-  "https://www.project-syndicate.org/commentary/german-malaise-legacy-of-economic-social-political-complacency-and-inertia-by-helmut-k-anheier-2026-10": {
-    "byline": "Helmut K. Anheier",
-    "body": "<p>BERLIN\u2014Not so long ago, Germany seemed like it could do no wrong, thanks to its strong economy, excellent infrastructure, and stable political system. Yet now it seems as though Germany can do nothing right. With a sluggish economy and crumbling infrastructure, it is falling behind technologically and succumbing to extremist political parties.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-10-14T03:45:26+00:00"
   },
   "https://www.project-syndicate.org/commentary/global-debt-crisis-looming-higher-interest-rates-crushing-developing-countries-by-paolo-gentiloni-et-al-2026-10": {
     "byline": "Paolo Gentiloni, Trevor Manuel and Mahmoud Mohieldin",
@@ -135,6 +119,14 @@
     "bio": "",
     "fetched": "2026-10-14T03:45:26+00:00"
   },
+  "https://www.project-syndicate.org/commentary/trump-diesel-deal-with-russia-sign-of-submission-to-putin-war-of-weakness-by-timothy-snyder-2026-10": {
+    "byline": "Timothy Snyder",
+    "body": "<p>TORONTO\u2014Earlier this year, when I first described the guiding principle of Donald Trump\u2019s foreign policy as <a href=\"https://www.project-syndicate.org/commentary/trump-committing-superpower-suicide-america-by-timothy-snyder-2026-05\">superpower suicide</a>, it was already obvious that the US President\u2019s war of whimsy against Iran was a strategic catastrophe. Five months on, this failure is all the more glaring. Worse, it has provided Trump with another pretext to reward Russia. Weakness has begotten more weakness.</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-10-14T13:20:51+00:00"
+  },
   "https://www.project-syndicate.org/commentary/us-defense-department-by-peter-singer-2026-10": {
     "byline": "Peter Singer",
     "body": "<p>MELBOURNE\u2014\u201cAmericanism, not effective altruism.\u201d That\u2019s a new slogan <a href=\"https://x.com/DoWCTO/status/2099536442594582922\">launched</a> on X by the US Department of \u201cWar,\u201d the words running across an image of President Donald Trump saluting. Above the image, the post reads: \u201cThe United States will continue to be AI DOMINANT!\u201d</p>",
@@ -150,6 +142,14 @@
     "free": true,
     "bio": "",
     "fetched": "2026-10-13T15:37:26+00:00"
+  },
+  "https://www.project-syndicate.org/onpoint/china-excessive-surveillance-has-taught-people-to-hide-the-truth-by-yaqiu-wang-2026-10": {
+    "byline": "Yaqiu Wang",
+    "body": "<p>WASHINGTON, DC\u2014China\u2019s surveillance state reaches into the most banal corners of life. At a garden in Yangzhou, visitors must scan their faces to receive toilet paper; the dispenser remembers them and <a href=\"https://www.chinafile.com/reporting-opinion/postcard/app-life-china\">refuses to provide</a> a second serving. In Shenzhen, the police use facial-recognition technology to catch jaywalkers, then send penalties to scofflaws\u2019 phones and <a href=\"https://www.sz.gov.cn/szzt2010/jjhlwzwfw/cxal/content/post_1421290.html\">notify their employers</a>. The scrutiny is not limited to public spaces. For China-registered users, WeChat messages and images are <a href=\"https://citizenlab.ca/research/privacy-in-the-wechat-ecosystem-full-report/\">automatically screened</a>. One human-rights lawyer recalled that police <a href=\"https://chinachange.org/2017/01/19/transcript-of-interviews-with-lawyer-xie-yang-1/\">monitored his WeChat exchanges</a> before detaining and torturing him.</p>",
+    "truncated": true,
+    "free": false,
+    "bio": "",
+    "fetched": "2026-10-14T13:20:51+00:00"
   },
   "https://www.project-syndicate.org/onpoint/how-peter-thiel-turned-liberalism-against-itself-by-benn-steil-2026-10": {
     "byline": "Benn Steil",
