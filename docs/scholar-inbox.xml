@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 09 Oct 2026 09:48:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 18:27:17 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 14 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:551fe851e527ee8f</guid>
+      <pubDate>Wed, 14 Oct 2026 18:27:17 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• The Thinking Leakage in Reinforcement Learning for LLMs
+• Narrative Paradoxes in LLM Inference: Shaping Reasoning Trajectories toward Misalignment
+• The Agent Knew: Internal States Forecast Unauthorized Actions and Stop Them, and the Lies That Follow
+• Running Fewer Loops Removes Refusal Behaviour in Recurrent-Depth Language Models
+• Beyond Successful Play: Diagnosing Opponent Modeling in Large Language Models</description>
+      <content:encoded>&lt;p&gt;Matched 250 of 5215 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Thinking+Leakage+in+Reinforcement+Learning+for+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Thinking Leakage in Reinforcement Learning for LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Wenxuan Zhu, Shuming Liu, Bang An, Aznaur Aliev, Bing Li, Yibo Yang, Bernard Ghanem&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 9) · relevance 94&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Narrative+Paradoxes+in+LLM+Inference%3A+Shaping+Reasoning+Trajectories+toward+Misalignment&amp;amp;searchtype=title"&gt;&lt;strong&gt;Narrative Paradoxes in LLM Inference: Shaping Reasoning Trajectories toward Misalignment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Haoming Yang, Ke Ma, Yangbangyan Jiang, Ligong Zhang, Xiaojun Jia, Longtao Huang, Yingfei Sun, Qianqian Xu, Qingming Huang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 12) · relevance 93&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Agent+Knew%3A+Internal+States+Forecast+Unauthorized+Actions+and+Stop+Them%2C+and+the+Lies+That+Follow&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Agent Knew: Internal States Forecast Unauthorized Actions and Stop Them, and the Lies That Follow&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Arya Fayyazi, Mehdi Kamal, Massoud Pedram&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 12) · relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Running+Fewer+Loops+Removes+Refusal+Behaviour+in+Recurrent-Depth+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Running Fewer Loops Removes Refusal Behaviour in Recurrent-Depth Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Seyedarmin Azizi, Erfan Baghaei Potraghloo, Arya Fayyazi, Saeid Shokoufa, Massoud Pedram&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 10) · relevance 89&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Beyond+Successful+Play%3A+Diagnosing+Opponent+Modeling+in+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Beyond Successful Play: Diagnosing Opponent Modeling in Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Hanbo Xie, Yue Zhao, Robert C. Wilson&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 12) · relevance 88&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 9 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>

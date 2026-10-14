@@ -9,7 +9,65 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI dev arrested 🚨, Pi API 🤖, OpenCode 2.0 🧑‍💻</title>
+      <link>https://tldr.tech/ai/2026-10-14</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• OpenAI Employee Arrested Over Hidden Recording Device
+• Gemini 4 Argon Lands on Google Cloud
+• Arguments About AI Consciousness Remain Highly Motivated and At Best Overconfident
+• How Anthropic's Dynamic Workflows Coordinate Claude Agents
+• LFM2.5-24B-A2B
+• NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform
+• Frontier Models for Every Robot
+• OpenCode 2.0
+• Ramp Glass
+• Character.ai Filed for Chapter 11 Bankruptcy
+• PSA: Starting today, GPT 6.1 Sol has a default context window of 500k
+• Moondream is joining Prime Intellect
+• SpaceXSI bundles X Premium, Grok, and Cursor into one subscription
+• Drama 3
+• Introducing CLiF: Continual Learning from Full-Stack Trajectories</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/OpenAINewsroom/status/2110095403198849132"&gt;OpenAI Employee Arrested Over Hidden Recording Device&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI said it alerted the FBI after finding a hidden recording device in an executive conference room, leading to the firing and arrest of employee Abdulrahman Alfozan. Prosecutors alleged the device was used to covertly intercept conversations, while OpenAI said it found no evidence that model weights, source code, or customer data were accessed.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud"&gt;Gemini 4 Argon Lands on Google Cloud&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google made Gemini 4 Argon available on Google Cloud as a frontier model for long, multi-step enterprise work. It was positioned for tasks requiring sustained context and domain expertise, including software development, finance, legal work, and cybersecurity.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://thezvi.wordpress.com/2026/10/13/arguments-about-ai-consciousness-remain-highly-motivated-and-at-best-overconfident/"&gt;Arguments About AI Consciousness Remain Highly Motivated and At Best Overconfident&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The debate over AI consciousness continues with minimal progress, as many argue without strong evidence. Anthropic&amp;#x27;s new policy classifies abusive behavior towards AI, such as Claude, as a violation of terms to cultivate positive model interactions. Despite skepticism from many, some, including Nick Bostrom, believe current AIs may be conscious, complicating ethical considerations around AI development.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.latent.space/p/claude-dynamic-workflows"&gt;How Anthropic&amp;#x27;s Dynamic Workflows Coordinate Claude Agents&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Splitting a task among several AI agents creates another job: deciding who does what, passing information between them, and checking their results. Anthropic&amp;#x27;s dynamic workflows let Claude write the program that manages those steps. An October 12 demonstration assigned stock tickers to separate agents, then reviewed their findings before producing a report. The presenters said this found more detail but cost much more than using one agent. Developers can set a session spending limit, but the running model does not know that budget.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.liquid.ai/blog/lfm2-5-24b-a2b"&gt;LFM2.5-24B-A2B&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;LFM2.5-24B-A2B, a 24B-parameter reasoning model with 2B active parameters, is designed for fast, private on-device agents. It outperforms or matches larger models like Qwen3.6-35B-A3B on five out of eight benchmarks and runs up to 1.7x faster due to its efficient architecture. Available on Hugging Face, it supports extensive inference frameworks, making it suitable for tasks needing swift local inference and tool usage.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform"&gt;NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Nvidia is making the full NVIDIA Run:ai platform available as open-source software. It is now possible for every NVIDIA DSX ecosystem partner and AI cloud to increase workload throughput, improve GPU utilization, and operate shared AI infrastructure more efficiently and effectively. The release includes the complete NVIDIA Run:ai platform, KAI Scheduler, GPU Fractioning Operator, KAI Resource Management, and Workload Map. Platform teams and ecosystem partners can adopt NVIDIA Run:ai as an integrated whole, build on it for their own products and services, or integrate individual components based on their requirements.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.pi.website/blog/api-beta"&gt;Frontier Models for Every Robot&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Physical Intelligence is making its latest models available for training and inference through the Pi API beta. The Pi API adapts the latest and most powerful robotic foundation models to each application, dealing with ML infrastructure, compute, and complex data pipelines. Users just upload data, launch fine-tuning on managed compute and infrastructure, and access the fine-tuned models via a hosted gateway to run inference.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://anoma.ly/notes/opencode-2-0/"&gt;OpenCode 2.0&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenCode 2.0 contains quite a lot of new features, performance improvements, and bug fixes. The server now automatically runs as a single background process. Programmatic clients will autodiscover the local service and just work. OpenCode can now be used as a library with the SDK package. More details about the update are available in the article.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/eglyman/status/2110007713396613568"&gt;Ramp Glass&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Ramp has launched Glass, an AI workspace that shares company knowledge, reusable skills, and collaborative sessions across teams. Employees have made 6,500+ knowledge edits, while model routing cut AI costs by 30% and automated workflows dramatically expanded feature-request tracking.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.character.ai/an-update-on-character-ai/"&gt;Character.ai Filed for Chapter 11 Bankruptcy&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Character.ai initiated a voluntary Chapter 11 bankruptcy process to pursue a court-supervised sale after facing legal, regulatory, and operational pressures. The company said the platform could continue under a successful bid, but may be wound down if no viable buyer emerges.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2109543080609165508.html"&gt;PSA: Starting today, GPT 6.1 Sol has a default context window of 500k&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The larger context window means fewer compactions on long-running tasks and faster E2E task completion.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.primeintellect.ai/blog/moondream"&gt;Moondream is joining Prime Intellect&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Moondream&amp;#x27;s founders are joining Prime Intellect to lead and scale inference, and to accelerate its work on multimodal models.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/"&gt;SpaceXSI bundles X Premium, Grok, and Cursor into one subscription&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;SpaceXSI has launched &amp;quot;The X Subscription,&amp;quot; combining X Premium, Grok, and Cursor in one plan.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://fish.audio/drama-3"&gt;Drama 3&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Drama 3 is a text-to-speech model from Fish Audio built for direction.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.copilotkit.ai/blog/introducing-clif"&gt;Introducing CLiF: Continual Learning from Full-Stack Trajectories&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;CopilotKit releases CLiF, a tool for continual learning from full-stack trajectories, capturing both agent traces and user actions using the AG-UI protocol.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Muse Wonder ✨, Maia 300 ⚡, AI self-replication 🧬</title>
       <link>https://tldr.tech/ai/2026-10-13</link>
@@ -1137,64 +1195,6 @@
 &lt;p&gt;Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform, monitors AI agent behavior for anomalies, using logs and traces to flag suspicious activities.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.reception.ai/"&gt;An AI receptionist that turns calls into action&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Reception answers calls 24/7, handles questions, books appointments, and routes important requests using business information, rules, and real availability.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Jev ⚡, Periodic Neon 🧬, Gemini 3.8 Live 💬</title>
-      <link>https://tldr.tech/ai/2026-09-16</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-16</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• Nature Is Our Learning Environment
-• Gemini 3.8 Live and 3.5 Transcribe
-• Introducing System One Models &amp; Jev
-• Learning to Solve Hard Problems in RL for LLMs by Never Giving Up
-• I made my website charge AI agents a penny per page. Then I watched Claude pay it
-• OpenArm
-• Dream-RSI: Recursive Self-Improvement through Evolving Worlds
-• Recursive Meta-Intelligence
-• Introducing Odyssey-3: A General-Purpose Physical Intelligence
-• Introducing Meta One
-• Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents
-• Programming is dead. Engineering is thriving
-• Noam Brown (@polynoamial) gave a very interesting interview on The Information on OpenAI's priorities and what comes next
-• Your Agent Aced the Task. Will It Do It Again?
-• The AI graveyard: a running list of projects and startups that didn't make it</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://periodic.com/news/nature-is-our-learning-environment"&gt;Nature Is Our Learning Environment&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Periodic Neon outperforms GPT-6 Astra and Claude Fable 5.1 at lower cost on a highly challenging evaluation for scientific analysis. Neon is now deployed in labs to analyze experiments for better superconductors and magnets. The model establishes a Pareto-optimal cost-performance frontier through midtraining and reinforcement learning on lab data. Periodic Neon surpasses frontier models on FrontierXRD at a lower cost per analysis.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/build-real-time-voice-applications-gemini-audio/"&gt;Gemini 3.8 Live and 3.5 Transcribe&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google released Gemini 3.8 Live and Gemini 3.5 Transcribe for developing real-time voice applications. These tools offer enhanced features for voice recognition, transcription, and live interaction capabilities. They aim to improve accuracy and user experiences in voice-driven applications.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev"&gt;Introducing System One Models &amp;amp; Jev&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Jev is a System One Model that achieves similar levels of intelligence on System One tasks compared to existing large language models while being two orders of magnitude faster and more efficient. System One Models are a new class of frontier models built to make fast, structured decisions that software can use directly. Jev is optimized for structured outputs and can not hallucinate. It is now available in early access.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://mnoukhov.github.io/posts/ngu/"&gt;Learning to Solve Hard Problems in RL for LLMs by Never Giving Up&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Standard RL results in disproportionately poor performance on the hardest problems. Simple scalar values may not be sufficient for accurate evaluations of large language models. This paper proposes a solution that reduces the compute spent on easy problems, which reallocates it towards harder problems. The solution appears to show substantial improvements on difficult tasks.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://suganthan.com/blog/x402-pay-per-crawl/"&gt;I made my website charge AI agents a penny per page. Then I watched Claude pay it&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;This developer has been testing an approach to charging AI agents for using their content. Their page sets a price through the x402 protocol before an agent reads it. If the agent wants access, it pays. While the developer has yet to receive any real payments, testing shows the system works, so it&amp;#x27;s worth looking into if you own content and aren&amp;#x27;t big enough to negotiate fair licensing deals.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://github.com/enactic/OpenArm"&gt;OpenArm&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Provides an open-source humanoid arm for teleoperation, imitation learning, and physical AI research.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://paperswithcode.co/paper/2609.14858"&gt;Dream-RSI: Recursive Self-Improvement through Evolving Worlds&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Progress in recursive self-improvement hinges on effective exploration. Accumulated discovery history can serve as a replay simulator over a realized search space. Dream-RSI closes a self-improvement loop at the exploration layer. It continuously collects discovery histories through online exploration, constructs replay simulators from them to refine meta-exploration strategies via dreaming, and redeploys the upgraded policy online. Dream-RSI improves both discovery effectiveness and efficiency in several settings.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/ProfBuehlerMIT/status/2099834306046664792"&gt;Recursive Meta-Intelligence&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Recursive scientific AI can build executable worlds, populate them with agent swarms, and compress thousands of simulated trajectories into human-usable principles. In metamaterials, this revealed how architecture can program failure pathways, improving resilience through load redistribution and controlled collapse.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://odyssey.systems/introducing-odyssey-3"&gt;Introducing Odyssey-3: A General-Purpose Physical Intelligence&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Odyssey-3 is a foundation world model with an autoregressive diffusion transformer trained to simulate highly diverse scenarios. The model is capable of controlling robots, powering humanoids, driving vehicles, piloting drones, training AIs, and playing video games. It has a learned understanding of physics, dynamics, cause-and-effect, human behaviors, and other concepts that make up reality. The model will enable physical agents that can interface natively with physical and virtual systems.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/"&gt;Introducing Meta One&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Meta One is a subscription service that offers enhanced AI and self-expression features across Instagram, Facebook, and WhatsApp. It includes single product plans as well as bundled offerings that combine features for individuals, creators, and businesses, starting at $2.99/month.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"&gt;Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Artificial Intelligence Underwriting Company (AIUC) hopes to bring AI safety to enterprises and companies building AI models and agents. It has built a third-party audit and certification layer for AI agents designed to give enterprises an independent assessment of how safe their AI agents are. Its tests show where companies can trust their agents and where there are concerns, allowing them to be more informed before making decisions. AIUC uses AI agents to run the tests and AI to analyze the data, but humans verify the final audit.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://g5labs.ai/press"&gt;Programming is dead. Engineering is thriving&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;G5 Labs, an MIT CSAIL spinout, raised $14 million to develop a platform where natural language, structured as intent graphs, serves as the source code.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2099871107226669391.html"&gt;Noam Brown (@polynoamial) gave a very interesting interview on The Information on OpenAI&amp;#x27;s priorities and what comes next&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI&amp;#x27;s clear priority is recursive self-improvement, and AI could surpass even Brown&amp;#x27;s own research intuition within one or two model releases from now.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://huggingface.co/blog/ibm-research/altk-evolve-consistency"&gt;Your Agent Aced the Task. Will It Do It Again?&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;ALTK-Evolve introduces Consistency Guidelines to address the inconsistency gap, where a model&amp;#x27;s task success rate drops significantly across repeated runs.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"&gt;The AI graveyard: a running list of projects and startups that didn&amp;#x27;t make it&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Relay, an AI workflow tool, shut down due to competition from larger companies integrating similar features.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>

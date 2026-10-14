@@ -1,4 +1,12 @@
 {
+  "https://www.project-syndicate.org/commentary/argentina-under-milei-underscores-risks-of-a-flavio-bolsonaro-victory-in-brazil-by-laura-carvalho-et-al-2026-10": {
+    "byline": "Laura Carvalho, Mart\u00edn Guzm\u00e1n and Joseph E. Stiglitz",
+    "body": "<p>S\u00c3O PAULO/BUENOS AIRES\u2014Brazil\u2019s presidential election is headed to a runoff. Fl\u00e1vio Bolsonaro\u2014son of disgraced former President Jair Bolsonaro\u2014<a href=\"https://www.nytimes.com/2026/10/04/world/americas/brazil-election-lula-bolsonaro.html\">finished ahead</a> of the incumbent, <a href=\"https://www.project-syndicate.org/columnist/luiz-inacio-lula-da-silva\">Luiz In\u00e1cio Lula da Silva</a>, in the first round, but neither gained the majority needed to win outright.</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-10-14T20:00:17+00:00"
+  },
   "https://www.project-syndicate.org/commentary/china-panda-diplomacy-no-longer-effective-tool-of-soft-power-by-brahma-chellaney-2026-10": {
     "byline": "Brahma Chellaney",
     "body": "<p>BERLIN\u2014During his recent visit to Washington, Chinese President Xi Jinping <a href=\"https://www.nytimes.com/2026/09/24/us/politics/xi-summit-pandas-atlanta-zoo.html\">announced</a> that China would send a breeding pair of giant pandas to Zoo Atlanta. The \u201cenvoys of friendship,\u201d Ping Ping and Fu Shuang, arrived just a <a href=\"https://newsroom.fedex.com/newsroom/global-english/giant-pandas-ping-ping-and-fu-shuang-arrive-in-atlanta-on-the-fedex-panda-express\">few days later</a>. This is hardly the first time China has used its iconic bear as an instrument of <a href=\"https://www.scmp.com/news/china/diplomacy/article/3274805/how-chinas-panda-loans-work-and-diplomatic-role-bears\">soft power</a>. By loaning the animals to <a href=\"https://edition.cnn.com/2023/11/16/china/china-xi-pandas-us-summit-intl-hnk\">overseas zoos</a>, it seeks to <a href=\"https://www.tandfonline.com/doi/full/10.1080/09512748.2025.2537424#abstract\">project</a> an image of China not as a threatening dragon, but rather as a tough but cuddly charmer.</p>",
@@ -31,14 +39,6 @@
     "bio": "",
     "fetched": "2026-10-14T03:45:26+00:00"
   },
-  "https://www.project-syndicate.org/commentary/editorial-perfil-lawsuit-against-openai-for-illegally-scraping-copyrighted-material-by-agustino-fontevecchia-2026-10": {
-    "byline": "Agustino Fontevecchia",
-    "body": "<p>BUENOS AIRES\u2014In just a few short years, AI tools like ChatGPT and Claude have become a mainstream technology. The companies behind these innovative products tout their immense potential benefit for humanity. But this narrative, while not necessarily wrong, brushes aside that these models are built on the wholesale theft of copyrighted work and threaten to weaken further an already-fragile pillar of democracy: journalism.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-10-14T03:45:26+00:00"
-  },
   "https://www.project-syndicate.org/commentary/europes-productivity-problem-cannot-be-solved-emulating-us-or-chinese-innovation-model-by-dani-rodrik-2026-10": {
     "byline": "Dani Rodrik",
     "body": "<p>CAMBRIDGE\u2014Europe faces a productivity crisis. Over the past quarter-century, its labor productivity has risen <a href=\"https://research-and-innovation.ec.europa.eu/knowledge-publications-tools-and-data/publications/all-publications/science-research-and-innovation-performance-eu-2026-report_en\">only half as rapidly</a> as that of the United States, widening the gap between American and European incomes. Thanks to higher public expenditures, stronger labor-market institutions, and superior safety nets, the benefits of European economic growth are better distributed. But without improved productivity, European economies and democracies will remain at risk.</p>",
@@ -53,7 +53,7 @@
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-10-13T15:37:26+00:00"
+    "fetched": "2026-10-14T20:00:17+00:00"
   },
   "https://www.project-syndicate.org/commentary/global-debt-crisis-looming-higher-interest-rates-crushing-developing-countries-by-paolo-gentiloni-et-al-2026-10": {
     "byline": "Paolo Gentiloni, Trevor Manuel and Mahmoud Mohieldin",
@@ -87,6 +87,14 @@
     "bio": "",
     "fetched": "2026-10-14T03:45:26+00:00"
   },
+  "https://www.project-syndicate.org/commentary/key-sources-of-risk-to-the-global-economy-include-inflation-debt-and-polarization-by-dambisa-moyo-2026-10": {
+    "byline": "Dambisa Moyo",
+    "body": "<p>JAIPUR\u2014It is difficult to remember a time when economies, financial markets, politics, and societies were subject to significant volatility and uncertainty simultaneously, let alone to the degree they are today.</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-10-14T20:00:17+00:00"
+  },
   "https://www.project-syndicate.org/commentary/marine-le-pen-austerity-program-by-laurent-warlouzet-2026-10": {
     "byline": "Laurent Warlouzet",
     "body": "<p>PARIS\u2014Marine Le Pen, the leader of the far-right National Rally (RN) in France, has unveiled an economic program centered on rapid fiscal consolidation\u2014more commonly known as austerity. In doing so, she has broken sharply with her own party\u2019s past and aligned herself more closely with a longstanding trend on the European right.</p>",
@@ -103,21 +111,21 @@
     "bio": "",
     "fetched": "2026-10-14T03:45:26+00:00"
   },
+  "https://www.project-syndicate.org/commentary/pause-on-frontier-ai-models-could-be-hardwired-into-chip-design-by-barry-eichengreen-et-al-2026-10": {
+    "byline": "Barry Eichengreen, Will Fithian and Wesley Holliday",
+    "body": "<p>BERKELEY\u2014Dario Amodei, a co-founder of Anthropic, among others, has <a href=\"https://darioamodei.com/post/we-must-pace-the-frontier\">warned</a> that AI poses an existential threat to humankind. Others have <a href=\"https://www.nytimes.com/2026/09/21/opinion/bernie-sanders-case-ai-policy.html\">gone further</a> and argued for pausing the training of new frontier AI models. The counterargument is that regulation, including self-regulation, is unlikely to be effective. And even if a pause is feasible in principle, there is little hope that it could be sustained in practice, given that the United States and China desperately fear falling behind each other.</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-10-14T20:00:17+00:00"
+  },
   "https://www.project-syndicate.org/commentary/reputation-ops-smear-campaigns-becoming-easier-by-carla-norrlof-2026-10": {
     "byline": "Carla Norrl\u00f6f",
     "body": "<p>TORONTO\u2014Attacks on one\u2019s reputation used to be the price that celebrities paid for fame. But now it is a hazard of ordinary life. Anyone with any standing to lose is vulnerable. If you have an online presence, the damage can spread much further and faster than the truth. Run-of-the-mill bad publicity or harassment might dent your confidence or cause annoyance, but if you become the target of a technologically augmented campaign aimed at destroying your reputation, you could lose much more.</p>",
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-10-13T15:37:26+00:00"
-  },
-  "https://www.project-syndicate.org/commentary/sensible-melenchon-french-debt-swap-proposal-rejected-by-european-elites-by-yanis-varoufakis-2026-10": {
-    "byline": "Yanis Varoufakis",
-    "body": "<p>ATHENS\u2014The sorry state of France\u2019s public schools, which sparked angry demonstrations across the country, was a symptom of chronic austerity. But that did not stop the sirens of deeper austerity from rehearsing their song. Emmanuel Moulin, the governor of France\u2019s central bank, is <a href=\"https://www.ft.com/content/74c3cc77-1593-4c49-90f9-0d92fa3a2418\">calling</a> for large budget cuts to avert the \u201crisk of being gradually strangled by rising interest rates.\u201d If that happens, social tensions will be further inflamed and desperately needed investment will vanish. With Germany already confronting deindustrialization and surging support for far-right forces, France\u2019s public debt is shaping up as Europe\u2019s next fault line.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-10-14T03:45:26+00:00"
+    "fetched": "2026-10-14T20:00:17+00:00"
   },
   "https://www.project-syndicate.org/commentary/trump-diesel-deal-with-russia-sign-of-submission-to-putin-war-of-weakness-by-timothy-snyder-2026-10": {
     "byline": "Timothy Snyder",
@@ -133,7 +141,7 @@
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-10-13T15:37:26+00:00"
+    "fetched": "2026-10-14T20:00:17+00:00"
   },
   "https://www.project-syndicate.org/commentary/what-kynev-arrest-says-about-russia-future-by-nina-l-khrushcheva-2026-10": {
     "byline": "Nina L. Khrushcheva",
@@ -141,7 +149,7 @@
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-10-13T15:37:26+00:00"
+    "fetched": "2026-10-14T20:00:17+00:00"
   },
   "https://www.project-syndicate.org/onpoint/china-excessive-surveillance-has-taught-people-to-hide-the-truth-by-yaqiu-wang-2026-10": {
     "byline": "Yaqiu Wang",
@@ -150,13 +158,5 @@
     "free": false,
     "bio": "",
     "fetched": "2026-10-14T13:20:51+00:00"
-  },
-  "https://www.project-syndicate.org/onpoint/how-peter-thiel-turned-liberalism-against-itself-by-benn-steil-2026-10": {
-    "byline": "Benn Steil",
-    "body": "<p>NEW YORK\u2014<a href=\"https://fukuyama.people.stanford.edu/books-and-monographs/realm-last-man-memoir\"><i>In the Realm of the Last Man</i></a>, the title of Stanford University political scientist <a href=\"https://www.project-syndicate.org/columnist/francis-fukuyama\">Francis Fukuyama</a>\u2019s new memoir, is an unmistakable reference to his 1992 bestseller <a href=\"https://www.simonandschuster.com/books/The-End-of-History-and-the-Last-Man/Francis-Fukuyama/9780743284554\"><i>The End of History and the Last Man</i></a>. The reason he chose it, Fukuyama <a href=\"https://prod.transcripts.cnn.com/show/ampr/date/2026-09-18/segment/01\">explained</a>, was that people had ignored his famous book\u2019s warning that \u201cdemocracy could break down in the future because of some of the intrinsic stresses within a liberal order\u201d\u2014stresses born of the discontent of those whose desire for recognition exceeds what liberal democracy can satisfy.</p>",
-    "truncated": true,
-    "free": false,
-    "bio": "",
-    "fetched": "2026-10-14T03:45:26+00:00"
   }
 }
