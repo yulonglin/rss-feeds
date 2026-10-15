@@ -9,7 +9,37 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/metr-en-lite.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://metr.org/" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 00:00:00 -0700</lastBuildDate>
+    <item>
+      <title>Our approach to working with AI companies</title>
+      <link>https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>How an assessor could investigate control and monitoring of internal AI agents</title>
+      <link>https://metr.org/blog/2026-10-14-control-assessment-proposal/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-10-14-control-assessment-proposal/</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A proposal for better informing the public about loss-of-control risks from frontier AI development</title>
+      <link>https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>How an assessor could investigate alignment of unreleased AI models</title>
+      <link>https://metr.org/blog/2026-10-14-alignment-assessment-proposal/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-10-14-alignment-assessment-proposal/</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>How an assessor could investigate evidence of acceleration from the automation of AI R&amp;D</title>
+      <link>https://metr.org/blog/2026-10-14-ai-rd-acceleration-assessment-proposal/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-10-14-ai-rd-acceleration-assessment-proposal/</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 -0700</pubDate>
+    </item>
     <item>
       <title>AI systems could cover up misbehavior</title>
       <link>https://metr.org/blog/2026-10-06-ai-systems-could-cover-up-misbehavior/</link>
