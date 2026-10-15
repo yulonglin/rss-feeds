@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 14 Oct 2026 18:27:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:38:02 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 15 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:40defb1afe79766e</guid>
+      <pubDate>Thu, 15 Oct 2026 09:38:02 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Cross-Model In-Context Neurofeedback Reveals (Limited) Activation Control in LLMs
+• Moral Combat: Exploiting Moral Foundations Theory to Jailbreak LLMs
+• AgentSafeEvo: Adversarial Co-Evolution for LLM Agent Safety
+• Limits of Statistical Assurance for Embodied and Agentic AI under Adaptive Adversaries
+• Training Language Models to Fail Gracefully</description>
+      <content:encoded>&lt;p&gt;Matched 103 of 1983 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Cross-Model+In-Context+Neurofeedback+Reveals+%28Limited%29+Activation+Control+in+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Cross-Model In-Context Neurofeedback Reveals (Limited) Activation Control in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Davide Baldelli, Robyn Kozierok, Mirko Bronzi, Damiano Fornasiere&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 14) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Moral+Combat%3A+Exploiting+Moral+Foundations+Theory+to+Jailbreak+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Moral Combat: Exploiting Moral Foundations Theory to Jailbreak LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Adel Khorramrouz, Yi-Chia Wang, Sharon Levy&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 14) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=AgentSafeEvo%3A+Adversarial+Co-Evolution+for+LLM+Agent+Safety&amp;amp;searchtype=title"&gt;&lt;strong&gt;AgentSafeEvo: Adversarial Co-Evolution for LLM Agent Safety&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Chenxu Wang, Xiaoyu Wen, Han Qi, Ziyuan Zhou, Cheng Jin, Chaochao Lu, Qiaosheng Zhang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 14) · relevance 83&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Limits+of+Statistical+Assurance+for+Embodied+and+Agentic+AI+under+Adaptive+Adversaries&amp;amp;searchtype=title"&gt;&lt;strong&gt;Limits of Statistical Assurance for Embodied and Agentic AI under Adaptive Adversaries&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Inderjeet Singh&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 13) · relevance 83&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Training+Language+Models+to+Fail+Gracefully&amp;amp;searchtype=title"&gt;&lt;strong&gt;Training Language Models to Fail Gracefully&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Daman Arora, Xuecheng Liu, Himanshu Gaurav Singh, Fahim Tajwar, Abitha Thankaraj, Ruslan Salakhutdinov, Haiwen Feng, Yuda Song, Andrea Zanette&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 14) · relevance 82&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 14 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
