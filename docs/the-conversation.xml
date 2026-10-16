@@ -9,7 +9,47 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/the-conversation.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://theconversation.com/global/newsletters" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 16 Oct 2026 12:11:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 13:32:23 +0000</lastBuildDate>
+    <item>
+      <title>AI-solved problems stun mathematicians</title>
+      <link>https://theconversation.com/is-this-the-mathocalypse-why-openais-latest-results-dump-has-left-mathematicians-in-shock-293837</link>
+      <guid isPermaLink="false">the-conversation:12c02d6701be1d94</guid>
+      <pubDate>Fri, 16 Oct 2026 13:32:23 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>AI weekly</category>
+      <description>• Is this the ‘mathocalypse’? Why OpenAI’s latest results dump has left mathematicians in shock
+• Want to use AI to improve your work? Have it disagree with you
+• Here’s how to find the learning strategy that makes AI work for you
+• Can AI help ‘humanise’ museums? New report reminds us why art matters in a changing world
+• Companies may be held liable when AI harms their clients and customers</description>
+      <content:encoded>&lt;p&gt;Count mathematicians among those now facing existential questions due to the mind-bending capabilities of AI. A mathematician breaks down the latest trove of solved long-standing math problems and why it’s causing so much angst in the profession. Also this week: a couple of stories on how to work effectively with chatbots – either by having them challenge you or developing a customized learning strategy – a look at how AI can enhance museums, and the legal liabilities AI could trigger in the workplace. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lead Story&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/765115/original/file-20261009-50-mgf66.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C531%2C4095%2C2303&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/is-this-the-mathocalypse-why-openais-latest-results-dump-has-left-mathematicians-in-shock-293837"&gt;Is this the ‘mathocalypse’? Why OpenAI’s latest results dump has left mathematicians in shock&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Melissa Lee, Monash University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;OpenAI released 722 new AI-generated mathematical papers at once – three have been retracted, and mathematicians are coming to grips with the rest.&lt;/p&gt;
+&lt;p&gt;These papers, along with other AI-assisted developments, have forced the mathematical community to reflect on what we value. This is particularly important for students and early career researchers, who must confront the idea of their research being scooped by an ambitious AI user, or how their work will be valued.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Work&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/763224/original/file-20260930-50-c8jewk.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C421%2C3000%2C1687&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/want-to-use-ai-to-improve-your-work-have-it-disagree-with-you-291760"&gt;Want to use AI to improve your work? Have it disagree with you&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Monideepa Tarafdar, UMass Amherst&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Prompting AI models to contradict your ideas can improve your thinking about a problem.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762063/original/file-20260924-50-12bc4i.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C260%2C4984%2C2803&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/heres-how-to-find-the-learning-strategy-that-makes-ai-work-for-you-291860"&gt;Here’s how to find the learning strategy that makes AI work for you&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Paul Jones, Aston University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Generative AI can make learning faster and easier, but that does not necessarily mean we are learning better.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Arts &amp;amp; Culture&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/766151/original/file-20261014-50-ogm0wr.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C586%2C5616%2C3159&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/can-ai-help-humanise-museums-new-report-reminds-us-why-art-matters-in-a-changing-world-294227"&gt;Can AI help ‘humanise’ museums? New report reminds us why art matters in a changing world&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Sarah Cook, University of Glasgow&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Paying attention to the creative and critical uses of AI is an urgent task for art museums today.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/765659/original/file-20261012-60-afv729.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C86%2C3004%2C1689&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/companies-may-be-held-liable-when-ai-harms-their-clients-and-customers-282234"&gt;Companies may be held liable when AI harms their clients and customers&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Sarah Webber, University of Dayton; Kaitlin Newkirk, Xavier University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;When an AI a business is using makes a mistake, the business tends to be on the hook, not the AI toolmaker.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Probing the mysteries of Mars' moons</title>
       <link>https://theconversation.com/japans-mmx-mission-aims-to-swipe-soil-samples-from-mars-moon-phobos-294129</link>
@@ -520,54 +560,6 @@
 &lt;h3&gt;&lt;a href="https://theconversation.com/government-hacks-rogue-agents-and-no-transparency-can-we-ever-fully-trust-ai-292536"&gt;Government hacks, rogue agents and no transparency: can we ever fully trust AI?&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Gemma Ware, The Conversation&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;AI expert Nick Jennings speaks to The Conversation Weekly podcast about calls for a slowdown in the development of frontier AI models.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Can we ever fully trust AI agents?</title>
-      <link>https://theconversation.com/government-hacks-rogue-agents-and-no-transparency-can-we-ever-fully-trust-ai-292536</link>
-      <guid isPermaLink="false">the-conversation:77355c66e154db95</guid>
-      <pubDate>Fri, 25 Sep 2026 11:41:19 +0000</pubDate>
-      <dc:creator>The Conversation</dc:creator>
-      <category>Global daily</category>
-      <description>• Government hacks, rogue agents and no transparency: can we ever fully trust AI?
-• Trump and Xi face an AI security dilemma – but face-to-face diplomacy could be a start in mitigating it
-• How would AI actually kill all humans? Here are the top 5 scenarios
-• Mosque attack highlights evolving extremism landscape that has brought Pakistan-Afghanistan ties to crisis point
-• Russia-Ukraine war is accelerating the dangerous race toward fully autonomous drones
-• UN chief says world’s biggest problem is the changing way power is used – Donald Trump’s speech confirms his diagnosis</description>
-      <content:encoded>&lt;p&gt;As more incidents emerge of AI agents going rogue during testing, can we ​ever fully trust them? In the latest hack, Australia revealed OpenAI agents hacked into a government database containing health data – and took nearly three months to disclose the breach.&lt;/p&gt;
-&lt;p&gt;On the latest episode of The Conversation Weekly podcast, AI expert Nick Jennings says tech company leaders have choices about how they develop their models. “It’s not that they have to keep going ​… or that the AI is forcing them to keep going on and keep improving.​”&lt;/p&gt;
-&lt;p&gt;Experts remain sceptical about the likelihood of AI wiping out humanity, but calls for regulation are growing and dominated coverage of the White House summit between Xi Jinping and Donald Trump.&lt;/p&gt;
-&lt;p&gt;Jennings, who has researched multi-agentic AI for decades, says that while calls for a kill switch won’t be as simple as adding a “big red button” that turns the AI off, it’s important to have external control over the system.&lt;/p&gt;
-&lt;p&gt;Elsewhere this week we have been keeping an eye on goings-on at the United Nations and previewing the upcoming elections in Brazil.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Gemma Ware&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; Head of Audio, The Conversation UK &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Top story&lt;/strong&gt;&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/761939/original/file-20260924-50-nb9jbq.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C268%2C5851%2C3291&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;p&gt;&lt;strong&gt;NicoElNino/Alamy&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/government-hacks-rogue-agents-and-no-transparency-can-we-ever-fully-trust-ai-292536"&gt;Government hacks, rogue agents and no transparency: can we ever fully trust AI?&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Gemma Ware, The Conversation&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;AI expert Nick Jennings speaks to The Conversation Weekly podcast about calls for a slowdown in the development of frontier AI models.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/761998/original/file-20260924-50-dfbne8.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C178%2C4000%2C2000&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/trump-and-xi-face-an-ai-security-dilemma-but-face-to-face-diplomacy-could-be-a-start-in-mitigating-it-292644"&gt;Trump and Xi face an AI security dilemma – but face-to-face diplomacy could be a start in mitigating it&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Nicholas John Wheeler, University of Birmingham; BASIC; Marcus Holmes, William &amp;amp; Mary&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The question is whether both leaders appreciate each other’s security fears.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/761054/original/file-20260921-50-57p6qs.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C144%2C2309%2C1154&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/how-would-ai-actually-kill-all-humans-here-are-the-top-5-scenarios-292220"&gt;How would AI actually kill all humans? Here are the top 5 scenarios&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Toby Walsh, UNSW&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The most probable scenario is likely not what you think.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/761742/original/file-20260923-50-u2vqxy.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C426%2C5634%2C3169&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/mosque-attack-highlights-evolving-extremism-landscape-that-has-brought-pakistan-afghanistan-ties-to-crisis-point-292416"&gt;Mosque attack highlights evolving extremism landscape that has brought Pakistan-Afghanistan ties to crisis point&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Saif Tahir, Te Herenga Waka — Victoria University of Wellington; Amira Jadoon, Clemson University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Convergence and competition between militant groups has spurred violence. Meanwhile, Pakistan accuses Afghanistan of harboring terrorists.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/761235/original/file-20260921-50-m4wsl8.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C394%2C4032%2C2268&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/russia-ukraine-war-is-accelerating-the-dangerous-race-toward-fully-autonomous-drones-290877"&gt;Russia-Ukraine war is accelerating the dangerous race toward fully autonomous drones&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Amy McAuliffe, University of Notre Dame&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Drones with autonomous functions reduce dependence on communications links and can escape attempts at jamming. But they come with huge ethical risks.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/762020/original/file-20260924-60-5bnoh0.jpg?ixlib=rb-4.1.1&amp;amp;rect=581%2C340%2C1954%2C1380&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/un-chief-says-worlds-biggest-problem-is-the-changing-way-power-is-used-donald-trumps-speech-confirms-his-diagnosis-292755"&gt;UN chief says world’s biggest problem is the changing way power is used – Donald Trump’s speech confirms his diagnosis&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Martin Waehlisch, University of Birmingham; Stefan Wolff, University of Birmingham&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The UN general assembly meeting brought together many leaders whose countries are locked in conflict.&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/how-three-colonial-powers-gained-and-then-lost-control-over-the-straits-of-hormuz-and-bab-el-mandeb-292255"&gt; How three colonial powers gained – and then lost – control over the straits of Hormuz and Bab el-Mandeb &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Ibrahim Al-Marashi, IE University; California State University San Marcos &lt;/p&gt; &lt;p&gt;The Portuguese, Dutch and British empires all vied for control over the vital shipping lane.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/swan-song-dianas-brother-flips-the-royal-family-the-bird-in-his-scathing-new-book-292678"&gt; Swan Song: Diana’s brother flips the royal family the bird in his scathing new book &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Kate Cantrell, University of Southern Queensland &lt;/p&gt; &lt;p&gt;Charles Spencer’s book is as much about him as about the sister he claims to speak for. Beneath the score-settling, it’s a story of a brother still grieving.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/elections-in-brazil-a-subdued-digital-campaign-heightens-uncertainty-about-the-results-292729"&gt; Elections in Brazil: A subdued, digital campaign heightens uncertainty about the results &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Sergio Abranches, Universidade Federal do Rio de Janeiro (UFRJ) &lt;/p&gt; &lt;p&gt;A political scientist analyzes the uncertain outlook for this year’s elections and the risks their results pose to governability and democracy in Brazil.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/septembers-ozone-hole-was-the-biggest-in-20-years-the-warning-signs-appeared-months-ago-292457"&gt; September’s ozone hole was the biggest in 20 years. The warning signs appeared months ago &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Hannah E. Kessenich, University of Otago; Annika Seppälä, University of Otago; Dan Smale, Earth Sciences New Zealand &lt;/p&gt; &lt;p&gt;This spring’s ozone hole is likely to be among the top ten most severe of all time, bringing weather changes to New Zealand and Australia.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/as-war-in-the-middle-east-widens-saudi-arabias-new-defence-pact-could-face-a-major-test-292357"&gt; As war in the Middle East widens, Saudi Arabia’s new defence pact could face a major test &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Amin Saikal, Australian National University; The University of Western Australia; Victoria University &lt;/p&gt; &lt;p&gt;Saudi Arabia’s escalating conflict with the Houthis in Yemen will force its new defence partners Turkey and Pakistan to confront some difficult questions.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/this-18th-century-gospel-has-reignited-a-fierce-battle-over-ethiopias-looted-heritage-292625"&gt; This 18th-century Gospel has reignited a fierce battle over Ethiopia’s looted heritage &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Jacopo Gnisci, UCL &lt;/p&gt; &lt;p&gt;The controversy highlights a broader, escalating global movement demanding the return of African antiquities.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
     </item>
   </channel>
 </rss>

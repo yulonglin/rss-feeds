@@ -409,26 +409,5 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Reflections+on+Trusting+Trust%2C+Revisited%3A+Contaminating+Self-Modifying+AI+Coding+Agents+with+Poisoned+Benchmarks&amp;amp;searchtype=title"&gt;&lt;strong&gt;Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Franziska Roesner, Tadayoshi Kohno&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 15) · relevance 73&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
-    <item>
-      <title>Scholar Inbox, 16 Sep 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:9d0c2e94ebbfbdbc</guid>
-      <pubDate>Wed, 16 Sep 2026 18:47:10 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection
-• Shallow Beliefs: Synthetic document finetuning does not inoculate against emergent misalignment from reward hacking
-• Easy to Catch a Liar, Hard to Clear an Honest One: Language Models Diagnosing a Corrupted Reward Channel from a Verified Record
-• Universal Defenses for Tool-Integrated LLM Agents Against Adversarial Attacks
-• Spurious Tool Use: When RL Agents Learn the Wrong Reason to Act</description>
-      <content:encoded>&lt;p&gt;Matched 184 of 4668 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Corrupt+Plans%2C+Clean+Traces%3A+Evading+Chain-of-Thought+Monitoring+with+Plan+Injection&amp;amp;searchtype=title"&gt;&lt;strong&gt;Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Keertana Chidambaram, Andrew Ilyas, Vasilis Syrgkanis&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 14) · relevance 95&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Shallow+Beliefs%3A+Synthetic+document+finetuning+does+not+inoculate+against+emergent+misalignment+from+reward+hacking&amp;amp;searchtype=title"&gt;&lt;strong&gt;Shallow Beliefs: Synthetic document finetuning does not inoculate against emergent misalignment from reward hacking&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Arun Jose, Julian Stastny&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 14) · relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Easy+to+Catch+a+Liar%2C+Hard+to+Clear+an+Honest+One%3A+Language+Models+Diagnosing+a+Corrupted+Reward+Channel+from+a+Verified+Record&amp;amp;searchtype=title"&gt;&lt;strong&gt;Easy to Catch a Liar, Hard to Clear an Honest One: Language Models Diagnosing a Corrupted Reward Channel from a Verified Record&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Arman Nik Khah&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 15) · relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Universal+Defenses+for+Tool-Integrated+LLM+Agents+Against+Adversarial+Attacks&amp;amp;searchtype=title"&gt;&lt;strong&gt;Universal Defenses for Tool-Integrated LLM Agents Against Adversarial Attacks&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Xiaoyan Li, Yunli Wang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 14) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Spurious+Tool+Use%3A+When+RL+Agents+Learn+the+Wrong+Reason+to+Act&amp;amp;searchtype=title"&gt;&lt;strong&gt;Spurious Tool Use: When RL Agents Learn the Wrong Reason to Act&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yiwei Yang, Haoxiang Zhang, Bingbing Wen, Yao Lu, Yuchen Wu, Lei Zhang, Julian McAuley, Pan Lu, Bill Howe&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 14) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
   </channel>
 </rss>

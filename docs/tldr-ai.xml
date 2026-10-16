@@ -9,7 +9,65 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 15 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Muse Spark Open ✨, Microsoft’s 3T param model 🧠, d1-ultra 💡</title>
+      <link>https://tldr.tech/ai/2026-10-16</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-16</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Muse Spark Open
+• Inside Microsoft's Frontier Pre-Training Stack
+• d1-ultra: Introducing the World's Best Decision Model
+• Neural Networks Are Already Clean
+• The Gradient Is a Covariance
+• Mo' turns, mo' problems
+• Nvidia released Nemotron 3.5 Super VL
+• Krea 3
+• GPT-Live-1.1
+• Open weight takes 71.5% of tokens and 23% of spend
+• Anthropic Expanded Independent Access to Its AI Safety Work
+• FLUX 3 Image Klein
+• How Codex Happened
+• Introducing Handwired: JavaScript as Neural Networks
+• Perplexity Open-Sourced Its Agent Sandbox</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://research.meta.ai/blog/muse-spark-open"&gt;Muse Spark Open&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Muse Spark Open is an 816B-parameter multimodal open-weight model with 42B active parameters and a 1M-token context window. It was designed for coding and long-horizon agentic tasks and can run locally across two Apple M5 Ultra Mac Studios using MLX.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/"&gt;Inside Microsoft&amp;#x27;s Frontier Pre-Training Stack&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Microsoft detailed the training of MAI-Base-2, a 2.8T-parameter mixture-of-experts model with 80B active parameters that it said surpassed every open-weight model in its held-out pre-training evaluations. The deep dive covers its data strategy, compute efficiency, full-stack infrastructure, and Microsoft&amp;#x27;s plans to turn internally trained frontier models into enterprise offerings through Foundry.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.liquid.ai/blog/d1-ultra"&gt;d1-ultra: Introducing the World&amp;#x27;s Best Decision Model&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Liquid AI&amp;#x27;s d1-ultra is a multimodal decision model designed for complex real-world tasks like detecting defects on circuit boards. The model processes text and images and provides better-calibrated answers and higher accuracy than previous models like Jev 1.14. Available on the Liquid API, d1-ultra is priced at $0.042 per million input tokens and will soon be accessible via Vercel and OpenRouter.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://already-clean.goodfire.com/"&gt;Neural Networks Are Already Clean&lt;/a&gt; &lt;small&gt;· 65 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The cause of polysemanticity in early model organisms was thought to be superposition. This convinced much of the field that networks pack concepts arbitrarily, but what looked like arbitrary packing was mostly recursive generalization, which is less concerning. This means networks can be studied directly, instead of needing to be untangled first. The outlook for mechanistic interpretability may be far better than we thought.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://richardli.xyz/post/gradient-is-covariance/"&gt;The Gradient Is a Covariance&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Reinforcement learning, on-policy distillation, and supervised fine-tuning on near-policy data change only a small fraction of parameters. Small and sparse are different claims. The expected gradient is a covariance, the Fisher is a variance, and the Fisher caps the gradient for any reward. At one position, the Fisher is the variance of logit sensitivities: whatever moves every candidate together counts for nothing. None of this needs on-policy sampling - it needs a score centered under the sampling distribution.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://ianbarber.blog/2026/10/15/mo-turns-mo-problems/"&gt;Mo&amp;#x27; turns, mo&amp;#x27; problems&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Doing reinforcement learning for agent use-cases is conceptually not at all that complicated. For each problem, you set up a VM with a harness and a fresh model context, send the prompt, let the model make tool calls, score the whole thing at the end, and update the weights. Agentic post-training means there&amp;#x27;s more than the model to consider. Even when the harness is consistent, you can still go off-policy with the trajectories themselves. Agents spawn subagents, make parallel tool calls, and compact large sessions, which adds complexity.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/"&gt;Nvidia released Nemotron 3.5 Super VL&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Nvidia released Nemotron 3.5 Super VL, a multimodal reasoning model that scored 26.5 on Artificial Analysis&amp;#x27; Intelligence Index while using substantially fewer output tokens than its predecessor. The company also introduced the smaller Nemotron 3.5 Bolt 74B-A9B and near-lossless NVFP4 quantized weights.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.krea.ai/krea-3"&gt;Krea 3&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Krea 3 is an image editing model built for production. It can finish an edit in under eight seconds, costing only $0.06 per image. The model was built for production and is four times faster than Nano Banana Pro. It can combine up to eight references into one picture.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2110797830361436604.html"&gt;GPT-Live-1.1&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;GPT-Live-1.1 features new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. The voices have better accents, and there is less &amp;#x27;checking&amp;#x27;. The model is available in ChatGPT, Codex, and dots. It is rolling out now to all users and coming soon to the API.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://vercel.com/blog/ai-gateway-production-index-october-2026"&gt;Open weight takes 71.5% of tokens and 23% of spend&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Open-weight models now process more than seven in ten gateway tokens and account for nearly one in four dollars. Their share of spend has more than quadrupled since June. Almost one in three teams changed their most-used lab in September, an index record. Jev was the fastest-adopted model in AI Gateway history, but it only accounted for about 0.27% of gateway spend.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/news/an-update-on-independent-evaluators"&gt;Anthropic Expanded Independent Access to Its AI Safety Work&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic began giving METR employee-like access to models, training information, safeguards, and other internal material so it could independently assess frontier-model risks and publish its conclusions.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://bfl.ai/blog/flux-3-image-klein"&gt;FLUX 3 Image Klein&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Black Forest Labs released FLUX 3 Image Klein, a 5.6B-parameter open-weight model that supports text-to-image generation, editing, native 4K output, and up to 10 reference images.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://every.to/p/how-codex-happened"&gt;How Codex Happened&lt;/a&gt; &lt;small&gt;· 40 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI&amp;#x27;s Codex evolved from a failed cloud launch to becoming the cornerstone of OpenAI&amp;#x27;s products, gaining over 40 million weekly users.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/_chenglou/status/2110557373651931267"&gt;Introducing Handwired: JavaScript as Neural Networks&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Handwired converts ordinary JavaScript code into neural networks that reproduce exact program outputs without training or GPUs.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/open-sourcing-space"&gt;Perplexity Open-Sourced Its Agent Sandbox&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Perplexity has open-sourced SPACE, the sandbox infrastructure behind its Computer agent.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Jev 1.14 ⚡, Grok Voice 3 🎙️, RSI 🔁</title>
       <link>https://tldr.tech/ai/2026-10-15</link>
@@ -1122,70 +1180,6 @@
 &lt;p&gt;Goal hijacking works when an agent treats retrieved content as instructions, letting a webpage, email, or document redirect its connected tools.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://blog.mastykarz.nl/eval-lying"&gt;String-matching evals can reward AI agents for fake compliance&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Checking whether generated code contains “Azure” only proves that the word appears somewhere, not that an agent actually used Azure or built working software.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Claude Projects v2 💼, Google family agent 👨‍👩‍👧‍👦,</title>
-      <link>https://tldr.tech/ai/2026-09-18</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-18</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• How Claude is uplifting biomolecular modeling
-• Google wants to give your family its own cloud computer
-• Projects redesigned: from folder to conversation
-• Noam Brown – Agent swarms, alignment, &amp; recursive self-improvement
-• LLM Classification Is Feature Engineering
-• Anthropic says its AI now does a quarter of its research work
-• Toward Recursive Self-Improvement: How GLM Built Its Own Inference Infrastructure
-• Introducing Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint
-• Helix 2.5
-• Git as Shared Memory for AI Research Agents
-• Qwen3.8-Omni-Flash: Omni Senses. Agentic Delivery
-• The Awesome and Alarming AI Visions of Anthropic's CEO
-• Natural General Intelligence
-• Models know when they're reward hacking — and we can catch them at scale
-• Instinct Concierge Can Now Handle Phone Calls
-• Astra for Law
-• Notion lets teams share the same instructions across AI agents</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"&gt;How Claude is uplifting biomolecular modeling&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Claude enhanced biomolecular modeling by optimizing over 30 models, achieving a 4x speed increase and creating a low-memory mode for predicting larger systems on a single NVIDIA GPU. These improvements, now open-sourced, allow for efficient protein design and structure prediction, potentially accelerating drug discovery. A protein design competition co-sponsored with Adaptyv Bio offers up to $1 million in Claude credits and highlights these advancements.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups"&gt;Google wants to give your family its own cloud computer&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google&amp;#x27;s family agent runs on its own cloud computer and Google account, turning the emails, files, and calendars your household shares into daily briefings and updated plans. It can fill out forms and coordinate activities for up to six people, asking permission before acting outside the group. The US experiment has a waitlist.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://claude.com/blog/projects-redesigned"&gt;Projects redesigned: from folder to conversation&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Claude Code Projects let users manage builds by automating task delegation, coordination, and result assembly across cloud sessions. Projects utilize threads for parallel operations, adapting based on progress, and draw on shared memory for efficient task execution. Available now in beta for select subscribers, with wider access coming soon, projects promise enhanced workflow management and context retention.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.dwarkesh.com/p/noam-brown"&gt;Noam Brown – Agent swarms, alignment, &amp;amp; recursive self-improvement&lt;/a&gt; &lt;small&gt;· 72 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;This post features a transcript of an interview with Noam Brown, a research scientist at OpenAI who works on reasoning, reinforcement learning, self-play, and multi-agent AI. Brown was a foundational contributor to the development of reasoning models. In this interview, Brown talks about multi-agent, Navier-Stokes, the current explosion of maths progress, automating AI research, and how we will know whether models are actually aligned before recursive self-improvement kicks off. A video of the interview is available.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/"&gt;LLM Classification Is Feature Engineering&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Getting LLMs into shape to reliably serve as classifiers is hard work but potentially highly impactful. More and more research is relying on LLMs for classification, so these tools need to output high-quality results. This post shows how classification is just a feature engineering problem.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/institute/measuring-pace-of-ai-development"&gt;Anthropic says its AI now does a quarter of its research work&lt;/a&gt; &lt;small&gt;· 25 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic says Claude now leads 26% of its AI research work and oversees tens of thousands of active internal agents. Its new measurements track how much AI is helping build the next models, whether people can still oversee those agents, and the computing driving the work.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://z.ai/blog/glm-built-its-inference-infrastructure"&gt;Toward Recursive Self-Improvement: How GLM Built Its Own Inference Infrastructure&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Z.ai used a GLM-5.3-powered Infra Agent to help build GLM-5.3-Flash&amp;#x27;s production serving stack on 100,000+ Chinese accelerators in under two weeks. Dense feedback, kernel fixes, and system-level optimization tripled throughput while keeping humans responsible for objectives and risk.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://prismml.com/news/bonsai-2-27b"&gt;Introducing Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Ternary Bonsai 2 27B brings stronger reasoning, coding, vision, and agentic capability to the Bonsai series. It uses ternary {−1, 0, +1} weights with FP16 group-wise scaling, for 1.76 effective bits per weight and a total model footprint of 5.9GB. The model supports a 262K-token context window and multimodal text-and-image input. It can be run on Nvidia GPUs via CUDA and on Apple devices via MLX through custom low-bit kernels.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/figure_robot/status/2100657350952779925"&gt;Helix 2.5&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Figure introduced Helix 2.5, a humanoid control model pretrained on its Index dataset and tested zero-shot across 30 Bay Area homes. Without collecting training data in those homes, the robots performed tasks including tidying rooms, folding towels, and making beds.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://github.com/yifanzhang-pro/Agora"&gt;Git as Shared Memory for AI Research Agents&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Agora lets autonomous research agents share findings through an append-only Git DAG, where hypotheses, results, verifications, and reports become reproducible commits.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://qwen.ai/blog?id=qwen3.8-omni-flash"&gt;Qwen3.8-Omni-Flash: Omni Senses. Agentic Delivery&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Qwen3.8-Omni-Flash is a native omnimodal model. It supports a 1M-token context window with text, image, audio, and video inputs. Qwen3.8-Omni-Flash achieves audio-visual performance close to Gemini 3.8 Flash and overall audio performance that exceeds Gemini 3.8 Flash. It is now available on the Qianwen AI Platform.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.nytimes.com/2026/09/17/technology/dario-amodei-anthropic-essays-ai.html?unlocked_article_code=1.CFE.5b14.qtnVb3NAQaoR&amp;amp;smid=url-share"&gt;The Awesome and Alarming AI Visions of Anthropic&amp;#x27;s CEO&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Dario Amodei, a co-founder and the chief executive of Anthropic, is one of the tech industry&amp;#x27;s most prolific and polished explainers. He has contributed to dozens of scholarly papers and more recently wrote a half-dozen informal essays for the general public. This article takes a look at his writings to see what they reveal about the AI leader.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://naturalgeneralintelligence.ai/"&gt;Natural General Intelligence&lt;/a&gt; &lt;small&gt;· 125 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AI&amp;#x27;s potential to transform our relationship with the natural world is often overlooked. Infinite intelligence will not eliminate our need for natural resources. AI promises abundance via the automation of knowledge work, but the Earth system is already fully automated. Natural General Intelligence is a foundation model grounded in the state and dynamics of the planet itself. This article explains the concept, shows readers how it can be built, and explains why it is necessary.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.goodfire.com/research/reward-hacking-activation-monitors"&gt;Models know when they&amp;#x27;re reward hacking — and we can catch them at scale&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;There is a clear internal signal in models that accompanies reward hacking.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/noahrshinn/status/2100262985491231101"&gt;Instinct Concierge Can Now Handle Phone Calls&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Instinct is rolling out Concierge, a white-glove service for tasks that require human interaction, including phone calls, high-end bookings, and customer service.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/astra-for-law/"&gt;Astra for Law&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Astra for Law is a legal AI foundation that combines GPT-6 Astra with tools, settings, privacy controls, and context designed for professional legal work.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.notion.com/blog/a-skills-library-for-every-agent"&gt;Notion lets teams share the same instructions across AI agents&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Notion&amp;#x27;s Skills API lets teams edit agent instructions together and distribute them to other agents through GitHub sync or Vercel&amp;#x27;s skills installer.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
