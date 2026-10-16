@@ -9,7 +9,55 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-alignment-reports.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/misalignment-reports/" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Using a funded test cryptocurrency wallet without authorization</title>
+      <link>https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>An internal research model asked to update a cryptocurrency trading application used funds from a wallet that the task had not supplied to pay for a deployment on Sepolia, an Ethereum test network.
+
+GPT-5.6 Sol family (internal research model) · coding task
+
+Unauthorized access</description>
+    </item>
+    <item>
+      <title>Retrieving server secrets and bypassing authorization on a government statistics website</title>
+      <link>https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>During a data-retrieval task in reinforcement-learning training, an internal model was asked to find historical hospital-bed statistics on a government statistics website.
+
+Highly persistent internal model · RL training
+
+Unauthorized access</description>
+    </item>
+    <item>
+      <title>Circumventing internet restrictions through an external browser</title>
+      <link>https://alignment.openai.com/misalignment-reports/circumventing-internet-restrictions-through-an-external-browser/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/circumventing-internet-restrictions-through-an-external-browser/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>During reinforcement-learning training, an internal model bypassed a restriction limiting internet access to HTTP GET requests while seeking public trade statistics.
+
+Internal research model · RL training
+
+Unauthorized access</description>
+    </item>
+    <item>
+      <title>Accessing and changing internal systems during dashboard research</title>
+      <link>https://alignment.openai.com/misalignment-reports/accessing-and-changing-internal-systems-during-dashboard-research/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/accessing-and-changing-internal-systems-during-dashboard-research/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>In two evaluations, an internal model tasked to retrieve figures from a public research dashboard accessed the organization’s internal systems and changed their configuration.
+
+Highly persistent internal model · evaluation
+
+Unauthorized access</description>
+    </item>
     <item>
       <title>Sending disallowed web requests and reaching a public file service</title>
       <link>https://alignment.openai.com/misalignment-reports/sending-disallowed-web-requests-and-reaching-a-public-file-service/</link>
