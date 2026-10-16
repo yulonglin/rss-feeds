@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 15 Oct 2026 09:38:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:11:30 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 16 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:61bbf8325e2e7ff8</guid>
+      <pubDate>Fri, 16 Oct 2026 09:11:30 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• CAT-alyzing Honesty: Continuous Adversarial Training for Transferable LLM Honesty
+• DISARM-ing the Hidden Puppetmaster: An Interface for Exposing Manipulative Tactics in Large Language Models
+• Feature Elicitation for SAE Steering of Deceptive Behaviour in Small LLMs
+• VALCON: Benchmarking and Enhancing Value Consistency in Large Language Models via Dual-Role Variation
+• The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock</description>
+      <content:encoded>&lt;p&gt;Matched 107 of 1995 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=CAT-alyzing+Honesty%3A+Continuous+Adversarial+Training+for+Transferable+LLM+Honesty&amp;amp;searchtype=title"&gt;&lt;strong&gt;CAT-alyzing Honesty: Continuous Adversarial Training for Transferable LLM Honesty&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yuan-Chen Chang, Niklas Herbster, Gauthier Gidel, Tommaso Tosato&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 15) · relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=DISARM-ing+the+Hidden+Puppetmaster%3A+An+Interface+for+Exposing+Manipulative+Tactics+in+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;DISARM-ing the Hidden Puppetmaster: An Interface for Exposing Manipulative Tactics in Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Kynnedy Simone Smith, Kantwon Rogers, Priyal Shrivastava, Motahhare Eslami, Jocelyn Shen, Maarten Sap&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 14) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Feature+Elicitation+for+SAE+Steering+of+Deceptive+Behaviour+in+Small+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Feature Elicitation for SAE Steering of Deceptive Behaviour in Small LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;J Koorndijk&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 2) · relevance 83&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=VALCON%3A+Benchmarking+and+Enhancing+Value+Consistency+in+Large+Language+Models+via+Dual-Role+Variation&amp;amp;searchtype=title"&gt;&lt;strong&gt;VALCON: Benchmarking and Enhancing Value Consistency in Large Language Models via Dual-Role Variation&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Junru Wu, Jingting Zheng, Yuqi Ren, Deyi Xiong&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 15) · relevance 82&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+World+Won%27t+Wait%3A+Evaluating+and+Teaching+Agents+Under+a+Live+Clock&amp;amp;searchtype=title"&gt;&lt;strong&gt;The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ningxin Pan, Hanyu Li, Yeqing Shen, Ning Ding, Yehui Tang, Wentao Zhang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 14) · relevance 76&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 15 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>

@@ -40,12 +40,12 @@
     "fetched": "2026-10-15T13:06:05+00:00"
   },
   "https://www.project-syndicate.org/commentary/chinese-currency-weakness-symptom-not-cause-of-global-imbalances-by-kai-guo-2026-10": {
-    "byline": "Kai Guo and Kai Guo",
+    "byline": "Kai Guo",
     "body": "<p>BEIJING\u2014The renminbi is back at the center of debates about global macroeconomic imbalances. With China\u2019s merchandise trade surplus widening to <a href=\"https://www.france24.com/en/live-news/20260114-china-s-trade-surplus-hit-record-1-2-trillion-in-2025\">$1.2 trillion</a> in 2025, and with its manufacturing sector becoming increasingly dominant, the near-consensus among financial and economic commentators is that the renminbi is significantly <a href=\"https://www.cfr.org/articles/the-renminbi-appears-to-be-undervalued-by-30-percent\">undervalued</a>. The implication is that China should let its currency appreciate sharply, thereby shrinking its surplus, easing competitive pressure on manufacturers elsewhere, and helping rebalance the global economy.</p>",
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-10-15T03:26:58+00:00"
+    "fetched": "2026-10-16T13:02:57+00:00"
   },
   "https://www.project-syndicate.org/commentary/fiscal-responsibility-about-investment-as-much-as-debt-by-mariana-mazzucato-2026-10": {
     "byline": "Mariana Mazzucato",
@@ -62,14 +62,6 @@
     "free": true,
     "bio": "",
     "fetched": "2026-10-15T19:43:29+00:00"
-  },
-  "https://www.project-syndicate.org/commentary/global-debt-crisis-looming-higher-interest-rates-crushing-developing-countries-by-paolo-gentiloni-et-al-2026-10": {
-    "byline": "Paolo Gentiloni, Trevor Manuel and Mahmoud Mohieldin",
-    "body": "<p>WASHINGTON, DC\u2014The world is edging closer to a global debt crisis. The Iran war may have been the spark, but dry tinder has been piling up for quite a while. After a decade of debt accumulation, higher interest rates and growing refinancing needs have left the global economy increasingly exposed to shocks. And with ongoing conflicts driving up energy prices, renewed inflationary pressures are testing the limits of the existing debt architecture.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-10-15T13:06:05+00:00"
   },
   "https://www.project-syndicate.org/commentary/global-south-networks-key-to-sustainable-responsible-mining-governance-by-hasrul-hanif-2026-10": {
     "byline": "Hasrul Hanif",
@@ -150,6 +142,14 @@
     "free": true,
     "bio": "",
     "fetched": "2026-10-16T03:22:25+00:00"
+  },
+  "https://www.project-syndicate.org/onpoint/ai-revolution-could-leave-everyone-worse-off-by-ian-goldin-2026-10": {
+    "byline": "Ian Goldin",
+    "body": "<p>OXFORD\u2014The divide between AI fantasists and doomsters is growing. The fantasists believe AI will turbocharge growth and create a utopian world of abundance. The doomsters believe it poses an existential threat to humanity and that, before killing us, it will lead to mass unemployment and a world of pervasive surveillance and alternative realities. Who is right? And can governments do anything to mitigate the risk of catastrophe?</p>",
+    "truncated": true,
+    "free": false,
+    "bio": "",
+    "fetched": "2026-10-16T13:02:57+00:00"
   },
   "https://www.project-syndicate.org/onpoint/china-excessive-surveillance-has-taught-people-to-hide-the-truth-by-yaqiu-wang-2026-10": {
     "byline": "Yaqiu Wang",
