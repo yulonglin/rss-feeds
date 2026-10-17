@@ -388,26 +388,5 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Stress-testing+Alignment+Midtraining&amp;amp;searchtype=title"&gt;&lt;strong&gt;Stress-testing Alignment Midtraining&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Sid Baines, Jonathan Bostock, Maria Angelica Martinez, Andrew Draganov, David Africa, Daniel Tan&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 17) · relevance 68&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
-    <item>
-      <title>Scholar Inbox, 17 Sep 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:60bf7f41e1c738b7</guid>
-      <pubDate>Thu, 17 Sep 2026 08:36:53 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• Beyond Routine Compliance: Cunning Data Cultivates Safety Vigilance in Large Language Models
-• The Missing "I Don't Know": Why Three Reasoning-Reliability Findings Converge on Calibrated Abstention
-• Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations
-• A Large-Scale Empirical Study of Quality Assurance Practices and Gaps in AI Agents
-• Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks</description>
-      <content:encoded>&lt;p&gt;Matched 63 of 1770 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Beyond+Routine+Compliance%3A+Cunning+Data+Cultivates+Safety+Vigilance+in+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Beyond Routine Compliance: Cunning Data Cultivates Safety Vigilance in Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Youjia Wang, Lin Xu, Yang Sun, Yuxiao Lu, Chengfang Fang, Jie Shi&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 16) · relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Missing+%22I+Don%27t+Know%22%3A+Why+Three+Reasoning-Reliability+Findings+Converge+on+Calibrated+Abstention&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Missing "I Don't Know": Why Three Reasoning-Reliability Findings Converge on Calibrated Abstention&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Srijith Ravikumar&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 15) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Monitoring+and+Discovering+Reward+Hacking+with+Internal+Representations+during+LLM+Evaluations&amp;amp;searchtype=title"&gt;&lt;strong&gt;Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Leon Bergen, Usha Bhalla, Andrew Lee, Barak Widawsky, Linas Nasvytis, Connor Watts, Siddharth Boppana, Sidharth Baskaran, Dron Hazra, ..., Jack Merullo&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 16) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=A+Large-Scale+Empirical+Study+of+Quality+Assurance+Practices+and+Gaps+in+AI+Agents&amp;amp;searchtype=title"&gt;&lt;strong&gt;A Large-Scale Empirical Study of Quality Assurance Practices and Gaps in AI Agents&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Wuyang Dai, Moses Openja, Jiho Shin, Hung Viet Pham, Song Wang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 15) · relevance 75&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Reflections+on+Trusting+Trust%2C+Revisited%3A+Contaminating+Self-Modifying+AI+Coding+Agents+with+Poisoned+Benchmarks&amp;amp;searchtype=title"&gt;&lt;strong&gt;Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Franziska Roesner, Tadayoshi Kohno&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 15) · relevance 73&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
   </channel>
 </rss>
