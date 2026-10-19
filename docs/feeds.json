@@ -1,7 +1,7 @@
 {
   "site": "https://feeds.yulonglin.com/",
   "repo": "https://github.com/yulonglin/rss-feeds",
-  "generated": "2026-10-18",
+  "generated": "2026-10-19",
   "feeds": [
     {
       "slug": "openai-alignment-research",
@@ -154,7 +154,7 @@
       "upstream_status": "Official /api/rss/ai exists but each item is only the emoji headline and a link: no summary and none of the stories.",
       "notes": "",
       "items": 20,
-      "newest": "2026-10-16",
+      "newest": "2026-10-19",
       "healthy": true
     },
     {
@@ -280,7 +280,7 @@
       "upstream_status": "Official /rss is valid but summary-only, keeps the image in an enclosure most readers ignore, tags every link with utm tracking and credits only the first author of co-written pieces. Most article pages serve anonymous readers only the opening paragraph, then a registration wall.",
       "notes": "",
       "items": 20,
-      "newest": "2026-10-16",
+      "newest": "2026-10-19",
       "healthy": true
     },
     {
