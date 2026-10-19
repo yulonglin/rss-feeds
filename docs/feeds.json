@@ -167,8 +167,8 @@
       "source_url": "https://www.readtangle.com/",
       "upstream_status": "Official /rss/ is complete but interleaves the daily with video and podcast teasers, paywalled previews, recaps, reader essays and sponsor cards.",
       "notes": "",
-      "items": 2,
-      "newest": "2026-10-15",
+      "items": 3,
+      "newest": "2026-10-19",
       "healthy": true
     },
     {
@@ -237,8 +237,8 @@
       "source_url": "https://www.scholar-inbox.com/",
       "upstream_status": "Email only. Each digest is a stack of styled table cards, titled with an ambiguous dd/mm date, and every link in it is a personal auto-login link.",
       "notes": "Rebuilt from each paper's fields; nothing from the email's markup or links is kept.",
-      "items": 17,
-      "newest": "2026-10-16",
+      "items": 18,
+      "newest": "2026-10-19",
       "healthy": true
     },
     {

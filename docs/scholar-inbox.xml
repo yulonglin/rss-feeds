@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 16 Oct 2026 09:11:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 15:57:50 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 19 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:a0832cf0e4e7aade</guid>
+      <pubDate>Mon, 19 Oct 2026 15:57:50 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Can LLMs predict the outcomes of machine learning experiments?
+• Language Models Learn to Improve Language Models
+• Compression Precedes, Content Decides: Emergent Misalignment in Reward Models
+• ECHO: Replacing the Compliance Proxy with Response Harmfulness in Optimization-Based Jailbreak Attack
+• Refusal Is Not Robustness: Measuring Harmful Reachability in Autoregressive Language Models</description>
+      <content:encoded>&lt;p&gt;Matched 96 of 1619 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Can+LLMs+predict+the+outcomes+of+machine+learning+experiments%3F&amp;amp;searchtype=title"&gt;&lt;strong&gt;Can LLMs predict the outcomes of machine learning experiments?&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ayush Bansal, Aldo Pareja, Sean Klein, Serge Didenko, Artem Lukoianov&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 15) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Language+Models+Learn+to+Improve+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Language Models Learn to Improve Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Minhua Lin, Zijun Wang, Zewen Liu, Zhaotian Weng, Bing He, Zhan Shi, Benoit Dumoulin, Xiang Zhang, Suhang Wang, Hanqing Lu&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 16) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Compression+Precedes%2C+Content+Decides%3A+Emergent+Misalignment+in+Reward+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Compression Precedes, Content Decides: Emergent Misalignment in Reward Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Dhruv Puri, Nikhil Prakash&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 16) · relevance 82&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=ECHO%3A+Replacing+the+Compliance+Proxy+with+Response+Harmfulness+in+Optimization-Based+Jailbreak+Attack&amp;amp;searchtype=title"&gt;&lt;strong&gt;ECHO: Replacing the Compliance Proxy with Response Harmfulness in Optimization-Based Jailbreak Attack&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yuanwei Wu, Lingdong Huang, Yunlong Mao, Kanye Ye Wang, Jingyu Hua, Sheng Zhong&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 16) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Refusal+Is+Not+Robustness%3A+Measuring+Harmful+Reachability+in+Autoregressive+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Refusal Is Not Robustness: Measuring Harmful Reachability in Autoregressive Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Parv Kapoor and Teresa Fortes and Claudia Mamede and Rui Abreu and Jonathan Aldrich, Eunsuk Kang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 15) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 16 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
