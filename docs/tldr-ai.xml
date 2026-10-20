@@ -9,7 +9,65 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Mercury 3 🤖, MiniMax Flash 3.1 ⚡, Exa 3 🔎</title>
+      <link>https://tldr.tech/ai/2026-10-20</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• MiniMax M3.1 Flash: Redefining Agent Performance and Cost
+• Mercury 3
+• Introducing Clairic, a new System One class of extraction models
+• Import AI 477: In which I tell the IMF the Singularity has begun
+• AI Benchmarks: Climbing the Wrong Hills
+• Inside Meta's Gigawatt-Scale AI Supercluster
+• Introducing TorchNeuron: Native PyTorch backend for AWS Trainium
+• Introducing Exa 3.0
+• Office Intelligence for Long-Running AI Work
+• Nscale and Anthropic are reportedly in talks for yet another $45B compute deal
+• AI lab offers free plumbing and HVAC repairs across three cities to train AI robots
+• Improving AI Coding in Older Programming Languages
+• The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do
+• How to shape your slides and videos with Gemini Notebook
+• Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.minimax.io/blog/minimax-m31f"&gt;MiniMax M3.1 Flash: Redefining Agent Performance and Cost&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;MiniMax M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use, and cybersecurity. It makes online inference nearly three times faster and reduces usage costs by 70%. The model is now available through the MiniMax API, M Plan, and MiniMax Code. MiniMax plans to release the model weights at a later date.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.inceptionlabs.ai/blog/introducing-mercury-3"&gt;Mercury 3&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Inception Labs&amp;#x27; Mercury 3 is a diffusion-based language model that reportedly outperformed GPT-6 Luna and Claude Haiku 5.5 on multiple benchmarks while generating over 1,000 tokens per second.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.cloudflare.com/clairic-extraction-model"&gt;Introducing Clairic, a new System One class of extraction models&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Clairic can extract, compute, estimate, and forecast values from unstructured inputs. It is an &amp;#x27;extraction model&amp;#x27;, a new class of System One-style model that returns values directly extracted from the input, computed from it, or predicted beyond it. The model doesn&amp;#x27;t generate any tokens, so it can&amp;#x27;t produce a mistyped answer or hallucinate in the same way LLMs can. It can still make mistakes, but its outputs come with confidence scores to help users evaluate whether it is appropriate to trust the model or to take a second look.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://importai.substack.com/p/import-ai-477-in-which-i-tell-the"&gt;Import AI 477: In which I tell the IMF the Singularity has begun&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI&amp;#x27;s impact on national security and economic trajectories marks the onset of the singularity, accelerating scientific and technological progress. AI systems like Claude, ChatGPT, and Gemini are already solving complex problems in disciplines like mathematics, biology, and robotics, indicating potential for widespread innovation. To capitalize on these advancements, there needs to be significant infrastructure development and careful governance to navigate the associated risks and ensure equitable benefits.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://research.contrary.com/report/ai-benchmarks-climbing-the-wrong-hills"&gt;AI Benchmarks: Climbing the Wrong Hills&lt;/a&gt; &lt;small&gt;· 24 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI benchmarks are now shaping how models are evaluated in training and the capabilities they are designed to have. Poorly constructed benchmarks could push the industry in the wrong direction. Creating benchmarks impervious to benchmaxxing requires expertise in measuring what we actually want from AI systems. As benchmaxxing continues, researchers must decide which hills they want to climb and whether today&amp;#x27;s benchmarks actually reward progress in that direction.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/"&gt;Inside Meta&amp;#x27;s Gigawatt-Scale AI Supercluster&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta details the engineering behind Prometheus, its gigawatt-scale AI supercluster supporting the Muse model family. It explores its infrastructure design, plans to scale toward roughly one million GPUs, and closed-loop liquid cooling technology.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/"&gt;Introducing TorchNeuron: Native PyTorch backend for AWS Trainium&lt;/a&gt; &lt;small&gt;· 27 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;TorchNeuron is an open-source native PyTorch backend for Trainium. It uses the model code, the libraries, and the tools developers already use on Trainium. TorchNeuron supports eager execution for research and debugging. It has been released in public Beta under the Apache 2.0 open source licence.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://exa.ai/blog/exa-3"&gt;Introducing Exa 3.0&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Exa 3.0 leads on evaluations spanning coding, finance, deep research, and company intelligence. The release includes Exa Lite, a new search type priced at $4 per 1,000 requests. Exa runs its own crawler and an independent index, tracking over 2 trillion URLs, serving 100 billion pages, and growing around what its customers search for. The index includes 1.27B ecommerce listings with prices and availability, over 211 million local businesses with hours and ratings, real-time news, sports, weather, and market data, and information on flights, local events, transit, and podcasts.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://officeintelligence.github.io/"&gt;Office Intelligence for Long-Running AI Work&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Office Intelligence explores how AI agents can use evidence, create useful work artifacts, and carry knowledge across tasks. The project focuses on environments, datasets, and learning methods for sustained knowledge work.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"&gt;Nscale and Anthropic are reportedly in talks for yet another $45B compute deal&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic and Nscale may be on the verge of announcing another $45 billion compute deal. The two companies announced a $45 billion compute deal only a little over a month ago. Both companies are currently pursuing IPOs. Anthropic is still expected to go public this year. Nscale is experiencing investor pushback over its proposed valuation of $30 billion.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning"&gt;AI lab offers free plumbing and HVAC repairs across three cities to train AI robots&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI lab HUMXN is subsidizing plumbing, electrical, HVAC, air-duct cleaning, and carpet cleaning in Minneapolis, Chicago, and Miami so it can gather real-world data to train AI robots. The laborers doing the jobs will wear cameras to record their work inside real homes. People living in the three cities the program is running in can check whether they qualify on the HUMXN Free Home Service webpage.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/low-resource-programming-languages/"&gt;Improving AI Coding in Older Programming Languages&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI reported major improvements in coding and software migration across languages such as COBOL, Fortran, and Visual Basic.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/"&gt;The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta built an orchestrator that routes workflows to specialized AI agents without performing any of the domain work itself.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/"&gt;How to shape your slides and videos with Gemini Notebook&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Gemini Notebook offers tools to create slides and videos with AI-driven design suggestions.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/"&gt;Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The vLLM engine introduced a push-based KV transfer to minimize time-to-first-token (TTFT) and time-per-output-token (TPOT) in disaggregated inference setups.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>DeepSeek’s new Flash ⚡, Replit drops Anthropic 🔄, Anthropic’s workforce 💼</title>
       <link>https://tldr.tech/ai/2026-10-19</link>
@@ -1101,73 +1159,6 @@
 &lt;p&gt;OpenAI improved prompt caching for GPT-6 with higher default cache hit rates, discounts for shared prefixes reused within 30 minutes, and new tools for monitoring and diagnosing cache performance.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://earnedintuition.substack.com/p/involution-without-export-is-wasted"&gt;Involution Without Export Is Wasted Effort&lt;/a&gt; &lt;small&gt;· 28 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;If you don&amp;#x27;t go overseas, all that grinding was for nothing.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Opus 5.5 imminent ⏳, Grok 4.7 🚀, MiMo v2.6 🤖</title>
-      <link>https://tldr.tech/ai/2026-09-22</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-22</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• Xiaomi open-sources MiMo-V2.6 Pro and Flash models
-• Introducing Grok 4.7
-• Anthropic tests Fable 5.2 and Opus 5.5 ahead of the release
-• Meta's Muse personal AI agent tops ChatGPT, Grok and Claude for post-launch downloads
-• The Great Unbundling of Intelligence
-• The Business of Building God
-• Swarm Scaling
-• The current balance of power in open models
-• Qwen's RecreationWorld Trains Agents to Rebuild Apps
-• Bringing Devin Cloud to your terminal
-• MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement
-• AI Comes for the If Statement
-• Advisory Group on Mathematics and Artificial Intelligence
-• Kev
-• AWS Launches Strands Harness, an Agent That Brings Its Own Everything but the Model
-• Aikido Altar: open-weight AI for sovereign security
-• StepFun's Step 5 Preview
-• Alibaba Unveils AI Chip to Drive 20GW of Data Centers by 2032</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/xiaomi-open-sources-mimo-v2-6-pro-and-flash-models/"&gt;Xiaomi open-sources MiMo-V2.6 Pro and Flash models&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Xiaomi MiMo-V2.6 Pro and Flash are omnimodal models that can coordinate agents to construct and visually test interactive 3D scenes. They can create Blender assets, control a robotic arm from camera feeds, produce frontends and presentations, assemble videos, and compose music as scores and MIDI. The models are now available in AI Studio, MiMo Code, MiMo Desktop, Xiaomi&amp;#x27;s MiMo API Platform, and OpenRouter. Xiaomi has published the technical report, training environments, and RL code alongside the models.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.ai/news/grok-4-7"&gt;Introducing Grok 4.7&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Grok 4.7 enhances coding and knowledge work capabilities with improved self-verification and safeguards, using a new, larger base model. It offers competitive pricing with $2 per million input tokens and $6 per million output tokens. Excelling in various benchmarks, it shows top-notch safety features, especially in cybersecurity tasks, limiting risky command execution.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/anthropic-tests-fable-5-2-and-opus-5-5-ahead-of-the-release/"&gt;Anthropic tests Fable 5.2 and Opus 5.5 ahead of the release&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic is starting to test its upcoming frontier model in the wild. Several people have posted outputs that seem to come from a newer, more advanced model. Anthropic may be announcing Opus 5.5 this week. The model is rumored to be priced at $4 per million input tokens and $20 per million output tokens.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/09/21/meta-muse-personal-ai-agent-downloads.html"&gt;Meta&amp;#x27;s Muse personal AI agent tops ChatGPT, Grok and Claude for post-launch downloads&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Meta&amp;#x27;s Muse AI app has surged to the top of the iOS App Store charts in the US, outpacing ChatGPT and other AI tools with 730,000 downloads shortly after its release. Powered by the Muse Spark AI models, the app allows users to manage digital assistants for tasks like filling forms and organizing emails. While Muse&amp;#x27;s popularity highlights growing consumer interest, privacy concerns persist, with Amazon blocking the app over security risks, although Shopify has partnered with Meta to integrate agentic checkout.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://x.com/JayaGup10/status/2101799427145183571"&gt;The Great Unbundling of Intelligence&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Agent economics are pushing AI from frontier-by-default toward capability-level routing, where judgment, ranking, search, and verification use cheaper specialized systems. Frontier models may handle fewer but harder tasks as applications become intelligence compilers that recombine services efficiently.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.strangeloopcanon.com/p/the-business-of-building-god"&gt;The Business of Building God&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AI labs like OpenAI and Anthropic lead with a small model advantage but face competition as costs rise and open-source models close the gap. To sustain profits, labs aim to expand into new sectors, ranging from ads to robotics, while also exploring automation through recursive self-improvement (RSI). However, the path is fraught with uncertainty as enormous financial and talent investments may only maintain a temporary edge amid shifting economic and regulatory landscapes.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.tobyord.com/writing/swarm-scaling"&gt;Swarm Scaling&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Scaling up the number of agents in a swarm by 10x doesn&amp;#x27;t get as much performance as using 10x as many tokens with one agent. This shortfall accumulates quickly for larger scale-ups, with the swarm falling further and further behind. However, swarms can theoretically achieve the same task in much less time as they are run in parallel. The speedup is substantial, so swarms are useful in situations where a large premium is paid for speed.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.interconnects.ai/p/the-current-balance-of-power-in-open"&gt;The current balance of power in open models&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The gap from open to closed models available to users has been decreasing over the last 3 years. Open model usage is exploding in high-value industries. Open-weight models have passed an inflection point in economic viability. Chinese labs are clearly maintaining their status as the leaders of the open-weight AI ecosystem.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://github.com/QwenLM/RecreationWorld"&gt;Qwen&amp;#x27;s RecreationWorld Trains Agents to Rebuild Apps&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;RecreationWorld is a five-platform framework for training hybrid computer-use agents to explore GUIs, implement software with coding tools, and visually verify their work.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://devin.ai/blog/devin-cloud-in-your-terminal"&gt;Bringing Devin Cloud to your terminal&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Developers can now create, steer, resume, and watch Devin Cloud sessions from their terminal. Devin CLI can now transfer any ask to Devin to continue iterating on with its own cloud VM. Users can continue to observe and steer progress directly from the terminal as if Devin were working locally. Cognition is offering free SWE-2 sessions until October 8 so developers can try Devin Cloud from the terminal.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.alphaxiv.org/abs/2609.mimo-scaling-reinforcement-learning"&gt;MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Reinforcement learning is the central training paradigm for advancing large foundation models towards self-improvement. The Mimo-V2.6 series is an omni-model family that pushes the frontier of model intelligence by scaling RL compute. Training was kept stable at scale by freezing the MoE router and establishing a multi-layer defense against reward hacking. The training dynamics, RL environments, and RL framework have been open-sourced to facilitate reproduction and further research on scaled RL and model self-improvement.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://tomtunguz.com/ai-comes-for-the-if-statement"&gt;AI Comes for the If Statement&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;New AI models like Jev2 and SemIf streamline the if-then decision-making process, cutting costs by 99% and improving accuracy from 47% to over 80% in tests. These advancements optimize coding primitives, potentially transforming AI&amp;#x27;s economic model by using specialized systems for production. Specialization in these models promises significant cost savings while maintaining high accuracy.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/advisory-group-on-mathematics-and-ai/"&gt;Advisory Group on Mathematics and Artificial Intelligence&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI has trained a new internal model that solved the Navier–Stokes Millennium Prize problem and over 100 open mathematical challenges. In response, OpenAI established an independent advisory group involving prominent mathematicians to guide the responsible development and dissemination of math-related AI capabilities. This group will independently assess, advise, and communicate these advances to ensure AI&amp;#x27;s mathematical benefits align with community needs.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://github.com/jaredpalmer/kev"&gt;Kev&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Kev is an open-source family of small Jev-like decision models that run locally and return calibrated probabilities for yes/no, multiple-choice, and rating questions.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://thelettertwo.com/2026/09/21/aws-strands-harness"&gt;AWS Launches Strands Harness, an Agent That Brings Its Own Everything but the Model&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AWS&amp;#x27; new Strands harness is a ready-to-run agent that can search the web, run commands, edit files, remember what it did yesterday, and hand off work to helper agents.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.aikido.dev/blog/aikido-altar-open-weight-ai-sovereign-security"&gt;Aikido Altar: open-weight AI for sovereign security&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Aikido Altar is an open-weight AI model that enhances Aikido Machine&amp;#x27;s pentesting capabilities while operating entirely within a customer&amp;#x27;s infrastructure.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2102213621963243704.html"&gt;StepFun&amp;#x27;s Step 5 Preview&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Step 5 Preview has 600B total and 27B active parameters and matches Kimi K3 (max) at around 2.8 times lower cost per task.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://finance.yahoo.com/technology/ai/articles/alibaba-unveils-ai-chip-drive-022139864.html"&gt;Alibaba Unveils AI Chip to Drive 20GW of Data Centers by 2032&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Alibaba&amp;#x27;s new Zhenwu V900 accelerator triples the performance of its predecessor.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>

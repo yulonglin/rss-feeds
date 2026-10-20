@@ -9,7 +9,15 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-alignment-all-50.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 15 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Beyond g-mean²: complementary metrics for monitorability</title>
+      <link>https://alignment.openai.com/beyond-gmean-squared/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/beyond-gmean-squared/</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>Pair-matched comparisons and post-control risk complement g-mean² when evaluating model monitorability.</description>
+    </item>
     <item>
       <title>Using a funded test cryptocurrency wallet without authorization</title>
       <link>https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/</link>
@@ -477,14 +485,6 @@ Compaction behavior · Concealment</description>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
       <category>Research and Releases</category>
       <description>A pipeline to uncover unknown misaligned behavior and scale the creation of realistic evaluations.</description>
-    </item>
-    <item>
-      <title>A Practical Approach to Verifying Code at Scale</title>
-      <link>https://alignment.openai.com/scaling-code-verification/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/scaling-code-verification/</guid>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Research and Releases</category>
-      <description>We train and deploy an AI review agent optimised for precision and real-world use, enabling oversight to scale with autonomous code generation.</description>
     </item>
   </channel>
 </rss>
