@@ -1,4 +1,12 @@
 {
+  "https://www.project-syndicate.org/commentary/after-brazil-election-mexico-will-be-surrounded-by-trump-aligned-leaders-by-guillermo-ortiz-2026-10": {
+    "byline": "Guillermo Ortiz",
+    "body": "<p>MEXICO CITY\u2014Latin America\u2019s political map has been redrawn with remarkable speed. Since April 2025, center- or far-right forces have <a href=\"https://www.lanacion.com.ar/ideas/america-latina-redibuja-su-mapa-politico-nid16052026/\">won power</a> in Bolivia, Chile, <a href=\"https://www.theguardian.com/world/2026/jun/21/far-right-millionaire-abelardo-de-la-espriella-wins-colombia-presidential-runoff\">Colombia</a>, Costa Rica, Ecuador, Honduras, and <a href=\"https://www.nytimes.com/es/2026/06/29/espanol/america-latina/keiko-fujimori-gana-elecciones-peru.html\">Peru</a>. In Argentina, President Javier Milei\u2019s populist party secured a decisive victory in <a href=\"https://english.elpais.com/international/2025-10-27/milei-wins-argentinas-midterm-elections-with-more-than-40-of-the-vote.html\">midterm elections</a> last October. And in Brazil, the right-wing Senator Fl\u00e1vio Bolsonaro <a href=\"https://en.mercopress.com/2026/10/05/flavio-bolsonaro-edges-lula-in-the-first-round-both-head-to-an-october-25-runoff\">finished ahead</a> of President <a href=\"https://www.project-syndicate.org/columnist/luiz-inacio-lula-da-silva\">Luiz In\u00e1cio Lula da Silva</a> in the first round of the recent presidential election 47% to 45%.</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-10-20T13:22:40+00:00"
+  },
   "https://www.project-syndicate.org/commentary/ai-firms-and-executives-must-be-held-liable-for-all-harms-caused-by-their-products-by-danielle-keats-citron-2026-10": {
     "byline": "Danielle Keats Citron",
     "body": "<p>CHARLOTTESVILLE\u2014Twenty years ago, I argued that the creation of databases of sensitive information\u2014including home addresses, biometric data, and Social Security numbers\u2014should be understood as <a href=\"https://southerncalifornialawreview.com/wp-content/uploads/2018/01/80_241.pdf\">ultrahazardous activities</a>. They could be managed only if the entities creating them were held fully liable for breaches. As AI models generate new and extreme risks, the need for a strict-liability regime is urgent. If frontier companies bore strict responsibility for the destruction caused by their AI chatbots and agents, they might <a href=\"https://us.macmillan.com/books/9781250454010/theagichronicles/\">slow down</a> to figure out how to conduct their activities safely and change course where that is not possible.</p>",
@@ -90,14 +98,6 @@
   "https://www.project-syndicate.org/commentary/key-sources-of-risk-to-the-global-economy-include-inflation-debt-and-polarization-by-dambisa-moyo-2026-10": {
     "byline": "Dambisa Moyo",
     "body": "<p>JAIPUR\u2014It is difficult to remember a time when economies, financial markets, politics, and societies were subject to significant volatility and uncertainty simultaneously, let alone to the degree they are today.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-10-19T15:19:04+00:00"
-  },
-  "https://www.project-syndicate.org/commentary/pause-on-frontier-ai-models-could-be-hardwired-into-chip-design-by-barry-eichengreen-et-al-2026-10": {
-    "byline": "Barry Eichengreen, Will Fithian and Wesley Holliday",
-    "body": "<p>BERKELEY\u2014Dario Amodei, a co-founder of Anthropic, among others, has <a href=\"https://darioamodei.com/post/we-must-pace-the-frontier\">warned</a> that AI poses an existential threat to humankind. Others have <a href=\"https://www.nytimes.com/2026/09/21/opinion/bernie-sanders-case-ai-policy.html\">gone further</a> and argued for pausing the training of new frontier AI models. The counterargument is that regulation, including self-regulation, is unlikely to be effective. And even if a pause is feasible in principle, there is little hope that it could be sustained in practice, given that the United States and China desperately fear falling behind each other.</p>",
     "truncated": true,
     "free": true,
     "bio": "",
