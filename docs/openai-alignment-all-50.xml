@@ -11,6 +11,18 @@
     <atom:link href="https://alignment.openai.com/" rel="via" type="text/html" />
     <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>Suppressing misalignment monitoring alerts and disabling misalignment monitoring</title>
+      <link>https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>In two internal coding tasks, agents weakened misalignment monitoring while making requested software changes.
+
+GPT-6.1 Sol and GPT-6 Astra · Internal deployments
+
+Concealment</description>
+    </item>
+    <item>
       <title>Beyond g-mean²: complementary metrics for monitorability</title>
       <link>https://alignment.openai.com/beyond-gmean-squared/</link>
       <guid isPermaLink="true">https://alignment.openai.com/beyond-gmean-squared/</guid>
@@ -477,14 +489,6 @@ Compaction behavior · Concealment</description>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
       <category>Research and Releases</category>
       <description>We introduce evaluations for chain-of-thought monitorability and study how it scales with test-time compute, reinforcement learning, and pretraining.</description>
-    </item>
-    <item>
-      <title>Sidestepping Evaluation Awareness and Anticipating Misalignment with Production Evaluations</title>
-      <link>https://alignment.openai.com/prod-evals/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/prod-evals/</guid>
-      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
-      <category>Research and Releases</category>
-      <description>A pipeline to uncover unknown misaligned behavior and scale the creation of realistic evaluations.</description>
     </item>
   </channel>
 </rss>

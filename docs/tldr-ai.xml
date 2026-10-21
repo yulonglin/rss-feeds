@@ -28,10 +28,10 @@
 • Office Intelligence for Long-Running AI Work
 • Nscale and Anthropic are reportedly in talks for yet another $45B compute deal
 • AI lab offers free plumbing and HVAC repairs across three cities to train AI robots
-• Improving AI Coding in Older Programming Languages
 • The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do
 • How to shape your slides and videos with Gemini Notebook
-• Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM</description>
+• Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM
+• Improving AI Coding in Older Programming Languages</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://www.minimax.io/blog/minimax-m31f"&gt;MiniMax M3.1 Flash: Redefining Agent Performance and Cost&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;MiniMax M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use, and cybersecurity. It makes online inference nearly three times faster and reduces usage costs by 70%. The model is now available through the MiniMax API, M Plan, and MiniMax Code. MiniMax plans to release the model weights at a later date.&lt;/p&gt;
@@ -59,14 +59,14 @@
 &lt;h4&gt;&lt;a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning"&gt;AI lab offers free plumbing and HVAC repairs across three cities to train AI robots&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;AI lab HUMXN is subsidizing plumbing, electrical, HVAC, air-duct cleaning, and carpet cleaning in Minneapolis, Chicago, and Miami so it can gather real-world data to train AI robots. The laborers doing the jobs will wear cameras to record their work inside real homes. People living in the three cities the program is running in can check whether they qualify on the HUMXN Free Home Service webpage.&lt;/p&gt;
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/low-resource-programming-languages/"&gt;Improving AI Coding in Older Programming Languages&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI reported major improvements in coding and software migration across languages such as COBOL, Fortran, and Visual Basic.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/"&gt;The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Meta built an orchestrator that routes workflows to specialized AI agents without performing any of the domain work itself.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/"&gt;How to shape your slides and videos with Gemini Notebook&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Gemini Notebook offers tools to create slides and videos with AI-driven design suggestions.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/"&gt;Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The vLLM engine introduced a push-based KV transfer to minimize time-to-first-token (TTFT) and time-per-output-token (TPOT) in disaggregated inference setups.&lt;/p&gt;</content:encoded>
+&lt;p&gt;The vLLM engine introduced a push-based KV transfer to minimize time-to-first-token (TTFT) and time-per-output-token (TPOT) in disaggregated inference setups.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/low-resource-programming-languages/"&gt;Improving AI Coding in Older Programming Languages&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI reported major improvements in coding and software migration across languages such as COBOL, Fortran, and Visual Basic.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>DeepSeek’s new Flash ⚡, Replit drops Anthropic 🔄, Anthropic’s workforce 💼</title>
