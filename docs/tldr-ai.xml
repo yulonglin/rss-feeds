@@ -9,7 +9,67 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>DeepSeek DeepInfer 🐋, PyTorch on TPUs ⚡, Ramp’s agent framework 👨‍💻</title>
+      <link>https://tldr.tech/ai/2026-10-21</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Voxtral 3: Voice Agent SDK &amp; Speech Models in 50+ Languages
+• Google and Meta Bring Native PyTorch Support to TPUs
+• DeepSeek V4.1 Flash: Large-Scale Inference Deployment
+• Making every harness durable
+• Building Laminar: Ramp's Managed Agents Platform
+• llm-d
+• Sundar Pichai on Google's AI Strategy and Compute Tradeoffs
+• OpenAI Acquires Orchestra Bio to Accelerate Drug Development
+• Coxon Day
+• Beyond g-mean²: Complementary Metrics for Monitorability
+• Superhuman Hardware Design Is The Easy Part
+• Eleven Realtime
+• Meta's Muse Reaches 10 Million US Downloads in 40 Days
+• MemCurrent: Designing Persistent Memory for Production Agents
+• ChatGPT now lets you lock your chats
+• Spark-X2.6-4B: Stronger On-Device AI Agents</description>
+      <content:encoded>&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://mistral.ai/news/voxtral-3/"&gt;Voxtral 3: Voice Agent SDK &amp;amp; Speech Models in 50+ Languages&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Voxtral 3 offers advanced speech-to-text and text-to-speech capabilities across 50+ languages. Featuring models like Small Transcribe 3 for multilingual transcription and Mini TTS 3 for natural emotional speech, it includes a voice agent SDK combining real-time listening, reasoning, and speaking, enabling seamless interactions and task execution over phone or web.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://pytorch.org/blog/introducing-torchtpu/"&gt;Google and Meta Bring Native PyTorch Support to TPUs&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;TorchTPU is an open-source PyTorch backend designed to make running and migrating models to Google&amp;#x27;s TPUs easier. It supports training and inference through optimized eager execution, torch.compile integration, and native hardware acceleration.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://zhuanlan.zhihu.com/p/2095560295930508953"&gt;DeepSeek V4.1 Flash: Large-Scale Inference Deployment&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;DeepInfer combines distributed inference, caching, load balancing, and speculative decoding to improve efficiency. DeepSeek processes 155 trillion tokens daily per cluster and earns $38 in revenue per GPU-hour while open-sourcing much of its inference framework.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://vercel.com/blog/making-every-harness-durable"&gt;Making every harness durable&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Vercel&amp;#x27;s durable-harness allows agent harnesses to run durably in the cloud out-of-the-box. It allows users to run Pi, OpenCode, Codex, and Claude Code durably on Vercel or self-hosted on their own Postgres instance. durable-harness ensures that sessions survive crashes mid-turn and keep running even if the browser disconnects. Turns that lose function partway through continue from the log on a new one without manual retry and without repeating what already finished.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://builders.ramp.com/post/building-laminar"&gt;Building Laminar: Ramp&amp;#x27;s Managed Agents Platform&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Laminar is an in-house agent harness for Ramp&amp;#x27;s agentic products. It features secure conversation history storage, session compaction, standard interfaces for tool calling, message queuing and steering, subagents, multiplayer chat support, observability tooling, and much more. The first version of Laminar was built in six weeks with a small team of obsessive, experienced engineers who worked with and steered the agents. Its code was generated entirely by agents using the most powerful models available at the time. While building in-house has become cheaper, Ramp still needs good engineers to be on-call, keep the platform healthy, and figure out what product teams actually need and how it fits into the bigger picture.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://llm-d.ai/"&gt;llm-d&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;llm-d is a Kubernetes-native stack for distributed LLM inference. It runs vLLM, SGLang, and more across clusters, turning single-node engines into production-grade serving on local hardware. llm-d provides tested deployment recipes for common production patterns that are adaptable starting points across models, hardware, and workloads. It runs production LLM inference across GPUs, TPUs, XPUs, CPUs, and emerging NPUs with consistent performance patterns, so teams can deploy once and scale anywhere with predictable cost and behavior.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative"&gt;Sundar Pichai on Google&amp;#x27;s AI Strategy and Compute Tradeoffs&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google CEO Sundar Pichai discussed the company&amp;#x27;s commitment to frontier AI research, including sacrificing short-term cloud revenue to allocate compute to model development.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/openai-to-acquire-orchestra-bio/"&gt;OpenAI Acquires Orchestra Bio to Accelerate Drug Development&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI acquired Orchestra Bio to combine its AI-powered drug development coordination platform with Rosalind, its suite of life sciences AI tools.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.thenewcritic.com/p/coxon-day"&gt;Coxon Day&lt;/a&gt; &lt;small&gt;· 48 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;On September 8, Jacob Coxon, a 27-year-old machine learning researcher who had resigned from Anthropic, warned the world that AI companies were not acting responsibly and that they were gambling with people&amp;#x27;s lives by racing straight to self-improving superintelligence. Many researchers seriously believe that AI could kill all humans. While Anthropic may be trying its best, it still doesn&amp;#x27;t have a plan to solve alignment for superintelligence and is not on track to.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://alignment.openai.com/beyond-gmean-squared/"&gt;Beyond g-mean²: Complementary Metrics for Monitorability&lt;/a&gt; &lt;small&gt;· 27 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI introduces two metrics to address limitations of g-mean² in measuring model monitorability.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.a16z.news/p/superhuman-hardware-design-is-the"&gt;Superhuman Hardware Design Is The Easy Part&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The interface between the digital and physical world is lossy - this lossiness will shape when and how future superhuman hardware engineers will emerge.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://elevenlabs.io/realtime"&gt;Eleven Realtime&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Eleven Realtime is a new class of Speech-to-Speech models for building natural voice agents.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/"&gt;Meta&amp;#x27;s Muse Reaches 10 Million US Downloads in 40 Days&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta&amp;#x27;s AI companion Muse reached 10.2 million US downloads within 40 days, a milestone previously achieved by only 11 other apps.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.databricks.com/blog/memcurrent-designing-persistent-memory-production-agents"&gt;MemCurrent: Designing Persistent Memory for Production Agents&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;MemCurrent is a persistent memory architecture for production agents that can triple an agent&amp;#x27;s pass rate over no memory while also making it faster and cheaper.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/"&gt;ChatGPT now lets you lock your chats&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Locked chats are kept separate from regular chat history, pinned conversations, and chat search results.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://huggingface.co/XHToken/Spark-X2.6-4B"&gt;Spark-X2.6-4B: Stronger On-Device AI Agents&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;SparkLLM released Spark-X2.6-4B, an open-source model with improved coding, reasoning, long-context, and agentic capabilities through post-training.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Mercury 3 🤖, MiniMax Flash 3.1 ⚡, Exa 3 🔎</title>
       <link>https://tldr.tech/ai/2026-10-20</link>
@@ -1095,70 +1155,6 @@
 &lt;p&gt;AI-era education should prioritize curiosity, project-based learning, and intellectual exploration over grades and credentials.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/"&gt;A new wave of Connected Apps is rolling out to Gemini&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Gemini is adding direct integrations with tools including Linear, Adobe, Webflow, Peloton, Experian, and SeatGeek.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>GPT-6 ⚡, Opus 5.5 🧠, AI leaders at UN 🌐</title>
-      <link>https://tldr.tech/ai/2026-09-23</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-23</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• GPT-6 Sol and Luna
-• Claude Opus 5.5
-• SWE-Bench Pro V2
-• What a task costs on Opus 5.5
-• Training AI From Real-World Tool Use
-• Vinod Khosla's Two Moats for Personal AI
-• Google Publishes RRSI for Self-Improving AI Agents
-• Keeping Large MoE Training Within Fixed GPU Memory
-• Hardware-Agnostic Models in vLLM
-• China's biggest memory maker says it has caught up with Samsung and Micron
-• The Biological Computing Co. partners with AWS to sell its neuron-derived AI video model
-• GPT-6 Astra Breaks an Old Enigma Message
-• Altman and Amodei expected to join UN Security Council meeting about AI
-• Meta admits Muse's likeness to OpenClaw isn't a coincidence
-• People need to start paying attention to the issue of derived data in AI training
-• Better GPT-6 Prompt Caching
-• Involution Without Export Is Wasted Effort</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/introducing-gpt-6-sol-and-luna/"&gt;GPT-6 Sol and Luna&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI introduced GPT-6 Sol and Luna as faster, more affordable counterparts to GPT-6 Astra, bringing advances in coding, factuality, computer use, and professional tasks to lower-cost models.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/claude-opus-5-5"&gt;Claude Opus 5.5&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic introduced Claude Opus 5.5, saying it matched Claude Fable 5.1 on most work while costing 40% less to run than Opus 5. The model also underwent external evaluations and achieved Anthropic&amp;#x27;s strongest result to date on its automated behavioral audit.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://labs.scale.com/leaderboard/swe_bench_pro_public_v2"&gt;SWE-Bench Pro V2&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;SWE-BENCH PRO V2 releases with 642 tasks from 11 repositories, correcting previous task errors and optimizing evaluation processes. Performance drops for AI models, with OpenAI GPT-5 and Claude Opus 4.1 only scoring around 23% on the public set, highlighting the benchmark&amp;#x27;s increased challenge and realism compared to SWE-Bench Verified. Notably, top models show consistent results across tasks and languages, while smaller models falter under complex, multi-file scenarios.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://claude.com/blog/what-a-task-costs-on-opus-5-5"&gt;What a task costs on Opus 5.5&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Opus 5.5 reduces token costs by offering cheaper input and output tokens, with additional savings from extensive use of cache reads. Transaction costs depend on the number of turns, cache utilization, and model selection, impacting tasks based on session length and complexity.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/learning-from-real-world-experience"&gt;Training AI From Real-World Tool Use&lt;/a&gt; &lt;small&gt;· 19 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Perplexity combined rejection sampling fine-tuning with hint-guided self-distillation so its Computer model could learn from both successful sessions and user-corrected failures.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/tbpn/status/2102177383306670393"&gt;Vinod Khosla&amp;#x27;s Two Moats for Personal AI&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Personal AI may ultimately compete on two moats: trust and task completion. Vinod Khosla says users will stay loyal to companies they trust with sensitive data and products that reliably finish work, while Meta faces a trust disadvantage.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://regularized-rsi.com/"&gt;Google Publishes RRSI for Self-Improving AI Agents&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google has introduced RRSI, a method that regularizes how AI agent harnesses recursively improve themselves to reduce benchmark overfitting and encourage changes that transfer to new tasks. Across eight benchmarks, it improved out-of-distribution performance while using fewer policy tokens.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2609.14306"&gt;Keeping Large MoE Training Within Fixed GPU Memory&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;A set of scheduling techniques bounds four major memory bottlenecks in large-scale MoE training, expert dispatch, vocabulary projection, checkpointing, and optimizer state, without approximating the computation.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://pytorch.org/blog/hardware-agnostic-models-in-vllm/"&gt;Hardware-Agnostic Models in vLLM&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;vLLM introduces hardware-agnostic layers to support models across diverse hardware while maintaining high performance. These layers achieve up to 96.6% efficiency of native implementations on NVIDIA H100 GPUs while remaining torch compilable and extensible. This ensures vLLM adapts to new GPU advancements without neglecting users of older and niche accelerators.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://thenextweb.com/news/cxmt-dram-fifth-generation-mass-production-memory-shortage"&gt;China&amp;#x27;s biggest memory maker says it has caught up with Samsung and Micron&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;ChangXin Memory Technologies, China&amp;#x27;s largest maker of DRAM, says that its process capabilities are now on par with the most advanced mass-produced nodes in the industry. The company&amp;#x27;s fifth-generation DRAM platform has entered mass production. The platform yields at least 50% more dies per wafer than the previous generation. There are already two products running on the platform, both 24-gigabit LPDDR5X and holding 50% more data than the equivalent chips CXMT made before.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://thenextweb.com/news/biological-computing-co-aws-neuron-derived-ai-video-model"&gt;The Biological Computing Co. partners with AWS to sell its neuron-derived AI video model&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Biological Computing Co. is a startup that grows living neurons to improve AI models. It has partnered with AWS to bring a neuron-derived AI video model to paying customers. The neurons themselves will stay in the lab. TBC uses them during discovery, then turns what they learn into a lightweight software layer. The design means that customers won&amp;#x27;t need to maintain any biological hardware or change how they work. The optimized model runs on standard GPUs and cloud accelerators at the same capacity a company would rent for any other generative model.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html"&gt;GPT-6 Astra Breaks an Old Enigma Message&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;GPT-6 Astra analyzed the still-unbroken Enigma messages and decided the most promising message was Nr. 172, MVUEH.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/09/22/altman-amodei-unga-ai-safety.html"&gt;Altman and Amodei expected to join UN Security Council meeting about AI&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei will address the UN Security Council on AI safety and regulation amid mounting concerns about AI risks.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/"&gt;Meta admits Muse&amp;#x27;s likeness to OpenClaw isn&amp;#x27;t a coincidence&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Meta admits Muse draws heavy inspiration from the open-source project OpenClaw, despite being built from scratch.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2102311135441547405.html"&gt;People need to start paying attention to the issue of derived data in AI training&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Derived data is creative content that is rewritten by AI before it is trained on.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/better-prompt-caching-for-gpt-6/"&gt;Better GPT-6 Prompt Caching&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI improved prompt caching for GPT-6 with higher default cache hit rates, discounts for shared prefixes reused within 30 minutes, and new tools for monitoring and diagnosing cache performance.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://earnedintuition.substack.com/p/involution-without-export-is-wasted"&gt;Involution Without Export Is Wasted Effort&lt;/a&gt; &lt;small&gt;· 28 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;If you don&amp;#x27;t go overseas, all that grinding was for nothing.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
