@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 20 Oct 2026 20:56:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 09:34:16 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 21 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:bb672c9e0999bf41</guid>
+      <pubDate>Wed, 21 Oct 2026 09:34:16 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Reward Misspecification Degrades Chain-of-Thought Monitorability
+• Why Static Probes Fail: Context Determines Deception Feature Composition
+• Fundamental Impossibility Results in AI Safety: Trading Off between Desiderata
+• RSI Control: Can AI Models Perform Covert Sabotage in the Self-Improvement Process?
+• Teaching AI Agent to Play Poker Strategically Through Preference Optimization</description>
+      <content:encoded>&lt;p&gt;Matched 86 of 2052 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Reward+Misspecification+Degrades+Chain-of-Thought+Monitorability&amp;amp;searchtype=title"&gt;&lt;strong&gt;Reward Misspecification Degrades Chain-of-Thought Monitorability&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Tianyi Lorena Yan, John Hewitt&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 20) · relevance 97&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Why+Static+Probes+Fail%3A+Context+Determines+Deception+Feature+Composition&amp;amp;searchtype=title"&gt;&lt;strong&gt;Why Static Probes Fail: Context Determines Deception Feature Composition&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yao Huang, Siyuan Chen, Zhenghan Zhou, Yinpeng Dong&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 20) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Fundamental+Impossibility+Results+in+AI+Safety%3A+Trading+Off+between+Desiderata&amp;amp;searchtype=title"&gt;&lt;strong&gt;Fundamental Impossibility Results in AI Safety: Trading Off between Desiderata&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ida Mattsson, Ratip Emin Berker, Emanuel Tewolde, Ioannis Anagnostides, Kiriaki Fragkia, Xinyu Liu, Alexander Heckett, Jiayuan Liu, Eden Hartman, ..., Vincent Conitzer&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 19) · relevance 82&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=RSI+Control%3A+Can+AI+Models+Perform+Covert+Sabotage+in+the+Self-Improvement+Process%3F&amp;amp;searchtype=title"&gt;&lt;strong&gt;RSI Control: Can AI Models Perform Covert Sabotage in the Self-Improvement Process?&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Kaiwen Zhou, Udari Madhushani Sehwag&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 20) · relevance 82&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Teaching+AI+Agent+to+Play+Poker+Strategically+Through+Preference+Optimization&amp;amp;searchtype=title"&gt;&lt;strong&gt;Teaching AI Agent to Play Poker Strategically Through Preference Optimization&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Phurinat Polasa, Thanapon Thanadunpremdet, Phatthanasak Kraiduang, Saksorn Ruangtanusak&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 19) · relevance 75&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 20 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
@@ -386,27 +407,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Taming+CoT+Obfuscation+in+VLMs%3A+From+Mechanistic+Evidence+to+Activation+Enforcement&amp;amp;searchtype=title"&gt;&lt;strong&gt;Taming CoT Obfuscation in VLMs: From Mechanistic Evidence to Activation Enforcement&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Xutao Mao, Jianing Zhu, Jinman Zhao, Tongliang Liu, Xiaowen Chu, Cong Wang, Bo Han&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 21) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Are+Human-Aligned+Models+Models+of+Humans%3F+A+Turing-Test+Gap+in+Preference+Alignment&amp;amp;searchtype=title"&gt;&lt;strong&gt;Are Human-Aligned Models Models of Humans? A Turing-Test Gap in Preference Alignment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Suqin Yuan, Runqi Lin, Muyang Li, Guanzhe Hong, Jindong Gu, Lei Feng, Chris Russell, Tongliang Liu&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 20) · relevance 83&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Corroboration+Illusion%3A+When+More+News+Makes+LLM+Forecasts+Less+True&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Corroboration Illusion: When More News Makes LLM Forecasts Less True&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yuan Lu, Yukuan Zhang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 5) · relevance 79&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Scholar Inbox, 21 Sep 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:01ac254fa38ced98</guid>
-      <pubDate>Mon, 21 Sep 2026 07:35:01 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• Recursive Language Models Generalize Out of Domain
-• A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal
-• Geometry of Values: Task Vector Composition for Ethical Preference Alignment in Language Models
-• Steering LLMs Responses Towards Moral Foundations on the Norwegian MFQ-30
-• MIRAGE: Multi-Perspective Creative Language Model Reasoning with Reinforcement Learning Guidance</description>
-      <content:encoded>&lt;p&gt;Matched 42 of 1474 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Recursive+Language+Models+Generalize+Out+of+Domain&amp;amp;searchtype=title"&gt;&lt;strong&gt;Recursive Language Models Generalize Out of Domain&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Chenxiao Yang, Zhiyuan Li, David McAllester, Nathan Srebro&lt;br&gt;&lt;small&gt;ArXiv 2026 (July 23) · relevance 77&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=A+Lie+Detector+Test+for+Language+Models%3A+Reading+Knowledge+a+Model+Won%27t+Reveal&amp;amp;searchtype=title"&gt;&lt;strong&gt;A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Hiskias Dingeto&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 18) · relevance 70&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Geometry+of+Values%3A+Task+Vector+Composition+for+Ethical+Preference+Alignment+in+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Geometry of Values: Task Vector Composition for Ethical Preference Alignment in Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Utkarsh Agarwal, Monojit Choudhury&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 17) · relevance 65&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Steering+LLMs+Responses+Towards+Moral+Foundations+on+the+Norwegian+MFQ-30&amp;amp;searchtype=title"&gt;&lt;strong&gt;Steering LLMs Responses Towards Moral Foundations on the Norwegian MFQ-30&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Hans Andersen, David Dichas&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 18) · relevance 64&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=MIRAGE%3A+Multi-Perspective+Creative+Language+Model+Reasoning+with+Reinforcement+Learning+Guidance&amp;amp;searchtype=title"&gt;&lt;strong&gt;MIRAGE: Multi-Perspective Creative Language Model Reasoning with Reinforcement Learning Guidance&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Arash Lagzian, Srinivas Anumasa, Dianbo Liu&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 18) · relevance 48&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
   </channel>
