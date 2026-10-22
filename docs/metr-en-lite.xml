@@ -9,7 +9,13 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/metr-en-lite.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://metr.org/" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 00:00:00 -0700</lastBuildDate>
+    <item>
+      <title>Red-Teaming OpenAI's Internal Agent Monitoring Systems</title>
+      <link>https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/</link>
+      <guid isPermaLink="true">https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 -0700</pubDate>
+    </item>
     <item>
       <title>Review of the "Misalignment in high-stakes settings" section in Anthropic's Risk Report (August 2026)</title>
       <link>https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/</link>
