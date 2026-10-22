@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 21 Oct 2026 09:34:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:16:37 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 22 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:80923051598779e0</guid>
+      <pubDate>Thu, 22 Oct 2026 09:16:37 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Unintended Side Effects of Value Training in LLMs
+• Monitorability Is Trainable: Post-Training for Chain-of-Thought Monitorability
+• LIFT: Scoped Constraints for Evaluating and Training Instruction Following
+• Flat-RLVR: Sharpness-Aware Reinforcement Learning with Verifiable Rewards for Reasoning Capacity in LLMs
+• SimHack: Predicting the onset of detectable reward hacking before RL training</description>
+      <content:encoded>&lt;p&gt;Matched 72 of 1782 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Unintended+Side+Effects+of+Value+Training+in+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Unintended Side Effects of Value Training in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Siddhesh Pawar, Chen Cecilia Liu, Anna Korhonen, Isabelle Augenstein&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 21) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Monitorability+Is+Trainable%3A+Post-Training+for+Chain-of-Thought+Monitorability&amp;amp;searchtype=title"&gt;&lt;strong&gt;Monitorability Is Trainable: Post-Training for Chain-of-Thought Monitorability&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Usman Anwar, Tim Bakker, Christos Louizos, David Krueger&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 21) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=LIFT%3A+Scoped+Constraints+for+Evaluating+and+Training+Instruction+Following&amp;amp;searchtype=title"&gt;&lt;strong&gt;LIFT: Scoped Constraints for Evaluating and Training Instruction Following&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Eran Goldstein, Yuval Belfer, Yonatan Belinkov, Daniel Gissin&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 20) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Flat-RLVR%3A+Sharpness-Aware+Reinforcement+Learning+with+Verifiable+Rewards+for+Reasoning+Capacity+in+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Flat-RLVR: Sharpness-Aware Reinforcement Learning with Verifiable Rewards for Reasoning Capacity in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yeonbum Kim, Hyun Kyu Lee, Sung Whan Yoon&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 21) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=SimHack%3A+Predicting+the+onset+of+detectable+reward+hacking+before+RL+training&amp;amp;searchtype=title"&gt;&lt;strong&gt;SimHack: Predicting the onset of detectable reward hacking before RL training&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Junwei Deng, Alex Bie, Natalia Ponomareva&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 20) · relevance 76&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 21 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
@@ -386,27 +407,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=From+Decorative+to+Load-Bearing%3A+Task+Difficulty+Shapes+the+Causal+Role+of+Chain-of-Thought&amp;amp;searchtype=title"&gt;&lt;strong&gt;From Decorative to Load-Bearing: Task Difficulty Shapes the Causal Role of Chain-of-Thought&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Renee Jia, Di Mu&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 21) · relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Rewired+or+Gated%3F+How+Instruction+Tuning+Shapes+Knowledge-Conflict+Circuits+in+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Rewired or Gated? How Instruction Tuning Shapes Knowledge-Conflict Circuits in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Shubham Santosh Pandere, Gautam Ranka, Ritika Varshney, Navya Deshmukh, Roushni Sareen, Roshan Kumar Singh&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 22) · relevance 76&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=How+Strongly+Should+Task+State+Influence+an+LLM+Agent%3F&amp;amp;searchtype=title"&gt;&lt;strong&gt;How Strongly Should Task State Influence an LLM Agent?&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Chenyu Zhang, Wonbin Kweon, Jiawei Han&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 22) · relevance 76&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Scholar Inbox, 22 Sep 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:dd1948092c0746ef</guid>
-      <pubDate>Tue, 22 Sep 2026 10:43:18 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• OPBackdoor: Opportunistic Backdoors via Alibi-Aligned Reasoning
-• Do Language Models Know Their Own Constraints?
-• Taming CoT Obfuscation in VLMs: From Mechanistic Evidence to Activation Enforcement
-• Are Human-Aligned Models Models of Humans? A Turing-Test Gap in Preference Alignment
-• The Corroboration Illusion: When More News Makes LLM Forecasts Less True</description>
-      <content:encoded>&lt;p&gt;Matched 112 of 3110 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=OPBackdoor%3A+Opportunistic+Backdoors+via+Alibi-Aligned+Reasoning&amp;amp;searchtype=title"&gt;&lt;strong&gt;OPBackdoor: Opportunistic Backdoors via Alibi-Aligned Reasoning&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Eric Xue, Ruiyi Zhang, Kevin Xue, Pengtao Xie, Junda Wu, Julian McAuley&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 21) · relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Do+Language+Models+Know+Their+Own+Constraints%3F&amp;amp;searchtype=title"&gt;&lt;strong&gt;Do Language Models Know Their Own Constraints?&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Arin Agarwal&lt;br&gt;&lt;small&gt;ArXiv 2026 (August 26) · relevance 88&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Taming+CoT+Obfuscation+in+VLMs%3A+From+Mechanistic+Evidence+to+Activation+Enforcement&amp;amp;searchtype=title"&gt;&lt;strong&gt;Taming CoT Obfuscation in VLMs: From Mechanistic Evidence to Activation Enforcement&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Xutao Mao, Jianing Zhu, Jinman Zhao, Tongliang Liu, Xiaowen Chu, Cong Wang, Bo Han&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 21) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Are+Human-Aligned+Models+Models+of+Humans%3F+A+Turing-Test+Gap+in+Preference+Alignment&amp;amp;searchtype=title"&gt;&lt;strong&gt;Are Human-Aligned Models Models of Humans? A Turing-Test Gap in Preference Alignment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Suqin Yuan, Runqi Lin, Muyang Li, Guanzhe Hong, Jindong Gu, Lei Feng, Chris Russell, Tongliang Liu&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 20) · relevance 83&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Corroboration+Illusion%3A+When+More+News+Makes+LLM+Forecasts+Less+True&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Corroboration Illusion: When More News Makes LLM Forecasts Less True&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yuan Lu, Yukuan Zhang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 5) · relevance 79&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
   </channel>
