@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 22 Oct 2026 09:16:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 18:54:48 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 23 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:934c1e25202c9a55</guid>
+      <pubDate>Fri, 23 Oct 2026 18:54:48 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Consistency Is Not Validity: Self-Rewarded Moral Argumentation Makes Language Models Decisive but Pliable
+• Faithful Latent Harm Monitors Work No Better Than the Models Own Behaviour at a Matched False Alarm Rate
+• Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration
+• Simulated Control Evals
+• Can LLMs Improve Their Own Harness? A Controlled Study on ARC-AGI-3</description>
+      <content:encoded>&lt;p&gt;Matched 80 of 1827 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Consistency+Is+Not+Validity%3A+Self-Rewarded+Moral+Argumentation+Makes+Language+Models+Decisive+but+Pliable&amp;amp;searchtype=title"&gt;&lt;strong&gt;Consistency Is Not Validity: Self-Rewarded Moral Argumentation Makes Language Models Decisive but Pliable&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Marius De Kuthy Meurers, Aaron Parisi, Bernd Bohnet&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 21) · relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Faithful+Latent+Harm+Monitors+Work+No+Better+Than+the+Models+Own+Behaviour+at+a+Matched+False+Alarm+Rate&amp;amp;searchtype=title"&gt;&lt;strong&gt;Faithful Latent Harm Monitors Work No Better Than the Models Own Behaviour at a Matched False Alarm Rate&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Abhishek Mishra and Sagnik Chatterjee, Suyash Maniyar&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 22) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Who+Is+Sycophantic+to+Whom%3F+Confident+LLMs%2C+Human+Deference%2C+and+the+Collapse+of+Trust+Calibration&amp;amp;searchtype=title"&gt;&lt;strong&gt;Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Deepthika S and Pawni Yadav, B. Sankar&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 22) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Simulated+Control+Evals&amp;amp;searchtype=title"&gt;&lt;strong&gt;Simulated Control Evals&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jeffrey Olmo, David Zhang, Tyler Tracy&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 22) · relevance 84&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Can+LLMs+Improve+Their+Own+Harness%3F+A+Controlled+Study+on+ARC-AGI-3&amp;amp;searchtype=title"&gt;&lt;strong&gt;Can LLMs Improve Their Own Harness? A Controlled Study on ARC-AGI-3&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jens Lehmann, Sahar Vahdati&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 21) · relevance 79&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 22 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>

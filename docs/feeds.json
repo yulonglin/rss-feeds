@@ -154,7 +154,7 @@
       "upstream_status": "Official /api/rss/ai exists but each item is only the emoji headline and a link: no summary and none of the stories.",
       "notes": "",
       "items": 20,
-      "newest": "2026-10-22",
+      "newest": "2026-10-23",
       "healthy": true
     },
     {
@@ -237,8 +237,8 @@
       "source_url": "https://www.scholar-inbox.com/",
       "upstream_status": "Email only. Each digest is a stack of styled table cards, titled with an ambiguous dd/mm date, and every link in it is a personal auto-login link.",
       "notes": "Rebuilt from each paper's fields; nothing from the email's markup or links is kept.",
-      "items": 18,
-      "newest": "2026-10-22",
+      "items": 19,
+      "newest": "2026-10-23",
       "healthy": true
     },
     {

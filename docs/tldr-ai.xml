@@ -9,7 +9,65 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI nears $1.25T 💰,  ☁️, 1Password for Agents 🔑, Gemini 3.5 Pro postmortem 🤖</title>
+      <link>https://tldr.tech/ai/2026-10-23</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors
+• Introducing 1Password for Agents
+• WorldTUI: I trained a 360M model to pretend to be a terminal
+• How the US and China Could Verifiably Slow AI
+• How Researchers Tested OpenAI's Internal Agent Monitoring
+• Does Flapping Airplanes Mean Short Timelines and Hard Treaty Enforcement?
+• Claude's Text Output Now Carries an Invisible Watermark
+• A Novel Self-Distillation Method
+• How we deploy Trillion-parameter frontier models on Cerebras
+• NVIDIA's Video Generation with Matching 3D Motion
+• What happened to the missing Gemini 3.5 Pro model that never shipped?
+• An Interview with OpenAI's Richard Ho on Why Jalapeño Is a Groundbreaking AI Chip
+• The full Claude Platform, available on Google Cloud
+• Microsoft Decision-1: 9B Qwen Model Launch Explained
+• Anthropic Donates Agent Skills to Linux Foundation</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"&gt;OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI is closing in on a funding round that could value it at more than $1 trillion. Investors from the United Arab Emirates are leading the round. The round is being positioned as an opportunistic bridge ahead of a potential IPO. OpenAI is aiming to secure signatures by the end of next week, but the final size of the round is still being determined.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://1password.com/blog/1password-for-ai-agents"&gt;Introducing 1Password for Agents&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;1Password introduced a platform that lets AI agents authenticate to websites without accessing users&amp;#x27; passwords directly. Agents can request credentials from a user&amp;#x27;s vault, and once approved, 1Password autofills them into the destination site while keeping the credentials hidden from the agent.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://simedw.com/2026/10/21/world-model-terminal/"&gt;WorldTUI: I trained a 360M model to pretend to be a terminal&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;WorldTUI is a 360-million-parameter model fine-tuned to act as a terminal. The model predicts how the screen will change for every key press, and there is no shell or file system behind it. WorldTUI can create files, run vim and tmux, play snake, and usually remember commands. It can repair mistakes and decode screen rows in parallel. A browser demo is available.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/ywrgeAPMn83FxzFBk/how-could-the-us-and-china-verifiably-slow-ai"&gt;How the US and China Could Verifiably Slow AI&lt;/a&gt; &lt;small&gt;· 29 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A unilateral US pause will fail because rivals would catch up within about a year, so any slowdown needs a treaty that catches defection early. This post surveys how one could govern compute through remote sensing, on-site inspections, and hardware mechanisms like chip licensing and location verification.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"&gt;How Researchers Tested OpenAI&amp;#x27;s Internal Agent Monitoring&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;METR and Redwood Research conducted a three-week security assessment with access to OpenAI&amp;#x27;s internal infrastructure, identifying vulnerabilities that could allow AI agents to evade monitoring, bypass sandbox restrictions, or conceal actions.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/imjmcinnis/status/2113337229288620403"&gt;Does Flapping Airplanes Mean Short Timelines and Hard Treaty Enforcement?&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Flapping Airplanes&amp;#x27; potential valuation jump from $1.5B to $5B may reflect investor hype rather than verified technical progress. Breakthroughs in sample-efficient AI could accelerate superintelligence timelines and make compute-based treaty enforcement harder.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.oreilly.com/radar/the-latest-anthropic-claude-models-contain-ai-text-watermarks-what-does-this-mean-for-you"&gt;Claude&amp;#x27;s Text Output Now Carries an Invisible Watermark&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic&amp;#x27;s latest Claude models embed a SynthID-Text-based watermark in all text output to comply with the EU AI Act. It works by nudging choices among near-equivalent words, adds no hidden characters or tokens, and carries no information about the user.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/a-good-teacher-meets-the-student-where-they-are"&gt;A Novel Self-Distillation Method&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Perplexity&amp;#x27;s JOLT is a self-distillation method that jointly trains a model as both teacher and student, adapting feedback to the student&amp;#x27;s capabilities. It improved performance and training efficiency across mathematical reasoning, coding, and agentic tasks.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"&gt;How we deploy Trillion-parameter frontier models on Cerebras&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A single Cerebras WSE-3T wafer has 44 GB of on-chip memory. Trillion-parameter frontier models need terabytes of memory for their weights alone. This post explains how the company splits a large frontier model across multiple WSE-3T wafers. It covers how models are filled into on-chip memory, how models are mapped across multiple chips, and how Cerebras handles a high number of concurrent requests.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://research.nvidia.com/labs/par/projects/jca/"&gt;NVIDIA&amp;#x27;s Video Generation with Matching 3D Motion&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;NVIDIA has introduced Joints, Camera, Action! (JCA), a system that generates videos and synchronized 3D motion for arbitrary character rigs from text prompts. It supports scene-aware motion, keyframe-based control, and bidirectional conversion between video and rig animation.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2113398193614655594.html"&gt;What happened to the missing Gemini 3.5 Pro model that never shipped?&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google had both Flash and Pro versions of the 3.5 series. However, there were gaps in the model&amp;#x27;s agentic capabilities, particularly around coding. The team felt the fastest way to climb that hill was to use Flash, as the smaller model allowed for more iterative loops. By the time the team had improved Flash&amp;#x27;s abilities, Argon pre-training was done.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://taekim.substack.com/p/an-interview-with-openais-richard"&gt;An Interview with OpenAI&amp;#x27;s Richard Ho on Why Jalapeño Is a Groundbreaking AI Chip&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI&amp;#x27;s Jalapeño AI inference chip outperforms its rivals in performance per watt. It is likely the most promising chip program in the latest wave of non-GPU AI chips. This post contains highlights from a conversation with one of the top engineers in the AI and chip industry. The interview is packed with technical details and insights on where chip design and memory technology are going.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed"&gt;The full Claude Platform, available on Google Cloud&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Claude Platform features are now available on Google Cloud with Google Cloud authentication, billing, and commitment retirement.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/"&gt;Microsoft Decision-1: 9B Qwen Model Launch Explained&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Microsoft launched the Microsoft-Decision-1 model, focusing on scoring predefined answer options with confidence probabilities rather than generating text.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"&gt;Anthropic Donates Agent Skills to Linux Foundation&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic donated its Agent Skills open standard to the Agentic AI Foundation, placing its development under vendor-neutral governance.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Claude Duet 🤖, Anthropic API changes 👨‍💻, Recursive’s local model 💻</title>
       <link>https://tldr.tech/ai/2026-10-22</link>
@@ -1116,51 +1174,6 @@
 &lt;p&gt;Oxford allowed OpenAI to use Bodleian Library texts for AI training, sparking concerns about the impact on Oxford&amp;#x27;s reputation and AI&amp;#x27;s energy consumption.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.ir.akamai.com/news-releases/news-release-details/akamai-announces-116-billion-multi-year-agreement-anthropic"&gt;Anthropic Signed an $11.6 Billion Akamai Compute Deal&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Anthropic agreed to spend up to $11.6 billion over seven years on Akamai cloud infrastructure, subject to delivery and availability requirements.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>ChatGPT Pro Max 🤖, Muse realtime avatar 🎭, DeepSeek $1B ARR 💰</title>
-      <link>https://tldr.tech/ai/2026-09-25</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-25</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• Bringing Your Muse to Life
-• Gemini 3.8 Live with Live Avatar
-• OpenAI prepares new $500/month Pro Max plan for ChatGPT
-• Contrastive Language Models
-• Managed Deep Agents v0.8: new auth, memory, and channels
-• Are you ready for superintelligence
-• What we learned from being the first company to disclose an agent cyberattack
-• A finance benchmark asks agents to finish the whole assignment
-• Anthropic tested what happens when agents bargain for people
-• How Good Are LLMs at Decision Forking?
-• Intelligence Density</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://research.meta.ai/blog/bringing-your-muse-to-life"&gt;Bringing Your Muse to Life&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Meta has introduced Muse Realtime Avatar, a technology that transforms conversations into expressive, interactive avatars in real time. Using a seamless integration of voice and visual performance, it synchronizes speech and avatar expressions accurately in live interactions. Muse Realtime Avatar outperforms competitors with improved visual quality and real-time responsiveness, supported by Meta&amp;#x27;s optimized AI inference stack.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"&gt;Gemini 3.8 Live with Live Avatar&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google launched Gemini 3.8 Live featuring a Live Avatar, enhancing user interaction. This update offers real-time responses and more personalized user experiences. It positions Google to compete more aggressively with other AI platforms.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/openai-prepares-new-500-month-pro-max-plan-for-chatgpt/"&gt;OpenAI prepares new $500/month Pro Max plan for ChatGPT&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI appears to be preparing a new ChatGPT Pro Max subscription priced at $500 per month. It is unknown whether the company plans to justify the $500 price through speed, larger usage allowances, longer-running Work sessions, or a combination of the three. The timing of the leak is notable as OpenAI&amp;#x27;s DevDay will take place on September 29. The company is expected to discuss APIs, developer tooling, new subscription tiers, and new products at the event.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://contrastive-lm.notion.site/"&gt;Contrastive Language Models&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Contrastive Language Models (CLMs) are a new class of System One model trained with a contrastive learning objective that connects states and actions. CLM-8B delivers performance comparable to Jev across computer-use, gaming, and tool-calling tasks while achieving up to 9x lower latency. It also sets a new state-of-the-art on changing agentic coding benchmarks. The model is pre-trained on 60M Nemotron Q&amp;amp;A pairs, mid-trained on 30M synthetic hard negatives, and post-trained on 1M agentic trajectories.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.langchain.com/blog/langsmith-managed-deep-agents-whats-new"&gt;Managed Deep Agents v0.8: new auth, memory, and channels&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Managed Deep Agents combines the Deep Agents harness with all of the infrastructure required to run agents in production. It is the simplest way to build, deploy, and run mission-critical agents in production. Managed Deep Agents 0.8 adds support for user-owned credentials, user-level memory, HTTP channels, and file transfer in Slack. It also adds a pre-built tool for web search powered by Parallel.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://x.com/knowerofmarkets/status/2103138714050331089"&gt;Are you ready for superintelligence&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Recent frontier models are rapidly saturating old benchmarks and moving into harder real-world, scientific, and agentic tasks. The pace of capability gains, alongside soaring AI usage and revenue, is shifting debate from workplace augmentation toward recursive self-improvement and superintelligence.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/ClementDelangue/status/2103144463279276146"&gt;What we learned from being the first company to disclose an agent cyberattack&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Hugging Face says its autonomous-agent cyberattack exposed three priorities: stronger incident transparency, reducing capability asymmetries between attackers and defenders, and preserving open-source access for defense. AI created new attack risks but also helped investigate, mitigate, and harden systems.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://surgehq.ai/benchmarks/dayjob-finance"&gt;A finance benchmark asks agents to finish the whole assignment&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;DAYJOB: Finance tests whether AI agents can complete 80 realistic finance assignments using supporting documents and produce analysis a professional can use.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/project-swap"&gt;Anthropic tested what happens when agents bargain for people&lt;/a&gt; &lt;small&gt;· 38 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;After five-minute interviews, Claude agents traded books for employees, and their preference rankings matched the humans&amp;#x27; on 61% of pairs.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://github.com/wbopan/tastebench"&gt;How Good Are LLMs at Decision Forking?&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Taste-Bench evaluates whether an LLM agent can choose the better next step at consequential forks in long-horizon tasks.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.trajectory.ai/field-notes/intelligence-density"&gt;Intelligence Density&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Trajectory.ai focuses on &amp;quot;intelligence density,&amp;quot; measuring cost per task instead of cost per token for more efficient AI model training.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
