@@ -47,14 +47,6 @@
     "bio": "",
     "fetched": "2026-10-22T19:46:21+00:00"
   },
-  "https://www.project-syndicate.org/commentary/emerging-economies-must-recognize-need-for-fiscal-dominance-by-v-anantha-nageswaran-2026-10": {
-    "byline": "V. Anantha Nageswaran",
-    "body": "<p>NEW DELHI\u2014From the early 1980s until the COVID-19 pandemic hit in 2020, the world economy enjoyed unusually good conditions. The Cold War ended, defense budgets shrank, and hundreds of millions of workers joined the global market. Energy and metals were mostly cheap, and supply chains stretched across borders on the assumption that goods would always move freely. Inflation was on a downward trend, owing partly to central banks and partly to the strong tide of peace, globalization, and plentiful supply they were swimming in.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-10-23T03:36:19+00:00"
-  },
   "https://www.project-syndicate.org/commentary/europeans-must-prepare-for-far-right-attempt-to-paralyze-eu-by-janis-a-emmanouilidis-2026-10": {
     "byline": "Janis A. Emmanouilidis",
     "body": "<p>BRUSSELS\u2014What if the greatest threat to the European Union is not Russian aggression, Chinese exports, or US President Donald Trump, but actually comes from within the bloc?</p>",
@@ -111,13 +103,13 @@
     "bio": "<p>Mary Robinson is a former president of Ireland and a former UN Secretary-General\u2019s special envoy for climate change.</p>",
     "fetched": "2026-10-22T19:46:21+00:00"
   },
-  "https://www.project-syndicate.org/commentary/state-that-remembers-key-to-managing-ai-transition-by-christopher-a-pissarides-and-fadi-farra-2026-10": {
-    "byline": "Christopher A. Pissarides and Fadi Farra",
-    "body": "<p>LONDON\u2014Just as companies refine what they know about their customers with every click, purchase, and failed transaction, government-provided services collect information about their clients, commission evaluations, and employ armies of analysts. Yet many governments cannot articulate what they believe about a given policy: what effect they expect it to produce, how confident they are, and which evidence would change their minds.</p>",
+  "https://www.project-syndicate.org/commentary/reducing-geographical-inequality-requires-targeted-public-investment-by-keun-lee-2026-10": {
+    "byline": "Keun Lee",
+    "body": "<p>SEOUL\u2014Discussion of economic inequality usually focuses on disparities across countries or the divide between rich and poor households within them. But greater attention is now being devoted to domestic regional differences, whether between the capital city and the rest of the country (as in South Korea and the United Kingdom), between northern and southern regions (as in Italy), or between coastal cities and inland areas (as in China and the United States).</p>",
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-10-23T03:36:19+00:00"
+    "fetched": "2026-10-23T13:07:02+00:00"
   },
   "https://www.project-syndicate.org/commentary/superpower-era-over-us-russia-middle-powers-too-by-carl-bildt-2026-10": {
     "byline": "Carl Bildt",
@@ -150,5 +142,13 @@
     "free": false,
     "bio": "",
     "fetched": "2026-10-22T13:30:35+00:00"
+  },
+  "https://www.project-syndicate.org/onpoint/agentic-information-economy-by-shuwei-fang-2026-10": {
+    "byline": "Shuwei Fang",
+    "body": "<p>CAMBRIDGE\u2014Information is undergoing a category change. It has always been something people consume, but it is also becoming something machines act on. That means errors will stop being mere digital impressions and start becoming actions with far-reaching consequences. Given the risks, the system will need safeguards of its own. Better data or putting a human back in the loop will not suffice.</p>",
+    "truncated": true,
+    "free": false,
+    "bio": "",
+    "fetched": "2026-10-23T13:07:02+00:00"
   }
 }
