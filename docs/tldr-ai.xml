@@ -27,11 +27,11 @@
 • A Novel Self-Distillation Method
 • How we deploy Trillion-parameter frontier models on Cerebras
 • NVIDIA's Video Generation with Matching 3D Motion
-• What happened to the missing Gemini 3.5 Pro model that never shipped?
 • An Interview with OpenAI's Richard Ho on Why Jalapeño Is a Groundbreaking AI Chip
+• What happened to the missing Gemini 3.5 Pro model that never shipped?
 • The full Claude Platform, available on Google Cloud
-• Microsoft Decision-1: 9B Qwen Model Launch Explained
-• Anthropic Donates Agent Skills to Linux Foundation</description>
+• Anthropic Donates Agent Skills to Linux Foundation
+• Microsoft Decision-1: 9B Qwen Model Launch Explained</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"&gt;OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;OpenAI is closing in on a funding round that could value it at more than $1 trillion. Investors from the United Arab Emirates are leading the round. The round is being positioned as an opportunistic bridge ahead of a potential IPO. OpenAI is aiming to secure signatures by the end of next week, but the final size of the round is still being determined.&lt;/p&gt;
@@ -56,17 +56,17 @@
 &lt;h4&gt;&lt;a href="https://research.nvidia.com/labs/par/projects/jca/"&gt;NVIDIA&amp;#x27;s Video Generation with Matching 3D Motion&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;NVIDIA has introduced Joints, Camera, Action! (JCA), a system that generates videos and synchronized 3D motion for arbitrary character rigs from text prompts. It supports scene-aware motion, keyframe-based control, and bidirectional conversion between video and rig animation.&lt;/p&gt;
 &lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2113398193614655594.html"&gt;What happened to the missing Gemini 3.5 Pro model that never shipped?&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google had both Flash and Pro versions of the 3.5 series. However, there were gaps in the model&amp;#x27;s agentic capabilities, particularly around coding. The team felt the fastest way to climb that hill was to use Flash, as the smaller model allowed for more iterative loops. By the time the team had improved Flash&amp;#x27;s abilities, Argon pre-training was done.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://taekim.substack.com/p/an-interview-with-openais-richard"&gt;An Interview with OpenAI&amp;#x27;s Richard Ho on Why Jalapeño Is a Groundbreaking AI Chip&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;OpenAI&amp;#x27;s Jalapeño AI inference chip outperforms its rivals in performance per watt. It is likely the most promising chip program in the latest wave of non-GPU AI chips. This post contains highlights from a conversation with one of the top engineers in the AI and chip industry. The interview is packed with technical details and insights on where chip design and memory technology are going.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2113398193614655594.html"&gt;What happened to the missing Gemini 3.5 Pro model that never shipped?&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google had both Flash and Pro versions of the 3.5 series. However, there were gaps in the model&amp;#x27;s agentic capabilities, particularly around coding. The team felt the fastest way to climb that hill was to use Flash, as the smaller model allowed for more iterative loops. By the time the team had improved Flash&amp;#x27;s abilities, Argon pre-training was done.&lt;/p&gt;
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed"&gt;The full Claude Platform, available on Google Cloud&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Claude Platform features are now available on Google Cloud with Google Cloud authentication, billing, and commitment retirement.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/"&gt;Microsoft Decision-1: 9B Qwen Model Launch Explained&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Microsoft launched the Microsoft-Decision-1 model, focusing on scoring predefined answer options with confidence probabilities rather than generating text.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"&gt;Anthropic Donates Agent Skills to Linux Foundation&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic donated its Agent Skills open standard to the Agentic AI Foundation, placing its development under vendor-neutral governance.&lt;/p&gt;</content:encoded>
+&lt;p&gt;Anthropic donated its Agent Skills open standard to the Agentic AI Foundation, placing its development under vendor-neutral governance.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/"&gt;Microsoft Decision-1: 9B Qwen Model Launch Explained&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Microsoft launched the Microsoft-Decision-1 model, focusing on scoring predefined answer options with confidence probabilities rather than generating text.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Claude Duet 🤖, Anthropic API changes 👨‍💻, Recursive’s local model 💻</title>
