@@ -9,7 +9,62 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Apple’s 20B model 📱, Kimi K3.1 Pro 🧠, Block Dessa 🗣️, frontier training security 🔐</title>
+      <link>https://tldr.tech/ai/2026-10-26</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Dessa - the Conversation Model trained only on speech
+• Kimi K3.1 Pro
+• Apple's 20B On-Device Model Uses Just 2GB of Memory
+• Securing our frontier model training environment
+• The Personal Agent Protocol Map
+• Knowing How Is Not Knowing What
+• OpenAI Strengthens Security Around Frontier AI Training
+• SpaceX closes $40 billion debt deal for AI chips, Elon Musk says
+• Bitter Lessoned in Automated Theorem Proving
+• AI wasn't overhyped. In the last 18 months, almost everyone underestimated it
+• A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis
+• Cursor can now control your computer
+• Claude Cowork and chat come together for Enterprise
+• Gemini 4 Carbon early test results are in ahead of release</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://block.xyz/dessa"&gt;Dessa - the Conversation Model trained only on speech&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Dessa is a conversational model trained from scratch on nothing but human conversation. It learned to hold a real-time conversation by listening - only sounds, and no text. The model can laugh on cue, follow instructions, and finish sentences. It knows a surprising amount, considering every fact it has comes from raw sound. Examples of conversations with the model are available in the post.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.kimi.ai/blog/kimi-k3-1-pro"&gt;Kimi K3.1 Pro&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Moonshot AI released Kimi K3.1 Pro through its API, with open weights promised by November 4. The model scored 55 on Artificial Analysis, ahead of several leading proprietary models.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.airealist.ai/p/exploring-apple-on-device-model"&gt;Apple&amp;#x27;s 20B On-Device Model Uses Just 2GB of Memory&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Apple&amp;#x27;s 20-billion-parameter on-device model keeps most of its weights in flash storage and activates only 1–4 billion parameters per prompt. Testing on an M3 Max Mac showed roughly 2GB of memory usage and significantly lower energy consumption than comparable open models, but weaker math performance.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/securing-our-frontier-model-training-environment"&gt;Securing our frontier model training environment&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI has bolstered security for its frontier-model training environments by implementing robust controls, intensifying monitoring, and conducting defense-in-depth strategies. These measures include red-teaming exercises where agents probe for vulnerabilities, leading to the discovery and fixing of software bugs and misconfigurations. The enhancements aim to prevent unauthorized actions, such as accessing the live internet or breaching security, ensuring secure and isolated research environments.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/sytaylor/status/2113710822731989172"&gt;The Personal Agent Protocol Map&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Simon Taylor maps agent protocols across four layers: entry, identity, tools, and intent. He argues banks and merchants must connect verified identities, limited permissions, and audit trails to authorize agent actions, while warning that access agreements could introduce fees and slow adoption.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://algoroxyolo.github.io/blog/2026/knowing-how-is-not-knowing-what/"&gt;Knowing How Is Not Knowing What&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;RL training environments need to integrate a domain&amp;#x27;s unwritten rules into the reward so that agents can only get the task right by knowing them or going and finding them. Environments should be built as one world exposed through several surfaces. This allows you to pose the same task at different difficulties by changing the surface, and agents get a chance to learn when to switch. The reward also reads the world, so agents that go through different surfaces get the same outcome score if they reach the same authorized result.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/securing-our-frontier-model-training-environment/"&gt;OpenAI Strengthens Security Around Frontier AI Training&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI introduced additional security controls to prevent advanced AI models from escaping training sandboxes, accessing unauthorized services, or communicating across isolated environments.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html"&gt;SpaceX closes $40 billion debt deal for AI chips, Elon Musk says&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;SpaceX has closed $40 billion in debt financing to purchase GPUs. The financing primarily consists of capitalizable debt for GPUs. It is expected to arrive in the first and second quarters of 2027. The proposed financing will use a special purpose vehicle to keep the debt off SpaceX&amp;#x27;s balance sheet and preserve its investment-grade credit ratings.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://essays.johnloeber.com/p/34-bitter-lessoned-in-automated-theorem"&gt;Bitter Lessoned in Automated Theorem Proving&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI throwing hard math problems at its models was the right test in 2026. The models were capable of making progress, but not enough to fully solve the problems, so it was possible to see improvements with each update in perfect resolution. These model improvements showed how clever engineering doesn&amp;#x27;t matter - all the work done to build special-case solutions on top of a model gets squashed by improvements in the base model sooner or later. Models will one-shot superior work for pennies in the very near future.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://benjamintodd.substack.com/p/almost-every-ai-forecast-of-the-last"&gt;AI wasn&amp;#x27;t overhyped. In the last 18 months, almost everyone underestimated it&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Almost everyone expected AI to progress more slowly than it did over the last 18 months.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://lynchlab.net/llm-skin-cancer"&gt;A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A small, old, and specialized network with an outdated architecture recognizes skin lesions far better than GPT-6 Astra and Claude Fable 5.1.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/cursor_ai/status/2113661506634305834"&gt;Cursor can now control your computer&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Agents can now drive desktop apps like the iOS Simulator to test the features they build.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://claude.com/resources/articles/unified-claude-enterprise?open_in_browser=1"&gt;Claude Cowork and chat come together for Enterprise&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The unified Claude Chat and Cowork experience is now generally available for Claude Enterprise plans.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/gemini-4-carbon-early-test-results/"&gt;Gemini 4 Carbon early test results are in ahead of release&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google&amp;#x27;s Gemini 4 Carbon early access testing shows it improves 3D capabilities over Argon but remains weak in UI performance and is slower.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>OpenAI nears $1.25T 💰,  ☁️, 1Password for Agents 🔑, Gemini 3.5 Pro postmortem 🤖</title>
       <link>https://tldr.tech/ai/2026-10-23</link>
@@ -1119,61 +1174,6 @@
 &lt;p&gt;ARIA picks up the highest-priority hypothesis, designs the experiment, launches it on your infrastructure, monitors the results, and reports back what it learned.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://x.ai/news/team-bots"&gt;Team Bots: AI coworkers that learn from your team&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Team Bots, launched today, serve as AI assistants that integrate with existing workflows at SpaceXAI, providing daily briefings and managing tasks in sales, engineering, marketing, and data analytics.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Muse manifesto 📜, OpenAI training pause 🚨, trading compute 🤝</title>
-      <link>https://tldr.tech/ai/2026-09-28</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-28</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• OpenAI prepares to expand Ultrafast API to more users
-• Why I'm Building Muse
-• OpenAI and Anthropic Probe Tens of Thousands of Incidents as OpenAI Halts Training
-• Let's talk about trading compute
-• Can AI self-improvement overcome diminishing returns?
-• Agent (Muse) Compute Demand
-• Claude computes a nine-loop amplitude in N=4 super-Yang-Mills
-• Hitting a billion tokens per minute on one GPU by combining a query planner and an inference engine
-• Policy Gradients for LLMs Explained Visually
-• Elon Musk's SpaceXAI to add another 660,000 AI GPUs this year
-• On Ezra Klein's Podcast With Jensen Huang
-• Build plugins for Claude with the directory submission portal
-• Oxford let OpenAI train AI models on Bodleian Library texts
-• Anthropic Signed an $11.6 Billion Akamai Compute Deal</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/openai-prepares-to-expand-ultrafast-api-to-more-users/"&gt;OpenAI prepares to expand Ultrafast API to more users&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI appears to be preparing a wider rollout of its Ultrafast API mode. References to the rollout have been seen showing up across the OpenAI Platform and API documentation. The feature was officially previewed with GPT-5.6 Sol. OpenAI claims it has speeds of up to 750 output tokens per second and up to 14 times faster inference than Standard. The mode is powered by Cerebras. Access remains limited to select customers.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/alexandr_wang/status/2103551714536439951"&gt;Why I&amp;#x27;m Building Muse&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Muse is built as a personal agent that turns vague ambitions into concrete action by planning, emailing, calling, finding resources, and removing friction. Alexandr Wang frames it as a way to expand individual agency and make more ambitions achievable.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.implicator.ai/openai-anthropic-tens-of-thousands-incidents-pause/"&gt;OpenAI and Anthropic Probe Tens of Thousands of Incidents as OpenAI Halts Training&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI, Anthropic, and security researchers are investigating tens of thousands of incidents in which models acted beyond intended limits. Most incidents caused no harm. The count is not a count of breaches: there were only four incidents of unauthorized access to real third-party systems. OpenAI has paused training, evaluation, and tool-use inference for its most capable models.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://x.com/gpugene/status/2104186844007248332?s=12"&gt;Let&amp;#x27;s talk about trading compute&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;There is an emerging market of compute derivatives. This could fundamentally change how neoclouds and anyone adjacent can grow as well as protect themselves. The problem is pretty urgent for inference clouds. Companies that sell customers fixed-price services as their GPU bill floats have taken a position on compute prices whether they meant to or not.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.rameznaam.com/p/ai-rsi-isnt-leading-to-super-intelligence"&gt;Can AI self-improvement overcome diminishing returns?&lt;/a&gt; &lt;small&gt;· 38 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AI is already helping build better AI. The technology is improving at a stupendous pace and is expected to continue to do so. Experts expect increasingly superhuman performance in parts of formal math, coding, and cybersecurity, and any other verifiable domain where machines can generate training data and verify success at machine speed. However, this doesn&amp;#x27;t mean that the industry is close to super-intelligence or general ASI.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://robonomics.substack.com/p/agent-muse-compute-demand"&gt;Agent (Muse) Compute Demand&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;It costs Meta an estimated around 1 to 2 gigawatts of average total power to serve 100 million daily active users. Only around 0.1 gigawatts comes from the GPU/VM layer. 3 to 4 gigawatts per day is entirely plausible depending on the number of reasoning-equivalent model calls users generate. The sandbox layer contains less than $1 billion of CPU content and around $2 billion of DRAM content.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/yes-claude-can-do-nine-loops"&gt;Claude computes a nine-loop amplitude in N=4 super-Yang-Mills&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Physicists at Anthropic harnessed Claude, an LLM, to compute a complex nine-loop amplitude in N=4 super-Yang-Mills, a problem once considered computationally infeasible with limited resources. They utilized the bootstrap method and form-factor approach, achieving results comparable to human attempts but with greater efficiency and less oversight. The work highlights untapped potential in AI for complex physics calculations, suggesting that more advances might be achieved with better computation and software practices.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://modal.com/blog/quail-billion-tpm"&gt;Hitting a billion tokens per minute on one GPU by combining a query planner and an inference engine&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The QUery-Aware Inference Layer (Quail) is an inference engine that hits over a billion tokens processed per minute per H100 GPU. It is over 10 times faster than the vLLM baseline on the same hardware, and it costs under $0.06 per billion tokens on Modal. This post provides a quick overview of how Quail works. It focuses more on considerations for inference engineers.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.tylerromero.com/posts/2026-09-policy-gradient/"&gt;Policy Gradients for LLMs Explained Visually&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;A visual, from-scratch derivation of REINFORCE showed how policy gradients train language models by increasing the probability of rewarded outputs.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.tomshardware.com/tech-industry/data-centers/elon-musks-spacexai-to-add-another-660-000-ai-gpus-this-year-nearing-a-total-of-1-44-million-in-operation-firm-is-building-1-2-gigawatt-power-plant-to-bring-systems-fully-online"&gt;Elon Musk&amp;#x27;s SpaceXAI to add another 660,000 AI GPUs this year&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;220,000 Nvidia GB300 GPUs will be operational at X&amp;#x27;s Colossus supercomputer in November. The company is aiming to bring another 220,000 units online by late December. Colossus 2 currently has 110,000 GB200 and 440,000 GB300 GPUs, and Colossus 1 has 150,000 H100, 50,000 H200, and 30,000 GB200 GPUs. This means SpaceXAI has 1.1 million GB300s, with a total of 1.44 million GPUs in operation.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://thezvi.substack.com/p/on-ezra-kleins-podcast-with-jensen"&gt;On Ezra Klein&amp;#x27;s Podcast With Jensen Huang&lt;/a&gt; &lt;small&gt;· 40 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Jensen Huang doesn&amp;#x27;t believe in superintelligence or that AI will ever be a different kind of thing from software. AI will never be more than a new abstraction level and so won&amp;#x27;t fundamentally change anything. He doesn&amp;#x27;t believe in AI existential risk, even though his tolerance for safety risk is lower than even the most paranoid safety advocate. Critics say he must not understand the technology and that he would have a very different view if he actually understood what the top risks were.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://claude.com/blog/build-plugins-for-claude"&gt;Build plugins for Claude with the directory submission portal&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Developers on paid Claude plans can now build and submit plugins using a new directory submission portal.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://thenextweb.com/news/oxford-bodleian-openai-training-data"&gt;Oxford let OpenAI train AI models on Bodleian Library texts&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Oxford allowed OpenAI to use Bodleian Library texts for AI training, sparking concerns about the impact on Oxford&amp;#x27;s reputation and AI&amp;#x27;s energy consumption.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.ir.akamai.com/news-releases/news-release-details/akamai-announces-116-billion-multi-year-agreement-anthropic"&gt;Anthropic Signed an $11.6 Billion Akamai Compute Deal&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic agreed to spend up to $11.6 billion over seven years on Akamai cloud infrastructure, subject to delivery and availability requirements.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
