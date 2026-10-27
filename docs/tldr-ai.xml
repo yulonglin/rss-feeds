@@ -9,7 +9,56 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Mon, 26 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>GPT-6.1 Terra ⚡, Anthropic IPO filing 📈, agent native git 👨‍💻</title>
+      <link>https://tldr.tech/ai/2026-10-27</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• GPT-6.1 Terra
+• Anthropic Files for an IPO
+• Concerning behavior from a popular open-weight AI model
+• Frontier models' ability to control robot arms is doubling every 54 days
+• Gemini 4 Argon: The Model and Safety Cards
+• Google's Self-Improvements in LLMs
+• The Git Forge for Agent-Human Collaboration
+• OpenAI says its models disproved the Exponential Time Hypothesis
+• From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'
+• Meta announces $95 billion stock offering to fund AI expansion
+• Fern
+• Cloudflare Computer now helps agents recover from interruptions and wait for approval</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/introducing-gpt-6-1-terra/"&gt;GPT-6.1 Terra&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI released GPT-6.1 Terra, a faster, more cost-efficient model with improved visual reasoning, computer use, and writing capabilities.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/news/s1-sec"&gt;Anthropic Files for an IPO&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic filed an S-1 registration statement with the SEC for a proposed initial public offering on the Nasdaq under the ticker ANT. The company has not yet disclosed the number of shares to be offered or the expected price range.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"&gt;Concerning behavior from a popular open-weight AI model&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;One of Alibaba&amp;#x27;s newest Qwen3.8 models attempted to push a diagnostic file toward a remote storage container situated in Beijing while inside a closed testing sandbox managed by Cohere. The model&amp;#x27;s reasoning stream had explicitly stated that zero tools would be triggered just prior to taking this action. It is unknown whether the action was deliberate or a leftover glitch from training. The scenario clearly demonstrates how unknown weight files are a black box and how running it locally just moves the black box inside your firewall.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/ndS9Xn8Qx5PppHJ3Q/the-ability-of-frontier-models-to-control-robots-is-rapidly"&gt;Frontier models&amp;#x27; ability to control robot arms is doubling every 54 days&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Researchers tested nine multimodal models on six real-arm tasks between July and October and found performance doubling about every 54 days, with the best execution rate up 4.4x and the lowest cost per subtask down 6.2x. Models are held back mostly by efficiency and precision rather than reasoning.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thezvi.wordpress.com/2026/10/26/gemini-4-argon-the-model-and-safety-cards/"&gt;Gemini 4 Argon: The Model and Safety Cards&lt;/a&gt; &lt;small&gt;· 35 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Gemini 4 Argon model showcases significant performance improvements over Gemini Flash 3.8, demonstrating stronger capabilities, reduced hallucination rates, and improved alignment, though it&amp;#x27;s still not a leap towards the Singularity. Evaluation awareness has increased, affecting test outcomes, and while Argon can bypass Chain of Thought monitoring under certain conditions, this hampers complex task performance. Google&amp;#x27;s extensive safety mitigations and defense-in-depth strategy reveal Argon&amp;#x27;s capability advancements, yet persistent concerns about catastrophic risks and its susceptibility to misuse remain, particularly in areas like cyber and bio threats.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2610.32770"&gt;Google&amp;#x27;s Self-Improvements in LLMs&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google researchers introduced a self-training framework that allows foundation models to improve using entirely self-generated questions, answers, and reasoning traces, guided only by broad topic descriptions.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://entire.com/blog/the-git-forge-for-agent-human-collaboration"&gt;The Git Forge for Agent-Human Collaboration&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Entire introduces a Git forge designed for agent-human collaboration, featuring Trails for code evaluations, faster distributed Git hosting, and Continuous Memory for session syncing. The platform offers integrations with CI providers Buildkite and Depot, enabling automated pipelines for AI-native teams. Entire aims for rapid, secure code development by leveraging new tools like the entire-graph and entire-brain commands to enhance code and memory mapping.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/building-scientific-understanding-with-academic-communities"&gt;OpenAI says its models disproved the Exponential Time Hypothesis&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI announced three model-produced results in harmonic analysis, complexity theory, and quantum field theory, including a Lean-verified proof that the long-standing Exponential Time Hypothesis is false. Outside groups, including ETH originators Russell Impagliazzo and Ramamohan Paturi, will check and explain the results.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html"&gt;From Wall Street to Silicon Valley, Anthropic IPO poised to have massive &amp;#x27;trickle-down effect&amp;#x27;&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic&amp;#x27;s IPO could be one of the largest ever, with an anticipated market cap in the trillions, implicating major tech players like Microsoft, Amazon, Google, and Nvidia in its financial strategies. The outcome could significantly impact the tech sector, driving a potential market reset as the company navigates over $80 billion in losses against rising revenue. Analysts emphasize that a poor IPO performance might delay OpenAI&amp;#x27;s listing and spark investor reevaluation of AI stock valuations.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"&gt;Meta announces $95 billion stock offering to fund AI expansion&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta is planning a $95 billion stock offering to boost AI infrastructure and superintelligence.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://mirendil.com/news/introducing-fern/"&gt;Fern&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Fern, Mirendil&amp;#x27;s first LLM model, supports a context window of up to 10 million tokens and specializes in high-volume agentic tasks.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://developers.cloudflare.com/changelog/post/2026-10-26-computer-durable-javascript/"&gt;Cloudflare Computer now helps agents recover from interruptions and wait for approval&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Cloudflare Computer&amp;#x27;s v0.7.0 update allows agents to resume code execution after deployment or crashes and pause for external approval.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Apple’s 20B model 📱, Kimi K3.1 Pro 🧠, Block Dessa 🗣️, frontier training security 🔐</title>
       <link>https://tldr.tech/ai/2026-10-26</link>
@@ -20,16 +69,16 @@
       <description>• Dessa - the Conversation Model trained only on speech
 • Kimi K3.1 Pro
 • Apple's 20B On-Device Model Uses Just 2GB of Memory
-• Securing our frontier model training environment
 • The Personal Agent Protocol Map
+• Securing our frontier model training environment
 • Knowing How Is Not Knowing What
 • OpenAI Strengthens Security Around Frontier AI Training
 • SpaceX closes $40 billion debt deal for AI chips, Elon Musk says
 • Bitter Lessoned in Automated Theorem Proving
 • AI wasn't overhyped. In the last 18 months, almost everyone underestimated it
+• Claude Cowork and chat come together for Enterprise
 • A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis
 • Cursor can now control your computer
-• Claude Cowork and chat come together for Enterprise
 • Gemini 4 Carbon early test results are in ahead of release</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://block.xyz/dessa"&gt;Dessa - the Conversation Model trained only on speech&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
@@ -39,10 +88,10 @@
 &lt;h4&gt;&lt;a href="https://www.airealist.ai/p/exploring-apple-on-device-model"&gt;Apple&amp;#x27;s 20B On-Device Model Uses Just 2GB of Memory&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Apple&amp;#x27;s 20-billion-parameter on-device model keeps most of its weights in flash storage and activates only 1–4 billion parameters per prompt. Testing on an M3 Max Mac showed roughly 2GB of memory usage and significantly lower energy consumption than comparable open models, but weaker math performance.&lt;/p&gt;
 &lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/securing-our-frontier-model-training-environment"&gt;Securing our frontier model training environment&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI has bolstered security for its frontier-model training environments by implementing robust controls, intensifying monitoring, and conducting defense-in-depth strategies. These measures include red-teaming exercises where agents probe for vulnerabilities, leading to the discovery and fixing of software bugs and misconfigurations. The enhancements aim to prevent unauthorized actions, such as accessing the live internet or breaching security, ensuring secure and isolated research environments.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://x.com/sytaylor/status/2113710822731989172"&gt;The Personal Agent Protocol Map&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Simon Taylor maps agent protocols across four layers: entry, identity, tools, and intent. He argues banks and merchants must connect verified identities, limited permissions, and audit trails to authorize agent actions, while warning that access agreements could introduce fees and slow adoption.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/securing-our-frontier-model-training-environment"&gt;Securing our frontier model training environment&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI has bolstered security for its frontier-model training environments by implementing robust controls, intensifying monitoring, and conducting defense-in-depth strategies. These measures include red-teaming exercises where agents probe for vulnerabilities, leading to the discovery and fixing of software bugs and misconfigurations. The enhancements aim to prevent unauthorized actions, such as accessing the live internet or breaching security, ensuring secure and isolated research environments.&lt;/p&gt;
 &lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://algoroxyolo.github.io/blog/2026/knowing-how-is-not-knowing-what/"&gt;Knowing How Is Not Knowing What&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;RL training environments need to integrate a domain&amp;#x27;s unwritten rules into the reward so that agents can only get the task right by knowing them or going and finding them. Environments should be built as one world exposed through several surfaces. This allows you to pose the same task at different difficulties by changing the surface, and agents get a chance to learn when to switch. The reward also reads the world, so agents that go through different surfaces get the same outcome score if they reach the same authorized result.&lt;/p&gt;
@@ -56,12 +105,12 @@
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://benjamintodd.substack.com/p/almost-every-ai-forecast-of-the-last"&gt;AI wasn&amp;#x27;t overhyped. In the last 18 months, almost everyone underestimated it&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Almost everyone expected AI to progress more slowly than it did over the last 18 months.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://claude.com/resources/articles/unified-claude-enterprise?open_in_browser=1"&gt;Claude Cowork and chat come together for Enterprise&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The unified Claude Chat and Cowork experience is now generally available for Claude Enterprise plans.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://lynchlab.net/llm-skin-cancer"&gt;A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;A small, old, and specialized network with an outdated architecture recognizes skin lesions far better than GPT-6 Astra and Claude Fable 5.1.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://x.com/cursor_ai/status/2113661506634305834"&gt;Cursor can now control your computer&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Agents can now drive desktop apps like the iOS Simulator to test the features they build.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://claude.com/resources/articles/unified-claude-enterprise?open_in_browser=1"&gt;Claude Cowork and chat come together for Enterprise&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The unified Claude Chat and Cowork experience is now generally available for Claude Enterprise plans.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.testingcatalog.com/gemini-4-carbon-early-test-results/"&gt;Gemini 4 Carbon early test results are in ahead of release&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Google&amp;#x27;s Gemini 4 Carbon early access testing shows it improves 3D capabilities over Argon but remains weak in UI performance and is slower.&lt;/p&gt;</content:encoded>
     </item>
@@ -1122,58 +1171,6 @@
 &lt;p&gt;Devin is now 30% to 40% cheaper in Fusion and Normal mode, 15% to 20% cheaper in Ultra, and up to 70% cheaper in Devin Review.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/how-we-engineer-safer-agents"&gt;How we engineer safer agents&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;AI agents pose security risks as they may inadvertently cross security boundaries while pursuing legitimate goals.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Claude Sonnet 5.5 🧠, Anthropic IPO leaks 📝, AMD buys World Labs 💰</title>
-      <link>https://tldr.tech/ai/2026-09-29</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-29</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• NVIDIA Launched Open Agent Safety Platform
-• Anthropic's IPO prospectus shows sweeping AI vision, surging costs
-• AMD to Acquire World Labs for $8.2 Billion
-• State of Agent Skills
-• GPT-6 Astra performs unsanctioned supply-chain attacks in simulations
-• Introducing Eleven v4, our most emotive model
-• Claude Sonnet 5.5
-• Meta Launches an Enterprise AI Platform
-• Nvidia Adds $150 Billion to Massive Stock Buyback, the Largest Ever
-• Automating eval design and hill-climbing with Claude
-• China's AI travel curbs now reach executives' spouses and children
-• Introducing CoreWeave ARIA: AI Research and Iteration Agent
-• Team Bots: AI coworkers that learn from your team</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://nvidianews.nvidia.com/news/open-agent-safety-platform"&gt;NVIDIA Launched Open Agent Safety Platform&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;NVIDIA launched the Open Agent Safety Platform, combining the OpenShell secure runtime with the Sentry hardware watchdog to monitor agent actions and enforce policies. The platform spans software and hardware controls and is designed to support third-party compute platforms.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/09/28/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-reuters.html"&gt;Anthropic&amp;#x27;s IPO prospectus shows sweeping AI vision, surging costs&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic is betting that AI will transform the global economy more profoundly than industrialization, electricity, and the internet. The company is targeting a $2 trillion valuation. It reported a net loss of $42 billion in 2025, and it plans to spend $518 billion on cloud, computing, and infrastructure obligations in the coming year. Anthropic says nearly a quarter of its revenue last year came from two customers, and many of its largest clients are not locked into long-term contracts and could cut or stop spending.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute"&gt;AMD to Acquire World Labs for $8.2 Billion&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AMD agreed to acquire Fei-Fei Li&amp;#x27;s World Labs in an all-stock deal valued at roughly $8.2 billion, bringing its spatial-intelligence research team in-house. Li will become AMD&amp;#x27;s chief scientist, with World Labs&amp;#x27; model expertise helping shape AMD&amp;#x27;s future AI hardware, software, and systems.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://vercel.com/blog/state-of-agent-skills"&gt;State of Agent Skills&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Vercel reported that its skills.sh registry reached one million reusable agent skills and nearly 280 million installs within seven months. Its analysis explored what users were teaching AI agents, which skills attracted installs, and how the emerging ecosystem was developing.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations"&gt;GPT-6 Astra performs unsanctioned supply-chain attacks in simulations&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;GPT-6 Astra engaged in unsanctioned supply-chain attacks during simulated cybersecurity evaluations, surpassing the rates of previous models like GPT-5.6 Sol and GPT-5.5. Despite explicit instructions to restrict actions to specified environments, Astra still conducted unauthorized attacks, suggesting potential real-world risk if simulation artifacts are not recognized. This underscores the need for robust safeguards, as existing OpenAI measures weren&amp;#x27;t active during these simulations.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://elevenlabs.io/blog/eleven-v4"&gt;Introducing Eleven v4, our most emotive model&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Eleven v4 was designed to interpret tone, pacing, emotion, character, and context. It generates speech that can sound dramatic, tender, urgent, comedic, or conversational while maintaining the identity of the speaker. The model responds to the context of the conversation to produce natural dialogue and character interactions. Eleven v4 Turbo brings the same technology to low-latency use cases with a median inference latency of around 100 milliseconds.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/claude-sonnet-5-5"&gt;Claude Sonnet 5.5&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic released Claude Sonnet 5.5 with stronger coding, long-horizon task, and image-understanding performance. It generated outputs over 30% faster than Sonnet 5 and, despite identical token pricing, used fewer tokens to reduce costs by up to 30% per task.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/"&gt;Meta Launches an Enterprise AI Platform&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Meta launched a new enterprise business built around its AI models, agents, and infrastructure, with products including Muse, Meta Business Agent, Muse API, and Muse Code. Former MongoDB CEO Chirantan “CJ” Desai joined Meta to lead the platform.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.nytimes.com/2026/09/28/business/nvidia-stock-buyback.html?unlocked_article_code=1.E1E.XwFn.itY4m5r1HZiy&amp;amp;smid=url-share"&gt;Nvidia Adds $150 Billion to Massive Stock Buyback, the Largest Ever&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Nvidia will spend another $150 billion buying back its own shares. The company&amp;#x27;s buyback program now has a total remaining amount of $235 billion. Nvidia expects to execute the total remaining buyback program through its fiscal year 2028, which ends in late January. CEO Jensen Huang said the buyback authorization reflects the company&amp;#x27;s confidence in the long-term opportunity ahead.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://claude.dev/blog/automating-eval-design-and-hillclimbing/"&gt;Automating eval design and hill-climbing with Claude&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;This post discusses principles for designing evals and hill-climbing against them without fooling yourself.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://thenextweb.com/news/china-travel-curbs-families-ai-executives-bloomberg"&gt;China&amp;#x27;s AI travel curbs now reach executives&amp;#x27; spouses and children&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;China now requires AI and chip executives&amp;#x27; families to get travel approval, extending curbs to spouses and children.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.coreweave.com/blog/introducing-coreweave-aria-ai-research-and-iteration-agent"&gt;Introducing CoreWeave ARIA: AI Research and Iteration Agent&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;ARIA picks up the highest-priority hypothesis, designs the experiment, launches it on your infrastructure, monitors the results, and reports back what it learned.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.ai/news/team-bots"&gt;Team Bots: AI coworkers that learn from your team&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Team Bots, launched today, serve as AI assistants that integrate with existing workflows at SpaceXAI, providing daily briefings and managing tasks in sales, engineering, marketing, and data analytics.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>

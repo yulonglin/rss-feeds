@@ -9,7 +9,23 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/project-syndicate.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.project-syndicate.org/" rel="via" type="text/html" />
-    <lastBuildDate>Mon, 26 Oct 2026 17:46:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 10:03:08 +0000</lastBuildDate>
+    <item>
+      <title>Middle Powers Can Lead on AI Safety</title>
+      <link>https://www.project-syndicate.org/commentary/middle-powers-must-lead-ai-safety-frontier-development-by-gordon-laforge-1-and-robert-c-orr-2026-10</link>
+      <guid isPermaLink="true">https://www.project-syndicate.org/commentary/middle-powers-must-lead-ai-safety-frontier-development-by-gordon-laforge-1-and-robert-c-orr-2026-10</guid>
+      <pubDate>Tue, 27 Oct 2026 10:03:08 +0000</pubDate>
+      <dc:creator>Gordon LaForge and Robert C. Orr</dc:creator>
+      <category>Commentary</category>
+      <description>With the United States showing no interest in regulating AI, middle powers have an opportunity to take the lead on governance. By banding together, these countries could condition market access on meeting a common set of safety requirements and explore joint investment in technical capacity.</description>
+      <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/f45c93f5c9b43898be76f653de862b58.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Photo: Fabrice Coffrini/AFP via Getty Images&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;With the United States showing no interest in regulating AI, middle powers have an opportunity to take the lead on governance. By banding together, these countries could condition market access on meeting a common set of safety requirements and explore joint investment in technical capacity.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;By Gordon LaForge and Robert C. Orr&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;WASHINGTON, DC—The warnings about the safety of frontier AI models continue to grow louder. Writing in &lt;i&gt;Time&lt;/i&gt; in early October, the former chief scientist of the United Kingdom’s AI Security Institute put &lt;a href="https://time.com/article/2026/10/03/we-won-t-know-the-answers-to-ai-s-most-important-questions-until-its-too-late/"&gt;the probability&lt;/a&gt; of us all dying because of smarter-than-human AI systems at 50%. On the same day, a senior OpenAI employee &lt;a href="https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881"&gt;announced&lt;/a&gt; that he had left the company because of its “broken” safety culture. But the United States has shown no interest in regulating the technology, except for a “morally binding” voluntary accord recently signed by tech CEOs and US President Donald Trump.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/middle-powers-must-lead-ai-safety-frontier-development-by-gordon-laforge-1-and-robert-c-orr-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Lula Killed the Donroe Doctrine</title>
       <link>https://www.project-syndicate.org/commentary/donroe-doctrine-trump-latin-america-strategy-derailed-by-jeremy-adelman-2026-10</link>
@@ -353,22 +369,6 @@
 &lt;hr&gt;
 &lt;p&gt;PARIS—Given current AI capabilities, does it matter who conducts scientific research? The intuitive response is that a fact is a fact, regardless of who finds it. But knowledge is never disseminated that way. We receive most scientific claims without any means of checking them ourselves, so we tend to judge not the claim but the credibility of whoever stands behind it. As the Harvard historian of science &lt;a href="https://www.project-syndicate.org/columnist/steven-shapin"&gt;Steven Shapin&lt;/a&gt;&lt;a href="https://books.google.ae/books/about/A_Social_History_of_Truth.html?id=Cr4lEAAAQBAJ&amp;amp;redir_esc=y"&gt;shows&lt;/a&gt;, the production of scientific truth has long been inseparable from the social work of persuading one’s peers.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/ai-science-need-for-validation-public-trust-by-sami-mahroum-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>When Smart Cities Turn Menacing</title>
-      <link>https://www.project-syndicate.org/onpoint/africa-smart-city-tools-from-china-used-for-surveillance-political-control-by-wairagala-wakabi-2026-10</link>
-      <guid isPermaLink="true">https://www.project-syndicate.org/onpoint/africa-smart-city-tools-from-china-used-for-surveillance-political-control-by-wairagala-wakabi-2026-10</guid>
-      <pubDate>Wed, 21 Oct 2026 08:22:17 +0000</pubDate>
-      <dc:creator>Wairagala Wakabi</dc:creator>
-      <category>Commentary</category>
-      <description>Uganda has embraced digital-surveillance tools in the name of improving public safety and combating terrorism, a pattern that is repeating itself across several African countries. But governments are increasingly using these technologies for political control, rather than for national security.</description>
-      <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/31fbda9405d17c71fafb9ca7cb851e26.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;Photo: Yasuyoshi Chiba/AFP via Getty Images&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;Uganda has embraced digital-surveillance tools in the name of improving public safety and combating terrorism, a pattern that is repeating itself across several African countries. But governments are increasingly using these technologies for political control, rather than for national security.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;By Wairagala Wakabi&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;KAMPALA—In June 2025, Uganda switched on the Automated Express Penalty System (EPSAuto), using CCTV cameras, automatic number plate recognition (ANPR), and an intelligent transport monitoring system (ITMS) to fine motorists. But the system, ostensibly aimed at bringing order to the country’s chaotic roads, quickly generated controversy.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/onpoint/africa-smart-city-tools-from-china-used-for-surveillance-political-control-by-wairagala-wakabi-2026-10"&gt;Continues on Project Syndicate (subscriber article)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
