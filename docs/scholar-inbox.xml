@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Mon, 26 Oct 2026 09:57:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 14:36:48 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 27 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:24dcd084f4896734</guid>
+      <pubDate>Tue, 27 Oct 2026 14:36:48 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Between a Rock and a Hard Place: The Tension Between Ethical Reasoning and Safety Alignment in LLMs
+• Beyond Belief: Evaluating and Mitigating LLM Susceptibility to Misinformation
+• Propensities Please: Exposing Alignment-Faking LLMs using Synthetic Document Finetuning
+• ChameleonBench: Quantifying Alignment Faking in Large Language Models
+• Position Matters More Than Channel: Talking a Language Model Out of a Correct Answer</description>
+      <content:encoded>&lt;p&gt;Matched 213 of 3466 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Between+a+Rock+and+a+Hard+Place%3A+The+Tension+Between+Ethical+Reasoning+and+Safety+Alignment+in+LLMs%22"&gt;&lt;strong&gt;Between a Rock and a Hard Place: The Tension Between Ethical Reasoning and Safety Alignment in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Shei Pern Chua, Zhen Leng Thai, Kai Jun Teh, Xiao Li, Qibing Ren, Xiaolin Hu&lt;br&gt;&lt;small&gt;relevance 94&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Beyond+Belief%3A+Evaluating+and+Mitigating+LLM+Susceptibility+to+Misinformation&amp;amp;searchtype=title"&gt;&lt;strong&gt;Beyond Belief: Evaluating and Mitigating LLM Susceptibility to Misinformation&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Emran Kanaan, Jiho Lee, Ibrahim Odat, Soroush Vosoughi, Weicheng Ma&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 25) · relevance 93&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Propensities+Please%3A+Exposing+Alignment-Faking+LLMs+using+Synthetic+Document+Finetuning&amp;amp;searchtype=title"&gt;&lt;strong&gt;Propensities Please: Exposing Alignment-Faking LLMs using Synthetic Document Finetuning&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ardy Haroen, Florian Lorkowski, Samuel Nellessen, Felix Hofstätter&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 23) · relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22ChameleonBench%3A+Quantifying+Alignment+Faking+in+Large+Language+Models%22"&gt;&lt;strong&gt;ChameleonBench: Quantifying Alignment Faking in Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Archie Chaudhury, Shikhar Shiromani&lt;br&gt;&lt;small&gt;relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Position+Matters+More+Than+Channel%3A+Talking+a+Language+Model+Out+of+a+Correct+Answer&amp;amp;searchtype=title"&gt;&lt;strong&gt;Position Matters More Than Channel: Talking a Language Model Out of a Correct Answer&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Xinyi Ni&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 26) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 26 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>

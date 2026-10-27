@@ -1,27 +1,11 @@
 {
-  "https://www.project-syndicate.org/commentary/africa-needs-regional-integration-industrialization-and-access-to-trade-finance-by-yemi-kale-2026-10": {
-    "byline": "Yemi Kale",
-    "body": "<p>ABUJA\u2014As geopolitical tensions reshape the world economy, Africa faces a choice: it can allow itself to be carried along by events into an uncertain future, or it can use the ongoing shifts in the international order as an opening to position itself as a more influential global player.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-10-27T03:55:02+00:00"
-  },
   "https://www.project-syndicate.org/commentary/ai-founding-myth-profit-or-social-cooperation-by-richard-k-sherwin-2026-10": {
     "byline": "Richard K. Sherwin",
     "body": "<p>NEW YORK\u2014It is telling that Anthropic chose to call its most powerful AI model \u201cMythos.\u201d In ancient Greek, the word denotes an original reality that we can imitate or embody through the stories we tell ourselves and one another. Pliny the Elder <a href=\"https://www.metmuseum.org/perspectives/crevalcore-still-life-with-grapes-and-bird\">tells</a> us that the fifth-century Greek painter Zeuxis rendered grapes so realistically as to fool even the birds.</p>",
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-10-26T14:53:30+00:00"
-  },
-  "https://www.project-syndicate.org/commentary/ai-science-need-for-validation-public-trust-by-sami-mahroum-2026-10": {
-    "byline": "Sami Mahroum",
-    "body": "<p>PARIS\u2014Given current AI capabilities, does it matter who conducts scientific research? The intuitive response is that a fact is a fact, regardless of who finds it. But knowledge is never disseminated that way. We receive most scientific claims without any means of checking them ourselves, so we tend to judge not the claim but the credibility of whoever stands behind it. As the Harvard historian of science <a href=\"https://www.project-syndicate.org/columnist/steven-shapin\">Steven Shapin</a><a href=\"https://books.google.ae/books/about/A_Social_History_of_Truth.html?id=Cr4lEAAAQBAJ&amp;redir_esc=y\">shows</a>, the production of scientific truth has long been inseparable from the social work of persuading one\u2019s peers.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-10-27T03:55:02+00:00"
+    "fetched": "2026-10-27T20:27:43+00:00"
   },
   "https://www.project-syndicate.org/commentary/argentina-milei-chainsaw-plan-mass-destitution-by-jeremy-adelman-2026-10": {
     "byline": "Jeremy Adelman",
@@ -31,13 +15,29 @@
     "bio": "",
     "fetched": "2026-10-27T03:55:02+00:00"
   },
+  "https://www.project-syndicate.org/commentary/brazil-fiscal-deterioration-under-lula-will-carry-high-domestic-costs-by-gene-frieda-2026-10": {
+    "byline": "Gene Frieda",
+    "body": "<p>LONDON\u2014Brazil has an unfortunate habit of disappointing. Despite the country\u2019s exceptional natural-resource endowment, its growth trajectory resembles what Brazilians call the flight of a chicken (<i>voo de galinha</i>): a brief flutter followed by an inevitable fall back down to Earth. President <a href=\"https://www.project-syndicate.org/columnist/luiz-inacio-lula-da-silva\">Luiz In\u00e1cio Lula da Silva</a>\u2019s surprise re-election raises the risk of another letdown.</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-10-27T20:27:43+00:00"
+  },
+  "https://www.project-syndicate.org/commentary/brazil-lula-victory-anti-authoritarian-playbook-by-robert-muggah-and-ilona-szabo-de-carvalho-2026-10": {
+    "byline": "Robert Muggah and Ilona Szab\u00f3 de Carvalho",
+    "body": "<p>S\u00c3O PAOLO\u2014Until President <a href=\"https://www.project-syndicate.org/columnist/luiz-inacio-lula-da-silva\">Luiz In\u00e1cio Lula da Silva</a> staged a <a href=\"https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/presidente-do-tse-anuncia-reeleicao-de-lula-e-faz-balanco-do-2o-turno-das-eleicoes-2026\">remarkable comeback</a> to win re-election, no Brazilian presidential candidate had overturned a first-round defeat in a runoff. Lula did so with nearly 52% of the vote, against Fl\u00e1vio Bolsonaro\u2019s 48%. More than 128 million Brazilians turned out\u2014nearly <a href=\"https://www.theguardian.com/world/ng-interactive/2026/oct/25/brazil-election-2026-live-second-round-results\">three million more</a> than in the first round.</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-10-27T20:27:43+00:00"
+  },
   "https://www.project-syndicate.org/commentary/capital-markets-point-to-growing-risk-of-ai-driven-downturn-by-dambisa-moyo-2026-10": {
     "byline": "Dambisa Moyo",
     "body": "<p>ISTANBUL\u2014Today\u2019s economic growth depends heavily on AI investment and fiscal spending. The International Monetary Fund <a href=\"https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html\">estimates</a> that AI could add up to half a percentage point to annual global growth over the next decade, raising the average rate from 3% to 3.5%.</p>",
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-10-26T14:53:30+00:00"
+    "fetched": "2026-10-27T20:27:43+00:00"
   },
   "https://www.project-syndicate.org/commentary/china-eroding-fiscal-position-political-purges-economic-weakness-by-navneeraj-sharma-and-arvind-subramanian-2026-10": {
     "byline": "Navneeraj Sharma and Arvind Subramanian",
@@ -71,17 +71,17 @@
     "bio": "",
     "fetched": "2026-10-27T03:55:02+00:00"
   },
-  "https://www.project-syndicate.org/commentary/europeans-must-prepare-for-far-right-attempt-to-paralyze-eu-by-janis-a-emmanouilidis-2026-10": {
-    "byline": "Janis A. Emmanouilidis",
-    "body": "<p>BRUSSELS\u2014What if the greatest threat to the European Union is not Russian aggression, Chinese exports, or US President Donald Trump, but actually comes from within the bloc?</p>",
+  "https://www.project-syndicate.org/commentary/europe-make-or-break-submission-or-independence-by-joschka-fischer-2026-10": {
+    "byline": "Joschka Fischer",
+    "body": "<p>BERLIN\u2014On February 24, 2027, it will have been five years since Russia launched its full-scale invasion of Ukraine, in flagrant violation of international law. Russian President Vladimir Putin\u2019s neo-imperialist adventure\u2014his \u201cspecial military operation\u201d\u2014was supposed to be a brief and decisive war of conquest. But it soon became apparent that he had underestimated his victim. The Ukrainians have been determined to defend themselves, whatever it takes, and for a while, they could count on a united West, with the United States and Europe standing together in providing military and civilian support.</p>",
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-10-27T03:55:02+00:00"
+    "fetched": "2026-10-27T20:27:43+00:00"
   },
-  "https://www.project-syndicate.org/commentary/investors-must-not-forget-the-supply-shocks-driving-persistent-inflation-by-sebnem-kalemli-ozcan-2026-10": {
-    "byline": "\u015eebnem Kalemli-\u00d6zcan",
-    "body": "<p>PROVIDENCE\u2014It was only a few months ago that investors were preoccupied with US tariffs and the closure of the Strait of Hormuz. But these issues have since receded from the forefront of our concerns, overshadowed by anxiety over the AI boom and possible bust, rising bond yields, and mounting public debt.</p>",
+  "https://www.project-syndicate.org/commentary/europeans-must-prepare-for-far-right-attempt-to-paralyze-eu-by-janis-a-emmanouilidis-2026-10": {
+    "byline": "Janis A. Emmanouilidis",
+    "body": "<p>BRUSSELS\u2014What if the greatest threat to the European Union is not Russian aggression, Chinese exports, or US President Donald Trump, but actually comes from within the bloc?</p>",
     "truncated": true,
     "free": true,
     "bio": "",
@@ -141,7 +141,7 @@
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-10-26T14:53:30+00:00"
+    "fetched": "2026-10-27T20:27:43+00:00"
   },
   "https://www.project-syndicate.org/onpoint/agentic-information-economy-by-shuwei-fang-2026-10": {
     "byline": "Shuwei Fang",
