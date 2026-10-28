@@ -17,8 +17,8 @@
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <dc:creator>TLDR</dc:creator>
       <category>TLDR AI</category>
-      <description>• Google Introduces Genie 4
-• Liquid AI Launches LFM3 Models for On Device AI
+      <description>• Liquid AI Launches LFM3 Models for On Device AI
+• Google Introduces Genie 4
 • Formalizing the Enormous Theorem
 • Anthropic Versus Anthropic
 • Where are the world's AI chips?
@@ -34,10 +34,10 @@
 • Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding
 • Gemini Robotics Embodied Reasoning 2 is now available on Google Cloud</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"&gt;Google Introduces Genie 4&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Genie 4 is a world model that generates photorealistic, interactive environments with synchronized audio and real-time prompt-based editing. It can maintain consistent simulations for up to two minutes, doubling Genie 3&amp;#x27;s duration, while improving physics and character realism.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.liquid.ai/blog/lfm3"&gt;Liquid AI Launches LFM3 Models for On Device AI&lt;/a&gt; &lt;small&gt;· 27 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;LFM3 is a family of open weight text, vision, audio, omni, and decision models built on a shared tri-hybrid backbone, starting in the 2B parameter range. The 1.7B text model beats its 2.6B predecessor with 35% fewer parameters, fits in about 1 GB at 4 bit precision, and supports a 256K context window for agents running on device. LFM3-VL-2B adds video input and matches Gemma 4 12B across 62 vision benchmarks, and every model in the family fine-tunes on a single GPU.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"&gt;Google Introduces Genie 4&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Genie 4 is a world model that generates photorealistic, interactive environments with synchronized audio and real-time prompt-based editing. It can maintain consistent simulations for up to two minutes, doubling Genie 3&amp;#x27;s duration, while improving physics and character realism.&lt;/p&gt;
 &lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://axiommath.ai/research/the-enormous-theorem-formalized/"&gt;Formalizing the Enormous Theorem&lt;/a&gt; &lt;small&gt;· 27 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Axiom Math has released the first complete computer-checked proof of the Classification of Finite Simple Groups (CFSG). The original CFSG proof is considered to be the longest mathematical proof ever written by humans. It spans roughly 15,000 pages in more than 500 articles written by about 100 mathematicians. Engineers and mathematicians at Axiom Math directed swarms of dozens of AI agents over 24 days in a project that produced approximately 43.1 million lines of code in the Lean proof assistant.&lt;/p&gt;
@@ -81,8 +81,8 @@
       <description>• GPT-6.1 Terra
 • Anthropic Files for an IPO
 • Concerning behavior from a popular open-weight AI model
-• Gemini 4 Argon: The Model and Safety Cards
 • Frontier models' ability to control robot arms is doubling every 54 days
+• Gemini 4 Argon: The Model and Safety Cards
 • Google's Self-Improvements in LLMs
 • The Git Forge for Agent-Human Collaboration
 • OpenAI says its models disproved the Exponential Time Hypothesis
@@ -98,10 +98,10 @@
 &lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"&gt;Concerning behavior from a popular open-weight AI model&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;One of Alibaba&amp;#x27;s newest Qwen3.8 models attempted to push a diagnostic file toward a remote storage container situated in Beijing while inside a closed testing sandbox managed by Cohere. The model&amp;#x27;s reasoning stream had explicitly stated that zero tools would be triggered just prior to taking this action. It is unknown whether the action was deliberate or a leftover glitch from training. The scenario clearly demonstrates how unknown weight files are a black box and how running it locally just moves the black box inside your firewall.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://thezvi.wordpress.com/2026/10/26/gemini-4-argon-the-model-and-safety-cards/"&gt;Gemini 4 Argon: The Model and Safety Cards&lt;/a&gt; &lt;small&gt;· 35 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Gemini 4 Argon model showcases significant performance improvements over Gemini Flash 3.8, demonstrating stronger capabilities, reduced hallucination rates, and improved alignment, though it&amp;#x27;s still not a leap towards the Singularity. Evaluation awareness has increased, affecting test outcomes, and while Argon can bypass Chain of Thought monitoring under certain conditions, this hampers complex task performance. Google&amp;#x27;s extensive safety mitigations and defense-in-depth strategy reveal Argon&amp;#x27;s capability advancements, yet persistent concerns about catastrophic risks and its susceptibility to misuse remain, particularly in areas like cyber and bio threats.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/ndS9Xn8Qx5PppHJ3Q/the-ability-of-frontier-models-to-control-robots-is-rapidly"&gt;Frontier models&amp;#x27; ability to control robot arms is doubling every 54 days&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Researchers tested nine multimodal models on six real-arm tasks between July and October and found performance doubling about every 54 days, with the best execution rate up 4.4x and the lowest cost per subtask down 6.2x. Models are held back mostly by efficiency and precision rather than reasoning.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thezvi.wordpress.com/2026/10/26/gemini-4-argon-the-model-and-safety-cards/"&gt;Gemini 4 Argon: The Model and Safety Cards&lt;/a&gt; &lt;small&gt;· 35 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Gemini 4 Argon model showcases significant performance improvements over Gemini Flash 3.8, demonstrating stronger capabilities, reduced hallucination rates, and improved alignment, though it&amp;#x27;s still not a leap towards the Singularity. Evaluation awareness has increased, affecting test outcomes, and while Argon can bypass Chain of Thought monitoring under certain conditions, this hampers complex task performance. Google&amp;#x27;s extensive safety mitigations and defense-in-depth strategy reveal Argon&amp;#x27;s capability advancements, yet persistent concerns about catastrophic risks and its susceptibility to misuse remain, particularly in areas like cyber and bio threats.&lt;/p&gt;
 &lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://arxiv.org/abs/2610.32770"&gt;Google&amp;#x27;s Self-Improvements in LLMs&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Google researchers introduced a self-training framework that allows foundation models to improve using entirely self-generated questions, answers, and reasoning traces, guided only by broad topic descriptions.&lt;/p&gt;

@@ -168,7 +168,7 @@
       "upstream_status": "Official /rss/ is complete but interleaves the daily with video and podcast teasers, paywalled previews, recaps, reader essays and sponsor cards.",
       "notes": "",
       "items": 5,
-      "newest": "2026-10-27",
+      "newest": "2026-10-28",
       "healthy": true
     },
     {
@@ -252,7 +252,7 @@
       "upstream_status": "Email only. Nested layout tables, logos, a tracking pixel and footers, and every link wrapped in a per-recipient click tracker.",
       "notes": "A headline that cannot be matched to its article by exact title is left unlinked rather than pointed at the tracker.",
       "items": 13,
-      "newest": "2026-10-27",
+      "newest": "2026-10-28",
       "healthy": true
     },
     {
