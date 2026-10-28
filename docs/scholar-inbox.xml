@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 27 Oct 2026 14:36:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 13:18:27 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 28 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:527ec0337f7c07d3</guid>
+      <pubDate>Wed, 28 Oct 2026 13:18:27 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Knowing-but-Doing: Diagnosing and Defending Role-Play-Driven LLMs Jailbreaks via Moral Disengagement
+• Agreement Is Not Truth: Characterizing and Controlling Consistent-but-Wrong Reasoning in LLMs
+• ANCHOR: Automated Alignment Auditing for CLI Agents on Real-World Harm
+• SGT: Securing Open-Source LLMs Against Malicious Fine-tuning via Safety Guidance Trigger
+• Calibrating Inference Time Alignment with Sequence-level Risk Accumulation</description>
+      <content:encoded>&lt;p&gt;Matched 145 of 2438 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Knowing-but-Doing%3A+Diagnosing+and+Defending+Role-Play-Driven+LLMs+Jailbreaks+via+Moral+Disengagement%22"&gt;&lt;strong&gt;Knowing-but-Doing: Diagnosing and Defending Role-Play-Driven LLMs Jailbreaks via Moral Disengagement&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Haiming Qin, Jianxun Lian, Qimin Zhong, Mingyang Zhou, Hao Liao, Naipeng Chao&lt;br&gt;&lt;small&gt;relevance 93&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Agreement+Is+Not+Truth%3A+Characterizing+and+Controlling+Consistent-but-Wrong+Reasoning+in+LLMs%22"&gt;&lt;strong&gt;Agreement Is Not Truth: Characterizing and Controlling Consistent-but-Wrong Reasoning in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Minje Kim, Keeheon Lee, Chi-Guhn Lee&lt;br&gt;&lt;small&gt;relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22ANCHOR%3A+Automated+Alignment+Auditing+for+CLI+Agents+on+Real-World+Harm%22"&gt;&lt;strong&gt;ANCHOR: Automated Alignment Auditing for CLI Agents on Real-World Harm&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Kefan Song, Yanjun Qi&lt;br&gt;&lt;small&gt;relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22SGT%3A+Securing+Open-Source+LLMs+Against+Malicious+Fine-tuning+via+Safety+Guidance+Trigger%22"&gt;&lt;strong&gt;SGT: Securing Open-Source LLMs Against Malicious Fine-tuning via Safety Guidance Trigger&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Sunguk Shin, Fangzhao Wu, Byung-Jun Lee, Meeyoung Cha, Sungwon Park&lt;br&gt;&lt;small&gt;relevance 79&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Calibrating+Inference+Time+Alignment+with+Sequence-level+Risk+Accumulation%22"&gt;&lt;strong&gt;Calibrating Inference Time Alignment with Sequence-level Risk Accumulation&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Shanwen Tan, Ziyang Dong, Wei Ju, Yiwei Fu, Hao Wu, Kun Wang, Yifan Wang, Ziyue Qiao&lt;br&gt;&lt;small&gt;relevance 78&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 27 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
@@ -386,27 +407,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Unequal+Influence+of+Bad+Advice%3A+Using+Training+Data+Attribution+to+Modulate+Emergent+Misalignment&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Unequal Influence of Bad Advice: Using Training Data Attribution to Modulate Emergent Misalignment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Gonçalo Paulo, Louis Jaburi, Nora Belrose, Lucia Quirke, Stella Biderman&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 29) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Training+LLMs+to+Verbalize+Evaluation+Awareness&amp;amp;searchtype=title"&gt;&lt;strong&gt;Training LLMs to Verbalize Evaluation Awareness&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Usman Anwar, Sahar Abdelnabi, David Krueger&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 28) · relevance 88&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Large+Language+Models+Exhibit+Human-Like+Bayesian+Hypocrisy&amp;amp;searchtype=title"&gt;&lt;strong&gt;Large Language Models Exhibit Human-Like Bayesian Hypocrisy&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Nykko Vitali, Mahzarin R. Banaji&lt;br&gt;&lt;small&gt;ArXiv 2026 (August 3) · relevance 88&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Scholar Inbox, 28 Sep 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:0a27fe33c5b8e3f5</guid>
-      <pubDate>Mon, 28 Sep 2026 09:26:42 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• Monitor Jailbreaking: Evading Chain-of-Thought Monitoring Without Encoded Reasoning
-• JevAdvBench: A Benchmark and Black-Box Attacks for Reinforcement Learning for Calibrated Decisions Models
-• Strategic Self-Consistency
-• Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency
-• Evaluating Sycophancy in Chinese Large Language Models on Factual Questions Derived from Online Search Queries</description>
-      <content:encoded>&lt;p&gt;Matched 67 of 2214 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Monitor+Jailbreaking%3A+Evading+Chain-of-Thought+Monitoring+Without+Encoded+Reasoning&amp;amp;searchtype=title"&gt;&lt;strong&gt;Monitor Jailbreaking: Evading Chain-of-Thought Monitoring Without Encoded Reasoning&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Julian Schulz&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 25) · relevance 93&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=JevAdvBench%3A+A+Benchmark+and+Black-Box+Attacks+for+Reinforcement+Learning+for+Calibrated+Decisions+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;JevAdvBench: A Benchmark and Black-Box Attacks for Reinforcement Learning for Calibrated Decisions Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jianyi Hu, Hangtao Zhang, Yi Liu, Yeqi Zeng, Li Zeng, Xianlong Wang, Rui Wang, Leo Yu Zhang&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 25) · relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Strategic+Self-Consistency&amp;amp;searchtype=title"&gt;&lt;strong&gt;Strategic Self-Consistency&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Tori Qiu, Ander Artola Velasco, Manuel Gomez-Rodriguez&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 24) · relevance 89&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Learning+to+Stop+without+Learning+to+Stop%3A+Self-Supervised+Confidence+Training+Improves+Reasoning+Efficiency&amp;amp;searchtype=title"&gt;&lt;strong&gt;Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Parsa Hosseini, Akasha Tigalappanavara, Sumit Nawathe, Chenrui Fan, Sourya Basu, Genta Indra Winata, Anirban Das, Soheil Feizi, Nima Chitsazan&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 25) · relevance 76&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Evaluating+Sycophancy+in+Chinese+Large+Language+Models+on+Factual+Questions+Derived+from+Online+Search+Queries&amp;amp;searchtype=title"&gt;&lt;strong&gt;Evaluating Sycophancy in Chinese Large Language Models on Factual Questions Derived from Online Search Queries&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Geng Liu, Feng Li, Mengxiao Zhu, Francesco Pierri&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 25) · relevance 64&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
   </channel>

@@ -1,20 +1,4 @@
 {
-  "https://www.project-syndicate.org/commentary/ai-founding-myth-profit-or-social-cooperation-by-richard-k-sherwin-2026-10": {
-    "byline": "Richard K. Sherwin",
-    "body": "<p>NEW YORK\u2014It is telling that Anthropic chose to call its most powerful AI model \u201cMythos.\u201d In ancient Greek, the word denotes an original reality that we can imitate or embody through the stories we tell ourselves and one another. Pliny the Elder <a href=\"https://www.metmuseum.org/perspectives/crevalcore-still-life-with-grapes-and-bird\">tells</a> us that the fifth-century Greek painter Zeuxis rendered grapes so realistically as to fool even the birds.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-10-27T20:27:43+00:00"
-  },
-  "https://www.project-syndicate.org/commentary/argentina-milei-chainsaw-plan-mass-destitution-by-jeremy-adelman-2026-10": {
-    "byline": "Jeremy Adelman",
-    "body": "<p>BUENOS AIRES\u2014Nearly three years after Javier Milei became Argentina\u2019s president, the chainsaw-wielding free-marketeer has established himself as the darling of the far right. Brazil\u2019s right-wing presidential candidate, Fl\u00e1vio Bolsonaro, is promising an economic policy that would follow Milei\u2019s lead, and US President Donald Trump calls him his \u201cfavorite president.\u201d Last year, Trump <a href=\"https://www.reuters.com/world/americas/trump-says-milei-had-a-lot-help-us-argentina-election-win-2025-10-27/\">extended</a> Argentina an unprecedented $20 billion currency swap line to halt its currency\u2019s free fall on the eve of legislative elections, and the gambit worked. Milei\u2019s party won a surprising victory.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-10-28T04:16:56+00:00"
-  },
   "https://www.project-syndicate.org/commentary/brazil-fiscal-deterioration-under-lula-will-carry-high-domestic-costs-by-gene-frieda-2026-10": {
     "byline": "Gene Frieda",
     "body": "<p>LONDON\u2014Brazil has an unfortunate habit of disappointing. Despite the country\u2019s exceptional natural-resource endowment, its growth trajectory resembles what Brazilians call the flight of a chicken (<i>voo de galinha</i>): a brief flutter followed by an inevitable fall back down to Earth. President <a href=\"https://www.project-syndicate.org/columnist/luiz-inacio-lula-da-silva\">Luiz In\u00e1cio Lula da Silva</a>\u2019s surprise re-election raises the risk of another letdown.</p>",
@@ -87,13 +71,21 @@
     "bio": "",
     "fetched": "2026-10-28T04:16:56+00:00"
   },
+  "https://www.project-syndicate.org/commentary/making-a-us-china-ai-safety-accord-work-by-lizzi-c-lee-and-simon-hedlin-2026-10": {
+    "byline": "Lizzi C. Lee and Simon Hedlin",
+    "body": "<p>WASHINGTON, DC\u2014The most concrete outcome from last month\u2019s<a href=\"https://www.ft.com/content/bd99d372-d3d1-4972-a3fe-1bed8f71e14c\"> summit</a> between US President Donald Trump and Chinese President Xi Jinping was an apparent agreement to set up a US-China AI incident-reporting channel. But even if either government proves willing to use this direct line or start sending data across the Pacific, they must first address a more pressing issue: US and Chinese frontier AI companies currently do not provide the information they would need.</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-10-28T14:53:38+00:00"
+  },
   "https://www.project-syndicate.org/commentary/middle-powers-must-lead-ai-safety-frontier-development-by-gordon-laforge-1-and-robert-c-orr-2026-10": {
     "byline": "Gordon LaForge and Robert C. Orr",
     "body": "<p>WASHINGTON, DC\u2014The warnings about the safety of frontier AI models continue to grow louder. Writing in <i>Time</i> in early October, the former chief scientist of the United Kingdom\u2019s AI Security Institute put <a href=\"https://time.com/article/2026/10/03/we-won-t-know-the-answers-to-ai-s-most-important-questions-until-its-too-late/\">the probability</a> of us all dying because of smarter-than-human AI systems at 50%. On the same day, a senior OpenAI employee <a href=\"https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881\">announced</a> that he had left the company because of its \u201cbroken\u201d safety culture. But the United States has shown no interest in regulating the technology, except for a \u201cmorally binding\u201d voluntary accord recently signed by tech CEOs and US President Donald Trump.</p>",
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-10-27T14:01:39+00:00"
+    "fetched": "2026-10-28T14:53:38+00:00"
   },
   "https://www.project-syndicate.org/commentary/nature-30x30-goal-economically-critical-and-still-possible-by-mary-robinson-2026-10": {
     "byline": "Mary Robinson",
@@ -135,13 +127,13 @@
     "bio": "",
     "fetched": "2026-10-28T04:16:56+00:00"
   },
-  "https://www.project-syndicate.org/commentary/superpower-era-over-us-russia-middle-powers-too-by-carl-bildt-2026-10": {
-    "byline": "Carl Bildt",
-    "body": "<p>STOCKHOLM\u2014As the term \u201cmiddle powers\u201d has gained currency this year, it has forced us to ask which countries actually belong to this grouping. After all, shouldn\u2019t most states be described that way?</p>",
+  "https://www.project-syndicate.org/commentary/serbia-student-list-how-it-dethroned-vucic-by-filip-milacic-2026-10": {
+    "byline": "Filip Mila\u010di\u0107",
+    "body": "<p>VIENNA\u2014After 14 years of authoritarian rule, Aleksandar Vu\u010di\u0107 and his Serbian Progressive Party (SNS) have been ousted from power. Although polls had predicted a close election, the student-led opposition ultimately won by a wide margin. In an election that was neither free nor fair\u2014owing to media capture, violence against the government\u2019s opponents, and the SNS\u2019s blatant misuse of state resources\u2014the Student List won <a href=\"https://www.danas.rs/vesti/politika/rezultati-izbora-skupstina-srbije-mandati/\">53% of the popular vote</a>, which translated into 141 parliamentary seats and an absolute majority. Vu\u010di\u0107 and his SNS trailed badly, with 38.8% and 103 seats. </p>",
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-10-27T20:27:43+00:00"
+    "fetched": "2026-10-28T14:53:38+00:00"
   },
   "https://www.project-syndicate.org/onpoint/agentic-information-economy-by-shuwei-fang-2026-10": {
     "byline": "Shuwei Fang",
@@ -150,5 +142,13 @@
     "free": false,
     "bio": "",
     "fetched": "2026-10-28T04:16:56+00:00"
+  },
+  "https://www.project-syndicate.org/onpoint/when-privacy-becomes-a-privilege-by-danielle-keats-citron-and-ari-waldman-2026-10": {
+    "byline": "Danielle Keats Citron and Ari Waldman",
+    "body": "<p>CHARLOTTESVILLE/IRVINE\u2014Around the world, civil rights and civil liberties are coming under profound threat, and that threat has a name: selective privacy. The powerful enjoy it, while vulnerable groups, protesters, and others who stand up to power do not. The slogan writes itself: \u201cPrivacy for me, but not for thee.\u201d</p>",
+    "truncated": true,
+    "free": false,
+    "bio": "",
+    "fetched": "2026-10-28T14:53:38+00:00"
   }
 }
