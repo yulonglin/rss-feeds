@@ -77,8 +77,8 @@
       <category>TLDR AI</category>
       <description>• Liquid AI Launches LFM3 Models for On Device AI
 • Google Introduces Genie 4
-• Formalizing the Enormous Theorem
 • Anthropic Versus Anthropic
+• Formalizing the Enormous Theorem
 • Where are the world's AI chips?
 • Proactive Video Agents
 • The sleep framework: A new way for LLMs to retain knowledge in continual learning
@@ -97,10 +97,10 @@
 &lt;h4&gt;&lt;a href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"&gt;Google Introduces Genie 4&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Genie 4 is a world model that generates photorealistic, interactive environments with synchronized audio and real-time prompt-based editing. It can maintain consistent simulations for up to two minutes, doubling Genie 3&amp;#x27;s duration, while improving physics and character realism.&lt;/p&gt;
 &lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://axiommath.ai/research/the-enormous-theorem-formalized/"&gt;Formalizing the Enormous Theorem&lt;/a&gt; &lt;small&gt;· 27 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Axiom Math has released the first complete computer-checked proof of the Classification of Finite Simple Groups (CFSG). The original CFSG proof is considered to be the longest mathematical proof ever written by humans. It spans roughly 15,000 pages in more than 500 articles written by about 100 mathematicians. Engineers and mathematicians at Axiom Math directed swarms of dozens of AI agents over 24 days in a project that produced approximately 43.1 million lines of code in the Lean proof assistant.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://thezvi.wordpress.com/2026/10/27/anthropic-versus-anthropic/"&gt;Anthropic Versus Anthropic&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Anthropic is grappling with balancing bold safety initiatives and disappointing operational decisions. CEO Dario Amodei has defended their costly, safety-oriented strategies, yet concerns persist over alignment, governance, and potential risks from AI development. Their internal culture reflects both ambitious efforts and troubling signs of a conventional business approach, sparking debate about their commitment to AI safety and global responsibilities.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://axiommath.ai/research/the-enormous-theorem-formalized/"&gt;Formalizing the Enormous Theorem&lt;/a&gt; &lt;small&gt;· 27 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Axiom Math has released the first complete computer-checked proof of the Classification of Finite Simple Groups (CFSG). The original CFSG proof is considered to be the longest mathematical proof ever written by humans. It spans roughly 15,000 pages in more than 500 articles written by about 100 mathematicians. Engineers and mathematicians at Axiom Math directed swarms of dozens of AI agents over 24 days in a project that produced approximately 43.1 million lines of code in the Lean proof assistant.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://epoch.ai/latest/introducing-the-ai-chip-imports-explorer"&gt;Where are the world&amp;#x27;s AI chips?&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;The AI Chip Imports explorer estimates AI compute arrivals by country since 2022, enhancing the mapping of the global AI chip supply chain. It complements existing data on AI chip components, sales, and data centers. These resources collectively provide a detailed overview of AI compute allocation and control worldwide.&lt;/p&gt;
 &lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;

@@ -168,7 +168,7 @@
       "upstream_status": "Official /rss/ is complete but interleaves the daily with video and podcast teasers, paywalled previews, recaps, reader essays and sponsor cards.",
       "notes": "",
       "items": 5,
-      "newest": "2026-10-28",
+      "newest": "2026-10-29",
       "healthy": true
     },
     {
@@ -294,7 +294,7 @@
       "upstream_status": "The old /home/rss feed is gone, and every gatesnotes.com page answers scripts with a 403. Read from the content API the site itself is built from.",
       "notes": "",
       "items": 20,
-      "newest": "2026-10-20",
+      "newest": "2026-10-29",
       "healthy": true
     }
   ]
