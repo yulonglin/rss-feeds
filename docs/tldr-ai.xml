@@ -9,7 +9,65 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Gemini 4 Carbon 🌱, Nemotron Transcribe 📝, benchmarker’s dilemma ❓</title>
+      <link>https://tldr.tech/ai/2026-10-29</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-29</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Gemini 4 Carbon
+• NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt
+• Building an Inference Stack That Improves Itself
+• Artificial Analysis v5 and the benchmarker's dilemma
+• Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5
+• Introducing Vercel CI
+• Route and orchestrate models with GitHub Copilot Fusion
+• Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work
+• Anthropic just launched tools to show companies what their AI spending is buying
+• Meta has a new AI pet app called Waddle World
+• Build and manage Connected Apps in one place
+• ElevenLabs Cue: Character-level audio timing
+• Mirendil Introduces Lor for AI Research Automation
+• OpenAI now lets you text your Dot agent
+• Copilot Automations now learn from outcomes and self-improve</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"&gt;Gemini 4 Carbon&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google has introduced the Gemini 4 Carbon model, advancing AI capabilities with improved energy efficiency. This model enhances performance in natural language processing tasks while reducing carbon footprint, addressing sustainability concerns in AI development. Gemini 4 Carbon aims to set new industry standards for eco-friendly AI models.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"&gt;NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;NVIDIA&amp;#x27;s Nemotron 3.5 Transcribe is an open-weight model for multilingual transcription, translation, speaker attribution, and audio Q&amp;amp;A. It&amp;#x27;s ranked first across several transcription and speaker attribution leaderboards, supporting up to 40 languages with low error rates. Granary v2 enhances this by offering reusable data pipelines and fine-tuning options, enabling customization for diverse vocabularies and specialized applications.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/DecagonAI/status/2115511110120120437"&gt;Building an Inference Stack That Improves Itself&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Decagon&amp;#x27;s AutoResearch agents diagnose inference bottlenecks, test optimizations against production traffic replays, and preserve findings across experiments. The company reports throughput gains up to 2.5x within endpoint latency requirements through quantization, scheduling, engine patches, and speculative decoding, with production changes requiring human approval.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers"&gt;Artificial Analysis v5 and the benchmarker&amp;#x27;s dilemma&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Independent evaluation of language models is a hard task. It is difficult to create a number that is representative of current models that matches vibe checks, community sentiment, and scientific analysis, while being forward-looking enough so that it&amp;#x27;s not outdated in three months. Independent evaluators dictate the winners and losers of a trillion-dollar market. They can also influence the direction of model development, increasing the pressure.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://divagr.com/blog/qwenputer"&gt;Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Qwenputer is a fully functioning, deterministic RISC-V CPU that runs inside Qwen3.5. The CPU runs on its own Gated DeltaNet layers as RAM. It can run arithmetic operations and C and MicroPython code without any external runtime or tool usage. This post explains how the model works, how the model uses GDN layers as RAM, and how the developer also slotted in an experimental in-model file storage.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://vercel.com/blog/introducing-vercel-ci"&gt;Introducing Vercel CI&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Vercel AI is now available in beta. The CI is able to keep up with coding agents. It runs only the tasks affected by a code change, and spins up only the compute those checks need. At Vercel, the system has decreased the time from git push to &amp;#x27;CI pass&amp;#x27; by 2-6x.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/"&gt;Route and orchestrate models with GitHub Copilot Fusion&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;GitHub Copilot Fusion lets Copilot intelligently route and orchestrate models for each task. It leverages the benefits of Project HydraFusion&amp;#x27;s multi-model orchestration and Copilot auto model selection&amp;#x27;s fine-tuned model selection to balance performance and cost efficiency. Copilot Fusion determines which models to use and how they work together depending on the level of effort selected by the user. Administrators can control which models Copilot Fusion can use and whether Copilot Fusion is the default.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"&gt;Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Microsoft Copilot harness powers Copilot Code, Copilot Studio, the GitHub Copilot app, the CLI, VS Code, and more. It is now available through Microsoft Foundry. The harness gives developers and enterprise customers a fully managed way to build agents that reason, use tools, and complete complex, long-running tasks. It was built to perform across model families, and is flexible and configurable to any type of app, agent, or service.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"&gt;Anthropic just launched tools to show companies what their AI spending is buying&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic has launched reporting tools to help companies measure and optimize their AI spending with its products like Claude Code. The tools offer detailed insights on productivity, costs, and recommendations, addressing a major concern for enterprise clients. Despite competition from models like OpenAI&amp;#x27;s Astra, Anthropic&amp;#x27;s strong enterprise presence and sticky workflows continue to drive significant adoption and spending growth.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/28/meta-has-a-new-ai-pet-app-called-waddle-world/"&gt;Meta has a new AI pet app called Waddle World&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta launched Waddle World, a virtual AI pet app that functions like a Tamagotchi, in the Philippines on iOS and Android. Unlike traditional productivity tools or chatbots, it serves as a digital pet and personal journal, allowing users to interact and play mini-games without pressure. The app reflects Meta&amp;#x27;s cautious approach following legal issues faced by other AI companion apps.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/"&gt;Build and manage Connected Apps in one place&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google has introduced a centralized platform for building and managing connected apps.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://elevenlabs.io/blog/cue-aligner"&gt;ElevenLabs Cue: Character-level audio timing&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ElevenLabs&amp;#x27; Cue is a forced alignment model for precise character-level timing in audio files.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/mirendil/status/2115488264312492088"&gt;Mirendil Introduces Lor for AI Research Automation&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Lor is a system with agents that write code, run experiments, and iterate for days across hundreds of parallel workers.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent/"&gt;OpenAI now lets you text your Dot agent&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI now allows US Pro users to text their Dot agents via iMessage and RCS, enabling instructions through text, photos, and voice memos.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.blog/changelog/2026-10-28-copilot-automations-now-learn-from-outcomes-and-self-improve/"&gt;Copilot Automations now learn from outcomes and self-improve&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Copilot Automations now self-improve by learning from real-world outcomes on GitHub.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Genie 4 worlds 🌍, Frontier Code 2 👨‍💻, AI drug discovery 🧬</title>
       <link>https://tldr.tech/ai/2026-10-28</link>
@@ -1107,67 +1165,6 @@
 &lt;p&gt;Decider 2B is an open-source model for fast classification, routing, and scoring tasks.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://ideas.imbue.com/p/personal-computing-20"&gt;Personal Computing 2.0&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Personal Computing 2.0 envisions a future where users regain control over their data, fostering privacy and customization in computing environments.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Gemini 4 Argon 🧠, inside OpenAI’s chip ⚡, distillation takedown 🕵️</title>
-      <link>https://tldr.tech/ai/2026-10-01</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-01</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• Gemini 4 Argon
-• Musk's SpaceXAI Considers Overhaul of Pricing for Grok, X Users
-• Claude for Government is now generally available
-• We can and must solve alignment
-• Generalization Dynamics of LM Pre-training
-• Praxis-1
-• NVIDIA OpenShell Secures Autonomous AI Agents
-• A new transformer passes its hidden state to the next token instead of recomputing it
-• The AI Safety community is unfortunately doing more harm than good
-• Factory CEO just accused his VC board adviser of spying for Cognition
-• The ugly economics of consumer AI
-• Can we predict the jobs robots will do?
-• Introducing E2B Embed
-• Ideogram 4.5: The most precise edit model
-• How OpenAI Disrupted a Model-Distillation Campaign
-• SynthID Bio: Watermarking methods for synthetic biology</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"&gt;Gemini 4 Argon&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google announced Gemini 4 Argon, a frontier model built for sustained reasoning across software engineering, enterprise knowledge work, and cybersecurity. Access is initially limited to trusted cyber defenders, with broader availability planned after phased safety testing.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://links.tldrnewsletter.com/VezRJB"&gt;Musk&amp;#x27;s SpaceXAI Considers Overhaul of Pricing for Grok, X Users&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;SpaceX is considering an overhaul of its subscription pricing options for Grok and X. It plans to soon offer a unified subscription for the services with four pricing tiers. The options will range from a free offering with stricter usage limits for its Grok chatbot to a $100 per month Ultra tier that includes access to the Grok Bot AI agent. The $8 per month &amp;#x27;lite&amp;#x27; plan will include access to Grok, a verified checkmark, and fewer ads on X.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://claude.com/blog/claude-for-government-is-now-generally-available"&gt;Claude for Government is now generally available&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Claude for Government is now generally available, offering FedRAMP High authorized coding and agent capabilities to federal and state agencies. Agencies receive Anthropic commercial features with robust governance controls and customized administrative options. Early access is also available for Claude Code CLI and Claude for Microsoft 365.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.goodfire.com/blog/we-can-and-must-solve-alignment"&gt;We can and must solve alignment&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Goodfire team identifies interpretability as the main challenge in AI alignment, highlighting its critical role in understanding and controlling AI behaviors. They stress the urgency of developing and deploying tools for detecting, debugging, and designing AI systems, focusing on controlling generalization and verifying what models learn. As AI models advance, they seek breakthroughs in interpretability to ensure safe and reliable AI alignment, advocating for a collective effort among the tech community.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.alphaxiv.org/abs/2609.33150"&gt;Generalization Dynamics of LM Pre-training&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;During pre-training, models can abruptly switch response patterns, a phenomenon termed MODE-HOPPING. Tests reveal this behavior in OLMo3-32B during arithmetic tasks, showing sudden shifts between pattern-following and correct task inference as training progresses. Controlled experiments suggest competing shallow and generalizable circuits within models, revealing that longer training doesn&amp;#x27;t always guarantee better generalization.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://runway.com/research/introducing-praxis-1"&gt;Praxis-1&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Praxis-1 is an open-weight world action model that turns Runway&amp;#x27;s video pretraining into control for real robots. The model is currently being tested with early partners, each running on their own hardware. It will be released publicly in the coming months. Clips of robots running the model are available in the post.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://github.com/NVIDIA/OpenShell"&gt;NVIDIA OpenShell Secures Autonomous AI Agents&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;NVIDIA&amp;#x27;s OpenShell provides a policy-controlled runtime for autonomous agents, enforcing file, system-call, network, and credential access at the kernel level. It also uses formal verification to identify risky permissions before policy changes are applied.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2609.38149"&gt;A new transformer passes its hidden state to the next token instead of recomputing it&lt;/a&gt; &lt;small&gt;· 25 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Researchers built LIFT, a transformer that feeds its internal state back into the next generation step instead of squeezing everything through the single token it outputs. Training stays parallel because the states come precomputed from an off-the-shelf model&amp;#x27;s next-token predictions, while at inference the model feeds back its own. LIFT models from 135M to 1B parameters beat token-matched standard transformers on language modeling, reasoning, and procedural tasks, so the next question is whether the gains hold at frontier scale.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://links.tldrnewsletter.com/VmBjCJ"&gt;The AI Safety community is unfortunately doing more harm than good&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Public AI-doom messaging may harden opposition to the industry rather than improve safety discourse. Repeated extinction warnings from lab employees and researchers can politicize AI, intensify public distrust, and increase pressure for restrictive regulation.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition/"&gt;Factory CEO just accused his VC board adviser of spying for Cognition&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Factory has fired VC Chris Degnan from his role as a board advisor due to allegations that Degnan shared confidential information with Cognition, Factory&amp;#x27;s biggest competitor. Degnan joined Cognition as its chief revenue officer two hours after the announcement. He refutes that he was fired and said that he resigned when he told Factory&amp;#x27;s CEO he was taking the job. There could be consequences for perceived board-level conflicts of interest.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/"&gt;The ugly economics of consumer AI&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Consumer AI faces profitability challenges due to high operational costs and slow growth in consumer willingness to pay.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/what-work-can-robots-do"&gt;Can we predict the jobs robots will do?&lt;/a&gt; &lt;small&gt;· 60 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Robots currently can perform 74% of US physical job tasks, yet are cost-effective for only 0.3% due to high expenses.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://e2b.dev/resources/introducing-e2b-embed"&gt;Introducing E2B Embed&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;E2B Embed is a way to package E2B with products and run sandboxes within customer environments.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://ideogram.ai/models/4.5"&gt;Ideogram 4.5: The most precise edit model&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Ideogram 4.5 is an exceptionally precise image editing model that can make targeted changes while preserving the rest of an image.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://links.tldrnewsletter.com/VFHse4"&gt;How OpenAI Disrupted a Model-Distillation Campaign&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI detailed a real-world investigation into a coordinated adversarial-distillation campaign that manipulated model interactions to extract protected reasoning at scale.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://deepmind.google/blog/introducing-synthid-bio/"&gt;SynthID Bio: Watermarking methods for synthetic biology&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;DeepMind introduced SynthID Bio, a watermarking tool for AI-generated proteins that embeds a signature into biological code while maintaining function.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>

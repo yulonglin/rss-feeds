@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 28 Oct 2026 13:18:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 08:36:50 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 29 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:1ffe0878e1984df7</guid>
+      <pubDate>Thu, 29 Oct 2026 08:36:50 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• SAFER: A Controllable Safeguard for LLMs against Backdoor Attacks
+• Self-Reflection Improves Safety of Large Reasoning Models
+• Backfire-R1: Identifying and Mitigating Persuasion Vulnerabilities in LLM Agents
+• Position: We Need Large Language Models Optimized For Our Well-Being
+• When Safety Alignment Fails to Generalize: Probing with Language Game Jailbreaks</description>
+      <content:encoded>&lt;p&gt;Matched 69 of 745 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22SAFER%3A+A+Controllable+Safeguard+for+LLMs+against+Backdoor+Attacks%22"&gt;&lt;strong&gt;SAFER: A Controllable Safeguard for LLMs against Backdoor Attacks&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Zirui Hu, Zheng Zhang, Yingjie Wang, Dacheng Tao&lt;br&gt;&lt;small&gt;relevance 94&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Self-Reflection+Improves+Safety+of+Large+Reasoning+Models%22"&gt;&lt;strong&gt;Self-Reflection Improves Safety of Large Reasoning Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Qiang Huang, Wei Zhai, Feng Huang, Dejing Dou&lt;br&gt;&lt;small&gt;relevance 94&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Backfire-R1%3A+Identifying+and+Mitigating+Persuasion+Vulnerabilities+in+LLM+Agents%22"&gt;&lt;strong&gt;Backfire-R1: Identifying and Mitigating Persuasion Vulnerabilities in LLM Agents&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jingwei Sun, Yi Yu, Jingjing Qu, Hanxi Zhu, Jia Xu, Jing Shao&lt;br&gt;&lt;small&gt;relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Position%3A+We+Need+Large+Language+Models+Optimized+For+Our+Well-Being%22"&gt;&lt;strong&gt;Position: We Need Large Language Models Optimized For Our Well-Being&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ashton Anderson, Harsh Kumar, Louis Tay, Karina Vold&lt;br&gt;&lt;small&gt;relevance 88&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22When+Safety+Alignment+Fails+to+Generalize%3A+Probing+with+Language+Game+Jailbreaks%22"&gt;&lt;strong&gt;When Safety Alignment Fails to Generalize: Probing with Language Game Jailbreaks&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Zewen Long, Yu Peng, Fangming Dong, Congyi Li, Xingmao Guan, Shu Wu, Kai Chen&lt;br&gt;&lt;small&gt;relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 28 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>

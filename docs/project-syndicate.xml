@@ -9,7 +9,23 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/project-syndicate.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.project-syndicate.org/" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 28 Oct 2026 17:14:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 09:48:01 +0000</lastBuildDate>
+    <item>
+      <title>A Future for Europe’s Youth</title>
+      <link>https://www.project-syndicate.org/commentary/protests-reflect-clash-between-youth-expectations-and-eu-capacity-to-deliver-prosperity-by-ana-palacio-2026-10</link>
+      <guid isPermaLink="true">https://www.project-syndicate.org/commentary/protests-reflect-clash-between-youth-expectations-and-eu-capacity-to-deliver-prosperity-by-ana-palacio-2026-10</guid>
+      <pubDate>Thu, 29 Oct 2026 09:48:01 +0000</pubDate>
+      <dc:creator>Ana Palacio</dc:creator>
+      <category>Commentary</category>
+      <description>The current generation of young Europeans possesses freedoms, material resources, opportunities to travel, and technological capabilities beyond anything previous generations could have imagined. Their demands, however, are strikingly simple: decent schools, secure jobs, affordable homes, and the possibility of raising a family.</description>
+      <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/cddac043bc1338168b7aa13ad2fd19d2.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Photo: Lou Benoist/AFP via Getty Images&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;The current generation of young Europeans possesses freedoms, material resources, opportunities to travel, and technological capabilities beyond anything previous generations could have imagined. Their demands, however, are strikingly simple: decent schools, secure jobs, affordable homes, and the possibility of raising a family.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;By Ana Palacio&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;MADRID—At first glance, the wave of student-led protests that has swept across France might resemble the events of May 1968. Both featured surging crowds of demonstrators calling for education reform, criticizing the government, erecting blockades, and being confronted by riot police. Both also attracted &lt;i&gt;casseurs&lt;/i&gt;, who turn protest into destruction. But whereas the students of 1968 were seeking to overturn the established order, today’s protesters want the established order to deliver for them.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/protests-reflect-clash-between-youth-expectations-and-eu-capacity-to-deliver-prosperity-by-ana-palacio-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>A Tale of Two Chinas</title>
       <link>https://www.project-syndicate.org/commentary/china-real-estate-crash-highlights-uneven-prosperity-and-regional-disparities-by-kenneth-rogoff-2026-10</link>
@@ -339,22 +355,6 @@
 &lt;hr&gt;
 &lt;p&gt;SEOUL—Discussion of economic inequality usually focuses on disparities across countries or the divide between rich and poor households within them. But greater attention is now being devoted to domestic regional differences, whether between the capital city and the rest of the country (as in South Korea and the United Kingdom), between northern and southern regions (as in Italy), or between coastal cities and inland areas (as in China and the United States).&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/reducing-geographical-inequality-requires-targeted-public-investment-by-keun-lee-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>The Agentic Information Economy</title>
-      <link>https://www.project-syndicate.org/onpoint/agentic-information-economy-by-shuwei-fang-2026-10</link>
-      <guid isPermaLink="true">https://www.project-syndicate.org/onpoint/agentic-information-economy-by-shuwei-fang-2026-10</guid>
-      <pubDate>Fri, 23 Oct 2026 08:14:14 +0000</pubDate>
-      <dc:creator>Shuwei Fang</dc:creator>
-      <category>Commentary</category>
-      <description>An internet populated and run by AI agents will need not just reliable data but also a broader information ecology capable of questioning its own inputs and transmitting corrections where they are needed if information changes. But whether this will serve private interests or the public good remains to be seen.</description>
-      <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/8eef6286a16949afd5b04c3d16ab9c8a.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;Photo: Guillaume Souvant/AFP via Getty Images&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;An internet populated and run by AI agents will need not just reliable data but also a broader information ecology capable of questioning its own inputs and transmitting corrections where they are needed if information changes. But whether this will serve private interests or the public good remains to be seen.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;By Shuwei Fang&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;CAMBRIDGE—Information is undergoing a category change. It has always been something people consume, but it is also becoming something machines act on. That means errors will stop being mere digital impressions and start becoming actions with far-reaching consequences. Given the risks, the system will need safeguards of its own. Better data or putting a human back in the loop will not suffice.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/onpoint/agentic-information-economy-by-shuwei-fang-2026-10"&gt;Continues on Project Syndicate (subscriber article)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
