@@ -9,7 +9,39 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/project-syndicate.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.project-syndicate.org/" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 30 Oct 2026 13:35:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 15:48:32 +0000</lastBuildDate>
+    <item>
+      <title>Mapping AI Resistance</title>
+      <link>https://www.project-syndicate.org/commentary/ai-resistance-tied-to-what-a-society-already-has-by-carl-benedikt-frey-2026-10</link>
+      <guid isPermaLink="true">https://www.project-syndicate.org/commentary/ai-resistance-tied-to-what-a-society-already-has-by-carl-benedikt-frey-2026-10</guid>
+      <pubDate>Fri, 30 Oct 2026 15:48:32 +0000</pubDate>
+      <dc:creator>Carl Benedikt Frey</dc:creator>
+      <category>Commentary</category>
+      <description>Since a society that is reluctant to deploy a technology will not capture its gains, it is worth understanding why the AI revolution is being welcomed in some places and resisted in others. The explanation is not as simple as headline poll data and much media coverage suggest.</description>
+      <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/67a6ec45dcdf517e06d56b710567b13b.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Photo: API/Gamma-Rapho via Getty Images&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Since a society that is reluctant to deploy a technology will not capture its gains, it is worth understanding why the AI revolution is being welcomed in some places and resisted in others. The explanation is not as simple as headline poll data and much media coverage suggest.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;By Carl Benedikt Frey&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;OXFORD—The United States is both the home of the AI revolution and among the places where people like the technology the least. According to &lt;a href="https://www.ipsos.com/sites/default/files/ct/news/documents/2026-06/Ipsos-AI-Monitor-2026.pdf"&gt;Ipsos’s 2026 AI Monitor&lt;/a&gt;, 85% of respondents in China, 80% in India, and 77% in Indonesia think that AI products and services offer more benefits than drawbacks, compared to only 38% in the US, with similarly low shares in Britain, France, and the Netherlands.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/ai-resistance-tied-to-what-a-society-already-has-by-carl-benedikt-frey-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>The World’s Perilous Ebola Complacency</title>
+      <link>https://www.project-syndicate.org/commentary/2026-ebola-bundibugyo-epidemic-especially-dangerous-world-complacent-by-tom-achoki-et-al-2026-10</link>
+      <guid isPermaLink="true">https://www.project-syndicate.org/commentary/2026-ebola-bundibugyo-epidemic-especially-dangerous-world-complacent-by-tom-achoki-et-al-2026-10</guid>
+      <pubDate>Fri, 30 Oct 2026 14:34:26 +0000</pubDate>
+      <dc:creator>Tom Achoki, Nebiyu Dereje and Jean Kaseya</dc:creator>
+      <category>Commentary</category>
+      <description>The exponential trajectory of the latest Ebola outbreak is an urgent reminder that infectious diseases do not wait for ideal geopolitical alignments or balanced budgets. Global leaders must fund the Africa-led regional response today, or risk paying an immeasurably higher price in human lives and economic devastation tomorrow.</description>
+      <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/9e82815fa7da9cb188017472b0d229fb.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Photo: Jospin Mwisha/AFP via Getty Images&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;The exponential trajectory of the latest Ebola outbreak is an urgent reminder that infectious diseases do not wait for ideal geopolitical alignments or balanced budgets. Global leaders must fund the Africa-led regional response today, or risk paying an immeasurably higher price in human lives and economic devastation tomorrow.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;By Tom Achoki, Nebiyu Dereje and Jean Kaseya&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;NAIROBI—A catastrophic threat is exploding in the heart of Africa. The Democratic Republic of the Congo (DRC) is currently battling the deadliest, fastest-moving Ebola outbreak in its history. In mid-May, the World Health Organization and the Africa Centres for Disease Control and Prevention declared a public health emergency of international concern and continental security. As of October 27, there were &lt;a href="https://www.cdc.gov/ebola/situation-summary/index.html"&gt;10,193 cases&lt;/a&gt; and 4,960 deaths.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/2026-ebola-bundibugyo-epidemic-especially-dangerous-world-complacent-by-tom-achoki-et-al-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Industrial Decarbonization Is Good for Business</title>
       <link>https://www.project-syndicate.org/commentary/industrial-sector-decarbonization-good-for-business-by-elisabeth-reynolds-and-nathan-collett-2026-10</link>
@@ -304,38 +336,6 @@
 &lt;hr&gt;
 &lt;p&gt;WASHINGTON, DC—The warnings about the safety of frontier AI models continue to grow louder. Writing in &lt;i&gt;Time&lt;/i&gt; in early October, the former chief scientist of the United Kingdom’s AI Security Institute put &lt;a href="https://time.com/article/2026/10/03/we-won-t-know-the-answers-to-ai-s-most-important-questions-until-its-too-late/"&gt;the probability&lt;/a&gt; of us all dying because of smarter-than-human AI systems at 50%. On the same day, a senior OpenAI employee &lt;a href="https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881"&gt;announced&lt;/a&gt; that he had left the company because of its “broken” safety culture. But the United States has shown no interest in regulating the technology, except for a “morally binding” voluntary accord recently signed by tech CEOs and US President Donald Trump.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/middle-powers-must-lead-ai-safety-frontier-development-by-gordon-laforge-1-and-robert-c-orr-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Lula Killed the Donroe Doctrine</title>
-      <link>https://www.project-syndicate.org/commentary/donroe-doctrine-trump-latin-america-strategy-derailed-by-jeremy-adelman-2026-10</link>
-      <guid isPermaLink="true">https://www.project-syndicate.org/commentary/donroe-doctrine-trump-latin-america-strategy-derailed-by-jeremy-adelman-2026-10</guid>
-      <pubDate>Mon, 26 Oct 2026 17:46:59 +0000</pubDate>
-      <dc:creator>Jeremy Adelman</dc:creator>
-      <category>Commentary</category>
-      <description>In attempting to disentangle the United States from the rest of the world and retreat into a seemingly controllable hemispheric stronghold, Donald Trump's Latin America strategy had fared better than the rest of his foreign policy. But following a defeat for the far right in Brazil, his project now looks dead in the water.</description>
-      <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/6ce81ed92fb1fdc91285567de3c9ae64.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;Photo: Alexandre Schneider/Getty Images&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;In attempting to disentangle the United States from the rest of the world and retreat into a seemingly controllable hemispheric stronghold, Donald Trump's Latin America strategy had fared better than the rest of his foreign policy. But following a defeat for the far right in Brazil, his project now looks dead in the water.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;By Jeremy Adelman&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;RIO DE JANEIRO—&lt;a href="https://www.project-syndicate.org/columnist/luiz-inacio-lula-da-silva"&gt;Luiz Inácio Lula da Silva&lt;/a&gt;’s victory in Brazil’s presidential election is a blow to Donald Trump’s plan for the Western Hemisphere. The US president was hoping to huddle with client states to the south who mimic his business and &lt;i&gt;mano dura&lt;/i&gt; (iron fist) posturing, while further betraying liberal partners. That plan, within reach until Sunday’s vote, is now in tatters.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/donroe-doctrine-trump-latin-america-strategy-derailed-by-jeremy-adelman-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>The Wrong Way to Compare Economic Size</title>
-      <link>https://www.project-syndicate.org/commentary/ppp-adjusted-gdp-wrong-way-to-measure-and-compare-economic-size-by-jeffrey-frankel-2026-10</link>
-      <guid isPermaLink="true">https://www.project-syndicate.org/commentary/ppp-adjusted-gdp-wrong-way-to-measure-and-compare-economic-size-by-jeffrey-frankel-2026-10</guid>
-      <pubDate>Mon, 26 Oct 2026 15:12:19 +0000</pubDate>
-      <dc:creator>Jeffrey Frankel</dc:creator>
-      <category>Commentary</category>
-      <description>At the European Central Bank’s annual research conference, Paul Krugman concluded that, when it comes to “weaponized interdependence,” the EU is more powerful than both the US and China. But his reliance on PPP-adjusted GDP as a way to smooth out the volatility of nominal exchange rates ignores the even greater swings in PPP data.</description>
-      <content:encoded>&lt;p&gt;&lt;img src="https://webapi.project-syndicate.org/library/b21d9422b8dcfaa6b96c5c36e4956fcc.16-9-xlarge.1.jpg" alt=""&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;Photo: Ng Han Guan/Pool/AFP via Getty Images&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;At the European Central Bank’s annual research conference, Paul Krugman concluded that, when it comes to “weaponized interdependence,” the EU is more powerful than both the US and China. But his reliance on PPP-adjusted GDP as a way to smooth out the volatility of nominal exchange rates ignores the even greater swings in PPP data.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;By Jeffrey Frankel&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;CAMBRIDGE—Last month, the Nobel laureate economist &lt;a href="https://www.project-syndicate.org/columnist/paul-krugman"&gt;Paul Krugman&lt;/a&gt; gave a talk at the European Central Bank’s annual research &lt;a href="https://www.ecb.europa.eu/press/conferences/html/20260916_11th_ecb_annual_research_conference.en.html"&gt;conference&lt;/a&gt;, which focused on &lt;a href="https://www.ecb.europa.eu/press/conferences/html/20260916_11th_ecb_annual_research_conference.en.html"&gt;geoeconomics&lt;/a&gt;. The &lt;a href="https://www.journals.uchicago.edu/doi/abs/10.1086/738941"&gt;term&lt;/a&gt; refers to countries’ ability to exploit economic interactions for geopolitical ends. Think of China’s threats to cut off trading partners from its exports of rare-earth minerals.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.project-syndicate.org/commentary/ppp-adjusted-gdp-wrong-way-to-measure-and-compare-economic-size-by-jeffrey-frankel-2026-10"&gt;Continues on Project Syndicate (registration required)&lt;/a&gt;&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>

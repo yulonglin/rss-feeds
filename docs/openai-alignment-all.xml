@@ -9,7 +9,15 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-alignment-all.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>How we detect frontier model misalignment</title>
+      <link>https://alignment.openai.com/how-we-detect-frontier-model-misalignment/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/how-we-detect-frontier-model-misalignment/</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>How we monitor frontier models, investigate concerning behavior, and test the limits of our safeguards.</description>
+    </item>
     <item>
       <title>Suppressing misalignment monitoring alerts and disabling misalignment monitoring</title>
       <link>https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/</link>

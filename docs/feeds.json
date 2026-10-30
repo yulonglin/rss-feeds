@@ -13,8 +13,8 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "Official /rss.xml exists but was last built 2026-07-21 and omits every externally hosted post.",
       "notes": "",
-      "items": 31,
-      "newest": "2026-10-20",
+      "items": 32,
+      "newest": "2026-10-29",
       "healthy": true
     },
     {
@@ -55,8 +55,8 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "No merged feed upstream.",
       "notes": "",
-      "items": 54,
-      "newest": "2026-10-20",
+      "items": 55,
+      "newest": "2026-10-29",
       "healthy": true
     },
     {
@@ -70,7 +70,7 @@
       "upstream_status": "No merged feed upstream.",
       "notes": "",
       "items": 50,
-      "newest": "2026-10-20",
+      "newest": "2026-10-29",
       "healthy": true
     },
     {
@@ -83,8 +83,8 @@
       "source_url": "https://deploymentsafety.openai.com/",
       "upstream_status": "A /posts.xml exists but is a broken dev build: zero items and a localhost link.",
       "notes": "",
-      "items": 29,
-      "newest": "2026-10-29",
+      "items": 30,
+      "newest": "2026-10-30",
       "healthy": true
     },
     {
