@@ -154,7 +154,7 @@
       "upstream_status": "Official /api/rss/ai exists but each item is only the emoji headline and a link: no summary and none of the stories.",
       "notes": "",
       "items": 20,
-      "newest": "2026-10-29",
+      "newest": "2026-10-30",
       "healthy": true
     },
     {
@@ -237,7 +237,7 @@
       "source_url": "https://www.scholar-inbox.com/",
       "upstream_status": "Email only. Each digest is a stack of styled table cards, titled with an ambiguous dd/mm date, and every link in it is a personal auto-login link.",
       "notes": "Rebuilt from each paper's fields; nothing from the email's markup or links is kept.",
-      "items": 20,
+      "items": 19,
       "newest": "2026-10-29",
       "healthy": true
     },
@@ -252,7 +252,7 @@
       "upstream_status": "Email only. Nested layout tables, logos, a tracking pixel and footers, and every link wrapped in a per-recipient click tracker.",
       "notes": "A headline that cannot be matched to its article by exact title is left unlinked rather than pointed at the tracker.",
       "items": 13,
-      "newest": "2026-10-28",
+      "newest": "2026-10-30",
       "healthy": true
     },
     {
@@ -280,7 +280,7 @@
       "upstream_status": "Official /rss is valid but summary-only, keeps the image in an enclosure most readers ignore, tags every link with utm tracking and credits only the first author of co-written pieces. Most article pages serve anonymous readers only the opening paragraph, then a registration wall.",
       "notes": "",
       "items": 20,
-      "newest": "2026-10-29",
+      "newest": "2026-10-30",
       "healthy": true
     },
     {
