@@ -1,7 +1,7 @@
 {
   "site": "https://feeds.yulonglin.com/",
   "repo": "https://github.com/yulonglin/rss-feeds",
-  "generated": "2026-10-29",
+  "generated": "2026-10-30",
   "feeds": [
     {
       "slug": "openai-alignment-research",
@@ -83,8 +83,8 @@
       "source_url": "https://deploymentsafety.openai.com/",
       "upstream_status": "A /posts.xml exists but is a broken dev build: zero items and a localhost link.",
       "notes": "",
-      "items": 28,
-      "newest": "2026-10-26",
+      "items": 29,
+      "newest": "2026-10-29",
       "healthy": true
     },
     {
