@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 29 Oct 2026 08:36:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 20:40:12 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 30 Oct 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:76330af6c2cf9303</guid>
+      <pubDate>Fri, 30 Oct 2026 20:40:12 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Surprise Alone Learns Lies: Evidence-Gated Continual Learning for LLMs from Streaming Claims
+• ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender
+• Systematic Evaluation of Adversarial Jailbreaking Attacks and Defenses Across Seven Large Language Models
+• Does Chain-of-Thought Reliance Follow a Scaling Law?Larger Models Follow Their Steps More, Independent of Post-Training
+• Locating Sycophancy Across Training Stages in Open Language Models</description>
+      <content:encoded>&lt;p&gt;Matched 191 of 3631 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Surprise+Alone+Learns+Lies%3A+Evidence-Gated+Continual+Learning+for+LLMs+from+Streaming+Claims&amp;amp;searchtype=title"&gt;&lt;strong&gt;Surprise Alone Learns Lies: Evidence-Gated Continual Learning for LLMs from Streaming Claims&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Abdelkader Metales, Miriam Grabenheinrich&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 29) · relevance 89&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=ShallowDefend%3A+Harnessing+Shallow+Safety+Alignment+for+Multi-Turn+Defender&amp;amp;searchtype=title"&gt;&lt;strong&gt;ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Qiyao Ma, Xiaodong Liu, Weiwei Yang, Mingqian Feng, Chengquan Guo, Jialin Song, Carolyn Buractaon, Zhe Zhao, Junshan Zhang, ..., Jianfeng Gao&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 29) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Systematic+Evaluation+of+Adversarial+Jailbreaking+Attacks+and+Defenses+Across+Seven+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Systematic Evaluation of Adversarial Jailbreaking Attacks and Defenses Across Seven Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Md. Robiul Islam Niloy, Abu Sayed Md. Mostafizur Rahaman&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 29) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Does+Chain-of-Thought+Reliance+Follow+a+Scaling+Law%3FLarger+Models+Follow+Their+Steps+More%2C+Independent+of+Post-Training&amp;amp;searchtype=title"&gt;&lt;strong&gt;Does Chain-of-Thought Reliance Follow a Scaling Law?Larger Models Follow Their Steps More, Independent of Post-Training&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Esther Xin&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 28) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Locating+Sycophancy+Across+Training+Stages+in+Open+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Locating Sycophancy Across Training Stages in Open Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jiarui Yao, Shweta Parihar, Nghia Tuan Bui, Guergana K Savova, Lijing Wang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 27) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 29 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>

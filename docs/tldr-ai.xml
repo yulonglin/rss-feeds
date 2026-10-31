@@ -80,9 +80,9 @@
 • Artificial Analysis v5 and the benchmarker's dilemma
 • Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5
 • Building an Inference Stack That Improves Itself
+• Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work
 • Introducing Vercel CI
 • Route and orchestrate models with GitHub Copilot Fusion
-• Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work
 • Meta has a new AI pet app called Waddle World
 • Anthropic just launched tools to show companies what their AI spending is buying
 • ElevenLabs Cue: Character-level audio timing
@@ -103,12 +103,12 @@
 &lt;h4&gt;&lt;a href="https://x.com/DecagonAI/status/2115511110120120437"&gt;Building an Inference Stack That Improves Itself&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Decagon&amp;#x27;s AutoResearch agents diagnose inference bottlenecks, test optimizations against production traffic replays, and preserve findings across experiments. The company reports throughput gains up to 2.5x within endpoint latency requirements through quantization, scheduling, engine patches, and speculative decoding, with production changes requiring human approval.&lt;/p&gt;
 &lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"&gt;Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Microsoft Copilot harness powers Copilot Code, Copilot Studio, the GitHub Copilot app, the CLI, VS Code, and more. It is now available through Microsoft Foundry. The harness gives developers and enterprise customers a fully managed way to build agents that reason, use tools, and complete complex, long-running tasks. It was built to perform across model families, and is flexible and configurable to any type of app, agent, or service.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://vercel.com/blog/introducing-vercel-ci"&gt;Introducing Vercel CI&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;The Vercel AI is now available in beta. The CI is able to keep up with coding agents. It runs only the tasks affected by a code change, and spins up only the compute those checks need. At Vercel, the system has decreased the time from git push to &amp;#x27;CI pass&amp;#x27; by 2-6x.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/"&gt;Route and orchestrate models with GitHub Copilot Fusion&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;GitHub Copilot Fusion lets Copilot intelligently route and orchestrate models for each task. It leverages the benefits of Project HydraFusion&amp;#x27;s multi-model orchestration and Copilot auto model selection&amp;#x27;s fine-tuned model selection to balance performance and cost efficiency. Copilot Fusion determines which models to use and how they work together depending on the level of effort selected by the user. Administrators can control which models Copilot Fusion can use and whether Copilot Fusion is the default.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"&gt;Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Microsoft Copilot harness powers Copilot Code, Copilot Studio, the GitHub Copilot app, the CLI, VS Code, and more. It is now available through Microsoft Foundry. The harness gives developers and enterprise customers a fully managed way to build agents that reason, use tools, and complete complex, long-running tasks. It was built to perform across model families, and is flexible and configurable to any type of app, agent, or service.&lt;/p&gt;
 &lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/28/meta-has-a-new-ai-pet-app-called-waddle-world/"&gt;Meta has a new AI pet app called Waddle World&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Meta launched Waddle World, a virtual AI pet app that functions like a Tamagotchi, in the Philippines on iOS and Android. Unlike traditional productivity tools or chatbots, it serves as a digital pet and personal journal, allowing users to interact and play mini-games without pressure. The app reflects Meta&amp;#x27;s cautious approach following legal issues faced by other AI companion apps.&lt;/p&gt;

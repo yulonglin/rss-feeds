@@ -9,7 +9,53 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/the-conversation.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://theconversation.com/global/newsletters" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 30 Oct 2026 11:58:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 22:53:40 +0000</lastBuildDate>
+    <item>
+      <title>Anthropic's IPO and stock market risk</title>
+      <link>https://theconversation.com/anthropics-record-us-2-trillion-stock-market-listing-highlights-the-growing-risks-for-all-of-us-295243</link>
+      <guid isPermaLink="false">the-conversation:d50d6d75a03d53bb</guid>
+      <pubDate>Fri, 30 Oct 2026 22:53:40 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Global daily</category>
+      <description>• Anthropic’s record US$2 trillion stock market listing highlights the growing risks for all of us
+• PHP is in the foundation of 70% of websites – here’s what it is and why a flaw in the software is a major hacking threat
+• People are using AI to make expensive computer programs free. This could change everything
+• Made in China AI: new tech, same old story?
+• As AI takes on more tasks, what happens when people have to jump in to clean up after it?</description>
+      <content:encoded>&lt;p&gt;Anthropic’s upcoming entry into the stock market, which it signaled this week by filing paperwork for an initial public offering, is going to make some people a lot of money. For retail investors, though, the high concentration of AI companies in the stock market means that regular people’s investments are exposed to AI-related risks, writes a finance scholar. &lt;/p&gt;
+&lt;p&gt;Large language models are rapidly reshaping the software industry, as two stories demonstrate this week. The technology was instrumental in identifying a vulnerability in PHP, a language used in millions of websites, and the technology’s ability to reverse engineer existing software packages could upend pricing in the commercial market for apps. &lt;/p&gt;
+&lt;p&gt;Also this week, a look at whether China’s push into AI will follow the same economic path as other technologies, and what happens to human workers’ skills as they hand off more and more to AI. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Martin LaMonica&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Director of Editorial Projects and Newsletters &lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/769142/original/file-20261029-64-d4n1d4.png?ixlib=rb-4.1.1&amp;amp;q=70&amp;amp;auto=format&amp;amp;w=900&amp;amp;fit=clip" alt="How AI is shaping faith and spirituality webinar, join us Tuesday, November 17"&gt;
+&lt;p&gt;&lt;strong&gt;Webinar&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lead story&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/768431/original/file-20261027-52-awisuz.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C240%2C3274%2C1841&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/anthropics-record-us-2-trillion-stock-market-listing-highlights-the-growing-risks-for-all-of-us-295243"&gt;Anthropic’s record US$2 trillion stock market listing highlights the growing risks for all of us&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Marta Khomyn, Adelaide University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This is the first time a company has come to market warning of ‘catastrophic or existential risks to humanity’.&lt;/p&gt;
+&lt;p&gt;If consumer and business demand for AI disappoints, tech companies’ bond prices and credit ratings would likely fall together – just as their shares would.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cybersecurity&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/767981/original/file-20261023-50-hmz6ge.jpg?ixlib=rb-4.1.1&amp;amp;rect=21%2C835%2C4568%2C2442&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/php-is-in-the-foundation-of-70-of-websites-heres-what-it-is-and-why-a-flaw-in-the-software-is-a-major-hacking-threat-294999"&gt;PHP is in the foundation of 70% of websites – here’s what it is and why a flaw in the software is a major hacking threat&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Doug Jacobson, Iowa State University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A cybersecurity researcher explains how a flaw in widespread software makes millions of websites vulnerable to hackers – and underscores the role of AI in attacking and defending the internet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/768421/original/file-20261027-52-a1keab.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C110%2C2121%2C1193&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/people-are-using-ai-to-make-expensive-computer-programs-free-this-could-change-everything-294956"&gt;People are using AI to make expensive computer programs free. This could change everything&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Dana McKay, RMIT University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Some say this will take us back to the cool, weird internet of the 1990s.&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/762256/original/file-20260925-50-k2i693.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C581%2C5568%2C3132&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/made-in-china-ai-new-tech-same-old-story-291703"&gt;Made in China AI: new tech, same old story?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Iordanis Kalaitzoglou, Audencia&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;History could repeat itself if China turns AI into an abundant, commodity-driven industry. Should we be worried about AI’s new land of plenty?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Work&lt;/strong&gt;&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/765696/original/file-20261012-50-ssn130.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C431%2C8256%2C4644&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/as-ai-takes-on-more-tasks-what-happens-when-people-have-to-jump-in-to-clean-up-after-it-292340"&gt;As AI takes on more tasks, what happens when people have to jump in to clean up after it?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Murugan Anandarajan, Drexel University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Having a human “in the loop” overseeing when an AI makes a decision is important, but what happens to that responsible human over time when the AI gets it right over and over again?&lt;/p&gt;
+&lt;img src="https://images.theconversation.com/files/769147/original/file-20261029-64-plurid.png?ixlib=rb-4.1.1&amp;amp;q=70&amp;amp;auto=format&amp;amp;w=900&amp;amp;fit=clip" alt="How AI is shaping faith and spirituality webinar, join us Tuesday, November 17"&gt;</content:encoded>
+    </item>
     <item>
       <title>From psephology to spook-ology</title>
       <link>https://theconversation.com/israel-has-voted-but-what-comes-next-dissecting-a-messy-ballot-and-coalition-building-process-295404</link>
@@ -530,54 +576,6 @@
 &lt;h3&gt;&lt;a href="https://theconversation.com/weve-tracked-80m-of-spending-on-almost-170-ai-generated-political-ads-this-year-its-weird-292105"&gt;We’ve tracked $80M of spending on almost 170 AI-generated political ads this year – it’s weird&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Travis N. Ridout, Washington State University; Erika Franklin Fowler, Wesleyan University; Michael Franz, Bowdoin College&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Almost 170 ads and $80 million in spending and only 31% with a disclaimer: Here’s what researchers found when they tracked AI in this year’s campaign ads.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>And the winners were ...</title>
-      <link>https://theconversation.com/im-a-physicist-who-worked-on-the-nobel-winning-neutrino-search-heres-how-a-cubic-kilometer-of-antarctic-ice-became-a-telescope-for-ghost-particles-from-space-293747</link>
-      <guid isPermaLink="false">the-conversation:4c32c53c683b9a4d</guid>
-      <pubDate>Fri, 09 Oct 2026 11:53:01 +0000</pubDate>
-      <dc:creator>The Conversation</dc:creator>
-      <category>Global daily</category>
-      <description>• I’m a physicist who worked on the Nobel-winning neutrino search – here’s how a cubic kilometer of Antarctic ice became a telescope for ghost particles from space
-• Nobel laureate Karl Deisseroth on how light is changing what we know about the brain
-• Nobel prize in chemistry awarded for work on mirror-image molecules
-• French student protests: comparisons with 1968 will only serve the political extremes
-• Is this the ‘mathocalypse’? Why OpenAI’s latest results dump has left mathematicians in shock
-• Coolcations: tourism boom is taking a toll on chillier destinations</description>
-      <content:encoded>&lt;p&gt;When Karl Deisseroth was studying to be a doctor in the 1990s, he took a rotation working with psychiatric patients. &lt;/p&gt;
-&lt;p&gt;It ​s​tarted him down a path of discovery about how the brain works that would eventually lead him to become a Nobel laureate.​ “The brain is billions of fragile, extremely vulnerable, transparent, very fast-acting cells,” Deisseroth said in an interview for The Conversation Weekly podcast. &lt;/p&gt;
-&lt;p&gt;“I was impressed by the magnitude of the challenge.” He reflects on how his research pioneered the field of optogenetics, a new tool that uses light to control nerve cells to investigate how their activity shapes our feelings and behaviour​.&lt;/p&gt;
-&lt;p&gt;Other scientific endeavours rewarded by the Nobel committees this week include a giant observatory at the South Pole, built to capture glimpses of neutrinos, ghostly messengers from space. A scientist who worked on the project explains what it’s like to work there. And we explain the science behind the mirror-image molecules that won the Nobel prize in chemistry.&lt;/p&gt;
-&lt;p&gt;And as Canadian poet Anne Carson was named the new Nobel laureate for literature, a classics expert appreciates how she discovered new possibilities within language.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Gemma Ware&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; Head of Audio, The Conversation UK &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Top story&lt;/strong&gt;&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/764306/original/file-20261006-60-ds0ckd.jpg?ixlib=rb-4.1.1&amp;amp;rect=488%2C333%2C6207%2C3766&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;p&gt;The IceCube observatory sits atop the South Pole’s 1.8-miles-thick pure, clear ice sheet. Ilya Bodo, IceCube/NSF&lt;/p&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/im-a-physicist-who-worked-on-the-nobel-winning-neutrino-search-heres-how-a-cubic-kilometer-of-antarctic-ice-became-a-telescope-for-ghost-particles-from-space-293747"&gt;I’m a physicist who worked on the Nobel-winning neutrino search – here’s how a cubic kilometer of Antarctic ice became a telescope for ghost particles from space&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Tyce DeYoung, Michigan State University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The 2026 Nobel Prize in physics recognizes Francis Halzen’s vision in building an unusual telescope in Antarctica, as well as the neutrino discoveries it’s made.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/764871/original/file-20261008-50-m2lfos.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C192%2C5705%2C2852&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/nobel-laureate-karl-deisseroth-on-how-light-is-changing-what-we-know-about-the-brain-293925"&gt;Nobel laureate Karl Deisseroth on how light is changing what we know about the brain&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Gemma Ware, The Conversation&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;From algae to a Nobel prize: listen to The Conversation Weekly podcast to hear Karl Deisseroth explain his brain science breakthrough.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/764552/original/file-20261007-50-6diqgk.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C596%2C4096%2C2048&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/nobel-prize-in-chemistry-awarded-for-work-on-mirror-image-molecules-293816"&gt;Nobel prize in chemistry awarded for work on mirror-image molecules&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Matthew Addicoat, Nottingham Trent University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The prize was awarded for work that produces one version of a mirror image molecule.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/764611/original/file-20261007-50-cpyrkl.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C5999%2C4000&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/french-student-protests-comparisons-with-1968-will-only-serve-the-political-extremes-293879"&gt;French student protests: comparisons with 1968 will only serve the political extremes&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;David Lees, University of Warwick&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Both far left and far right will try to make political capital out of the unrest.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/765115/original/file-20261009-50-mgf66.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C531%2C4095%2C2303&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/is-this-the-mathocalypse-why-openais-latest-results-dump-has-left-mathematicians-in-shock-293837"&gt;Is this the ‘mathocalypse’? Why OpenAI’s latest results dump has left mathematicians in shock&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Melissa Lee, Monash University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;OpenAI released 722 new AI-generated mathematical papers at once – three have been retracted, and mathematicians are coming to grips with the rest.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/764539/original/file-20261007-50-9a1q8k.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C4928%2C2772&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/coolcations-tourism-boom-is-taking-a-toll-on-chillier-destinations-292403"&gt;Coolcations: tourism boom is taking a toll on chillier destinations&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Mehri Khosravi, University of East London; United Nations University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Holiday destinations in northern Europe saw a boost in tourist numbers this summer, but for some this throws up new problems.&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/yemen-is-spiralling-into-another-civil-war-that-could-swiftly-engulf-in-the-entire-region-293104"&gt; Yemen is spiralling into another civil war that could swiftly engulf in the entire region &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Amin Saikal, Australian National University; The University of Western Australia; Victoria University &lt;/p&gt; &lt;p&gt;Turkey and Pakistan are poised to send troops to Saudi Arabia, but so far the Trump administration has avoided getting involved.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/sexual-assault-survivors-stories-may-shift-over-time-a-psychologist-explains-why-it-doesnt-mean-theyre-lying-293766"&gt; Sexual assault survivors’ stories may shift over time – a psychologist explains why it doesn’t mean they’re lying &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Michele Patterson Ford, Dickinson College &lt;/p&gt; &lt;p&gt;The brain’s acute response to the trauma of sexual assault can block a person’s ability to accurately assess what they experienced.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/three-years-after-october-7-global-attention-on-gaza-has-receded-the-real-test-will-come-after-israels-election-292360"&gt; Three years after October 7, global attention on Gaza has receded. The real test will come after Israel’s election &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Eyal Mayroz, University of Sydney &lt;/p&gt; &lt;p&gt;A small but vocal global campaign has maintained pressure on Israel, but will this hold if a less extreme government is elected?&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/sudans-death-toll-in-2025-could-be-as-high-as-100-000-how-we-did-the-count-292159"&gt; Sudan’s death toll in 2025 could be as high as 100,000: how we did the count &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Paola Vesco, Peace Research Institute Oslo (PRIO); Amber Deniz, Uppsala University; David Randahl, Swedish Defence University; Johan Brosché, Uppsala University; Magnus Öberg, Uppsala University &lt;/p&gt; &lt;p&gt;Much of the difference in number of deaths across reports stems from how organisations select and handle sources.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/leap-seconds-have-helped-keep-clocks-synchronized-with-earths-rotation-but-their-time-may-be-over-heres-why-291017"&gt; Leap seconds have helped keep clocks synchronized with Earth’s rotation, but their time may be over – here’s why &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Vahe Peroomian, USC Dornsife College of Letters, Arts and Sciences &lt;/p&gt; &lt;p&gt;If you think about leap years, it may seem like humans have a very odd way of measuring time. Sometimes, timekeepers even have to add extra seconds to clocks.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/digger-channels-kubricks-dr-strangelove-for-the-climate-crisis-until-its-twist-293720"&gt; Digger channels Kubrick’s Dr. Strangelove for the climate crisis – until its twist &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Guy Westwell, Queen Mary University of London &lt;/p&gt; &lt;p&gt;Digger’s hat is borrowed from Major ‘King’ Kong (Slim Pickens), a character in Stanley Kubrick’s film masterpiece.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
     </item>
   </channel>
 </rss>
