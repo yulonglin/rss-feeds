@@ -388,26 +388,5 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=On+the+Chain-of-Thought+Monitorability+of+Looped+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;On the Chain-of-Thought Monitorability of Looped Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Han Wang, Ishwar B Balappanawar, Huan Zhang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 2) · relevance 78&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
-    <item>
-      <title>Scholar Inbox, 2 Oct 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:dd7782e215b05d6d</guid>
-      <pubDate>Fri, 02 Oct 2026 11:28:46 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• Emergent Unfaithfulness: How Alignment Training Causes Language Models to Silently Override Task Faithfulness
-• Probe with Participation Trophies: Random-Reward RL as a Probe of LLM Capability
-• Backdoor Containment via Expert Quarantine and Shutdown in LLMs
-• High-quality Data Do not Mean Safe! Poisoning LLMs after Data Selection
-• Safety in Self-Evolving Agents: A Survey</description>
-      <content:encoded>&lt;p&gt;Matched 134 of 2464 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Emergent+Unfaithfulness%3A+How+Alignment+Training+Causes+Language+Models+to+Silently+Override+Task+Faithfulness&amp;amp;searchtype=title"&gt;&lt;strong&gt;Emergent Unfaithfulness: How Alignment Training Causes Language Models to Silently Override Task Faithfulness&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Pardis Sadat Zahraei, Janvijay Singh, Gokhan Tur, Dilek Hakkani-Tur&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 30) · relevance 98&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Probe+with+Participation+Trophies%3A+Random-Reward+RL+as+a+Probe+of+LLM+Capability&amp;amp;searchtype=title"&gt;&lt;strong&gt;Probe with Participation Trophies: Random-Reward RL as a Probe of LLM Capability&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yu Mao, Lei Yu, Zining Zhu, Yusheng Zheng, Haohang Li, Freda Shi, Yutong Yin, Zhaoran Wang, Jingcheng Niu&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 1) · relevance 93&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Backdoor+Containment+via+Expert+Quarantine+and+Shutdown+in+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Backdoor Containment via Expert Quarantine and Shutdown in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jianwei Li, Min-Seon Kim, Jung-Eun Kim&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 30) · relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=High-quality+Data+Do+not+Mean+Safe%21+Poisoning+LLMs+after+Data+Selection&amp;amp;searchtype=title"&gt;&lt;strong&gt;High-quality Data Do not Mean Safe! Poisoning LLMs after Data Selection&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Kaiyang Li, Jiahao Chen, Yuwen Pu, Chunyi Zhou, Tong Zhang, Bin Cai, Chunqiang Hu, Haibo Hu&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 1) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Safety+in+Self-Evolving+Agents%3A+A+Survey&amp;amp;searchtype=title"&gt;&lt;strong&gt;Safety in Self-Evolving Agents: A Survey&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jiahao Chen, Zhou Feng, Oubo Ma, Yichen Yan, Ruixiao Lin, Hangtao Zhang, Linkang Du, Hengyu An, Yong Yang, ..., Shouling Ji&lt;br&gt;&lt;small&gt;ArXiv 2026 (September 8) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
   </channel>
 </rss>
