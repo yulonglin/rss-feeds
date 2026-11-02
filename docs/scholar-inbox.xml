@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 30 Oct 2026 20:40:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 13:59:16 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 2 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:6a7f740c8a109461</guid>
+      <pubDate>Mon, 02 Nov 2026 13:59:16 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Towards Understanding Score-Seeking in LLMs
+• SecPO: Principled Adversarial Training for Prompt Injection Security
+• Simple Features Beat Most AI Control Monitors
+• Self-Sanitize: Cognitive-Inspired In-Place Mitigation of LLM Harmful Responses
+• Opening the Box Changes the Cat: LLMs Detect Chain-of-Thought Monitoring - What now?</description>
+      <content:encoded>&lt;p&gt;Matched 134 of 2405 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Towards+Understanding+Score-Seeking+in+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Towards Understanding Score-Seeking in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Aghyad Deeb, Ryan Greenblatt, Alex Mallen&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 29) · relevance 95&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=SecPO%3A+Principled+Adversarial+Training+for+Prompt+Injection+Security&amp;amp;searchtype=title"&gt;&lt;strong&gt;SecPO: Principled Adversarial Training for Prompt Injection Security&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Sizhe Chen, Yibo Peng, Jaewon Chang, Chawin Sitawarin, David Wagner&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 30) · relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Simple+Features+Beat+Most+AI+Control+Monitors&amp;amp;searchtype=title"&gt;&lt;strong&gt;Simple Features Beat Most AI Control Monitors&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Shubhrangshu Debsarkar, Valmik Nahata&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 30) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Self-Sanitize%3A+Cognitive-Inspired+In-Place+Mitigation+of+LLM+Harmful+Responses%22"&gt;&lt;strong&gt;Self-Sanitize: Cognitive-Inspired In-Place Mitigation of LLM Harmful Responses&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Wenjie Fu, Huandong Wang, Chen Gao, Guoan Wan, Junyao Gao, Yong Li, Tao Jiang&lt;br&gt;&lt;small&gt;relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Opening+the+Box+Changes+the+Cat%3A+LLMs+Detect+Chain-of-Thought+Monitoring+-+What+now%3F&amp;amp;searchtype=title"&gt;&lt;strong&gt;Opening the Box Changes the Cat: LLMs Detect Chain-of-Thought Monitoring - What now?&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Amir Jalilifard, Marcos Medeiros Raimundo, Anderson Rocha&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 29) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 30 Oct 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>

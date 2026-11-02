@@ -15,6 +15,14 @@
     "bio": "",
     "fetched": "2026-11-01T20:14:24+00:00"
   },
+  "https://www.project-syndicate.org/commentary/ai-democracy-demands-we-think-for-ourselves-by-john-palfrey-2026-11": {
+    "byline": "John Palfrey",
+    "body": "<p>CHICAGO\u2014Sometime in the 18th century, the Enlightenment settled a contentious, centuries-old question: Where does knowledge come from? For millennia, many people had pointed to God. But the early modern period brought a new consensus, namely that knowledge comes from human scientists working at the edge of what is known, armed with observation, mathematics, experimentation, and logic.</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-11-02T17:52:48+00:00"
+  },
   "https://www.project-syndicate.org/commentary/ai-resistance-tied-to-what-a-society-already-has-by-carl-benedikt-frey-2026-10": {
     "byline": "Carl Benedikt Frey",
     "body": "<p>OXFORD\u2014The United States is both the home of the AI revolution and among the places where people like the technology the least. According to <a href=\"https://www.ipsos.com/sites/default/files/ct/news/documents/2026-06/Ipsos-AI-Monitor-2026.pdf\">Ipsos\u2019s 2026 AI Monitor</a>, 85% of respondents in China, 80% in India, and 77% in Indonesia think that AI products and services offer more benefits than drawbacks, compared to only 38% in the US, with similarly low shares in Britain, France, and the Netherlands.</p>",
@@ -26,14 +34,6 @@
   "https://www.project-syndicate.org/commentary/bond-vigilantes-sovereign-debt-crises-france-us-by-nouriel-roubini-2026-10": {
     "byline": "Nouriel Roubini",
     "body": "<p>NEW YORK\u2014Large, growing budget deficits and rising public debt-to-GDP ratios in advanced economies are rattling markets. With interest rates on government debt having gone from near zero (and even negative, in some cases) to much higher levels, rising short- and long-term bond yields have cast doubt on the sustainability of some public debts and led many to ask if a crisis might be looming.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-11-02T04:42:04+00:00"
-  },
-  "https://www.project-syndicate.org/commentary/brazil-fiscal-deterioration-under-lula-will-carry-high-domestic-costs-by-gene-frieda-2026-10": {
-    "byline": "Gene Frieda",
-    "body": "<p>LONDON\u2014Brazil has an unfortunate habit of disappointing. Despite the country\u2019s exceptional natural-resource endowment, its growth trajectory resembles what Brazilians call the flight of a chicken (<i>voo de galinha</i>): a brief flutter followed by an inevitable fall back down to Earth. President <a href=\"https://www.project-syndicate.org/columnist/luiz-inacio-lula-da-silva\">Luiz In\u00e1cio Lula da Silva</a>\u2019s surprise re-election raises the risk of another letdown.</p>",
     "truncated": true,
     "free": true,
     "bio": "",
@@ -74,14 +74,6 @@
   "https://www.project-syndicate.org/commentary/europe-facing-industrial-fiscal-security-climate-demographic-crises-all-at-once-by-harold-james-2026-10": {
     "byline": "Harold James",
     "body": "<p>PRINCETON\u2014The postwar architects of European integration notoriously relied on crisis conditions to build more extensive institutions. By contrast, for incremental, piecemeal reforms to succeed, the challenges Europe faces must be relatively small. That hardly describes Europe\u2019s current predicament.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-11-02T04:42:04+00:00"
-  },
-  "https://www.project-syndicate.org/commentary/europe-make-or-break-submission-or-independence-by-joschka-fischer-2026-10": {
-    "byline": "Joschka Fischer",
-    "body": "<p>BERLIN\u2014On February 24, 2027, it will have been five years since Russia launched its full-scale invasion of Ukraine, in flagrant violation of international law. Russian President Vladimir Putin\u2019s neo-imperialist adventure\u2014his \u201cspecial military operation\u201d\u2014was supposed to be a brief and decisive war of conquest. But it soon became apparent that he had underestimated his victim. The Ukrainians have been determined to defend themselves, whatever it takes, and for a while, they could count on a united West, with the United States and Europe standing together in providing military and civilian support.</p>",
     "truncated": true,
     "free": true,
     "bio": "",
@@ -134,6 +126,14 @@
     "free": true,
     "bio": "",
     "fetched": "2026-11-02T04:42:04+00:00"
+  },
+  "https://www.project-syndicate.org/commentary/us-republicans-should-follow-tory-leader-kemi-badenoch-example-in-uk-by-michael-r-strain-2026-11": {
+    "byline": "Michael R. Strain",
+    "body": "<p>WASHINGTON, DC\u2014\u201cThere is a fight coming in British politics. A fight that we have not seen in this country for more than half a century. It will be a battle for the soul of this nation. A battle of ideas. A battle that goes to the very core of who we are and what kind of country we want to be.\u201d</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-11-02T17:52:48+00:00"
   },
   "https://www.project-syndicate.org/onpoint/ai-infrastructure-could-outlast-the-bubble-that-financed-it-by-william-h-janeway-2026-10": {
     "byline": "William H. Janeway",

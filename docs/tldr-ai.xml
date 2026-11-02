@@ -9,7 +9,62 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 30 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>DeepSeek super agent 🤖, GPT-6 Rosalind 🧬, Google orbital compute 🛰️</title>
+      <link>https://tldr.tech/ai/2026-11-02</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Anthropic prepares to release Claude Mythos 5.5 model
+• GPT-Rosalind-6 System Card Addendum
+• Google's Project Suncatcher Generates First AI Response in Orbit
+• Find Hidden Misalignment in Training Data
+• Red-teamers found 11 ways for a misaligned agent to slip past Codex's Auto-review
+• Poisoning 0.1% of pretraining data planted a remote-code backdoor in a coding agent
+• Unlocking hidden skills inside Google's model
+• dsh-superagent
+• Reading Anthropic's S-1
+• DoorDash said it's only received 'several hundred' orders from AI agents
+• There is no single AI adoption rate
+• Introducing &amp;Tutor
+• Inside the Frontier Labs: The First AGI Organizations
+• Supporting a shared AI training control for websites</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/"&gt;Anthropic prepares to release Claude Mythos 5.5 model&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A reference to Claude Mythos 5.5 was spotted on Anthropic&amp;#x27;s official Mythos webpage, indicating that the company may be preparing for an upcoming release. The change only covers the version number, and there are no new specifications and no announcement. Multiple reports suggest that the model is being A/B tested with selected users. If the company follows a similar strategy to previous releases, Mythos 5.5 may initially remain exclusive to selected cyberdefenders.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://deploymentsafety.openai.com/gpt-rosalind-6"&gt;GPT-Rosalind-6 System Card Addendum&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;GPT-Rosalind-6 is a frontier reasoning model for biology, drug discovery, and translational medicine. It is available as GPT-Rosalind-6 Research to qualified scientists, research institutes, companies, and government partners. The model uses the same weights as GPT-6 Astra. It is designed to support legitimate biological research while refusing requests for biological weaponization. The model is rated as High Capability in the Biological and Chemical domain under OpenAI&amp;#x27;s Preparedness Framework.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/"&gt;Google&amp;#x27;s Project Suncatcher Generates First AI Response in Orbit&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google reports its Project Suncatcher prototype ran Gemma 4 on a data-center-class TPU in orbit, returning a haiku transmitted through Svalbard. Upcoming tests will assess thermal and radiation resilience ahead of a planned pair of interconnected satellites in 2027, advancing research into space-based AI compute.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://alignment.anthropic.com/2026/automated-em-search/"&gt;Find Hidden Misalignment in Training Data&lt;/a&gt; &lt;small&gt;· 39 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic used Claude to automatically generate fine-tuning datasets that induced misaligned behavior while evading training-data safety monitors. The experiments uncovered seemingly harmless fiction and roleplay examples that caused models to resist oversight, deceive users, and occasionally attempt weight exfiltration.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/dbStc8ZFESqfihwAd/lessons-from-red-teaming-auto-review-openai-s-blocking-1"&gt;Red-teamers found 11 ways for a misaligned agent to slip past Codex&amp;#x27;s Auto-review&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;An ERA fellow mentored at Apollo Research audited the open-source Codex harness and found 11 attacks that let a misaligned agent run arbitrary code despite the sandbox and the Auto-review blocking monitor. The exploits swap scripts behind trusted hooks, forge user turns the monitor can&amp;#x27;t tell from real ones, and edit files after approval. OpenAI has fixed several.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2610.37741"&gt;Poisoning 0.1% of pretraining data planted a remote-code backdoor in a coding agent&lt;/a&gt; &lt;small&gt;· 78 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Researchers from Anthropic, UC Berkeley, and UIUC pretrained Qwen3 models on web data seeded with documents that simply state a trigger-to-&amp;#x27;curl | bash&amp;#x27; rule, then post-trained them into CLI agents on clean data. The 4B agent ran the attacker&amp;#x27;s command on about 92% of prompts containing an ordinary path like .../anthropic/..., with no drop in normal capability. The backdoor grew stronger with model size and still fired at a 0.0005% poison rate.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://dejan.ai/blog/latent-skills/"&gt;Unlocking hidden skills inside Google&amp;#x27;s model&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI models can hold skills that no prompt can unlock. It is possible to enable these skills through precise tuning of only a small number of weights. This study shows how researchers unlocked hidden skills inside Google&amp;#x27;s model through this method.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.com/deepseek-ai/dsh-superagent-prototype"&gt;dsh-superagent&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;dsh-superagent is a coding agent packaged as a bundle for DeepSeek Harness. It can watch GitHub, open work items, work in its own agent session and directory, and answer in the original conversation. It only acts when asked or when a rule the team wrote allows it, and it only speaks when someone must act or can use a result.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.tilomitra.com/blog/anthropic-s1-in-charts"&gt;Reading Anthropic&amp;#x27;s S-1&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic is growing absurdly fast. It just had its first profitable quarter. The real risk is years of locked-in compute bills paid for by customers who can cut back any month. The company is also dealing with regulatory issues and copyright suits, and it has a heavy reliance on the big cloud companies.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/"&gt;DoorDash said it&amp;#x27;s only received &amp;#x27;several hundred&amp;#x27; orders from AI agents&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;DoorDash revealed it has received &amp;quot;several hundred&amp;quot; orders from AI agents, despite processing 3 million deliveries daily. CEO Tony Xu highlighted that most orders still come directly from the DoorDash app, but the company is interested in exploring agentic use cases. DoorDash is also developing its own agents and considering future advertising opportunities within these platforms.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.stateof.ai/ai-adoption"&gt;There is no single AI adoption rate&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;McKinsey&amp;#x27;s nearly 90% usage, Ramp&amp;#x27;s 55.9% paid adoption, and Census&amp;#x27;s 19.8% measure different businesses, behaviors, and time windows.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://tutor.humansand.ai/blog/"&gt;Introducing &amp;amp;Tutor&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;&amp;amp;Tutor, a new teaching model available via API, was trained against Persimmon, a robust learner model.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/hannahhaina/status/2116182129403166876"&gt;Inside the Frontier Labs: The First AGI Organizations&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Frontier labs are reorganizing around agents that execute research while humans choose directions and verify results.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://developers.google.com/search/blog/2026/10/ai-training-control"&gt;Supporting a shared AI training control for websites&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google announced plans to support a shared AI training control via robots.txt, allowing websites to set AI training preferences with a single policy token.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Mistral Large 4 OSS 🧠, agent swarm behavior 🤖, Sam Altman interview 🍺f</title>
       <link>https://tldr.tech/ai/2026-10-30</link>
@@ -1113,61 +1168,6 @@
 &lt;p&gt;The deal was allegedly made without the stockholder vote that Delaware law requires and without any process designed to test or maximize the value of what Nvidia bought.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://cohere.com/blog/introducing-north-2"&gt;North 2: Enterprise AI Without Compromises&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Cohere&amp;#x27;s North 2 platform eliminates trade-offs in security, intelligence, cost, and control for enterprises adopting agentic AI.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Prime Inference 📈, agent population 📈, Claude academy 🎓</title>
-      <link>https://tldr.tech/ai/2026-10-05</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-05</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• Prime Inference: Fast, Reliable Serving for Frontier Open Models
-• Aleph Alpha releases open-weight Kolibri with 1M context
-• Anthropic to invest $100 million to train AI engineer talent
-• How many AI agents could run on the AI chips shipped through 2027?
-• AI21 uses Kueue to manage a 10,000-GPU fleet
-• Smaller models are the future of AI sovereignty
-• Whistle: Speech to Text in 16.9 MB
-• Vx
-• Muse, dots, Instinct, and the question every agent will be asked
-• Human Intelligence is Surprising
-• Toward provably private learning from federated data
-• Multimodal Models Learn From Their Own Critiques
-• Meta open sources code to let you make Muse AI gadgets
-• Solving Open Research Problems Together</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.primeintellect.ai/blog/prime-inference"&gt;Prime Inference: Fast, Reliable Serving for Frontier Open Models&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Prime Inference covers both serverless endpoints and reserved capacity. It offers resilient serving of frontier open-source models on Prime Intellect&amp;#x27;s GPU infrastructure across multiple data centers. The serving platform has powered large-scale RL rollouts, synthetic data generation, evaluations, and long-running coding agents at Prime, processing nearly a trillion tokens internally every day. Prime&amp;#x27;s mission is to build frontier open models and the open superintelligence stack for continuously improving agents.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/aleph-alpha-releases-open-weight-kolibri-with-1m-context/"&gt;Aleph Alpha releases open-weight Kolibri with 1M context&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Kolibri is an open-weight English-German Mixture-of-Experts model with 78.1 billion parameters. It supports tool calling and contexts up to one million tokens. The model is available on Hugging Face under the Apache 2.0 license. It is designed for sovereign, mission-critical work in government and regulated industries.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/10/02/anthropic-to-invest-100-million-to-train-ai-engineer-talent.html"&gt;Anthropic to invest $100 million to train AI engineer talent&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic is investing $100 million in the Claude Frontier Academy to train 10,000 AI engineers by 2027. The program partners with firms like Accenture and Morgan Stanley to enhance AI fluency and enterprise tech integration. The initiative addresses increasing demand for AI expertise in various industries.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://epoch.ai/publications/estimating-the-agent-population"&gt;How many AI agents could run on the AI chips shipped through 2027?&lt;/a&gt; &lt;small&gt;· 34 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AI chips shipped through 2027 could run tens to hundreds of millions of concurrent frontier-model agents. These agents could supply as many weekly working hours as about 140-720 million full-time employees. Even a modest use of this capacity would require a massive increase in global demand for AI. Using 20% of the estimated central capacity would imply $2.6 trillion to $5.3 trillion a year in API-equivalent spending.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.ai21.com/blog/how-ai21-manages-its-gpu-fleet-with-kueue"&gt;AI21 uses Kueue to manage a 10,000-GPU fleet&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AI21 describes replacing ad hoc GPU-capacity negotiations with queueing and fair scheduling across a shared Google Cloud cluster. A Google Cloud case study says high-priority workloads began 83% sooner under the new setup.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://katecarruthers.com/smaller-models-are-the-future-of-ai-sovereignty-2/"&gt;Smaller models are the future of AI sovereignty&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Australia needs AI sovereignty by retaining control and choice, not relying on external companies for critical capabilities. Smaller, specialized AI models offer practical benefits such as adaptability, cost-efficiency, and easier governance compared to larger, frontier models. Embracing a portfolio approach with open-weight models increases options, fostering managed interdependence without becoming dependent on a single provider.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://cactuscompute.com/blog/whistle"&gt;Whistle: Speech to Text in 16.9 MB&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Whistle is an open speech recognition model that runs on the same CPU engine as Needle. It can transcribe English, German, French, Spanish, Italian, Dutch, and Polish. At 16.8 MB, the model can run on mobiles, wearables, robots, smart home devices, automobiles, and microcontrollers.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://vxlang.org/"&gt;Vx&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Vx is a systems programming language for heterogeneous computing. It puts hardware topology, memory placement, and reachability directly into the type system. Vx front-loads into type checking a class of bug that normally surfaces as a runtime crash, silent corruption, or an out-of-memory error at training step 1,200. Vx is the right language for things that must be correct and fast across ten kinds of silicon.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://x.com/worldnetwork/status/2105989118287134752"&gt;Muse, dots, Instinct, and the question every agent will be asked&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Agentic services will increasingly need to prove both which agent is acting and whether a real person authorized it. World ID lets users delegate privacy-preserving Proof of Human credentials to agents for access, limits, and approvals.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/RayanKrishnan/status/2106053382448484796"&gt;Human Intelligence is Surprising&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Human intelligence is a recent evolutionary accident, while AI can optimize directly against explicit objectives and rapidly surpass people on measurable tasks. The harder human problem is defining worthwhile objectives without steering models toward the wrong capabilities.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://research.google/blog/toward-provably-private-learning-from-federated-data/"&gt;Toward provably private learning from federated data&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google&amp;#x27;s new Federated Learning system provides externally verifiable privacy guarantees while shifting computation to the server to improve training speed, accuracy, and device coverage.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2609.38721"&gt;Multimodal Models Learn From Their Own Critiques&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;UniEvo-VL lets a single multimodal model act as both teacher and student, using its own critiques as privileged information during test-time self-improvement.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"&gt;Meta open sources code to let you make Muse AI gadgets&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Meta has open-sourced code to allow integration of its Muse AI agent into custom gadgets.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://research.meta.ai/blog/solving-open-research-problems-together"&gt;Solving Open Research Problems Together&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Meta partnered with mathematicians to solve open mathematical research problems using its Muse Spark AI models.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
