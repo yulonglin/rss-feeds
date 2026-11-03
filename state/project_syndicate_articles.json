@@ -21,7 +21,7 @@
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-11-02T17:52:48+00:00"
+    "fetched": "2026-11-03T21:31:59+00:00"
   },
   "https://www.project-syndicate.org/commentary/ai-resistance-tied-to-what-a-society-already-has-by-carl-benedikt-frey-2026-10": {
     "byline": "Carl Benedikt Frey",
@@ -47,33 +47,9 @@
     "bio": "",
     "fetched": "2026-11-03T05:33:42+00:00"
   },
-  "https://www.project-syndicate.org/commentary/bund-summit-considers-new-chapter-us-china-relations-post-trump-era-by-stephen-s-roach-2026-10": {
-    "byline": "Stephen S. Roach",
-    "body": "<p>SHANGHAI\u2014My search for truth inside China has been stymied. <a href=\"https://www.project-syndicate.org/commentary/china-development-forum-no-longer-fosters-culture-of-debate-by-stephen-s-roach-2026-03\">Banned from</a> the China Development Forum (CDF), after participating for 25 years as the longest-attending foreign delegate, I feel like an outsider in what was once the country\u2019s most prestigious international gathering. Deteriorating relations with former friends in Hong Kong, some of whom avoid eye contact with me now, have not helped matters. In both cases, I was cut off after offering constructive criticism\u2014highlighting <a href=\"https://www.ft.com/content/af84b774-74c1-4ace-a328-e54c8f840fde\">structural malaise</a> in the mainland economy and a <a href=\"https://www.ft.com/content/27a2c28e-d28b-444c-97fd-4616ed32c675\">loss of autonomous identity</a> in Hong Kong\u2014the essence of what we call debate in the West.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-11-03T05:33:42+00:00"
-  },
   "https://www.project-syndicate.org/commentary/california-billionaire-tax-prop-40-more-harm-than-good-by-laura-tyson-and-lenny-mendonca-2026-10": {
     "byline": "Laura Tyson and Lenny Mendonca",
     "body": "<p>BERKELEY\u2014Six Nobel laureate economists recently signed an <a href=\"https://gabriel-zucman.eu/files/prop40letter.pdf\">open letter</a> supporting Proposition 40, California\u2019s Billionaire Tax Act, which, if passed by a simple majority of voters, would impose a one-time 5% tax on the wealth of an estimated 250 individuals with a net worth exceeding $1 billion who resided in California on January 1, 2026. We believe the proposal is poorly designed and likely to do more harm than good.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-11-03T05:33:42+00:00"
-  },
-  "https://www.project-syndicate.org/commentary/china-real-estate-crash-highlights-uneven-prosperity-and-regional-disparities-by-kenneth-rogoff-2026-10": {
-    "byline": "Kenneth Rogoff",
-    "body": "<p>CAMBRIDGE\u2014Is China booming or stagnating? On one hand, its export industries\u2014including electric vehicles, solar panels, and virtually the entire range of manufactured goods\u2014are the envy of the world, and its tech and AI industries are second only to the United States, with Europe trailing far behind. On the other hand, as I have <a href=\"https://www.project-syndicate.org/commentary/country-garden-shows-debt-supercycle-comes-to-china-by-kenneth-rogoff-2023-08\">written</a>\u00a0<a href=\"https://www.project-syndicate.org/commentary/another-stimulus-package-will-not-revive-chinese-growth-by-kenneth-rogoff-2025-04\">many</a>\u00a0<a href=\"https://www.project-syndicate.org/commentary/biggest-risks-facing-world-economy-in-2024-by-kenneth-rogoff-2024-02\">times</a>, China is now in the sixth year of a full-blown, Japan-style real-estate crisis. Could China be booming and stagnating at the same time?</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-11-03T05:33:42+00:00"
-  },
-  "https://www.project-syndicate.org/commentary/europe-facing-industrial-fiscal-security-climate-demographic-crises-all-at-once-by-harold-james-2026-10": {
-    "byline": "Harold James",
-    "body": "<p>PRINCETON\u2014The postwar architects of European integration notoriously relied on crisis conditions to build more extensive institutions. By contrast, for incremental, piecemeal reforms to succeed, the challenges Europe faces must be relatively small. That hardly describes Europe\u2019s current predicament.</p>",
     "truncated": true,
     "free": true,
     "bio": "",
@@ -119,6 +95,22 @@
     "bio": "<p>Elisabeth Reynolds, former Special Assistant to the President for Manufacturing and Economic Development at the National Economic Council (2021\u201322), is Professor of Practice at MIT\u2019s Department of Urban Studies and Planning.</p>\n<p>Nathan Collett is a former Canadian public servant on issues of economic security and a graduate of MIT\u2019s Technology and Policy Program.</p>",
     "fetched": "2026-10-30T14:52:33+00:00"
   },
+  "https://www.project-syndicate.org/commentary/oligarchy-is-defining-feature-of-emerging-world-order-by-david-lingelbach-and-valentina-rodriguez-guerra-2026-11": {
+    "byline": "David Lingelbach and Valentina Rodr\u00edguez Guerra",
+    "body": "<p>BALTIMORE/BOGOT\u00c1\u2014For most people, the word \u201coligarch\u201d conjures images of Russian elites who amassed huge fortunes in the wake of the Soviet Union\u2019s collapse or, more recently, the tech billionaires who filled the front row at US President Donald Trump\u2019s second inauguration. But oligarchs are global, systemic, and increasingly entrenched. They are a defining feature of the emerging world order.</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-11-03T21:31:59+00:00"
+  },
+  "https://www.project-syndicate.org/commentary/poland-right-wing-judicial-coup-attempt-by-slawomir-sierakowski-2026-10": {
+    "byline": "S\u0142awomir Sierakowski",
+    "body": "<p>WARSAW\u2014In a shocking moment that went viral, Polish President Karol Nawrocki and his cronies were recently filmed breaking into the Constitutional Tribunal in the dead of night and brutally shoving aside the judges they encountered, including an elderly woman. What or who were they coming for?</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-11-03T21:31:59+00:00"
+  },
   "https://www.project-syndicate.org/commentary/politics-of-poland-judicial-crisis-by-maciej-kisilowski-2026-10": {
     "byline": "Maciej Kisilowski",
     "body": "<p>WARSAW\u2014Dramatic scenes are playing out at Poland\u2019s Constitutional Tribunal amid a wave of speculation about whether Prime Minister Donald Tusk\u2019s government and the Tribunal judges elected by its liberal parliamentary majority are acting lawfully. Many will ask whether democrats must break the law to restore institutions sabotaged by populist authoritarians. In the Polish case, it\u2019s the wrong question.</p>",
@@ -135,13 +127,21 @@
     "bio": "",
     "fetched": "2026-11-03T05:33:42+00:00"
   },
+  "https://www.project-syndicate.org/commentary/tech-sovereignty-silicon-valley-wants-to-replace-the-state-by-katharina-pistor-2026-10": {
+    "byline": "Katharina Pistor",
+    "body": "<p>NEW YORK\u2014Over several centuries, nation-states have come to define the international system and govern much of humanity. After emerging in modern Europe and spreading through colonialism, they eventually made it to every corner of the world through postwar decolonization. Their defining feature is control over territory and its inhabitants, without interference by others.</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-11-03T21:31:59+00:00"
+  },
   "https://www.project-syndicate.org/commentary/us-republicans-should-follow-tory-leader-kemi-badenoch-example-in-uk-by-michael-r-strain-2026-11": {
     "byline": "Michael R. Strain",
     "body": "<p>WASHINGTON, DC\u2014\u201cThere is a fight coming in British politics. A fight that we have not seen in this country for more than half a century. It will be a battle for the soul of this nation. A battle of ideas. A battle that goes to the very core of who we are and what kind of country we want to be.\u201d</p>",
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-11-02T17:52:48+00:00"
+    "fetched": "2026-11-03T21:31:59+00:00"
   },
   "https://www.project-syndicate.org/onpoint/ai-infrastructure-could-outlast-the-bubble-that-financed-it-by-william-h-janeway-2026-10": {
     "byline": "William H. Janeway",

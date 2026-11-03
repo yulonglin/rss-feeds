@@ -31,8 +31,8 @@
 • Anthropic releases amended IPO prospectus with third-quarter financials
 • Limit what agents learn about private repos with enclaves
 • OpenAI Introduces LifeVal to Measure AI Performance on Everyday Tasks
-• Elon Musk Limits Grok Bot Usage Over Rising Costs
-• Teaching Qwen Why</description>
+• Teaching Qwen Why
+• Elon Musk Limits Grok Bot Usage Over Rising Costs</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://www.testingcatalog.com/gpt-6-2-astra-appears-codex-usage/"&gt;GPT-6.2 Astra appears in Codex usage ahead of possible launch&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;GPT-6.2-Astra has started appearing in Codex usage breakdowns. The requests are likely being quietly routed to the new model as part of an A/B test or a staged rollout. A public launch could be days away. OpenAI reportedly decided to skip GPT-6.1 Astra due to concerns about deception and scope.&lt;/p&gt;
@@ -66,10 +66,10 @@
 &lt;p&gt;Enclaves are a new security primitive for cross-repository GitHub Agentic Workflows that lets agents work on different repositories while limiting what they say to each other.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://openai.com/index/lifeval/"&gt;OpenAI Introduces LifeVal to Measure AI Performance on Everyday Tasks&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;LifeVal is a benchmark designed to evaluate AI performance on practical everyday tasks such as budgeting, finding childcare, and accessing government services.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/elonmusk/status/2116992258520064397"&gt;Elon Musk Limits Grok Bot Usage Over Rising Costs&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Elon Musk confirmed that Grok Bot usage limits were reduced after operating costs became unsustainably high relative to revenue.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/35yw2qGK7naFLAvcq/teaching-qwen-why-1"&gt;Teaching Qwen Why&lt;/a&gt; &lt;small&gt;· 47 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The research extends Anthropic&amp;#x27;s &amp;quot;Teaching Claude Why&amp;quot; methods to new models, focusing on reducing agentic misalignment through synthetic document finetuning (SDF) and supervised finetuning (SFT) with fictional stories and ethical dilemmas.&lt;/p&gt;</content:encoded>
+&lt;p&gt;The research extends Anthropic&amp;#x27;s &amp;quot;Teaching Claude Why&amp;quot; methods to new models, focusing on reducing agentic misalignment through synthetic document finetuning (SDF) and supervised finetuning (SFT) with fictional stories and ethical dilemmas.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/elonmusk/status/2116992258520064397"&gt;Elon Musk Limits Grok Bot Usage Over Rising Costs&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Elon Musk confirmed that Grok Bot usage limits were reduced after operating costs became unsustainably high relative to revenue.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>DeepSeek super agent 🤖, GPT-6 Rosalind 🧬, Google orbital compute 🛰️</title>

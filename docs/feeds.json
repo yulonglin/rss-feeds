@@ -13,8 +13,8 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "Official /rss.xml exists but was last built 2026-07-21 and omits every externally hosted post.",
       "notes": "",
-      "items": 33,
-      "newest": "2026-11-02",
+      "items": 34,
+      "newest": "2026-11-03",
       "healthy": true
     },
     {
@@ -55,8 +55,8 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "No merged feed upstream.",
       "notes": "",
-      "items": 56,
-      "newest": "2026-11-02",
+      "items": 57,
+      "newest": "2026-11-03",
       "healthy": true
     },
     {
@@ -70,7 +70,7 @@
       "upstream_status": "No merged feed upstream.",
       "notes": "",
       "items": 50,
-      "newest": "2026-11-02",
+      "newest": "2026-11-03",
       "healthy": true
     },
     {

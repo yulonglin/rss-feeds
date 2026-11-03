@@ -9,7 +9,15 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-alignment-research.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/" rel="via" type="text/html" />
-    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Eval-production behavior gaps in agent safety and the role of eval-awareness</title>
+      <link>https://alignment.openai.com/eval-production-behavior-gap/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/eval-production-behavior-gap/</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>We study agent behavior in safety evaluations and in production, and explore how models' interpretations of evaluation objectives relate to eval-production performance gaps.</description>
+    </item>
     <item>
       <title>Training activation classifiers for safety and alignment</title>
       <link>https://alignment.openai.com/training-activation-classifiers/</link>
