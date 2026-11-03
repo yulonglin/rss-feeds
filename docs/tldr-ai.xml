@@ -9,7 +9,68 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Claude Message Threads 🧵, Astra 6.2 spotted 👀, Anthropic nears RSI 🔄</title>
+      <link>https://tldr.tech/ai/2026-11-03</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• GPT-6.2 Astra appears in Codex usage ahead of possible launch
+• Anthropic Warns It May Be Close to Self-Improving AI
+• Claude Introduces Message Threads
+• How to Train a Swarm
+• Lessons from building Copilot Cowork
+• The Hitchhiker's Guide to Training on Compute Islands
+• GPU-accelerated Weight Teleportation
+• Harness 2: executing agent code as it streams
+• NVIDIA's Cosmos Framework
+• OpenAI is finally merging ChatGPT's Chat and Work tabs
+• LLMs are not superhuman at reading and writing neural network weights
+• Anthropic releases amended IPO prospectus with third-quarter financials
+• Limit what agents learn about private repos with enclaves
+• OpenAI Introduces LifeVal to Measure AI Performance on Everyday Tasks
+• Elon Musk Limits Grok Bot Usage Over Rising Costs
+• Teaching Qwen Why</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/gpt-6-2-astra-appears-codex-usage/"&gt;GPT-6.2 Astra appears in Codex usage ahead of possible launch&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;GPT-6.2-Astra has started appearing in Codex usage breakdowns. The requests are likely being quietly routed to the new model as part of an A/B test or a staged rollout. A public launch could be days away. OpenAI reportedly decided to skip GPT-6.1 Astra due to concerns about deception and scope.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"&gt;Anthropic Warns It May Be Close to Self-Improving AI&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic disclosed in its updated IPO filing that it may soon reach its internal definition of recursive self-improvement (RSI), where AI systems help develop increasingly capable AI models.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://claude.com/resources/articles/message-threads"&gt;Claude Introduces Message Threads&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic released message threads in public beta, allowing agents to send only new messages instead of resending their entire conversation history. The feature reduced median time to first token by approximately 35% for requests with 500K–1M tokens, without changing token usage.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.gr.inc/blog/how-to-train-a-swarm"&gt;How to Train a Swarm&lt;/a&gt; &lt;small&gt;· 19 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Swarms are AI systems where multiple agents cooperate towards a shared goal. This post discusses a technique called collective inference-time scaling, where agents scale the amount of useful work performed in parallel and the communication needed to achieve it. It also explains how to design incentives for parallel work, and covers the general topic of designing incentives for reinforcement learning.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://commandline.microsoft.com/how-we-built-copilot-cowork-python-to-rust-migration/"&gt;Lessons from building Copilot Cowork&lt;/a&gt; &lt;small&gt;· 21 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Microsoft&amp;#x27;s Copilot Cowork, an AI-driven agentic execution layer, achieved global availability in four and a half months, switching its runtime from Python to Rust while live. Key practices included writing clear specs before coding, running narrow agents with clear boundaries, and ensuring automated checks genuinely verify code changes. The transition to Rust improved efficiency and highlighted the importance of clear testing, boundary setting, and human oversight in the development process.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.coreauto.com/hitchhikers-guide-to-training-on-compute-islands"&gt;The Hitchhiker&amp;#x27;s Guide to Training on Compute Islands&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Being able to train reliably on multiple smaller clusters widens the usable training pool for frontier training. A single run could mix accelerator generations and vendors as each island runs on its own schedule. Older generations or less common chips could also participate in a frontier run. One risk with this model is that integrity and safety may become harder when models are trained across providers, as one faulty or compromised site can quietly degrade or tamper with models in ways that are harder to trace.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://humansand.ai/blog/gpu-accelerated-weight-teleportation"&gt;GPU-accelerated Weight Teleportation&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;GPU-accelerated Weight Teleportation optimizes RL training by improving weight syncing between trainers and samplers, reducing pause times to under 0.23 seconds. This is achieved using a co-designed compression/decompression pipeline with GPU-accelerated parallel processing, utilizing efficient codecs like LZ4 and Snappy, combined with a Zstd layer.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://framer.com/blog/harness-2/"&gt;Harness 2: executing agent code as it streams&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Framer&amp;#x27;s Harness 2 significantly upgrades the agent&amp;#x27;s execution process, allowing entire workflows in one program, achieving up to 33% cost reduction and 20% faster execution. This is done by executing JavaScript as it streams in, avoiding multiple model calls and using eager execution and early cancellation to enhance efficiency. The redesign also replaces DSL with method calls for real-time updates, making task execution streamlined for both in-app and external agents, reducing tool steps by 43% and cached input tokens by 39% per message.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos/"&gt;NVIDIA&amp;#x27;s Cosmos Framework&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;NVIDIA introduced new Cosmos Framework capabilities for training, fine-tuning, reinforcement learning, and optimizing world models for physical AI. Developers can generate synchronized video and LiDAR simulations for robotics and autonomous vehicles, then deploy models through GPU-accelerated Cosmos NIM microservices.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"&gt;OpenAI is finally merging ChatGPT&amp;#x27;s Chat and Work tabs&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI plans to merge the Chat and Work tabs within the ChatGPT experience after an initial testing period with select users. Codex will remain a separate experience in the ChatGPT desktop app. The change will enable users to move from exploring ideas to having the chatbot complete work within the same space. Users can import files and plugins. Both ChatGPT and Codex will soon draw from the same allowance pool.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/"&gt;LLMs are not superhuman at reading and writing neural network weights&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A recent paper demonstrates GPT-6 Astra&amp;#x27;s ability to interact with neural network weights directly, surpassing human or conventional algorithm capabilities. Astra significantly improved a 0.8B Qwen LLM&amp;#x27;s mathematical skills by editing weights natively. While impressive, these capabilities reflect advanced problem-solving akin to skilled human researchers, not radically new AI capabilities.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"&gt;Anthropic releases amended IPO prospectus with third-quarter financials&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic&amp;#x27;s amended IPO prospectus reveals a 1,200% increase in revenue to $33.24 billion for the first nine months of 2026. The company reported a net loss of $104 billion for the same period. Anthropic&amp;#x27;s commitments for compute and infrastructure total approximately $895.4 billion.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://githubnext.com/posts/enclaves/"&gt;Limit what agents learn about private repos with enclaves&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Enclaves are a new security primitive for cross-repository GitHub Agentic Workflows that lets agents work on different repositories while limiting what they say to each other.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/lifeval/"&gt;OpenAI Introduces LifeVal to Measure AI Performance on Everyday Tasks&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;LifeVal is a benchmark designed to evaluate AI performance on practical everyday tasks such as budgeting, finding childcare, and accessing government services.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/elonmusk/status/2116992258520064397"&gt;Elon Musk Limits Grok Bot Usage Over Rising Costs&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Elon Musk confirmed that Grok Bot usage limits were reduced after operating costs became unsustainably high relative to revenue.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/35yw2qGK7naFLAvcq/teaching-qwen-why-1"&gt;Teaching Qwen Why&lt;/a&gt; &lt;small&gt;· 47 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The research extends Anthropic&amp;#x27;s &amp;quot;Teaching Claude Why&amp;quot; methods to new models, focusing on reducing agentic misalignment through synthetic document finetuning (SDF) and supervised finetuning (SFT) with fictional stories and ethical dilemmas.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>DeepSeek super agent 🤖, GPT-6 Rosalind 🧬, Google orbital compute 🛰️</title>
       <link>https://tldr.tech/ai/2026-11-02</link>
@@ -1101,73 +1162,6 @@
 &lt;p&gt;NVIDIA&amp;#x27;s AI Cluster Runtime (AICR) v1.0 offers version-locked, validated recipes for stable GPU-accelerated Kubernetes cluster configurations.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.anthropic.com/news/cyber-verification-program"&gt;Anthropic Expands Verified Access to Cyber Capabilities&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Anthropic expanded its Cyber Verification Program into three access tiers for qualifying security professionals, providing its most capable models with reduced cyber blocking.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Instinct group chats 💬, Reflection’s 501B model 🧠, OpenAI text watermarks 🏷️</title>
-      <link>https://tldr.tech/ai/2026-10-06</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-06</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• OpenAI to Add Text Watermarks
-• Instinct in group chats
-• OpenAI in $30 Billion Round Talks With UAE Funds, BlackRock
-• How to Build an AI-Native Software Factory
-• OpenAI's B2B Marketplace: The Hyperscaler Of AI Apps
-• How Devin's Memory and Dreaming Work
-• Framefields
-• Announcing d1 with vision
-• Reflection Introduces Beam Model
-• OpenAI Expands Ads in ChatGPT
-• Two Room-Temperature Antiferromagnetic Semiconductor Candidates
-• Asset Light Software
-• Etched fields funding offers at $40B+ valuation, sources say
-• 10 Takeaways from Tibo Sottiaux
-• Self-Modeling Interventions Modulate Emergent Misalignment
-• Living Models pairs Gemma 4 with BOTANIC-1 to help decode plant DNA
-• Nvidia's $20 billion Groq deal faces lawsuit alleging startup's stockholders were shortchanged
-• North 2: Enterprise AI Without Compromises</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/eu-text-provenance/"&gt;OpenAI to Add Text Watermarks&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI said it would add invisible text watermarks to eligible ChatGPT and Codex outputs in the EU to meet AI Act transparency requirements. Its textGrain method subtly alters word selection so generated text can be detected, though editing, translation, and short passages can weaken detection.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/noahrshinn/status/2107161132192690558"&gt;Instinct in group chats&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Instinct now lets early-access users add a shared agent to group chats for planning trips, tickets, carpools, and events. Personal Instincts enforce permissions, keep account access separate, and pause sharing when new members join.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.bloomberg.com/news/articles/2026-10-05/openai-in-talks-with-uae-funds-blackrock-for-30-billion-round?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTI1MzgzNiwiZXhwIjoxNzkxODU4NjM2LCJhcnRpY2xlSWQiOiJUTUZUQ1lWVFRDWlgwMCIsImJjb25uZWN0SWQiOiJFQTExNDNDNTM4NEE0RUY5QTg5RjJEN0IxMTg2MzcwOSJ9.vS73_YQLDTKfkP47Ng4A03lSGOWrQB5ypl8y3nr5r2A"&gt;OpenAI in $30 Billion Round Talks With UAE Funds, BlackRock&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI is in talks with multiple investment funds from the United Arab Emirates to help anchor a $30 billion round of financing. The UAE funds have discussed forming a syndicate to invest as much as $10 billion in the round. The University of California&amp;#x27;s endowment fund, BlackRock, Thrive Capital, and Andreessen Horowitz may also participate in the round alongside that syndicate. The fundraise is ongoing, and the details could change.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.theaithinker.com/p/how-to-build-an-ai-native-software"&gt;How to Build an AI-Native Software Factory&lt;/a&gt; &lt;small&gt;· 19 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;A practical look at the infrastructure companies need around coding agents once usage scales beyond individual developers. Using Uber&amp;#x27;s software factory as the main case study, it covers cloud execution, model gateways, agent identity, testing, migrations, code review, and measuring economics such as cost per merged pull request.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.akashbajwa.co/p/openais-b2b-marketplace-the-hyperscaler"&gt;OpenAI&amp;#x27;s B2B Marketplace: The Hyperscaler Of AI Apps&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The OpenAI B2B marketplace opened on September 29 with 32 partners. OpenAI wants to position itself as the platform that the wider AI ecosystem is built on and relies on for distribution. This will consolidate AI sprawl and make it easier for customers to budget. If the marketplace gains traction, we may see an evolution similar to the cloud ecosystem where labs and AI apps co-sell, apps get charged a listing fee, and buyers receive one invoice for their spend.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://devin.ai/blog/memory-and-dreaming"&gt;How Devin&amp;#x27;s Memory and Dreaming Work&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Devin&amp;#x27;s new Memory system carries preferences, corrections, and project learnings across sessions, while Dreaming periodically reorganizes and connects that information. The process deduplicates memories, links them to past sessions and artifacts, and can derive new knowledge from accumulated work.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://github.com/gatewai-dev/framefields"&gt;Framefields&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Framefields is an npm package built for coding agents. It enables agents to create Photoshop-inspired compositing and VFX, After Effects-style motion, typography, and keyframing, and Blender-style 3D scenes, cameras, and models. The agent writes a TypeScript composition, checks frames, and renders an MP4. Framefields renders directly on GPU hardware in Node.js and modern WebGPU browsers.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/liquidai/status/2107161990808674404"&gt;Announcing d1 with vision&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;d1, a decision model from Liquid AI, now supports images, text, or both as inputs. The model costs 19x to 200x less than GPT-6.1 Sol and Claude Opus 5.5 and answers significantly faster on every task. It outputs probabilities for yes/no, choice, or score questions in one forward pass without generating tokens. Text decisions are made in 200 to 300 milliseconds.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://reflection.ai/blog/introducing-beam"&gt;Reflection Introduces Beam Model&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Beam is a 501B-parameter sparse Mixture-of-Experts model with 23B active parameters trained for coding, reasoning, and agentic workloads. The model used 23.8T pretraining tokens and more than 100M reinforcement-learning rollouts, with open weights and developer artifacts planned for release later in October.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/new-chatgpt-ads-format-and-measurement/"&gt;OpenAI Expands Ads in ChatGPT&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI introduced a new visual ad format in ChatGPT alongside expanded measurement tools, partnerships, and brand-suitability work. The company positioned advertising as a way to support broader access to ChatGPT while giving businesses another channel to reach users during product discovery and decision-making.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors"&gt;Two Room-Temperature Antiferromagnetic Semiconductor Candidates&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Ferromagnets&amp;#x27; atomic magnets all point the same way, adding their magnetic effects. Antiferromagnets have neighboring atomic magnets that point opposite ways and exactly cancel out magnetically. There is an intense drive in computer memory research to create materials in between these two extremes. This post details how a team of AI agents designed a candidate magnet for next-generation computer memory that has zero net magnetism yet still sorts electrons by spin.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://x.com/WillManidis/status/2107139199463780637"&gt;Asset Light Software&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Software businesses are shifting from fixed costs toward variable, consumption-based costs as AI automates junior work and commoditizes software creation.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/"&gt;Etched fields funding offers at $40B+ valuation, sources say&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;While it seems like a fast timetable to raise another mega round (Etched raised $700 million at a $21 billion valuation a couple of months ago), the company is pursuing a particularly expensive segment of the AI industry: building full AI hardware systems powered by proprietary chips.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/lennysan/status/2107131339355181240"&gt;10 Takeaways from Tibo Sottiaux&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI&amp;#x27;s Tibo Sottiaux expects agents to take most internet actions, model pickers to disappear, and models to improve roughly 10x within a year.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/7wrzfaiCq3u8xkY5G/self-modeling-interventions-modulate-emergent-misalignment"&gt;Self-Modeling Interventions Modulate Emergent Misalignment&lt;/a&gt; &lt;small&gt;· 23 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Interventions on AI models&amp;#x27; self-models, through self-recognition and self-report, can modulate and mitigate Emergent Misalignment.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://deepmind.google/models/gemma/gemmaverse/living-models/"&gt;Living Models pairs Gemma 4 with BOTANIC-1 to help decode plant DNA&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Living Models pairs Gemma 4 with BOTANIC-1, compressing years of crop genetics into hours.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/10/05/nvidia-groq-deal-stockholder-lawsuit.html"&gt;Nvidia&amp;#x27;s $20 billion Groq deal faces lawsuit alleging startup&amp;#x27;s stockholders were shortchanged&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The deal was allegedly made without the stockholder vote that Delaware law requires and without any process designed to test or maximize the value of what Nvidia bought.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://cohere.com/blog/introducing-north-2"&gt;North 2: Enterprise AI Without Compromises&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Cohere&amp;#x27;s North 2 platform eliminates trade-offs in security, intelligence, cost, and control for enterprises adopting agentic AI.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
