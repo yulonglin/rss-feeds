@@ -17,8 +17,8 @@
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       <dc:creator>TLDR</dc:creator>
       <category>TLDR AI</category>
-      <description>• Anthropic prepares to release Claude Mythos 5.5 model
-• GPT-Rosalind-6 System Card Addendum
+      <description>• GPT-Rosalind-6 System Card Addendum
+• Anthropic prepares to release Claude Mythos 5.5 model
 • Google's Project Suncatcher Generates First AI Response in Orbit
 • Find Hidden Misalignment in Training Data
 • Red-teamers found 11 ways for a misaligned agent to slip past Codex's Auto-review
@@ -32,10 +32,10 @@
 • Inside the Frontier Labs: The First AGI Organizations
 • Supporting a shared AI training control for websites</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/"&gt;Anthropic prepares to release Claude Mythos 5.5 model&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;A reference to Claude Mythos 5.5 was spotted on Anthropic&amp;#x27;s official Mythos webpage, indicating that the company may be preparing for an upcoming release. The change only covers the version number, and there are no new specifications and no announcement. Multiple reports suggest that the model is being A/B tested with selected users. If the company follows a similar strategy to previous releases, Mythos 5.5 may initially remain exclusive to selected cyberdefenders.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://deploymentsafety.openai.com/gpt-rosalind-6"&gt;GPT-Rosalind-6 System Card Addendum&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;GPT-Rosalind-6 is a frontier reasoning model for biology, drug discovery, and translational medicine. It is available as GPT-Rosalind-6 Research to qualified scientists, research institutes, companies, and government partners. The model uses the same weights as GPT-6 Astra. It is designed to support legitimate biological research while refusing requests for biological weaponization. The model is rated as High Capability in the Biological and Chemical domain under OpenAI&amp;#x27;s Preparedness Framework.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/"&gt;Anthropic prepares to release Claude Mythos 5.5 model&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A reference to Claude Mythos 5.5 was spotted on Anthropic&amp;#x27;s official Mythos webpage, indicating that the company may be preparing for an upcoming release. The change only covers the version number, and there are no new specifications and no announcement. Multiple reports suggest that the model is being A/B tested with selected users. If the company follows a similar strategy to previous releases, Mythos 5.5 may initially remain exclusive to selected cyberdefenders.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/"&gt;Google&amp;#x27;s Project Suncatcher Generates First AI Response in Orbit&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Google reports its Project Suncatcher prototype ran Gemma 4 on a data-center-class TPU in orbit, returning a haiku transmitted through Svalbard. Upcoming tests will assess thermal and radiation resilience ahead of a planned pair of interconnected satellites in 2027, advancing research into space-based AI compute.&lt;/p&gt;
 &lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
