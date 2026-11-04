@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 03 Nov 2026 14:53:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 15:45:24 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 4 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:b197b214abfda0f0</guid>
+      <pubDate>Wed, 04 Nov 2026 15:45:24 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Characterizing When Language Models Take Harmful Actions to Protect Their Assigned Goals
+• Knowingly Wrong: Training LLMs Against Their Own Beliefs can Induce Misalignment
+• BrainwashedLLM: Jailbreaking via Automated Adversarial Chain of Thoughts Discovery
+• SafeHarbor: Defining Precise Decision Boundaries via Hierarchical Memory-Augmented Guardrail for LLM Agent Safety
+• The Customer Never Sees the Goal: Measuring and Detecting Vulnerability-Targeted Manipulation in LLM Assistants</description>
+      <content:encoded>&lt;p&gt;Matched 178 of 3559 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Characterizing+When+Language+Models+Take+Harmful+Actions+to+Protect+Their+Assigned+Goals&amp;amp;searchtype=title"&gt;&lt;strong&gt;Characterizing When Language Models Take Harmful Actions to Protect Their Assigned Goals&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Brandon Jaipersaud, Elliot Creager&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 2) · relevance 97&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Knowingly+Wrong%3A+Training+LLMs+Against+Their+Own+Beliefs+can+Induce+Misalignment&amp;amp;searchtype=title"&gt;&lt;strong&gt;Knowingly Wrong: Training LLMs Against Their Own Beliefs can Induce Misalignment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ariana M. Villegas-Suarez, Guido Freire, Sohan Venkatesh, Bartosz Cywiński&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 3) · relevance 97&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=BrainwashedLLM%3A+Jailbreaking+via+Automated+Adversarial+Chain+of+Thoughts+Discovery&amp;amp;searchtype=title"&gt;&lt;strong&gt;BrainwashedLLM: Jailbreaking via Automated Adversarial Chain of Thoughts Discovery&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Masoud Poorghaffar Aghdam, Göktuğ Serdar Yıldırım, Sinem Sav&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 3) · relevance 95&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22SafeHarbor%3A+Defining+Precise+Decision+Boundaries+via+Hierarchical+Memory-Augmented+Guardrail+for+LLM+Agent+Safety%22"&gt;&lt;strong&gt;SafeHarbor: Defining Precise Decision Boundaries via Hierarchical Memory-Augmented Guardrail for LLM Agent Safety&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Zhe Liu, Zonghao Ying, Wenxin Zhang, Quanchen Zou, Deyue Zhang, Dongdong Yang, Xiangzheng Zhang, Hao Peng&lt;br&gt;&lt;small&gt;relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Customer+Never+Sees+the+Goal%3A+Measuring+and+Detecting+Vulnerability-Targeted+Manipulation+in+LLM+Assistants&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Customer Never Sees the Goal: Measuring and Detecting Vulnerability-Targeted Manipulation in LLM Assistants&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Bohan Jiang, Dawei Li, Yasin Silva, Huan Liu&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 2) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 3 Nov 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
@@ -407,27 +428,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Pressure%2C+Context%2C+and+Machine+Self-Control%3A+A+Criminological+Test+of+Reward+Hacking+in+Generative+AI+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Pressure, Context, and Machine Self-Control: A Criminological Test of Reward Hacking in Generative AI Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Murat Ozer, Isaac Kofi Nti&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 3) · relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Target-free+Latent+Safety+Alignment&amp;amp;searchtype=title"&gt;&lt;strong&gt;Target-free Latent Safety Alignment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Luoyu Chen, Weiqi Wang, Chenhan Zhang, Zhiyi Tian, Yuxian Huang, Shui Yu&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 3) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Monitorability+Disposition+in+Large+Reasoning+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Monitorability Disposition in Large Reasoning Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Shahriar Golchin, Marc Wetter&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 4) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Scholar Inbox, 5 Oct 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:911bb89d25cf0961</guid>
-      <pubDate>Mon, 05 Oct 2026 12:00:13 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability
-• A Near-Zero Monitor Readout Is Not Evidence of Behavioral Control
-• Prospective Hindsight: Self-Calibrating Reinforcement Learning via Prediction-Reality Gaps
-• Test-time Calibration Learning for Large Language Model Reasoning
-• On the Chain-of-Thought Monitorability of Looped Language Models</description>
-      <content:encoded>&lt;p&gt;Matched 85 of 1503 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Efficient+Reasoning+Training+Does+Not+Always+Harm+CoT+Faithfulness+and+Monitorability&amp;amp;searchtype=title"&gt;&lt;strong&gt;Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Samuel Lewis-Lim, Xingwei Tan, Mario Sanger, Zhixue Zhao, Nikolaos Aletras&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 2) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=A+Near-Zero+Monitor+Readout+Is+Not+Evidence+of+Behavioral+Control&amp;amp;searchtype=title"&gt;&lt;strong&gt;A Near-Zero Monitor Readout Is Not Evidence of Behavioral Control&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Zhe Zhou, Tianhua Tao&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 2) · relevance 82&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Prospective+Hindsight%3A+Self-Calibrating+Reinforcement+Learning+via+Prediction-Reality+Gaps&amp;amp;searchtype=title"&gt;&lt;strong&gt;Prospective Hindsight: Self-Calibrating Reinforcement Learning via Prediction-Reality Gaps&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jiaxin Zhang, Xiangyu Peng, Qinglin Chen, Yu Li, Hiroaki Hayashi, Chien-Sheng Wu&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 2) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Test-time+Calibration+Learning+for+Large+Language+Model+Reasoning&amp;amp;searchtype=title"&gt;&lt;strong&gt;Test-time Calibration Learning for Large Language Model Reasoning&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Zizhuo Zhang, Xiong Peng, Jingwei Sun, Rong Yao, Shixiong Kai, Mingxuan Yuan, Bo Han&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 2) · relevance 79&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=On+the+Chain-of-Thought+Monitorability+of+Looped+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;On the Chain-of-Thought Monitorability of Looped Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Han Wang, Ishwar B Balappanawar, Huan Zhang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 2) · relevance 78&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
   </channel>
