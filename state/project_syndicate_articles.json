@@ -7,21 +7,13 @@
     "bio": "",
     "fetched": "2026-11-04T15:59:02+00:00"
   },
-  "https://www.project-syndicate.org/commentary/after-brazil-and-serbia-s-elections-doc-2026-10": {
-    "byline": "PS editors",
-    "body": "<p>While far-right parties have lately gained ground in some countries, such as Germany, voters have repudiated right-wing leaders in a few notable elections this year. In April, Hungary\u2019s center-right Tisza party won a decisive victory over Prime Minister Viktor Orb\u00e1n\u2019s ruling Fidesz party. And this month, Serbia\u2019s student-led opposition ousted Aleksandar Vu\u010di\u0107 from power after 14 years of authoritarian rule, and incumbent Brazilian President <a href=\"https://www.project-syndicate.org/columnist/luiz-inacio-lula-da-silva\">Luiz In\u00e1cio Lula da Silva</a> unexpectedly defeated his far-right challenger Fl\u00e1vio Bolsonaro.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-11-04T15:59:02+00:00"
-  },
   "https://www.project-syndicate.org/commentary/ai-democracy-demands-we-think-for-ourselves-by-john-palfrey-2026-11": {
     "byline": "John Palfrey",
     "body": "<p>CHICAGO\u2014Sometime in the 18th century, the Enlightenment settled a contentious, centuries-old question: Where does knowledge come from? For millennia, many people had pointed to God. But the early modern period brought a new consensus, namely that knowledge comes from human scientists working at the edge of what is known, armed with observation, mathematics, experimentation, and logic.</p>",
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-11-03T21:31:59+00:00"
+    "fetched": "2026-11-04T21:49:04+00:00"
   },
   "https://www.project-syndicate.org/commentary/ai-resistance-tied-to-what-a-society-already-has-by-carl-benedikt-frey-2026-10": {
     "byline": "Carl Benedikt Frey",
@@ -39,6 +31,22 @@
     "bio": "",
     "fetched": "2026-11-04T15:59:02+00:00"
   },
+  "https://www.project-syndicate.org/commentary/china-trade-with-russia-iran-is-not-de-dollarizing-global-economy-by-ho-fung-hung-2026-11": {
+    "byline": "Ho-fung Hung",
+    "body": "<p>WASHINGTON, DC\u2014After Russia\u2019s full-scale invasion of Ukraine in 2022, the United States sought to freeze Russia out of the global financial system, leading many to speculate that weaponization of the US dollar\u2019s dominance of that system would accelerate the world\u2019s shift away from the greenback. Speculation only intensified when the US launched its war against Iran earlier this year and tightened its financial sanctions on the country.</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-11-04T21:49:04+00:00"
+  },
+  "https://www.project-syndicate.org/commentary/dotcom-bubble-lessons-for-ai-boom-by-chi-onwurah-2026-11": {
+    "byline": "Chi Onwurah",
+    "body": "<p>LONDON\u2014It is a truth universally acknowledged that transformative new technologies rewrite the rules of finance. Or so we are told in numerous commentaries, social-media posts, and regulatory filings relating to the current AI investment boom, which may well prove to be a bubble.</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-11-04T21:49:04+00:00"
+  },
   "https://www.project-syndicate.org/commentary/ecb-should-waive-its-rules-to-bail-france-out-and-protect-the-euro-by-desmond-lachman-2026-11": {
     "byline": "Desmond Lachman",
     "body": "<p>WASHINGTON, DC\u2014The <a href=\"https://www.poetryfoundation.org/poems/45404/rule-britannia\">grandiose claim</a> that \u201cBritannia rules the waves\u201d inspired the wry quip that, in fact, Britannia waives the rules. While the pun was meant as a putdown, waiving rules can be a prudent decision. That is certainly the case for the European Central Bank today, as it weighs its options for helping France, Europe\u2019s second-largest economy, cope with its <a href=\"https://apnews.com/article/france-economy-presidential-election-record-debt-7cd020a54d0810a8d9df8a5544cd5312\">$4 trillion</a> debt.</p>",
@@ -50,14 +58,6 @@
   "https://www.project-syndicate.org/commentary/failure-of-trump-trade-agenda-could-pave-way-for-retreat-from-protectionism-by-anne-o-krueger-2026-11": {
     "byline": "Anne O. Krueger",
     "body": "<p>WASHINGTON, DC\u2014In the nearly two years since he returned to the White House, US President Donald Trump has picked up where he left off in his first term, shredding the open multilateral trading system that has served the world so well since the end of World War II. He has imposed sweeping tariffs on dozens of countries, repeatedly raising and lowering them and changing rates on individual goods and countries, seemingly on a whim. As a result, US tariff rates are now higher than at any time since the Great Depression\u2019s Smoot-Hawley tariffs.</p>",
-    "truncated": true,
-    "free": true,
-    "bio": "",
-    "fetched": "2026-11-04T15:59:02+00:00"
-  },
-  "https://www.project-syndicate.org/commentary/governments-and-mining-companies-must-win-public-trust-to-extract-critical-minerals-by-ngaire-woods-2206-10": {
-    "byline": "Ngaire Woods",
-    "body": "<p>OXFORD\u2014Two tumultuous elections have captured headlines this week. In Brazil, incumbent President <a href=\"https://www.project-syndicate.org/columnist/luiz-inacio-lula-da-silva\">Luiz In\u00e1cio Lula da Silva</a> defeated his far-right challenger Fl\u00e1vio Bolsonaro. And in Serbia, the student-led opposition ousted Aleksandar Vu\u010di\u0107 after 14 years in power. But the challenge for these new governments is just beginning. Whether they like it or not, both will be swept up in the global scramble for critical minerals and metals.</p>",
     "truncated": true,
     "free": true,
     "bio": "",
@@ -87,13 +87,21 @@
     "bio": "<p>Elisabeth Reynolds, former Special Assistant to the President for Manufacturing and Economic Development at the National Economic Council (2021\u201322), is Professor of Practice at MIT\u2019s Department of Urban Studies and Planning.</p>\n<p>Nathan Collett is a former Canadian public servant on issues of economic security and a graduate of MIT\u2019s Technology and Policy Program.</p>",
     "fetched": "2026-10-30T14:52:33+00:00"
   },
+  "https://www.project-syndicate.org/commentary/mainstream-economics-no-theoretical-core-fatally-vulnerable-by-james-k-galbraith-2026-11": {
+    "byline": "James K. Galbraith",
+    "body": "<p>KASHGAR\u2014In what is best read as a preemptive swipe at <a href=\"https://www.project-syndicate.org/columnist/isabella-m-weber\">Isabella Weber</a>\u2019s new book, <a href=\"https://www.penguinrandomhouse.com/books/804175/anti-fascist-economics-by-isabella-weber/\"><i>Anti-Fascist Economics</i></a>, <a href=\"https://www.project-syndicate.org/columnist/jason-furman\">Jason Furman</a>, the chair of the White House Council of Economic Advisers during US President Barack Obama\u2019s second term, recently <a href=\"https://x.com/jasonfurman/status/2112310409671688690\">offered</a> the following half-truth: \u201cthe fatal challenge to heterodox economics is that there isn\u2019t actually orthodox economics.\u201d</p>",
+    "truncated": true,
+    "free": true,
+    "bio": "",
+    "fetched": "2026-11-04T21:49:04+00:00"
+  },
   "https://www.project-syndicate.org/commentary/oligarchy-is-defining-feature-of-emerging-world-order-by-david-lingelbach-and-valentina-rodriguez-guerra-2026-11": {
     "byline": "David Lingelbach and Valentina Rodr\u00edguez Guerra",
     "body": "<p>BALTIMORE/BOGOT\u00c1\u2014For most people, the word \u201coligarch\u201d conjures images of Russian elites who amassed huge fortunes in the wake of the Soviet Union\u2019s collapse or, more recently, the tech billionaires who filled the front row at US President Donald Trump\u2019s second inauguration. But oligarchs are global, systemic, and increasingly entrenched. They are a defining feature of the emerging world order.</p>",
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-11-03T21:31:59+00:00"
+    "fetched": "2026-11-04T21:49:04+00:00"
   },
   "https://www.project-syndicate.org/commentary/poland-right-wing-judicial-coup-attempt-by-slawomir-sierakowski-2026-10": {
     "byline": "S\u0142awomir Sierakowski",
@@ -101,7 +109,7 @@
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-11-03T21:31:59+00:00"
+    "fetched": "2026-11-04T21:49:04+00:00"
   },
   "https://www.project-syndicate.org/commentary/politics-of-poland-judicial-crisis-by-maciej-kisilowski-2026-10": {
     "byline": "Maciej Kisilowski",
@@ -125,7 +133,7 @@
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-11-03T21:31:59+00:00"
+    "fetched": "2026-11-04T21:49:04+00:00"
   },
   "https://www.project-syndicate.org/commentary/us-republicans-should-follow-tory-leader-kemi-badenoch-example-in-uk-by-michael-r-strain-2026-11": {
     "byline": "Michael R. Strain",
@@ -133,7 +141,7 @@
     "truncated": true,
     "free": true,
     "bio": "",
-    "fetched": "2026-11-03T21:31:59+00:00"
+    "fetched": "2026-11-04T21:49:04+00:00"
   },
   "https://www.project-syndicate.org/onpoint/ai-infrastructure-could-outlast-the-bubble-that-financed-it-by-william-h-janeway-2026-10": {
     "byline": "William H. Janeway",

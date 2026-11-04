@@ -3,6 +3,7 @@
   "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/": "2026-09-25",
   "https://alignment.openai.com/misalignment-reports/circumventing-internet-restrictions-through-an-external-browser/": "2026-10-15",
   "https://alignment.openai.com/misalignment-reports/command-injecting-a-reference-tool-to-copy-a-source-file/": "2026-10-02",
+  "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/": "2026-11-04",
   "https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/": "2026-10-09",
   "https://alignment.openai.com/misalignment-reports/encouraging-deception-in-compaction-summaries/": "2026-09-17",
   "https://alignment.openai.com/misalignment-reports/exposing-a-github-token-in-a-public-repository/": "2026-09-25",

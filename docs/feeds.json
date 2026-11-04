@@ -41,8 +41,8 @@
       "source_url": "https://alignment.openai.com/misalignment-reports/",
       "upstream_status": "No feed of any kind upstream.",
       "notes": "New reports use First posted; each entry keeps the date this generator first saw it and does not jump back to the top when edited.",
-      "items": 20,
-      "newest": "2026-10-20",
+      "items": 21,
+      "newest": "2026-11-04",
       "healthy": true
     },
     {
@@ -55,8 +55,8 @@
       "source_url": "https://alignment.openai.com/",
       "upstream_status": "No merged feed upstream.",
       "notes": "",
-      "items": 57,
-      "newest": "2026-11-03",
+      "items": 58,
+      "newest": "2026-11-04",
       "healthy": true
     },
     {
@@ -70,7 +70,7 @@
       "upstream_status": "No merged feed upstream.",
       "notes": "",
       "items": 50,
-      "newest": "2026-11-03",
+      "newest": "2026-11-04",
       "healthy": true
     },
     {
@@ -168,7 +168,7 @@
       "upstream_status": "Official /rss/ is complete but interleaves the daily with video and podcast teasers, paywalled previews, recaps, reader essays and sponsor cards.",
       "notes": "",
       "items": 3,
-      "newest": "2026-11-02",
+      "newest": "2026-11-04",
       "healthy": true
     },
     {
