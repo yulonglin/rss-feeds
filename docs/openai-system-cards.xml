@@ -9,7 +9,15 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-system-cards.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://deploymentsafety.openai.com/" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 30 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>ChatGPT Images 2.6 System Card</title>
+      <link>https://deploymentsafety.openai.com/chatgpt-images-2-6</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/chatgpt-images-2-6</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>System card for ChatGPT Images 2.6, covering model capabilities, safety evaluations, safeguards, and image provenance.</description>
+    </item>
     <item>
       <title>GPT-Rosalind-6 System Card Addendum</title>
       <link>https://deploymentsafety.openai.com/gpt-rosalind-6</link>
