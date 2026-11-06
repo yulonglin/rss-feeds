@@ -9,7 +9,102 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/the-conversation.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://theconversation.com/global/newsletters" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 04 Nov 2026 08:07:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 13:34:48 +0000</lastBuildDate>
+    <item>
+      <title>Will 'world models' succeed where LLMs fall short?</title>
+      <link>https://theconversation.com/why-ai-cannot-think-like-humans-do-293188</link>
+      <guid isPermaLink="false">the-conversation:a6d593475ef61c13</guid>
+      <pubDate>Fri, 06 Nov 2026 13:34:48 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Global daily</category>
+      <description>• Why AI cannot ‘think’ like humans do
+• AI may quickly generate ideas, but working with people leads to more creative ones
+• AI agents with friendly faces and adorable bodies can distract you from serious risks
+• From lab to life: Why translating AI advances to the real world is a major challenge
+• Are you using AI to study? Here’s how to do it well</description>
+      <content:encoded>&lt;p&gt;By now we know the chatbots we interact with are powered by large language models, which, as impressive as they are, have some inherent limitations. According to some of the leading minds in AI, “world models” will succeed LLMs and bring more humanlike thinking to their training, as two psychologists explain. &lt;/p&gt;
+&lt;p&gt;Agents are rapidly becoming one of the most important advances in AI, and they’re starting to take shape, sometimes in cute packages. Two scholars of digital technologies write that the disarming marketing of agents – think friendly avatars like Meta Muse and OpenAI’s Dots – can mask some of the more “invasive potential of AI agents,” such as acting without a user’s full consent. &lt;/p&gt;
+&lt;p&gt;Also this week, why working with people rather than AIs can lead to more creativity, some of the biggest challenges in applying AI in the “real world” outside of computers, and tips on using AI to aid rather than detract from studying. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Martin LaMonica&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Director of Editorial Projects and Newsletters &lt;/p&gt;
+&lt;img alt="How AI is shaping faith and spirituality webinar, join us Tuesday, November 17" src="https://images.theconversation.com/files/769142/original/file-20261029-64-d4n1d4.png?ixlib=rb-4.1.1&amp;amp;q=70&amp;amp;auto=format&amp;amp;w=900&amp;amp;fit=clip"&gt;
+&lt;p&gt;&lt;strong&gt;Webinar&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lead Story&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/769849/original/file-20261103-64-grjouv.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C183%2C2400%2C1350&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/why-ai-cannot-think-like-humans-do-293188"&gt;Why AI cannot ‘think’ like humans do&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Didier Camilo Olarte Gonzalez, Université du Québec à Montréal (UQAM); Pier-Luc de Chantal, Université du Québec à Montréal (UQAM)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;‘World models’ are an emerging technology that could help AI systems anticipate what might happen and use that to act. This is not the same as human ‘thinking.’&lt;/p&gt;
+&lt;p&gt;“World models” are an emerging technology that could help AI systems move closer to human “thinking” by helping them learn to anticipate what might happen and use that prediction to act.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI and Humanity&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/768025/original/file-20261023-50-50iaei.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C364%2C3000%2C1687&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;AI may quickly generate ideas, but working with people leads to more creative ones&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Clin Lai, Brandeis University; Roger Beaty, Penn State&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A recent experiment found that people working with ChatGPT generated fewer unique ideas than those who collaborated with other humans.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technology&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/769337/original/file-20261030-64-syo9i4.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C359%2C6887%2C3873&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/ai-agents-with-friendly-faces-and-adorable-bodies-can-distract-you-from-serious-risks-294339"&gt;AI agents with friendly faces and adorable bodies can distract you from serious risks&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Ankolika De, Vanderbilt University; Jessica Maddox, University of Georgia&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Cute designs can make AI technology feel harmless, but real hazards are still present.&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/761852/original/file-20260923-50-8mnqcd.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C238%2C3106%2C1747&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/from-lab-to-life-why-translating-ai-advances-to-the-real-world-is-a-major-challenge-256421"&gt;From lab to life: Why translating AI advances to the real world is a major challenge&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Bo Wang, University of Mississippi&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;All the training data in the world can’t account for every possibility when AI systems interact with people and the environment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/766455/original/file-20261015-50-kv2a1g.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C224%2C4288%2C2412&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;Are you using AI to study? Here’s how to do it well&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Luke Rowe, Australian Catholic University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A good principle when studying with artificial intelligence is: think first, use AI second (or, in some cases, not at all).&lt;/p&gt;
+&lt;img alt="How AI is shaping faith and spirituality webinar, join us Tuesday, November 17" src="https://images.theconversation.com/files/769147/original/file-20261029-64-plurid.png?ixlib=rb-4.1.1&amp;amp;q=70&amp;amp;auto=format&amp;amp;w=900&amp;amp;fit=clip"&gt;</content:encoded>
+    </item>
+    <item>
+      <title>What the midterms may mean for wars in Iran, Ukraine</title>
+      <link>https://theconversation.com/what-the-us-midterms-result-means-for-the-ukraine-war-295705</link>
+      <guid isPermaLink="false">the-conversation:c4a86a035f7790b2</guid>
+      <pubDate>Fri, 06 Nov 2026 12:15:53 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Global daily</category>
+      <description>• What the US midterms result means for the Ukraine war
+• JD Vance singled out Iran War for midterm rout – he didn’t say what should happen next in conflict
+• Young men and Latino voters helped drive the Democrats’ blue wave. Why did they abandon Trump?
+• Climate change is undermining our health and the burden falls heaviest on women
+• Why Trump, Xi, and Putin can’t carve up the world like the ‘big three’ leaders of 1945
+• NASA’s Swift telescope has burned up, months after a robot sent to save it failed – here’s why it’s so hard to boost a satellite</description>
+      <content:encoded>&lt;p&gt;This week saw a seismic shift in the political landscape of the U.S. as voters rebuked the Trump agenda and voted in Democrats to key Senate and House seats across the country.&lt;/p&gt;
+&lt;p&gt;Vice President JD Vance was in no doubt about what drove the blue wave: frustration over the war in Iran.&lt;/p&gt;
+&lt;p&gt;Javed Ali, who served as a senior member of the National Security Council during the first Trump administration, believes this prognosis is correct. But he is less sure that Vance, Trump or anyone else in the administration really knows what to do with that knowledge. “America and Iran have both borne significant political, military and economic costs. A decision not to pursue an endgame would leave those sunk; doing so may only increase them,” writes Ali.&lt;/p&gt;
+&lt;p&gt;And the fact that from January, Donald Trump will have to navigate a Congress controlled by Democrats almost uniformly opposed to the war will give him less leeway to act.&lt;/p&gt;
+&lt;p&gt;That dynamic may affect the calculus in Washington regarding the conflict in Ukraine, too. “Having just scored a sweeping landslide victory, [Democrats] may well calculate there is a good deal of political mileage to be had now in escalating their attack on a weakened Trump if his foreign policy towards Russia and Ukraine continues … to reward an aggressor while making the victim of that aggression look like an obstacle to a settlement,” notes international relations expert Michael Cox.&lt;/p&gt;
+&lt;p&gt;Elsewhere today we look forward towards COP31, the U.N. climate conference due to begin on Monday and salute the legacy of NASA’s Swift Observatory, which burnt up in the atmosphere on Thursday after decades of service.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Matt Williams&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Senior International Editor&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Top story&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/770295/original/file-20261105-64-x32w40.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C451%2C6246%2C3513&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;p&gt;The Ukrainian president, Volodymyr Zelensky, speaks during a press conference in Berlin, Germany, on November 3. Clemens Bilan / EPA&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/what-the-us-midterms-result-means-for-the-ukraine-war-295705"&gt;What the US midterms result means for the Ukraine war&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Michael Cox, London School of Economics and Political Science&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The result is both an opportunity and a threat to Ukraine.&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/770374/original/file-20261105-78-cuap8a.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C428%2C5160%2C2580&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/jd-vance-singled-out-iran-war-for-midterm-rout-he-didnt-say-what-should-happen-next-in-conflict-295938"&gt;JD Vance singled out Iran War for midterm rout – he didn’t say what should happen next in conflict&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Javed Ali, University of Michigan&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The Trump administration has sunk reputational and military costs into the Middle East conflict. But continuing risks alienating voters further.&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/770234/original/file-20261105-64-f0gcld.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C400%2C3000%2C1500&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/young-men-and-latino-voters-helped-drive-the-democrats-blue-wave-why-did-they-abandon-trump-295965"&gt;Young men and Latino voters helped drive the Democrats’ blue wave. Why did they abandon Trump?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Grace Jennings-Edquist, The Conversation; Justin Bergman, The Conversation&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Economic issues are almost always front of mind for voters, political scientist Charles Hunt says.&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/769924/original/file-20261104-64-ufui4k.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C67%2C5600%2C3150&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/climate-change-is-undermining-our-health-and-the-burden-falls-heaviest-on-women-295355"&gt;Climate change is undermining our health and the burden falls heaviest on women&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Veronica Le Nevez, George Institute for Global Health; Laura Emily Downey, George Institute for Global Health&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Our response to climate change must reflect the everyday health realities people face.&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/769717/original/file-20261103-64-3nmrj.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C4000%2C2667&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/why-trump-xi-and-putin-cant-carve-up-the-world-like-the-big-three-leaders-of-1945-295632"&gt;Why Trump, Xi, and Putin can’t carve up the world like the ‘big three’ leaders of 1945&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Nicholas Westcott, SOAS, University of London&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;It’s hard to imagine a world dominated by ‘great powers’ in the 21st century.&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/769911/original/file-20261104-64-ktbpnd.png?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C1687%2C1080&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/nasas-swift-telescope-has-burned-up-months-after-a-robot-sent-to-save-it-failed-heres-why-its-so-hard-to-boost-a-satellite-295538"&gt;NASA’s Swift telescope has burned up, months after a robot sent to save it failed – here’s why it’s so hard to boost a satellite&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Wanjiku Chebet Kanjumba, University of Florida&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;If you bump a spacecraft in orbit, it may start tumbling uncontrollably. To save a falling satellite, the rescuer must be incredibly steady and precise.&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/the-binance-hack-exploited-familiar-weaknesses-all-organisations-should-learn-from-it-295627"&gt; The Binance hack exploited familiar weaknesses – all organisations should learn from it &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Bogdan Księżopolski, Kozminski University &lt;/p&gt; &lt;p&gt;The hackers compromised a laptop belonging to an IT engineer, according to Binance.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/the-worse-climate-change-gets-the-harder-it-becomes-to-stop-it-293987"&gt; The worse climate change gets, the harder it becomes to stop it &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; James Dyke, University of Exeter &lt;/p&gt; &lt;p&gt;Climate breakdown could undermine the social trust, political cooperation and financial resources needed to tackle it – new research shows how this might play out.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/why-mark-carney-is-still-betting-big-on-europe-295647"&gt; Why Mark Carney is still betting big on Europe &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Katerina Sviderska, University of Cambridge &lt;/p&gt; &lt;p&gt;Canada and the EU have found in each other stable liberal partners who take democracy seriously.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/why-do-blind-people-and-musicians-hear-pitch-better-new-research-suggests-they-have-less-internal-noise-294114"&gt; Why do blind people and musicians hear pitch better? New research suggests they have less internal noise &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Woon Ju Park, Georgia Institute of Technology &lt;/p&gt; &lt;p&gt;The brain’s ability to process sound more consistently may influence how well you’re able to discriminate between different sounds.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/godzilla-minus-zero-is-incredibly-loud-who-decides-on-the-cinema-volume-and-is-it-safe-295864"&gt; Godzilla Minus Zero is incredibly loud. Who decides on the cinema volume? And is it safe? &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Alison Cole, University of Sydney &lt;/p&gt; &lt;p&gt;The new film, out in IMAX, has viewers shaking in their seats from the volume. Why are some cinema screenings so loud?&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/friday-essay-when-is-a-kiss-a-crime-feminists-have-asked-this-question-for-more-than-100-years-288936"&gt; Friday essay: when is a kiss a crime? Feminists have asked this question for more than 100 years &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Katie Barclay, Macquarie University &lt;/p&gt; &lt;p&gt;The history of the kiss is interwoven with debates around when we should ask for permission: from ‘Kiss Not’ badges to court cases.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
+    </item>
     <item>
       <title>Why the Cambridge Analytica scandal still matters</title>
       <link>https://theconversation.com/metas-25b-fine-left-out-accountability-for-harm-from-the-cambridge-analytica-data-privacy-scandal-295620</link>
@@ -509,106 +604,6 @@
 &lt;h3&gt;&lt;a href="https://theconversation.com/companies-may-be-held-liable-when-ai-harms-their-clients-and-customers-282234"&gt;Companies may be held liable when AI harms their clients and customers&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Sarah Webber, University of Dayton; Kaitlin Newkirk, Xavier University&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;When an AI a business is using makes a mistake, the business tends to be on the hook, not the AI toolmaker.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Probing the mysteries of Mars' moons</title>
-      <link>https://theconversation.com/japans-mmx-mission-aims-to-swipe-soil-samples-from-mars-moon-phobos-294129</link>
-      <guid isPermaLink="false">the-conversation:56034079c3bc0622</guid>
-      <pubDate>Fri, 16 Oct 2026 12:11:48 +0000</pubDate>
-      <dc:creator>The Conversation</dc:creator>
-      <category>Global daily</category>
-      <description>• Japan’s MMX mission aims to swipe soil samples from Mars’ moon Phobos
-• Can Ethiopia ever be at peace? Four reasons conflict keeps flaring up
-• How the ‘geopolitical stigma’ associated with Putin’s Russia is affecting ordinary Russians
-• In Alberta, far-right populism fuelled by conspiracy theories and alienation drive bid to separate from Canada</description>
-      <content:encoded>&lt;p&gt;Japan is leading a group of agencies on a slightly different route to Mars. A robotic mission due to launch Monday will target Phobos, one of the red planet’s two small moons. Martian Moons Exploration (MMX) aims to bring samples of rock and soil back to Earth in 2031, potentially solving the mystery of how Mars acquired its moons.&lt;/p&gt;
-&lt;p&gt;Daniel Brown, lecturer in astronomy at Nottingham Trent University, England, explains the engineering involved – from deploying a tiny rover to collecting material in Phobos’s remarkably weak gravity. The mission is also a reminder of how much we can learn by bringing extraterrestrial material back to Earth for lab analysis. With NASA’s much more ambitious Mars Sample Return programme effectively cancelled, MMX could offer scientists an unexpected consolation prize: a glimpse into the geological history of Mars without ever touching down on the planet.&lt;/p&gt;
-&lt;p&gt;Elsewhere this week, we have been keeping track on Starlink’s slowdown in Ukraine and talking about separatism in Canada’s Alberta.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Paul Rincon&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; Senior Science + Technology Editor &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Top story&lt;/strong&gt;&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/765404/original/file-20261011-50-kb97fk.png?ixlib=rb-4.1.1&amp;amp;rect=0%2C135%2C2600%2C1462&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;p&gt;The MMX spacecraft will enter Martian orbit before attempting to collect samples from Phobos. Jaxa&lt;/p&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/japans-mmx-mission-aims-to-swipe-soil-samples-from-mars-moon-phobos-294129"&gt;Japan’s MMX mission aims to swipe soil samples from Mars’ moon Phobos&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Daniel Brown, Nottingham Trent University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The mission could help resolve how Mars’ two moons were formed.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/766420/original/file-20261015-50-hr8ong.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C313%2C6000%2C3375&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;p&gt;The use of violence to acquire political authority has deep roots in Ethiopia’s modern history. Yonatan Tesfaye/Unsplash&lt;/p&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/can-ethiopia-ever-be-at-peace-four-reasons-conflict-keeps-flaring-up-294278"&gt;Can Ethiopia ever be at peace? Four reasons conflict keeps flaring up&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Alemayehu Fentaw Weldemariam, Indiana University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Ethiopia’s recurring wars don’t stem from ancient ethnic hatreds, but from a failure to agree on the rules for resolving disputes.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/765548/original/file-20261012-50-5n800c.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C498%2C5184%2C2916&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;p&gt;People go about their daily life in the Russian capital, Moscow, in 2023. Arnold O. A. Pinto / Shutterstock&lt;/p&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/how-the-geopolitical-stigma-associated-with-putins-russia-is-affecting-ordinary-russians-293260"&gt;How the ‘geopolitical stigma’ associated with Putin’s Russia is affecting ordinary Russians&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Marina Yusupova-Ryder, Edinburgh Napier University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The full-scale invasion of Ukraine changed more than Russia’s relations with the west – it changed the meaning of being Russian.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/766127/original/file-20261014-50-o56nd0.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C287%2C5504%2C3096&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;p&gt;&lt;strong&gt;Vadim Gouida/Shutterstock&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/in-alberta-far-right-populism-fuelled-by-conspiracy-theories-and-alienation-drive-bid-to-separate-from-canada-294374"&gt;In Alberta, far-right populism fuelled by conspiracy theories and alienation drive bid to separate from Canada&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Gemma Ware, The Conversation&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Political scientist Jared Wesley tells The Conversation Weekly podcast what is driving separatist sentiment in the Canadian province of Alberta ahead of a referendum on October 19.&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/young-voters-fear-mass-shootings-but-are-divided-on-gun-control-272235"&gt; Young voters fear mass shootings but are divided on gun control &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Jillian Turanovic, University of Colorado Boulder; Kristin Lloyd, Clemson University &lt;/p&gt; &lt;p&gt;Research on the ‘massacre generation’ reveals that shared fear over mass shootings doesn’t lead to shared policy views.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/maricarmen-abascal-how-a-disabled-evicted-87-year-old-woman-became-a-political-football-in-spains-upcoming-election-294174"&gt; Maricarmen Abascal: how a disabled, evicted 87-year-old woman became a political football in Spain’s upcoming election &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Dolors Palau-Sampio, Universitat de València &lt;/p&gt; &lt;p&gt;Maricarmen Abascal’s eviction and activism made her an emblem of Spain’s mass housing protests.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/is-the-us-limiting-starlink-in-ukraine-the-consequences-could-be-catastrophic-294496"&gt; Is the US limiting Starlink in Ukraine? The consequences could be catastrophic &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Anthony King, University of Exeter &lt;/p&gt; &lt;p&gt;The satellite technology is vital both on the battlefield and for defending Ukraine’s cities.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/early-humans-in-america-endured-climate-chaos-new-research-293174"&gt; Early humans in America endured climate chaos – new research &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Matthew Robert Bennett, Bournemouth University; University of Reading; Sally Christine Reynolds, Bournemouth University &lt;/p&gt; &lt;p&gt;People who lived in New Mexico more than 20,000 years ago experienced rapid climate change.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/the-mafia-isnt-keeping-fentanyl-out-of-europe-the-lack-of-demand-is-294078"&gt; The mafia isn’t keeping fentanyl out of Europe – the lack of demand is &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Anna Sergi, Università di Bologna; University of Essex; The University of Melbourne &lt;/p&gt; &lt;p&gt;The theory that Italian mafia groups are choosing to keep fentanyl out of Europe does not fit what we know about drug markets or organised crime.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/from-a-little-princess-to-black-panther-how-hollywood-films-have-reimagined-the-south-asian-epic-ramayana-291232"&gt; From ‘A Little Princess’ to ‘Black Panther,’ how Hollywood films have reimagined the South Asian epic ‘Ramayana’ &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Sohini Sarah Pillai, Kalamazoo College &lt;/p&gt; &lt;p&gt;There is no single way to tell the story of the ‘Ramayana.’ People from different religious traditions and cultural backgrounds have reimagined the epic in countless ways.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Will a consolidated American media landscape leave voters less informed?</title>
-      <link>https://theconversation.com/why-the-paramount-warner-merger-is-a-problem-for-democracy-293798</link>
-      <guid isPermaLink="false">the-conversation:98f2af24aeb72181</guid>
-      <pubDate>Wed, 14 Oct 2026 15:29:36 +0000</pubDate>
-      <dc:creator>The Conversation</dc:creator>
-      <category>Global daily</category>
-      <description>• Why the Paramount-Warner merger is a problem for democracy
-• Turmoil within Dolly Parton’s estate underscores the precariousness of family businesses after founders die
-• Economics Nobel: how this year’s winners helped to smooth the cycle of economic peaks and troughs
-• Who’s paying whom? The circular money machine behind the AI boom (or bubble)
-• Why your boss matters more than remote or hybrid work when it comes to burnout and job satisfaction
-• Advertising like Sydney Sweeney’s Novig campaign teach women to see themselves as objects</description>
-      <content:encoded>&lt;p&gt;Are free markets good for a free press?&lt;/p&gt;
-&lt;p&gt;The United States has long allowed a largely private, commercial broadcasting system to dominate, while other countries, including the U.K., also offered a public alternative. One result has been intense concentration of market players, the most recent example being the behemoth US$110 billion deal between Paramount and Warner Bros. Discovery. &lt;/p&gt;
-&lt;p&gt;The new company, Skydance Corporation, now owns CNN and CBS News, Warner Bros. and Paramount Pictures, HBO and Paramount+, and a slew of other assets.&lt;/p&gt;
-&lt;p&gt;The economies of scale mean that these giants can compete better against platforms such as Netflix and YouTube. But as Seth Ashley of Colorado State University writes, the same pressures driving consolidation can also “undermine the independent reporting and diversity of voices that democracy depends on.” &lt;/p&gt;
-&lt;p&gt;While mergers may make economic sense, they don’t necessarily make citizens better informed. One example is what happened after the Sinclair Broadcast Group acquired local television stations under a 2017 deal. Less political competition and lower voter participation in elections followed the drop-off in local media coverage.&lt;/p&gt;
-&lt;p&gt;“Democracy assumes that citizens will have enough information to make choices and hold powerful institutions accountable,” writes Ashley, a journalism scholar. “But markets provide no guarantee that anyone will produce it.”&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Helen Fessenden&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; Senior Economy and Business Editor, The Conversation U.S. &lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/765603/original/file-20261012-50-qqcsr.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C549%2C8096%2C4554&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/why-the-paramount-warner-merger-is-a-problem-for-democracy-293798"&gt;Why the Paramount-Warner merger is a problem for democracy&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Seth Ashley, Colorado State University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The Paramount merger may make good business sense, but research shows putting more media power in fewer hands can come at a cost to the common good of citizens.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Essential briefings&lt;/strong&gt;&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/765313/original/file-20261009-60-nsyrnu.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C273%2C3273%2C1636&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/turmoil-within-dolly-partons-estate-underscores-the-precariousness-of-family-businesses-after-founders-die-293745"&gt;Turmoil within Dolly Parton’s estate underscores the precariousness of family businesses after founders die&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Reid Kress Weisbord, Rutgers University - Newark; Naomi Cahn, University of Virginia&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Even when there’s a will, there’s a way for things to go awry.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/765675/original/file-20261012-50-llw6wo.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C448%2C7680%2C3840&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/economics-nobel-how-this-years-winners-helped-to-smooth-the-cycle-of-economic-peaks-and-troughs-294217"&gt;Economics Nobel: how this year’s winners helped to smooth the cycle of economic peaks and troughs&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Conor O&amp;#x27;Kane, Bournemouth University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Robert E. Hall and Michael Woodford were announced as this year’s winners.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/765717/original/file-20261012-50-ao7g28.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C311%2C6000%2C3000&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/whos-paying-whom-the-circular-money-machine-behind-the-ai-boom-or-bubble-293938"&gt;Who’s paying whom? The circular money machine behind the AI boom (or bubble)&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Ruipeng Liu, Deakin University; Sagarika Mishra, Deakin University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;What’s not clear is how much of this AI boom is being driven by real, end-user demand — and how much might be a bubble.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/764243/original/file-20261006-50-k340tr.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C1309%2C3768%2C1884&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/why-your-boss-matters-more-than-remote-or-hybrid-work-when-it-comes-to-burnout-and-job-satisfaction-293319"&gt;Why your boss matters more than remote or hybrid work when it comes to burnout and job satisfaction&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Christos Makridis, Arizona State University; Institute for Humane Studies&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;A return to the office can mean very different things to different workers, which is why this debate often produces conflicting answers.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Quote of the week&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Sexualized advertising is a notable tactic used to attract attention to gambling products. By associating betting with celebrity appeal, physical attractiveness and aspirational lifestyles, these ads can make gambling seem more socially desirable and less risky&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;—&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Samantha Jones, Researcher, Department of Psychology, Western University; Jamie Hong Chow, PhD candidate, Department of Political Science, Western University; and Noah Eliot Vanderhoeven, PhD, Political Science, Western University&lt;/p&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/advertising-like-sydney-sweeneys-novig-campaign-teach-women-to-see-themselves-as-objects-292329"&gt;Advertising like Sydney Sweeney’s Novig campaign teach women to see themselves as objects&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Marketing&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/americans-are-stressed-about-grocery-prices-so-why-do-they-toss-or-overlook-so-much-misfit-food-293526"&gt; Americans are stressed about grocery prices, so why do they toss or overlook so much ‘misfit’ food? &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Jintao Zhang, Binghamton University, State University of New York &lt;/p&gt; &lt;p&gt;Quality, rather than discounts or environmental benefits, is what’s needed to encourage shoppers to consider odd-shaped produce.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/drug-company-promotion-negatively-affects-how-doctors-prescribe-insights-from-a-new-cochrane-review-292682"&gt; Drug company promotion negatively affects how doctors prescribe: Insights from a new Cochrane review &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Joel Lexchin, University of Toronto; York University, Canada; University of Sydney; Alice Fabbri, University of Bath; Barbara Mintzes, University of Sydney; Quinn Grundy, University of Toronto &lt;/p&gt; &lt;p&gt;The medical community and governments can no longer ignore the consequences of the promotion of medicines on prescribing.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Labor&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/canada-recruits-internationally-educated-health-professionals-credential-recognition-is-only-part-of-the-challenge-292335"&gt; Canada recruits internationally educated health professionals. Credential recognition is only part of the challenge &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Sheri Adekola, University of Guelph &lt;/p&gt; &lt;p&gt;Canada is recruiting internationally educated health professionals, but recognizing their credentials is only one step toward professional integration.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Commodities&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/energy-price-cap-the-cost-of-your-coffee-could-be-about-to-go-up-293471"&gt; Energy price cap: the cost of your coffee could be about to go up &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Giray Gozgor, University of Bradford; Erhan Kilincarslan, University of Huddersfield &lt;/p&gt; &lt;p&gt;Some businesses will be hit harder than others.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Energy&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/data-centers-make-heat-all-year-long-heres-how-the-ground-can-hold-onto-it-until-winter-291527"&gt; Data centers make heat all year long – here’s how the ground can hold onto it until winter &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Moones Alamooti, University of North Dakota &lt;/p&gt; &lt;p&gt;Rocks deep underground can be used to hold heat until it’s needed.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/the-oil-market-that-sets-todays-gas-prices-was-invented-in-western-pennsylvania-292855"&gt; The oil market that sets today’s gas prices was invented in western Pennsylvania &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Brian C. Black, Penn State &lt;/p&gt; &lt;p&gt;A historian traces how Oil City brokers, then John D. Rockefeller, then futures exchanges decided what the world pays for crude – and why no one entity does today.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/can-data-centre-company-firmus-live-up-to-its-blockbuster-43-billion-listing-value-why-some-investors-doubt-it-293532"&gt; Can data centre company Firmus live up to its blockbuster $43 billion listing value? Why some investors doubt it &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Marta Khomyn, Adelaide University &lt;/p&gt; &lt;p&gt;The October 23 listing could be Australia’s biggest in three decades. Many workers look set to own a piece of Firmus via their super – whether they want to or not.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/china-and-the-eu-could-turn-morocco-into-a-surprise-global-hub-for-electric-vehicles-292164"&gt; China and the EU could turn Morocco into a surprise global hub for electric vehicles &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Linda Calabrese, ODI Global; Jodie Keane, ODI Global &lt;/p&gt; &lt;p&gt;The north African country has attracted huge amounts of investment.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Economy&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/radical-economic-policies-in-argentina-offer-lessons-but-not-a-blueprint-for-south-africa-292915"&gt; Radical economic policies in Argentina offer lessons – but not a blueprint – for South Africa &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Lyal White, University of Pretoria &lt;/p&gt; &lt;p&gt;Argentina shows that economic reform depends less on ideological purity than on institutions, credibility and behavioural context.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;
-&lt;img src="https://images.theconversation.com/files/765988/original/resized_20261013-60-a5nqs3.png?ixlib=rb-4.1.1&amp;amp;q=70&amp;amp;auto=format&amp;amp;w=900&amp;amp;fit=clip" alt="People of all political stripes, and those who hold a range of views on climate change, agree on one thing: They don't want data centers in their communities."&gt;</content:encoded>
     </item>
   </channel>
 </rss>

@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 05 Nov 2026 13:17:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 13:16:36 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 6 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:6e53b3668e751fba</guid>
+      <pubDate>Fri, 06 Nov 2026 13:16:36 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• The Inner Monologue of Language Models: When Reasoning Traces Reveal More Than They Hide
+• Can Small LLMs Learn a Robust Theory of Mind via RLVR? Investigating Generalization through the False-Belief Task
+• A Game-Theoretic Analysis of Attacks on Large Language Models via Compositional Skills
+• Is Alignment Enough for Helpfulness, Harmlessness, and Honesty?
+• Measuring Large Language Models' Adversarial Behavior in Social Deduction Games</description>
+      <content:encoded>&lt;p&gt;Matched 148 of 2149 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22The+Inner+Monologue+of+Language+Models%3A+When+Reasoning+Traces+Reveal+More+Than+They+Hide%22"&gt;&lt;strong&gt;The Inner Monologue of Language Models: When Reasoning Traces Reveal More Than They Hide&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Pratham Singla, Shivank Garg, Ayush Singh, Ishan Garg, Ketan Suhaas Saichandran&lt;br&gt;&lt;small&gt;relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Can+Small+LLMs+Learn+a+Robust+Theory+of+Mind+via+RLVR%3F+Investigating+Generalization+through+the+False-Belief+Task%22"&gt;&lt;strong&gt;Can Small LLMs Learn a Robust Theory of Mind via RLVR? Investigating Generalization through the False-Belief Task&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Sneheel Sarangi, Hanan Salam&lt;br&gt;&lt;small&gt;relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22A+Game-Theoretic+Analysis+of+Attacks+on+Large+Language+Models+via+Compositional+Skills%22"&gt;&lt;strong&gt;A Game-Theoretic Analysis of Attacks on Large Language Models via Compositional Skills&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Xinbo Wu, Huan Zhang, Abhishek Umrawal, Lav R. Varshney&lt;br&gt;&lt;small&gt;relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Is+Alignment+Enough+for+Helpfulness%2C+Harmlessness%2C+and+Honesty%3F%22"&gt;&lt;strong&gt;Is Alignment Enough for Helpfulness, Harmlessness, and Honesty?&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Gautam Siddharth Kashyap, Mark Dras, Usman Naseem&lt;br&gt;&lt;small&gt;relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Measuring+Large+Language+Models%27+Adversarial+Behavior+in+Social+Deduction+Games%22"&gt;&lt;strong&gt;Measuring Large Language Models' Adversarial Behavior in Social Deduction Games&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Marissa Zhao Li, Esha Shivakumar, Peiran Wang, Ying Li, Yuan Tian&lt;br&gt;&lt;small&gt;relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 5 Nov 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
@@ -407,27 +428,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=AI+Safety+Considerations+for+Agents+With+Limited+Time+to+Act&amp;amp;searchtype=title"&gt;&lt;strong&gt;AI Safety Considerations for Agents With Limited Time to Act&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Leo Zeitler, Jack Richings, Victoria Nockles&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 7) · relevance 78&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=SLDR%3A+Defending+Against+Malicious+Fine-tuning+via+Selective+Layers+Recovery+and+Dynamic+Routing&amp;amp;searchtype=title"&gt;&lt;strong&gt;SLDR: Defending Against Malicious Fine-tuning via Selective Layers Recovery and Dynamic Routing&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Hui Zhang and Yachao Yuan and Jiayun Wang and Yuanzhuo Li and Hongtao Wang, Yali Yuan&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 7) · relevance 78&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=SafeEvo%3A+Deciphering+the+Safety+Alignment+Mechanism+and+Evolution+in+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;SafeEvo: Deciphering the Safety Alignment Mechanism and Evolution in Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Miao Yu, Hao Huang, Lu Yuan, Yunpeng Li, Kun Wang, Zuming Jiang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 7) · relevance 77&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Scholar Inbox, 7 Oct 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:aa443d385dba9906</guid>
-      <pubDate>Wed, 07 Oct 2026 09:21:15 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• The Model Plants the Trigger: Answer-Side Backdoor Attacks in Multi-Turn Large Language Models
-• SIGMA: Self-Improving Alignment Generalization from a Model Spec
-• Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment
-• Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training
-• Toward Alignment Scaling Laws: A Framework and First Preregistered Measurements</description>
-      <content:encoded>&lt;p&gt;Matched 97 of 2368 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Model+Plants+the+Trigger%3A+Answer-Side+Backdoor+Attacks+in+Multi-Turn+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Model Plants the Trigger: Answer-Side Backdoor Attacks in Multi-Turn Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yibo Zhang, Tianrong Guan, Liang Lin, Puze Wang, Jin Wang, Qingsong Wen&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 6) · relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=SIGMA%3A+Self-Improving+Alignment+Generalization+from+a+Model+Spec&amp;amp;searchtype=title"&gt;&lt;strong&gt;SIGMA: Self-Improving Alignment Generalization from a Model Spec&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jingyu Zhang, Shruti Palaskar, Daniel Khashabi, Benjamin Van Durme, Leon A. Gatys, Joseph Yitan Cheng&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 6) · relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Principled+Under+Pressure%3A+Post-Training+Decides+Whether+LLMs+Act+on+Their+Own+Moral+Judgment&amp;amp;searchtype=title"&gt;&lt;strong&gt;Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Orion Reblitz-Richardson&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 6) · relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Understanding+and+Enhancing+Backdoor+Persistency+in+LLM+Agent+Post-Training&amp;amp;searchtype=title"&gt;&lt;strong&gt;Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Qiusi Zhan, Nian Lyu, Stephanie Ding, Arnav Mehta, Xander Davies, Daniel Kang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 5) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Toward+Alignment+Scaling+Laws%3A+A+Framework+and+First+Preregistered+Measurements&amp;amp;searchtype=title"&gt;&lt;strong&gt;Toward Alignment Scaling Laws: A Framework and First Preregistered Measurements&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jeremy Canale&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 6) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
   </channel>
