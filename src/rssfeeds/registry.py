@@ -223,10 +223,10 @@ FEEDS: list[FeedSpec] = [
         source_name="darioamodei.com",
         source_url=DARIO,
         sources=("dario",),
-        upstream_status="No feed of any kind upstream, and no structured dates in the markup.",
+        upstream_status="No feed of any kind upstream.",
         notes=(
-            "The site prints a month and year rather than a full date, so every entry is "
-            "dated the first of its month."
+            "Displayed month/year dates use the first of the month to keep existing dates stable. "
+            "A structured publication date is used when no month/year is displayed."
         ),
         default=True,
     ),
