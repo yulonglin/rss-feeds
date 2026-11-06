@@ -27,9 +27,9 @@
 • New NVIDIA Cosmos 3 Open Models for Interactive World Simulation
 • How Primary Compute Markets Work
 • Personal Finance in Claude
+• The Ultimate MoE Training Handbook
 • Muse Voice
 • You can now build live apps in Cursor and share them with a link
-• The Ultimate MoE Training Handbook
 • Devin Review 2.0</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://openai.com/index/introducing-gpt-6-cyber/"&gt;GPT-6 Cyber&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
@@ -56,12 +56,12 @@
 &lt;h4&gt;&lt;a href="https://claude.com/resources/articles/introducing-personal-finance-in-claude"&gt;Personal Finance in Claude&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Anthropic Personal Finance in Claude allows users to securely connect bank and credit card accounts to ask questions about balances, transactions, and spending.&lt;/p&gt;
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://huggingface.co/spaces/huggingface/moe-blogpost"&gt;The Ultimate MoE Training Handbook&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Hugging Face released &amp;quot;The Ultimate MoE Training Handbook,&amp;quot; a comprehensive guide on training mixture-of-experts models.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/"&gt;Muse Voice&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Meta announced voice conversations and expressive avatars for its Muse app, allowing users to brainstorm, plan trips, and complete tasks through spoken interactions.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://x.com/cursor_ai/status/2118458629091426304"&gt;You can now build live apps in Cursor and share them with a link&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Users just have to describe the tool they want, and Cursor will build it, set up a database, run deterministic and agentic security checks, and deploy.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://huggingface.co/spaces/huggingface/moe-blogpost"&gt;The Ultimate MoE Training Handbook&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Hugging Face released &amp;quot;The Ultimate MoE Training Handbook,&amp;quot; a comprehensive guide on training mixture-of-experts models.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://devin.ai/blog/devin-review-2"&gt;Devin Review 2.0&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;The cost of a Devin Review per PR has dropped by 82% since August.&lt;/p&gt;</content:encoded>
     </item>
