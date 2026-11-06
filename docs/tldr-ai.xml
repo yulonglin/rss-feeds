@@ -9,7 +9,68 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>GPT-Image-2.6 🖼️, Meta buys Conductor 💻, Cognition SWE-2 Flash ⚡</title>
+      <link>https://tldr.tech/ai/2026-11-05</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• OpenAI launches Images 2.6 with GIFs and image reference
+• Ripple-65B Preview
+• Introducing Pangram Image 1.0
+• How OpenAI Patched 948 Linux Vulnerabilities
+• The Stacks Project, formalized in Lean
+• Cognition Introduces SWE-2 Flash
+• Tencent Launches Hy4, Joining the Ranks of the World's Leading Open-Source AI Models
+• H-Nets Learn Directly From Raw Bytes
+• AlphaEvolve
+• OpenAI to acquire Pierre Computer Company, Inc.
+• Meta Acquires AI Coding Startup Conductor
+• You don't need long context
+• Together Compiler: Continual Compilation for AI inference
+• Kimi-K3.1-Pro
+• Web grounding for the Decisions API
+• Cat Wu joins OpenAI</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/openai-launches-images-2-6-with-gifs-and-image-reference/"&gt;OpenAI launches Images 2.6 with GIFs and image reference&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI is rolling out Images 2.6 globally in ChatGPT and Codex. The new model generates images 50% faster than the previous iteration, and it can also create GIFs. Users can adjust the speed of the GIF, edit individual frames, and share it. GPT-Image-2.6 Flare and Sunburst are now available through the API.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.ricursive.com/ripple"&gt;Ripple-65B Preview&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Ripple-65B Preview is a frontier open-weight model that achieves state-of-the-art performance on TerminalBench 2.1. It surpasses significantly larger open-weight models from the US, including Reflection Beam 501B, Meta Muse Spark Open 816B, Thinking Machines Inkling 975B, and Nvidia Nemotron 3 Ultra 550B. The model was trained for only $32 million, one-tenth the estimated cost of the previous open-weight SOTA on agentic coding. Ripple-65B Preview is available on Hugging Face, Together AI, GMI Cloud, and OpenRouter.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.pangram.com/blog/introducing-pangram-image-1-0"&gt;Introducing Pangram Image 1.0&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Pangram Image 1.0 is an AI image and AI video detection model that can produce a heatmap localizing exactly where AI appears in images. It is robust to edits, compression, and low resolutions. There is a Chrome Extension available that can detect AI, as well as API support for images and video.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/a-thousand-fewer-paths-to-root/"&gt;How OpenAI Patched 948 Linux Vulnerabilities&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI developed an autonomous pipeline for discovering, exploiting, and patching security vulnerabilities. In a single run, its cybersecurity model validated and generated patches for 948 Linux local privilege escalation vulnerabilities.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://axiommath.ai/research/the-stacks-project-formalized/"&gt;The Stacks Project, formalized in Lean&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Axiom has released a Lean formalization of the entire Stacks Project. The Stacks project is an open-source reference that lays the foundation of modern algebraic geometry. The release is the largest integrated, reusable library of formalized mathematics ever built. It makes the full mathematical development of the Stacks Project available as a single, machine-checked library that researchers and AI agents can import from directly into new formal proofs.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://cognition.com/blog/swe-2-flash"&gt;Cognition Introduces SWE-2 Flash&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;SWE-2 Flash is a coding model that uses a new mid-training stage before reinforcement learning.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/"&gt;Tencent Launches Hy4, Joining the Ranks of the World&amp;#x27;s Leading Open-Source AI Models&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Hy4 is a large language model with visual understanding capabilities. Tencent plans to release model weights and system cards for the model in the coming days. The model supports a broad range of tasks that include fine-grained image processing, complex chart analysis, and mathematical visual reasoning. It can interact with both command-line interfaces and GUIs to perform a wide range of work and everyday tasks.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/_albertgu/status/2115502111924600855"&gt;H-Nets Learn Directly From Raw Bytes&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Cartesia&amp;#x27;s H-Nets learn directly from raw bytes, matching benchmark performance with substantially less training compute.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.com/google-deepmind/alphaevolve"&gt;AlphaEvolve&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AlphaEvolve is a Gemini-powered coding agent for designing advanced algorithms. It pairs the creative problem-solving capabilities of Gemini models with automated evaluators that verify answers. The agent has been used to enhance the efficiency of Google&amp;#x27;s data centers, chip design, and AI training process. This repository contains a minimal implementation of AlphaEvolve along with code and data related to solutions and discoveries it has contributed to.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/openai-to-acquire-pierre"&gt;OpenAI to acquire Pierre Computer Company, Inc.&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI will acquire Pierre Computer Company to enhance Codex&amp;#x27;s developer tools, including Code Storage and other open-source projects.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.conductor.build/changelog/0.93.0-conductor-is-joining-meta"&gt;Meta Acquires AI Coding Startup Conductor&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Conductor is a startup that lets developers run multiple AI coding agents in parallel workspaces.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2611.05306"&gt;You don&amp;#x27;t need long context&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Researchers find that frontier language models perform well with shorter contexts without sacrificing accuracy.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference"&gt;Together Compiler: Continual Compilation for AI inference&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Together Compiler is a truly continual optimization loop that leverages high-throughput agents to optimize for diverse inference workloads.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://huggingface.co/moonshotai/Kimi-K3.1-Pro"&gt;Kimi-K3.1-Pro&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Kimi K3.1 Pro, the latest in the 3T-class models, excels in multimodal tasks, improving outputs in coding, 3D creation, and factual accuracy with a million-token context window.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/web-grounding-for-the-decisions-api"&gt;Web grounding for the Decisions API&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Perplexity&amp;#x27;s Decisions API can now search the web before it answers.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/_catwu/status/2118137612577968402"&gt;Cat Wu joins OpenAI&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Cat Wu has joined OpenAI to build reliable agents that keep users in control.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Siri AI developer 🍎, Gemini Notebook API 👨‍💻, provable inference ⚡</title>
       <link>https://tldr.tech/ai/2026-11-04</link>
@@ -24,8 +85,8 @@
 • Learnings from Auditing Public Evaluations
 • Training a Text-to-Image Model for $21K
 • Gemini Notebook API
-• Progress on provable inference for large language models
 • Accelerating engineering for the physical world
+• Progress on provable inference for large language models
 • OpenAI: ChatGPT Search Is About 20% of Google's, 250 Million People Speak With ChatGPT, and Chat Is Merging With Work
 • DeepSeek Plans to Train Its Next-Generation Model on Huawei Ascend Chips
 • The 'Astra can read and write weights to improve Qwen' post is misleading
@@ -49,10 +110,10 @@
 &lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://developers.google.com/notebook/docs"&gt;Gemini Notebook API&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;The Gemini Notebook API is a REST interface for programmatically creating and managing notebooks and sources in Gemini Notebook. It can turn web pages, YouTube videos, plain text, and Markdown into persistent notebooks. The API and MCP server are in an early access Public Preview. Only personal Google Accounts are supported during the preview - Google Workspace accounts are not yet supported.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/provable-inference"&gt;Progress on provable inference for large language models&lt;/a&gt; &lt;small&gt;· 30 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;It is almost impossible to verify which model produced a specific output. Cryptographic proofs of inference allow model providers to prove that preach suppose was produced which a specific model. These proofs could enable new applications and contribute to a toolkit for verifying compliance with AI pacing requirements. This post details the progress made on a powerful type of cryptographic proof uniquely fit for provable inference called zKSNARK.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://openai.com/index/accelerating-engineering-for-the-physical-world/"&gt;Accelerating engineering for the physical world&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;OpenAI is leveraging its AI models to enhance mechanical and electrical engineering processes, from design to simulation and production, speeding up internal workflows and improving industry practices. Engineers utilize models like GPT‑6 Astra for tasks such as device design, CAD model creation, and performance simulations, while collaborating with companies like Mazda to explore applications in vehicle aerodynamics.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/provable-inference"&gt;Progress on provable inference for large language models&lt;/a&gt; &lt;small&gt;· 30 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;It is almost impossible to verify which model produced a specific output. Cryptographic proofs of inference allow model providers to prove that preach suppose was produced which a specific model. These proofs could enable new applications and contribute to a toolkit for verifying compliance with AI pacing requirements. This post details the progress made on a powerful type of cryptographic proof uniquely fit for provable inference called zKSNARK.&lt;/p&gt;
 &lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20"&gt;OpenAI: ChatGPT Search Is About 20% of Google&amp;#x27;s, 250 Million People Speak With ChatGPT, and Chat Is Merging With Work&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;ChatGPT&amp;#x27;s search volume has reached 20% of Google&amp;#x27;s, with ChatGPT rapidly gaining 200 million users in the past two months, leading to 1.2 billion weekly active users. The voice mode of ChatGPT now engages 250 million weekly active users, emphasizing new interaction methods through GPT Live updates that enable natural bidirectional conversations. Plans to merge Chat and Work modes aim to simplify user interaction, while Dots highlights innovations in AI task management despite high compute costs.&lt;/p&gt;
@@ -1098,67 +1159,6 @@
 &lt;p&gt;Voyager is an open harness for creative work tuned so that AI models can work with creative tools more effectively.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://docs.devin.ai/work-with-devin/security-swarm"&gt;Security Swarm&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Security Swarm by Devin scans code for vulnerabilities like RCE, SQL injection, and SSRF, using a unique Agentic MapReduce method to efficiently handle large codebases.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>ChatGPT Intelligent UI 🧠, Claude Haiku 5.5 ⚡, Grok Bot 3rd party models 🤖</title>
-      <link>https://tldr.tech/ai/2026-10-08</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-08</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• GPT-6 and Intelligent UI for everyone
-• Introducing Claude Haiku 5.5
-• Grok Bot will use Claude Opus 5.5, Midjourney, and Suno, says Musk
-• Multimodal embeddings beyond a single vector
-• Anthropic's corporate structure
-• Open d1: Edge decision models for text, vision, and audio
-• Introducing OpenDocRouter: every document model under one API
-• Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models
-• Oracle, Broadcom, and SpaceX Seek Blockbuster Debt Deals to Pay for AI Chips
-• Tony Fadell on why the first wave of AI gadgets failed — and what comes next
-• Why Texas Is Making Data Centers Wait
-• NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs with RTX Spark and AI Agents
-• Introducing Playground: Create and play custom games
-• Fired OpenAI Researchers Ask Company to Preserve Visibility Into AI Reasoning
-• Google Expands SynthID Detector Globally
-• MAI-Code-1.1-Flash: Better, faster, at a quarter of the cost</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/gpt-6-for-everyone/"&gt;GPT-6 and Intelligent UI for everyone&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI&amp;#x27;s GPT-6 introduces Intelligent UI to 1.2 billion ChatGPT users, enhancing responses with text, visuals, and interactive elements. It combines UI with data for dynamic, custom responses, and improves answer quality for complex queries. GPT-6 also features enhanced safety, ensuring better risk recognition and adherence to safeguards.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/claude-haiku-5-5"&gt;Introducing Claude Haiku 5.5&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Claude Haiku 5.5 is optimized for high-volume, cost-sensitive tasks, offering lower operating costs and faster performance for applications like summaries and customer support. The model provides significant pricing advantages, being 75% cheaper than Haiku 4.5 for tasks involving prompts up to 100,000 tokens. Enhanced safety and cybersecurity safeguards make Haiku 5.5 more secure, with broader availability across major cloud platforms like AWS and Azure.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk"&gt;Grok Bot will use Claude Opus 5.5, Midjourney, and Suno, says Musk&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Elon Musk&amp;#x27;s Grok Bot will integrate Anthropic&amp;#x27;s Claude Opus 5.5, Midjourney, and Suno, expanding beyond SpaceX&amp;#x27;s AI models to optimize task outcomes. This update follows reports of access issues with Grok on mobile and web. Grok Bot competes with personal AI agents like Meta&amp;#x27;s Muse, despite privacy concerns from some early users.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/multimodal-embeddings-beyond-a-single-vector"&gt;Multimodal embeddings beyond a single vector&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Perplexity team launched PPLX-EMBED-V2-LATE, providing multi-vector, multimodal embeddings that enable richer retrieval across text and images. These models retain token-level vectors and utilize a shared embedding space, leading to improved retrieval on benchmarks like ViDoRe(V3). Available in two sizes, 0.6B and 9B, they offer industry-leading performance for various retrieval tasks while maintaining efficiency.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/Hb5aCFtLuHc5uvAgX/anthropic-s-corporate-structure"&gt;Anthropic&amp;#x27;s corporate structure&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic isn&amp;#x27;t very transparent about its corporate structure. It is in the public&amp;#x27;s interest for the company to be transparent about who controls and governs increasingly capable AI models. This article looks at what is publicly known about Anthropic&amp;#x27;s corporate structure. It focuses on the aspects relevant to control of Anthropic&amp;#x27;s business rather than the parts that are only about economic benefits.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.liquid.ai/blog/d1-open"&gt;Open d1: Edge decision models for text, vision, and audio&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Liquid AI released two new open-weight decision models, d1-3B and d1-OMNI-600M, available on Hugging Face.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.llamaindex.ai/blog/introducing-opendocrouter"&gt;Introducing OpenDocRouter: every document model under one API&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenDocRouter is a platform for document-to-Markdown parsing using the latest open-source and frontier models. Each model runs a versioned recipe consisting of prompts, processing, and settings. The API accepts PDFs, PNG, JPEG, or URLs to those file formats. Users can toggle between synchronous responses, where the result is returned directly, and asynchronous responses, where a job is created that requires polling.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://labs.scale.com/papers/humanitys-sixth-sense"&gt;Humanity&amp;#x27;s Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;This paper presents a benchmark for evaluating intuitive visual reasoning capabilities in multimodal models.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.wsj.com/tech/oracle-broadcom-and-spacex-seek-blockbuster-debt-deals-to-pay-for-ai-chips-848e8032?st=dBddzn&amp;amp;reflink=desktopwebshare_permalink"&gt;Oracle, Broadcom, and SpaceX Seek Blockbuster Debt Deals to Pay for AI Chips&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Broadcom has been working to arrange more than $50 billion in financing for OpenAI&amp;#x27;s custom AI chip. Apollo and Blackstone are among the lenders Broadcom has talked to about participating in the deal. Oracle is separately in talks with Apollo and Goldman Sachs to arrange money for a big purchase of chips. SpaceX has talked to lenders in recent days about a $40 billion chip financing for Nvidia chips.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next/"&gt;Tony Fadell on why the first wave of AI gadgets failed — and what comes next&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Tony Fadell highlights the failure of early AI gadgets like the Rabbit R1, citing their inability to address real consumer needs and establish trust. Meta&amp;#x27;s recent AI assistant, Muse, faced security issues, showing the challenge of securing personal AI. Fadell suggests that successful AI assistants must operate on-device for privacy, with Apple being well-positioned due to its hardware and consumer trust, despite lacking a proprietary AI model.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://a16z.com/why-texas-is-making-data-centers-wait/"&gt;Why Texas Is Making Data Centers Wait&lt;/a&gt; &lt;small&gt;· 29 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Texas paused issuing new data center permits due to its overwhelmed grid and speculative projects filling its approval queue. The state aims to ensure projects can support their grid upgrades and align with community needs regarding resources like water and noise. To manage demand, Texas is considering allowing data centers to bring their own power on-site or increase flexibility with grid connections to address capacity constraints.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/"&gt;NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs with RTX Spark and AI Agents&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;NVIDIA and Microsoft announced a collaboration to integrate AI agents into Windows PCs, leveraging RTX Spark technology and Microsoft&amp;#x27;s new Execution Containers for securely running agents.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"&gt;Introducing Playground: Create and play custom games&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google Playground is an experimental AI gaming platform for creating custom games.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.wsj.com/tech/ai/fired-openai-researchers-ask-company-to-preserve-visibility-into-ai-reasoning-987c8c94?st=XM4bHK&amp;amp;reflink=desktopwebshare_permalink"&gt;Fired OpenAI Researchers Ask Company to Preserve Visibility Into AI Reasoning&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The fired employees say they are concerned that AI companies could end up losing the ability to monitor AI systems&amp;#x27; chain-of-thought.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"&gt;Google Expands SynthID Detector Globally&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google expanded SynthID Detector globally, letting anyone check images, video, or audio for watermarks from Google and partners including OpenAI and NVIDIA.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/"&gt;MAI-Code-1.1-Flash: Better, faster, at a quarter of the cost&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Microsoft released MAI-Code-1.1-Flash, an AI model that&amp;#x27;s faster and costs a quarter of previous iterations.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>

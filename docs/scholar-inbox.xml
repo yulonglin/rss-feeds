@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 04 Nov 2026 15:45:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 13:17:25 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 5 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:ab448213d54fe70f</guid>
+      <pubDate>Thu, 05 Nov 2026 13:17:25 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Thinking Twice Makes Large Language Models Safer and More Helpful
+• Resolving the Security-Auditability Dilemma with Auditable Latent Chain-of-Thought Alignment
+• More Thinking, Less Talking: Internalizing Deliberative Safety into LLM Parameters
+• Understanding &amp; Isolating the Assistant State in Instruction-Tuned Models
+• Addition by Subtraction: Toward Mitigating Fragile Safety Alignment in Large Language Models</description>
+      <content:encoded>&lt;p&gt;Matched 136 of 2325 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Thinking+Twice+Makes+Large+Language+Models+Safer+and+More+Helpful%22"&gt;&lt;strong&gt;Thinking Twice Makes Large Language Models Safer and More Helpful&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yutao Mou, Yuxiao Luo, Shikun Zhang, Wei Ye&lt;br&gt;&lt;small&gt;relevance 95&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Resolving+the+Security-Auditability+Dilemma+with+Auditable+Latent+Chain-of-Thought+Alignment%22"&gt;&lt;strong&gt;Resolving the Security-Auditability Dilemma with Auditable Latent Chain-of-Thought Alignment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Guan Wang, Biyu Zhou, Xuehai Tang, Jizhong Han, Songlin Hu&lt;br&gt;&lt;small&gt;relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22More+Thinking%2C+Less+Talking%3A+Internalizing+Deliberative+Safety+into+LLM+Parameters%22"&gt;&lt;strong&gt;More Thinking, Less Talking: Internalizing Deliberative Safety into LLM Parameters&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Guan Wang, Xuehai Tang, Biyu Zhou, Jizhong Han, Songlin Hu&lt;br&gt;&lt;small&gt;relevance 89&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Understanding+%26+Isolating+the+Assistant+State+in+Instruction-Tuned+Models%22"&gt;&lt;strong&gt;Understanding &amp;amp; Isolating the Assistant State in Instruction-Tuned Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Aishwarya Maheswaran, Maunendra Sankar Desarkar&lt;br&gt;&lt;small&gt;relevance 79&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Addition+by+Subtraction%3A+Toward+Mitigating+Fragile+Safety+Alignment+in+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Addition by Subtraction: Toward Mitigating Fragile Safety Alignment in Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Hamid Dashtbani, Alexandra Dmitrienko&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 4) · relevance 79&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 4 Nov 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
@@ -407,27 +428,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Principled+Under+Pressure%3A+Post-Training+Decides+Whether+LLMs+Act+on+Their+Own+Moral+Judgment&amp;amp;searchtype=title"&gt;&lt;strong&gt;Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Orion Reblitz-Richardson&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 6) · relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Understanding+and+Enhancing+Backdoor+Persistency+in+LLM+Agent+Post-Training&amp;amp;searchtype=title"&gt;&lt;strong&gt;Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Qiusi Zhan, Nian Lyu, Stephanie Ding, Arnav Mehta, Xander Davies, Daniel Kang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 5) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Toward+Alignment+Scaling+Laws%3A+A+Framework+and+First+Preregistered+Measurements&amp;amp;searchtype=title"&gt;&lt;strong&gt;Toward Alignment Scaling Laws: A Framework and First Preregistered Measurements&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jeremy Canale&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 6) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Scholar Inbox, 6 Oct 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:ea3ed494e273c373</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• Self-Reflection Fine-Tuning: Enhancing Agent Security against Prompt Injection Attacks from Failure Experience
-• Reward Stealing Attack on Large Language Models
-• Pressure, Context, and Machine Self-Control: A Criminological Test of Reward Hacking in Generative AI Models
-• Target-free Latent Safety Alignment
-• Monitorability Disposition in Large Reasoning Models</description>
-      <content:encoded>&lt;p&gt;Matched 176 of 3466 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Self-Reflection+Fine-Tuning%3A+Enhancing+Agent+Security+against+Prompt+Injection+Attacks+from+Failure+Experience&amp;amp;searchtype=title"&gt;&lt;strong&gt;Self-Reflection Fine-Tuning: Enhancing Agent Security against Prompt Injection Attacks from Failure Experience&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Zixuan Wang, Hao Li, Fengyu Gao, G. Edward Suh, Yi Zeng, Yevgeniy Vorobeychik, Ning Zhang, Chaowei Xiao&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 3) · relevance 93&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Reward+Stealing+Attack+on+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Reward Stealing Attack on Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jiaming Qian, Pengyang Zhou, Jiahe Xu, Chaochao Chen&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 5) · relevance 93&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Pressure%2C+Context%2C+and+Machine+Self-Control%3A+A+Criminological+Test+of+Reward+Hacking+in+Generative+AI+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Pressure, Context, and Machine Self-Control: A Criminological Test of Reward Hacking in Generative AI Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Murat Ozer, Isaac Kofi Nti&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 3) · relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Target-free+Latent+Safety+Alignment&amp;amp;searchtype=title"&gt;&lt;strong&gt;Target-free Latent Safety Alignment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Luoyu Chen, Weiqi Wang, Chenhan Zhang, Zhiyi Tian, Yuxian Huang, Shui Yu&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 3) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Monitorability+Disposition+in+Large+Reasoning+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Monitorability Disposition in Large Reasoning Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Shahriar Golchin, Marc Wetter&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 4) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
   </channel>

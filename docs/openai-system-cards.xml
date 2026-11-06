@@ -9,7 +9,15 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-system-cards.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://deploymentsafety.openai.com/" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>GPT-6 Cyber System Card</title>
+      <link>https://deploymentsafety.openai.com/gpt-6-cyber</link>
+      <guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-6-cyber</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <category>System Card</category>
+      <description>[0]</description>
+    </item>
     <item>
       <title>ChatGPT Images 2.6 System Card</title>
       <link>https://deploymentsafety.openai.com/chatgpt-images-2-6</link>
