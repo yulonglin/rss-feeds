@@ -137,11 +137,11 @@
       "feed_url": "https://feeds.yulonglin.com/dario-amodei.xml",
       "source_name": "darioamodei.com",
       "source_url": "https://darioamodei.com/",
-      "upstream_status": "No feed of any kind upstream, and no structured dates in the markup.",
-      "notes": "The site prints a month and year rather than a full date, so every entry is dated the first of its month.",
+      "upstream_status": "No feed of any kind upstream.",
+      "notes": "Displayed month/year dates use the first of the month to keep existing dates stable. A structured publication date is used when no month/year is displayed.",
       "items": 6,
       "newest": "2026-09-01",
-      "healthy": false
+      "healthy": true
     },
     {
       "slug": "tldr-ai",
