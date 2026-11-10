@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Mon, 09 Nov 2026 12:58:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 14:20:08 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 10 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:e98480d39168e70a</guid>
+      <pubDate>Tue, 10 Nov 2026 14:20:08 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• META-IR: Meta-Introspective Reasoning for Adaptive Safety Alignment in LLM
+• Enmo Safety: External, Non-invasive, Model-agnostic Oversight for Off-the-Shelf Language Models
+• Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training
+• When Experience Becomes a Backdoor: Poisoning Self-Evolving LLM Agents via Failure-Aware Task Optimization
+• Room to Reconsider: Reply Length Decides Whether Pushback Makes Language Models Sycophantic or Self-Correcting</description>
+      <content:encoded>&lt;p&gt;Matched 168 of 2764 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=META-IR%3A+Meta-Introspective+Reasoning+for+Adaptive+Safety+Alignment+in+LLM&amp;amp;searchtype=title"&gt;&lt;strong&gt;META-IR: Meta-Introspective Reasoning for Adaptive Safety Alignment in LLM&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Mahabubur Rahman Miraj, Hongyu Huang, Nankun Mu, Chao Chen, Shanqin Yi&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 6) · relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Enmo+Safety%3A+External%2C+Non-invasive%2C+Model-agnostic+Oversight+for+Off-the-Shelf+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Enmo Safety: External, Non-invasive, Model-agnostic Oversight for Off-the-Shelf Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Mohammed Nayeem Khan, Sarun Kumar K. S., Allan Kevin T., Chirag Vaidya, Vrishank Tiwari&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 6) · relevance 94&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Don%27t+Blame+The+Preferences%3A+Examining+The+Emergence+of+Sycophancy+in+LLM+Training&amp;amp;searchtype=title"&gt;&lt;strong&gt;Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Chao Peter Yang, Catherine Zehr, Pranav Bijith, Brandon Fain&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 5) · relevance 89&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=When+Experience+Becomes+a+Backdoor%3A+Poisoning+Self-Evolving+LLM+Agents+via+Failure-Aware+Task+Optimization&amp;amp;searchtype=title"&gt;&lt;strong&gt;When Experience Becomes a Backdoor: Poisoning Self-Evolving LLM Agents via Failure-Aware Task Optimization&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Minhua Lin, Zongyu Wu, Hanqing Lu, Xianfeng Tang, Xiang Zhang, Qi He, Suhang Wang&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 7) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Room+to+Reconsider%3A+Reply+Length+Decides+Whether+Pushback+Makes+Language+Models+Sycophantic+or+Self-Correcting&amp;amp;searchtype=title"&gt;&lt;strong&gt;Room to Reconsider: Reply Length Decides Whether Pushback Makes Language Models Sycophantic or Self-Correcting&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ook Lee&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 8) · relevance 84&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 9 Nov 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
