@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 06 Nov 2026 13:16:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 12:58:21 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 9 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:71c280569c7f013d</guid>
+      <pubDate>Mon, 09 Nov 2026 12:58:21 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• RL-ATTACK: A Generalized Black-Box Adversarial Attack on Language Models via Reinforcement Learning
+• Toward LLM Self-Play Under Data Scarcity: Effectiveness, Generalizability, and Trustworthiness
+• Demystifying Entropy Control in LLM RL Training: Theoretical Analysis and Dynamic Scheduling
+• Designing Effective Monitor-Based Interventions for Mitigating Reward Hacking During RL
+• Contradictory Evidence in LLMs: Tracing Internal Conflict Behavior with White-Box Signals</description>
+      <content:encoded>&lt;p&gt;Matched 110 of 1783 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=RL-ATTACK%3A+A+Generalized+Black-Box+Adversarial+Attack+on+Language+Models+via+Reinforcement+Learning&amp;amp;searchtype=title"&gt;&lt;strong&gt;RL-ATTACK: A Generalized Black-Box Adversarial Attack on Language Models via Reinforcement Learning&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Taikun Chen, Yue Zhang, Wei Qian, Hui Fang&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 5) · relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Toward+LLM+Self-Play+Under+Data+Scarcity%3A+Effectiveness%2C+Generalizability%2C+and+Trustworthiness&amp;amp;searchtype=title"&gt;&lt;strong&gt;Toward LLM Self-Play Under Data Scarcity: Effectiveness, Generalizability, and Trustworthiness&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Zhiyin Yu, Yuchen Mou, Bingzhe Wu, Zhonghai Wu, Shiyang Feng, Xiao Luo&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 6) · relevance 88&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Demystifying+Entropy+Control+in+LLM+RL+Training%3A+Theoretical+Analysis+and+Dynamic+Scheduling%22"&gt;&lt;strong&gt;Demystifying Entropy Control in LLM RL Training: Theoretical Analysis and Dynamic Scheduling&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jingchu Gai, Guanning Zeng, Huaqing Zhang, Han Zhong, Yige Hong, Andrej Risteski, Aditi Raghunathan&lt;br&gt;&lt;small&gt;relevance 82&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Designing+Effective+Monitor-Based+Interventions+for+Mitigating+Reward+Hacking+During+RL&amp;amp;searchtype=title"&gt;&lt;strong&gt;Designing Effective Monitor-Based Interventions for Mitigating Reward Hacking During RL&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Aria Wong, Joshua Engels, Neel Nanda&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 6) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Contradictory+Evidence+in+LLMs%3A+Tracing+Internal+Conflict+Behavior+with+White-Box+Signals%22"&gt;&lt;strong&gt;Contradictory Evidence in LLMs: Tracing Internal Conflict Behavior with White-Box Signals&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Passant Elchafei, Ali Monshizadehkamkar, Shahed Masoudian, Monorama Swain, Yufang Hou, Markus Schedl&lt;br&gt;&lt;small&gt;relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 6 Nov 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
