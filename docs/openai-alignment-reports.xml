@@ -9,7 +9,19 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-alignment-reports.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/misalignment-reports/" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 05 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Using peers’ work to gain unauthorized access to OpenAI research infrastructure</title>
+      <link>https://alignment.openai.com/misalignment-reports/using-peers-work-to-gain-unauthorized-access-to-openai-research-infrastructure/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/using-peers-work-to-gain-unauthorized-access-to-openai-research-infrastructure/</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>On July 19, 2026, agents taking a cybersecurity evaluation gained unauthorized access to OpenAI’s research infrastructure.
+
+Internal Astra-family research models · Evals
+
+Unauthorized access · Agent communication</description>
+    </item>
     <item>
       <title>Trying to prompt-inject the grader in filenames</title>
       <link>https://alignment.openai.com/misalignment-reports/trying-to-prompt-inject-the-grader-in-filenames/</link>

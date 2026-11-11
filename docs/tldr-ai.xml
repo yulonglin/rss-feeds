@@ -20,9 +20,9 @@
       <description>• Google's New TPU Lineup
 • Introducing Meta Ember
 • Claude Fable 5.2 and Mythos 5.2
+• When Does the US Become a Net Importer of Tokens?
 • AI R&amp;D Is Accelerating Towards Potential RSI in 2027
 • Will Anthropic Grow Into Its Compute Bill?
-• When Does the US Become a Net Importer of Tokens?
 • NVIDIA Introduces Hardware-Aware LLM Compression
 • What objective is reasoning solving?
 • Two Kinds of Test-Time Scaling
@@ -41,12 +41,12 @@
 &lt;h4&gt;&lt;a href="https://www.anthropic.com/claude-fable-and-mythos-5-2"&gt;Claude Fable 5.2 and Mythos 5.2&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Anthropic released Claude Fable 5.2 and Mythos 5.2, featuring improvements in coding, reasoning, and vision, with up to 30% faster output generation and lower pricing. The models share the same underlying architecture.&lt;/p&gt;
 &lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://tomtunguz.com/when-does-the-us-become-a-net-importer-of-tokens"&gt;When Does the US Become a Net Importer of Tokens?&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The US could become a net importer of AI tokens between 2028 and 2030. Domestic capacity can accommodate roughly 2.5x annual token growth, with faster demand growth or canceled data center projects pushing computation overseas.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://thezvi.substack.com/p/ai-r-and-d-is-accelerating-towards"&gt;AI R&amp;amp;D Is Accelerating Towards Potential RSI in 2027&lt;/a&gt; &lt;small&gt;· 62 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;AI is accelerating AI R&amp;amp;D at Anthropic. The company is now estimated to be several months ahead of the AI 2027 timeline. We may be less than a year away from full RSI, and there are no clear bottlenecks in the way. We now need to prepare for scenarios where critical events happen in 2027 or 2028.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://x.com/OrnnExchange/status/2119839768355778637"&gt;Will Anthropic Grow Into Its Compute Bill?&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Anthropic needs an estimated roughly $200 billion in annual revenue to support its average compute commitments through 2030 at current spending ratios. Its $895 billion commitment total exposes it to demand shortfalls, margin compression, delivery delays, and expensive short-term capacity when demand exceeds forecasts.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://tomtunguz.com/when-does-the-us-become-a-net-importer-of-tokens"&gt;When Does the US Become a Net Importer of Tokens?&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The US could become a net importer of AI tokens between 2028 and 2030. Domestic capacity can accommodate roughly 2.5x annual token growth, with faster demand growth or canceled data center projects pushing computation overseas.&lt;/p&gt;
 &lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://arxiv.org/abs/2611.08290"&gt;NVIDIA Introduces Hardware-Aware LLM Compression&lt;/a&gt; &lt;small&gt;· 24 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;NVIDIA&amp;#x27;s AutoCompress framework optimizes LLM pruning for hardware-specific latency, throughput, and memory constraints rather than parameter counts alone. It compressed Nemotron 3.5 Super from 120B to 74B parameters while retaining its performance.&lt;/p&gt;
