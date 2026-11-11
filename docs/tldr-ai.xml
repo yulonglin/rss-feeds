@@ -9,7 +9,68 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Gemini 4 Carbon ⚡, Claude Sheets 📊, Antigravity Swarm 🤖</title>
+      <link>https://tldr.tech/ai/2026-11-11</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Working with Claude Sheets, Whiteboards, and Interactive Connectors
+• Businesses and Business Agents in ChatGPT
+• Gemini 4 Carbon is now available
+• Suppressing Reward Hacking Through Model Weight Arithmetic
+• Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All
+• Why Instinct Feels Like a Personal Assistant
+• Neurons as an Interpretable Basis
+• Swarm (/swarm)
+• Meta Releases Faster K-Means Alternative
+• MAI-Transcribe-2
+• OpenAI acquires Odessia, travel startup created by Sonder founder
+• Anthropic's IPO Roadshow
+• More than 35,000 Grok-built apps were open to anyone with the link, including SpaceXSI's own
+• Introducing Gemini for healthcare
+• ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser
+• Google DeepMind Uses AI to Verify Signal's Security</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors"&gt;Working with Claude Sheets, Whiteboards, and Interactive Connectors&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic introduced Claude Sheets, Whiteboards, and Data, new artifact types that let teams build spreadsheets, organize ideas, and create dashboards with Claude without switching apps. Interactive connectors now embed partner apps like Adobe and Atlassian directly in Claude, and plugins from Salesforce, NetSuite, and Workday (in beta) ship with built-in skills for sales, finance, and HR work. Claude Meetings, which will bring Claude into calls to take notes and update documents, is coming soon.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/introducing-businesses-chatgpt/"&gt;Businesses and Business Agents in ChatGPT&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI introduced Businesses in ChatGPT, allowing companies to claim their profiles, update business information, provide product feeds with pricing and availability, and track customer engagement. Eligible e-commerce and online service businesses in the US can also launch Business Agents that answer questions and help customers explore their offerings inside ChatGPT. The launch is in beta.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"&gt;Gemini 4 Carbon is now available&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google&amp;#x27;s strongest model is now available to all paying developers and enterprises through the API in AI Studio and Gemini for business, and is rolling out to Google AI Ultra subscribers in Antigravity, the Gemini app, and AI Mode in Search. Google says Carbon ranks first on CursorBench 4.0, Perplexity&amp;#x27;s WANDR, and Zapier&amp;#x27;s AutomationBench at more than 2x lower cost per task than the next best external model, at the same $2/$10 per million input/output token price as Gemini 4 Argon. The release adds frontier cybersecurity capabilities through the Fairwind Program and previews /swarm, a multi-agent mode in Antigravity.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/KunhaoZ/status/2120172863734849903"&gt;Suppressing Reward Hacking Through Model Weight Arithmetic&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Researchers subtract code models trained with loose and strict rewards to identify a direction controlling inefficient solutions. Extrapolating beyond the strict model reduced resource-limit failures from 14.5% to 8% without additional training, though excessive extrapolation breaks outputs and stricter rewards can hurt correctness.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.aifutures.org/p/q35-timelines-update-looks-like-the"&gt;Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All&lt;/a&gt; &lt;small&gt;· 125 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A Superhuman AI Researcher (SAR) is predicted to arrive at some point in 2027, assuming there is no substantial deliberate slowdown in development. AIs that can automate all white-collar work are predicted to arrive before 2028. Companies are currently not on track to align an SAR, and using a misaligned SAR to do recursive self-improvement will have negative consequences. China will probably be able to steal the training recipe and maybe even the model weights if an SAR is trained in the near future.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/nizzyabi/status/2120194267066863738"&gt;Why Instinct Feels Like a Personal Assistant&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A twelve-week analysis of one Instinct conversation attributes its appeal to short messages, quick acknowledgments, proactive follow-ups, and approval checks before purchases or outreach. The teardown suggests coordinated task agents and persistent memory underpin the experience, while exposing retention and delivery-verification failures.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.goodfire.com/research/neurons-as-an-interpretable-basis"&gt;Neurons as an Interpretable Basis&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Goodfire argues that individual language-model neurons are more interpretable than commonly assumed. Its Neuron Scientist agents generate and test descriptions of neuron functions, suggesting researchers can study model computations directly without always relying on sparse autoencoders to extract interpretable features.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://antigravity.google/docs/swarm/"&gt;Swarm (/swarm)&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The /swarm command in Google Antigravity runs a team of named agents that split tasks, work on the pieces at the same time, and coordinate on one shared message board. It can be used for tasks that divide cleanly across separate files, packages, or questions, or when a second agent is needed to review and test the changes before a human sees it. The /swarm command is available on Google AI Pro and Google AI Ultra plans in the Google Antigravity App and Antigravity CLI. Every worker is its own agent, so swarms use quotas much faster than single conversations.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.com/facebookresearch/faiss/tree/main/contrib/e_means"&gt;Meta Releases Faster K-Means Alternative&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta FAIR released e-means, a drop-in replacement for k-means that converges to lower losses with up to 10x fewer epochs and faster runtimes on CPUs and GPUs.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/"&gt;MAI-Transcribe-2&lt;/a&gt; &lt;small&gt;· 125 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;MAI-Transcribe-2 is the fastest, most accurate, and cheapest speech recognition model in the world. It has new features like diarization, configurable transcription styles, and word-level timestamps. MAI-Transcribe-2 can handle a broader range of real-world audio than leading models like Gemini 3.5 Transcribe, GPT-Transcribe, Whisper V3-Large, and ScribeV2. The model costs just $0.10 per hour of audio.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"&gt;OpenAI acquires Odessia, travel startup created by Sonder founder&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI has acquired an AI travel agent called Odessia. The deal appears to be an acqui-hire. OpenAI has not announced new travel-specific products or plans, but it has several travel-related companies as customers or partners. Odessia&amp;#x27;s founder previously founded a travel startup called Sonder, focused on short-term leasing of upscale apartments, as a college student in 2014.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/news/roadshow-launch"&gt;Anthropic&amp;#x27;s IPO Roadshow&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic launched the roadshow for its proposed IPO, planning to offer 825 million shares at $70–$78 each. The company applied to list on Nasdaq under the ticker ANT, with most proceeds from newly issued shares going to Anthropic.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.claroc.io/ghostshares-grok-build-apps"&gt;More than 35,000 Grok-built apps were open to anyone with the link, including SpaceXSI&amp;#x27;s own&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Over 35,000 Grok-built apps were public to anyone with the link, including SpaceXSI staff tools and an ICU patient&amp;#x27;s lab results.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare"&gt;Introducing Gemini for healthcare&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google Cloud announced Gemini for healthcare, a preview release of its Gemini agent with purpose-built healthcare skills, connectors to EHR and claims systems, and HIPAA-supporting governance for providers and payers.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://pytorch.org/blog/executorch-webgpu-pytorch-models-on-the-gpu-in-the-browser/"&gt;ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ExecuTorch enables PyTorch models to run in the web browser on the GPU without conversion to another framework&amp;#x27;s format.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://deepmind.google/blog/introducing-alphaproof-code/"&gt;Google DeepMind Uses AI to Verify Signal&amp;#x27;s Security&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google DeepMind introduced AlphaProof Code, a multi-agent AI framework that mathematically verified key security properties of Signal&amp;#x27;s cryptographic protocol at the implementation level.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Claude Fable 5.2 ✨, Meta Ember 🤖, Google’s new TPUs ⚡</title>
       <link>https://tldr.tech/ai/2026-11-10</link>
@@ -23,9 +84,9 @@
 • When Does the US Become a Net Importer of Tokens?
 • AI R&amp;D Is Accelerating Towards Potential RSI in 2027
 • Will Anthropic Grow Into Its Compute Bill?
-• NVIDIA Introduces Hardware-Aware LLM Compression
 • What objective is reasoning solving?
 • Two Kinds of Test-Time Scaling
+• NVIDIA Introduces Hardware-Aware LLM Compression
 • Apple Introduces $50 AI Usage Packs in Logic Pro
 • Anthropic Buys $3.4 Billion in Gas Generators
 • OpenAI's Control Room Can Halt Research Model Output
@@ -48,12 +109,12 @@
 &lt;h4&gt;&lt;a href="https://x.com/OrnnExchange/status/2119839768355778637"&gt;Will Anthropic Grow Into Its Compute Bill?&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Anthropic needs an estimated roughly $200 billion in annual revenue to support its average compute commitments through 2030 at current spending ratios. Its $895 billion commitment total exposes it to demand shortfalls, margin compression, delivery delays, and expensive short-term capacity when demand exceeds forecasts.&lt;/p&gt;
 &lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2611.08290"&gt;NVIDIA Introduces Hardware-Aware LLM Compression&lt;/a&gt; &lt;small&gt;· 24 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;NVIDIA&amp;#x27;s AutoCompress framework optimizes LLM pruning for hardware-specific latency, throughput, and memory constraints rather than parameter counts alone. It compressed Nemotron 3.5 Super from 120B to 74B parameters while retaining its performance.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://alexwang.ai/posts/reasoning-as-pathfinding/"&gt;What objective is reasoning solving?&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Reasoning is pathfinding in token space. There are many paths from the problem to a correct answer, and the model traverses each of them with each sample. A path is not guaranteed to converge to the correct answer - it&amp;#x27;s only in aggregate, over the distribution of paths, do we get a high probability of success. RL training directly raises the success probability. The gains credited to &amp;#x27;thinking longer&amp;#x27; come from the search paid for during training rather than at inference.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.forethought.org/research/two-kinds-of-test-time-scaling"&gt;Two Kinds of Test-Time Scaling&lt;/a&gt; &lt;small&gt;· 28 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Test-time scaling trades compute for performance at test time. There are two types of test-time scaling: one allows researchers to trade more compute for more performance per task, but only up to the maximum quantity of per-task compute used during training; and the other lets researchers trade more compute for more performance per task, and lets them do so up to quantities of compute and performance that never occurred during training. Scaling methods that permit the latter change will have a larger impact than test-time scaling considered simply. This essay describes how this may impact the world.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2611.08290"&gt;NVIDIA Introduces Hardware-Aware LLM Compression&lt;/a&gt; &lt;small&gt;· 24 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;NVIDIA&amp;#x27;s AutoCompress framework optimizes LLM pruning for hardware-specific latency, throughput, and memory constraints rather than parameter counts alone. It compressed Nemotron 3.5 Super from 120B to 74B parameters while retaining its performance.&lt;/p&gt;
 &lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"&gt;Apple Introduces $50 AI Usage Packs in Logic Pro&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Apple now sells $49.99 Intelligence Usage Packs in Logic Pro to extend access to cloud-based AI features after users reach their limits. Unused capacity rolls over monthly but expires after 12 months, and purchases cannot be shared through Family Sharing.&lt;/p&gt;
@@ -1098,64 +1159,6 @@
 &lt;p&gt;Ling-3.1-flash is a native hybrid reasoning model designed for complex, real-world tasks with 560 billion total parameters, 25 billion active parameters per token, and a one-million-token context window.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://claude.com/resources/articles/agent-observability-on-the-claude-platform"&gt;Claude Adds OpenTelemetry for Agent Observability&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Anthropic added OpenTelemetry tracing across Claude Managed Agents, the Messages API, and Claude SDKs.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>OpenAI dev arrested 🚨, Pi API 🤖, OpenCode 2.0 🧑‍💻</title>
-      <link>https://tldr.tech/ai/2026-10-14</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• OpenAI Employee Arrested Over Hidden Recording Device
-• Gemini 4 Argon Lands on Google Cloud
-• Arguments About AI Consciousness Remain Highly Motivated and At Best Overconfident
-• How Anthropic's Dynamic Workflows Coordinate Claude Agents
-• LFM2.5-24B-A2B
-• NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform
-• Frontier Models for Every Robot
-• OpenCode 2.0
-• Ramp Glass
-• Character.ai Filed for Chapter 11 Bankruptcy
-• PSA: Starting today, GPT 6.1 Sol has a default context window of 500k
-• Moondream is joining Prime Intellect
-• SpaceXSI bundles X Premium, Grok, and Cursor into one subscription
-• Drama 3
-• Introducing CLiF: Continual Learning from Full-Stack Trajectories</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://x.com/OpenAINewsroom/status/2110095403198849132"&gt;OpenAI Employee Arrested Over Hidden Recording Device&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI said it alerted the FBI after finding a hidden recording device in an executive conference room, leading to the firing and arrest of employee Abdulrahman Alfozan. Prosecutors alleged the device was used to covertly intercept conversations, while OpenAI said it found no evidence that model weights, source code, or customer data were accessed.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud"&gt;Gemini 4 Argon Lands on Google Cloud&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google made Gemini 4 Argon available on Google Cloud as a frontier model for long, multi-step enterprise work. It was positioned for tasks requiring sustained context and domain expertise, including software development, finance, legal work, and cybersecurity.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://thezvi.wordpress.com/2026/10/13/arguments-about-ai-consciousness-remain-highly-motivated-and-at-best-overconfident/"&gt;Arguments About AI Consciousness Remain Highly Motivated and At Best Overconfident&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The debate over AI consciousness continues with minimal progress, as many argue without strong evidence. Anthropic&amp;#x27;s new policy classifies abusive behavior towards AI, such as Claude, as a violation of terms to cultivate positive model interactions. Despite skepticism from many, some, including Nick Bostrom, believe current AIs may be conscious, complicating ethical considerations around AI development.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.latent.space/p/claude-dynamic-workflows"&gt;How Anthropic&amp;#x27;s Dynamic Workflows Coordinate Claude Agents&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Splitting a task among several AI agents creates another job: deciding who does what, passing information between them, and checking their results. Anthropic&amp;#x27;s dynamic workflows let Claude write the program that manages those steps. An October 12 demonstration assigned stock tickers to separate agents, then reviewed their findings before producing a report. The presenters said this found more detail but cost much more than using one agent. Developers can set a session spending limit, but the running model does not know that budget.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.liquid.ai/blog/lfm2-5-24b-a2b"&gt;LFM2.5-24B-A2B&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;LFM2.5-24B-A2B, a 24B-parameter reasoning model with 2B active parameters, is designed for fast, private on-device agents. It outperforms or matches larger models like Qwen3.6-35B-A3B on five out of eight benchmarks and runs up to 1.7x faster due to its efficient architecture. Available on Hugging Face, it supports extensive inference frameworks, making it suitable for tasks needing swift local inference and tool usage.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform"&gt;NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Nvidia is making the full NVIDIA Run:ai platform available as open-source software. It is now possible for every NVIDIA DSX ecosystem partner and AI cloud to increase workload throughput, improve GPU utilization, and operate shared AI infrastructure more efficiently and effectively. The release includes the complete NVIDIA Run:ai platform, KAI Scheduler, GPU Fractioning Operator, KAI Resource Management, and Workload Map. Platform teams and ecosystem partners can adopt NVIDIA Run:ai as an integrated whole, build on it for their own products and services, or integrate individual components based on their requirements.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.pi.website/blog/api-beta"&gt;Frontier Models for Every Robot&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Physical Intelligence is making its latest models available for training and inference through the Pi API beta. The Pi API adapts the latest and most powerful robotic foundation models to each application, dealing with ML infrastructure, compute, and complex data pipelines. Users just upload data, launch fine-tuning on managed compute and infrastructure, and access the fine-tuned models via a hosted gateway to run inference.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://anoma.ly/notes/opencode-2-0/"&gt;OpenCode 2.0&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenCode 2.0 contains quite a lot of new features, performance improvements, and bug fixes. The server now automatically runs as a single background process. Programmatic clients will autodiscover the local service and just work. OpenCode can now be used as a library with the SDK package. More details about the update are available in the article.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://x.com/eglyman/status/2110007713396613568"&gt;Ramp Glass&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Ramp has launched Glass, an AI workspace that shares company knowledge, reusable skills, and collaborative sessions across teams. Employees have made 6,500+ knowledge edits, while model routing cut AI costs by 30% and automated workflows dramatically expanded feature-request tracking.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blog.character.ai/an-update-on-character-ai/"&gt;Character.ai Filed for Chapter 11 Bankruptcy&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Character.ai initiated a voluntary Chapter 11 bankruptcy process to pursue a court-supervised sale after facing legal, regulatory, and operational pressures. The company said the platform could continue under a successful bid, but may be wound down if no viable buyer emerges.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2109543080609165508.html"&gt;PSA: Starting today, GPT 6.1 Sol has a default context window of 500k&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The larger context window means fewer compactions on long-running tasks and faster E2E task completion.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.primeintellect.ai/blog/moondream"&gt;Moondream is joining Prime Intellect&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Moondream&amp;#x27;s founders are joining Prime Intellect to lead and scale inference, and to accelerate its work on multimodal models.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/"&gt;SpaceXSI bundles X Premium, Grok, and Cursor into one subscription&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;SpaceXSI has launched &amp;quot;The X Subscription,&amp;quot; combining X Premium, Grok, and Cursor in one plan.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://fish.audio/drama-3"&gt;Drama 3&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Drama 3 is a text-to-speech model from Fish Audio built for direction.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.copilotkit.ai/blog/introducing-clif"&gt;Introducing CLiF: Continual Learning from Full-Stack Trajectories&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;CopilotKit releases CLiF, a tool for continual learning from full-stack trajectories, capturing both agent traces and user actions using the AG-UI protocol.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
