@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 10 Nov 2026 14:20:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 19:33:55 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 11 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:6928708d7f649337</guid>
+      <pubDate>Wed, 11 Nov 2026 19:33:55 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Overthinking: Amplifying Reasoning Weights to Extract Learned Secrets
+• “I” can easily jailbreak LLMs
+• Mitigating Agentic Deception via Evaluation-Side Partially Observable Games
+• FraudBench: A Legal Evaluation of AI Deception
+• Knowing When to Speak: Aligning LLM Honesty via Solvability-Aware Preference Optimization</description>
+      <content:encoded>&lt;p&gt;Matched 131 of 3045 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Overthinking%3A+Amplifying+Reasoning+Weights+to+Extract+Learned+Secrets%22"&gt;&lt;strong&gt;Overthinking: Amplifying Reasoning Weights to Extract Learned Secrets&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jack Hopkins, Dipika Khullar, Fabien Roger&lt;br&gt;&lt;small&gt;relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22%E2%80%9CI%E2%80%9D+can+easily+jailbreak+LLMs%22"&gt;&lt;strong&gt;“I” can easily jailbreak LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Eunkyung Choi, Yeeun Kim, Juheon Kang, Wonseok Hwang&lt;br&gt;&lt;small&gt;relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Mitigating+Agentic+Deception+via+Evaluation-Side+Partially+Observable+Games&amp;amp;searchtype=title"&gt;&lt;strong&gt;Mitigating Agentic Deception via Evaluation-Side Partially Observable Games&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Hanxiao Li, Shutong Liu, Yongjia Ma, Jiaming Ji, Juntao Dai, Shuning Zhang, Kejian Shi, Kai Chen, Pu Feng, ..., Simin Li&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 9) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=FraudBench%3A+A+Legal+Evaluation+of+AI+Deception&amp;amp;searchtype=title"&gt;&lt;strong&gt;FraudBench: A Legal Evaluation of AI Deception&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Kevin Wei and Sumaya Nur Adan and Stephan Llerena and Mark Gitau and Jakob Merane and Anita Srinivasan and Colette Le Brannan and Keethan Kleiner and Alessandro Tacconelli and Michael Tiu Jr. and Case Thomason and Kyle Emili and Natasza Gadowska and Alex Mark and Eric Ren and Umang Bhatt and Jatinder Singh and Jacy Reese Anthis and Doni Bloomfield, Noam Kolt&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 9) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Knowing+When+to+Speak%3A+Aligning+LLM+Honesty+via+Solvability-Aware+Preference+Optimization%22"&gt;&lt;strong&gt;Knowing When to Speak: Aligning LLM Honesty via Solvability-Aware Preference Optimization&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Wenpeng Lu, Xueguan Zhao, Shuxia Lin, Linhai Zhang, Chaoqun Zheng, Weiyu Zhang, Jiasheng Si&lt;br&gt;&lt;small&gt;relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 10 Nov 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
