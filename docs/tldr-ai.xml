@@ -9,7 +9,80 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 11 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Grok Bot 1.0 🤖, AlphaGenome 2 🧬, Gemini Decisions 🧠</title>
+      <link>https://tldr.tech/ai/2026-11-12</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Gemini Decisions API: Fast, calibrated multimodal decisions
+• What's new in Grok Bot 1.0
+• Runway Praxis-1 Is Now Available: Open-Weight Robotics Model
+• Escaping SPACE: Part II
+• MCP vs CLI vs Skills: What Each Costs in Context
+• LLMs can learn some multi-step reasoning on filler tokens instead of visible CoT
+• Don't Write Kernels, Derive Them
+• Browser use has been rolling out in Antigravity
+• AlphaGenome 2: Predicting how DNA shapes cells and disease
+• OpenAI open-sources MCP Extensions for ChatGPT-native plugins
+• A2UI 1.0: Build delightful, fast, reliable, agentic experiences
+• Shopify's generative discovery model
+• United moves to block AI agents
+• Why Connections Matter More in AI
+• Google Tabletop Creates Shared Interactive Planning Spaces
+• ElevenAI
+• OpenAI wants agents to tell websites where you are
+• Nvidia board reportedly preparing to oust Huang
+• Airbnb's AI assistant cut support cost per booking 17%
+• Databricks Genie Agents</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"&gt;Gemini Decisions API: Fast, calibrated multimodal decisions&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google&amp;#x27;s Gemini Decisions API enables fast, calibrated multimodal decision-making by analyzing inputs like images and text. It assesses scenarios and provides actionable insights, such as determining spill severity and recommending cleanup actions.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://flaviocopes.com/grok-bot-1-0/"&gt;What&amp;#x27;s new in Grok Bot 1.0&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Grok Bot 1.0 adds Team Bots you can publish and share, Slack and Microsoft Teams, meetings on Meet and Zoom, shared connectors, and reviewed learnings. It is now a personal assistant that the whole team can talk to in the app, in Slack, in Microsoft Teams, and in video calls. This post covers how to create a Team Bot and publish it, how to bring the bot into Microsoft Teams, how to add a bot to a meeting, and more. It also looks at the new admin controls and what&amp;#x27;s possible without a team.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://runway.com/news/company-news/praxis-1-is-now-available"&gt;Runway Praxis-1 Is Now Available: Open-Weight Robotics Model&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Runway&amp;#x27;s Praxis-1, a 27B-parameter open-weight robotics model, is now available under Apache 2.0. The model excels in predicting video and actions, topping NVIDIA&amp;#x27;s RoboLab-120 leaderboard with a 46.2% success rate across 1,200 episodes. It&amp;#x27;s accessible on GitHub and Hugging Face, with support for full and LoRA fine-tuning, compatible with NVIDIA hardware, and adaptable for various robotic embodiments.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/escaping-space-part-ii"&gt;Escaping SPACE: Part II&lt;/a&gt; &lt;small&gt;· 28 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Perplexity tested 12 models against its SPACE agent sandbox: none escaped VM-host isolation, but several bypassed network controls through DNS spoofing and shared-IP exploitation before the flaws were fixed. The experiments also found that capture-the-flag prompts distracted agents from the security boundary being tested.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openrouter.ai/blog/insights/mcp-vs-cli-vs-skills/"&gt;MCP vs CLI vs Skills: What Each Costs in Context&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;MCP servers significantly increase token use, adding thousands of input tokens per request, unlike CLI or skill methods. On Sonnet 5.5, a simple task showed MCP consuming 59,417 tokens with default tools against CLI&amp;#x27;s 1,421 and skill&amp;#x27;s 3,315, highlighting the high cost of tool-heavy MCP setups. Implementing Tool Search can cut token costs by deferring tool definitions, reducing upfront toolset costs to under 600 tokens for optimal efficiency.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/EHkwCDAmhWPAWEziM/llms-can-learn-some-multi-step-reasoning-on-filler-tokens-2"&gt;LLMs can learn some multi-step reasoning on filler tokens instead of visible CoT&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;By changing the training setup and applying LoRAs to Qwen3.6-35B-A3B and gpt-oss-20b, researchers taught models to do some multi-step tasks while emitting only filler tokens, beating an answer-only baseline on three of seven tasks. They also mapped theoretical layer-depth limits and showed empirical walls, with some tasks learned out to 60 steps and others failing after one to three. The work is meant to separate filler-token reasoning from steganographic hidden reasoning when interpreting chain-of-thought.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://muni.works/research/tang"&gt;Don&amp;#x27;t Write Kernels, Derive Them&lt;/a&gt; &lt;small&gt;· 63 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Current models rely on hand-written kernels specific to operators, chips, and fusions, limiting flexibility across devices and scenarios. Tang&amp;#x27;s IR enables on-the-fly derivation of kernels through constructs such as views and comprehensions, eliminating the need for pre-defined kernels.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2120556423474028576.html"&gt;Browser use has been rolling out in Antigravity&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Browser use in Antigravity closes the loop between researching, writing code, and verifying it live. Users control authentication, and downloads pause until they are approved. Agents can use the browser to run multiple tasks at once. A video demo is available in the post.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"&gt;AlphaGenome 2: Predicting how DNA shapes cells and disease&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AlphaGenome 2 improves prediction of DNA variant effects on specific cell types, aiding in disease understanding and research. It doubles variant identification compared to its predecessor and adapts to analyze new cell states without retraining. Available for non-commercial use, the tool bridges genetics and cell biology, pinpointing disease-relevant genetic mutations in primary human cells.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://github.com/openai/mcp-extensions"&gt;OpenAI open-sources MCP Extensions for ChatGPT-native plugins&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The TypeScript and Python packages add ChatGPT-specific features to MCP servers and apps, including sidebar entry points, custom file viewers, composer resource search, and thumbnail part pickers. The SDKs ship with a Bits &amp;amp; Bolts demo plugin and a written spec.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/"&gt;A2UI 1.0: Build delightful, fast, reliable, agentic experiences&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A2UI is an open protocol for generative UI that lets agents answer with interactive screens. Open-source renderer SDKs are now available for the web, Android, iOS, and agent SDKs for Python, TypeScript, and Dart. A2UI enables apps to draw UIs with native components, securely. Users get the same low latency, high trust, and complete native fidelity whether they reach a company&amp;#x27;s agent in its own app or in a third-party AI assistant that hosts MCP apps.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://shopify.engineering/generative-discovery"&gt;Shopify&amp;#x27;s generative discovery model&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Shopify deployed a shared generative discovery model for search and recommendation, leveraging semantic-ID tokens to enhance product personalization and relevance. The model improved online and offline metrics, such as a 9.85% lift in conversion rate and significant gains in search relevance.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/11/11/united-airlines-ai-agents.html"&gt;United moves to block AI agents&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;United Airlines is moving to restrict AI-agent access across its platforms and agency channels, citing credential security and liability risks around tasks such as check-in. The restrictions contrast with travel companies including Expedia and Booking that are partnering with agents.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.jasonwei.net/blog/the-fall-of-what-you-can-do-and-the-rise-of-who-you-know"&gt;Why Connections Matter More in AI&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Professional relationships are becoming increasingly important in AI as coding agents commoditize technical execution, frontier research demands more compute resources, and closed-source development makes individual contributions harder to evaluate.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop"&gt;Google Tabletop Creates Shared Interactive Planning Spaces&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google Labs&amp;#x27; Tabletop turns links, files, and prompts into interactive itineraries, polls, expense splitters, and tournament brackets.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://elevenlabs.io/elevenai"&gt;ElevenAI&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;ElevenAI is a desktop app that helps amplify work using agents.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://joost.blog/agents-sharing-user-signals/"&gt;OpenAI wants agents to tell websites where you are&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Two OpenAI engineers recently shared a proposal that suggests a change that will let agents pass user information along to websites to make them look like normal visitors rather than bots.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.cbsnews.com/news/nvidia-board-ceo-jensen-huang-china/"&gt;Nvidia board reportedly preparing to oust Huang&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Nvidia&amp;#x27;s board is preparing to oust CEO Jensen Huang following his admission of an affair with a woman US intelligence agencies believe was recruited by Chinese intelligence.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.customerexperiencedive.com/news/airbnb-reduces-customer-support-cost-per-booking-17/874307"&gt;Airbnb&amp;#x27;s AI assistant cut support cost per booking 17%&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Airbnb&amp;#x27;s AI assistant cut support cost per booking by more than 17%, resolving about 40% of Q3 issues with no human agent.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.databricks.com/blog/enterprise-context-action-genie-agents-now-analyze-more-data-sources-transform-your-work"&gt;Databricks Genie Agents&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Databricks Genie Agents can now analyze unstructured documents alongside database tables, connect to enterprise tools, and share insights externally with governance controls.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Gemini 4 Carbon ⚡, Claude Sheets 📊, Antigravity Swarm 🤖</title>
       <link>https://tldr.tech/ai/2026-11-11</link>
@@ -29,10 +102,10 @@
 • MAI-Transcribe-2
 • OpenAI acquires Odessia, travel startup created by Sonder founder
 • Anthropic's IPO Roadshow
-• Google DeepMind Uses AI to Verify Signal's Security
 • More than 35,000 Grok-built apps were open to anyone with the link, including SpaceXSI's own
 • Introducing Gemini for healthcare
-• ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser</description>
+• ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser
+• Google DeepMind Uses AI to Verify Signal's Security</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors"&gt;Working with Claude Sheets, Whiteboards, and Interactive Connectors&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Anthropic introduced Claude Sheets, Whiteboards, and Data, new artifact types that let teams build spreadsheets, organize ideas, and create dashboards with Claude without switching apps. Interactive connectors now embed partner apps like Adobe and Atlassian directly in Claude, and plugins from Salesforce, NetSuite, and Workday (in beta) ship with built-in skills for sales, finance, and HR work. Claude Meetings, which will bring Claude into calls to take notes and update documents, is coming soon.&lt;/p&gt;
@@ -62,14 +135,14 @@
 &lt;h4&gt;&lt;a href="https://www.anthropic.com/news/roadshow-launch"&gt;Anthropic&amp;#x27;s IPO Roadshow&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Anthropic launched the roadshow for its proposed IPO, planning to offer 825 million shares at $70–$78 each. The company applied to list on Nasdaq under the ticker ANT, with most proceeds from newly issued shares going to Anthropic.&lt;/p&gt;
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://deepmind.google/blog/introducing-alphaproof-code/"&gt;Google DeepMind Uses AI to Verify Signal&amp;#x27;s Security&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google DeepMind introduced AlphaProof Code, a multi-agent AI framework that mathematically verified key security properties of Signal&amp;#x27;s cryptographic protocol at the implementation level.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://blog.claroc.io/ghostshares-grok-build-apps"&gt;More than 35,000 Grok-built apps were open to anyone with the link, including SpaceXSI&amp;#x27;s own&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Over 35,000 Grok-built apps were public to anyone with the link, including SpaceXSI staff tools and an ICU patient&amp;#x27;s lab results.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare"&gt;Introducing Gemini for healthcare&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Google Cloud announced Gemini for healthcare, a preview release of its Gemini agent with purpose-built healthcare skills, connectors to EHR and claims systems, and HIPAA-supporting governance for providers and payers.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://pytorch.org/blog/executorch-webgpu-pytorch-models-on-the-gpu-in-the-browser/"&gt;ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;ExecuTorch enables PyTorch models to run in the web browser on the GPU without conversion to another framework&amp;#x27;s format.&lt;/p&gt;</content:encoded>
+&lt;p&gt;ExecuTorch enables PyTorch models to run in the web browser on the GPU without conversion to another framework&amp;#x27;s format.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://deepmind.google/blog/introducing-alphaproof-code/"&gt;Google DeepMind Uses AI to Verify Signal&amp;#x27;s Security&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google DeepMind introduced AlphaProof Code, a multi-agent AI framework that mathematically verified key security properties of Signal&amp;#x27;s cryptographic protocol at the implementation level.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Claude Fable 5.2 ✨, Meta Ember 🤖, Google’s new TPUs ⚡</title>
@@ -1107,58 +1180,6 @@
 &lt;p&gt;Handwired converts ordinary JavaScript code into neural networks that reproduce exact program outputs without training or GPUs.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/open-sourcing-space"&gt;Perplexity Open-Sourced Its Agent Sandbox&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Perplexity has open-sourced SPACE, the sandbox infrastructure behind its Computer agent.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Jev 1.14 ⚡, Grok Voice 3 🎙️, RSI 🔁</title>
-      <link>https://tldr.tech/ai/2026-10-15</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-15</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• Grok Voice 3.0
-• Jev: For the builders AND dreamers
-• A Hybrid, Multi-Model AI Future
-• More Agents, Same Mythical Month
-• Google Harness² for Recursive Self Improvement
-• Analyzing technical documents with Deep Review
-• Routers Are a New AI Primitive
-• It Ain't AGI Until H100s Go for $30 an Hour
-• HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost
-• Push-Based KV Transfer to Improve TTFT and TPOT for Disaggregated Inference in vLLM
-• How Netflix Keeps Large GPU Jobs Running
-• Ling-3.1-flash
-• Claude Adds OpenTelemetry for Agent Observability</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://x.ai/news/grok-voice-3"&gt;Grok Voice 3.0&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;xAI announced Grok Voice 3.0, a speech-to-speech model with sub-second latency and improved customer-support performance.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://typesafe.ai/blog/jev-1-14"&gt;Jev: For the builders AND dreamers&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Jev 1.14.0 features image support, a new type, and longer context. Multimodal support has also been turned on for Jev 1.13.0. Both models perform worse on multimodality than on pure text. Breaking down questions into the simplest possible decompositions helps a lot. The new &amp;#x27;box&amp;#x27; type returns a single bounding box. It is a preview of TypeSafe&amp;#x27;s explorations beyond simple decisions and into what else System One Models can support.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://x.com/gavinsbaker/status/2110041532770160668"&gt;A Hybrid, Multi-Model AI Future&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Gavin Baker expects open-weight specialist models and frontier systems to coexist behind routers, reducing model margins while increasing compute demand. He argues existing infrastructure commitments remain financeable and warns that excessive concentration or overbuilding poses greater risks.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.brokenrobot.xyz/blog/more-agents-same-mythical-month/"&gt;More Agents, Same Mythical Month&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AI has made producing code cheap. This moves the bottleneck of software delivery to deciding, verifying, and coordinating. AI amplifies whatever coordination an organization already had. Adding more agents will not fix weak coordination, just as adding more developers never did.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://github.com/google-research/harness2"&gt;Google Harness² for Recursive Self Improvement&lt;/a&gt; &lt;small&gt;· GitHub Repo&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google Research&amp;#x27;s Harness² lets agents iteratively improve their prompts, tools, memory, and orchestration without changing model weights. It refines the harness for each task and then carries evidence-backed lessons forward to improve future tasks.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://research.google/blog/analyzing-technical-documents-with-deep-review/"&gt;Analyzing technical documents with Deep Review&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google&amp;#x27;s Deep Review is an agent AI system engineer designed to provide rigorous feedback and technical verification on complex documents. It was initially designed for computer science academic paper analysis, but its capabilities have since expanded to reviewing documents across many domains. Deep Review will initially support PDFs and plain text as input formats, but support for multi-file inputs will arrive soon. Google believes that tools like Deep Review will play a significant role across the peer review process in the coming years by empowering both authors and reviewers.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.vals.ai/blogs/routers-new-ai-primitive"&gt;Routers Are a New AI Primitive&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Routers have emerged as a new primitive of the AI stack. They promise to handle the complexity of model management and help companies benefit from new models without revisiting model selection across every application themselves. Every router shares the same fundamental design, but they differ in how they decide. This post provides an independent comparison of current routers and looks at how today&amp;#x27;s routers compare with single models on quality and cost.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://corbt.com/posts/it-aint-agi-until-h100s-go-for-30-an-hour"&gt;It Ain&amp;#x27;t AGI Until H100s Go for $30 an Hour&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Stratospheric GPU prices will be one of the easiest indicators of AGI to monitor and trade on. A 10x price jump in the price of AI compute will be the clearest sign that agents can finally outperform humans at most economically valuable work. The price would need to rise to an estimated $30 per H100-hour to reach this point. Supply will always be limited to the amount of available compute in the world, so something has to give.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://allenai.org/blog/hiro-acev2"&gt;HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;HiRO-ACEv2 simulates extreme weather at high accuracy and generates global 3 km climate data at 1/300th the cost of X-SHiELD.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://vllm.ai/blog/2026-10-14-nixl-push-connector"&gt;Push-Based KV Transfer to Improve TTFT and TPOT for Disaggregated Inference in vLLM&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;This post introduces a push-based NIXL connector that moves post-prefill transfer coordination and setup off the critical path, resulting in improved application responsiveness, particularly at high request rates.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://netflixtechblog.com/reliable-gpu-compute-for-large-training-inference-jobs-d62b03a96d7a"&gt;How Netflix Keeps Large GPU Jobs Running&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Netflix described the infrastructure it uses to detect faulty GPUs and network hardware, automatically remediate unhealthy machines, and keep distributed training jobs alive through hardware failures.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://huggingface.co/inclusionAI/Ling-3.1-flash"&gt;Ling-3.1-flash&lt;/a&gt; &lt;small&gt;· Hugging Face Repo&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Ling-3.1-flash is a native hybrid reasoning model designed for complex, real-world tasks with 560 billion total parameters, 25 billion active parameters per token, and a one-million-token context window.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://claude.com/resources/articles/agent-observability-on-the-claude-platform"&gt;Claude Adds OpenTelemetry for Agent Observability&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic added OpenTelemetry tracing across Claude Managed Agents, the Messages API, and Claude SDKs.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
