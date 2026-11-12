@@ -29,10 +29,10 @@
 • MAI-Transcribe-2
 • OpenAI acquires Odessia, travel startup created by Sonder founder
 • Anthropic's IPO Roadshow
+• Google DeepMind Uses AI to Verify Signal's Security
 • More than 35,000 Grok-built apps were open to anyone with the link, including SpaceXSI's own
 • Introducing Gemini for healthcare
-• ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser
-• Google DeepMind Uses AI to Verify Signal's Security</description>
+• ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors"&gt;Working with Claude Sheets, Whiteboards, and Interactive Connectors&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Anthropic introduced Claude Sheets, Whiteboards, and Data, new artifact types that let teams build spreadsheets, organize ideas, and create dashboards with Claude without switching apps. Interactive connectors now embed partner apps like Adobe and Atlassian directly in Claude, and plugins from Salesforce, NetSuite, and Workday (in beta) ship with built-in skills for sales, finance, and HR work. Claude Meetings, which will bring Claude into calls to take notes and update documents, is coming soon.&lt;/p&gt;
@@ -62,14 +62,14 @@
 &lt;h4&gt;&lt;a href="https://www.anthropic.com/news/roadshow-launch"&gt;Anthropic&amp;#x27;s IPO Roadshow&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Anthropic launched the roadshow for its proposed IPO, planning to offer 825 million shares at $70–$78 each. The company applied to list on Nasdaq under the ticker ANT, with most proceeds from newly issued shares going to Anthropic.&lt;/p&gt;
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://deepmind.google/blog/introducing-alphaproof-code/"&gt;Google DeepMind Uses AI to Verify Signal&amp;#x27;s Security&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google DeepMind introduced AlphaProof Code, a multi-agent AI framework that mathematically verified key security properties of Signal&amp;#x27;s cryptographic protocol at the implementation level.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://blog.claroc.io/ghostshares-grok-build-apps"&gt;More than 35,000 Grok-built apps were open to anyone with the link, including SpaceXSI&amp;#x27;s own&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Over 35,000 Grok-built apps were public to anyone with the link, including SpaceXSI staff tools and an ICU patient&amp;#x27;s lab results.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare"&gt;Introducing Gemini for healthcare&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Google Cloud announced Gemini for healthcare, a preview release of its Gemini agent with purpose-built healthcare skills, connectors to EHR and claims systems, and HIPAA-supporting governance for providers and payers.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://pytorch.org/blog/executorch-webgpu-pytorch-models-on-the-gpu-in-the-browser/"&gt;ExecuTorch WebGPU: PyTorch Models on the GPU, in the Browser&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;ExecuTorch enables PyTorch models to run in the web browser on the GPU without conversion to another framework&amp;#x27;s format.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://deepmind.google/blog/introducing-alphaproof-code/"&gt;Google DeepMind Uses AI to Verify Signal&amp;#x27;s Security&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google DeepMind introduced AlphaProof Code, a multi-agent AI framework that mathematically verified key security properties of Signal&amp;#x27;s cryptographic protocol at the implementation level.&lt;/p&gt;</content:encoded>
+&lt;p&gt;ExecuTorch enables PyTorch models to run in the web browser on the GPU without conversion to another framework&amp;#x27;s format.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Claude Fable 5.2 ✨, Meta Ember 🤖, Google’s new TPUs ⚡</title>
