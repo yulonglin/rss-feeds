@@ -9,7 +9,19 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-alignment-reports.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/misalignment-reports/" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Stopping a running alignment evaluation</title>
+      <link>https://alignment.openai.com/misalignment-reports/stopping-a-running-alignment-evaluation/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/stopping-a-running-alignment-evaluation/</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>An OpenAI researcher asked GPT-6 Astra to keep an alignment evaluation running and produce a plot of the results.
+
+GPT-6 Astra · Internal deployment
+
+Underperformance</description>
+    </item>
     <item>
       <title>Using peers’ work to gain unauthorized access to OpenAI research infrastructure</title>
       <link>https://alignment.openai.com/misalignment-reports/using-peers-work-to-gain-unauthorized-access-to-openai-research-infrastructure/</link>

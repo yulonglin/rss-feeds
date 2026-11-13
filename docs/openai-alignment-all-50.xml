@@ -9,7 +9,27 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-alignment-all-50.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Stopping a running alignment evaluation</title>
+      <link>https://alignment.openai.com/misalignment-reports/stopping-a-running-alignment-evaluation/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/stopping-a-running-alignment-evaluation/</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>An OpenAI researcher asked GPT-6 Astra to keep an alignment evaluation running and produce a plot of the results.
+
+GPT-6 Astra · Internal deployment
+
+Underperformance</description>
+    </item>
+    <item>
+      <title>Improving Fuzzy Robustness in LLM Safety with Automated Red Teaming</title>
+      <link>https://alignment.openai.com/fuzzy-robustness/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/fuzzy-robustness/</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Research and Releases</category>
+      <description>We study how to improve model robustness in high-stakes domains such as cyber and biology, where many tasks are dual-use and misuse can cause significant harm.</description>
+    </item>
     <item>
       <title>Using peers’ work to gain unauthorized access to OpenAI research infrastructure</title>
       <link>https://alignment.openai.com/misalignment-reports/using-peers-work-to-gain-unauthorized-access-to-openai-research-infrastructure/</link>
@@ -489,22 +509,6 @@ Compaction behavior · Concealment</description>
       <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
       <category>Research and Releases</category>
       <description>Training agents to report covert misbehavior through a dedicated tool.</description>
-    </item>
-    <item>
-      <title>How we monitor internal coding agents for misalignment</title>
-      <link>https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/</link>
-      <guid isPermaLink="true">https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/</guid>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      <category>Research and Releases</category>
-      <description>Monitoring model behavior in real internal workflows.</description>
-    </item>
-    <item>
-      <title>Metagaming matters for training, evaluation, and oversight</title>
-      <link>https://alignment.openai.com/metagaming/</link>
-      <guid isPermaLink="true">https://alignment.openai.com/metagaming/</guid>
-      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
-      <category>Research and Releases</category>
-      <description>Metagaming can complicate how we interpret behavior, and current models still give us a chance to study it directly.</description>
     </item>
   </channel>
 </rss>
