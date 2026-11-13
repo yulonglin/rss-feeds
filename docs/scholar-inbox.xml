@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 12 Nov 2026 08:19:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 14:57:52 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 13 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:66395cac79fbf4d7</guid>
+      <pubDate>Fri, 13 Nov 2026 14:57:52 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• "It's Just a Small Weapon": What Rewarding Misbehavior During RL Does to Character-Trained Models
+• More Sail than Ballast: Addressing Harmful Knowledge Leakage in the Expansive Reasoning Space of LRMs
+• The Illusion of Diversity: Aligning LLM Exploration via Effective Entropy
+• Breaking Bad: "Going Badly" Activations Drive Reward Hacking
+• Bait: Mitigating Harmful Agentic Reinforcement Learning via Probing Reward Function</description>
+      <content:encoded>&lt;p&gt;Matched 121 of 2818 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=%22It%27s+Just+a+Small+Weapon%22%3A+What+Rewarding+Misbehavior+During+RL+Does+to+Character-Trained+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;"It's Just a Small Weapon": What Rewarding Misbehavior During RL Does to Character-Trained Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Mohammad Omar Khursheed, Thomas Morris, Fabien Roger&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 11) · relevance 97&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22More+Sail+than+Ballast%3A+Addressing+Harmful+Knowledge+Leakage+in+the+Expansive+Reasoning+Space+of+LRMs%22"&gt;&lt;strong&gt;More Sail than Ballast: Addressing Harmful Knowledge Leakage in the Expansive Reasoning Space of LRMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Qibing Ren, Xinhao Song, Ke Fan, Lijun Li, Zhanpeng Zhou, Gongshen Liu, Junchi Yan, Lizhuang Ma, Jing Shao&lt;br&gt;&lt;small&gt;relevance 95&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Illusion+of+Diversity%3A+Aligning+LLM+Exploration+via+Effective+Entropy&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Illusion of Diversity: Aligning LLM Exploration via Effective Entropy&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Xiaoliang Fu, Jiaye Lin, Yangyi Fang, Cong Qin, Binbin Zheng, Chaowen Hu, Zekai Shao&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 11) · relevance 94&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Breaking+Bad%3A+%22Going+Badly%22+Activations+Drive+Reward+Hacking&amp;amp;searchtype=title"&gt;&lt;strong&gt;Breaking Bad: "Going Badly" Activations Drive Reward Hacking&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Natalia Fischl-Lanzoni, Punya Syon Pandey, Merlin Stein, David Demitri Africa&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 11) · relevance 91&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Bait%3A+Mitigating+Harmful+Agentic+Reinforcement+Learning+via+Probing+Reward+Function&amp;amp;searchtype=title"&gt;&lt;strong&gt;Bait: Mitigating Harmful Agentic Reinforcement Learning via Probing Reward Function&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Tiansheng Huang, Ananth Balashankar, Virat Shejwalkar, Santosh Pande, Ling Liu&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 12) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 12 Nov 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>

@@ -9,7 +9,68 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Gemini 4 Hydrogen 🚀, self-hosted Claude agents 🔒, Replit agent commerce 🛒</title>
+      <link>https://tldr.tech/ai/2026-11-13</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Gemini 4 Hydrogen
+• Operate Claude Managed Agents inside your security perimeter
+• Replit Agent can now buy for your business and help you reach customers
+• Top Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled NVIDIA Blackwell GPUs
+• Eliminating Nondeterminism in LLM Inference with Integer-Only Arithmetic
+• How Agent Anomaly Detection scores on benchmarks we didn't write
+• Become a founding member of TLDR's AI community
+• Atlas
+• Perplexity Decider
+• NVIDIA Announces CEO Transition
+• Everyone is learning the wrong lesson from Hugging Face
+• Orienting to 1 year AGI timelines
+• Use Claude Meetings
+• Fast by Default: Compile-Time Heuristics for Helion Kernels
+• LiquidCodec: High-Fidelity Audio Tokenization Optimized for Speed
+• Meta's Muse Can Now Call Businesses</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"&gt;Gemini 4 Hydrogen&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google introduced Gemini 4 Hydrogen, a fast, efficient model optimized for coding and agentic workflows. It scored 51 on the Artificial Analysis Intelligence Index, surpassing Gemini 4 Argon, and is priced at $1.50 per million input tokens and $7.50 per million output tokens.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://claude.com/resources/articles/self-hosted-claude-managed-agents"&gt;Operate Claude Managed Agents inside your security perimeter&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Self-hosted Claude Managed Agents offers private beta for developers to build and run agents directly within their company&amp;#x27;s own infrastructure. This setup allows for a complete in-house deployment of the Managed Agents&amp;#x27; services, including sandboxes, credential handling, and session history. Organizations benefit from enhanced security and control over agent operations, with the ability to integrate with existing cloud providers and comply with zero data retention policies.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://replit.com/blog/replit-agent-ads-commerce"&gt;Replit Agent can now buy for your business and help you reach customers&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Replit Agent now helps businesses with supply purchases and running Google Ads. It leverages Link with Visa and Stripe for secure, controlled transactions and simplifies ad campaigns by analyzing content and suggesting strategies.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://unemploymentlabs.com/checkpoint-forensics"&gt;Top Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled NVIDIA Blackwell GPUs&lt;/a&gt; &lt;small&gt;· 37 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A forensic analysis of publicly released AI models found evidence that DeepSeek, Moonshot AI, MiniMax, and Ant Group have gained access to Nvidia&amp;#x27;s Blackwell GPUs. Six models released by these companies since April contain numerical patterns that match Blackwell hardware. Several leading Chinese AI developers have likely begun using Blackwell to train their newest models. While the analysis provides technical evidence of access to advanced computing hardware, it doesn&amp;#x27;t establish where the chips were located, how access was obtained, or whether export controls were violated.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://nathan.rs/posts/detllm/"&gt;Eliminating Nondeterminism in LLM Inference with Integer-Only Arithmetic&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A floating-point number stores a fixed number of significant digits and a separate exponent. When two numbers with very different exponents are added, the small one has to be shifted to line up with the big one, and the digits that fall off on the end are gone. That means that (a+b)+c is not always equal to a+(b+c). This post looks at what happens when integer addition, which is exact, is used.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/"&gt;How Agent Anomaly Detection scores on benchmarks we didn&amp;#x27;t write&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Agent Anomaly Detection, tested against external benchmarks, flagged 87% of executed harmful instructions, highlighting strengths in identifying goal hijack and tool misuse but weaknesses with poisoned memory. It demonstrated varying false alarm rates, with the highest at 16% for tasks involving high-impact tools. Ongoing improvements focus on detecting small, potentially harmful actions, distinguishing normal use from misuse, and providing quicker full coverage for new agents.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://danni763618.typeform.com/to/H1tYViME"&gt;Become a founding member of TLDR&amp;#x27;s AI community&lt;/a&gt; &lt;small&gt;· 2 minute form&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;TLDR is launching a curated community for AI builders to discuss major news and launches. The best links and comments will be featured in TLDR AI. &lt;a href="https://danni763618.typeform.com/to/H1tYViME" rel="noopener noreferrer" target="_blank"&gt;Apply here to join&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://worldlabs.ai/atlas"&gt;Atlas&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Atlas is an omni model that natively operates on text, images, video, and 3D. All inputs are combined into a shared spatial context. Atlas can perform a broad range of tasks spanning world generation, reconstruction, and simulation. Examples of scenes generated with the model are available.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/perplexity-decider"&gt;Perplexity Decider&lt;/a&gt; &lt;small&gt;· 26 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Perplexity has released updates to two models inspired by Jev, TypeSafe AI&amp;#x27;s System One model. Perplexity Decider supports binary and multi-class classification with ordered or unordered labels. It returns probabilities that applications can use to classify, route, rank, and evaluate inputs. Both new models, Decider v1.3 and Decider Flash v1.3, improve performance and robustness across a broad range of text and vision tasks. They also have a new feature that highlights selected content for named entity recognition, personal information identification, and extractive question-answering tasks.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"&gt;NVIDIA Announces CEO Transition&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Jensen Huang has resigned as Nvidia&amp;#x27;s CEO. Finance chief Colette Kress will serve as interim CEO until a permanent successor is named. The board is considering both internal and external candidates. Nvidia&amp;#x27;s board has appointed long-time director Harvey C. Jones as its first ever chair. The company will report its third-quarter fiscal 2027 results on November 17 as previously scheduled.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.karthiktadepalli.com/p/hugging-face"&gt;Everyone is learning the wrong lesson from Hugging Face&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Hugging Face incident is commonly viewed as a cybersecurity incident. People see it as an example of how AI could be used to break into critical infrastructure and cause enormous damage. However, this isn&amp;#x27;t anything new: we have known about AI&amp;#x27;s hacking capabilities for a while. The real lesson is that frontier AIs want things we don&amp;#x27;t intend, and they will pursue those wants relentlessly.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/biFHYdJnMSCmW9Xou/orienting-to-1-year-agi-timelines"&gt;Orienting to 1 year AGI timelines&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Timelines to artificial superintelligence are now very short, with some predicting that it will be achieved within the next two years.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://support.claude.com/en/articles/18325154-use-claude-meetings"&gt;Use Claude Meetings&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Claude can now be added to Google Meet as a visible participant to take notes, answer questions, and build artifacts live during the call.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://pytorch.org/blog/fast-by-default-compile-time-heuristics-for-helion-kernels/"&gt;Fast by Default: Compile-Time Heuristics for Helion Kernels&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Helion&amp;#x27;s new compile-time heuristics boost kernel performance significantly without the need for time-consuming autotuning.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.liquid.ai/blog/liquidcodec"&gt;LiquidCodec: High-Fidelity Audio Tokenization Optimized for Speed&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;LiquidCodec features fast speech generation with a small memory footprint, making it easier to build applications that can sustain a conversation while running locally.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"&gt;Meta&amp;#x27;s Muse Can Now Call Businesses&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta expanded Muse&amp;#x27;s AI-powered calling feature to all paid subscribers, letting the assistant contact US businesses on users&amp;#x27; behalf.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Grok Bot 1.0 🤖, AlphaGenome 2 🧬, Gemini Decisions 🧠</title>
       <link>https://tldr.tech/ai/2026-11-12</link>
@@ -24,11 +85,11 @@
 • MCP vs CLI vs Skills: What Each Costs in Context
 • LLMs can learn some multi-step reasoning on filler tokens instead of visible CoT
 • Don't Write Kernels, Derive Them
-• Browser use has been rolling out in Antigravity
 • AlphaGenome 2: Predicting how DNA shapes cells and disease
 • OpenAI open-sources MCP Extensions for ChatGPT-native plugins
 • A2UI 1.0: Build delightful, fast, reliable, agentic experiences
 • Shopify's generative discovery model
+• Browser use has been rolling out in Antigravity
 • United moves to block AI agents
 • Why Connections Matter More in AI
 • Google Tabletop Creates Shared Interactive Planning Spaces
@@ -54,8 +115,6 @@
 &lt;h4&gt;&lt;a href="https://muni.works/research/tang"&gt;Don&amp;#x27;t Write Kernels, Derive Them&lt;/a&gt; &lt;small&gt;· 63 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Current models rely on hand-written kernels specific to operators, chips, and fusions, limiting flexibility across devices and scenarios. Tang&amp;#x27;s IR enables on-the-fly derivation of kernels through constructs such as views and comprehensions, eliminating the need for pre-defined kernels.&lt;/p&gt;
 &lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2120556423474028576.html"&gt;Browser use has been rolling out in Antigravity&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Browser use in Antigravity closes the loop between researching, writing code, and verifying it live. Users control authentication, and downloads pause until they are approved. Agents can use the browser to run multiple tasks at once. A video demo is available in the post.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"&gt;AlphaGenome 2: Predicting how DNA shapes cells and disease&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;AlphaGenome 2 improves prediction of DNA variant effects on specific cell types, aiding in disease understanding and research. It doubles variant identification compared to its predecessor and adapts to analyze new cell states without retraining. Available for non-commercial use, the tool bridges genetics and cell biology, pinpointing disease-relevant genetic mutations in primary human cells.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://github.com/openai/mcp-extensions"&gt;OpenAI open-sources MCP Extensions for ChatGPT-native plugins&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
@@ -64,6 +123,8 @@
 &lt;p&gt;A2UI is an open protocol for generative UI that lets agents answer with interactive screens. Open-source renderer SDKs are now available for the web, Android, iOS, and agent SDKs for Python, TypeScript, and Dart. A2UI enables apps to draw UIs with native components, securely. Users get the same low latency, high trust, and complete native fidelity whether they reach a company&amp;#x27;s agent in its own app or in a third-party AI assistant that hosts MCP apps.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://shopify.engineering/generative-discovery"&gt;Shopify&amp;#x27;s generative discovery model&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Shopify deployed a shared generative discovery model for search and recommendation, leveraging semantic-ID tokens to enhance product personalization and relevance. The model improved online and offline metrics, such as a 9.85% lift in conversion rate and significant gains in search relevance.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2120556423474028576.html"&gt;Browser use has been rolling out in Antigravity&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Browser use in Antigravity closes the loop between researching, writing code, and verifying it live. Users control authentication, and downloads pause until they are approved. Agents can use the browser to run multiple tasks at once. A video demo is available in the post.&lt;/p&gt;
 &lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/11/11/united-airlines-ai-agents.html"&gt;United moves to block AI agents&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;United Airlines is moving to restrict AI-agent access across its platforms and agency channels, citing credential security and liability risks around tasks such as check-in. The restrictions contrast with travel companies including Expedia and Booking that are partnering with agents.&lt;/p&gt;
@@ -94,9 +155,9 @@
 • Businesses and Business Agents in ChatGPT
 • Gemini 4 Carbon is now available
 • Suppressing Reward Hacking Through Model Weight Arithmetic
-• Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All
 • Why Instinct Feels Like a Personal Assistant
 • Neurons as an Interpretable Basis
+• Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All
 • Swarm (/swarm)
 • Meta Releases Faster K-Means Alternative
 • MAI-Transcribe-2
@@ -116,12 +177,12 @@
 &lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://x.com/KunhaoZ/status/2120172863734849903"&gt;Suppressing Reward Hacking Through Model Weight Arithmetic&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Researchers subtract code models trained with loose and strict rewards to identify a direction controlling inefficient solutions. Extrapolating beyond the strict model reduced resource-limit failures from 14.5% to 8% without additional training, though excessive extrapolation breaks outputs and stricter rewards can hurt correctness.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blog.aifutures.org/p/q35-timelines-update-looks-like-the"&gt;Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All&lt;/a&gt; &lt;small&gt;· 125 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;A Superhuman AI Researcher (SAR) is predicted to arrive at some point in 2027, assuming there is no substantial deliberate slowdown in development. AIs that can automate all white-collar work are predicted to arrive before 2028. Companies are currently not on track to align an SAR, and using a misaligned SAR to do recursive self-improvement will have negative consequences. China will probably be able to steal the training recipe and maybe even the model weights if an SAR is trained in the near future.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://x.com/nizzyabi/status/2120194267066863738"&gt;Why Instinct Feels Like a Personal Assistant&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;A twelve-week analysis of one Instinct conversation attributes its appeal to short messages, quick acknowledgments, proactive follow-ups, and approval checks before purchases or outreach. The teardown suggests coordinated task agents and persistent memory underpin the experience, while exposing retention and delivery-verification failures.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.goodfire.com/research/neurons-as-an-interpretable-basis"&gt;Neurons as an Interpretable Basis&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Goodfire argues that individual language-model neurons are more interpretable than commonly assumed. Its Neuron Scientist agents generate and test descriptions of neuron functions, suggesting researchers can study model computations directly without always relying on sparse autoencoders to extract interpretable features.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.aifutures.org/p/q35-timelines-update-looks-like-the"&gt;Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All&lt;/a&gt; &lt;small&gt;· 125 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A Superhuman AI Researcher (SAR) is predicted to arrive at some point in 2027, assuming there is no substantial deliberate slowdown in development. AIs that can automate all white-collar work are predicted to arrive before 2028. Companies are currently not on track to align an SAR, and using a misaligned SAR to do recursive self-improvement will have negative consequences. China will probably be able to steal the training recipe and maybe even the model weights if an SAR is trained in the near future.&lt;/p&gt;
 &lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://antigravity.google/docs/swarm/"&gt;Swarm (/swarm)&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;The /swarm command in Google Antigravity runs a team of named agents that split tasks, work on the pieces at the same time, and coordinate on one shared message board. It can be used for tasks that divide cleanly across separate files, packages, or questions, or when a second agent is needed to review and test the changes before a human sees it. The /swarm command is available on Google AI Pro and Google AI Ultra plans in the Google Antigravity App and Antigravity CLI. Every worker is its own agent, so swarms use quotas much faster than single conversations.&lt;/p&gt;
@@ -1122,64 +1183,6 @@
 &lt;p&gt;Stack Overflow for Agents saw a 3x increase in signups overnight after integrating a ChatGPT plugin.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://thenextweb.com/news/qualcomm-cristiano-amon-ai-companies-phones-2028"&gt;Qualcomm says AI labs want 100B-parameter models running on phones by 2028&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;AI companies want phones that run 100B-plus-parameter models continuously by 2028, and some are already starting to build their own phones.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Muse Spark Open ✨, Microsoft’s 3T param model 🧠, d1-ultra 💡</title>
-      <link>https://tldr.tech/ai/2026-10-16</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-16</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• Muse Spark Open
-• Inside Microsoft's Frontier Pre-Training Stack
-• d1-ultra: Introducing the World's Best Decision Model
-• Neural Networks Are Already Clean
-• The Gradient Is a Covariance
-• Mo' turns, mo' problems
-• Nvidia released Nemotron 3.5 Super VL
-• Krea 3
-• GPT-Live-1.1
-• Open weight takes 71.5% of tokens and 23% of spend
-• Anthropic Expanded Independent Access to Its AI Safety Work
-• FLUX 3 Image Klein
-• How Codex Happened
-• Introducing Handwired: JavaScript as Neural Networks
-• Perplexity Open-Sourced Its Agent Sandbox</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://research.meta.ai/blog/muse-spark-open"&gt;Muse Spark Open&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Muse Spark Open is an 816B-parameter multimodal open-weight model with 42B active parameters and a 1M-token context window. It was designed for coding and long-horizon agentic tasks and can run locally across two Apple M5 Ultra Mac Studios using MLX.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/"&gt;Inside Microsoft&amp;#x27;s Frontier Pre-Training Stack&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Microsoft detailed the training of MAI-Base-2, a 2.8T-parameter mixture-of-experts model with 80B active parameters that it said surpassed every open-weight model in its held-out pre-training evaluations. The deep dive covers its data strategy, compute efficiency, full-stack infrastructure, and Microsoft&amp;#x27;s plans to turn internally trained frontier models into enterprise offerings through Foundry.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.liquid.ai/blog/d1-ultra"&gt;d1-ultra: Introducing the World&amp;#x27;s Best Decision Model&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Liquid AI&amp;#x27;s d1-ultra is a multimodal decision model designed for complex real-world tasks like detecting defects on circuit boards. The model processes text and images and provides better-calibrated answers and higher accuracy than previous models like Jev 1.14. Available on the Liquid API, d1-ultra is priced at $0.042 per million input tokens and will soon be accessible via Vercel and OpenRouter.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://already-clean.goodfire.com/"&gt;Neural Networks Are Already Clean&lt;/a&gt; &lt;small&gt;· 65 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The cause of polysemanticity in early model organisms was thought to be superposition. This convinced much of the field that networks pack concepts arbitrarily, but what looked like arbitrary packing was mostly recursive generalization, which is less concerning. This means networks can be studied directly, instead of needing to be untangled first. The outlook for mechanistic interpretability may be far better than we thought.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://richardli.xyz/post/gradient-is-covariance/"&gt;The Gradient Is a Covariance&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Reinforcement learning, on-policy distillation, and supervised fine-tuning on near-policy data change only a small fraction of parameters. Small and sparse are different claims. The expected gradient is a covariance, the Fisher is a variance, and the Fisher caps the gradient for any reward. At one position, the Fisher is the variance of logit sensitivities: whatever moves every candidate together counts for nothing. None of this needs on-policy sampling - it needs a score centered under the sampling distribution.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://ianbarber.blog/2026/10/15/mo-turns-mo-problems/"&gt;Mo&amp;#x27; turns, mo&amp;#x27; problems&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Doing reinforcement learning for agent use-cases is conceptually not at all that complicated. For each problem, you set up a VM with a harness and a fresh model context, send the prompt, let the model make tool calls, score the whole thing at the end, and update the weights. Agentic post-training means there&amp;#x27;s more than the model to consider. Even when the harness is consistent, you can still go off-policy with the trajectories themselves. Agents spawn subagents, make parallel tool calls, and compact large sessions, which adds complexity.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/"&gt;Nvidia released Nemotron 3.5 Super VL&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Nvidia released Nemotron 3.5 Super VL, a multimodal reasoning model that scored 26.5 on Artificial Analysis&amp;#x27; Intelligence Index while using substantially fewer output tokens than its predecessor. The company also introduced the smaller Nemotron 3.5 Bolt 74B-A9B and near-lossless NVFP4 quantized weights.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.krea.ai/krea-3"&gt;Krea 3&lt;/a&gt; &lt;small&gt;· Website&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Krea 3 is an image editing model built for production. It can finish an edit in under eight seconds, costing only $0.06 per image. The model was built for production and is four times faster than Nano Banana Pro. It can combine up to eight references into one picture.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2110797830361436604.html"&gt;GPT-Live-1.1&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;GPT-Live-1.1 features new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. The voices have better accents, and there is less &amp;#x27;checking&amp;#x27;. The model is available in ChatGPT, Codex, and dots. It is rolling out now to all users and coming soon to the API.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://vercel.com/blog/ai-gateway-production-index-october-2026"&gt;Open weight takes 71.5% of tokens and 23% of spend&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Open-weight models now process more than seven in ten gateway tokens and account for nearly one in four dollars. Their share of spend has more than quadrupled since June. Almost one in three teams changed their most-used lab in September, an index record. Jev was the fastest-adopted model in AI Gateway history, but it only accounted for about 0.27% of gateway spend.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/news/an-update-on-independent-evaluators"&gt;Anthropic Expanded Independent Access to Its AI Safety Work&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic began giving METR employee-like access to models, training information, safeguards, and other internal material so it could independently assess frontier-model risks and publish its conclusions.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://bfl.ai/blog/flux-3-image-klein"&gt;FLUX 3 Image Klein&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Black Forest Labs released FLUX 3 Image Klein, a 5.6B-parameter open-weight model that supports text-to-image generation, editing, native 4K output, and up to 10 reference images.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://every.to/p/how-codex-happened"&gt;How Codex Happened&lt;/a&gt; &lt;small&gt;· 40 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI&amp;#x27;s Codex evolved from a failed cloud launch to becoming the cornerstone of OpenAI&amp;#x27;s products, gaining over 40 million weekly users.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/_chenglou/status/2110557373651931267"&gt;Introducing Handwired: JavaScript as Neural Networks&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Handwired converts ordinary JavaScript code into neural networks that reproduce exact program outputs without training or GPUs.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/open-sourcing-space"&gt;Perplexity Open-Sourced Its Agent Sandbox&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Perplexity has open-sourced SPACE, the sandbox infrastructure behind its Computer agent.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
