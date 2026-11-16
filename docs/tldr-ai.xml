@@ -9,7 +9,68 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 13 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>ChatGPT Wallet 💳, Devin Apps 🛠️, always-on agents ⚡</title>
+      <link>https://tldr.tech/ai/2026-11-16</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Devin Apps
+• ChatGPT Wallet
+• Quark: our whole training stack, end to end, for $4,200
+• On the Brutality of Amdahl's Law
+• End-to-End 4-Bit AI Training
+• BirdDreams: A Driving World Model
+• Become a founding member of TLDR's AI community
+• Embla 1
+• Qwen4-Max: Your New Teammate Has Arrived
+• Meta's Vision Encoders in Multimodal Models
+• Releasing Personal Agent Protocol 1.0
+• GPT-6 Astra Tackles a Fundamental Physics Problem
+• We've made some big updates to Projects in Claude Code!
+• Petition Calls for Nvidia to Reinstate Jensen Huang
+• Building always-on agents
+• Building strong safety evaluations</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://devin.ai/blog/devin-apps"&gt;Devin Apps&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Devin Apps are private web apps that Devin builds and hosts from a description, such as dashboards and approval queues. Apps can use a team&amp;#x27;s existing integrations and codebase, and viewers must sign in to Devin.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/introducing-chatgpt-wallet/"&gt;ChatGPT Wallet&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI introduced ChatGPT Wallet, allowing AI agents to make purchases without accessing users&amp;#x27; actual card details while requiring a security check for every transaction.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://empero.org/writing/quark"&gt;Quark: our whole training stack, end to end, for $4,200&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Quark is a language model with about 165 million parameters trained for about $4,200 of compute (about 1,300 H-100-hours). It has the best benchmark average among open models of its size trained on similar token budgets. The model was created to explore every part of the training stack the team was using before spending serious money on a large model. This post looks at the model&amp;#x27;s data, architecture, pretraining at scale, context extension, reinforcement learning, evaluation, and release.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://bosoncutter.substack.com/p/on-the-brutality-of-amdahls-law"&gt;On the Brutality of Amdahl&amp;#x27;s Law&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The world is far too slow to see the high double-digit or more economic growth and seismic transformations in the economy that AI is predicted to bring. Intelligence isn&amp;#x27;t the only technology curve to go quasi-infinite in the last century and a half. Electricity, communication, computers, transportation, and agriculture have all experienced extreme growth and transformation. Despite this, we&amp;#x27;ve only seen 2% GDP per capita growth for nearly 150 years.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://thinkingmachines.ai/blog/end-to-end-4-bit-training/"&gt;End-to-End 4-Bit AI Training&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Thinking Machines explored the technical challenges of training language models using 4-bit precision, including quantization errors and their effects on model accuracy. The deep dive examines BF16, MXFP8, and NVFP4 formats.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://research.nvidia.com/labs/sil/projects/birddreams/"&gt;BirdDreams: A Driving World Model&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;BirdDreams is an Nvidia driving world model that turns a single camera image into driving video and a bird&amp;#x27;s-eye view of the scene.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://danni763618.typeform.com/to/H1tYViME"&gt;Become a founding member of TLDR&amp;#x27;s AI community&lt;/a&gt; &lt;small&gt;· 2 minute form&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;TLDR is launching a curated community for AI builders to discuss major news and launches. The best links and comments will be featured in TLDR AI. &lt;a href="https://danni763618.typeform.com/to/H1tYViME" rel="noopener noreferrer" target="_blank"&gt;Apply here to join&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://sevren.ai/blog/embla-1"&gt;Embla 1&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Embla 1 is a reasoning model built for phones. It is designed to be fast and to use few tokens per answer. The model can run on a phone, privately, offline, for free. At 4 bits, Embla 1 averages 57.4 on BFCL, IFBench, AA-Omniscience, GPQA, and MATH-500 and answers in 1.77 seconds end-to-end on an iPhone 18 Pro.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://qwen.ai/blog?id=qwen4-max"&gt;Qwen4-Max: Your New Teammate Has Arrived&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Qwen4-Max can take on a wide range of creative and professional work in the fields of 3D modeling, game development, precision manufacturing, finance, law, healthcare, and frontier scientific discovery. It demonstrates strong 3D creation capabilities and can use Blender to carry out geometry modeling, scene assembly, material setup, lighting, and rendering. The model works fluently with leading game engines and can handle scene construction, gameplay logic, integration of external assets, material setup, HUD design, and visual effects, and deliver a playable game. Smaller models in the family are coming to open source.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://unbundling.github.io/"&gt;Meta&amp;#x27;s Vision Encoders in Multimodal Models&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Meta researchers explored which components of vision encoders are essential for multimodal models, finding that dedicated visual processing capacity matters more than pretraining.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://sierra.ai/blog/releasing-poppy"&gt;Releasing Personal Agent Protocol 1.0&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Personal Agent Protocol enables personal agents to interact with companies through business agents, websites, and APIs. v.0 of the protocol is now available. The protocol defines how personal agents connect with companies that implement it. Customers control what personal agents can and can&amp;#x27;t do, and can manage their access over time.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/step-toward-defining-the-standard-model/"&gt;GPT-6 Astra Tackles a Fundamental Physics Problem&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Physicist Nathaniel Craig worked with GPT-6 Astra to develop a candidate lattice formulation of the Standard Model, addressing a longstanding challenge in defining the theory without relying on perturbative approximations. Astra helped construct the mathematical framework and develop a detailed proof supporting the proposed approach.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2121375309287301360.html"&gt;We&amp;#x27;ve made some big updates to Projects in Claude Code!&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The coordinator is now more proactive and can answer questions in the project chat while providing updates on the status of ongoing threads.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"&gt;Petition Calls for Nvidia to Reinstate Jensen Huang&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Elon Musk and other technology executives signed a petition calling for Nvidia to reinstate former CEO Jensen Huang following his resignation amid allegations involving a suspected Chinese spy.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://claude.com/resources/articles/building-always-on-agents"&gt;Building always-on agents&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Always-on agents, revived by recent advancements, now manage context and act without direct supervision, running on a core loop enhanced with event inboxes, timers, memory, permissions, and outboxes.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/building-strong-safety-evaluations"&gt;Building strong safety evaluations&lt;/a&gt; &lt;small&gt;· 23 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Anthropic emphasizes the importance of robust safety evaluations for AI models, which inform deployment and training decisions.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Gemini 4 Hydrogen 🚀, self-hosted Claude agents 🔒, Replit agent commerce 🛒</title>
       <link>https://tldr.tech/ai/2026-11-13</link>
@@ -1134,55 +1195,6 @@
 &lt;p&gt;The vLLM engine introduced a push-based KV transfer to minimize time-to-first-token (TTFT) and time-per-output-token (TPOT) in disaggregated inference setups.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://openai.com/index/low-resource-programming-languages/"&gt;Improving AI Coding in Older Programming Languages&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;OpenAI reported major improvements in coding and software migration across languages such as COBOL, Fortran, and Visual Basic.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>DeepSeek’s new Flash ⚡, Replit drops Anthropic 🔄, Anthropic’s workforce 💼</title>
-      <link>https://tldr.tech/ai/2026-10-19</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-19</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• Anthropic Commits Equity to Public Benefit
-• OpenAI testing new "Aurora" GPT-Image model on Arena
-• How AI Is Reshaping Anthropic's Workforce
-• How to Trust Your Coding Agents More
-• Search &amp; Fetch
-• DeepSeek-V4.1-Flash-1017
-• How the Claude Code team does code review
-• Replit Switches Its Default AI Provider to OpenAI
-• A benchmark map of the US economy
-• Claude reveals ECDSA curve origins
-• Stack Overflow for Agents triples signups with ChatGPT plugin
-• Qualcomm says AI labs want 100B-parameter models running on phones by 2028</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/news/public-benefit-fund"&gt;Anthropic Commits Equity to Public Benefit&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic announced plans to allocate an initial 5% of its equity to a new Public Benefit Fund, with additional contributions tied to valuation growth. The fund will support initiatives such as addressing AI&amp;#x27;s economic and labor impacts.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/"&gt;OpenAI testing new &amp;quot;Aurora&amp;quot; GPT-Image model on Arena&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Three new model references briefly appeared in OpenAI&amp;#x27;s API and in blind arena tests this weekend. aurora-red-alpha, aurora-green-alpha, and aurora-blue-alpha appear to be image models and could possibly be GPT Image 3. In tests, red ran faster than green but was lower quality, while green was slower but looked better. Examples of images generated by the models are available in the article.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/employment-at-anthropic"&gt;How AI Is Reshaping Anthropic&amp;#x27;s Workforce&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic reported a decline in junior technical hiring, with entry-level workers falling from 27% to 9% of technical hires since early 2025. Employees reported productivity gains from Claude, but increased AI output also shifted work toward supervising agents and made human attention a growing bottleneck.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/poteto/status/2111133080526495985"&gt;How to Trust Your Coding Agents More&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Reliable coding agents require better code architecture, strong invariants, and automated verification rather than extensive prompting or human review. Analyze past agent mistakes and code reviews to redesign systems that prevent recurring failures by default.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://api-docs.deepseek.com/guides/search/"&gt;Search &amp;amp; Fetch&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;DeepSeek&amp;#x27;s Search and Fetch APIs give agents and RAG applications access to live web content. The Search API finds web pages for a query and returns structured results. The Fetch API retrieves a single web page and returns its content as Markdown. Both are raw JSON APIs. They use the same bearer authentication as the DeepSeek API.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"&gt;DeepSeek-V4.1-Flash-1017&lt;/a&gt; &lt;small&gt;· Hugging Face Repo&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;DeepSeek-V4.1-Flash-1017 delivers substantial improvements across reasoning, coding, agentic tasks, and visual benchmarks. It also reduces task execution time and output length, advancing the performance-cost Pareto frontier across multiple agent harnesses. DeepSeek-V4.1-Flash combines cross-layer KV cache reuse in Compressed Sparse Attention 2 with FP4 KV caching, reducing its global KV cache footprint to 890 bytes per token. Its persistent KV cache footprint is roughly 1/8 of that of DeepSeek-V4-Flash. The model delivers substantially better performance than the baseline despite its much smaller KV cache footprint.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://claude.dev/blog/solving-code-review-at-anthropic/"&gt;How the Claude Code team does code review&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Claude Code team has restructured its code review process to handle increased volume efficiently by automating most review stages. Key changes include continuous review, automated verifications, multi-layer checks before human intervention, and a tiered risk system for approvals.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"&gt;Replit Switches Its Default AI Provider to OpenAI&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Replit replaced Anthropic with OpenAI as its preferred provider for Replit Agent, citing cost, performance, and partnership considerations. CEO Amjad Masad clarified that users could still select Claude and other supported models.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.mercor.com/research/labor-index/benchmark-map/"&gt;A benchmark map of the US economy&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Benchmark Map is a project aimed at building a comprehensive, continuously updated resource for understanding AI capabilities across the economy. Initial findings suggest that 90% of American working hours are spent on tasks with little or no coverage from existing benchmarks. This makes it very hard to know how good AI models are at the work Americans actually do.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/research/ecdsa-curve-origins"&gt;Claude reveals ECDSA curve origins&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Claude revealed the origins of ECDSA curve seeds, showing they were derived using a C library&amp;#x27;s lrand48 random number generator seeded with Unix timestamps, rather than hash algorithms or backdoors.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/stack-overflow-chatgpt-plugin"&gt;Stack Overflow for Agents triples signups with ChatGPT plugin&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Stack Overflow for Agents saw a 3x increase in signups overnight after integrating a ChatGPT plugin.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://thenextweb.com/news/qualcomm-cristiano-amon-ai-companies-phones-2028"&gt;Qualcomm says AI labs want 100B-parameter models running on phones by 2028&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;AI companies want phones that run 100B-plus-parameter models continuously by 2028, and some are already starting to build their own phones.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
