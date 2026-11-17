@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 13 Nov 2026 14:57:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 19:55:55 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 16 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:4efd4726adca7b1d</guid>
+      <pubDate>Mon, 16 Nov 2026 19:55:55 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Benchmarks Don't Talk Back: Learning Through Self-Disagreement
+• Position: Agentic Safety is an Epistemic Property, Not a Behavioral One
+• Profiling the Irrational Agent: Cognitive Modeling of LLM Behaviors in Sequential Jailbreaks
+• Reasoning Models Confabulate to Defend Injected Beliefs About Their Own Requests
+• Alignment with Reflect-Reasoning: Learning How To Follow Principles</description>
+      <content:encoded>&lt;p&gt;Matched 105 of 1741 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Benchmarks+Don%27t+Talk+Back%3A+Learning+Through+Self-Disagreement&amp;amp;searchtype=title"&gt;&lt;strong&gt;Benchmarks Don't Talk Back: Learning Through Self-Disagreement&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Soheil Abbasloo, Peng Cheng&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 12) · relevance 96&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Position%3A+Agentic+Safety+is+an+Epistemic+Property%2C+Not+a+Behavioral+One%22"&gt;&lt;strong&gt;Position: Agentic Safety is an Epistemic Property, Not a Behavioral One&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Charles L. Wang, Keir Dorchen, Peter Jin&lt;br&gt;&lt;small&gt;relevance 89&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Profiling+the+Irrational+Agent%3A+Cognitive+Modeling+of+LLM+Behaviors+in+Sequential+Jailbreaks%22"&gt;&lt;strong&gt;Profiling the Irrational Agent: Cognitive Modeling of LLM Behaviors in Sequential Jailbreaks&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Xikang Yang, Biyu Zhou, Xuehai Tang, Jizhong Han, Songlin Hu&lt;br&gt;&lt;small&gt;relevance 89&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Reasoning+Models+Confabulate+to+Defend+Injected+Beliefs+About+Their+Own+Requests&amp;amp;searchtype=title"&gt;&lt;strong&gt;Reasoning Models Confabulate to Defend Injected Beliefs About Their Own Requests&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yang Ou&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 13) · relevance 88&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Alignment+with+Reflect-Reasoning%3A+Learning+How+To+Follow+Principles&amp;amp;searchtype=title"&gt;&lt;strong&gt;Alignment with Reflect-Reasoning: Learning How To Follow Principles&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Henry Bell, Caroline Zhang, Dhaval Potdar, Mohammed Mobasserul Haque, Brandon Fain&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 12) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 13 Nov 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>

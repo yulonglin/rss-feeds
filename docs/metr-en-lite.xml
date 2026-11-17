@@ -9,7 +9,13 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/metr-en-lite.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://metr.org/" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 05 Nov 2026 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 00:00:00 -0800</lastBuildDate>
+    <item>
+      <title>Measuring alignment eval tells</title>
+      <link>https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/</link>
+      <guid isPermaLink="true">https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 -0800</pubDate>
+    </item>
     <item>
       <title>Review of the "Risks from automated R&amp;D" section in Anthropic's Risk Report (August 2026)</title>
       <link>https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/</link>
