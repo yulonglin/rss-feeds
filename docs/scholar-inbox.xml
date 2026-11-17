@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Mon, 16 Nov 2026 19:55:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 13:39:04 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 17 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:2fa39a1eb6f7fe94</guid>
+      <pubDate>Tue, 17 Nov 2026 13:39:04 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Model Immunization Beyond Condition Numbers: The Importance of Plateau Regions
+• Instrumenting Failure: Scoring Language Model Agents at Every Decision Node in Imperfect-Information Games
+• Grounding Language Models in Speech Does Not Fix "AI Flavor": Calibrated LLM Judges, Goodhart Traps, and a Preference-Tuning Fix
+• A Backdoor Trigger Is Legible in Fine-Tune Weights
+• Abstention Direction in Large Language Models: Mechanistic Interpretability of Abstention Across Query Ambiguity, Knowledge Limits, and Safety Alignment</description>
+      <content:encoded>&lt;p&gt;Matched 86 of 2392 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Model+Immunization+Beyond+Condition+Numbers%3A+The+Importance+of+Plateau+Regions&amp;amp;searchtype=title"&gt;&lt;strong&gt;Model Immunization Beyond Condition Numbers: The Importance of Plateau Regions&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Quoc Nguyen, Trung Le, Dinh Phung, Mehrtash Harandi&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 16) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Instrumenting+Failure%3A+Scoring+Language+Model+Agents+at+Every+Decision+Node+in+Imperfect-Information+Games&amp;amp;searchtype=title"&gt;&lt;strong&gt;Instrumenting Failure: Scoring Language Model Agents at Every Decision Node in Imperfect-Information Games&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Michael Kingston, Sonit Singh, Alan Blair&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 16) · relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Grounding+Language+Models+in+Speech+Does+Not+Fix+%22AI+Flavor%22%3A+Calibrated+LLM+Judges%2C+Goodhart+Traps%2C+and+a+Preference-Tuning+Fix&amp;amp;searchtype=title"&gt;&lt;strong&gt;Grounding Language Models in Speech Does Not Fix "AI Flavor": Calibrated LLM Judges, Goodhart Traps, and a Preference-Tuning Fix&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Dongwu Qian&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 15) · relevance 75&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=A+Backdoor+Trigger+Is+Legible+in+Fine-Tune+Weights&amp;amp;searchtype=title"&gt;&lt;strong&gt;A Backdoor Trigger Is Legible in Fine-Tune Weights&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Snigdha Chandan Khilar&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 14) · relevance 75&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Abstention+Direction+in+Large+Language+Models%3A+Mechanistic+Interpretability+of+Abstention+Across+Query+Ambiguity%2C+Knowledge+Limits%2C+and+Safety+Alignment&amp;amp;searchtype=title"&gt;&lt;strong&gt;Abstention Direction in Large Language Models: Mechanistic Interpretability of Abstention Across Query Ambiguity, Knowledge Limits, and Safety Alignment&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Koki Itai, Jun Hirako, Hiroaki Yamagiwa&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 16) · relevance 72&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 16 Nov 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
