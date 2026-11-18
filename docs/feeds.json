@@ -1,7 +1,7 @@
 {
   "site": "https://feeds.yulonglin.com/",
   "repo": "https://github.com/yulonglin/rss-feeds",
-  "generated": "2026-11-17",
+  "generated": "2026-11-18",
   "feeds": [
     {
       "slug": "openai-alignment-research",
@@ -83,8 +83,8 @@
       "source_url": "https://deploymentsafety.openai.com/",
       "upstream_status": "A /posts.xml exists but is a broken dev build: zero items and a localhost link.",
       "notes": "",
-      "items": 33,
-      "newest": "2026-11-16",
+      "items": 34,
+      "newest": "2026-11-17",
       "healthy": true
     },
     {
@@ -294,7 +294,7 @@
       "upstream_status": "The old /home/rss feed is gone, and every gatesnotes.com page answers scripts with a 403. Read from the content API the site itself is built from.",
       "notes": "",
       "items": 20,
-      "newest": "2026-11-10",
+      "newest": "2026-11-17",
       "healthy": true
     }
   ]
