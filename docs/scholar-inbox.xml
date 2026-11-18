@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Tue, 17 Nov 2026 13:39:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 14:43:27 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 18 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:aea1bd7d01aedfbc</guid>
+      <pubDate>Wed, 18 Nov 2026 14:43:27 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Worldviews in Large Language Models
+• Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability
+• Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents
+• Stopping Is Not the Limit: Understanding and Eliciting Agent Capability in Long-Horizon Vulnerability Exploitation
+• Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research</description>
+      <content:encoded>&lt;p&gt;Matched 84 of 2765 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Worldviews+in+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Worldviews in Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Edmundo Lopez-Sola, Shamil Chandaria, Ruben Laukkonen&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 17) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Chain-of-Thought+Controllability+Can+Reduce+Chain-of-Thought+Monitorability&amp;amp;searchtype=title"&gt;&lt;strong&gt;Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Zheng-Xin Yong, Benjamin Arnav, Miles Wang, Tomek Korbak, Olivia Watkins&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 16) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Thinking+Harder+Doesn%27t+Lead+to+Better+Choices%3A+Reasoning+Effort+Increases+the+Confidence+but+Not+the+Correctness+of+LLM+Shopping+Agents&amp;amp;searchtype=title"&gt;&lt;strong&gt;Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Adi Krishnamoorthy, X.Y. Han&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 17) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Stopping+Is+Not+the+Limit%3A+Understanding+and+Eliciting+Agent+Capability+in+Long-Horizon+Vulnerability+Exploitation&amp;amp;searchtype=title"&gt;&lt;strong&gt;Stopping Is Not the Limit: Understanding and Eliciting Agent Capability in Long-Horizon Vulnerability Exploitation&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Deokhyung Kang, Minjae Gwon, Sangdon Park&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 17) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Auditors+Struggle+to+Catch+Sabotage+In+End-to-End+Transcripts+of+AI+Safety+Research&amp;amp;searchtype=title"&gt;&lt;strong&gt;Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Keshav Shenoy, Anthony Zang, Eric Gan, Jacqueline Tay, Amy Ngo, Sebastian Prasanna, Julian Stastny, Vivek Hebbar&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 16) · relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 17 Nov 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
@@ -449,27 +470,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Training+Natural+Schemers%3A+RL+Can+Amplify+Oversight-Conditional+Behavior&amp;amp;searchtype=title"&gt;&lt;strong&gt;Training Natural Schemers: RL Can Amplify Oversight-Conditional Behavior&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Bart Jaworski, Nathaniel Mitrani, Fred Bruford, Victoria Krakovna&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 19) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Safety+Mid-Training%3A+Internalizing+LLM+Safety+as+a+Foundational+Capability&amp;amp;searchtype=title"&gt;&lt;strong&gt;Safety Mid-Training: Internalizing LLM Safety as a Foundational Capability&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Zhengyue Zhao, Liwei Jiang, Yejin Choi, Chaowei Xiao1&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 19) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=The+Window+Is+in+the+Reasoning%3A+When+LLM+Agents+Decide+to+Follow+Prompt+Injections&amp;amp;searchtype=title"&gt;&lt;strong&gt;The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Haoxuan Jia, Yang Liu, Bin Chong, Yingguang Yang, Yancheng Chen, Jiayu Liang, Qian Li, Hanning Lu, Kefu Xu, ..., Hao Peng&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 16) · relevance 89&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Scholar Inbox, 19 Oct 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:a0832cf0e4e7aade</guid>
-      <pubDate>Mon, 19 Oct 2026 15:57:50 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• Can LLMs predict the outcomes of machine learning experiments?
-• Language Models Learn to Improve Language Models
-• Compression Precedes, Content Decides: Emergent Misalignment in Reward Models
-• ECHO: Replacing the Compliance Proxy with Response Harmfulness in Optimization-Based Jailbreak Attack
-• Refusal Is Not Robustness: Measuring Harmful Reachability in Autoregressive Language Models</description>
-      <content:encoded>&lt;p&gt;Matched 96 of 1619 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Can+LLMs+predict+the+outcomes+of+machine+learning+experiments%3F&amp;amp;searchtype=title"&gt;&lt;strong&gt;Can LLMs predict the outcomes of machine learning experiments?&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ayush Bansal, Aldo Pareja, Sean Klein, Serge Didenko, Artem Lukoianov&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 15) · relevance 90&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Language+Models+Learn+to+Improve+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Language Models Learn to Improve Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Minhua Lin, Zijun Wang, Zewen Liu, Zhaotian Weng, Bing He, Zhan Shi, Benoit Dumoulin, Xiang Zhang, Suhang Wang, Hanqing Lu&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 16) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Compression+Precedes%2C+Content+Decides%3A+Emergent+Misalignment+in+Reward+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Compression Precedes, Content Decides: Emergent Misalignment in Reward Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Dhruv Puri, Nikhil Prakash&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 16) · relevance 82&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=ECHO%3A+Replacing+the+Compliance+Proxy+with+Response+Harmfulness+in+Optimization-Based+Jailbreak+Attack&amp;amp;searchtype=title"&gt;&lt;strong&gt;ECHO: Replacing the Compliance Proxy with Response Harmfulness in Optimization-Based Jailbreak Attack&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yuanwei Wu, Lingdong Huang, Yunlong Mao, Kanye Ye Wang, Jingyu Hua, Sheng Zhong&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 16) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Refusal+Is+Not+Robustness%3A+Measuring+Harmful+Reachability+in+Autoregressive+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Refusal Is Not Robustness: Measuring Harmful Reachability in Autoregressive Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Parv Kapoor and Teresa Fortes and Claudia Mamede and Rui Abreu and Jonathan Aldrich, Eunsuk Kang&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 15) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
   </channel>
