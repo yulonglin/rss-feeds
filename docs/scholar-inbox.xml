@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 18 Nov 2026 14:43:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 13:08:50 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 19 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:1db93d8996bc8939</guid>
+      <pubDate>Thu, 19 Nov 2026 13:08:50 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Training Language Models for Introspective Oversight
+• Can you make models believe false facts in the prompt?
+• Learning through Discernment: when a small language model learns from user feedback on the job, and when it decays
+• General progress substitutes for specific training data in language models
+• FutureBench: A Renewable Framework for Evaluating Knowledge-Context Conflict in LLMs</description>
+      <content:encoded>&lt;p&gt;Matched 57 of 1980 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Training+Language+Models+for+Introspective+Oversight&amp;amp;searchtype=title"&gt;&lt;strong&gt;Training Language Models for Introspective Oversight&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Alex Lin Wang, Linus Yifeng Tang, Dami Choi, Neil Chowdhury&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 17) · relevance 94&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Can+you+make+models+believe+false+facts+in+the+prompt%3F&amp;amp;searchtype=title"&gt;&lt;strong&gt;Can you make models believe false facts in the prompt?&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ananya Sutradhar, Fabien Roger&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 18) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Learning+through+Discernment%3A+when+a+small+language+model+learns+from+user+feedback+on+the+job%2C+and+when+it+decays&amp;amp;searchtype=title"&gt;&lt;strong&gt;Learning through Discernment: when a small language model learns from user feedback on the job, and when it decays&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Sirisilp Kongsilp&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 18) · relevance 76&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=General+progress+substitutes+for+specific+training+data+in+language+models&amp;amp;searchtype=title"&gt;&lt;strong&gt;General progress substitutes for specific training data in language models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Mark Marosi, Peter Antal&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 18) · relevance 71&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=FutureBench%3A+A+Renewable+Framework+for+Evaluating+Knowledge-Context+Conflict+in+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;FutureBench: A Renewable Framework for Evaluating Knowledge-Context Conflict in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yi-Cheng Lai, Hen-Hsen Huang&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 17) · relevance 69&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 18 Nov 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
