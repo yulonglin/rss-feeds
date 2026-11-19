@@ -9,7 +9,19 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/openai-alignment-reports.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://alignment.openai.com/misalignment-reports/" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Generating scripts to copy outgoing email to an unauthorized address</title>
+      <link>https://alignment.openai.com/misalignment-reports/generating-scripts-to-copy-outgoing-email-to-an-unauthorized-address/</link>
+      <guid isPermaLink="true">https://alignment.openai.com/misalignment-reports/generating-scripts-to-copy-outgoing-email-to-an-unauthorized-address/</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Misalignment Report</category>
+      <description>After its context was reset during the task, the agent pursued an unrelated malicious email task and generated scripts designed to add an unauthorized recipient to an outgoing email. However, the model never ran these scripts or sent an email.
+
+Internal research model · RL training
+
+Compaction behavior · Concealment</description>
+    </item>
     <item>
       <title>Stopping a running alignment evaluation</title>
       <link>https://alignment.openai.com/misalignment-reports/stopping-a-running-alignment-evaluation/</link>

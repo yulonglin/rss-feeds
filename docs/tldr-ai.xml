@@ -23,14 +23,14 @@
 • Horizon Labs
 • Weight-Space Programming builds neural networks like a 1990s researcher
 • Vercel's eve 1.0
+• Co-Designing Sparse Attention for Efficient Long-Context Inference
 • Become a founding member of TLDR's AI community
 • FrontierHarness Eval v1.1
-• Co-Designing Sparse Attention for Efficient Long-Context Inference
 • Cerebras launches disaggregated inference
 • How should we define “capabilities activities” for the purpose of pacing?
-• Introducing Computer's Multiagent effort level
 • Microsoft-Decision-1.1 is now generally available for fast, low-cost decision making
 • Gemini Can Now Make Calls and Pay Bills
+• Introducing Computer's Multiagent effort level
 • Experiments in Weight-Space Programming</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://openai.com/index/introducing-gpt-6-2-astra-sol/"&gt;Introducing GPT-6.2 Astra and Sol&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
@@ -47,24 +47,24 @@
 &lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://vercel.com/blog/eve-is-now-generally-available"&gt;Vercel&amp;#x27;s eve 1.0&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Vercel released eve 1.0, its open-source framework for building production-ready AI agents. It manages the loop that calls models and runs tools, along with memory, approvals, and monitoring.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/"&gt;Co-Designing Sparse Attention for Efficient Long-Context Inference&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;NVIDIA&amp;#x27;s sparse attention technique reduces compute and memory costs for transformers, solving bottlenecks in long-context inference by focusing on selective attention. Indexers in sparse attention score a subset of keys efficiently, aided by techniques like speculative decoding, cross-head reduction, and block-level selection to optimize performance on NVIDIA GPUs.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://danni763618.typeform.com/to/H1tYViME"&gt;Become a founding member of TLDR&amp;#x27;s AI community&lt;/a&gt; &lt;small&gt;· 2 minute form&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;TLDR is launching a curated community for AI builders to discuss major news and launches. The best links and comments will be featured in TLDR AI. &lt;a href="https://danni763618.typeform.com/to/H1tYViME" rel="noopener noreferrer" target="_blank"&gt;Apply here to join&lt;/a&gt;.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://runta.com/blog/introducing-frontierharness-eval-v1-1/"&gt;FrontierHarness Eval v1.1&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;The best coding-agent harness, the software that runs a model on a task, depends on the model. Harness choice alone can change cost per task by up to five times.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/"&gt;Co-Designing Sparse Attention for Efficient Long-Context Inference&lt;/a&gt; &lt;small&gt;· 17 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;NVIDIA&amp;#x27;s sparse attention technique reduces compute and memory costs for transformers, solving bottlenecks in long-context inference by focusing on selective attention. Indexers in sparse attention score a subset of keys efficiently, aided by techniques like speculative decoding, cross-head reduction, and block-level selection to optimize performance on NVIDIA GPUs.&lt;/p&gt;
 &lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference"&gt;Cerebras launches disaggregated inference&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Cerebras&amp;#x27; disaggregated inference service lets GPUs handle prompt processing while the company&amp;#x27;s systems handle output generation. The solution delivers five times more tokens per megawatt at the same ultrafast speeds. It allows Cerebras and partners to serve many more ultrafast tokens. Disaggregated inference is now in early access, and access is being expanded.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://blog.redwoodresearch.org/p/how-should-we-define-capabilities"&gt;How should we define “capabilities activities” for the purpose of pacing?&lt;/a&gt; &lt;small&gt;· 21 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;There is an urgent need to pace the frontier. This requires good, publicly verified measures of how much compute is being spent on pushing the frontier forward. Anthropic has already published estimates of how much of its AI R&amp;amp;D is safety research. AI developers should let third-party auditors measure and report how much compute AI companies are allocating to capabilities and non-capabilities activities.&lt;/p&gt;
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/introducing-computer-multiagent"&gt;Introducing Computer&amp;#x27;s Multiagent effort level&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Computer&amp;#x27;s Multiagent, a new effort level, enhances complex problem-solving by using multiple agents working in parallel.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://commandline.microsoft.com/microsoft-decision-model-ga/"&gt;Microsoft-Decision-1.1 is now generally available for fast, low-cost decision making&lt;/a&gt; &lt;small&gt;· 34 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Microsoft&amp;#x27;s decision models are designed to make calibrated decisions in the face of uncertainty across a wide range of real-world software use cases.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"&gt;Gemini Can Now Make Calls and Pay Bills&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Google&amp;#x27;s Gemini app can now handle tasks like calling businesses, booking appointments, and shopping within a spending limit.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/introducing-computer-multiagent"&gt;Introducing Computer&amp;#x27;s Multiagent effort level&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Computer&amp;#x27;s Multiagent, a new effort level, enhances complex problem-solving by using multiple agents working in parallel.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://jacobstrauss.bearblog.dev/experiments-in-weight-space-programming/"&gt;Experiments in Weight-Space Programming&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;GPT-6 Astra can look at an AI model, identify what task the network was built for just by looking at its raw weights, write the weights of a game-playing policy network from scratch, and improve models by editing model weights directly.&lt;/p&gt;</content:encoded>
     </item>
@@ -86,10 +86,10 @@
 • Unlocking Stable On-Policy RL on TPU with Bitwise-Zero Train–Inference Mismatch
 • OpenAI's first phase of embedded assessments
 • The frontier is still open
-• California state AG sues OpenAI over rogue agent incidents
 • How the Claude Code team thinks about verification
 • Gemini Notebook Turns Sources Into Interactive Sites
-• Advancing computer-use agents for healthcare teams</description>
+• Advancing computer-use agents for healthcare teams
+• California state AG sues OpenAI over rogue agent incidents</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://blogs.nvidia.com/blog/rubin-hpc/"&gt;NVIDIA&amp;#x27;s Rubin HPC&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Rubin HPC is a new Nvidia GPU designed to speed up the simulations AI agents use in science, engineering, and analytics. It has more than 50,000 cores, a record for a single GPU. It is expected to be available in 2028.&lt;/p&gt;
@@ -117,14 +117,14 @@
 &lt;h4&gt;&lt;a href="https://research.perplexity.ai/"&gt;The frontier is still open&lt;/a&gt; &lt;small&gt;· 16 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Perplexity Frontier Research is a new initiative at Perplexity that aims to build new algorithms, models, and evaluations in the open, with the mission of building an automated scientist. Applications are now open until December 5. The research effort will be supported by 10,000 GPUs. Results from the initiative will ship as papers, blog posts, model weights, and open repositories.&lt;/p&gt;
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"&gt;California state AG sues OpenAI over rogue agent incidents&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The complaint centers on the Hugging Face incident, but it also cites other incidents as evidence that the underlying behavior is ongoing.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/"&gt;How the Claude Code team thinks about verification&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Strong automated checks are what let teams run dozens or hundreds of coding agents in parallel.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/"&gt;Gemini Notebook Turns Sources Into Interactive Sites&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Gemini Notebook can now turn uploaded sources into shareable interactive sites.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://openai.com/index/advancing-computer-use-for-healthcare-teams"&gt;Advancing computer-use agents for healthcare teams&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI&amp;#x27;s computer-use agents streamline healthcare workflows by automating repetitive tasks like MRI authorizations and administrative processes.&lt;/p&gt;</content:encoded>
+&lt;p&gt;OpenAI&amp;#x27;s computer-use agents streamline healthcare workflows by automating repetitive tasks like MRI authorizations and administrative processes.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"&gt;California state AG sues OpenAI over rogue agent incidents&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The complaint centers on the Hugging Face incident, but it also cites other incidents as evidence that the underlying behavior is ongoing.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>ChatGPT Wallet 💳, Devin Apps 🛠️, always-on agents ⚡</title>
