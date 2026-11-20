@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 19 Nov 2026 13:08:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 12:28:18 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 20 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:1cdd99a533d796c3</guid>
+      <pubDate>Fri, 20 Nov 2026 12:28:18 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Calibrated Decision Rewards: Training Language Models with a Judge That Knows How Sure It Is
+• What If Chain-of-Thought Is Not Enough?
+• RL Can Only Reinforce What It Sees Succeed
+• Bradley-Terry Training Can Distort Outcome Probabilities of Initially Accurate Language World Models
+• Pandora's Toolbox Or Why Agent Safety Cannot Be Verified</description>
+      <content:encoded>&lt;p&gt;Matched 67 of 1942 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Calibrated+Decision+Rewards%3A+Training+Language+Models+with+a+Judge+That+Knows+How+Sure+It+Is&amp;amp;searchtype=title"&gt;&lt;strong&gt;Calibrated Decision Rewards: Training Language Models with a Judge That Knows How Sure It Is&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Rudransh Agnihotri, Manasvi Kapoor&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 18) · relevance 84&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=What+If+Chain-of-Thought+Is+Not+Enough%3F&amp;amp;searchtype=title"&gt;&lt;strong&gt;What If Chain-of-Thought Is Not Enough?&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Marc Jansen&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 19) · relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=RL+Can+Only+Reinforce+What+It+Sees+Succeed&amp;amp;searchtype=title"&gt;&lt;strong&gt;RL Can Only Reinforce What It Sees Succeed&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ruben Sanchez-Corcuera, Unai Zulaika, Aritz Bilbao-Jayo, Miguel Fernandez-de-Retana&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 19) · relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Bradley-Terry+Training+Can+Distort+Outcome+Probabilities+of+Initially+Accurate+Language+World+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;Bradley-Terry Training Can Distort Outcome Probabilities of Initially Accurate Language World Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Xinze Shi, Litian Zhang, Zhenjie Su, Zelong Yu, Yuting Zhang, Qihua Feng, Zifeng Kang, Chaozhuo Li, Zhengxuan Hu&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 19) · relevance 79&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Pandora%27s+Toolbox+Or+Why+Agent+Safety+Cannot+Be+Verified&amp;amp;searchtype=title"&gt;&lt;strong&gt;Pandora's Toolbox Or Why Agent Safety Cannot Be Verified&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Mario Franco, Carlos Gershenson&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 19) · relevance 75&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 19 Nov 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
@@ -449,27 +470,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=LIFT%3A+Scoped+Constraints+for+Evaluating+and+Training+Instruction+Following&amp;amp;searchtype=title"&gt;&lt;strong&gt;LIFT: Scoped Constraints for Evaluating and Training Instruction Following&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Eran Goldstein, Yuval Belfer, Yonatan Belinkov, Daniel Gissin&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 20) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Flat-RLVR%3A+Sharpness-Aware+Reinforcement+Learning+with+Verifiable+Rewards+for+Reasoning+Capacity+in+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Flat-RLVR: Sharpness-Aware Reinforcement Learning with Verifiable Rewards for Reasoning Capacity in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yeonbum Kim, Hyun Kyu Lee, Sung Whan Yoon&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 21) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=SimHack%3A+Predicting+the+onset+of+detectable+reward+hacking+before+RL+training&amp;amp;searchtype=title"&gt;&lt;strong&gt;SimHack: Predicting the onset of detectable reward hacking before RL training&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Junwei Deng, Alex Bie, Natalia Ponomareva&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 20) · relevance 76&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Scholar Inbox, 21 Oct 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:bb672c9e0999bf41</guid>
-      <pubDate>Wed, 21 Oct 2026 09:34:16 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• Reward Misspecification Degrades Chain-of-Thought Monitorability
-• Why Static Probes Fail: Context Determines Deception Feature Composition
-• Fundamental Impossibility Results in AI Safety: Trading Off between Desiderata
-• RSI Control: Can AI Models Perform Covert Sabotage in the Self-Improvement Process?
-• Teaching AI Agent to Play Poker Strategically Through Preference Optimization</description>
-      <content:encoded>&lt;p&gt;Matched 86 of 2052 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Reward+Misspecification+Degrades+Chain-of-Thought+Monitorability&amp;amp;searchtype=title"&gt;&lt;strong&gt;Reward Misspecification Degrades Chain-of-Thought Monitorability&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Tianyi Lorena Yan, John Hewitt&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 20) · relevance 97&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Why+Static+Probes+Fail%3A+Context+Determines+Deception+Feature+Composition&amp;amp;searchtype=title"&gt;&lt;strong&gt;Why Static Probes Fail: Context Determines Deception Feature Composition&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yao Huang, Siyuan Chen, Zhenghan Zhou, Yinpeng Dong&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 20) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Fundamental+Impossibility+Results+in+AI+Safety%3A+Trading+Off+between+Desiderata&amp;amp;searchtype=title"&gt;&lt;strong&gt;Fundamental Impossibility Results in AI Safety: Trading Off between Desiderata&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ida Mattsson, Ratip Emin Berker, Emanuel Tewolde, Ioannis Anagnostides, Kiriaki Fragkia, Xinyu Liu, Alexander Heckett, Jiayuan Liu, Eden Hartman, ..., Vincent Conitzer&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 19) · relevance 82&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=RSI+Control%3A+Can+AI+Models+Perform+Covert+Sabotage+in+the+Self-Improvement+Process%3F&amp;amp;searchtype=title"&gt;&lt;strong&gt;RSI Control: Can AI Models Perform Covert Sabotage in the Self-Improvement Process?&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Kaiwen Zhou, Udari Madhushani Sehwag&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 20) · relevance 82&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Teaching+AI+Agent+to+Play+Poker+Strategically+Through+Preference+Optimization&amp;amp;searchtype=title"&gt;&lt;strong&gt;Teaching AI Agent to Play Poker Strategically Through Preference Optimization&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Phurinat Polasa, Thanapon Thanadunpremdet, Phatthanasak Kraiduang, Saksorn Ruangtanusak&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 19) · relevance 75&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
   </channel>

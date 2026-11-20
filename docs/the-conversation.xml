@@ -9,7 +9,93 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/the-conversation.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://theconversation.com/global/newsletters" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 18 Nov 2026 13:23:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 13:32:39 +0000</lastBuildDate>
+    <item>
+      <title>Verifying AI output can be a drag</title>
+      <link>https://theconversation.com/catching-ais-mistakes-is-a-mental-burden-and-a-drag-on-productivity-291748</link>
+      <guid isPermaLink="false">the-conversation:5482c1524bc82de6</guid>
+      <pubDate>Fri, 20 Nov 2026 13:32:39 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Global daily</category>
+      <description>• Catching AI’s mistakes is a mental burden – and a drag on productivity
+• Why using a chatbot as your lawyer is a risky move – and ties up our court system
+• What does an ‘AI-generated’ label in advertising actually tell us?
+• ‘Strict liability’: The legal standard that could help rein in AI
+• Data centres may consume far more water than developers suggest</description>
+      <content:encoded>&lt;p&gt;People whose jobs involve using AI may find their workload shifting from carrying out a task to verifying that the AI tool did the task correctly. A cognitive engineer explains how this shift changes the skills workers need and adds a cognitive burden, one that organizations may fail to recognize.&lt;/p&gt;
+&lt;p&gt;Also this week, why it’s a bad idea to go with a chatbot instead of a lawyer, how the label “AI-generated” on an advertisement doesn’t tell you enough about how the ad was made, and why putting AI in the same category as explosives could help keep the industry in line.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Eric Smalley&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Science + Technology Editor&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lead story&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/771740/original/file-20261112-64-y5yp1y.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C5760%2C3240&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/catching-ais-mistakes-is-a-mental-burden-and-a-drag-on-productivity-291748"&gt;Catching AI’s mistakes is a mental burden – and a drag on productivity&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Karen Feigh, Georgia Institute of Technology&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The time, energy and skills needed to verify AI’s answers to your queries can erase any productivity gains that the technology provides.&lt;/p&gt;
+&lt;p&gt;When automation usually performs well, checking can feel unproductive, and people may gradually become less vigilant&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Risks&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/772681/original/file-20261118-64-37obti.png?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C1600%2C900&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/why-using-a-chatbot-as-your-lawyer-is-a-risky-move-and-ties-up-our-court-system-296255"&gt;Why using a chatbot as your lawyer is a risky move – and ties up our court system&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Felicity Bell, UNSW ; Michael Legg, UNSW ; Vicki McNamara, UNSW&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Self-represented litigants are increasingly using AI in their court cases. It’s a huge risk and a burden on the court system.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/771542/original/file-20261112-64-e26hpg.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C8000%2C4500&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/what-does-an-ai-generated-label-in-advertising-actually-tell-us-293457"&gt;What does an ‘AI-generated’ label in advertising actually tell us?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Denitsa Dineva, Cardiff University; Oguz A. Acar, King&amp;#x27;s College London&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Humans and machines collaborate on content, but levels of involvement can vary.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Regulation&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/772279/original/file-20261116-64-rnhitg.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C297%2C5801%2C3263&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/strict-liability-the-legal-standard-that-could-help-rein-in-ai-295390"&gt;‘Strict liability’: The legal standard that could help rein in AI&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Deven Desai, Georgia Institute of Technology&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Making AI accountable for “strict liability” in court would shift risk from the public to the companies seeking fortunes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Environment + Energy&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/771159/original/file-20261110-78-tric5l.JPG?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C1920%2C1080&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/data-centres-may-consume-far-more-water-than-developers-suggest-296245"&gt;Data centres may consume far more water than developers suggest&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Corwyn Shomachuk, University of Saskatchewan&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;To get a complete picture of their water use, data centres must account for both onsite water use and the water used elsewhere to generate the power they need.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>A landmark genocide ruling</title>
+      <link>https://theconversation.com/myanmar-genocide-ruling-is-a-watershed-moment-in-international-justice-with-huge-ramifications-for-other-cases-296987</link>
+      <guid isPermaLink="false">the-conversation:b7f772c85ba41a3b</guid>
+      <pubDate>Fri, 20 Nov 2026 12:27:46 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Global daily</category>
+      <description>• Myanmar genocide ruling is a watershed moment in international justice – with huge ramifications for other cases
+• Xi-Putin-Trump summit was heavy on symbolism, light on substance – and not exactly a Yalta II
+• ‘Spermmaxxing’ promises better fertility, but the evidence is thin
+• The most iconic sports film of all time taught us winning isn’t everything: 50 years of Rocky</description>
+      <content:encoded>&lt;p&gt;From camps in Bangladesh, Rohingya refugees cheered as a ruling was handed down in a European administrative capital following the actions of a small nation in Africa.&lt;/p&gt;
+&lt;p&gt;Gambia v. Myanmar will stand as a milestone in international law. For the first time, a nation-state was found to have committed genocide in violation to the 1948 United Nations Genocide Convention.&lt;/p&gt;
+&lt;p&gt;The fallout for Myanmar’s military government will be substantial. First, it will have to bear the reputational costs. The United Kingdom got out of the gate quickly by expelling Myanmar’s defense attaché; other nations may follow suit. &lt;/p&gt;
+&lt;p&gt;The Southeast Asian country’s ruling generals will now need to put in place a comprehensive program of reparations and compensation for its persecuted minority, if they are to abide by the court’s order.&lt;/p&gt;
+&lt;p&gt;But as Max Pensky, co-director of Binghamton University’s Institute for Genocide and Mass Atrocity Prevention, notes, the ruling’s consequences extend far beyond Myanmar. &lt;/p&gt;
+&lt;p&gt;“It is a watershed moment for international legal justice that is bound to have important effects on the court’s other ongoing genocide cases, particularly the case of South Africa v. Israel,” Pensky writes, in a nod to the court’s ongoing case looking at allegations that accuse Israel of genocide against Palestinians in Gaza.&lt;/p&gt;
+&lt;p&gt;Elsewhere this week, we analyzed the symbolism – and a bit of the substance – of the Trump-Xi-Putin summit and dived into the world of “Spermmaxxing.”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Matt Williams&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Senior International Editor&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Top story&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/773046/original/file-20261119-64-n2kimy.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C280%2C5374%2C3022&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;p&gt;International Court of Justice President Iwasawa Yuji reads the court’s judgment in The Hague on Nov. 19, 2026. Jeroen Jumelet/ANP/AFP via Getty Images&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/myanmar-genocide-ruling-is-a-watershed-moment-in-international-justice-with-huge-ramifications-for-other-cases-296987"&gt;Myanmar genocide ruling is a watershed moment in international justice – with huge ramifications for other cases&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Max Pensky, Binghamton University, State University of New York&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The International Court of Justice’s historic finding against the leaders who directed attacks against the Rohingya may affect other cases, including against Israel.&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/773074/original/file-20261119-64-eay814.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C5970%2C3358&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;p&gt;China’s Xi Jinping places himself firmly in the center of the trilateral summit with Vladimir Putin and Donald Trump. Doug Mills/Getty Images&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/xi-putin-trump-summit-was-heavy-on-symbolism-light-on-substance-and-not-exactly-a-yalta-ii-297087"&gt;Xi-Putin-Trump summit was heavy on symbolism, light on substance – and not exactly a Yalta II&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Rana Mitter, Harvard Kennedy School&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;At an eagerly anticipated summit, the leaders of China, Russia and US discussed nuclear weapons – but not much else.&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/768626/original/file-20261027-52-95w9rs.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C313%2C6000%2C3375&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;p&gt;Sperm count is only one measure of sperm quality. How well sperm move and the health of their genetic material also influence fertility. Pixel-Shot/Shutterstock&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/spermmaxxing-promises-better-fertility-but-the-evidence-is-thin-295315"&gt;‘Spermmaxxing’ promises better fertility, but the evidence is thin&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Michael Carroll, Manchester Metropolitan University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;From red-light gadgets to ice packs and testosterone supplements, social media is full of sperm-boosting advice. A reproductive scientist examines the evidence.&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/772684/original/file-20261118-64-94iees.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C15%2C1023%2C648&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;p&gt;&lt;strong&gt;IMDB&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/the-most-iconic-sports-film-of-all-time-taught-us-winning-isnt-everything-50-years-of-rocky-276876"&gt;The most iconic sports film of all time taught us winning isn’t everything: 50 years of Rocky&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Lisa J. Hackett, University of New England&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Rocky’s underdog story is in many ways also Sylvester Stallone’s story.&lt;/p&gt;
+&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/cop31-the-world-is-heading-for-climate-overshoot-the-un-summit-must-start-planning-for-what-comes-next-296769"&gt;Cop31: the world is heading for climate ‘overshoot’ – the UN summit must start planning for what comes next&lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Michael Jacobs, University of Sheffield &lt;/p&gt; &lt;p&gt;Small island states are pushing for urgent discussions about removing carbon dioxide and deliberately cooling the planet.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/us-and-iran-once-practiced-diplomacy-through-archaeology-that-legacy-need-not-lie-in-ruins-292886"&gt;US and Iran once practiced diplomacy through archaeology – that legacy need not lie in ruins&lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Kyle Olson, Washington University in St. Louis &lt;/p&gt; &lt;p&gt;Damage to heritage sites across Iran has been reported since the onset of war with Israel and the US in February.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/diplomacy-humour-and-avoidance-what-we-found-when-we-investigated-friendships-across-class-divides-296957"&gt;Diplomacy, humour and avoidance – what we found when we investigated friendships across class divides&lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Sam Friedman, London School of Economics and Political Science; Rose Butler, Deakin University &lt;/p&gt; &lt;p&gt;Previous research focused on the benefits for social mobility but cross-class friendships can be tricky to navigate.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/was-anthropics-record-us-81-billion-listing-a-vote-of-confidence-in-ai-and-whats-next-297151"&gt;Was Anthropic’s record US$81 billion listing a vote of confidence in AI – and what’s next?&lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Angel Zhong, RMIT University &lt;/p&gt; &lt;p&gt;Now that Anthropic has become a publicly listed company, the AI industry will come under even more intense scrutiny.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/elizabeth-holmes-went-from-a-startup-darling-to-powerful-seductress-these-gendered-portrayals-profited-investors-296733"&gt;Elizabeth Holmes went from a startup darling to powerful seductress – these gendered portrayals profited investors&lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Kate Kenny, University of Galway; Susi Geiger, University College Dublin &lt;/p&gt; &lt;p&gt;A female wunderkind, Holmes was presented an attractive prospect for investors. Later she was a presented as a dangerous siren who had lured them unawares.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/bond-has-always-reflected-the-masculinity-of-his-time-robert-pattinsons-007-will-need-to-embody-a-new-era-296807"&gt;Bond has always reflected the masculinity of his time – Robert Pattinson’s 007 will need to embody a new era&lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Monica Germanà, University of Westminster &lt;/p&gt; &lt;p&gt;Pattinson could be seen as the safe choice but his back catalogue belongs to an actor who is capable of surprise.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
+    </item>
     <item>
       <title>US states are going their own way on taxing the rich</title>
       <link>https://theconversation.com/while-californias-wealth-tax-failed-states-are-taking-other-steps-to-collect-more-revenue-from-the-rich-296103</link>
@@ -515,65 +601,6 @@
 &lt;p&gt;&lt;em&gt;Murugan Anandarajan, Drexel University&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Having a human “in the loop” overseeing when an AI makes a decision is important, but what happens to that responsible human over time when the AI gets it right over and over again?&lt;/p&gt;
 &lt;img src="https://images.theconversation.com/files/769147/original/file-20261029-64-plurid.png?ixlib=rb-4.1.1&amp;amp;q=70&amp;amp;auto=format&amp;amp;w=900&amp;amp;fit=clip" alt="How AI is shaping faith and spirituality webinar, join us Tuesday, November 17"&gt;</content:encoded>
-    </item>
-    <item>
-      <title>From psephology to spook-ology</title>
-      <link>https://theconversation.com/israel-has-voted-but-what-comes-next-dissecting-a-messy-ballot-and-coalition-building-process-295404</link>
-      <guid isPermaLink="false">the-conversation:72a5d526e7edd400</guid>
-      <pubDate>Fri, 30 Oct 2026 11:58:50 +0000</pubDate>
-      <dc:creator>The Conversation</dc:creator>
-      <category>Global daily</category>
-      <description>• Israel has voted, but what comes next? Dissecting a messy ballot and coalition-building process
-• Werewolf mice, ghostly frogs and zombie cockroaches: the animal versions of our Halloween horrors
-• Medieval ghost stories featured rotten flesh, the walking dead and spoon-stealing spirits
-• Buried cats, exorcisms and a sunken Colonel Sanders – the strange world of sporting curses
-• The female scream is now an all-powerful cry in horror films
-• I’ve been talking to MAGA supporters for years, and here’s why some are sticking with Trump — and others are not
-• Who mapped Africa? Debunking the myth that Europeans alone plotted the continent
-• Harry Kane wins Ballon d'Or – a victory for sportsmanship over celebrity</description>
-      <content:encoded>&lt;p&gt;Over the last few days, voters have opted for continuity in Brazil, change in Serbia, and in Israel … well, that is going to take some time to work out.&lt;/p&gt;
-&lt;p&gt;But today’s newsletter is more about otherworldly matters than global concerns. You see, us editors at The Conversation love Halloween – it is a chance to scour the academic world for research on all things spooky and scary. Take zoologists Alex Dittrich and Kat Hamill’s deep dive into the world of animals that display behaviors common to your favorite horror characters. Here we find cannibal mice that howl at the moon, wasps with the ability to turn prey into zombies and ghostly translucent frogs.&lt;/p&gt;
-&lt;p&gt;Meanwhile, Vaughan Cruickshank takes a look at how buried cats and spurned goats have contributed to cursed teams and sporting failure. And for those who love a good jump scare, culture scholars Sara Beth Lyons and James Deaville, explore what goes into a good movie scream and how the art of the shriek has evolved over the decades.&lt;/p&gt;
-&lt;p&gt;Finally, Marcus Librizzi – who collects ghost stories from around the world – explains the deeper meaning to the genre. “These stories can keep alive the memory of a dark past. In my research I have come across tales that preserve memories of injustices that might otherwise have been forgotten,” he writes.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Matt Williams&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Senior International Editor&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Top story&lt;/strong&gt;&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/768957/original/file-20261028-53-er4k9u.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C63%2C3999%2C2250&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;p&gt;Gadi Eisenkot or Benjamin Netanyahu – under whose direction will Israel head? Erik Marmor/picture alliance via Getty Images&lt;/p&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/israel-has-voted-but-what-comes-next-dissecting-a-messy-ballot-and-coalition-building-process-295404"&gt;Israel has voted, but what comes next? Dissecting a messy ballot and coalition-building process&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Dov Waxman, University of California, Los Angeles&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;With no clear majority for the ruling coalition or main opposition bloc, working out who will form the next government could take months.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Spooky stories&lt;/strong&gt;&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/767546/original/file-20261021-70-4gcfp9.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C83%2C1000%2C500&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/werewolf-mice-ghostly-frogs-and-zombie-cockroaches-the-animal-versions-of-our-halloween-horrors-294284"&gt;Werewolf mice, ghostly frogs and zombie cockroaches: the animal versions of our Halloween horrors&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Alex Dittrich, Nottingham Trent University; Kat Hamill, Nottingham Trent University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;They have creepy tendencies but these animals are real not fictional.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/767804/original/file-20261022-50-1wgjj2.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C2000%2C1000&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/medieval-ghost-stories-featured-rotten-flesh-the-walking-dead-and-spoon-stealing-spirits-294984"&gt;Medieval ghost stories featured rotten flesh, the walking dead and spoon-stealing spirits&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Alex Brown, Durham University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Medieval ghosts shapeshifted, rose from their graves, and begged for help in making amends for their misdeeds.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/766636/original/file-20261015-73-tfa7qy.png?ixlib=rb-4.1.1&amp;amp;rect=0%2C100%2C1600%2C800&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/buried-cats-exorcisms-and-a-sunken-colonel-sanders-the-strange-world-of-sporting-curses-288604"&gt;Buried cats, exorcisms and a sunken Colonel Sanders – the strange world of sporting curses&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Vaughan Cruickshank, University of Tasmania&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Why would fans of a Japanese baseball team throw a statue of Colonel Sanders into a local canal? Welcome to the world of sporting curses.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/763122/original/file-20260930-50-sm6dq0.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C14%2C999%2C499&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/the-female-scream-is-now-an-all-powerful-cry-in-horror-films-293273"&gt;The female scream is now an all-powerful cry in horror films&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;James Deaville, Carleton University; Sara Beth Lyons, Carleton University&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;As Halloween approaches and horror movies circulate, a look at the legendary ‘scream queens’ and their talent and power.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Non-spooky stories&lt;/strong&gt;&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/768550/original/file-20261027-52-pbcubu.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C414%2C7942%2C4467&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/ive-been-talking-to-maga-supporters-for-years-and-heres-why-some-are-sticking-with-trump-and-others-are-not-294771"&gt;I’ve been talking to MAGA supporters for years, and here’s why some are sticking with Trump — and others are not&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Alex Hinton, Rutgers University - Newark&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Despite the headwinds that have cratered support for Donald Trump – high prices, the Iran war, corruption – many of Trump’s MAGA loyalists still back him. A scholar who studies MAGA looks at why.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/768365/original/file-20261026-52-tjqmuw.jpg?ixlib=rb-4.1.1&amp;amp;rect=124%2C158%2C1944%2C1147&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/who-mapped-africa-debunking-the-myth-that-europeans-alone-plotted-the-continent-293657"&gt;Who mapped Africa? Debunking the myth that Europeans alone plotted the continent&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Thomas J Bassett, University of Illinois Urbana-Champaign&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;African guides drew lines in the sand to help Europeans understand the terrain. But they rarely got the credit.&lt;/p&gt;
-&lt;img src="https://images.theconversation.com/files/768565/original/file-20261027-52-7jvlpx.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C1000%2C673&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip" alt=""&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/harry-kane-wins-ballon-dor-a-victory-for-sportsmanship-over-celebrity-295281"&gt;Harry Kane wins Ballon d&amp;#x27;Or – a victory for sportsmanship over celebrity&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Josh Bland, University of Cambridge&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Harry Kane represents a hard grafting and unshowy sportsmanship many would like to see as the future of football.&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/king-charles-visit-to-the-caribbean-evokes-specter-of-british-slavery-and-local-demands-for-justice-295276"&gt; King Charles’ visit to the Caribbean evokes specter of British slavery – and local demands for justice &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Brooke N. Newman, Virginia Commonwealth University &lt;/p&gt; &lt;p&gt;For locals, the king’s Caribbean visit is an occasion to recognize the full story of Britain’s trafficking and enslavement of millions of people across the Atlantic.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/indonesias-el-nino-driven-peat-fires-are-choking-the-region-and-releasing-centuries-of-stored-carbon-294838"&gt; Indonesia’s El Niño-driven peat fires are choking the region – and releasing centuries of stored carbon &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Gareth Roberts, University of Southampton; Martin Wooster, King's College London &lt;/p&gt; &lt;p&gt;An intense drought is the match. Decades of deforestation and peat draining provide the fuel.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/serbias-leaderless-student-movement-has-won-a-historic-election-but-what-happens-next-295268"&gt; Serbia’s leaderless student movement has won a historic election – but what happens next? &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Eric Gordy, UCL &lt;/p&gt; &lt;p&gt;With no leader or political experience, Serbia’s student movement now begins talks to form a government.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/eus-new-arctic-strategy-signals-shift-in-its-geopolitical-mindset-294978"&gt; EU’s new Arctic strategy signals shift in its geopolitical mindset &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Emilie Canova, University of Cambridge; Centre national de la recherche scientifique (CNRS) &lt;/p&gt; &lt;p&gt;The EU has unveiled its first Arctic strategy since Russia’s invasion of Ukraine.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/private-equity-is-buying-up-more-methadone-clinics-access-to-the-lifesaving-drug-isnt-getting-easier-286927"&gt; Private equity is buying up more methadone clinics – access to the lifesaving drug isn’t getting easier &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Yashaswini Singh, Brown University &lt;/p&gt; &lt;p&gt;Despite acquiring more than one-third of US methadone clinics, private equity has not significantly expanded methadone availability.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/how-porn-became-so-extreme-and-how-its-shaping-the-sex-lives-of-young-people-293851"&gt; How porn became so extreme – and how it’s shaping the sex lives of young people &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Gemma Ware, The Conversation &lt;/p&gt; &lt;p&gt; Extreme pornography has become readily available on mainstream porn sites. Clare McGlynn explains what this is doing to the sex lives of young people.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
     </item>
   </channel>
 </rss>

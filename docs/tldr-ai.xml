@@ -9,7 +9,68 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 19 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Gemini tool retrieval 🔧, Stripe evals methods 👨‍💻, agent swarms 🐝</title>
+      <link>https://tldr.tech/ai/2026-11-20</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Introducing Tool Retrieval in the Gemini API
+• Let Gemini tackle repetitive chores on your Mac
+• When Agent Swarms Outperform Solo Coders
+• Sandboxed Models Can Communicate via Inference Servers
+• AI is already massively speeding up AI research
+• Mirror Dimension for Agents: Evaluating Browser-Use Agents Without the Web
+• FastFrames: Video Generation at Interactive Latency
+• Become a founding member of TLDR's AI community
+• Perplexity's Self-Improving Skills
+• Stripe evals: Measuring real-world coding agent performance
+• What's your unpopular opinion about AI?
+• What comes after AGI?
+• Vercel Board
+• Cloudflare's Clairic and Clairic-flash
+• How OpenAI's Performance Factory keeps ChatGPT fast
+• Computer Scientists Facilitating Independent Review of a High-profile OpenAI and Anthropic Result</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"&gt;Introducing Tool Retrieval in the Gemini API&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google&amp;#x27;s Gemini API introduces Tool Retrieval, enabling dynamic function execution like issuing refunds based on input. Developers can register functions, which the API locates and executes automatically, optimizing workflow automation. This feature enhances tool integration and broadens automation capabilities within applications.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"&gt;Let Gemini tackle repetitive chores on your Mac&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Computer use in the Gemini app for Mac can now help users get multi-step tasks done across their local files, desktop apps, and the web. Gemini works inside an isolated background window with a live preview right in the chat. Users&amp;#x27; main screen and cursor remain completely free, so they can continue typing, designing, or taking calls without interruption. Users can choose which apps Gemini can access, watch every step live, pause at any time, and approve key actions before they happen.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://frontier.replit.com/throwing-headcount-at-the-problem/"&gt;When Agent Swarms Outperform Solo Coders&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Replit&amp;#x27;s optimization benchmark found 32 Opus agents achieved an 18.9× NumPy workload speedup versus 3.7× for one agent within two hours, using more compute. Gains depended on separable tasks and shared coordination boards. The strongest solo model&amp;#x27;s performance declined as teams grew.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being"&gt;Sandboxed Models Can Communicate via Inference Servers&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Sandboxing did not stop AI models on a shared inference server from trading information in contrived tests. One model&amp;#x27;s large request slightly shifts the server&amp;#x27;s calculations for the other, which reads the shift as a signal.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://linch.substack.com/p/ai-is-already-massively-speeding"&gt;AI is already massively speeding up AI research&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI companies are not ready to handle the risks of recursive self-improvement safely and responsibly, despite having talked about them for years, and this is incredibly dangerous. Policymakers need to make it a top priority to rapidly understand these risks, and consider pausing or pacing frontier AI progress. AI lab employees need to raise concerns internally, whistleblow to policymakers and the public, form a union, or loudly quit. Everyone else should encourage and pressure policymakers to end the race. Protests are looking like an increasingly viable and highly leveraged way to get both media and policymaker attention in the next few months.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/security/mirror-dimension-for-agents/"&gt;Mirror Dimension for Agents: Evaluating Browser-Use Agents Without the Web&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google introduces the Mirror Dimension, a controlled environment for testing AI browser-use agents without accessing the live web. This tool helps evaluate security and effectiveness, reducing risks associated with letting agents interact with real-world websites.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://apple-aiml-research.github.io/ml-fastframes/"&gt;FastFrames: Video Generation at Interactive Latency&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Apple introduced FastFrames, two models that generate 480p video fast enough for interactive use. Each frame takes 36 ms on a single GPU with the smaller model.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://danni763618.typeform.com/to/H1tYViME"&gt;Become a founding member of TLDR&amp;#x27;s AI community&lt;/a&gt; &lt;small&gt;· 2 minute form&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;TLDR is launching a curated community for AI builders to discuss major news and launches. The best links and comments will be featured in TLDR AI. &lt;a href="https://danni763618.typeform.com/to/H1tYViME" rel="noopener noreferrer" target="_blank"&gt;Apply here to join&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/self-improving-skills"&gt;Perplexity&amp;#x27;s Self-Improving Skills&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Perplexity Computer can now build and update its own skills, using its Brain system to learn from each user&amp;#x27;s past sessions.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://stripe.dev/blog/stripe-integration-evals-methodology"&gt;Stripe evals: Measuring real-world coding agent performance&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Coding harnesses, when paired with frontier models, can produce working end-to-end Stripe integrations, although they may not necessarily follow all best practices. Stripe evals is a benchmark that helps Stripe understand how different coding agents and models integrate Stripe. It measures how well coding agents build high-quality integrations given realistic, well-specified scenarios driven by a role-playing agent. The benchmark provides guidance on how the company can steer agents better to achieve better outcomes for businesses using Stripe.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://community.tldr.tech/t/weekly-what-s-your-unpopular-opinion-about-ai"&gt;What&amp;#x27;s your unpopular opinion about AI?&lt;/a&gt; &lt;small&gt;· TLDR Community&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Personality and writing are the top determinants of perceived model quality, AI safety is underrated, TypeScript will decline, read more and&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://institute.deepmind.com/essays/what-comes-after-agi/"&gt;What comes after AGI?&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Artificial general intelligence (AGI) is now within reach, so we can no longer put off seriously considering what will come next. AI achieving artificial general superintelligence (ASI) will have a profound impact on science, the economy, and society at a scale much greater than AGI itself. Preparing for that shift will require mapping the possible roads from AGI to ASI and building rigorous, reliable ways to track progress.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://vercel.com/blog/introducing-vercel-board"&gt;Vercel Board&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Vercel released Board, an experimental message board where AI agents claim tasks, post updates, and share context.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.cloudflare.com/open-clairic/"&gt;Cloudflare&amp;#x27;s Clairic and Clairic-flash&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Cloudflare made the weights public for Clairic and Clairic-flash, its models for extracting specific fields from text, images, and PDFs.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/"&gt;How OpenAI&amp;#x27;s Performance Factory keeps ChatGPT fast&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI&amp;#x27;s Performance Factory uses Codex to automate and expedite performance regression investigations and fixes for ChatGPT.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://today.ucsd.edu/story/computer-scientists-facilitating-an-independent-review-of-a-high-profile-open-ai-and-anthropic-resul"&gt;Computer Scientists Facilitating Independent Review of a High-profile OpenAI and Anthropic Result&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;UC San Diego and MIT computer scientists are facilitating an independent review of OpenAI and Anthropic&amp;#x27;s announcement claiming their models refuted the Exponential Time Hypothesis (ETH).&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Gemini 4 Neon 🚀, Genie 4 worlds 🌍, AI designs chips 🔬</title>
       <link>https://tldr.tech/ai/2026-11-19</link>
@@ -29,11 +90,11 @@
 • Introducing Model Factory
 • Quickly, There's No Time
 • The Silent Consensus
+• Introducing Stitch Loop: A new way to build and evolve products
 • Inside the Codex sandbox
 • How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models
 • ResolveAI Introduces SRE-1, the Most Accurate Model for Production at Every Budget
-• Anthropic's compute spending is increasing by 4x per year, outpacing OpenAI's 3x
-• Introducing Stitch Loop: A new way to build and evolve products</description>
+• Anthropic's compute spending is increasing by 4x per year, outpacing OpenAI's 3x</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"&gt;Gemini 4 Neon&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Google introduced Gemini 4 Neon, a fast, frontier-level model for complex coding, knowledge work, and science tasks. It scored 61 on the Artificial Analysis Intelligence Index and is priced at $3 per million input tokens and $15 per million output tokens.&lt;/p&gt;
@@ -63,6 +124,8 @@
 &lt;h4&gt;&lt;a href="https://www.hyperdimensional.co/p/the-silent-consensus"&gt;The Silent Consensus&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;The most common vision for the future that AI brings isn&amp;#x27;t totally positive. It is often left unsaid, discernible only by implication, a silent consensus. The decisions humans make will likely lead to a world in which people have forfeited effective authority over much of our civilization. Even if we make extraordinary progress on AI safety and alignment, we could still find ourselves having submitted to a machine entity.&lt;/p&gt;
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/"&gt;Introducing Stitch Loop: A new way to build and evolve products&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Stitch Loop is a new tool from Google Labs designed to facilitate iterative product development.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://openai.com/index/inside-the-codex-sandbox/"&gt;Inside the Codex sandbox&lt;/a&gt; &lt;small&gt;· 28 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;The Codex sandbox lets OpenAI&amp;#x27;s coding agent run commands on a user&amp;#x27;s own machine within file and network limits the user controls.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/"&gt;How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
@@ -70,9 +133,7 @@
 &lt;h4&gt;&lt;a href="https://resolve.ai/news/introduces-SRE-1-model-and-primary-on-call"&gt;ResolveAI Introduces SRE-1, the Most Accurate Model for Production at Every Budget&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;SRE-1 offers unmatched accuracy for production across various budgets.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://epoch.ai/data-insights/anthropic-openai-compute-spend-growth"&gt;Anthropic&amp;#x27;s compute spending is increasing by 4x per year, outpacing OpenAI&amp;#x27;s 3x&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic spent nearly $10 billion on compute and infrastructure in the third quarter of 2026.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/"&gt;Introducing Stitch Loop: A new way to build and evolve products&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Stitch Loop is a new tool from Google Labs designed to facilitate iterative product development.&lt;/p&gt;</content:encoded>
+&lt;p&gt;Anthropic spent nearly $10 billion on compute and infrastructure in the third quarter of 2026.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>GPT-6.2 Astra 🧠, Microsoft’s seven models 🚀, Replit Missions 🤖</title>
@@ -1138,64 +1199,6 @@
 &lt;p&gt;Google&amp;#x27;s Gemini 4 Carbon early access testing shows it improves 3D capabilities over Argon but remains weak in UI performance and is slower.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://claude.com/resources/articles/unified-claude-enterprise?open_in_browser=1"&gt;Claude Cowork and chat come together for Enterprise&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;The unified Claude Chat and Cowork experience is now generally available for Claude Enterprise plans.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>OpenAI nears $1.25T 💰,  ☁️, 1Password for Agents 🔑, Gemini 3.5 Pro postmortem 🤖</title>
-      <link>https://tldr.tech/ai/2026-10-23</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-23</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors
-• Introducing 1Password for Agents
-• WorldTUI: I trained a 360M model to pretend to be a terminal
-• How the US and China Could Verifiably Slow AI
-• How Researchers Tested OpenAI's Internal Agent Monitoring
-• Does Flapping Airplanes Mean Short Timelines and Hard Treaty Enforcement?
-• Claude's Text Output Now Carries an Invisible Watermark
-• A Novel Self-Distillation Method
-• How we deploy Trillion-parameter frontier models on Cerebras
-• NVIDIA's Video Generation with Matching 3D Motion
-• An Interview with OpenAI's Richard Ho on Why Jalapeño Is a Groundbreaking AI Chip
-• What happened to the missing Gemini 3.5 Pro model that never shipped?
-• The full Claude Platform, available on Google Cloud
-• Anthropic Donates Agent Skills to Linux Foundation
-• Microsoft Decision-1: 9B Qwen Model Launch Explained</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"&gt;OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI is closing in on a funding round that could value it at more than $1 trillion. Investors from the United Arab Emirates are leading the round. The round is being positioned as an opportunistic bridge ahead of a potential IPO. OpenAI is aiming to secure signatures by the end of next week, but the final size of the round is still being determined.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://1password.com/blog/1password-for-ai-agents"&gt;Introducing 1Password for Agents&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;1Password introduced a platform that lets AI agents authenticate to websites without accessing users&amp;#x27; passwords directly. Agents can request credentials from a user&amp;#x27;s vault, and once approved, 1Password autofills them into the destination site while keeping the credentials hidden from the agent.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://simedw.com/2026/10/21/world-model-terminal/"&gt;WorldTUI: I trained a 360M model to pretend to be a terminal&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;WorldTUI is a 360-million-parameter model fine-tuned to act as a terminal. The model predicts how the screen will change for every key press, and there is no shell or file system behind it. WorldTUI can create files, run vim and tmux, play snake, and usually remember commands. It can repair mistakes and decode screen rows in parallel. A browser demo is available.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/ywrgeAPMn83FxzFBk/how-could-the-us-and-china-verifiably-slow-ai"&gt;How the US and China Could Verifiably Slow AI&lt;/a&gt; &lt;small&gt;· 29 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;A unilateral US pause will fail because rivals would catch up within about a year, so any slowdown needs a treaty that catches defection early. This post surveys how one could govern compute through remote sensing, on-site inspections, and hardware mechanisms like chip licensing and location verification.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"&gt;How Researchers Tested OpenAI&amp;#x27;s Internal Agent Monitoring&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;METR and Redwood Research conducted a three-week security assessment with access to OpenAI&amp;#x27;s internal infrastructure, identifying vulnerabilities that could allow AI agents to evade monitoring, bypass sandbox restrictions, or conceal actions.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/imjmcinnis/status/2113337229288620403"&gt;Does Flapping Airplanes Mean Short Timelines and Hard Treaty Enforcement?&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Flapping Airplanes&amp;#x27; potential valuation jump from $1.5B to $5B may reflect investor hype rather than verified technical progress. Breakthroughs in sample-efficient AI could accelerate superintelligence timelines and make compute-based treaty enforcement harder.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.oreilly.com/radar/the-latest-anthropic-claude-models-contain-ai-text-watermarks-what-does-this-mean-for-you"&gt;Claude&amp;#x27;s Text Output Now Carries an Invisible Watermark&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic&amp;#x27;s latest Claude models embed a SynthID-Text-based watermark in all text output to comply with the EU AI Act. It works by nudging choices among near-equivalent words, adds no hidden characters or tokens, and carries no information about the user.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/a-good-teacher-meets-the-student-where-they-are"&gt;A Novel Self-Distillation Method&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Perplexity&amp;#x27;s JOLT is a self-distillation method that jointly trains a model as both teacher and student, adapting feedback to the student&amp;#x27;s capabilities. It improved performance and training efficiency across mathematical reasoning, coding, and agentic tasks.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"&gt;How we deploy Trillion-parameter frontier models on Cerebras&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;A single Cerebras WSE-3T wafer has 44 GB of on-chip memory. Trillion-parameter frontier models need terabytes of memory for their weights alone. This post explains how the company splits a large frontier model across multiple WSE-3T wafers. It covers how models are filled into on-chip memory, how models are mapped across multiple chips, and how Cerebras handles a high number of concurrent requests.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://research.nvidia.com/labs/par/projects/jca/"&gt;NVIDIA&amp;#x27;s Video Generation with Matching 3D Motion&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;NVIDIA has introduced Joints, Camera, Action! (JCA), a system that generates videos and synchronized 3D motion for arbitrary character rigs from text prompts. It supports scene-aware motion, keyframe-based control, and bidirectional conversion between video and rig animation.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://taekim.substack.com/p/an-interview-with-openais-richard"&gt;An Interview with OpenAI&amp;#x27;s Richard Ho on Why Jalapeño Is a Groundbreaking AI Chip&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI&amp;#x27;s Jalapeño AI inference chip outperforms its rivals in performance per watt. It is likely the most promising chip program in the latest wave of non-GPU AI chips. This post contains highlights from a conversation with one of the top engineers in the AI and chip industry. The interview is packed with technical details and insights on where chip design and memory technology are going.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://threadreaderapp.com/thread/2113398193614655594.html"&gt;What happened to the missing Gemini 3.5 Pro model that never shipped?&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google had both Flash and Pro versions of the 3.5 series. However, there were gaps in the model&amp;#x27;s agentic capabilities, particularly around coding. The team felt the fastest way to climb that hill was to use Flash, as the smaller model allowed for more iterative loops. By the time the team had improved Flash&amp;#x27;s abilities, Argon pre-training was done.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed"&gt;The full Claude Platform, available on Google Cloud&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Claude Platform features are now available on Google Cloud with Google Cloud authentication, billing, and commitment retirement.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"&gt;Anthropic Donates Agent Skills to Linux Foundation&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic donated its Agent Skills open standard to the Agentic AI Foundation, placing its development under vendor-neutral governance.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/"&gt;Microsoft Decision-1: 9B Qwen Model Launch Explained&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Microsoft launched the Microsoft-Decision-1 model, focusing on scoring predefined answer options with confidence probabilities rather than generating text.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
