@@ -23,17 +23,17 @@
 • Why Antigravity Eats Weekly Quota Fast - and What I Measured
 • Switching LLMs mid-conversation is a ski-rental problem
 • Advancing chip design with OpenAI models
-• Context API extracts full context from any web page
 • Become a founding member of TLDR's AI community
-• Introducing Model Factory
 • An update on the state of research acceleration at OpenAI
+• Context API extracts full context from any web page
+• Introducing Model Factory
 • Quickly, There's No Time
 • The Silent Consensus
 • Inside the Codex sandbox
-• Introducing Stitch Loop: A new way to build and evolve products
 • How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models
 • ResolveAI Introduces SRE-1, the Most Accurate Model for Production at Every Budget
-• Anthropic's compute spending is increasing by 4x per year, outpacing OpenAI's 3x</description>
+• Anthropic's compute spending is increasing by 4x per year, outpacing OpenAI's 3x
+• Introducing Stitch Loop: A new way to build and evolve products</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"&gt;Gemini 4 Neon&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Google introduced Gemini 4 Neon, a fast, frontier-level model for complex coding, knowledge work, and science tasks. It scored 61 on the Artificial Analysis Intelligence Index and is priced at $3 per million input tokens and $15 per million output tokens.&lt;/p&gt;
@@ -49,14 +49,14 @@
 &lt;h4&gt;&lt;a href="https://openai.com/index/advancing-chip-design-with-our-models/"&gt;Advancing chip design with OpenAI models&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Design changes proposed by OpenAI&amp;#x27;s models cut the circuit area of key parts of its Jalapeño AI chip by an estimated 10% to 13%. With AMD, the same approach delivered up to 14% improvements on AMD&amp;#x27;s flagship GPU designs.&lt;/p&gt;
 &lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/context-api-extracts-full-context-from-any-web-page"&gt;Context API extracts full context from any web page&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Perplexity Context API can extract the full context from any webpage and return clean Markdown, links, and relevant passages. It can read up to 10 URLs at once. Agents can specify the freshness of each request and validate the source of each result. Every successful result also includes metadata for the page such as the title, description, language, author, and date of publication.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://danni763618.typeform.com/to/H1tYViME"&gt;Become a founding member of TLDR&amp;#x27;s AI community&lt;/a&gt; &lt;small&gt;· 2 minute form&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;TLDR is launching a curated community for AI builders to discuss major news and launches. The best links and comments will be featured in TLDR AI. &lt;a href="https://danni763618.typeform.com/to/H1tYViME" rel="noopener noreferrer" target="_blank"&gt;Apply here to join&lt;/a&gt;.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.primeintellect.ai/blog/introducing-model-factory"&gt;Introducing Model Factory&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Model Factory is a training loop that lets any company train, deploy, and continuously improve models in production. It brings reinforcement learning, supervised fine-tuning, pre-training, and inference together into one control plane. It also offers health checks, automatic node replacement, and recovery from the latest checkpoint for long-running experiments. Model Factory has already been deployed for teams working on finance automation, computer use, scientific discovery, chip design, and other industries.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://openai.com/index/research-acceleration-jagged-frontier/"&gt;An update on the state of research acceleration at OpenAI&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;OpenAI&amp;#x27;s agents now complete nearly half of two-to-four-hour research tasks on their own. However, humans are still central to AI development. Agent use is surging, and the heaviest users are pulling further ahead. Researchers are devoting increasing human effort to Safety and alignment.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/context-api-extracts-full-context-from-any-web-page"&gt;Context API extracts full context from any web page&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The Perplexity Context API can extract the full context from any webpage and return clean Markdown, links, and relevant passages. It can read up to 10 URLs at once. Agents can specify the freshness of each request and validate the source of each result. Every successful result also includes metadata for the page such as the title, description, language, author, and date of publication.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.primeintellect.ai/blog/introducing-model-factory"&gt;Introducing Model Factory&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Model Factory is a training loop that lets any company train, deploy, and continuously improve models in production. It brings reinforcement learning, supervised fine-tuning, pre-training, and inference together into one control plane. It also offers health checks, automatic node replacement, and recovery from the latest checkpoint for long-running experiments. Model Factory has already been deployed for teams working on finance automation, computer use, scientific discovery, chip design, and other industries.&lt;/p&gt;
 &lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://thezvi.substack.com/p/quickly-theres-no-time"&gt;Quickly, There&amp;#x27;s No Time&lt;/a&gt; &lt;small&gt;· 38 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Many things point to the substantial possibility of superintelligence arriving next year. Any plan to prepare for this has to be ready for the full automation of AI R&amp;amp;D, which will result in the rapid advancement of AI abilities beyond human levels. It will need to include mechanisms to slow down the resulting growth in capabilities.&lt;/p&gt;
@@ -65,14 +65,14 @@
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://openai.com/index/inside-the-codex-sandbox/"&gt;Inside the Codex sandbox&lt;/a&gt; &lt;small&gt;· 28 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;The Codex sandbox lets OpenAI&amp;#x27;s coding agent run commands on a user&amp;#x27;s own machine within file and network limits the user controls.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/"&gt;Introducing Stitch Loop: A new way to build and evolve products&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Stitch Loop is a new tool from Google Labs designed to facilitate iterative product development.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/"&gt;How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Meta uses AI agents to efficiently propagate ML technique improvements across diverse ads ranking models.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://resolve.ai/news/introduces-SRE-1-model-and-primary-on-call"&gt;ResolveAI Introduces SRE-1, the Most Accurate Model for Production at Every Budget&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;SRE-1 offers unmatched accuracy for production across various budgets.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://epoch.ai/data-insights/anthropic-openai-compute-spend-growth"&gt;Anthropic&amp;#x27;s compute spending is increasing by 4x per year, outpacing OpenAI&amp;#x27;s 3x&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic spent nearly $10 billion on compute and infrastructure in the third quarter of 2026.&lt;/p&gt;</content:encoded>
+&lt;p&gt;Anthropic spent nearly $10 billion on compute and infrastructure in the third quarter of 2026.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/"&gt;Introducing Stitch Loop: A new way to build and evolve products&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Stitch Loop is a new tool from Google Labs designed to facilitate iterative product development.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>GPT-6.2 Astra 🧠, Microsoft’s seven models 🚀, Replit Missions 🤖</title>
@@ -93,9 +93,9 @@
 • Cerebras launches disaggregated inference
 • How should we define “capabilities activities” for the purpose of pacing?
 • Microsoft-Decision-1.1 is now generally available for fast, low-cost decision making
+• Experiments in Weight-Space Programming
 • Gemini Can Now Make Calls and Pay Bills
-• Introducing Computer's Multiagent effort level
-• Experiments in Weight-Space Programming</description>
+• Introducing Computer's Multiagent effort level</description>
       <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://openai.com/index/introducing-gpt-6-2-astra-sol/"&gt;Introducing GPT-6.2 Astra and Sol&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;OpenAI released GPT-6.2 Astra, a frontier model for the hardest projects, and GPT-6.2 Sol, an efficient everyday model. Both are available now in ChatGPT Work, Codex, and the API.&lt;/p&gt;
@@ -125,12 +125,12 @@
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://commandline.microsoft.com/microsoft-decision-model-ga/"&gt;Microsoft-Decision-1.1 is now generally available for fast, low-cost decision making&lt;/a&gt; &lt;small&gt;· 34 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Microsoft&amp;#x27;s decision models are designed to make calibrated decisions in the face of uncertainty across a wide range of real-world software use cases.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://jacobstrauss.bearblog.dev/experiments-in-weight-space-programming/"&gt;Experiments in Weight-Space Programming&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;GPT-6 Astra can look at an AI model, identify what task the network was built for just by looking at its raw weights, write the weights of a game-playing policy network from scratch, and improve models by editing model weights directly.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"&gt;Gemini Can Now Make Calls and Pay Bills&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Google&amp;#x27;s Gemini app can now handle tasks like calling businesses, booking appointments, and shopping within a spending limit.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/introducing-computer-multiagent"&gt;Introducing Computer&amp;#x27;s Multiagent effort level&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Computer&amp;#x27;s Multiagent, a new effort level, enhances complex problem-solving by using multiple agents working in parallel.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://jacobstrauss.bearblog.dev/experiments-in-weight-space-programming/"&gt;Experiments in Weight-Space Programming&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;GPT-6 Astra can look at an AI model, identify what task the network was built for just by looking at its raw weights, write the weights of a game-playing policy network from scratch, and improve models by editing model weights directly.&lt;/p&gt;</content:encoded>
+&lt;p&gt;Computer&amp;#x27;s Multiagent, a new effort level, enhances complex problem-solving by using multiple agents working in parallel.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Perplexity Research 🧪, NVIDIA Rubin HPC 🖥️, OpenAI safety assessments 👨‍💻</title>
