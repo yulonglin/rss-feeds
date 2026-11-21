@@ -451,26 +451,5 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Can+LLMs+Improve+Their+Own+Harness%3F+A+Controlled+Study+on+ARC-AGI-3&amp;amp;searchtype=title"&gt;&lt;strong&gt;Can LLMs Improve Their Own Harness? A Controlled Study on ARC-AGI-3&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Jens Lehmann, Sahar Vahdati&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 21) · relevance 79&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
-    <item>
-      <title>Scholar Inbox, 22 Oct 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:80923051598779e0</guid>
-      <pubDate>Thu, 22 Oct 2026 09:16:37 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• Unintended Side Effects of Value Training in LLMs
-• Monitorability Is Trainable: Post-Training for Chain-of-Thought Monitorability
-• LIFT: Scoped Constraints for Evaluating and Training Instruction Following
-• Flat-RLVR: Sharpness-Aware Reinforcement Learning with Verifiable Rewards for Reasoning Capacity in LLMs
-• SimHack: Predicting the onset of detectable reward hacking before RL training</description>
-      <content:encoded>&lt;p&gt;Matched 72 of 1782 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Unintended+Side+Effects+of+Value+Training+in+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Unintended Side Effects of Value Training in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Siddhesh Pawar, Chen Cecilia Liu, Anna Korhonen, Isabelle Augenstein&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 21) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Monitorability+Is+Trainable%3A+Post-Training+for+Chain-of-Thought+Monitorability&amp;amp;searchtype=title"&gt;&lt;strong&gt;Monitorability Is Trainable: Post-Training for Chain-of-Thought Monitorability&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Usman Anwar, Tim Bakker, Christos Louizos, David Krueger&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 21) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=LIFT%3A+Scoped+Constraints+for+Evaluating+and+Training+Instruction+Following&amp;amp;searchtype=title"&gt;&lt;strong&gt;LIFT: Scoped Constraints for Evaluating and Training Instruction Following&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Eran Goldstein, Yuval Belfer, Yonatan Belinkov, Daniel Gissin&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 20) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Flat-RLVR%3A+Sharpness-Aware+Reinforcement+Learning+with+Verifiable+Rewards+for+Reasoning+Capacity+in+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Flat-RLVR: Sharpness-Aware Reinforcement Learning with Verifiable Rewards for Reasoning Capacity in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Yeonbum Kim, Hyun Kyu Lee, Sung Whan Yoon&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 21) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=SimHack%3A+Predicting+the+onset+of+detectable+reward+hacking+before+RL+training&amp;amp;searchtype=title"&gt;&lt;strong&gt;SimHack: Predicting the onset of detectable reward hacking before RL training&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Junwei Deng, Alex Bie, Natalia Ponomareva&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 20) · relevance 76&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
   </channel>
 </rss>
