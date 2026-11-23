@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Fri, 20 Nov 2026 12:28:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 11:54:46 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 23 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:487c19e087d78a38</guid>
+      <pubDate>Mon, 23 Nov 2026 11:54:46 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• TrojanMaxxing: One-shotting VLM Backdoors with Weight-Space Programming
+• Reward Integrity in Adversarial Reinforcement Learning for LLM Guardrail Red-Teaming
+• Trained on Harm, Still Refusing: A Training-Time Defense for Code Generation
+• No Perfect Guardrail &amp; No Perfect Guard: On the Decidability of Output Policies for Large Language Models
+• Jagged Robustness: Uneven Safety Transfer and Emerging Vulnerabilities under LLM Quantization</description>
+      <content:encoded>&lt;p&gt;Matched 53 of 1401 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=TrojanMaxxing%3A+One-shotting+VLM+Backdoors+with+Weight-Space+Programming&amp;amp;searchtype=title"&gt;&lt;strong&gt;TrojanMaxxing: One-shotting VLM Backdoors with Weight-Space Programming&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ahaan Dabholkar, Harshvardhan Patel, Michalis Polychronakis, Saurabh Bagchi&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 20) · relevance 86&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Reward+Integrity+in+Adversarial+Reinforcement+Learning+for+LLM+Guardrail+Red-Teaming&amp;amp;searchtype=title"&gt;&lt;strong&gt;Reward Integrity in Adversarial Reinforcement Learning for LLM Guardrail Red-Teaming&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Chengming Liu, Leon Viti, Hongxu Chen, Erdem Kemik, Mary-Anne Williams, Ruth Oliver&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 20) · relevance 85&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Trained+on+Harm%2C+Still+Refusing%3A+A+Training-Time+Defense+for+Code+Generation&amp;amp;searchtype=title"&gt;&lt;strong&gt;Trained on Harm, Still Refusing: A Training-Time Defense for Code Generation&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Miaoqing Tian, Ruohan Li, Qian Lu, Haipeng Qu&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 20) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=No+Perfect+Guardrail+%26+No+Perfect+Guard%3A+On+the+Decidability+of+Output+Policies+for+Large+Language+Models&amp;amp;searchtype=title"&gt;&lt;strong&gt;No Perfect Guardrail &amp;amp; No Perfect Guard: On the Decidability of Output Policies for Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ahmed Amer, Loren Kinczel, Darrell D. E. Long&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 20) · relevance 67&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Jagged+Robustness%3A+Uneven+Safety+Transfer+and+Emerging+Vulnerabilities+under+LLM+Quantization&amp;amp;searchtype=title"&gt;&lt;strong&gt;Jagged Robustness: Uneven Safety Transfer and Emerging Vulnerabilities under LLM Quantization&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ramneek Agnihotri, Yingte Xu, Hans Vath&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 20) · relevance 63&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 20 Nov 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
