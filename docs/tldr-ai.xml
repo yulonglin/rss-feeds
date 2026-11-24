@@ -23,9 +23,9 @@
 • The Most Important Charts in AI are Wrong
 • Why Post-Training Could Teach Models to Evade Monitoring
 • Tencent Releases Hy4 With Multimodal Input and Million-Token Context
-• Become a founding member of TLDR's AI community
 • NVIDIA Releases Nemotron-Labs-Sigma Continuous Diffusion Language Models
 • Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost
+• Become a founding member of TLDR's AI community
 • What's your AI prediction for 2027?
 • The Brother-Sister Duo Who Want to Keep Anthropic Weird
 • Lean verification of the Riemann Hypothesis
@@ -48,12 +48,12 @@
 &lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://huggingface.co/tencent/Hy4"&gt;Tencent Releases Hy4 With Multimodal Input and Million-Token Context&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Tencent&amp;#x27;s open-weight Hy4 supports text, image, and video understanding with a 770-billion-parameter backbone activating 49 billion parameters per token. It combines million-token context, sparse attention, and a speculative-decoding drafter, targeting coding, computer use, finance, research, and long-running assistant workflows.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://danni763618.typeform.com/to/H1tYViME"&gt;Become a founding member of TLDR&amp;#x27;s AI community&lt;/a&gt; &lt;small&gt;· 2 minute form&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;TLDR is launching a curated community for AI builders to discuss major news and launches. The best links and comments will be featured in TLDR AI. &lt;a href="https://danni763618.typeform.com/to/H1tYViME" rel="noopener noreferrer" target="_blank"&gt;Apply here to join&lt;/a&gt;.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://research.nvidia.com/labs/genair/sigma/"&gt;NVIDIA Releases Nemotron-Labs-Sigma Continuous Diffusion Language Models&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Nemotron-Labs-Sigma is a family of 14 open checkpoints at 3B and 8B that generate text by denoising compact token embeddings instead of predicting one token at a time. The 8B model supports few-step generation and self-speculative decoding, reaching a 3.46x average throughput speedup over autoregressive decoding on a GB200.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://huggingface.co/blog/harness-adapters-at-scale"&gt;Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost&lt;/a&gt; &lt;small&gt;· 22 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Hugging Face has introduced harness adapters, allowing models like Qwen3.8-27B to optimize performance in specific harness-task combinations. By incorporating RL-trained LoRA adapters, the models achieve higher accuracy and efficiency, reducing token usage significantly.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://danni763618.typeform.com/to/H1tYViME"&gt;Become a founding member of TLDR&amp;#x27;s AI community&lt;/a&gt; &lt;small&gt;· 2 minute form&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;TLDR is launching a curated community for AI builders to discuss major news and launches. The best links and comments will be featured in TLDR AI. &lt;a href="https://danni763618.typeform.com/to/H1tYViME" rel="noopener noreferrer" target="_blank"&gt;Apply here to join&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://community.tldr.tech/t/what-s-your-ai-prediction-for-2027"&gt;What&amp;#x27;s your AI prediction for 2027?&lt;/a&gt; &lt;small&gt;· TLDR Community&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;By the end of 2027, office work will no longer use frontier models, and picking a model yourself could feel as archaic as tweaking its temperature. &lt;a href="https://community.tldr.tech/t/what-s-your-ai-prediction-for-2027"&gt;What are your predictions for 2027? →&lt;/a&gt;&lt;/p&gt;
