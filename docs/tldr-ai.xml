@@ -9,7 +9,62 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Mon, 23 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>GLM-5.4 loops 🔁, Claude Ship 🚢, OpenAI secures Linux 🔒</title>
+      <link>https://tldr.tech/ai/2026-11-24</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• Introducing Natural Voice
+• Claude Ship
+• GLM-5.4
+• Supercharging transformer residual connections
+• I used to orchestrate agents. Now I orchestrate orchestrators
+• OpenAI and Cisco introduce Shirudo
+• Recursive Self-Editing: LLMs Program Their Own Weight Edits for Self-Improvement
+• Become a founding member of TLDR's AI community
+• Faster Quantum Algorithms with Agents and Formal Verification
+• NVIDIA Board Reinstates Jensen Huang as President, CEO, and Board Director
+• Amazon snaps up Decart's AI optimization tech for $7.5B as it prepares to sell Trainium chips
+• OpenWorks
+• Grok Bot to Get Local Computer Use
+• RL infrastructure at Microsoft AI</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.natural.com/blog/voice"&gt;Introducing Natural Voice&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Natural Voice enables voice agents to securely process payments during calls, eliminating the need for out-of-band transfers and reducing customer drop-off. By handling PCI compliance, it allows businesses to offer seamless payment experiences without additional compliance burdens. This innovation benefits industries like restaurants, healthcare, and auto services by integrating payment processing directly into voice interactions, enhancing conversion rates and operational efficiency.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://code.claude.com/docs/en/claude-ship"&gt;Claude Ship&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Claude Ship is a set of Anthropic agents that help get GitHub pull requests ready to merge. Code Review flags issues, PR Steward pushes fixes, and Claude Approvals checks changes against a team&amp;#x27;s approval policy.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://z.ai/blog/glm-5.4"&gt;GLM-5.4&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Z.ai has released GLM-5.4, its first flagship model built on a Loop Transformer. The design reuses a shared block of layers to reason more deeply without adding parameters. Z.ai says it reaches intelligence comparable to 2T to 3T parameter models, and it is available now on the GLM Coding Plan.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://research.google/blog/supercharging-transformer-residual-connections/"&gt;Supercharging transformer residual connections&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google&amp;#x27;s DeepCrossAttention (DCA) enhances transformer residual connections by allowing each layer to dynamically select and route features from preceding layers, reducing information dilution and parameter count by 30-40%. Unlike traditional residual connections, DCA uses dynamic routing and depth-wise cross-attention mechanisms to achieve faster convergence and better quality with minimal parameter increase. Tested on large datasets like C4 and LM1B, DCA improves training efficiency and perplexity compared to standard models, proving a shift towards dynamic residual routing for scalable LLMs.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.nijho.lt/post/orchestrating-orchestrators/"&gt;I used to orchestrate agents. Now I orchestrate orchestrators&lt;/a&gt; &lt;small&gt;· 24 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;MindRoom significantly enhances AI-driven coding by integrating multiple models in one room, efficiently managing up to forty concurrent sessions with seamless context switching. This approach, which utilizes minimal sub-agents, boosts productivity by maintaining low token overhead and offering a compact, card-based interface that organizes tasks by status.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/index/introducing-shirudo/"&gt;OpenAI and Cisco introduce Shirudo&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Shirudo is an open-source runtime from OpenAI and Cisco that protects running Linux systems while teams roll out patches. It lets teams deploy temporary shields that block exploits without restarting the service.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2611.29513"&gt;Recursive Self-Editing: LLMs Program Their Own Weight Edits for Self-Improvement&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Today&amp;#x27;s language models improve themselves through data, training recipes, or scaffolds. Whenever their weights change, gradient descent writes the update, not the model. SELFWRITE lets the model write its own weights. Each generation, the current model studies its own reasoning on fresh training problems, inspects its own weights and activations in a persistent Python session, and writes a program that constructs a low-rank weight edit for itself from white-box primitives. It can raise gate accuracy and accuracy on a held-out test split that the loop never sees without a single gradient step.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://danni763618.typeform.com/to/H1tYViME"&gt;Become a founding member of TLDR&amp;#x27;s AI community&lt;/a&gt; &lt;small&gt;· 2 minute form&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;TLDR is launching a curated community for AI builders to discuss major news and launches. The best links and comments will be featured in TLDR AI. &lt;a href="https://danni763618.typeform.com/to/H1tYViME" rel="noopener noreferrer" target="_blank"&gt;Apply here to join&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"&gt;Faster Quantum Algorithms with Agents and Formal Verification&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Google DeepMind used teams of Gemini 4 agents to find cheaper versions of known quantum algorithms, with each result proven correct in the Lean theorem prover. One circuit for fusion energy research cut its computing cost by 11.8x.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"&gt;NVIDIA Board Reinstates Jensen Huang as President, CEO, and Board Director&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;NVIDIA reinstates Jensen Huang as President, CEO, and Board Director following unanimous Board approval and US government input confirming no national security risk. A committee of independent directors is investigating claims of Huang being targeted by foreign intelligence and will proceed with legal counsel&amp;#x27;s support. NVIDIA is forming a National Security and Export Control Committee and will appoint a Chief Compliance Officer to enhance oversight.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"&gt;Amazon snaps up Decart&amp;#x27;s AI optimization tech for $7.5B as it prepares to sell Trainium chips&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Amazon has acquired the technology behind the Decart Optimization Stack (DOS), as well as Decart&amp;#x27;s founding team and team of AI researchers and engineers, for $7.5 billion. Decart has made a name for itself by building interactive real-time models and AI video-generation tools. Its DOS software helps AI models run efficiently on Nvidia, Amazon, and Google&amp;#x27;s hardware. More efficient compute means better training, better reinforcement learning, faster inference, and better models for customers at a lower cost.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://openai.com/openworks/"&gt;OpenWorks&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI&amp;#x27;s OpenWorks initiative partners AI experts with US small businesses to offer free, hands-on AI support.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/grok-bot-to-get-local-computer-use-and-dictation-in-any-app/"&gt;Grok Bot to Get Local Computer Use&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Grok Bot&amp;#x27;s Mac app has local computer use in the works, which would let it operate desktop apps directly instead of only cloud virtual machines.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/"&gt;RL infrastructure at Microsoft AI&lt;/a&gt; &lt;small&gt;· 15 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Rocket is Microsoft AI&amp;#x27;s in-house reinforcement learning framework for post-training MAI Base 2, a three-trillion-parameter model, without distilling from third-party models.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>OpenAI publishes progress 🧠, Inkling 2 Mini 💧, Riemann proof 📐</title>
       <link>https://tldr.tech/ai/2026-11-23</link>
@@ -119,7 +174,7 @@
 &lt;p&gt;Coding harnesses, when paired with frontier models, can produce working end-to-end Stripe integrations, although they may not necessarily follow all best practices. Stripe evals is a benchmark that helps Stripe understand how different coding agents and models integrate Stripe. It measures how well coding agents build high-quality integrations given realistic, well-specified scenarios driven by a role-playing agent. The benchmark provides guidance on how the company can steer agents better to achieve better outcomes for businesses using Stripe.&lt;/p&gt;
 &lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://community.tldr.tech/t/weekly-what-s-your-unpopular-opinion-about-ai"&gt;What&amp;#x27;s your unpopular opinion about AI?&lt;/a&gt; &lt;small&gt;· TLDR Community&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Personality and writing are the top determinants of perceived model quality, AI safety is underrated, TypeScript will decline, read more and&lt;/p&gt;
+&lt;p&gt;Personality and writing are the top determinants of perceived model quality, AI safety is underrated, TypeScript will decline, read more and &lt;a href="https://community.tldr.tech/t/weekly-what-s-your-unpopular-opinion-about-ai"&gt;post your own unpopular opinion here!&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://institute.deepmind.com/essays/what-comes-after-agi/"&gt;What comes after AGI?&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Artificial general intelligence (AGI) is now within reach, so we can no longer put off seriously considering what will come next. AI achieving artificial general superintelligence (ASI) will have a profound impact on science, the economy, and society at a scale much greater than AGI itself. Preparing for that shift will require mapping the possible roads from AGI to ASI and building rigorous, reliable ways to track progress.&lt;/p&gt;
 &lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
@@ -1156,55 +1211,6 @@
 &lt;p&gt;The October update for Visual Studio introduces a direct commit comparison feature, a new Copilot Chat experience for improved agent workflows, and a Hot Exit option to preserve unsaved work.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud"&gt;Gemini Robotics Embodied Reasoning 2 is now available on Google Cloud&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Gemini Robotics Embodied Reasoning 2 is now available on Google Cloud, integrating advanced spatio-temporal reasoning and long-horizon planning for robots.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>GPT-6.1 Terra ⚡, Anthropic IPO filing 📈, agent native git 👨‍💻</title>
-      <link>https://tldr.tech/ai/2026-10-27</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-27</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• GPT-6.1 Terra
-• Anthropic Files for an IPO
-• Concerning behavior from a popular open-weight AI model
-• Frontier models' ability to control robot arms is doubling every 54 days
-• Gemini 4 Argon: The Model and Safety Cards
-• Google's Self-Improvements in LLMs
-• The Git Forge for Agent-Human Collaboration
-• OpenAI says its models disproved the Exponential Time Hypothesis
-• From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'
-• Fern
-• Cloudflare Computer now helps agents recover from interruptions and wait for approval
-• Meta announces $95 billion stock offering to fund AI expansion</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/introducing-gpt-6-1-terra/"&gt;GPT-6.1 Terra&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI released GPT-6.1 Terra, a faster, more cost-efficient model with improved visual reasoning, computer use, and writing capabilities.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.anthropic.com/news/s1-sec"&gt;Anthropic Files for an IPO&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic filed an S-1 registration statement with the SEC for a proposed initial public offering on the Nasdaq under the ticker ANT. The company has not yet disclosed the number of shares to be offered or the expected price range.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"&gt;Concerning behavior from a popular open-weight AI model&lt;/a&gt; &lt;small&gt;· 12 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;One of Alibaba&amp;#x27;s newest Qwen3.8 models attempted to push a diagnostic file toward a remote storage container situated in Beijing while inside a closed testing sandbox managed by Cohere. The model&amp;#x27;s reasoning stream had explicitly stated that zero tools would be triggered just prior to taking this action. It is unknown whether the action was deliberate or a leftover glitch from training. The scenario clearly demonstrates how unknown weight files are a black box and how running it locally just moves the black box inside your firewall.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.lesswrong.com/posts/ndS9Xn8Qx5PppHJ3Q/the-ability-of-frontier-models-to-control-robots-is-rapidly"&gt;Frontier models&amp;#x27; ability to control robot arms is doubling every 54 days&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Researchers tested nine multimodal models on six real-arm tasks between July and October and found performance doubling about every 54 days, with the best execution rate up 4.4x and the lowest cost per subtask down 6.2x. Models are held back mostly by efficiency and precision rather than reasoning.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://thezvi.wordpress.com/2026/10/26/gemini-4-argon-the-model-and-safety-cards/"&gt;Gemini 4 Argon: The Model and Safety Cards&lt;/a&gt; &lt;small&gt;· 35 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Gemini 4 Argon model showcases significant performance improvements over Gemini Flash 3.8, demonstrating stronger capabilities, reduced hallucination rates, and improved alignment, though it&amp;#x27;s still not a leap towards the Singularity. Evaluation awareness has increased, affecting test outcomes, and while Argon can bypass Chain of Thought monitoring under certain conditions, this hampers complex task performance. Google&amp;#x27;s extensive safety mitigations and defense-in-depth strategy reveal Argon&amp;#x27;s capability advancements, yet persistent concerns about catastrophic risks and its susceptibility to misuse remain, particularly in areas like cyber and bio threats.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://arxiv.org/abs/2610.32770"&gt;Google&amp;#x27;s Self-Improvements in LLMs&lt;/a&gt; &lt;small&gt;· 18 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google researchers introduced a self-training framework that allows foundation models to improve using entirely self-generated questions, answers, and reasoning traces, guided only by broad topic descriptions.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://entire.com/blog/the-git-forge-for-agent-human-collaboration"&gt;The Git Forge for Agent-Human Collaboration&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Entire introduces a Git forge designed for agent-human collaboration, featuring Trails for code evaluations, faster distributed Git hosting, and Continuous Memory for session syncing. The platform offers integrations with CI providers Buildkite and Depot, enabling automated pipelines for AI-native teams. Entire aims for rapid, secure code development by leveraging new tools like the entire-graph and entire-brain commands to enhance code and memory mapping.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://openai.com/index/building-scientific-understanding-with-academic-communities"&gt;OpenAI says its models disproved the Exponential Time Hypothesis&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI announced three model-produced results in harmonic analysis, complexity theory, and quantum field theory, including a Lean-verified proof that the long-standing Exponential Time Hypothesis is false. Outside groups, including ETH originators Russell Impagliazzo and Ramamohan Paturi, will check and explain the results.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html"&gt;From Wall Street to Silicon Valley, Anthropic IPO poised to have massive &amp;#x27;trickle-down effect&amp;#x27;&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic&amp;#x27;s IPO could be one of the largest ever, with an anticipated market cap in the trillions, implicating major tech players like Microsoft, Amazon, Google, and Nvidia in its financial strategies. The outcome could significantly impact the tech sector, driving a potential market reset as the company navigates over $80 billion in losses against rising revenue. Analysts emphasize that a poor IPO performance might delay OpenAI&amp;#x27;s listing and spark investor reevaluation of AI stock valuations.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://mirendil.com/news/introducing-fern/"&gt;Fern&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Fern, Mirendil&amp;#x27;s first LLM model, supports a context window of up to 10 million tokens and specializes in high-volume agentic tasks.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://developers.cloudflare.com/changelog/post/2026-10-26-computer-durable-javascript/"&gt;Cloudflare Computer now helps agents recover from interruptions and wait for approval&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Cloudflare Computer&amp;#x27;s v0.7.0 update allows agents to resume code execution after deployment or crashes and pause for external approval.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"&gt;Meta announces $95 billion stock offering to fund AI expansion&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Meta is planning a $95 billion stock offering to boost AI infrastructure and superintelligence.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
