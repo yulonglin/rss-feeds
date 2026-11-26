@@ -9,7 +9,28 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/scholar-inbox.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://www.scholar-inbox.com/" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 25 Nov 2026 15:02:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 13:22:47 +0000</lastBuildDate>
+    <item>
+      <title>Scholar Inbox, 26 Nov 2026: 5 papers</title>
+      <link>https://www.scholar-inbox.com/</link>
+      <guid isPermaLink="false">scholar-inbox:2942805e4454faaf</guid>
+      <pubDate>Thu, 26 Nov 2026 13:22:47 +0000</pubDate>
+      <dc:creator>Scholar Inbox</dc:creator>
+      <category>Paper digest</category>
+      <description>• Do Language Models Mix? Experimental Evidence from Asymmetric Matching Pennies
+• Attack Policy Selection can Mislead Monitor Evaluators
+• Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL
+• Evaluation and Restoration of Safety in Reasoning-Tuned LLMs
+• Make the Adversary Spend More: Stateful Deception as a Cost-Exchange Primitive for AI-Era Cyber Defense</description>
+      <content:encoded>&lt;p&gt;Matched 71 of 2083 new papers; the top 5 are below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Do+Language+Models+Mix%3F+Experimental+Evidence+from+Asymmetric+Matching+Pennies&amp;amp;searchtype=title"&gt;&lt;strong&gt;Do Language Models Mix? Experimental Evidence from Asymmetric Matching Pennies&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Joshua Foster&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 24) · relevance 83&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Attack+Policy+Selection+can+Mislead+Monitor+Evaluators&amp;amp;searchtype=title"&gt;&lt;strong&gt;Attack Policy Selection can Mislead Monitor Evaluators&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Charlie Griffin, Oliver Makins, Asa Cooper Stickland, Alessandro Abate, Yarin Gal, Abby D'Cruz, Xander Davies&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 25) · relevance 83&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Single-Database+Rewards+Are+Hackable%3A+Counterfactual+Execution+for+Trustworthy+Text-to-SQL+RL&amp;amp;searchtype=title"&gt;&lt;strong&gt;Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Shreshth Rai, Rishii Kumar Singh, Aksh Aggarwal&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 25) · relevance 81&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Evaluation+and+Restoration+of+Safety+in+Reasoning-Tuned+LLMs&amp;amp;searchtype=title"&gt;&lt;strong&gt;Evaluation and Restoration of Safety in Reasoning-Tuned LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ehsan Latif, Roberto Dailey, Risto Miikkulainen, Elliot Meyerson&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 24) · relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Make+the+Adversary+Spend+More%3A+Stateful+Deception+as+a+Cost-Exchange+Primitive+for+AI-Era+Cyber+Defense&amp;amp;searchtype=title"&gt;&lt;strong&gt;Make the Adversary Spend More: Stateful Deception as a Cost-Exchange Primitive for AI-Era Cyber Defense&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Alessandro Cantelli-Forti, Isabella Marasco, Hosam Alamleh, Giada Boschi, Michele Colajanni&lt;br&gt;&lt;small&gt;ArXiv 2026 (November 25) · relevance 77&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
     <item>
       <title>Scholar Inbox, 25 Nov 2026: 5 papers</title>
       <link>https://www.scholar-inbox.com/</link>
@@ -449,27 +470,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22ANCHOR%3A+Automated+Alignment+Auditing+for+CLI+Agents+on+Real-World+Harm%22"&gt;&lt;strong&gt;ANCHOR: Automated Alignment Auditing for CLI Agents on Real-World Harm&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Kefan Song, Yanjun Qi&lt;br&gt;&lt;small&gt;relevance 80&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22SGT%3A+Securing+Open-Source+LLMs+Against+Malicious+Fine-tuning+via+Safety+Guidance+Trigger%22"&gt;&lt;strong&gt;SGT: Securing Open-Source LLMs Against Malicious Fine-tuning via Safety Guidance Trigger&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Sunguk Shin, Fangzhao Wu, Byung-Jun Lee, Meeyoung Cha, Sungwon Park&lt;br&gt;&lt;small&gt;relevance 79&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Calibrating+Inference+Time+Alignment+with+Sequence-level+Risk+Accumulation%22"&gt;&lt;strong&gt;Calibrating Inference Time Alignment with Sequence-level Risk Accumulation&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Shanwen Tan, Ziyang Dong, Wei Ju, Yiwei Fu, Hao Wu, Kun Wang, Yifan Wang, Ziyue Qiao&lt;br&gt;&lt;small&gt;relevance 78&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Scholar Inbox, 27 Oct 2026: 5 papers</title>
-      <link>https://www.scholar-inbox.com/</link>
-      <guid isPermaLink="false">scholar-inbox:24dcd084f4896734</guid>
-      <pubDate>Tue, 27 Oct 2026 14:36:48 +0000</pubDate>
-      <dc:creator>Scholar Inbox</dc:creator>
-      <category>Paper digest</category>
-      <description>• Between a Rock and a Hard Place: The Tension Between Ethical Reasoning and Safety Alignment in LLMs
-• Beyond Belief: Evaluating and Mitigating LLM Susceptibility to Misinformation
-• Propensities Please: Exposing Alignment-Faking LLMs using Synthetic Document Finetuning
-• ChameleonBench: Quantifying Alignment Faking in Large Language Models
-• Position Matters More Than Channel: Talking a Language Model Out of a Correct Answer</description>
-      <content:encoded>&lt;p&gt;Matched 213 of 3466 new papers; the top 5 are below.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22Between+a+Rock+and+a+Hard+Place%3A+The+Tension+Between+Ethical+Reasoning+and+Safety+Alignment+in+LLMs%22"&gt;&lt;strong&gt;Between a Rock and a Hard Place: The Tension Between Ethical Reasoning and Safety Alignment in LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Shei Pern Chua, Zhen Leng Thai, Kai Jun Teh, Xiao Li, Qibing Ren, Xiaolin Hu&lt;br&gt;&lt;small&gt;relevance 94&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Beyond+Belief%3A+Evaluating+and+Mitigating+LLM+Susceptibility+to+Misinformation&amp;amp;searchtype=title"&gt;&lt;strong&gt;Beyond Belief: Evaluating and Mitigating LLM Susceptibility to Misinformation&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Emran Kanaan, Jiho Lee, Ibrahim Odat, Soroush Vosoughi, Weicheng Ma&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 25) · relevance 93&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Propensities+Please%3A+Exposing+Alignment-Faking+LLMs+using+Synthetic+Document+Finetuning&amp;amp;searchtype=title"&gt;&lt;strong&gt;Propensities Please: Exposing Alignment-Faking LLMs using Synthetic Document Finetuning&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Ardy Haroen, Florian Lorkowski, Samuel Nellessen, Felix Hofstätter&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 23) · relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://scholar.google.com/scholar?q=%22ChameleonBench%3A+Quantifying+Alignment+Faking+in+Large+Language+Models%22"&gt;&lt;strong&gt;ChameleonBench: Quantifying Alignment Faking in Large Language Models&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Archie Chaudhury, Shikhar Shiromani&lt;br&gt;&lt;small&gt;relevance 92&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://arxiv.org/search/?query=Position+Matters+More+Than+Channel%3A+Talking+a+Language+Model+Out+of+a+Correct+Answer&amp;amp;searchtype=title"&gt;&lt;strong&gt;Position Matters More Than Channel: Talking a Language Model Out of a Correct Answer&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Xinyi Ni&lt;br&gt;&lt;small&gt;ArXiv 2026 (October 26) · relevance 87&lt;/small&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;</content:encoded>
     </item>
   </channel>

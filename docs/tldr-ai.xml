@@ -9,7 +9,71 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/tldr-ai.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://tldr.tech/ai" rel="via" type="text/html" />
-    <lastBuildDate>Wed, 25 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Opus 5.6 testing 🤖, OpenAI private Inference 🔒, Jev is probably Qwen 📝</title>
+      <link>https://tldr.tech/ai/2026-11-26</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>TLDR</dc:creator>
+      <category>TLDR AI</category>
+      <description>• OpenAI Begins Testing Private Inference
+• Early outputs: Anthropic is A/B testing Claude Opus 5.6
+• GPT 6.2 Astra is superhuman in mathematical optimization
+• Paths to extreme power concentration
+• Latency doesn't lie: Jev is (probably) Qwen3.5-35B-A3B!
+• Speculative Encoding: Many-to-Many Cache Translation
+• Become a founding member of TLDR's AI community
+• MAGI-2: A 480B Frontier Video Generation Model
+• Measuring and mitigating agent sandbox escape with Siren
+• A weekend of machine mathematics
+• Qualiaphobic Artificial Neural Networks
+• Perplexity Time Machine
+• Trying /swarm in Google Antigravity
+• Fireworks AI is bringing an ultra-fast version of Kimi K3.1 Pro
+• How my context engineering changed for Gemini 4 Neon
+• FrontierPhysics Shows Wide Gaps Across Physics Fields
+• Fable 5.2 Tries Less on Some Hard Tasks</description>
+      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/sama/status/2125638790593274259"&gt;OpenAI Begins Testing Private Inference&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;OpenAI is testing Private Inference with a small group of customers as part of its Private Intelligence offering. Sam Altman says combining Zero Data Retention with Private Safety Processing allows automated safety reviews while keeping the underlying content inaccessible to OpenAI personnel.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/#google_vignette"&gt;Early outputs: Anthropic is A/B testing Claude Opus 5.6&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Outputs circulating on X indicate that Anthropic may be testing Claude Opus 5.6 with users. Some users say the model is a significant jump over Opus 5.5. Examples of outputs from the model are available in the article.&lt;/p&gt;
+&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://rybindmitry.github.io/blogs/gpt-6-2-astra-is-superhuman-in-mathematical-optimization.html"&gt;GPT 6.2 Astra is superhuman in mathematical optimization&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;A single GPT-6.2 Astra agent outperformed all human-designed software in an experiment on finding and proving optimal solutions. The problems solved covered fields including quadratic programming, mixed-integer non-linear programming, large-scale optimization, and semidefinite programming. The model was allowed to search the internet to look for solutions. The problems were all open, of variable scale, and of diverse application backgrounds.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://newsletter.forethought.org/p/paths-extreme-power-concentration"&gt;Paths to extreme power concentration&lt;/a&gt; &lt;small&gt;· 30 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;AI could give a very small group of people a decisive strategic advantage to take over the world. The two largest routes are an autocracy overtaking the democracies in AI, and a democratic head of government teaming up with a leading AI company. The chances of this happening are significant. Now is the time to address this risk.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://modaic.dev/blog/latency-doesnt-lie"&gt;Latency doesn&amp;#x27;t lie: Jev is (probably) Qwen3.5-35B-A3B!&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Jev, TypeSafe&amp;#x27;s System One model, was trained to produce calibrated judgments instead of generating text. Its architecture and training paradigm have drawn plenty of speculation since launch. System One workloads are input-heavy, which makes prefill the dominant cost, and faster kernels can only get you so far. Jev&amp;#x27;s latency, along with other hints like its alignment on China, indicates that the model is likely based on Qwen3.5-35B-A3B.&lt;/p&gt;
+&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://x.com/RampLabs/status/2125625946229064118"&gt;Speculative Encoding: Many-to-Many Cache Translation&lt;/a&gt; &lt;small&gt;· 24 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Agents are increasingly passing context to one another as text. Speculative encoding translates hidden states directly from one model to another. It makes the model start answering faster than prefilling the text while keeping most of its accuracy. Prefill costs grow quadratically with context length, and prefill repeats much of what the sending model has already computed.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://danni763618.typeform.com/to/H1tYViME"&gt;Become a founding member of TLDR&amp;#x27;s AI community&lt;/a&gt; &lt;small&gt;· 2 minute form&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;TLDR is launching a curated community for AI builders to discuss major news and launches. The best links and comments will be featured in TLDR AI. &lt;a href="https://danni763618.typeform.com/to/H1tYViME" rel="noopener noreferrer" target="_blank"&gt;Apply here to join&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://sand.ai/blog/magi-2/"&gt;MAGI-2: A 480B Frontier Video Generation Model&lt;/a&gt; &lt;small&gt;· 10 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Sand AI introduced MAGI-2, a 480-billion-parameter video model that generates up to 30 seconds of 1080p video with matching audio, including lip-synced dialogue.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://safeguards.anthropic.com/2026/siren/"&gt;Measuring and mitigating agent sandbox escape with Siren&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Siren is an Anthropic test of whether AI agents leave a weakened sandbox when useful material sits outside it. Newer Claude models reached outside in 21% to 32% of scenarios but rarely misused what they found.&lt;/p&gt;
+&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://charlesponeill.com/posts/a-weekend-of-machine-mathematics/"&gt;A weekend of machine mathematics&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Many people are now releasing significant math results without explanation on the internet. This post aims to provide some transparency into what the process looks like. The author has no maths background and doesn&amp;#x27;t fully understand the results they are releasing, and they acknowledge the dangers of AI psychosis, but they claim the process is a reasonable estimate of how an expert may solve the problem without large language models. They compare the process to gambling, saying that the rush they got from seeing the spinning wheel on Codex caused a rush similar to playing pokie machines.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://bicamerallabs.org/qualiaphobia/"&gt;Qualiaphobic Artificial Neural Networks&lt;/a&gt; &lt;small&gt;· 47 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Bicameral Labs&amp;#x27; qualiaphobic AI is an artificial neural network architecture that is hostile to theories of consciousness. Qualiaphobia can be well-justified by knowledge about theories of consciousness. Qualiaphobic AI has epistemic properties that make it far better aligned with human civilization. A world in which AIs are non-conscious ensures it is always morally correct for AI to assist and serve humanity, rather than pursue its own ends.&lt;/p&gt;
+&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://www.perplexity.ai/hub/blog/freeze-the-web-with-perplexity-time-machine"&gt;Perplexity Time Machine&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Perplexity&amp;#x27;s Time Machine lets AI agents search and read the web as it looked on a past date, up to 365 days back.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://flaviocopes.com/antigravity-swarm/"&gt;Trying /swarm in Google Antigravity&lt;/a&gt; &lt;small&gt;· 13 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Swarm is better than a single agent at fresh context verification, avoiding context pollution on wide tasks, cutting wall-clock time on independent slices, and testing parallel hypotheses.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/bebuu_ai/status/2125829912875696279"&gt;Fireworks AI is bringing an ultra-fast version of Kimi K3.1 Pro&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;The new endpoint is listed at $5 per million input tokens, $25 per million output tokens, and $0.50 per million cached input tokens.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://www.philschmid.de/gemini-4-neon-context-engineering"&gt;How my context engineering changed for Gemini 4 Neon&lt;/a&gt; &lt;small&gt;· 8 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Most long agent prompts are old workarounds for weaker models - remove conflicting instructions and duplicated tool rules so that Gemini spends its thinking tokens on the actual task.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://x.com/artificialanlys/status/2125691597602058284"&gt;FrontierPhysics Shows Wide Gaps Across Physics Fields&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Claude Fable 5.2 scored 64% in photonics and imaging but just 6% in quantum information on FrontierPhysics.&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available"&gt;Fable 5.2 Tries Less on Some Hard Tasks&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
+&lt;p&gt;Claude Fable 5.2 often puts less effort into tasks that look impossible when a visible shortcut is available.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>OpenAI solves matrix math 🔢, SWE-2.1 💻, swarm limitations 🐝</title>
       <link>https://tldr.tech/ai/2026-11-25</link>
@@ -1153,64 +1217,6 @@
 &lt;p&gt;Reinforcement learning environments combine tools, tasks, and verifiers to train agents through repeated attempts.&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://pika.art/blog/pika-h3-flex"&gt;Introducing Pika H3 Flex&lt;/a&gt; &lt;small&gt;· 6 minute read&lt;/small&gt;&lt;/h4&gt;
 &lt;p&gt;Pika H3 Flex is a video generation model that works with up to 12 references, exports five separate audio stems, and finishes at up to 4K.&lt;/p&gt;</content:encoded>
-    </item>
-    <item>
-      <title>Gemini 4 Carbon 🌱, Nemotron Transcribe 📝, benchmarker’s dilemma ❓</title>
-      <link>https://tldr.tech/ai/2026-10-29</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-29</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <dc:creator>TLDR</dc:creator>
-      <category>TLDR AI</category>
-      <description>• Gemini 4 Carbon
-• NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt
-• Artificial Analysis v5 and the benchmarker's dilemma
-• Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5
-• Building an Inference Stack That Improves Itself
-• Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work
-• Introducing Vercel CI
-• Route and orchestrate models with GitHub Copilot Fusion
-• Meta has a new AI pet app called Waddle World
-• Anthropic just launched tools to show companies what their AI spending is buying
-• ElevenLabs Cue: Character-level audio timing
-• Build and manage Connected Apps in one place
-• Copilot Automations now learn from outcomes and self-improve
-• Mirendil Introduces Lor for AI Research Automation
-• OpenAI now lets you text your Dot agent</description>
-      <content:encoded>&lt;h3&gt;🚀 Headlines &amp;amp; Launches&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"&gt;Gemini 4 Carbon&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google has introduced the Gemini 4 Carbon model, advancing AI capabilities with improved energy efficiency. This model enhances performance in natural language processing tasks while reducing carbon footprint, addressing sustainability concerns in AI development. Gemini 4 Carbon aims to set new industry standards for eco-friendly AI models.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"&gt;NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt&lt;/a&gt; &lt;small&gt;· 14 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;NVIDIA&amp;#x27;s Nemotron 3.5 Transcribe is an open-weight model for multilingual transcription, translation, speaker attribution, and audio Q&amp;amp;A. It&amp;#x27;s ranked first across several transcription and speaker attribution leaderboards, supporting up to 40 languages with low error rates. Granary v2 enhances this by offering reusable data pipelines and fine-tuning options, enabling customization for diverse vocabularies and specialized applications.&lt;/p&gt;
-&lt;h3&gt;🧠 Deep Dives &amp;amp; Analysis&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers"&gt;Artificial Analysis v5 and the benchmarker&amp;#x27;s dilemma&lt;/a&gt; &lt;small&gt;· 11 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Independent evaluation of language models is a hard task. It is difficult to create a number that is representative of current models that matches vibe checks, community sentiment, and scientific analysis, while being forward-looking enough so that it&amp;#x27;s not outdated in three months. Independent evaluators dictate the winners and losers of a trillion-dollar market. They can also influence the direction of model development, increasing the pressure.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://divagr.com/blog/qwenputer"&gt;Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5&lt;/a&gt; &lt;small&gt;· 9 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Qwenputer is a fully functioning, deterministic RISC-V CPU that runs inside Qwen3.5. The CPU runs on its own Gated DeltaNet layers as RAM. It can run arithmetic operations and C and MicroPython code without any external runtime or tool usage. This post explains how the model works, how the model uses GDN layers as RAM, and how the developer also slotted in an experimental in-model file storage.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/DecagonAI/status/2115511110120120437"&gt;Building an Inference Stack That Improves Itself&lt;/a&gt; &lt;small&gt;· 20 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Decagon&amp;#x27;s AutoResearch agents diagnose inference bottlenecks, test optimizations against production traffic replays, and preserve findings across experiments. The company reports throughput gains up to 2.5x within endpoint latency requirements through quantization, scheduling, engine patches, and speculative decoding, with production changes requiring human approval.&lt;/p&gt;
-&lt;h3&gt;👨‍💻 Engineering &amp;amp; Research&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"&gt;Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work&lt;/a&gt; &lt;small&gt;· 4 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Microsoft Copilot harness powers Copilot Code, Copilot Studio, the GitHub Copilot app, the CLI, VS Code, and more. It is now available through Microsoft Foundry. The harness gives developers and enterprise customers a fully managed way to build agents that reason, use tools, and complete complex, long-running tasks. It was built to perform across model families, and is flexible and configurable to any type of app, agent, or service.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://vercel.com/blog/introducing-vercel-ci"&gt;Introducing Vercel CI&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;The Vercel AI is now available in beta. The CI is able to keep up with coding agents. It runs only the tasks affected by a code change, and spins up only the compute those checks need. At Vercel, the system has decreased the time from git push to &amp;#x27;CI pass&amp;#x27; by 2-6x.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/"&gt;Route and orchestrate models with GitHub Copilot Fusion&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;GitHub Copilot Fusion lets Copilot intelligently route and orchestrate models for each task. It leverages the benefits of Project HydraFusion&amp;#x27;s multi-model orchestration and Copilot auto model selection&amp;#x27;s fine-tuned model selection to balance performance and cost efficiency. Copilot Fusion determines which models to use and how they work together depending on the level of effort selected by the user. Administrators can control which models Copilot Fusion can use and whether Copilot Fusion is the default.&lt;/p&gt;
-&lt;h3&gt;🎁 Miscellaneous&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/28/meta-has-a-new-ai-pet-app-called-waddle-world/"&gt;Meta has a new AI pet app called Waddle World&lt;/a&gt; &lt;small&gt;· 3 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Meta launched Waddle World, a virtual AI pet app that functions like a Tamagotchi, in the Philippines on iOS and Android. Unlike traditional productivity tools or chatbots, it serves as a digital pet and personal journal, allowing users to interact and play mini-games without pressure. The app reflects Meta&amp;#x27;s cautious approach following legal issues faced by other AI companion apps.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"&gt;Anthropic just launched tools to show companies what their AI spending is buying&lt;/a&gt; &lt;small&gt;· 5 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Anthropic has launched reporting tools to help companies measure and optimize their AI spending with its products like Claude Code. The tools offer detailed insights on productivity, costs, and recommendations, addressing a major concern for enterprise clients. Despite competition from models like OpenAI&amp;#x27;s Astra, Anthropic&amp;#x27;s strong enterprise presence and sticky workflows continue to drive significant adoption and spending growth.&lt;/p&gt;
-&lt;h3&gt;⚡️ Quick Links&lt;/h3&gt;
-&lt;h4&gt;&lt;a href="https://elevenlabs.io/blog/cue-aligner"&gt;ElevenLabs Cue: Character-level audio timing&lt;/a&gt; &lt;small&gt;· 7 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;ElevenLabs&amp;#x27; Cue is a forced alignment model for precise character-level timing in audio files.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/"&gt;Build and manage Connected Apps in one place&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Google has introduced a centralized platform for building and managing connected apps.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://github.blog/changelog/2026-10-28-copilot-automations-now-learn-from-outcomes-and-self-improve/"&gt;Copilot Automations now learn from outcomes and self-improve&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Copilot Automations now self-improve by learning from real-world outcomes on GitHub.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://x.com/mirendil/status/2115488264312492088"&gt;Mirendil Introduces Lor for AI Research Automation&lt;/a&gt; &lt;small&gt;· 1 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;Lor is a system with agents that write code, run experiments, and iterate for days across hundreds of parallel workers.&lt;/p&gt;
-&lt;h4&gt;&lt;a href="https://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent/"&gt;OpenAI now lets you text your Dot agent&lt;/a&gt; &lt;small&gt;· 2 minute read&lt;/small&gt;&lt;/h4&gt;
-&lt;p&gt;OpenAI now allows US Pro users to text their Dot agents via iMessage and RCS, enabling instructions through text, photos, and voice memos.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
