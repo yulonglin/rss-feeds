@@ -24,6 +24,7 @@
       <outline text="Gates Notes" title="Gates Notes" type="rss" xmlUrl="https://feeds.yulonglin.com/gates-notes.xml" htmlUrl="https://www.gatesnotes.com/" />
       <outline text="Simon Willison" title="Simon Willison" type="rss" xmlUrl="https://simonwillison.net/atom/entries/" htmlUrl="https://simonwillison.net/" />
       <outline text="Simon Willison - prompt injection" title="Simon Willison - prompt injection" type="rss" xmlUrl="https://simonwillison.net/tags/prompt-injection.atom" htmlUrl="https://simonwillison.net/tags/prompt-injection/" />
+      <outline text="ADHD Insights" title="ADHD Insights" type="rss" xmlUrl="https://adhdinsightss.substack.com/feed" htmlUrl="https://adhdinsightss.substack.com/" />
     </outline>
   </body>
 </opml>

@@ -455,4 +455,11 @@ EXTERNAL_DEFAULTS: list[ExternalFeed] = [
         site_url="https://simonwillison.net/tags/prompt-injection/",
         folder="Newsletters",
     ),
+    # Note the doubled "s" in the subdomain; the single-s spelling is a different site.
+    ExternalFeed(
+        title="ADHD Insights",
+        url="https://adhdinsightss.substack.com/feed",
+        site_url="https://adhdinsightss.substack.com/",
+        folder="Newsletters",
+    ),
 ]
