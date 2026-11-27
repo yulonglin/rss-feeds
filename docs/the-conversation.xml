@@ -9,7 +9,49 @@
     <docs>https://www.rssboard.org/rss-specification</docs>
     <atom:link href="https://feeds.yulonglin.com/the-conversation.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://theconversation.com/global/newsletters" rel="via" type="text/html" />
-    <lastBuildDate>Thu, 26 Nov 2026 12:31:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 13:33:42 +0000</lastBuildDate>
+    <item>
+      <title>AI is upending mathematics – where to now?</title>
+      <link>https://theconversation.com/from-solving-to-digesting-how-mathematicians-can-adapt-to-the-dramatic-changes-ai-has-brought-to-their-field-295539</link>
+      <guid isPermaLink="false">the-conversation:39fd4d3670b211d9</guid>
+      <pubDate>Fri, 27 Nov 2026 13:33:42 +0000</pubDate>
+      <dc:creator>The Conversation</dc:creator>
+      <category>Global daily</category>
+      <description>• From solving to ‘digesting’: How mathematicians can adapt to the dramatic changes AI has brought to their field
+• What are AI chips, and what’s so special about Nvidia’s?
+• AI helps uncover critical flaw in ubiquitous internet software
+• Was Anthropic’s record US$81 billion listing a vote of confidence in AI – and what’s next?
+• In the age of AI, Indigenous ways of knowing remind us why lived experience matters</description>
+      <content:encoded>&lt;p&gt;Readers of this newsletter have no doubt heard of the existential crisis in mathematics that AI has wrought. A mathematician explains why he and others believe the field should shift from only solving long-standing problems to understanding them. &lt;/p&gt;
+&lt;p&gt;Also this week, a computer scientist and electrical engineer explains the reasons Nvidia’s chips now dominate AI, why AI is so powerful in finding long-standing software bugs, what Anthropic’s public listing on the stock market means for the company, and why Indigenous knowledge and lived experience remain important in the face of massive change from AI. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Martin LaMonica&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Director of Editorial Projects and Newsletters &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lead story&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/771238/original/file-20261110-64-vsqn49.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C313%2C6000%2C3375&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/from-solving-to-digesting-how-mathematicians-can-adapt-to-the-dramatic-changes-ai-has-brought-to-their-field-295539"&gt;From solving to ‘digesting’: How mathematicians can adapt to the dramatic changes AI has brought to their field&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;David Manderscheid, University of Tennessee&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As new proof for the Riemann hypothesis demonstrates, AI will change how mathematics is practiced and taught to future generations.&lt;/p&gt;
+&lt;p&gt;Now that an AI can come up with a solution and a proof, the underlying understanding could vanish. Mathematicians are being forced to rethink what they value.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technology&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/773737/original/file-20261123-62-op3d0l.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C213%2C6000%2C3375&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/what-are-ai-chips-and-whats-so-special-about-nvidias-297128"&gt;What are AI chips, and what’s so special about Nvidia’s?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Jeffrey Young, Georgia Institute of Technology&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nvidia found itself in the right place at the right time. It was the dominant seller of graphics chips by the early 2000s, and those chips later turned out to be well suited for running AI.&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/772850/original/file-20261118-64-7qldmn.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C169%2C3249%2C1828&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/ai-helps-uncover-critical-flaw-in-ubiquitous-internet-software-296930"&gt;AI helps uncover critical flaw in ubiquitous internet software&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Doug Jacobson, Iowa State University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;AI is speeding up the pace of uncovering software flaws hackers could exploit, like the one just found in the widely used internet software Java.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Business&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/773210/original/file-20261120-62-4zf41m.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C507%2C4853%2C2729&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/was-anthropics-record-us-81-billion-listing-a-vote-of-confidence-in-ai-and-whats-next-297151"&gt;Was Anthropic’s record US$81 billion listing a vote of confidence in AI – and what’s next?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Angel Zhong, RMIT University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Now that Anthropic has become a publicly listed company, the AI industry will come under even more intense scrutiny.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI and Humanity&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="" src="https://images.theconversation.com/files/773104/original/file-20261119-62-7bfd7a.jpg?ixlib=rb-4.1.1&amp;amp;rect=20%2C0%2C1366%2C768&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
+&lt;h3&gt;&lt;a href="https://theconversation.com/in-the-age-of-ai-indigenous-ways-of-knowing-remind-us-why-lived-experience-matters-296644"&gt;In the age of AI, Indigenous ways of knowing remind us why lived experience matters&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Frank Deer, University of Manitoba&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As AI begins to create knowledge, universities must confront the question of what knowledge production is. Indigenous perspectives provide valuable insights.&lt;/p&gt;</content:encoded>
+    </item>
     <item>
       <title>Black Friday: the psychology</title>
       <link>https://theconversation.com/black-friday-consumer-behaviour-expert-on-whats-really-behind-our-need-to-chase-bargains-296105</link>
@@ -524,55 +566,6 @@
 &lt;p&gt;&lt;em&gt;Luke Rowe, Australian Catholic University&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;A good principle when studying with artificial intelligence is: think first, use AI second (or, in some cases, not at all).&lt;/p&gt;
 &lt;img alt="How AI is shaping faith and spirituality webinar, join us Tuesday, November 17" src="https://images.theconversation.com/files/769147/original/file-20261029-64-plurid.png?ixlib=rb-4.1.1&amp;amp;q=70&amp;amp;auto=format&amp;amp;w=900&amp;amp;fit=clip"&gt;</content:encoded>
-    </item>
-    <item>
-      <title>What the midterms may mean for wars in Iran, Ukraine</title>
-      <link>https://theconversation.com/what-the-us-midterms-result-means-for-the-ukraine-war-295705</link>
-      <guid isPermaLink="false">the-conversation:c4a86a035f7790b2</guid>
-      <pubDate>Fri, 06 Nov 2026 12:15:53 +0000</pubDate>
-      <dc:creator>The Conversation</dc:creator>
-      <category>Global daily</category>
-      <description>• What the US midterms result means for the Ukraine war
-• JD Vance singled out Iran War for midterm rout – he didn’t say what should happen next in conflict
-• Young men and Latino voters helped drive the Democrats’ blue wave. Why did they abandon Trump?
-• Climate change is undermining our health and the burden falls heaviest on women
-• Why Trump, Xi, and Putin can’t carve up the world like the ‘big three’ leaders of 1945
-• NASA’s Swift telescope has burned up, months after a robot sent to save it failed – here’s why it’s so hard to boost a satellite</description>
-      <content:encoded>&lt;p&gt;This week saw a seismic shift in the political landscape of the U.S. as voters rebuked the Trump agenda and voted in Democrats to key Senate and House seats across the country.&lt;/p&gt;
-&lt;p&gt;Vice President JD Vance was in no doubt about what drove the blue wave: frustration over the war in Iran.&lt;/p&gt;
-&lt;p&gt;Javed Ali, who served as a senior member of the National Security Council during the first Trump administration, believes this prognosis is correct. But he is less sure that Vance, Trump or anyone else in the administration really knows what to do with that knowledge. “America and Iran have both borne significant political, military and economic costs. A decision not to pursue an endgame would leave those sunk; doing so may only increase them,” writes Ali.&lt;/p&gt;
-&lt;p&gt;And the fact that from January, Donald Trump will have to navigate a Congress controlled by Democrats almost uniformly opposed to the war will give him less leeway to act.&lt;/p&gt;
-&lt;p&gt;That dynamic may affect the calculus in Washington regarding the conflict in Ukraine, too. “Having just scored a sweeping landslide victory, [Democrats] may well calculate there is a good deal of political mileage to be had now in escalating their attack on a weakened Trump if his foreign policy towards Russia and Ukraine continues … to reward an aggressor while making the victim of that aggression look like an obstacle to a settlement,” notes international relations expert Michael Cox.&lt;/p&gt;
-&lt;p&gt;Elsewhere today we look forward towards COP31, the U.N. climate conference due to begin on Monday and salute the legacy of NASA’s Swift Observatory, which burnt up in the atmosphere on Thursday after decades of service.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Matt Williams&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Senior International Editor&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Top story&lt;/strong&gt;&lt;/p&gt;
-&lt;img alt="" src="https://images.theconversation.com/files/770295/original/file-20261105-64-x32w40.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C451%2C6246%2C3513&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
-&lt;p&gt;The Ukrainian president, Volodymyr Zelensky, speaks during a press conference in Berlin, Germany, on November 3. Clemens Bilan / EPA&lt;/p&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/what-the-us-midterms-result-means-for-the-ukraine-war-295705"&gt;What the US midterms result means for the Ukraine war&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Michael Cox, London School of Economics and Political Science&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The result is both an opportunity and a threat to Ukraine.&lt;/p&gt;
-&lt;img alt="" src="https://images.theconversation.com/files/770374/original/file-20261105-78-cuap8a.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C428%2C5160%2C2580&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop"&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/jd-vance-singled-out-iran-war-for-midterm-rout-he-didnt-say-what-should-happen-next-in-conflict-295938"&gt;JD Vance singled out Iran War for midterm rout – he didn’t say what should happen next in conflict&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Javed Ali, University of Michigan&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The Trump administration has sunk reputational and military costs into the Middle East conflict. But continuing risks alienating voters further.&lt;/p&gt;
-&lt;img alt="" src="https://images.theconversation.com/files/770234/original/file-20261105-64-f0gcld.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C400%2C3000%2C1500&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;h=324&amp;amp;fit=crop"&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/young-men-and-latino-voters-helped-drive-the-democrats-blue-wave-why-did-they-abandon-trump-295965"&gt;Young men and Latino voters helped drive the Democrats’ blue wave. Why did they abandon Trump?&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Grace Jennings-Edquist, The Conversation; Justin Bergman, The Conversation&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Economic issues are almost always front of mind for voters, political scientist Charles Hunt says.&lt;/p&gt;
-&lt;img alt="" src="https://images.theconversation.com/files/769924/original/file-20261104-64-ufui4k.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C67%2C5600%2C3150&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/climate-change-is-undermining-our-health-and-the-burden-falls-heaviest-on-women-295355"&gt;Climate change is undermining our health and the burden falls heaviest on women&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Veronica Le Nevez, George Institute for Global Health; Laura Emily Downey, George Institute for Global Health&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Our response to climate change must reflect the everyday health realities people face.&lt;/p&gt;
-&lt;img alt="" src="https://images.theconversation.com/files/769717/original/file-20261103-64-3nmrj.jpg?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C4000%2C2667&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/why-trump-xi-and-putin-cant-carve-up-the-world-like-the-big-three-leaders-of-1945-295632"&gt;Why Trump, Xi, and Putin can’t carve up the world like the ‘big three’ leaders of 1945&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Nicholas Westcott, SOAS, University of London&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;It’s hard to imagine a world dominated by ‘great powers’ in the 21st century.&lt;/p&gt;
-&lt;img alt="" src="https://images.theconversation.com/files/769911/original/file-20261104-64-ktbpnd.png?ixlib=rb-4.1.1&amp;amp;rect=0%2C0%2C1687%2C1080&amp;amp;q=45&amp;amp;auto=format&amp;amp;w=668&amp;amp;fit=clip"&gt;
-&lt;h3&gt;&lt;a href="https://theconversation.com/nasas-swift-telescope-has-burned-up-months-after-a-robot-sent-to-save-it-failed-heres-why-its-so-hard-to-boost-a-satellite-295538"&gt;NASA’s Swift telescope has burned up, months after a robot sent to save it failed – here’s why it’s so hard to boost a satellite&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Wanjiku Chebet Kanjumba, University of Florida&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;If you bump a spacecraft in orbit, it may start tumbling uncontrollably. To save a falling satellite, the rescuer must be incredibly steady and precise.&lt;/p&gt;
-&lt;ul&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/the-binance-hack-exploited-familiar-weaknesses-all-organisations-should-learn-from-it-295627"&gt; The Binance hack exploited familiar weaknesses – all organisations should learn from it &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Bogdan Księżopolski, Kozminski University &lt;/p&gt; &lt;p&gt;The hackers compromised a laptop belonging to an IT engineer, according to Binance.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/the-worse-climate-change-gets-the-harder-it-becomes-to-stop-it-293987"&gt; The worse climate change gets, the harder it becomes to stop it &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; James Dyke, University of Exeter &lt;/p&gt; &lt;p&gt;Climate breakdown could undermine the social trust, political cooperation and financial resources needed to tackle it – new research shows how this might play out.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/why-mark-carney-is-still-betting-big-on-europe-295647"&gt; Why Mark Carney is still betting big on Europe &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Katerina Sviderska, University of Cambridge &lt;/p&gt; &lt;p&gt;Canada and the EU have found in each other stable liberal partners who take democracy seriously.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/why-do-blind-people-and-musicians-hear-pitch-better-new-research-suggests-they-have-less-internal-noise-294114"&gt; Why do blind people and musicians hear pitch better? New research suggests they have less internal noise &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Woon Ju Park, Georgia Institute of Technology &lt;/p&gt; &lt;p&gt;The brain’s ability to process sound more consistently may influence how well you’re able to discriminate between different sounds.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/godzilla-minus-zero-is-incredibly-loud-who-decides-on-the-cinema-volume-and-is-it-safe-295864"&gt; Godzilla Minus Zero is incredibly loud. Who decides on the cinema volume? And is it safe? &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Alison Cole, University of Sydney &lt;/p&gt; &lt;p&gt;The new film, out in IMAX, has viewers shaking in their seats from the volume. Why are some cinema screenings so loud?&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;h4&gt; &lt;a href="https://theconversation.com/friday-essay-when-is-a-kiss-a-crime-feminists-have-asked-this-question-for-more-than-100-years-288936"&gt; Friday essay: when is a kiss a crime? Feminists have asked this question for more than 100 years &lt;/a&gt; &lt;/h4&gt; &lt;p&gt; Katie Barclay, Macquarie University &lt;/p&gt; &lt;p&gt;The history of the kiss is interwoven with debates around when we should ask for permission: from ‘Kiss Not’ badges to court cases.&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt;</content:encoded>
     </item>
   </channel>
 </rss>
