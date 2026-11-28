@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# GET one https page and print it. The AI fixer may run this and nothing broader, so it
+# cannot send request bodies or headers anywhere.
+set -euo pipefail
+url="${1:?usage: fetch-page https://...}"
+[[ "$url" =~ ^https://[A-Za-z0-9.-]+(/[^[:space:]]*)?$ ]] || { echo "refused: $url" >&2; exit 2; }
+exec curl -sSL --proto '=https' --max-time 30 --max-filesize 20000000 -A 'Mozilla/5.0 (rss-feeds fixer)' -- "$url"
