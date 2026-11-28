@@ -1,7 +1,7 @@
 {
   "site": "https://feeds.yulonglin.com/",
   "repo": "https://github.com/yulonglin/rss-feeds",
-  "generated": "2026-11-27",
+  "generated": "2026-11-28",
   "feeds": [
     {
       "slug": "openai-alignment-research",
@@ -183,7 +183,7 @@
       "notes": "",
       "items": 15,
       "newest": "2026-11-19",
-      "healthy": true
+      "healthy": false
     },
     {
       "slug": "apollo-science",
