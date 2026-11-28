@@ -15,6 +15,8 @@ on:
 permissions:
   contents: write
   issues: write
+  # To dispatch ai-fix-issue.yml: an issue opened with GITHUB_TOKEN fires no `issues` event.
+  actions: write
 
 concurrency:
   group: update-feeds
@@ -79,10 +81,14 @@ jobs:
           existing=$(gh issue list --state open --label feed-broken --limit 1 --json number --jq '.[0].number // empty')
           if [ -n "$existing" ]; then
             gh issue comment "$existing" --body "$body"
+            issue="$existing"
           else
             gh label create feed-broken --color b60205 --description "A source stopped refreshing" 2>/dev/null || true
-            gh issue create --title "$title" --label feed-broken --body "$body"
+            url=$(gh issue create --title "$title" --label feed-broken --body "$body")
+            issue="${url##*/}"
           fi
+          # Hand it to the AI fixer, which skips if a fix PR is open or its attempts are used up.
+          gh workflow run ai-fix-issue.yml -f issue="$issue" || echo "::warning::could not dispatch the AI fixer"
 
       - name: Fail the run if a source was unreachable
         if: always() && steps.rebuild.outcome == 'failure'

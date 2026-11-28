@@ -1,0 +1,12 @@
+{
+  "required_checks": ["pytest + feed validation"],
+  "checks_timeout_s": 1500,
+  "max_fix_rounds": 2,
+  "automerge": {
+    "enabled": true,
+    "branch_prefixes": ["ai-fix/"],
+    "allow_globs": ["src/rssfeeds/sources/*", "src/rssfeeds/sources/**", "tests/*", "tests/**"],
+    "protected_globs": [".github/*", ".github/**", "pyproject.toml", "uv.lock"]
+  },
+  "after_merge_dispatch": ["update-feeds.yml"]
+}
