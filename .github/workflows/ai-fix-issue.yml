@@ -76,6 +76,11 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
+      - name: Install the page fetcher outside the workspace, read-only
+        if: steps.guard.outputs.go == 'true'
+        # From main, before Claude runs, so the fixer cannot rewrite the one fetch command
+        # it may call.
+        run: sudo install -m 0555 .github/ai-loop/fetch-page /usr/local/bin/fetch-page
       - name: Start the fix branch
         if: steps.guard.outputs.go == 'true'
         run: git switch -C "ai-fix/issue-$ISSUE"
@@ -92,7 +97,7 @@ jobs:
           claude_args: >-
             --model opus
             --max-turns 80
-            --allowedTools "Read,Edit,Write,Glob,Grep,Bash(.github/ai-loop/fetch-page:*),Bash(uv run --group dev pytest:*),Bash(uv run rssfeeds --docs:*),Bash(gh run view:*),Bash(gh pr create:*),Bash(git diff:*),Bash(git status:*),Bash(git log:*)"
+            --allowedTools "Read,Edit,Write,Glob,Grep,Bash(fetch-page:*),Bash(uv run --group dev pytest:*),Bash(uv run rssfeeds --docs:*),Bash(gh run view:*),Bash(gh pr create:*),Bash(git diff:*),Bash(git status:*),Bash(git log:*)"
           prompt: |
             Fix issue #${{ env.ISSUE }} in ${{ github.repository }}. The issue text (with only trusted comments) is in
             `$RUNNER_TEMP/ai-loop/issue.md`; a run log it links is readable with
@@ -103,7 +108,7 @@ jobs:
             means a publisher changed its page layout so a scraper in src/rssfeeds/sources/ no
             longer matches. Typical fix:
             1. Find which source failed in the run log.
-            2. Fetch the live page (`.github/ai-loop/fetch-page <url>`), compare with the selectors, update the
+            2. Fetch the live page (`fetch-page <url>`), compare with the selectors, update the
                scraper. Save a trimmed copy of the new page as a test fixture under
                tests/fixtures/ and add or update a test that parses it.
             3. Check the whole build without touching committed output:
