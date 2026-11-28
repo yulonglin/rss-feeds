@@ -59,8 +59,8 @@ class FeedSpec:
         return f"{SITE_BASE}{self.filename}"
 
 
-OAI_ALIGNMENT = "https://alignment.openai.com/"
-OAI_REPORTS = "https://alignment.openai.com/misalignment-reports/"
+OAI_ALIGNMENT = "https://openai.com/safety-alignment/"
+OAI_REPORTS = f"{OAI_ALIGNMENT}misalignment-reports/"
 OAI_CARDS = "https://deploymentsafety.openai.com/"
 METR_BLOG = "https://metr.org/"
 DARIO = "https://darioamodei.com/"

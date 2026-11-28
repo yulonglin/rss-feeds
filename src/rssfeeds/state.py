@@ -22,6 +22,11 @@ class FirstSeen:
         if path.exists():
             self._data = json.loads(path.read_text())
 
+    def get_date(self, guid: str) -> date | None:
+        """Return an existing date without recording a newly seen entry."""
+        stored = self._data.get(guid)
+        return date.fromisoformat(stored) if stored is not None else None
+
     def stamp(self, guid: str, *, today: date | None = None) -> datetime:
         if guid not in self._data:
             self._data[guid] = (today or datetime.now(UTC).date()).isoformat()

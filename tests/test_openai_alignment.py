@@ -112,3 +112,142 @@ def test_source_failure_keeps_standalone_and_combined_feeds(source, failure, mon
         assert not status.written and status.error
         assert (tmp_path / status.spec.filename).read_bytes() == before[status.spec.filename]
     assert next(s for s in statuses if s.spec.slug == "dario-amodei").written
+
+
+def _migrated_page(items, *, report_index=False, counts=None):
+    """Minimal equivalent of the public HTML payload, with Load more rows off-DOM."""
+    import json
+
+    field = "type" if report_index else "topic"
+    props = {"searchable": True, "items": items, "filters": [{"field": field}]}
+    if report_index:
+        props["sortByReportDate"] = True
+    row = "abc:" + json.dumps(["$", "$L9", None, props]) + "\n"
+    cut = len(row) // 2  # RSC transport is allowed to split a JSON row
+    chunks = "".join(
+        f"<script>self.__next_f.push({json.dumps([1, part])})</script>"
+        for part in (row[:cut], row[cut:])
+    )
+    if report_index:
+        badges = "".join(
+            f'<a href="#{group}">{group}<span>{count}</span></a>'
+            for group, count in (counts or {"notices": 1, "reports": 2}).items()
+        )
+    else:
+        badges = f'<p role="status">{counts if counts is not None else len(items)} results</p>'
+    return f"<html>{badges}<ul><li>Only one initial row</li></ul>{chunks}</html>"
+
+
+def test_migrated_research_load_more_preserves_ids(monkeypatch):
+    rows = [
+        {
+            "title": "Research item",
+            "href": "/safety-alignment/hello-world/",
+            "date": "2025-12-01",
+        },
+        {
+            "title": "Publisher entry",
+            "href": "https://openai.com/index/example/",
+            "date": "2026-11-20",
+            "description": "Description",
+        },
+    ]
+
+    def fetch(url):
+        assert url == oai.ALIGNMENT_URL
+        return _migrated_page(rows)
+
+    monkeypatch.setattr(oai, "fetch_text", fetch)
+    r = oai.research()
+    assert r.ok and len(r.items) == 2
+    assert r.items[0].guid == "https://alignment.openai.com/hello-world/"
+    assert r.items[0].link == "https://openai.com/safety-alignment/hello-world/"
+    assert r.items[0].published.date() == date(2025, 12, 1)
+    assert r.items[1].guid == r.items[1].link == rows[1]["href"]
+    assert r.items[1].description == "Description"
+    assert r.items[1].categories == ["Research and Releases"]
+
+
+def _migrated_report_rows():
+    return [
+        {
+            "title": "An existing report",
+            "href": "/safety-alignment/misalignment-reports/old/",
+            "date": "2026-11-20",
+            "reportDates": {"lastUpdated": "2026-11-20"},
+            "filters": {"type": ["reports"]},
+        },
+        {
+            "title": "A new report",
+            "href": "/safety-alignment/misalignment-reports/new/",
+            "date": "2026-11-20",
+            "reportDates": {"firstPosted": "2026-11-19", "lastUpdated": "2026-11-20"},
+            "filters": {"type": ["reports"]},
+        },
+        {
+            "title": "RubyGems",
+            "href": "https://openai.com/hugging-face-incident-and-misalignment/"
+            "#model-misalignment-2026-09-11",
+            "date": "2026-09-11",
+            "reportDates": {"firstPosted": "2026-09-11"},
+            "filters": {"type": ["notices"]},
+        },
+    ]
+
+
+def test_migrated_reports_and_notices_use_stable_dates_and_guids(monkeypatch, tmp_path):
+    rows = _migrated_report_rows()
+
+    def fetch(url):
+        assert url == oai.MISALIGNMENT_URL
+        return _migrated_page(rows, report_index=True)
+
+    monkeypatch.setattr(oai, "fetch_text", fetch)
+    state = tmp_path / "dates.json"
+    state.write_text('{"https://alignment.openai.com/misalignment-reports/old/": "2026-09-17"}')
+    first_seen = FirstSeen(state)
+    reports = oai.reports(first_seen)
+    notices = oai.notices()
+    assert reports.ok and len(reports.items) == 2
+    assert notices.ok and len(notices.items) == 1
+    old, new = reports.items
+    assert old.guid == oai.REPORTS_URL + "old/"
+    assert old.link == oai.MISALIGNMENT_URL + "old/"
+    assert old.published.date() == date(2026, 9, 17)
+    assert new.published.date() == date(2026, 11, 19)
+    assert new.categories == ["Misalignment Report"]
+    n = notices.items[0]
+    assert n.guid == oai.REPORTS_URL + "#notice-rubygems"
+    assert n.link == rows[-1]["href"]
+    assert n.published.date() == date(2026, 9, 11)
+    assert n.categories == ["Misalignment Notice"]
+    first_seen.save()
+    rows[1]["reportDates"]["firstPosted"] = "2026-11-21"
+    assert oai.reports(FirstSeen(state)).items == reports.items
+
+
+@pytest.mark.parametrize("problem", ["truncated", "duplicate", "missing-date"])
+def test_migrated_reports_fail_closed_without_recording_dates(monkeypatch, tmp_path, problem):
+    rows = _migrated_report_rows()
+    rows[0]["reportDates"]["firstPosted"] = "2026-11-17"
+    if problem == "truncated":
+        rows.pop(1)
+    elif problem == "duplicate":
+        rows[1]["href"] = rows[0]["href"]
+    else:
+        del rows[1]["reportDates"]["firstPosted"]
+    monkeypatch.setattr(oai, "fetch_text", lambda _: _migrated_page(rows, report_index=True))
+    state = tmp_path / "dates.json"
+    first_seen = FirstSeen(state)
+    result = oai.reports(first_seen)
+    assert result.error and not result.items
+    first_seen.save()
+    assert state.read_text() == "{}\n"
+
+
+def test_migrated_research_rejects_payload_shorter_than_advertised(monkeypatch):
+    rows = [{"title": "A", "href": "/index/a/", "date": "2026-11-20"}]
+    monkeypatch.setattr(oai, "fetch_text", lambda _: _migrated_page(rows, counts=2))
+    result = oai.research()
+    assert result.error and "incomplete" in result.error
+    assert not result.items
