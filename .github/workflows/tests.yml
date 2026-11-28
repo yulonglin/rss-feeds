@@ -1,0 +1,26 @@
+name: Tests
+
+# Runs on every PR so the AI review loop has a green or red signal to gate on. The scheduled
+# refresh in update-feeds.yml runs the same tests before it publishes.
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: pytest + feed validation
+    runs-on: ubuntu-latest
+    env:
+      UV_FROZEN: "1"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@1db35dd8eee11c5894872e0b383ae6c406cf738d # v10.4.0
+        with:
+          enable-cache: true
+      - name: Tests
+        run: uv run --group dev pytest -q
+      - name: Every committed feed parses
+        run: uv run --group dev python scripts/validate.py
