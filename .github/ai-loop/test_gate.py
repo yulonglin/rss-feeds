@@ -23,7 +23,13 @@ SHA = "a" * 40
 def run(files, branch, checks, gpt, gem, comments=(), draft=False):
     calls = []
     pr = {"isDraft": draft, "labels": [], "headRefName": branch, "headRefOid": SHA,
-          "files": [{"path": f} for f in files], "comments": list(comments), "state": "OPEN"}
+          "changedFiles": len(files), "comments": list(comments), "state": "OPEN"}
+
+    def gh(*a):
+        calls.append(a)
+        if a[:2] == ("api", "--paginate"):
+            return json.dumps([[{"filename": f} for f in files]])
+        return ""
 
     def gh_json(*a):
         if a[0] == "pr":
@@ -32,7 +38,7 @@ def run(files, branch, checks, gpt, gem, comments=(), draft=False):
                  "check_suite": {"id": 1}} for n, c in checks]
 
     g.gh_json = gh_json
-    g.gh = lambda *a: calls.append(a) or ""
+    g.gh = gh
     d = Path(tempfile.mkdtemp())
     for name, val in (("gpt.json", gpt), ("gemini.json", gem)):
         if val is not None:
@@ -64,6 +70,9 @@ cases = {
     "required check missing -> needs-yulong": (dict(files=F, branch="ai-fix/issue-10", checks=[], gpt=clean, gem=clean), "needs-yulong"),
     "gemini missing -> needs-yulong": (dict(files=F, branch="ai-fix/issue-10", checks=green, gpt=clean, gem=None), "needs-yulong"),
     "blind review -> needs-yulong": (dict(files=F, branch="ai-fix/issue-10", checks=green, gpt=blind, gem=clean), "needs-yulong"),
+    "should-fix on eligible PR -> fix": (dict(files=F, branch="ai-fix/issue-10", checks=green, gpt={"verdict": "approve", "files_reviewed": F, "findings": [{"severity": "should-fix", "file": F[0], "line": 1, "summary": "s", "failure_scenario": "f"}]}, gem=clean), "fix"),
+    "verdict without findings -> needs-yulong": (dict(files=F, branch="ai-fix/issue-10", checks=green, gpt={"verdict": "changes-requested", "files_reviewed": F, "findings": []}, gem=clean), "needs-yulong"),
+    "non-object finding -> needs-yulong": (dict(files=F, branch="ai-fix/issue-10", checks=green, gpt={"verdict": "approve", "files_reviewed": F, "findings": ["x"]}, gem=clean), "needs-yulong"),
     "wrapped gemini json -> merge": (dict(files=F, branch="ai-fix/issue-10", checks=green, gpt=clean, gem="Sure:\n```json\n" + json.dumps(clean) + "\n```"), "merge"),
 }
 bad = 0
